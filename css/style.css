@@ -17,7 +17,7 @@
   --light:       #CCCCCC;
   --white:       #F0EBE0;
 
-  --font-display: 'Anton', sans-serif;
+  --font-display: 'Black Han Sans', 'Anton', sans-serif;
   --font-condense: 'Barlow Condensed', sans-serif;
   --font-body:    'Barlow', sans-serif;
 
@@ -1351,12 +1351,67 @@ img{display:block;max-width:100%;}
   text-transform:uppercase;
   transition:all 0.2s;
 }
-.soc-fb{background:rgba(24,119,242,0.12);border:1px solid rgba(24,119,242,0.25);color:#6ba3f5;}
-.soc-fb:hover{background:rgba(24,119,242,0.25);color:#fff;}
-.soc-ig{background:rgba(225,48,108,0.12);border:1px solid rgba(225,48,108,0.25);color:#f590b4;}
-.soc-ig:hover{background:rgba(225,48,108,0.25);color:#fff;}
-.soc-yt{background:rgba(255,0,0,0.12);border:1px solid rgba(255,0,0,0.25);color:#ff6b6b;}
-.soc-yt:hover{background:rgba(255,0,0,0.25);color:#fff;}
+/* Social icon buttons */
+.cd-social {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+.soc-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  transition: all 0.25s;
+  border: 2px solid transparent;
+  text-decoration: none;
+}
+.soc-fb {
+  background: rgba(24,119,242,0.12);
+  border-color: rgba(24,119,242,0.3);
+  color: #6ba3f5;
+}
+.soc-fb:hover {
+  background: #1877f2;
+  border-color: #1877f2;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(24,119,242,0.4);
+}
+.soc-ig {
+  background: rgba(225,48,108,0.12);
+  border-color: rgba(225,48,108,0.3);
+  color: #f590b4;
+}
+.soc-ig:hover {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  border-color: #dc2743;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(220,39,67,0.4);
+}
+.soc-yt {
+  background: rgba(255,0,0,0.12);
+  border-color: rgba(255,0,0,0.3);
+  color: #ff6b6b;
+}
+.soc-yt:hover {
+  background: #ff0000;
+  border-color: #ff0000;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255,0,0,0.4);
+}
+
+/* Footer social row */
+.footer-social {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
 
 .ac-map {
   position: relative;
