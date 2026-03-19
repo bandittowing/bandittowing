@@ -29,18 +29,26 @@ const ro = new IntersectionObserver(entries => {
 document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
 // ============================================
-// GALLERY — photos are [{url, public_id, caption}]
+// GALLERY — loads from photos.json (GitHub-hosted)
 // ============================================
-const PHOTOS_KEY = 'bandit_photos_v2';
-const VIDEOS_KEY = 'bandit_videos';
 const HOME_LIMIT = 12;
 
-function loadPhotos() { try { return JSON.parse(localStorage.getItem(PHOTOS_KEY)) || []; } catch { return []; } }
-function loadVideos() { try { return JSON.parse(localStorage.getItem(VIDEOS_KEY)) || []; } catch { return []; } }
+async function loadSiteData() {
+  try {
+    const res = await fetch('/bandit-towing/photos.json?t=' + Date.now());
+    if (res.ok) return await res.json();
+  } catch {}
+  // Fallback to localStorage
+  try {
+    const photos = JSON.parse(localStorage.getItem('bandit_photos_v2')) || [];
+    const videos = JSON.parse(localStorage.getItem('bandit_videos')) || [];
+    return { photos, videos };
+  } catch { return { photos: [], videos: [] }; }
+}
 
-// ---- Render home gallery (max HOME_LIMIT) ----
-function renderGallery() {
-  const photos  = loadPhotos();
+async function renderGallery() {
+  const data   = await loadSiteData();
+  const photos  = data.photos || [];
   const grid    = document.getElementById('photoGallery');
   const empty   = document.getElementById('galleryEmpty');
   const viewAll = document.getElementById('galleryViewAll');
@@ -55,59 +63,23 @@ function renderGallery() {
   }
   if (empty) empty.style.display = 'none';
 
-  const preview = photos.slice(0, HOME_LIMIT);
-  preview.forEach((p, i) => {
+  photos.slice(0, HOME_LIMIT).forEach((p, i) => {
     const div = document.createElement('div');
     div.className = 'gallery-item';
     div.innerHTML = `
       <img src="${p.url}" alt="${p.caption || 'Bandit Towing'}" loading="lazy" />
       <div class="gallery-item-overlay"><span>🔍</span></div>
     `;
-    div.addEventListener('click', () => openLb(i));
+    div.addEventListener('click', () => openLb(photos, i));
     grid.appendChild(div);
   });
 
   if (viewAll) viewAll.style.display = photos.length > HOME_LIMIT ? '' : 'none';
 }
 
-// ---- Lightbox ----
-let lbIdx = 0;
-const lb    = document.getElementById('lightbox');
-const lbImg = document.getElementById('lbImg');
-
-document.getElementById('lbClose')?.addEventListener('click', closeLb);
-document.getElementById('lbPrev')?.addEventListener('click',  () => stepLb(-1));
-document.getElementById('lbNext')?.addEventListener('click',  () => stepLb(1));
-lb?.addEventListener('click', e => { if (e.target === lb) closeLb(); });
-document.addEventListener('keydown', e => {
-  if (!lb?.classList.contains('active')) return;
-  if (e.key === 'Escape')      closeLb();
-  if (e.key === 'ArrowLeft')   stepLb(-1);
-  if (e.key === 'ArrowRight')  stepLb(1);
-});
-
-function openLb(i) {
-  const photos = loadPhotos();
-  if (!photos.length) return;
-  lbIdx = i;
-  lbImg.src = photos[i].url;
-  lb.classList.add('active');
-  document.body.style.overflow = 'hidden';
-}
-function closeLb() {
-  lb?.classList.remove('active');
-  document.body.style.overflow = '';
-  if (lbImg) lbImg.src = '';
-}
-function stepLb(d) {
-  const photos = loadPhotos();
-  lbIdx = (lbIdx + d + photos.length) % photos.length;
-  lbImg.src = photos[lbIdx].url;
-}
-
-// ---- Videos ----
-function renderVideos() {
-  const videos = loadVideos();
+async function renderVideos() {
+  const data   = await loadSiteData();
+  const videos = data.videos || [];
   const grid   = document.getElementById('videoGrid');
   if (!grid) return;
 
@@ -126,6 +98,45 @@ function renderVideos() {
     grid.appendChild(div);
   });
 }
+
+// ---- Lightbox ----
+let lbIdx = 0;
+let lbPhotos = [];
+const lb    = document.getElementById('lightbox');
+const lbImg = document.getElementById('lbImg');
+
+document.getElementById('lbClose')?.addEventListener('click', closeLb);
+document.getElementById('lbPrev')?.addEventListener('click',  () => stepLb(-1));
+document.getElementById('lbNext')?.addEventListener('click',  () => stepLb(1));
+lb?.addEventListener('click', e => { if (e.target === lb) closeLb(); });
+document.addEventListener('keydown', e => {
+  if (!lb?.classList.contains('active')) return;
+  if (e.key === 'Escape')     closeLb();
+  if (e.key === 'ArrowLeft')  stepLb(-1);
+  if (e.key === 'ArrowRight') stepLb(1);
+});
+
+function openLb(photos, i) {
+  lbPhotos = photos;
+  lbIdx = i;
+  lbImg.src = photos[i].url;
+  lb.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+function closeLb() {
+  lb?.classList.remove('active');
+  document.body.style.overflow = '';
+  if (lbImg) lbImg.src = '';
+}
+function stepLb(d) {
+  lbIdx = (lbIdx + d + lbPhotos.length) % lbPhotos.length;
+  lbImg.src = lbPhotos[lbIdx].url;
+}
+
+// ---- Init ----
+renderGallery();
+renderVideos();
+window.refreshGallery = () => { renderGallery(); renderVideos(); };
 
 // ============================================
 // AMAZON SLIDESHOW

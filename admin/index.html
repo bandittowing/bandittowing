@@ -15,85 +15,58 @@
     }
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
     body{background:var(--dark);color:var(--white);font-family:var(--font-b);min-height:100vh;}
-
-    /* Header */
     .admin-header{background:var(--black);border-bottom:2px solid var(--gold);padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;}
     .admin-header h1{font-family:var(--font-h);font-size:1.3rem;letter-spacing:.1em;text-transform:uppercase;}
     .admin-header h1 span{color:var(--gold);}
     .back-btn{font-family:var(--font-h);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(201,153,58,.3);padding:.4rem 1rem;border-radius:var(--r);text-decoration:none;transition:all .2s;}
     .back-btn:hover{background:var(--gold);color:var(--black);}
-
-    /* Login */
     #loginScreen{display:flex;align-items:center;justify-content:center;min-height:calc(100vh - 62px);padding:2rem;}
-    .login-card{background:var(--dark2);border:1px solid rgba(201,153,58,.3);border-radius:16px;padding:3rem 2.5rem;width:100%;max-width:400px;text-align:center;}
+    .login-card{background:var(--dark2);border:1px solid rgba(201,153,58,.3);border-radius:16px;padding:3rem 2.5rem;width:100%;max-width:420px;text-align:center;}
     .login-card h2{font-family:var(--font-h);font-size:1.6rem;letter-spacing:.08em;margin-bottom:.5rem;}
     .login-card p{color:var(--gray);font-size:.9rem;margin-bottom:2rem;}
     .login-error{background:rgba(232,51,74,.15);border:1px solid rgba(232,51,74,.4);color:#f77;padding:.75rem;border-radius:var(--r);font-size:.88rem;margin-bottom:1rem;display:none;}
     .login-error.show{display:block;}
-
-    /* Inputs */
     .form-group{margin-bottom:1.25rem;text-align:left;}
     label{display:block;font-family:var(--font-h);font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);margin-bottom:.4rem;}
     input[type="password"],input[type="text"],input[type="url"]{width:100%;background:var(--dark3);border:1px solid rgba(255,255,255,.1);border-radius:var(--r);color:var(--white);font-family:var(--font-b);font-size:.95rem;padding:.7rem 1rem;transition:border-color .2s;outline:none;}
     input:focus{border-color:var(--gold);}
-
-    /* Buttons */
     .btn{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.75rem;border-radius:var(--r);font-family:var(--font-h);font-weight:600;font-size:.95rem;letter-spacing:.08em;text-transform:uppercase;border:2px solid transparent;cursor:pointer;transition:all .2s;}
     .btn-gold{background:var(--gold);color:var(--black);border-color:var(--gold);}
     .btn-gold:hover{background:var(--gold-light);transform:translateY(-1px);}
     .btn-danger{background:rgba(232,51,74,.15);color:var(--red);border-color:rgba(232,51,74,.4);font-size:.8rem;padding:.4rem .85rem;}
     .btn-danger:hover{background:var(--red);color:white;}
-
-    /* Admin panel */
     #adminPanel{display:none;padding:2rem;max-width:1100px;margin:0 auto;}
     #adminPanel.visible{display:block;}
-
-    /* Setup banner */
     .setup-banner{background:rgba(201,153,58,.1);border:1px solid rgba(201,153,58,.4);border-radius:var(--r);padding:1.25rem 1.5rem;margin-bottom:2rem;font-size:.9rem;line-height:1.7;color:var(--light);}
     .setup-banner strong{color:var(--gold);}
-    .setup-banner a{color:var(--gold-light);}
     .setup-banner code{background:rgba(255,255,255,.08);padding:.1rem .4rem;border-radius:3px;font-family:monospace;color:var(--gold-light);}
-
-    /* Sections */
     .admin-section{background:var(--dark2);border:1px solid rgba(255,255,255,.07);border-radius:16px;padding:2rem;margin-bottom:2rem;}
-    .admin-section h2{font-family:var(--font-h);font-size:1.3rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:1.5rem;padding-bottom:.75rem;border-bottom:1px solid rgba(255,255,255,.08);display:flex;align-items:center;gap:.5rem;}
-
-    /* Upload zone */
-    .upload-zone{border:2px dashed rgba(201,153,58,.4);border-radius:var(--r);padding:2.5rem;text-align:center;cursor:pointer;transition:all .2s;background:rgba(201,153,58,.04);margin-bottom:1rem;position:relative;}
+    .admin-section h2{font-family:var(--font-h);font-size:1.3rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:1.5rem;padding-bottom:.75rem;border-bottom:1px solid rgba(255,255,255,.08);}
+    .upload-zone{border:2px dashed rgba(201,153,58,.4);border-radius:var(--r);padding:2.5rem;text-align:center;cursor:pointer;transition:all .2s;background:rgba(201,153,58,.04);margin-bottom:1rem;}
     .upload-zone:hover,.upload-zone.drag-over{border-color:var(--gold);background:rgba(201,153,58,.1);}
     .upload-zone p{color:var(--gray);font-size:.95rem;}
     .upload-zone strong{color:var(--gold);}
     #fileInput{display:none;}
-
-    /* Progress bar */
-    .upload-progress{display:none;margin-top:1rem;}
-    .upload-progress.show{display:block;}
-    .progress-bar-wrap{background:rgba(255,255,255,.08);border-radius:2rem;height:8px;overflow:hidden;margin-top:.5rem;}
+    .progress-wrap{display:none;margin-top:1rem;}
+    .progress-wrap.show{display:block;}
+    .progress-bar-bg{background:rgba(255,255,255,.08);border-radius:2rem;height:8px;overflow:hidden;margin-top:.5rem;}
     .progress-bar-fill{height:100%;background:linear-gradient(90deg,var(--gold),var(--gold-light));border-radius:2rem;transition:width .3s;width:0%;}
     .progress-text{font-family:var(--font-h);font-size:.78rem;letter-spacing:.1em;color:var(--gray);text-transform:uppercase;}
-
-    /* Preview grid */
     .preview-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.75rem;margin-top:1rem;}
     .preview-item{position:relative;aspect-ratio:4/3;border-radius:var(--r);overflow:hidden;border:1px solid rgba(255,255,255,.1);}
     .preview-item img{width:100%;height:100%;object-fit:cover;}
-    .preview-remove{position:absolute;top:4px;right:4px;background:rgba(232,51,74,.9);border:none;color:white;width:26px;height:26px;border-radius:50%;cursor:pointer;font-size:.85rem;display:flex;align-items:center;justify-content:center;transition:all .2s;}
-    .preview-remove:hover{background:var(--red);transform:scale(1.1);}
-    .preview-caption{position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,.7);padding:.25rem .4rem;font-size:.7rem;color:var(--light);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-
-    /* Video list */
+    .preview-remove{position:absolute;top:4px;right:4px;background:rgba(232,51,74,.9);border:none;color:white;width:26px;height:26px;border-radius:50%;cursor:pointer;font-size:.85rem;display:flex;align-items:center;justify-content:center;}
+    .preview-remove:hover{background:var(--red);}
     .video-list{display:flex;flex-direction:column;gap:.75rem;margin-top:1rem;}
     .video-list-item{display:flex;align-items:center;gap:.75rem;background:var(--dark3);border:1px solid rgba(255,255,255,.07);border-radius:var(--r);padding:.75rem 1rem;font-size:.9rem;color:var(--light);}
     .video-list-item span{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
     .add-row{display:flex;gap:.75rem;align-items:flex-end;flex-wrap:wrap;}
     .add-row .form-group{flex:1;min-width:200px;margin-bottom:0;}
-
-    /* Alert */
-    .alert{position:fixed;bottom:2rem;right:2rem;background:var(--dark2);border:1px solid;border-radius:var(--r);padding:1rem 1.5rem;font-family:var(--font-h);font-size:.88rem;letter-spacing:.06em;text-transform:uppercase;animation:slideIn .3s ease,fadeOut .4s ease 2.5s both;z-index:9999;}
+    .alert{position:fixed;bottom:2rem;right:2rem;background:var(--dark2);border:1px solid;border-radius:var(--r);padding:1rem 1.5rem;font-family:var(--font-h);font-size:.88rem;letter-spacing:.06em;text-transform:uppercase;animation:slideIn .3s ease,fadeOut .4s ease 2.8s both;z-index:9999;}
     .alert.success{border-color:#4caf50;color:#81c784;}
     .alert.error{border-color:var(--red);color:#f77;}
     @keyframes slideIn{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
     @keyframes fadeOut{to{opacity:0;transform:translateY(20px);}}
-
     @media(max-width:600px){#adminPanel{padding:1rem;}.add-row{flex-direction:column;}}
   </style>
 </head>
@@ -104,7 +77,6 @@
   <a href="../index.html" class="back-btn">← Back to Site</a>
 </header>
 
-<!-- LOGIN -->
 <div id="loginScreen">
   <div class="login-card">
     <h2>🔐 Admin Login</h2>
@@ -117,23 +89,24 @@
       </div>
       <button type="submit" class="btn btn-gold" style="width:100%">Login</button>
     </form>
+
+    <div style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.08);">
+      <p style="font-size:.8rem;color:var(--gray);margin-bottom:1rem;">First time setup — connect to GitHub so photos save for all visitors:</p>
+      <div class="form-group">
+        <label>GitHub Personal Access Token</label>
+        <input type="password" id="ghTokenInput" placeholder="ghp_xxxxxxxxxxxx" autocomplete="off" />
+      </div>
+      <button type="button" class="btn btn-gold" id="saveTokenBtn" style="width:100%">Save GitHub Token</button>
+      <p style="font-size:.72rem;color:var(--gray);margin-top:.75rem;">Token is stored only in this browser. Needs <code style="color:var(--gold-light)">repo</code> permission scope.</p>
+    </div>
   </div>
 </div>
 
-<!-- ADMIN PANEL -->
 <div id="adminPanel">
 
-  <!-- One-time setup notice -->
-  <div class="setup-banner" id="setupBanner">
-    ⚙️ <strong>One-time Cloudinary setup required</strong> — Before uploading photos, you need to create a free upload preset in Cloudinary:
-    <br><br>
-    1. Go to <a href="https://cloudinary.com/console/settings/upload" target="_blank">cloudinary.com → Settings → Upload</a><br>
-    2. Scroll to <strong>Upload presets</strong> → click <strong>Add upload preset</strong><br>
-    3. Set <strong>Signing mode</strong> to <code>Unsigned</code><br>
-    4. Set <strong>Folder</strong> to <code>bandit-gallery</code><br>
-    5. Click <strong>Save</strong> — copy the <strong>Preset name</strong> it gives you<br>
-    6. Paste that preset name into the box below, then click Save Preset.<br><br>
-    <strong>You only do this once.</strong> After that, uploading photos works automatically forever.
+  <!-- Cloudinary preset setup -->
+  <div class="setup-banner" id="setupBanner" style="display:none;">
+    ⚙️ <strong>One-time Cloudinary setup:</strong> Go to cloudinary.com → Settings → Upload → Upload presets → Add preset → set to <code>Unsigned</code> → Folder: <code>bandit-gallery</code> → Save → paste preset name below.
     <br><br>
     <div style="display:flex;gap:.75rem;align-items:flex-end;flex-wrap:wrap;">
       <div class="form-group" style="flex:1;min-width:200px;margin-bottom:0;">
@@ -144,25 +117,25 @@
     </div>
   </div>
 
-  <!-- PHOTO MANAGER -->
+  <!-- PHOTOS -->
   <div class="admin-section">
     <h2>📸 Photo Gallery</h2>
     <div class="upload-zone" id="uploadZone">
       <p>📁 <strong>Click to upload</strong> or drag &amp; drop photos here</p>
-      <p style="font-size:.82rem;margin-top:.5rem;">JPG, PNG, HEIC · Any size · Multiple at once</p>
+      <p style="font-size:.82rem;margin-top:.5rem;">JPG, PNG · Multiple at once · Shows on site for everyone</p>
       <input type="file" id="fileInput" accept="image/*" multiple />
     </div>
-    <div class="upload-progress" id="uploadProgress">
+    <div class="progress-wrap" id="progressWrap">
       <p class="progress-text">Uploading <span id="progressCurrent">0</span> of <span id="progressTotal">0</span>...</p>
-      <div class="progress-bar-wrap"><div class="progress-bar-fill" id="progressFill"></div></div>
+      <div class="progress-bar-bg"><div class="progress-bar-fill" id="progressFill"></div></div>
     </div>
     <div class="preview-grid" id="previewGrid"></div>
   </div>
 
-  <!-- VIDEO MANAGER -->
+  <!-- VIDEOS -->
   <div class="admin-section">
     <h2>🎥 Video Gallery</h2>
-    <p style="color:var(--gray);font-size:.9rem;margin-bottom:1.25rem;">Paste a YouTube or Facebook embed URL (the <code style="color:var(--gold);background:rgba(255,255,255,.06);padding:.1rem .4rem;border-radius:3px;">src</code> value from an embed code).</p>
+    <p style="color:var(--gray);font-size:.9rem;margin-bottom:1.25rem;">Paste a YouTube or Facebook embed URL.</p>
     <div class="add-row">
       <div class="form-group">
         <label>Video Embed URL</label>
@@ -170,9 +143,9 @@
       </div>
       <div class="form-group">
         <label>Caption (optional)</label>
-        <input type="text" id="videoCaption" placeholder="On the job, Jan 2025" />
+        <input type="text" id="videoCaption" placeholder="Caption" />
       </div>
-      <button class="btn btn-gold" id="addVideoBtn" type="button">+ Add Video</button>
+      <button class="btn btn-gold" id="addVideoBtn" type="button">+ Add</button>
     </div>
     <div class="video-list" id="videoList"></div>
   </div>
@@ -181,14 +154,8 @@
   <div class="admin-section">
     <h2>🔑 Change Password</h2>
     <div class="add-row">
-      <div class="form-group">
-        <label>New Password</label>
-        <input type="password" id="newPass" placeholder="New password" />
-      </div>
-      <div class="form-group">
-        <label>Confirm</label>
-        <input type="password" id="confirmPass" placeholder="Confirm password" />
-      </div>
+      <div class="form-group"><label>New Password</label><input type="password" id="newPass" placeholder="New password" /></div>
+      <div class="form-group"><label>Confirm</label><input type="password" id="confirmPass" placeholder="Confirm" /></div>
       <button class="btn btn-gold" id="changePassBtn" type="button">Update</button>
     </div>
   </div>
@@ -197,130 +164,186 @@
 
 <script src="config.js"></script>
 <script>
-// ============================================================
-// CLOUDINARY CONFIG
-// ============================================================
-const CLOUD_NAME  = 'dqzu4t4eb';
-const PHOTOS_KEY  = 'bandit_photos_v2';   // [{url, public_id, caption}]
-const VIDEOS_KEY  = 'bandit_videos';
+// ============================================
+// CONFIG
+// ============================================
+const CLOUD_NAME = 'dqzu4t4eb';
+const GITHUB_REPO = 'bandittowing/bandittowing';
+const PHOTOS_FILE = 'bandit-towing/photos.json'; // path inside repo
 const PASS_KEY    = 'bandit_admin_pass';
 const PRESET_KEY  = 'bandit_upload_preset';
+const TOKEN_KEY   = 'bandit_gh_token';
 
 function getPass()   { return localStorage.getItem(PASS_KEY)   || ADMIN_PASSWORD; }
 function getPreset() { return localStorage.getItem(PRESET_KEY) || ''; }
+function getToken()  { return localStorage.getItem(TOKEN_KEY)  || ''; }
 
-// ============================================================
+// ============================================
+// SAVE GITHUB TOKEN (from login screen)
+// ============================================
+document.getElementById('saveTokenBtn').addEventListener('click', () => {
+  const t = document.getElementById('ghTokenInput').value.trim();
+  if (!t) { showAlert('Enter your GitHub token', 'error'); return; }
+  localStorage.setItem(TOKEN_KEY, t);
+  document.getElementById('ghTokenInput').value = '';
+  showAlert('GitHub token saved!', 'success');
+});
+
+// ============================================
 // LOGIN
-// ============================================================
-const loginForm   = document.getElementById('loginForm');
-const loginError  = document.getElementById('loginError');
-const loginScreen = document.getElementById('loginScreen');
-const adminPanel  = document.getElementById('adminPanel');
-
-loginForm.addEventListener('submit', e => {
+// ============================================
+document.getElementById('loginForm').addEventListener('submit', e => {
   e.preventDefault();
   const val = document.getElementById('passwordInput').value;
   if (val === getPass()) {
-    loginScreen.style.display = 'none';
-    adminPanel.classList.add('visible');
-    checkSetupBanner();
-    renderAll();
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('adminPanel').classList.add('visible');
+    if (!getPreset()) document.getElementById('setupBanner').style.display = '';
+    if (getPreset()) document.getElementById('presetInput').value = getPreset();
+    loadAndRender();
   } else {
-    loginError.classList.add('show');
+    document.getElementById('loginError').classList.add('show');
     document.getElementById('passwordInput').value = '';
   }
 });
 
-// ============================================================
-// SETUP BANNER
-// ============================================================
-function checkSetupBanner() {
-  const banner = document.getElementById('setupBanner');
-  const preset = getPreset();
-  if (preset) {
-    banner.style.display = 'none';
-  } else {
-    // Pre-fill if they typed one before
-    document.getElementById('presetInput').value = preset;
+// ============================================
+// SAVE PRESET
+// ============================================
+document.getElementById('savePresetBtn').addEventListener('click', () => {
+  const v = document.getElementById('presetInput').value.trim();
+  if (!v) { showAlert('Enter the preset name', 'error'); return; }
+  localStorage.setItem(PRESET_KEY, v);
+  document.getElementById('setupBanner').style.display = 'none';
+  showAlert('Preset saved!', 'success');
+});
+
+// ============================================
+// LOAD photos.json FROM GITHUB
+// ============================================
+let DATA = { photos: [], videos: [] };
+let FILE_SHA = '';
+
+async function loadAndRender() {
+  try {
+    const token = getToken();
+    const headers = { 'Accept': 'application/vnd.github.v3+json' };
+    if (token) headers['Authorization'] = `token ${token}`;
+
+    const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${PHOTOS_FILE}`, { headers });
+    if (res.ok) {
+      const json = await res.json();
+      FILE_SHA = json.sha;
+      DATA = JSON.parse(atob(json.content.replace(/\n/g, '')));
+    }
+  } catch(e) {
+    console.warn('Could not load from GitHub, using localStorage fallback');
+    // Fallback to localStorage
+    try { DATA = JSON.parse(localStorage.getItem('bandit_photos_data')) || { photos: [], videos: [] }; } catch{}
+  }
+  renderPhotos();
+  renderVideos();
+}
+
+// ============================================
+// SAVE photos.json BACK TO GITHUB
+// ============================================
+async function saveToGitHub() {
+  const token = getToken();
+  if (!token) {
+    // Fallback: save to localStorage so at least this browser works
+    localStorage.setItem('bandit_photos_data', JSON.stringify(DATA));
+    // Also save in old format for home page compatibility
+    localStorage.setItem('bandit_photos_v2', JSON.stringify(DATA.photos));
+    localStorage.setItem('bandit_videos', JSON.stringify(DATA.videos));
+    showAlert('Saved locally — add GitHub token to sync everywhere', 'error');
+    return false;
+  }
+
+  try {
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(DATA, null, 2))));
+    const body = {
+      message: 'Update gallery photos',
+      content,
+      sha: FILE_SHA || undefined
+    };
+
+    const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${PHOTOS_FILE}`, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `token ${token}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(body)
+    });
+
+    if (res.ok) {
+      const json = await res.json();
+      FILE_SHA = json.content.sha;
+      // Also update localStorage as backup
+      localStorage.setItem('bandit_photos_v2', JSON.stringify(DATA.photos));
+      localStorage.setItem('bandit_videos', JSON.stringify(DATA.videos));
+      return true;
+    } else {
+      const err = await res.json();
+      console.error('GitHub save error:', err);
+      showAlert('GitHub save failed: ' + (err.message || 'unknown error'), 'error');
+      return false;
+    }
+  } catch(e) {
+    console.error('Save error:', e);
+    showAlert('Save failed — check your token', 'error');
+    return false;
   }
 }
 
-document.getElementById('savePresetBtn').addEventListener('click', () => {
-  const val = document.getElementById('presetInput').value.trim();
-  if (!val) { showAlert('Please enter the preset name', 'error'); return; }
-  localStorage.setItem(PRESET_KEY, val);
-  document.getElementById('setupBanner').style.display = 'none';
-  showAlert('Preset saved! You can now upload photos.', 'success');
-});
-
-// ============================================================
-// PHOTOS — stored as [{url, public_id, caption}]
-// ============================================================
-function loadPhotos() { try { return JSON.parse(localStorage.getItem(PHOTOS_KEY)) || []; } catch { return []; } }
-function savePhotos(p) { try { localStorage.setItem(PHOTOS_KEY, JSON.stringify(p)); } catch { showAlert('Storage full', 'error'); } }
-
+// ============================================
+// PHOTOS
+// ============================================
 function renderPhotos() {
-  const photos = loadPhotos();
-  const grid   = document.getElementById('previewGrid');
+  const grid = document.getElementById('previewGrid');
   grid.innerHTML = '';
-  if (!photos.length) {
+  if (!DATA.photos.length) {
     grid.innerHTML = '<p style="color:var(--gray);font-size:.9rem;grid-column:1/-1;text-align:center;padding:1rem;">No photos yet.</p>';
     return;
   }
-  photos.forEach((photo, idx) => {
+  DATA.photos.forEach((photo, idx) => {
     const item = document.createElement('div');
     item.className = 'preview-item';
     item.innerHTML = `
       <img src="${photo.url}" alt="${photo.caption||''}" loading="lazy" />
-      ${photo.caption ? `<div class="preview-caption">${photo.caption}</div>` : ''}
       <button class="preview-remove" data-idx="${idx}" title="Remove">✕</button>
     `;
     grid.appendChild(item);
   });
   grid.querySelectorAll('.preview-remove').forEach(btn => {
-    btn.addEventListener('click', () => removePhoto(parseInt(btn.dataset.idx)));
+    btn.addEventListener('click', async () => {
+      if (!confirm('Remove this photo?')) return;
+      DATA.photos.splice(parseInt(btn.dataset.idx), 1);
+      const ok = await saveToGitHub();
+      if (ok) showAlert('Photo removed!', 'success');
+      renderPhotos();
+    });
   });
 }
 
-async function removePhoto(idx) {
-  if (!confirm('Remove this photo from the gallery?')) return;
-  const photos = loadPhotos();
-  photos.splice(idx, 1);
-  savePhotos(photos);
-  renderPhotos();
-  showAlert('Photo removed', 'success');
-}
-
-// ============================================================
-// UPLOAD TO CLOUDINARY
-// ============================================================
+// Upload
 const uploadZone = document.getElementById('uploadZone');
 const fileInput  = document.getElementById('fileInput');
-
-uploadZone.addEventListener('click', () => {
-  if (!getPreset()) { showAlert('Save your upload preset first (see the setup box above)', 'error'); return; }
-  fileInput.click();
-});
+uploadZone.addEventListener('click', () => { if (!getPreset()) { showAlert('Save your Cloudinary preset first', 'error'); return; } fileInput.click(); });
 uploadZone.addEventListener('dragover', e => { e.preventDefault(); uploadZone.classList.add('drag-over'); });
 uploadZone.addEventListener('dragleave', () => uploadZone.classList.remove('drag-over'));
-uploadZone.addEventListener('drop', e => {
-  e.preventDefault();
-  uploadZone.classList.remove('drag-over');
-  if (!getPreset()) { showAlert('Save your upload preset first', 'error'); return; }
-  handleFiles(e.dataTransfer.files);
-});
+uploadZone.addEventListener('drop', e => { e.preventDefault(); uploadZone.classList.remove('drag-over'); if (!getPreset()) { showAlert('Save your preset first', 'error'); return; } handleFiles(e.dataTransfer.files); });
 fileInput.addEventListener('change', () => handleFiles(fileInput.files));
 
 async function handleFiles(files) {
   const preset = getPreset();
-  if (!preset) { showAlert('Save your upload preset first', 'error'); return; }
-  if (!files.length) return;
-
+  if (!preset) { showAlert('Save your Cloudinary preset first', 'error'); return; }
   const fileArr = Array.from(files).filter(f => f.type.startsWith('image/'));
-  if (!fileArr.length) { showAlert('No valid image files selected', 'error'); return; }
+  if (!fileArr.length) { showAlert('No valid images selected', 'error'); return; }
 
-  // Show progress
-  const progressWrap = document.getElementById('uploadProgress');
+  const progressWrap = document.getElementById('progressWrap');
   const progressFill = document.getElementById('progressFill');
   const progressCurrent = document.getElementById('progressCurrent');
   const progressTotal   = document.getElementById('progressTotal');
@@ -329,103 +352,76 @@ async function handleFiles(files) {
   progressFill.style.width = '0%';
   progressWrap.classList.add('show');
 
-  const photos = loadPhotos();
-  let uploaded = 0;
-  let failed   = 0;
+  let uploaded = 0, failed = 0;
 
   for (const file of fileArr) {
     try {
-      const formData = new FormData();
-      formData.append('file', file);
-      formData.append('upload_preset', preset);
-      formData.append('folder', 'bandit-gallery');
-
-      const res = await fetch(`https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`, {
-        method: 'POST',
-        body: formData
-      });
-
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const fd = new FormData();
+      fd.append('file', file);
+      fd.append('upload_preset', preset);
+      fd.append('folder', 'bandit-gallery');
+      const res = await fetch(`https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`, { method: 'POST', body: fd });
+      if (!res.ok) throw new Error();
       const data = await res.json();
-
       if (data.error) throw new Error(data.error.message);
-
-      photos.push({
-        url:       data.secure_url,
-        public_id: data.public_id,
-        caption:   file.name.replace(/\.[^.]+$/, '')
-      });
-
+      DATA.photos.push({ url: data.secure_url, public_id: data.public_id, caption: file.name.replace(/\.[^.]+$/, '') });
       uploaded++;
       progressCurrent.textContent = uploaded;
       progressFill.style.width = `${Math.round((uploaded / fileArr.length) * 100)}%`;
-      savePhotos(photos);
-      renderPhotos();
-
-    } catch (err) {
-      console.error('Upload failed:', err);
-      failed++;
-    }
+    } catch { failed++; }
   }
 
   progressWrap.classList.remove('show');
   fileInput.value = '';
 
-  if (failed === 0) {
-    showAlert(`${uploaded} photo${uploaded !== 1 ? 's' : ''} uploaded!`, 'success');
-  } else {
-    showAlert(`${uploaded} uploaded, ${failed} failed. Check your preset name.`, 'error');
-  }
+  const ok = await saveToGitHub();
+  renderPhotos();
+  if (ok) showAlert(`${uploaded} photo${uploaded !== 1 ? 's' : ''} uploaded & saved!`, 'success');
+  else if (failed) showAlert(`${uploaded} uploaded, ${failed} failed`, 'error');
 }
 
-// ============================================================
+// ============================================
 // VIDEOS
-// ============================================================
-function loadVideos() { try { return JSON.parse(localStorage.getItem(VIDEOS_KEY)) || []; } catch { return []; } }
-function saveVideos(v) { localStorage.setItem(VIDEOS_KEY, JSON.stringify(v)); }
-
+// ============================================
 function renderVideos() {
-  const videos = loadVideos();
-  const list   = document.getElementById('videoList');
+  const list = document.getElementById('videoList');
   list.innerHTML = '';
-  if (!videos.length) {
+  if (!DATA.videos.length) {
     list.innerHTML = '<p style="color:var(--gray);font-size:.9rem;padding:.75rem 0;">No videos yet.</p>';
     return;
   }
-  videos.forEach((v, idx) => {
+  DATA.videos.forEach((v, idx) => {
     const item = document.createElement('div');
     item.className = 'video-list-item';
     item.innerHTML = `🎬 <span>${v.caption || v.embed}</span><button class="btn btn-danger" data-idx="${idx}">Remove</button>`;
     list.appendChild(item);
   });
   list.querySelectorAll('.btn-danger').forEach(btn => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', async () => {
       if (!confirm('Remove this video?')) return;
-      const vids = loadVideos();
-      vids.splice(parseInt(btn.dataset.idx), 1);
-      saveVideos(vids);
+      DATA.videos.splice(parseInt(btn.dataset.idx), 1);
+      const ok = await saveToGitHub();
+      if (ok) showAlert('Video removed!', 'success');
       renderVideos();
-      showAlert('Video removed', 'success');
     });
   });
 }
 
-document.getElementById('addVideoBtn').addEventListener('click', () => {
+document.getElementById('addVideoBtn').addEventListener('click', async () => {
   const url     = document.getElementById('videoUrl').value.trim();
   const caption = document.getElementById('videoCaption').value.trim();
-  if (!url) { showAlert('Please enter an embed URL', 'error'); return; }
-  const videos = loadVideos();
-  videos.push({ embed: url, caption });
-  saveVideos(videos);
+  if (!url) { showAlert('Enter an embed URL', 'error'); return; }
+  DATA.videos.push({ embed: url, caption });
+  const ok = await saveToGitHub();
   renderVideos();
   document.getElementById('videoUrl').value = '';
   document.getElementById('videoCaption').value = '';
-  showAlert('Video added!', 'success');
+  if (ok) showAlert('Video added!', 'success');
 });
 
-// ============================================================
+// ============================================
 // CHANGE PASSWORD
-// ============================================================
+// ============================================
 document.getElementById('changePassBtn').addEventListener('click', () => {
   const np = document.getElementById('newPass').value;
   const cp = document.getElementById('confirmPass').value;
@@ -438,18 +434,16 @@ document.getElementById('changePassBtn').addEventListener('click', () => {
   showAlert('Password updated!', 'success');
 });
 
-// ============================================================
+// ============================================
 // UTILS
-// ============================================================
-function renderAll() { renderPhotos(); renderVideos(); }
-
+// ============================================
 function showAlert(msg, type = 'success') {
   document.querySelector('.alert')?.remove();
   const el = document.createElement('div');
   el.className = `alert ${type}`;
   el.textContent = (type === 'success' ? '✓ ' : '✕ ') + msg;
   document.body.appendChild(el);
-  setTimeout(() => el.remove(), 3200);
+  setTimeout(() => el.remove(), 3500);
 }
 </script>
 </body>
