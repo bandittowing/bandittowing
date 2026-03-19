@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photo Gallery | Bandit Towing & Transport — Cary, NC</title>
+  <meta name="description" content="See Bandit Towing & Transport in action across Wake County — photos and videos from every job." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* ---- Gallery page overrides ---- */
+    .gpage-hero {
+      padding: 9rem 2rem 4rem;
+      text-align: center;
+      background:
+        radial-gradient(ellipse 70% 60% at 50% 100%, rgba(212,160,23,0.07) 0%, transparent 70%),
+        var(--black);
+      position: relative;
+      overflow: hidden;
+    }
+    .gpage-hero::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, transparent, var(--gold), var(--gold-bright), var(--gold), transparent);
+      opacity: 0.5;
+    }
+    .gpage-hero .eyebrow { margin-bottom: 0.5rem; }
+    .gpage-hero .headline-xl { margin-bottom: 0.75rem; }
+    .gpage-subtitle {
+      font-family: var(--font-condense);
+      font-size: 1rem;
+      color: var(--gray);
+      letter-spacing: 0.06em;
+    }
+    .gpage-quote {
+      font-family: var(--font-condense);
+      font-size: 1.1rem;
+      font-style: italic;
+      color: rgba(240,235,224,0.5);
+      margin-top: 1rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .gpage-body { padding: 4rem 0 6rem; background: var(--dark1); }
+
+    /* Stats bar */
+    .gpage-stats {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      padding: 1.5rem 2rem;
+      background: var(--dark2);
+      border-bottom: 1px solid rgba(212,160,23,0.12);
+      margin-bottom: 3rem;
+    }
+    .gps { text-align: center; }
+    .gps-n {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 2rem;
+      color: var(--gold);
+      line-height: 1;
+    }
+    .gps-l {
+      font-family: var(--font-condense);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gray);
+    }
+
+    /* Controls */
+    .gallery-controls {
+      max-width: var(--max-w);
+      margin: 0 auto 2rem;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .gc-count {
+      font-family: var(--font-condense);
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gray);
+    }
+    .gc-count span { color: var(--gold); }
+    .gc-back {
+      font-family: var(--font-condense);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--light);
+      border: 1px solid rgba(255,255,255,0.15);
+      padding: 0.5rem 1.1rem;
+      border-radius: 4px;
+      transition: all 0.2s;
+    }
+    .gc-back:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* Full gallery grid */
+    .full-gallery-grid {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.75rem;
+    }
+
+    /* Empty state */
+    .gpage-empty {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* Videos section */
+    .gpage-videos {
+      max-width: var(--max-w);
+      margin: 4rem auto 0;
+      padding: 0 2rem;
+    }
+    .gpage-videos .vid-heading {
+      font-family: var(--font-display);
+      font-size: 2.5rem;
+      color: var(--white);
+      letter-spacing: 0.04em;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid rgba(212,160,23,0.2);
+    }
+
+    /* CTA strip at bottom */
+    .gpage-cta {
+      background: var(--gold);
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+    .gpage-cta p {
+      font-family: var(--font-display);
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+      color: var(--black);
+      margin-bottom: 1rem;
+      letter-spacing: 0.04em;
+    }
+    .gpage-cta a {
+      background: var(--black);
+      color: var(--gold);
+      font-family: var(--font-condense);
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.85rem 2.5rem;
+      border-radius: 4px;
+      transition: all 0.2s;
+      display: inline-block;
+    }
+    .gpage-cta a:hover { background: var(--dark1); color: var(--gold-bright); }
+
+    /* Responsive */
+    @media(max-width: 1024px) { .full-gallery-grid { grid-template-columns: repeat(3, 1fr); } }
+    @media(max-width: 768px)  {
+      .full-gallery-grid { grid-template-columns: repeat(2, 1fr); }
+      .gpage-stats { gap: 1.5rem; flex-wrap: wrap; }
+    }
+    @media(max-width: 480px)  { .full-gallery-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo-link">
+        <img src="images/logo-nobg.png" alt="Bandit Towing" class="nav-logo-img" />
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#pricing">Pricing</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="gallery.html" class="nav-active">Gallery</a></li>
+        <li><a href="index.html#reviews">Reviews</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="tel:9196569468" class="nav-call">📞 CALL NOW</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="gpage-hero">
+    <div class="eyebrow">ON THE JOB</div>
+    <h1 class="headline-xl">ALWAYS MOVING.<br><span class="gold">EVERY DAY.</span></h1>
+    <p class="gpage-subtitle">Bandit Towing &amp; Transport — Cary, NC</p>
+    <p class="gpage-quote">"We've got a long way to go and a short time to get there — and we always make it."</p>
+  </div>
+
+  <!-- STATS BAR -->
+  <div class="gpage-stats">
+    <div class="gps">
+      <span class="gps-n" id="statPhotos">0</span>
+      <span class="gps-l">Photos</span>
+    </div>
+    <div class="gps">
+      <span class="gps-n" id="statVideos">0</span>
+      <span class="gps-l">Videos</span>
+    </div>
+    <div class="gps">
+      <span class="gps-n">5.0★</span>
+      <span class="gps-l">Google Rating</span>
+    </div>
+    <div class="gps">
+      <span class="gps-n">120+</span>
+      <span class="gps-l">Reviews</span>
+    </div>
+  </div>
+
+  <!-- GALLERY BODY -->
+  <div class="gpage-body">
+
+    <!-- Controls -->
+    <div class="gallery-controls">
+      <p class="gc-count">Showing <span id="photoCount">0</span> photos</p>
+      <a href="index.html" class="gc-back">← Back to Home</a>
+    </div>
+
+    <!-- Full Photo Grid -->
+    <div class="full-gallery-grid" id="fullGalleryGrid">
+      <div class="gallery-empty gpage-empty" id="fullGalleryEmpty" style="grid-column:1/-1;">
+        <p>📸 No photos yet — check back soon or follow us on <a href="https://www.facebook.com/BanditTowing/" target="_blank">Facebook</a></p>
+      </div>
+    </div>
+
+    <!-- Lightbox (reuse same structure as home) -->
+    <div class="lightbox" id="lightbox">
+      <button class="lb-close" id="lbClose">✕</button>
+      <button class="lb-prev"  id="lbPrev">‹</button>
+      <button class="lb-next"  id="lbNext">›</button>
+      <img id="lbImg" src="" alt="" />
+    </div>
+
+    <!-- Videos -->
+    <div class="gpage-videos">
+      <h2 class="vid-heading">VIDEOS</h2>
+      <div class="video-grid" id="videoGrid">
+        <div class="gallery-empty" id="videoEmpty">
+          <p>🎥 No videos yet — follow us on <a href="https://www.facebook.com/BanditTowing/" target="_blank">Facebook</a> &amp; <a href="https://www.instagram.com/bandittowing/" target="_blank">Instagram</a>!</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM CTA -->
+  <div class="gpage-cta">
+    <p>NEED A TOW? WE'RE READY.</p>
+    <a href="tel:9196569468">📞 (919) 656-9468</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="images/logo-nobg.png" alt="Bandit Towing" class="footer-logo" />
+        <p>Family owned towing service committed to the best customer service you'll find in Wake County.</p>
+        <p class="footer-usdot">USDOT #3330555 · Licensed &amp; Insured</p>
+      </div>
+      <div class="footer-links">
+        <h5>QUICK LINKS</h5>
+        <ul>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="index.html#reviews">Reviews</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="admin/index.html">Admin</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact-info">
+        <h5>CONTACT</h5>
+        <a href="tel:9196569468">(919) 656-9468</a>
+        <a href="mailto:justin@bandittowing.com">justin@bandittowing.com</a>
+        <p>1804 Holt Rd, Cary NC 27519</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="yr"></span> Bandit Towing &amp; Transport LLC · Cary, NC · All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script>
+    // ---- Nav ----
+    const navbar   = document.getElementById('navbar');
+    window.addEventListener('scroll', () => navbar.classList.toggle('solid', scrollY > 80), { passive: true });
+    const ham = document.getElementById('hamburger');
+    const menu = document.getElementById('navMenu');
+    ham?.addEventListener('click', () => menu.classList.toggle('open'));
+    menu?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.classList.remove('open')));
+
+    document.getElementById('yr').textContent = new Date().getFullYear();
+
+    // ---- Data ----
+    function loadPhotos() { try { return JSON.parse(localStorage.getItem('bandit_photos_v2')) || []; } catch { return []; } }
+    function loadVideos() { try { return JSON.parse(localStorage.getItem('bandit_videos')) || []; } catch { return []; } }
+
+    // ---- Render all photos ----
+    let allPhotos = [];
+    function renderAll() {
+      allPhotos = loadPhotos();
+      const videos = loadVideos();
+
+      // Stats
+      document.getElementById('statPhotos').textContent = allPhotos.length;
+      document.getElementById('statVideos').textContent = videos.length;
+      document.getElementById('photoCount').textContent = allPhotos.length;
+
+      // Photos
+      const grid  = document.getElementById('fullGalleryGrid');
+      const empty = document.getElementById('fullGalleryEmpty');
+      grid.querySelectorAll('.gallery-item').forEach(el => el.remove());
+      if (!allPhotos.length) {
+        empty.style.display = '';
+      } else {
+        empty.style.display = 'none';
+        allPhotos.forEach((p, i) => {
+          const div = document.createElement('div');
+          div.className = 'gallery-item';
+          div.innerHTML = `<img src="${p.url}" alt="${p.caption || 'Bandit Towing'}" loading="lazy" /><div class="gallery-item-overlay"><span>🔍</span></div>`;
+          div.addEventListener('click', () => openLb(i));
+          grid.appendChild(div);
+        });
+      }
+
+      // Videos
+      const vGrid = document.getElementById('videoGrid');
+      const vEmpty = document.getElementById('videoEmpty');
+      vGrid.querySelectorAll('.video-item').forEach(el => el.remove());
+      if (!videos.length) {
+        vEmpty.style.display = '';
+      } else {
+        vEmpty.style.display = 'none';
+        videos.forEach(v => {
+          const d = document.createElement('div');
+          d.className = 'video-item';
+          d.innerHTML = `<iframe src="${v.embed}" allowfullscreen loading="lazy" title="${v.caption || 'Bandit Towing Video'}"></iframe>`;
+          vGrid.appendChild(d);
+        });
+      }
+    }
+
+    // ---- Lightbox ----
+    let lbIdx = 0;
+    const lb    = document.getElementById('lightbox');
+    const lbImg = document.getElementById('lbImg');
+    document.getElementById('lbClose').addEventListener('click', closeLb);
+    document.getElementById('lbPrev').addEventListener('click',  () => stepLb(-1));
+    document.getElementById('lbNext').addEventListener('click',  () => stepLb(1));
+    lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
+    document.addEventListener('keydown', e => {
+      if (!lb.classList.contains('active')) return;
+      if (e.key === 'Escape') closeLb();
+      if (e.key === 'ArrowLeft')  stepLb(-1);
+      if (e.key === 'ArrowRight') stepLb(1);
+    });
+    function openLb(i) {
+      lbIdx = i;
+      lbImg.src = allPhotos[i].url;
+      lb.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLb() {
+      lb.classList.remove('active');
+      document.body.style.overflow = '';
+      lbImg.src = '';
+    }
+    function stepLb(d) {
+      lbIdx = (lbIdx + d + allPhotos.length) % allPhotos.length;
+      lbImg.src = allPhotos[lbIdx].url;
+    }
+
+    renderAll();
+  </script>
+</body>
+</html>
