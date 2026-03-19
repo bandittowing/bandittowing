@@ -231,5 +231,10 @@
       "caption": "IMG_8524"
     }
   ],
-  "videos": []
+  "videos": [
+    {
+      "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8H3Qmi2qeKM?si=uKh4uXV7csU2Urwj\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "caption": "Bandit Towing YouTube video"
+    }
+  ]
 }
