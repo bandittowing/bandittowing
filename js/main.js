@@ -192,17 +192,17 @@ const AMAZON_ROTATE_MS   = 15000; // 15 seconds
     const fallback = slot.querySelector('.amz-fallback');
     if (!img) return;
 
-    // Fade out
-    img.style.opacity = '0';
-    img.style.transition = 'opacity 0.7s ease';
-
     const newImg = new Image();
     newImg.onload = () => {
-      img.src = src;
-      img.style.display = 'block';
-      if (fallback) fallback.style.display = 'none';
-      // Small delay then fade in
-      setTimeout(() => { img.style.opacity = '1'; }, 50);
+      // Fade out current
+      img.style.opacity = '0';
+      setTimeout(() => {
+        img.src = src;
+        img.style.display = 'block';
+        if (fallback) fallback.style.display = 'none';
+        // Fade in new
+        img.style.opacity = '1';
+      }, 400);
     };
     newImg.onerror = () => {
       img.style.display = 'none';
@@ -238,10 +238,10 @@ const AMAZON_ROTATE_MS   = 15000; // 15 seconds
     slideshow.addEventListener('mouseleave', startTimer);
   }
 
-  // Init — set initial opacity on all slide imgs
+  // Init — start all imgs visible, transitions happen during swaps
   slots.forEach(slot => {
     const img = slot.querySelector('.amz-slide-img');
-    if (img) { img.style.opacity = '0'; img.style.transition = 'opacity 0.7s ease'; }
+    if (img) { img.style.opacity = '1'; img.style.transition = 'opacity 0.7s ease'; }
   });
 
   buildGroups();
