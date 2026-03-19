@@ -131,28 +131,26 @@ function renderVideos() {
 // AMAZON SLIDESHOW
 // ============================================
 // ↓ UPDATE THIS NUMBER to match how many amazon-X.jpg files you have
-const AMAZON_PHOTO_COUNT = 13;
+const AMAZON_PHOTO_COUNT = 14;
 const AMAZON_ROTATE_MS   = 15000; // 15 seconds
 
 (function initAmazonSlideshow() {
-  // Build the full list of photo paths
   const allPhotos = [];
   for (let i = 1; i <= AMAZON_PHOTO_COUNT; i++) {
     allPhotos.push(`images/amazon-${i}.jpg`);
   }
 
-  if (allPhotos.length < 3) return; // need at least 3
+  if (allPhotos.length < 3) return;
 
-  const slots     = [
+  const slots  = [
     document.getElementById('amzSlot0'),
     document.getElementById('amzSlot1'),
     document.getElementById('amzSlot2'),
   ];
-  const dotsWrap  = document.getElementById('amzDots');
+  const dotsWrap = document.getElementById('amzDots');
 
   if (!slots[0]) return;
 
-  // Shuffle array helper
   function shuffle(arr) {
     const a = [...arr];
     for (let i = a.length - 1; i > 0; i--) {
@@ -162,68 +160,61 @@ const AMAZON_ROTATE_MS   = 15000; // 15 seconds
     return a;
   }
 
-  // Build a randomised rotation queue — groups of 3, no repeats until all shown
-  let queue = [];
-  function refillQueue() {
-    const shuffled = shuffle(allPhotos);
-    // Split into groups of 3
-    for (let i = 0; i + 2 < shuffled.length; i += 3) {
-      queue.push([shuffled[i], shuffled[i + 1], shuffled[i + 2]]);
-    }
-    // If photos don't divide evenly into 3, fill the last group with random picks
-    if (shuffled.length % 3 !== 0) {
-      const remainder = shuffled.slice(shuffled.length - (shuffled.length % 3));
-      while (remainder.length < 3) remainder.push(shuffled[Math.floor(Math.random() * shuffled.length)]);
-      queue.push(remainder);
-    }
-  }
-
-  // Build dot indicators — one per group of 3
-  function buildDots() {
-    if (!dotsWrap) return;
-    const groupCount = Math.ceil(allPhotos.length / 3);
-    dotsWrap.innerHTML = '';
-    for (let i = 0; i < groupCount; i++) {
-      const dot = document.createElement('div');
-      dot.className = 'amz-dot' + (i === 0 ? ' active' : '');
-      dot.dataset.group = i;
-      dot.addEventListener('click', () => { clearInterval(timer); showGroup(i); startTimer(); });
-      dotsWrap.appendChild(dot);
-    }
-  }
-
-  let currentGroup = 0;
-  let allGroups    = [];
-
+  // Build groups of 3 from shuffled photos
+  let allGroups = [];
   function buildGroups() {
     const shuffled = shuffle(allPhotos);
     allGroups = [];
     for (let i = 0; i < shuffled.length; i += 3) {
       const group = shuffled.slice(i, i + 3);
-      while (group.length < 3) group.push(shuffled[Math.floor(Math.random() * shuffled.length)]);
+      while (group.length < 3) {
+        group.push(shuffled[Math.floor(Math.random() * shuffled.length)]);
+      }
       allGroups.push(group);
     }
+  }
+
+  function buildDots() {
+    if (!dotsWrap) return;
+    dotsWrap.innerHTML = '';
+    allGroups.forEach((_, i) => {
+      const dot = document.createElement('div');
+      dot.className = 'amz-dot' + (i === 0 ? ' active' : '');
+      dot.addEventListener('click', () => { clearInterval(timer); showGroup(i); startTimer(); });
+      dotsWrap.appendChild(dot);
+    });
+  }
+
+  let currentGroup = 0;
+
+  function setSlotImage(slot, src) {
+    const img = slot.querySelector('.amz-slide-img');
+    const fallback = slot.querySelector('.amz-fallback');
+    if (!img) return;
+
+    // Fade out
+    img.style.opacity = '0';
+    img.style.transition = 'opacity 0.7s ease';
+
+    const newImg = new Image();
+    newImg.onload = () => {
+      img.src = src;
+      img.style.display = 'block';
+      if (fallback) fallback.style.display = 'none';
+      // Small delay then fade in
+      setTimeout(() => { img.style.opacity = '1'; }, 50);
+    };
+    newImg.onerror = () => {
+      img.style.display = 'none';
+      if (fallback) fallback.style.display = 'flex';
+    };
+    newImg.src = src;
   }
 
   function showGroup(groupIdx) {
     currentGroup = groupIdx % allGroups.length;
     const group  = allGroups[currentGroup];
-
-    slots.forEach((slot, i) => {
-      const img = slot.querySelector('.amz-slide-img');
-      if (!img) return;
-
-      // Fade out
-      img.classList.add('amz-fading');
-
-      setTimeout(() => {
-        img.src = group[i];
-        img.onerror = () => { img.style.display = 'none'; };
-        img.onload  = () => { img.style.display = ''; };
-        // Fade back in
-        img.classList.remove('amz-fading');
-      }, 700);
-    });
+    slots.forEach((slot, i) => setSlotImage(slot, group[i]));
 
     // Update dots
     document.querySelectorAll('.amz-dot').forEach((dot, i) => {
@@ -247,7 +238,12 @@ const AMAZON_ROTATE_MS   = 15000; // 15 seconds
     slideshow.addEventListener('mouseleave', startTimer);
   }
 
-  // Init
+  // Init — set initial opacity on all slide imgs
+  slots.forEach(slot => {
+    const img = slot.querySelector('.amz-slide-img');
+    if (img) { img.style.opacity = '0'; img.style.transition = 'opacity 0.7s ease'; }
+  });
+
   buildGroups();
   buildDots();
   showGroup(0);
