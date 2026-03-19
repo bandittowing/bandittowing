@@ -1339,39 +1339,25 @@ img{display:block;max-width:100%;}
   color: var(--gold);
   margin-bottom: 0.4rem;
 }
-.cd-social { display: flex; gap: 0.75rem; }
-.soc-fb,.soc-ig {
-  flex:1;text-align:center;
-  padding:0.65rem;
-  border-radius:var(--r);
-  font-family:var(--font-condense);
-  font-size:0.85rem;
-  font-weight:700;
-  letter-spacing:0.08em;
-  text-transform:uppercase;
-  transition:all 0.2s;
-}
-/* Social icon buttons */
-.cd-social {
-  display: flex;
-  gap: 0.75rem;
-  margin-top: 0.5rem;
-}
+.cd-social { display: flex; gap: 0.75rem; align-items: center; margin-top: 0.75rem; }
+
+/* Social icon buttons — circles with brand logos */
 .soc-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
-  font-size: 1.1rem;
-  transition: all 0.25s;
+  font-size: 1.15rem;
+  transition: all 0.25s ease;
   border: 2px solid transparent;
   text-decoration: none;
+  flex-shrink: 0;
 }
 .soc-fb {
   background: rgba(24,119,242,0.12);
-  border-color: rgba(24,119,242,0.3);
+  border-color: rgba(24,119,242,0.35);
   color: #6ba3f5;
 }
 .soc-fb:hover {
@@ -1379,11 +1365,11 @@ img{display:block;max-width:100%;}
   border-color: #1877f2;
   color: #fff;
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(24,119,242,0.4);
+  box-shadow: 0 6px 20px rgba(24,119,242,0.45);
 }
 .soc-ig {
   background: rgba(225,48,108,0.12);
-  border-color: rgba(225,48,108,0.3);
+  border-color: rgba(225,48,108,0.35);
   color: #f590b4;
 }
 .soc-ig:hover {
@@ -1391,11 +1377,11 @@ img{display:block;max-width:100%;}
   border-color: #dc2743;
   color: #fff;
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(220,39,67,0.4);
+  box-shadow: 0 6px 20px rgba(220,39,67,0.45);
 }
 .soc-yt {
   background: rgba(255,0,0,0.12);
-  border-color: rgba(255,0,0,0.3);
+  border-color: rgba(255,0,0,0.35);
   color: #ff6b6b;
 }
 .soc-yt:hover {
@@ -1403,7 +1389,7 @@ img{display:block;max-width:100%;}
   border-color: #ff0000;
   color: #fff;
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(255,0,0,0.4);
+  box-shadow: 0 6px 20px rgba(255,0,0,0.45);
 }
 
 /* Footer social row */
@@ -1411,6 +1397,7 @@ img{display:block;max-width:100%;}
   display: flex;
   gap: 0.6rem;
   margin-top: 1rem;
+  align-items: center;
 }
 
 .ac-map {
