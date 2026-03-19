@@ -131,7 +131,7 @@ function renderVideos() {
 // AMAZON SLIDESHOW
 // ============================================
 // ↓ UPDATE THIS NUMBER to match how many amazon-X.jpg files you have
-const AMAZON_PHOTO_COUNT = 6;
+const AMAZON_PHOTO_COUNT = 13;
 const AMAZON_ROTATE_MS   = 15000; // 15 seconds
 
 (function initAmazonSlideshow() {
