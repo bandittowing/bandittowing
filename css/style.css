@@ -1629,14 +1629,16 @@ img{display:block;max-width:100%;}
 
 /* ── CITY PAGE STYLES ── */
 .city-hero {
-  min-height: 60vh;
+  min-height: 55vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 8rem 2rem 5rem;
   background:
     radial-gradient(ellipse 70% 55% at 50% 85%, rgba(200,90,10,0.1) 0%, transparent 65%),
     var(--black);
   position: relative;
+  text-align: center;
 }
 .city-hero::after {
   content: '';
@@ -1646,11 +1648,23 @@ img{display:block;max-width:100%;}
   background: linear-gradient(90deg, transparent, var(--gold-dark), var(--gold-bright), var(--gold), transparent);
   opacity: 0.5;
 }
-.city-hero-inner { max-width: 800px; margin: 0 auto; text-align: center; }
+.city-hero-inner {
+  max-width: 780px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Override headline size specifically for city pages */
+.city-hero .headline-xl {
+  font-size: clamp(2rem, 5vw, 3.8rem) !important;
+  line-height: 1.05 !important;
+  margin-bottom: 1rem;
+}
+
 .city-sub {
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--light);
-  margin: 1rem 0 2rem;
+  margin: 0.75rem 0 1.75rem;
   line-height: 1.65;
 }
 .city-badges {
@@ -1658,18 +1672,20 @@ img{display:block;max-width:100%;}
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.6rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 .city-badges span {
   background: rgba(200,144,10,0.1);
   border: 1px solid rgba(200,144,10,0.25);
   color: var(--gold-bright);
   font-family: var(--font-ui);
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
-  padding: 0.35rem 0.9rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  padding: 0.4rem 1rem;
   border-radius: 2rem;
 }
+
 .city-content { background: var(--dark1); }
 .city-grid {
   display: grid;
@@ -1678,15 +1694,25 @@ img{display:block;max-width:100%;}
   align-items: start;
 }
 .city-text p { color: var(--light); font-size: 0.98rem; line-height: 1.75; }
+.city-text .headline-xl {
+  font-size: clamp(1.6rem, 3.5vw, 2.5rem) !important;
+  line-height: 1.1 !important;
+  margin-bottom: 1.25rem;
+}
 .city-services { margin-top: 2rem; }
 .city-services h3 {
-  font-family: var(--font-display);
-  font-size: 1.4rem;
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
   color: var(--gold);
   margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(200,144,10,0.2);
 }
 .city-services ul { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
-.city-services li { font-size: 0.95rem; color: var(--light); }
+.city-services li { font-size: 0.95rem; color: var(--light); padding: 0.35rem 0; border-bottom: 1px solid rgba(255,255,255,0.04); }
 
 .city-info-card {
   background: var(--dark2);
@@ -1716,9 +1742,10 @@ img{display:block;max-width:100%;}
   color: var(--light);
 }
 .cic-row:last-child { border-bottom: none; }
-.cic-row span:first-child { color: var(--gray); }
+.cic-row span:first-child { color: var(--gray); flex-shrink: 0; }
 .cic-row a { color: var(--gold); }
 
+.city-also { margin-top: 0.5rem; }
 .city-also h4 {
   font-family: var(--font-ui);
   font-size: 0.72rem;
@@ -1734,8 +1761,8 @@ img{display:block;max-width:100%;}
   border: 1px solid rgba(200,144,10,0.2);
   color: var(--light);
   font-family: var(--font-ui);
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
   padding: 0.3rem 0.75rem;
   border-radius: 2rem;
   transition: all 0.2s;
@@ -1750,9 +1777,16 @@ img{display:block;max-width:100%;}
   border-bottom: 1px solid rgba(200,144,10,0.15);
 }
 .city-reviews .container { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
-.cr-stat { font-family: var(--font-display); font-size: 1.4rem; color: var(--gold); }
+.cr-stat { font-family: var(--font-display); font-size: 1.3rem; color: var(--gold); }
 .cr-stat strong { color: var(--gold-bright); }
-.cr-quote { font-style: italic; color: var(--light); max-width: 600px; font-size: 0.95rem; line-height: 1.7; }
+.cr-quote { font-style: italic; color: var(--light); max-width: 600px; font-size: 0.92rem; line-height: 1.7; }
 
-@media(max-width:1024px) { .city-grid { grid-template-columns: 1fr; } }
-@media(max-width:768px) { .city-hero { padding: 7rem 1.5rem 4rem; } }
+@media(max-width:1024px) {
+  .city-grid { grid-template-columns: 1fr; }
+  .city-aside { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+}
+@media(max-width:768px) {
+  .city-hero { padding: 7rem 1.5rem 4rem; }
+  .city-hero .headline-xl { font-size: clamp(1.8rem, 7vw, 2.8rem) !important; }
+  .city-aside { grid-template-columns: 1fr; }
+}
