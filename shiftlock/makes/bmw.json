@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "BMW",
-  "_count": 27,
+  "_count": 30,
   "vehicles": [
     {
       "make": "BMW",
@@ -1069,6 +1069,120 @@
         "type": "agm-12v",
         "warnings": "Use hood terminals."
       }
+    },
+    {
+      "make": "BMW",
+      "model": "3 Series (E36 1992-1999)",
+      "yearStart": 1992,
+      "yearEnd": 1999,
+      "trans": "4-speed or 5-speed automatic, or 5/6-speed manual",
+      "drivetrain": "RWD",
+      "slot": "Slot at base of gear selector, under small cover or accessed by lifting shift boot surround",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: lift the shift boot surround or locate the small slot cover at the selector base.",
+        "Insert a thin key or flathead into the slot and press the cam or lever to release.",
+        "While holding, press brake. Move to Neutral.",
+        "MANUAL: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery is under the hood on E36 — standard location. Connect jump pack.",
+        "Once powered, press brake and shift normally.",
+        "RWD: lift from rear — rear (drive) wheels in the air."
+      ],
+      "notes": "E36 has battery under the hood — unlike later BMWs. Manual trans: depress clutch, Neutral.",
+      "warn": "",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD not available on E36.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Battery under hood on E36."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "E36 has battery under hood, unlike later BMWs."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "BMW",
+      "model": "5 Series (E39 1997-2003)",
+      "yearStart": 1997,
+      "yearEnd": 2003,
+      "trans": "5-speed automatic or 6-speed manual",
+      "drivetrain": "RWD",
+      "slot": "Slot at selector base, accessed under shift boot or small trim cover",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: locate the slot at the selector base under the shift boot trim.",
+        "Insert a thin key or flathead into the slot and press firmly.",
+        "While holding, press brake. Move to Neutral.",
+        "MANUAL: depress clutch and move lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery is in the TRUNK right side under a panel — NOT under the hood.",
+        "Use hood jump terminals: red fused terminal near firewall (+), black ground bolt (−).",
+        "Use AGM-compatible jump pack. Never jump directly at the trunk battery.",
+        "Once powered, press brake and shift normally.",
+        "RWD: lift from rear — rear (drive) wheels in the air."
+      ],
+      "notes": "Battery in trunk right side. Always use hood jump terminals.",
+      "warn": "",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "Battery in trunk — use hood jump terminals.",
+        "RWD: lift from rear."
+      ],
+      "battery": {
+        "location": "Trunk, right side under panel",
+        "jumpTerminals": "Under hood — red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Always use hood terminals — never jump directly at trunk battery. AGM jump pack."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "BMW",
+      "model": "7 Series (E38 1995-2001)",
+      "yearStart": 1995,
+      "yearEnd": 2001,
+      "trans": "5-speed automatic",
+      "drivetrain": "RWD",
+      "slot": "Slot at column-mounted selector or console base depending on trim",
+      "shift": [
+        "Turn ignition to ON.",
+        "E38 uses a column-mounted gear selector — shift lock slot is at the STEERING COLUMN BASE.",
+        "Insert a thin key or flathead into the slot on the column.",
+        "Press firmly while pressing brake. Move column selector to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under the hood or in trunk — varies by trim. Use hood jump terminals.",
+        "Use AGM-compatible jump pack.",
+        "Once powered, press brake and shift normally.",
+        "RWD: lift from rear — rear (drive) wheels in the air.",
+        "Air suspension on some trims — may drop with dead battery. Jump first."
+      ],
+      "notes": "Column shifter — slot is on steering column, not console. Air suspension on some trims.",
+      "warn": "Air suspension: may drop to bump stops with dead battery.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "Column shifter — slot on steering column.",
+        "Air suspension: jump battery first."
+      ],
+      "battery": {
+        "location": "Under hood or trunk — varies",
+        "jumpTerminals": "Under hood — red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "AGM jump pack. Air suspension may drop with dead battery."
+      },
+      "knownIssues": []
     }
   ]
 }

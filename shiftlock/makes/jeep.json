@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Jeep",
-  "_count": 7,
+  "_count": 9,
   "vehicles": [
     {
       "make": "Jeep",
@@ -405,6 +405,107 @@
         "type": "standard-12v",
         "warnings": "PHEV: 12V only."
       }
+    },
+    {
+      "make": "Jeep",
+      "model": "Cherokee XJ (1991-2001)",
+      "yearStart": 1991,
+      "yearEnd": 2001,
+      "trans": "4-speed automatic (AW4) or 5-speed manual",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Column shift — slot on STEERING COLUMN. Console shift (some): cap near base.",
+      "shift": [
+        "Turn ignition to ON.",
+        "COLUMN SHIFT (most): shift lock slot is on the STEERING COLUMN. Insert key, press, press brake, move column lever to Neutral.",
+        "CONSOLE SHIFT (some trims): cap near selector base. Pry off, insert key, press, brake, move to Neutral.",
+        "MANUAL: depress clutch and move to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "4WD: TC to 2H before towing. NP231 TC — floor lever."
+      ],
+      "notes": "Column shift on most XJ. NP231 transfer case — manual floor lever.",
+      "warn": "4WD: TC must be in 2H before wheel-lift.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: TC to 2H, then lift from rear.",
+      "tc": {
+        "type": "NP231 manual floor lever transfer case",
+        "positions": [
+          "2H",
+          "4H",
+          "N (neutral)",
+          "4L"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move TC floor lever to 2H.",
+          "Confirm 2WD before lifting."
+        ]
+      },
+      "towNotes": [
+        "Column shifter on most XJ — slot on steering column.",
+        "RWD: lift from rear. 4WD: TC to 2H."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee (ZJ 1993-1998)",
+      "yearStart": 1993,
+      "yearEnd": 1998,
+      "trans": "4-speed automatic",
+      "drivetrain": "RWD or 4WD (Selec-Trac / Quadra-Trac)",
+      "slot": "Console shift — cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON (key to Run position — do not start).",
+        "Locate the shift lock override: cap near selector base on center console.",
+        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "4WD: TC to 2H before wheel-lift. Quadra-Trac has no 2WD on some — check TC type."
+      ],
+      "notes": "Quadra-Trac I (full-time AWD) has no 2WD mode — flatbed only. Selec-Trac: 2WD available.",
+      "warn": "Quadra-Trac I: no 2WD mode — FLATBED ONLY. Selec-Trac: shift TC to 2H.",
+      "towMethod": "Selec-Trac: TC to 2H, lift from rear. Quadra-Trac I: FLATBED ONLY.",
+      "tc": {
+        "type": "Selec-Trac or Quadra-Trac I — manual lever or full-time AWD",
+        "positions": [
+          "2WD (Selec-Trac only)",
+          "4H",
+          "Neutral",
+          "4L"
+        ],
+        "steps": [
+          "Selec-Trac: shift TC to 2WD.",
+          "Quadra-Trac I: no 2WD — flatbed only.",
+          "Confirm before lifting."
+        ]
+      },
+      "towNotes": [
+        "Quadra-Trac I: no 2WD — flatbed only.",
+        "Selec-Trac: TC to 2H, lift from rear."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
     }
   ]
 }

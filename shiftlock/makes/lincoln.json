@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Lincoln",
-  "_count": 6,
+  "_count": 10,
   "vehicles": [
     {
       "make": "Lincoln",
@@ -332,6 +332,170 @@
         "jumpTerminals": "Under hood — red rubber boot on positive terminal",
         "type": "standard-12v",
         "warnings": "AWD: flatbed only."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Lincoln",
+      "model": "Town Car (1990-2011)",
+      "yearStart": 1990,
+      "yearEnd": 2011,
+      "trans": "4-speed automatic (AOD/4R70W)",
+      "drivetrain": "RWD",
+      "slot": "Column-mounted shifter — slot on STEERING COLUMN",
+      "shift": [
+        "Turn ignition to ON.",
+        "The Town Car uses a COLUMN-MOUNTED gear selector — shift lock slot is on the STEERING COLUMN.",
+        "Locate the slot on the column near the selector lever base.",
+        "Insert a thin key or flathead into the column slot and press firmly.",
+        "While holding, press the brake pedal.",
+        "Move the column shifter to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side near firewall.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Extremely common fleet/livery/police vehicle. Column shifter — slot on steering column, not console.",
+      "warn": "",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Very common — straightforward procedure.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Column shifter — very common livery/fleet vehicle for operators."
+      ],
+      "battery": {
+        "location": "Under hood, driver side near firewall",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Lincoln",
+      "model": "Continental (1995-2002)",
+      "yearStart": 1995,
+      "yearEnd": 2002,
+      "trans": "4-speed automatic (4R70W)",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON (key to Run position — do not start).",
+        "Locate the shift lock override: small cap near selector base on center console.",
+        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "FWD luxury sedan. Column or console shift depending on year.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Lincoln",
+      "model": "Navigator (1998-2002)",
+      "yearStart": 1998,
+      "yearEnd": 2002,
+      "trans": "4-speed automatic (4R100)",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Column-mounted shifter — slot on STEERING COLUMN",
+      "shift": [
+        "Turn ignition to ON.",
+        "1st gen Navigator uses a COLUMN-MOUNTED shifter — slot is on the STEERING COLUMN.",
+        "Insert key into the column slot and press firmly.",
+        "While holding, press brake pedal.",
+        "Move column lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under the hood, passenger side near firewall. Connect jump pack.",
+        "Once powered, press brake and shift normally.",
+        "4WD: electronic TC — jump battery first, then shift TC to 2WD before towing.",
+        "RWD: lift from rear — rear (drive) wheels in the air.",
+        "4WD in 2H: lift from rear — rear (drive) wheels in the air."
+      ],
+      "notes": "1st gen Navigator — column shifter. Electronic 4WD requires 12V to shift TC.",
+      "warn": "4WD: TC must be in 2WD before towing. Jump battery first if dead.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: TC to 2H first, then lift from rear.",
+      "tc": {
+        "type": "Electronic 4WD (push-button on dash)",
+        "positions": [
+          "2WD",
+          "4WD Auto",
+          "4WD High",
+          "4WD Low"
+        ],
+        "steps": [
+          "Slow to under 3 mph.",
+          "Press 2WD button on dash.",
+          "Confirm 2WD before lifting."
+        ]
+      },
+      "towNotes": [
+        "Column shifter — slot on steering column.",
+        "RWD: lift from rear. 4WD: TC to 2H."
+      ],
+      "battery": {
+        "location": "Under hood, passenger side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "4WD: jump battery first to power TC."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Lincoln",
+      "model": "Mark VIII (1993-1998)",
+      "yearStart": 1993,
+      "yearEnd": 1998,
+      "trans": "4-speed automatic (4R70W)",
+      "drivetrain": "RWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON (key to Run position — do not start).",
+        "Locate the shift lock override: small cap near selector base on center console.",
+        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "RWD personal luxury coupe. Air suspension on all trims.",
+      "warn": "Air suspension: may drop with dead battery. Jump first to normalize.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Air suspension: jump battery to normalize before loading."
+      ],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Air suspension may drop with dead battery."
       },
       "knownIssues": []
     }

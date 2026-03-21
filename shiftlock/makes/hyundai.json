@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Hyundai",
-  "_count": 8,
+  "_count": 11,
   "vehicles": [
     {
       "make": "Hyundai",
@@ -345,6 +345,111 @@
         "type": "standard-12v",
         "warnings": "EV: 12V only, flatbed only."
       }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Elantra (1st/2nd Gen 1992-2000)",
+      "yearStart": 1992,
+      "yearEnd": 2000,
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: Locate shift lock slot — small cap near selector base.",
+        "Pry off cap. Insert key and press firmly.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual trans: depress clutch, Neutral.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Hyundai",
+      "model": "Sonata (2nd/3rd Gen 1993-2001)",
+      "yearStart": 1993,
+      "yearEnd": 2001,
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: Locate shift lock slot — small cap near selector base.",
+        "Pry off cap. Insert key and press firmly.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual trans: depress clutch, Neutral.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Hyundai",
+      "model": "Tiburon (1997-2001)",
+      "yearStart": 1997,
+      "yearEnd": 2001,
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: Locate shift lock slot — small cap near selector base.",
+        "Pry off cap. Insert key and press firmly.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual trans: depress clutch, Neutral. Sports coupe.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
     }
   ]
 }

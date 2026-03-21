@@ -14,7 +14,12 @@
     {
       "make": "Acura",
       "file": "acura.json",
-      "count": 17
+      "count": 21
+    },
+    {
+      "make": "Alfa Romeo",
+      "file": "alfa-romeo.json",
+      "count": 4
     },
     {
       "make": "Audi",
@@ -24,7 +29,7 @@
     {
       "make": "BMW",
       "file": "bmw.json",
-      "count": 27
+      "count": 30
     },
     {
       "make": "Buick",
@@ -39,7 +44,7 @@
     {
       "make": "Chevrolet",
       "file": "chevrolet.json",
-      "count": 22
+      "count": 26
     },
     {
       "make": "Chrysler",
@@ -49,27 +54,37 @@
     {
       "make": "Dodge",
       "file": "dodge.json",
-      "count": 8
+      "count": 11
+    },
+    {
+      "make": "Fiat",
+      "file": "fiat.json",
+      "count": 4
     },
     {
       "make": "Ford",
       "file": "ford.json",
-      "count": 20
+      "count": 26
+    },
+    {
+      "make": "Genesis",
+      "file": "genesis.json",
+      "count": 5
     },
     {
       "make": "GMC",
       "file": "gmc.json",
-      "count": 8
+      "count": 9
     },
     {
       "make": "Honda",
       "file": "honda.json",
-      "count": 10
+      "count": 15
     },
     {
       "make": "Hyundai",
       "file": "hyundai.json",
-      "count": 8
+      "count": 11
     },
     {
       "make": "Infiniti",
@@ -77,9 +92,14 @@
       "count": 7
     },
     {
+      "make": "Jaguar",
+      "file": "jaguar.json",
+      "count": 9
+    },
+    {
       "make": "Jeep",
       "file": "jeep.json",
-      "count": 7
+      "count": 9
     },
     {
       "make": "Kia",
@@ -87,9 +107,19 @@
       "count": 6
     },
     {
+      "make": "Land Rover",
+      "file": "land-rover.json",
+      "count": 10
+    },
+    {
       "make": "Lexus",
       "file": "lexus.json",
       "count": 7
+    },
+    {
+      "make": "Lincoln",
+      "file": "lincoln.json",
+      "count": 10
     },
     {
       "make": "Mazda",
@@ -99,7 +129,12 @@
     {
       "make": "Mercedes-Benz",
       "file": "mercedes-benz.json",
-      "count": 6
+      "count": 8
+    },
+    {
+      "make": "MINI",
+      "file": "mini.json",
+      "count": 5
     },
     {
       "make": "Mitsubishi",
@@ -109,6 +144,21 @@
     {
       "make": "Nissan",
       "file": "nissan.json",
+      "count": 15
+    },
+    {
+      "make": "Polestar",
+      "file": "polestar.json",
+      "count": 2
+    },
+    {
+      "make": "Pontiac",
+      "file": "pontiac.json",
+      "count": 10
+    },
+    {
+      "make": "Porsche",
+      "file": "porsche.json",
       "count": 11
     },
     {
@@ -117,9 +167,19 @@
       "count": 5
     },
     {
+      "make": "Rivian",
+      "file": "rivian.json",
+      "count": 2
+    },
+    {
+      "make": "Saturn",
+      "file": "saturn.json",
+      "count": 7
+    },
+    {
       "make": "Subaru",
       "file": "subaru.json",
-      "count": 6
+      "count": 8
     },
     {
       "make": "Tesla",
@@ -129,12 +189,17 @@
     {
       "make": "Toyota",
       "file": "toyota.json",
-      "count": 16
+      "count": 23
     },
     {
       "make": "Volkswagen",
       "file": "volkswagen.json",
-      "count": 7
+      "count": 9
+    },
+    {
+      "make": "Volvo",
+      "file": "volvo.json",
+      "count": 11
     }
   ]
 }

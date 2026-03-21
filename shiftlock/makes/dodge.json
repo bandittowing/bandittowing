@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Dodge",
-  "_count": 8,
+  "_count": 11,
   "vehicles": [
     {
       "make": "Dodge",
@@ -370,6 +370,127 @@
         "type": "standard-12v",
         "warnings": "Side-lift or special ramps only. Carbon ceramic brakes on some trims — no metal chocks against rotors."
       }
+    },
+    {
+      "make": "Dodge",
+      "model": "Neon (1995-2005)",
+      "yearStart": 1995,
+      "yearEnd": 2005,
+      "trans": "3-speed or 4-speed automatic, or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: Locate shift lock slot — small cap near selector base on center console.",
+        "Pry off cap. Insert key and press firmly.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual trans: depress clutch, Neutral.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Dodge",
+      "model": "Intrepid / Chrysler Concorde (1993-2004)",
+      "yearStart": 1993,
+      "yearEnd": 2004,
+      "trans": "4-speed automatic",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON (key to Run position — do not start).",
+        "Locate the shift lock override: small cap near selector base on center console.",
+        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Dodge",
+      "model": "Ram 1500 (1994-2001 BR/BE)",
+      "yearStart": 1994,
+      "yearEnd": 2001,
+      "trans": "4-speed automatic or 5/6-speed manual",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Column shifter — slot on STEERING COLUMN. Console shift: cap near selector base.",
+      "shift": [
+        "Turn ignition to ON.",
+        "COLUMN SHIFT (most trims): slot is on the STEERING COLUMN — insert key into column slot, press firmly, press brake, move column lever to Neutral.",
+        "CONSOLE SHIFT: cap near selector base on console. Pry off. Insert key, press, press brake, move to Neutral.",
+        "MANUAL: depress clutch, move lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "4WD: transfer case must be in 2WD before towing."
+      ],
+      "notes": "Many trims have column shifter — slot is on steering column, not console.",
+      "warn": "4WD: TC to 2WD before towing.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: TC to 2H, then lift from rear.",
+      "tc": {
+        "type": "Manual floor lever (NP241) or electronic",
+        "positions": [
+          "2H",
+          "4H",
+          "N (neutral)",
+          "4L"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move TC to 2H.",
+          "Confirm 2WD before lifting."
+        ]
+      },
+      "towNotes": [
+        "Column shifter on many trims — slot on steering column.",
+        "RWD: lift from rear. 4WD: TC to 2H."
+      ],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
     }
   ]
 }

@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Mercedes-Benz",
-  "_count": 6,
+  "_count": 8,
   "vehicles": [
     {
       "make": "Mercedes-Benz",
@@ -263,6 +263,86 @@
         "type": "standard-12v",
         "warnings": "Large commercial van. Heavy wheel blocks required."
       }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "C-Class (W202 1994-2000)",
+      "yearStart": 1994,
+      "yearEnd": 2000,
+      "trans": "4-speed or 5-speed automatic",
+      "drivetrain": "RWD or AWD (4MATIC)",
+      "slot": "Column-mounted shifter — slot at base of column selector",
+      "shift": [
+        "Turn ignition to ON.",
+        "W202 C-Class uses a COLUMN-MOUNTED selector — shift lock slot is at the STEERING COLUMN base.",
+        "Insert a thin key or flathead into the column slot and press firmly.",
+        "While holding, press the brake pedal.",
+        "Move the column selector to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery is in the TRUNK on W202. Use hood jump terminals.",
+        "Connect AGM-compatible jump pack to hood terminals only.",
+        "Once powered, press brake and shift normally.",
+        "RWD: lift from rear — rear (drive) wheels in the air. 4MATIC AWD: flatbed only."
+      ],
+      "notes": "Column shifter. Battery in trunk — use hood terminals.",
+      "warn": "4MATIC AWD: flatbed only.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. 4MATIC AWD: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "Column shifter. Battery in trunk — use hood terminals.",
+        "RWD: lift from rear. 4MATIC: flatbed."
+      ],
+      "battery": {
+        "location": "Trunk",
+        "jumpTerminals": "Under hood — red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals. AGM jump pack. 4MATIC: flatbed only."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "E-Class (W210 1996-2002)",
+      "yearStart": 1996,
+      "yearEnd": 2002,
+      "trans": "5-speed automatic",
+      "drivetrain": "RWD or AWD (4MATIC)",
+      "slot": "Column-mounted selector — slot at column base; or console shift on some trims",
+      "shift": [
+        "Turn ignition to ON.",
+        "W210 E-Class uses a COLUMN-MOUNTED selector on most trims.",
+        "Slot is at the STEERING COLUMN base — insert key and press firmly.",
+        "While holding, press brake. Move column selector to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery in trunk on W210 — use hood jump terminals (red fused + / black ground bolt −).",
+        "AGM-compatible jump pack required.",
+        "Once powered, shift normally.",
+        "RWD: lift from rear — rear (drive) wheels in the air. 4MATIC AWD: flatbed only."
+      ],
+      "notes": "Column shifter on most trims. Battery in trunk — use hood terminals.",
+      "warn": "4MATIC AWD: flatbed only. W210 is notorious for electrical issues.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. 4MATIC: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "Column shifter. Battery in trunk — use hood terminals.",
+        "RWD: lift from rear. 4MATIC: flatbed."
+      ],
+      "battery": {
+        "location": "Trunk",
+        "jumpTerminals": "Under hood — red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "AGM jump pack. Use hood terminals only. 4MATIC: flatbed."
+      },
+      "knownIssues": [
+        {
+          "title": "W210 Electrical Issues",
+          "detail": "The W210 E-Class is notorious for electrical problems including corroded battery connections, failed brake light switches causing shift lock issues, and wiring harness failures. If the normal shift override doesn't work, check fuses and brake light switch before assuming solenoid failure."
+        }
+      ]
     }
   ]
 }

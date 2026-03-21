@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Volkswagen",
-  "_count": 7,
+  "_count": 9,
   "vehicles": [
     {
       "make": "Volkswagen",
@@ -299,6 +299,81 @@
         "type": "auxiliary-12v-only",
         "warnings": "NEVER touch HV battery. Flatbed only."
       }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Jetta / Golf (Mk3 1993-1999)",
+      "yearStart": 1993,
+      "yearEnd": 1999,
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap or slot near selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: Locate shift lock slot — small cap near selector base on center console.",
+        "Pry off cap. Insert key and press firmly.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual trans: depress clutch, Neutral. Mk3 generation.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Jetta / Golf (Mk4 1999-2006)",
+      "yearStart": 1999,
+      "yearEnd": 2006,
+      "trans": "4-speed automatic or 5/6-speed manual; some DSG",
+      "drivetrain": "FWD",
+      "slot": "Cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate cap near selector base. Pry off.",
+        "Insert key or flathead into slot and press firmly.",
+        "While holding, press brake. Move to Neutral.",
+        "DSG: requires 12V power — connect jump pack first.",
+        "MANUAL: depress clutch, move to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery is under the REAR SEAT on Mk4 — NOT under the hood.",
+        "Use hood jump terminals: red fused terminal (+), black ground bolt (−). Use these, not the rear seat battery directly.",
+        "Use AGM-compatible jump pack.",
+        "Once powered, press brake and shift normally.",
+        "FWD: lift from front — front (drive) wheels in the air."
+      ],
+      "notes": "Battery under rear seat — use hood jump terminals. DSG: requires power.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "Battery under rear seat — use hood terminals.",
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under rear seat",
+        "jumpTerminals": "Under hood — red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Always use hood terminals — never jump directly at rear seat battery. AGM jump pack."
+      },
+      "knownIssues": []
     }
   ]
 }

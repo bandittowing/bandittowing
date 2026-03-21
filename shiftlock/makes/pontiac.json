@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Pontiac",
-  "_count": 6,
+  "_count": 10,
   "vehicles": [
     {
       "make": "Pontiac",
@@ -296,6 +296,151 @@
           "detail": "The Solstice roadster has very low ground clearance, especially when found lowered or with aftermarket suspension. Use a flatbed when possible. If using wheel-lift, check clearance carefully."
         }
       ]
+    },
+    {
+      "make": "Pontiac",
+      "model": "Grand Prix (1997-2003)",
+      "yearStart": 1997,
+      "yearEnd": 2003,
+      "trans": "4-speed automatic",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON (key to Run position — do not start).",
+        "Locate the shift lock override: small cap near selector base on center console.",
+        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "FWD W-body platform. Common vehicle.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Pontiac",
+      "model": "Bonneville (1992-2005)",
+      "yearStart": 1992,
+      "yearEnd": 2005,
+      "trans": "4-speed automatic",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON (key to Run position — do not start).",
+        "Locate the shift lock override: small cap near selector base on center console.",
+        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "FWD H-body platform. Full-size Pontiac.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Pontiac",
+      "model": "Trans Am / Firebird (1993-2002)",
+      "yearStart": 1993,
+      "yearEnd": 2002,
+      "trans": "4-speed automatic or 6-speed manual",
+      "drivetrain": "RWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the cap near the selector base on the center console. Pry off.",
+        "Insert key into slot and press firmly.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL: depress clutch and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "RWD F-body platform. Same as Camaro. Manual trans: depress clutch.",
+      "warn": "",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Same platform as Camaro — identical procedure."
+      ],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Pontiac",
+      "model": "Grand Am (1992-2001)",
+      "yearStart": 1992,
+      "yearEnd": 2001,
+      "trans": "3-speed or 4-speed automatic, or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the small cap near the selector base on the center console. Pry off.",
+        "Insert key into slot and press firmly.",
+        "While holding, press brake. Move to Neutral.",
+        "MANUAL: depress clutch and move to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "N-body platform. Very common 1990s vehicle.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
     }
   ]
 }

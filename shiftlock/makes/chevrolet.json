@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Chevrolet",
-  "_count": 22,
+  "_count": 26,
   "vehicles": [
     {
       "make": "Chevrolet",
@@ -1027,6 +1027,161 @@
         "type": "standard-12v",
         "warnings": "EV variant: 12V auxiliary only."
       }
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Cavalier (1995-2005)",
+      "yearStart": 1995,
+      "yearEnd": 2005,
+      "trans": "3-speed or 4-speed automatic, or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: Locate shift lock slot — small cap near selector base on center console.",
+        "Pry off cap. Insert key and press firmly.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual trans: depress clutch, select Neutral.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Lumina / Monte Carlo (1995-2001)",
+      "yearStart": 1995,
+      "yearEnd": 2001,
+      "trans": "4-speed automatic",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON (key to Run position — do not start).",
+        "Locate the shift lock override: small cap near selector base on center console.",
+        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Blazer S10 (1991-2005)",
+      "yearStart": 1991,
+      "yearEnd": 2005,
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small cap or slot near console selector base or column if column shift",
+      "shift": [
+        "Turn ignition to ON.",
+        "CONSOLE SHIFT: locate cap near selector base. Pry off. Insert key and press firmly. Press brake. Move to Neutral.",
+        "COLUMN SHIFT: slot is on the STEERING COLUMN. Insert key into column slot, press, press brake, move column lever to Neutral.",
+        "MANUAL: depress clutch and move lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "4WD: transfer case must be in 2WD before wheel-lift towing."
+      ],
+      "notes": "Some trims have column shifter — slot is on steering column, not console.",
+      "warn": "4WD: confirm transfer case in 2WD before wheel-lift.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear.",
+      "tc": {
+        "type": "Manual floor lever (most trims)",
+        "positions": [
+          "2H — rear wheels only",
+          "4H — 4WD high",
+          "4L — 4WD low, never tow in this position"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move TC floor lever to 2H.",
+          "Confirm 2WD before lifting."
+        ]
+      },
+      "towNotes": [
+        "RWD: lift from rear.",
+        "4WD: TC to 2H first."
+      ],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Camaro (4th Gen 1993-2002)",
+      "yearStart": 1993,
+      "yearEnd": 2002,
+      "trans": "4-speed automatic or 6-speed manual",
+      "drivetrain": "RWD",
+      "slot": "Cap near console selector base",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: Locate shift lock slot — cap near console selector base.",
+        "Pry off cap. Insert key and press firmly.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual trans: depress clutch, Neutral. RWD sports car.",
+      "warn": "",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear. Flatbed preferred for low-clearance variants."
+      ],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
     }
   ]
 }

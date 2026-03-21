@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Jaguar",
-  "_count": 7,
+  "_count": 9,
   "vehicles": [
     {
       "make": "Jaguar",
@@ -403,6 +403,92 @@
         {
           "title": "Aluminum Body — Do Not Hook or Chain",
           "detail": "The XJ uses an all-aluminum body structure. Standard chains or hooks on the body panels will cause serious damage. Always use wheel baskets/straps or hook only at proper tow points. Never drape chains over the body."
+        }
+      ]
+    },
+    {
+      "make": "Jaguar",
+      "model": "XJ6 / XJ8 (X300/X308 1995-2003)",
+      "yearStart": 1995,
+      "yearEnd": 2003,
+      "trans": "4-speed automatic (X300) or 5-speed automatic (X308 ZF 5HP24)",
+      "drivetrain": "RWD",
+      "slot": "JaguarDrive rotary dial or J-gate lever — override slot at selector base under console trim",
+      "shift": [
+        "Turn ignition to ON.",
+        "X300 (1995-1997): J-gate lever selector — locate override slot at selector base. Insert key, press firmly.",
+        "X308 (1997-2003): JaguarDrive rotary dial — locate slot near rotary base under console trim. Insert key, press.",
+        "While holding override, press the brake pedal.",
+        "Move selector or rotate dial to Neutral. Confirm N on cluster."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under the hood — use AGM-compatible jump pack.",
+        "Once powered, press brake and shift normally.",
+        "RWD: lift from rear — rear (drive) wheels in the air.",
+        "Aluminum body on X308 — do NOT hook or chain to body panels. Use wheel baskets or flatbed."
+      ],
+      "notes": "X308 has aluminum body — no chains on body. AGM battery.",
+      "warn": "Aluminum body — do NOT hook chains to body panels. Use wheel straps/baskets only.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Flatbed preferred for aluminum-bodied X308.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Aluminum body — no chains on body panels. Flatbed preferred."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "AGM battery. Aluminum body — no chains on body."
+      },
+      "knownIssues": [
+        {
+          "title": "Aluminum Body — No Chains on Body Panels",
+          "detail": "The X308 XJ8 uses an aluminum body structure. Standard chains or hooks will cause serious damage. Always use wheel baskets or soft straps. Never drape chains over the body."
+        }
+      ]
+    },
+    {
+      "make": "Jaguar",
+      "model": "XJ-S / XJS (1991-1996)",
+      "yearStart": 1991,
+      "yearEnd": 1996,
+      "trans": "3-speed automatic (GM TH400 early) or 4-speed automatic (GM 4L80E later)",
+      "drivetrain": "RWD",
+      "slot": "Console-mounted selector — override slot or button near selector base",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the override slot or button near the selector base on the center console.",
+        "Insert key or flathead into slot and press firmly.",
+        "While holding, press brake pedal.",
+        "Move selector to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under the hood — connect jump pack.",
+        "Once powered, press brake and shift normally.",
+        "RWD: lift from rear — rear (drive) wheels in the air.",
+        "Very low, long vehicle — check clearance carefully. Flatbed strongly preferred."
+      ],
+      "notes": "Grand tourer. Very low clearance. Flatbed strongly preferred.",
+      "warn": "Extremely low ground clearance. Flatbed strongly preferred — minimal ramp angle required.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Flatbed strongly preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Very low clearance — flatbed strongly preferred."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Very low clearance — flatbed strongly preferred."
+      },
+      "knownIssues": [
+        {
+          "title": "Extremely Low Ground Clearance",
+          "detail": "The XJ-S is a long, low grand tourer with very limited ground clearance. Flatbed loading requires a minimal approach angle. Use ramp extenders where available. Wheel-lift is possible but clearance is tight."
         }
       ]
     }

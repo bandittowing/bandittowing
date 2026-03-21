@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Land Rover",
-  "_count": 7,
+  "_count": 10,
   "vehicles": [
     {
       "make": "Land Rover",
@@ -538,6 +538,154 @@
         "jumpTerminals": "Under hood — AGM rated",
         "type": "agm-12v",
         "warnings": "AGM battery — use AGM-rated pack. Permanent AWD — TC neutral required. PHEV: 12V only."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Classic (1990-1995)",
+      "yearStart": 1990,
+      "yearEnd": 1995,
+      "trans": "4-speed automatic (ZF 4HP22) or 4-speed manual (LT77)",
+      "drivetrain": "4WD (permanent AWD with manual TC)",
+      "slot": "Console-mounted selector — override slot or mechanical release at selector base",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: locate override slot or mechanical release near selector base on console.",
+        "Insert flathead screwdriver into slot and press/lever the interlock cam upward.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under the hood — standard location. Connect jump pack.",
+        "Once powered, shift normally.",
+        "PERMANENT 4WD — transfer case must be in Neutral for flatbed or four-wheel-down towing.",
+        "Manual TC lever: stop completely, move TC to Neutral position.",
+        "NEVER wheel-lift front or rear only — permanent AWD will destroy drivetrain."
+      ],
+      "notes": "Permanent 4WD. TC must be in Neutral for any towing. Manual TC lever.",
+      "warn": "PERMANENT AWD — NEVER wheel-lift front or rear only. TC must be in Neutral.",
+      "towMethod": "FLATBED with TC in Neutral. Four-wheel-down: TC in Neutral, max 30 mph / 30 miles. NEVER wheel-lift front or rear alone.",
+      "tc": {
+        "type": "Manual floor lever transfer case (LT230)",
+        "positions": [
+          "Neutral (N) — REQUIRED for towing",
+          "High Range — normal driving",
+          "Low Range — NEVER tow in low"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move TC floor lever to Neutral.",
+          "Confirm Neutral before loading or towing."
+        ]
+      },
+      "towNotes": [
+        "Permanent AWD — TC must be in Neutral for any towing.",
+        "Never wheel-lift front or rear alone.",
+        "Manual TC lever — stop completely before shifting TC."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Permanent AWD — never wheel-lift without TC in Neutral."
+      },
+      "knownIssues": [
+        {
+          "title": "Permanent AWD — Wheel-Lift Will Destroy Drivetrain",
+          "detail": "The Range Rover Classic has permanent 4WD with no 2WD mode. You CANNOT wheel-lift from either end without first putting the transfer case in Neutral. Attempting to tow with only two wheels off the ground while TC is engaged will destroy the transfer case and differentials."
+        }
+      ]
+    },
+    {
+      "make": "Land Rover",
+      "model": "Discovery (1st Gen 1994-1999)",
+      "yearStart": 1994,
+      "yearEnd": 1999,
+      "trans": "4-speed automatic (ZF 4HP22/24) or 5-speed manual (R380)",
+      "drivetrain": "4WD (permanent AWD with TC)",
+      "slot": "Console-mounted selector — override slot at selector base",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: locate the override slot at the selector base on the center console.",
+        "Insert a flathead screwdriver or key and press the interlock cam to release.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under the hood — connect jump pack.",
+        "Once powered, shift normally.",
+        "PERMANENT AWD — TC must be in Neutral for flatbed or four-wheel-down towing.",
+        "Manual TC floor lever: stop completely, shift to Neutral.",
+        "NEVER wheel-lift front or rear only."
+      ],
+      "notes": "Permanent AWD. Manual TC floor lever. Same rules as Range Rover Classic.",
+      "warn": "PERMANENT AWD — NEVER wheel-lift front or rear alone. TC to Neutral before any towing.",
+      "towMethod": "FLATBED with TC in Neutral. Four-wheel-down: TC Neutral, max 30 mph / 30 miles. NEVER wheel-lift.",
+      "tc": {
+        "type": "Manual floor lever transfer case (LT230)",
+        "positions": [
+          "Neutral — REQUIRED for towing",
+          "High Range",
+          "Low Range — NEVER tow in low"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move TC floor lever to Neutral.",
+          "Confirm Neutral before loading."
+        ]
+      },
+      "towNotes": [
+        "Permanent AWD — TC to Neutral before towing.",
+        "Never wheel-lift front or rear alone.",
+        "Stop completely before shifting TC lever."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Permanent AWD — TC Neutral required for any towing."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Land Rover",
+      "model": "Freelander (2002-2005)",
+      "yearStart": 2002,
+      "yearEnd": 2005,
+      "trans": "5-speed automatic (Jatco) or 5-speed manual",
+      "drivetrain": "AWD (Haldex / IRD)",
+      "slot": "Console-mounted selector — override slot near selector base",
+      "shift": [
+        "Turn ignition to ON (key to Run position — do not start).",
+        "Locate the shift lock override: cap or slot near selector base on center console.",
+        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under the hood — connect jump pack.",
+        "Once powered, press brake and shift normally.",
+        "FLATBED ONLY — Freelander Haldex AWD cannot be disabled. No 2WD mode.",
+        "MANUAL: depress clutch and move to Neutral. FLATBED ONLY — no 2WD."
+      ],
+      "notes": "Haldex AWD — FLATBED ONLY. No 2WD mode on any Freelander trim.",
+      "warn": "FLATBED ONLY — Haldex AWD cannot be disabled. Never wheel-lift.",
+      "towMethod": "FLATBED ONLY — permanent Haldex AWD with no 2WD mode.",
+      "tc": null,
+      "towNotes": [
+        "Haldex AWD — flatbed only. No 2WD mode."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Flatbed only — no 2WD mode."
       },
       "knownIssues": []
     }

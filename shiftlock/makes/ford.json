@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Ford",
-  "_count": 20,
+  "_count": 26,
   "vehicles": [
     {
       "make": "Ford",
@@ -966,6 +966,246 @@
         "type": "standard-12v",
         "warnings": ""
       }
+    },
+    {
+      "make": "Ford",
+      "model": "Taurus (1992-2007)",
+      "yearStart": 1992,
+      "yearEnd": 2007,
+      "trans": "4-speed automatic (AX4S/AX4N) or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console, or column-mounted (older trims)",
+      "shift": [
+        "Turn ignition to ON.",
+        "CONSOLE SHIFT: cap near selector base. Pry off. Insert key, press firmly. Press brake. Move to Neutral.",
+        "COLUMN SHIFT (some trims): slot is on the STEERING COLUMN. Insert key, press, press brake, move column lever to Neutral.",
+        "MANUAL: depress clutch and move to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Some trims have column shift — slot is on steering column.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. SHO AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "SHO V8 AWD: flatbed preferred."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang (4th Gen SN95 1994-2004)",
+      "yearStart": 1994,
+      "yearEnd": 2004,
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "RWD",
+      "slot": "Cap near console selector base",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: Locate shift lock slot — cap near console selector base.",
+        "Pry off cap. Insert key and press firmly.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side near firewall.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual trans: depress clutch, Neutral. RWD sports car.",
+      "warn": "",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear."
+      ],
+      "battery": {
+        "location": "Under hood, driver side near firewall",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Ford",
+      "model": "Explorer (1st/2nd Gen 1991-2001)",
+      "yearStart": 1991,
+      "yearEnd": 2001,
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Column shifter — slot on STEERING COLUMN",
+      "shift": [
+        "Turn ignition to ON.",
+        "Explorer uses a COLUMN-MOUNTED shifter — shift lock slot is on the STEERING COLUMN, not the console.",
+        "Insert a thin key or flathead into the column slot and press firmly.",
+        "While holding, press brake. Move column lever to Neutral.",
+        "MANUAL: depress clutch and move to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "4WD: transfer case to 2H before wheel-lift."
+      ],
+      "notes": "Column shifter — slot on steering column, not console.",
+      "warn": "4WD: TC to 2H before towing.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: TC to 2H first, then lift from rear.",
+      "tc": {
+        "type": "Manual floor lever (Touch-Drive or Control-Trac)",
+        "positions": [
+          "2H",
+          "4H",
+          "4L"
+        ],
+        "steps": [
+          "Stop or slow to under 3 mph.",
+          "Move TC to 2H.",
+          "Confirm 2WD before lifting."
+        ]
+      },
+      "towNotes": [
+        "Column shifter — slot on steering column.",
+        "RWD: lift from rear. 4WD: TC to 2H."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Ford",
+      "model": "F-150 (1992-1996 F-Series)",
+      "yearStart": 1992,
+      "yearEnd": 1996,
+      "trans": "4-speed automatic (AODE/4R70W) or 5-speed manual",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Column shift — slot on STEERING COLUMN. Console shift (some): cap near base.",
+      "shift": [
+        "Turn ignition to ON.",
+        "COLUMN SHIFT (most): shift lock slot is on the STEERING COLUMN. Insert key into column slot, press, press brake, move column lever to Neutral.",
+        "CONSOLE SHIFT (some trims): cap near selector base. Pry off, insert key, press, brake, move to Neutral.",
+        "MANUAL: depress clutch and move to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "4WD: transfer case to 2H before towing."
+      ],
+      "notes": "Many trims have column shifter. TC must be in 2H before wheel-lift.",
+      "warn": "4WD: TC to 2H before towing.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: TC to 2H first, then lift from rear.",
+      "tc": {
+        "type": "Manual floor lever transfer case",
+        "positions": [
+          "2H",
+          "4H",
+          "4L"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move TC floor lever to 2H.",
+          "Confirm 2WD before lifting."
+        ]
+      },
+      "towNotes": [
+        "Column shifter on many trims — slot on steering column.",
+        "RWD: lift from rear. 4WD: TC to 2H."
+      ],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Ford",
+      "model": "Crown Victoria / Mercury Grand Marquis (1992-2011)",
+      "yearStart": 1992,
+      "yearEnd": 2011,
+      "trans": "4-speed automatic (AOD/4R70W)",
+      "drivetrain": "RWD",
+      "slot": "Column shifter — slot on STEERING COLUMN",
+      "shift": [
+        "Turn ignition to ON.",
+        "Crown Victoria uses a COLUMN-MOUNTED shifter — shift lock slot is on the STEERING COLUMN.",
+        "Insert a thin key or flathead into the column slot and press firmly.",
+        "While holding, press the brake pedal.",
+        "Move the column lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, passenger side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Body-on-frame RWD. Very common fleet/police/taxi vehicle. Column shifter.",
+      "warn": "",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Very common — straightforward tow.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Column shifter — very common vehicle for operators."
+      ],
+      "battery": {
+        "location": "Under hood, passenger side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Ford",
+      "model": "Windstar (1995-2003)",
+      "yearStart": 1995,
+      "yearEnd": 2003,
+      "trans": "4-speed automatic (AX4S/AX4N)",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON (key to Run position — do not start).",
+        "Locate the shift lock override: small cap near selector base on center console.",
+        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
     }
   ]
 }

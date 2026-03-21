@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Acura",
-  "_count": 17,
+  "_count": 21,
   "vehicles": [
     {
       "make": "Acura",
@@ -678,6 +678,156 @@
         "type": "standard-12v",
         "warnings": ""
       }
+    },
+    {
+      "make": "Acura",
+      "model": "Legend (1991-1995)",
+      "yearStart": 1991,
+      "yearEnd": 1995,
+      "trans": "4-speed automatic or 6-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: Locate shift lock slot — small cap near selector base on center console.",
+        "Pry off cap. Insert key and press firmly.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual trans: depress clutch, select Neutral.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Acura",
+      "model": "Integra (1994-2001)",
+      "yearStart": 1994,
+      "yearEnd": 2001,
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: Locate shift lock slot — small cap near selector base on center console.",
+        "Pry off cap. Insert key and press firmly.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual trans: depress clutch, select Neutral.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Acura",
+      "model": "TL (1st Gen / 2.5 1995-1998)",
+      "yearStart": 1995,
+      "yearEnd": 1998,
+      "trans": "4-speed automatic",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON (key to Run position — do not start).",
+        "Locate the shift lock override: small cap near selector base on center console.",
+        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Acura",
+      "model": "NSX (1991-2005)",
+      "yearStart": 1991,
+      "yearEnd": 2005,
+      "trans": "4-speed automatic or 5/6-speed manual",
+      "drivetrain": "RWD",
+      "slot": "Cap near selector base; manual has no shift lock",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC: locate cap near selector base. Pry off. Insert key and press firmly.",
+        "While holding, press brake. Move to Neutral.",
+        "MANUAL: depress clutch and move gear lever to Neutral.",
+        "Mid-engine vehicle — battery is in the FRONT trunk (frunk), not at rear engine."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "BATTERY IS IN THE FRONT TRUNK (frunk) — NSX is mid-engine, battery is NOT at the rear.",
+        "Open the front hood to access battery. Connect jump pack.",
+        "Once powered, shift normally.",
+        "RWD: lift from rear — rear (drive) wheels in the air.",
+        "Very low clearance and high value — use flatbed with wheel grids only."
+      ],
+      "notes": "Mid-engine. Battery in frunk (front storage). High-value vehicle.",
+      "warn": "Battery in FRUNK — not at rear engine. Very high value — use padded equipment only.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Flatbed strongly preferred.",
+      "tc": null,
+      "towNotes": [
+        "Battery in frunk. RWD: lift from rear. Very high value — flatbed preferred."
+      ],
+      "battery": {
+        "location": "FRUNK (front storage compartment) — NOT at the rear engine",
+        "jumpTerminals": "Frunk — standard battery terminals",
+        "type": "standard-12v",
+        "warnings": "Battery in frunk. High-value vehicle — flatbed preferred."
+      },
+      "knownIssues": [
+        {
+          "title": "Battery in Frunk, Not at Rear Engine",
+          "detail": "The NSX is mid-engine. The battery is in the front storage compartment (frunk), not at the rear engine. Many operators open the rear engine lid and find no battery — open the FRONT hood."
+        }
+      ]
     }
   ]
 }

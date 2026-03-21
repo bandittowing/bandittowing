@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Alfa Romeo",
-  "_count": 3,
+  "_count": 4,
   "vehicles": [
     {
       "make": "Alfa Romeo",
@@ -174,6 +174,44 @@
         "jumpTerminals": "Under hood — standard",
         "type": "standard-12v",
         "warnings": "PHEV: 12V only, flatbed only."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "164 (1991-1995)",
+      "yearStart": 1991,
+      "yearEnd": 1995,
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap or slot near selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the small cap near the selector base on the center console.",
+        "Pry off cap with a key or thin flathead.",
+        "Insert key into the slot and press firmly.",
+        "While holding, press the brake pedal.",
+        "Move selector to Neutral.",
+        "MANUAL: depress clutch fully and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "FWD luxury sedan. Rare — manual may be more common on US models found.",
+      "warn": "Rare vehicle — unfamiliar connectors and trim. Consult owner manual if available.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "Rare vehicle — be cautious with trim removal."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
       },
       "knownIssues": []
     }

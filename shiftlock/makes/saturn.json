@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Saturn",
-  "_count": 5,
+  "_count": 7,
   "vehicles": [
     {
       "make": "Saturn",
@@ -253,6 +253,91 @@
         "jumpTerminals": "Under hood — standard",
         "type": "standard-12v",
         "warnings": "Plastic panels. AWD: flatbed. Heavy vehicle."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Saturn",
+      "model": "SL / SC / SW Series (1991-2002)",
+      "yearStart": 1991,
+      "yearEnd": 2002,
+      "trans": "3-speed or 4-speed automatic, or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the small cap near the selector base on the center console.",
+        "Pry off cap with a key.",
+        "Insert key into slot and press firmly.",
+        "While holding, press brake pedal.",
+        "Move selector to Neutral.",
+        "MANUAL: depress clutch and move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under the hood — connect jump pack.",
+        "Once powered, press brake and shift normally.",
+        "FWD: lift from front — front (drive) wheels in the air.",
+        "CRITICAL: Saturn has polymer PLASTIC BODY PANELS — do NOT hook or chain to body panels. Use subframe lift points or flatbed with wheel straps only."
+      ],
+      "notes": "Original Saturn compact. Plastic polymer body panels — NO chains on body panels.",
+      "warn": "PLASTIC BODY PANELS — do NOT hook or chain to body. Use subframe/frame lift only or flatbed.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. Flatbed strongly preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "Plastic panels — no chains on body. Subframe lift or flatbed only."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Plastic panels — no chains on body panels."
+      },
+      "knownIssues": [
+        {
+          "title": "Polymer Plastic Body Panels — No Chains",
+          "detail": "All 1st gen Saturn SL/SC/SW models have polymer plastic body panels. Tow chains or hooks on the body WILL crack or crush the panels. Always use the subframe or proper lift points. Flatbed with wheel straps is the safest method."
+        }
+      ]
+    },
+    {
+      "make": "Saturn",
+      "model": "LS / LW (2000-2002)",
+      "yearStart": 2000,
+      "yearEnd": 2002,
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON (key to Run position — do not start).",
+        "Locate the shift lock override: small cap near selector base on center console.",
+        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under the hood — connect jump pack.",
+        "Once powered, shift normally.",
+        "FWD: lift from front — front (drive) wheels in the air.",
+        "IMPORTANT: plastic body panels — do NOT chain or hook to body panels."
+      ],
+      "notes": "Larger Saturn sedan/wagon. Plastic body panels.",
+      "warn": "Plastic body panels — no chains on body.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "Plastic panels — no chains on body."
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Plastic panels."
       },
       "knownIssues": []
     }
