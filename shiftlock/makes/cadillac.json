@@ -31,14 +31,14 @@
       "notes": "4WD: transfer case to 2H before towing on road.",
       "warn": "4WD: transfer case MUST be in 2H before towing.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
-        "type": "Electric push-button (Autotrac) — 2000-2002 may have manual lever",
+        "type": "Electric push-button (Autotrac) \u2014 2000-2002 may have manual lever",
         "positions": [
-          "2WD (2H) — rear wheels only, for all road towing",
-          "4WD Auto — automatic AWD engagement (NOT safe for towing)",
-          "4WD Hi (4H) — part-time 4WD high range (NOT safe for dry-road towing)",
-          "4WD Lo (4L) — low range — NEVER tow in this position"
+          "2WD (2H) \u2014 rear wheels only, for all road towing",
+          "4WD Auto \u2014 automatic AWD engagement (NOT safe for towing)",
+          "4WD Hi (4H) \u2014 part-time 4WD high range (NOT safe for dry-road towing)",
+          "4WD Lo (4L) \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH or come to a complete stop.",
@@ -46,34 +46,53 @@
           "MANUAL LEVER (older models): Stop completely. Move the transfer case floor lever firmly to the 2H position.",
           "Confirm the 2WD indicator lamp is ON before lifting rear wheels.",
           "Verify all 4WD indicator lights are OFF.",
-          "NEVER tow in 4H, 4WD Auto, or 4L — serious driveline damage will result.",
+          "NEVER tow in 4H, 4WD Auto, or 4L \u2014 serious driveline damage will result.",
           "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
         ]
       },
       "towNotes": [
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [
         {
-          "title": "Transfer Case Must Be in 2WD — Not Just Neutral",
+          "title": "Transfer Case Must Be in 2WD \u2014 Not Just Neutral",
           "detail": "Operators sometimes shift the transfer case to Neutral thinking that's safe to tow. The driveshaft is still connected in TC Neutral on these models. Transfer case MUST be in 2WD (2H) for wheel-lift towing, not just neutral."
         },
         {
-          "title": "Heavy Vehicle — Equipment Ratings",
-          "detail": "Escalade curb weight ranges 5,600–6,200 lbs depending on year and trim. Verify your wheel-lift and strapping equipment is rated appropriately before attempting to lift."
+          "title": "Heavy Vehicle \u2014 Equipment Ratings",
+          "detail": "Escalade curb weight ranges 5,600\u20136,200 lbs depending on year and trim. Verify your wheel-lift and strapping equipment is rated appropriately before attempting to lift."
         }
       ],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard red (+) / black (−)",
+        "jumpTerminals": "Under hood \u2014 standard red (+) / black (\u2212)",
         "type": "standard-12v",
         "warnings": "Heavy vehicle. Verify TC is in 2WD before lifting."
-      }
+      },
+      "slug": "cadillac-escalade-1st-3rd-gen-2000-2014",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Magnetic Ride Control / Automatic Level Control air suspension.",
+        "towingNotes": [
+          "ALC maintains rear level.",
+          "Engage Tow-Haul mode when towing.",
+          "Battery jump to normalize if vehicle is low."
+        ]
+      },
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Cadillac",
@@ -81,7 +100,7 @@
       "yearStart": 2015,
       "yearEnd": 2026,
       "trans": "6-speed (6L80) or 10-speed (10L80) automatic",
-      "slot": "Electronic selector on console — slot near base or under a trim panel",
+      "slot": "Electronic selector on console \u2014 slot near base or under a trim panel",
       "shift": [
         "Ignition to ON.",
         "Locate trim panel near electronic selector. Remove or pry.",
@@ -94,50 +113,72 @@
         "Battery under hood.",
         "Connect jump pack. Shift normally or use slot."
       ],
-      "notes": "Escalade IQ EV (2025+): 12V only — flatbed required.",
+      "notes": "Escalade IQ EV (2025+): 12V only \u2014 flatbed required.",
       "warn": "Escalade IQ EV: FLATBED ONLY. 4WD: transfer case to 2H.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric rotary dial or push-button (Autotrac)",
         "positions": [
-          "2WD — rear wheels only, for all road towing",
-          "4WD Auto — automatic AWD (NOT safe for towing)",
-          "4WD Hi — part-time 4WD (NOT safe for dry-road towing)",
-          "4WD Lo — low range — NEVER tow in this position"
+          "2WD \u2014 rear wheels only, for all road towing",
+          "4WD Auto \u2014 automatic AWD (NOT safe for towing)",
+          "4WD Hi \u2014 part-time 4WD (NOT safe for dry-road towing)",
+          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH.",
           "Turn the rotary transfer case dial (or press 2WD button) on the center console to 2WD.",
           "Wait for the 2WD indicator to illuminate on the instrument cluster.",
           "Verify all 4WD lights are OFF before lifting rear wheels.",
-          "Escalade IQ EV (2025+): FLATBED ONLY — electric drivetrain, no transfer case.",
+          "Escalade IQ EV (2025+): FLATBED ONLY \u2014 electric drivetrain, no transfer case.",
           "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
         ]
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [
         {
           "title": "Electronic Selector Requires Power",
-          "detail": "4th and 5th gen Escalade uses a fully electronic gear selector. With a dead battery, the shift lock slot must be used. The slot is concealed under a trim panel — locate it before the job if possible."
+          "detail": "4th and 5th gen Escalade uses a fully electronic gear selector. With a dead battery, the shift lock slot must be used. The slot is concealed under a trim panel \u2014 locate it before the job if possible."
         },
         {
-          "title": "Escalade IQ EV (2025+) — Flatbed Only",
+          "title": "Escalade IQ EV (2025+) \u2014 Flatbed Only",
           "detail": "The 2025 Escalade IQ is a full EV. FLATBED ONLY. No transfer case. 12V auxiliary battery only for electronics. Never touch the HV propulsion battery."
         }
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
-        "warnings": "Escalade IQ EV: 12V auxiliary only — never touch HV battery."
-      }
+        "warnings": "Escalade IQ EV: 12V auxiliary only \u2014 never touch HV battery."
+      },
+      "slug": "cadillac-escalade-4th-5th-gen-2015-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button to release."
+        ]
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Magnetic Ride Control / Automatic Level Control air suspension.",
+        "towingNotes": [
+          "ALC maintains rear level.",
+          "Engage Tow-Haul mode when towing.",
+          "Battery jump to normalize if vehicle is low."
+        ]
+      },
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Cadillac",
@@ -145,7 +186,7 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "9-speed automatic",
-      "slot": "Electronic selector — slot near base",
+      "slot": "Electronic selector \u2014 slot near base",
       "shift": [
         "Ignition to ON.",
         "Find slot near electronic selector.",
@@ -160,7 +201,7 @@
       "notes": "",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -168,10 +209,24 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "cadillac-xt4-2019-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button to release."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Cadillac",
@@ -179,7 +234,7 @@
       "yearStart": 2017,
       "yearEnd": 2026,
       "trans": "8-speed automatic",
-      "slot": "Electronic selector — slot near base",
+      "slot": "Electronic selector \u2014 slot near base",
       "shift": [
         "Ignition to ON.",
         "Find slot near selector.",
@@ -194,7 +249,7 @@
       "notes": "AWD standard on most trims.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -202,10 +257,24 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "cadillac-xt5-2017-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button to release."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Cadillac",
@@ -213,7 +282,7 @@
       "yearStart": 2020,
       "yearEnd": 2026,
       "trans": "9-speed automatic",
-      "slot": "Electronic selector — slot near base",
+      "slot": "Electronic selector \u2014 slot near base",
       "shift": [
         "Ignition to ON.",
         "Find slot near selector.",
@@ -228,7 +297,7 @@
       "notes": "3-row SUV. AWD standard.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -236,10 +305,32 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "cadillac-xt6-2020-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button to release."
+        ]
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Magnetic Ride Control / Automatic Level Control air suspension.",
+        "towingNotes": [
+          "ALC maintains rear level.",
+          "Engage Tow-Haul mode when towing.",
+          "Battery jump to normalize if vehicle is low."
+        ]
+      },
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Cadillac",
@@ -247,7 +338,7 @@
       "yearStart": 2020,
       "yearEnd": 2026,
       "trans": "8-speed or 10-speed automatic",
-      "slot": "Electronic selector — slot near base",
+      "slot": "Electronic selector \u2014 slot near base",
       "shift": [
         "Ignition to ON.",
         "Find slot near selector.",
@@ -262,7 +353,7 @@
       "notes": "Blackwing manual: clutch to N.",
       "warn": "",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
@@ -271,10 +362,24 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "cadillac-ct4-ct5-2020-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button to release."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Cadillac",
@@ -282,7 +387,7 @@
       "yearStart": 2023,
       "yearEnd": 2026,
       "trans": "Single-speed electric",
-      "slot": "Electronic selector — slot near selector base",
+      "slot": "Electronic selector \u2014 slot near selector base",
       "shift": [
         "WITH POWER: Press brake. Select N.",
         "WITHOUT POWER: Find slot near selector base. Insert key, press down. Press brake. Select N."
@@ -295,20 +400,34 @@
       "notes": "Fully electric crossover.",
       "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
       "drivetrain": "RWD or AWD (electric)",
-      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "towMethod": "FLATBED ONLY \u2014 electric drivetrain",
       "tc": null,
       "towNotes": [
-        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "ELECTRIC VEHICLE: FLATBED ONLY \u2014 never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
         "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
-        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+        "12V battery ONLY for jumping \u2014 NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood (12V auxiliary)",
-        "jumpTerminals": "Under hood — 12V auxiliary terminals only",
+        "jumpTerminals": "Under hood \u2014 12V auxiliary terminals only",
         "type": "auxiliary-12v-only",
         "warnings": "NEVER touch HV battery. 12V auxiliary only."
-      }
+      },
+      "slug": "cadillac-lyriq-2023-2026",
+      "fuelType": "electric",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button to release."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     }
   ]
 }

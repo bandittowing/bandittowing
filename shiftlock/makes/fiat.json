@@ -1,0 +1,216 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. Unauthorized use prohibited.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Fiat",
+  "_count": 4,
+  "vehicles": [
+    {
+      "make": "Fiat",
+      "model": "500 (2012-2019)",
+      "yearStart": 2012,
+      "yearEnd": 2019,
+      "slug": "fiat-500-2012-2019",
+      "fuelType": "gasoline",
+      "trans": "5-speed automatic or 6-speed manual",
+      "drivetrain": "FWD",
+      "curbWeight": "2,363\u20132,513 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Small cap or slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition ON.",
+        "Locate small cap near selector base. Pry off.",
+        "Insert key, press plunger down.",
+        "Press brake. Move to N.",
+        "Replace cap.",
+        "MANUAL: depress clutch, select N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Restore power. Shift normally or use slot.",
+        "FWD: rear lift \u2014 front wheels roll."
+      ],
+      "notes": "Small, light vehicle. FWD \u2014 rear lift. Manual trans: depress clutch, N.",
+      "warn": "Very small vehicle \u2014 watch clearance under tow truck.",
+      "towMethod": "Lift from rear (front FWD wheels roll). Flatbed optional.",
+      "tc": null,
+      "towNotes": [
+        "Very small and light \u2014 simple wheel-lift from rear.",
+        "Low clearance \u2014 check ramp angle."
+      ],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated or electronic.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "type": "standard-12v",
+        "warnings": "Small vehicle \u2014 watch clearance."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Fiat",
+      "model": "500e EV (2020-2024)",
+      "yearStart": 2020,
+      "yearEnd": 2024,
+      "slug": "fiat-500e-2020-2024",
+      "fuelType": "electric",
+      "trans": "Single-speed electric",
+      "drivetrain": "FWD electric",
+      "curbWeight": "3,020 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Electronic \u2014 touchscreen or selector override near base",
+      "shift": [
+        "Locate selector override near base.",
+        "Insert key, press.",
+        "Press brake. Move to N.",
+        "Preferred: restore 12V and use electronic selector."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "12V battery under hood or in accessible location.",
+        "Connect jump pack to 12V terminals only.",
+        "Restore power. Select N on selector.",
+        "FLATBED ONLY \u2014 electric drivetrain.",
+        "Never touch HV battery."
+      ],
+      "notes": "FLATBED ONLY. Electric FWD. 12V only.",
+      "warn": "FLATBED ONLY. 12V only \u2014 never touch HV system.",
+      "towMethod": "FLATBED ONLY \u2014 electric drivetrain.",
+      "tc": null,
+      "towNotes": [
+        "Electric FWD \u2014 flatbed only.",
+        "Light vehicle \u2014 straightforward flatbed load."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button.",
+        "steps": [
+          "Restore 12V.",
+          "Hold EPB button."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic.",
+      "battery": {
+        "location": "Under hood \u2014 12V auxiliary",
+        "jumpTerminals": "Under hood \u2014 12V only",
+        "type": "auxiliary-12v-only",
+        "warnings": "FLATBED ONLY. 12V only."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Fiat",
+      "model": "500X (2016-2024)",
+      "yearStart": 2016,
+      "yearEnd": 2024,
+      "slug": "fiat-500x-2016-2024",
+      "fuelType": "gasoline",
+      "trans": "6-speed or 9-speed automatic; mild hybrid (2021+)",
+      "drivetrain": "FWD or AWD",
+      "curbWeight": "3,075\u20133,515 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Override slot near selector base under console trim",
+      "shift": [
+        "Locate override slot at selector base.",
+        "Insert key, press.",
+        "Press brake. Move to N. Confirm.",
+        "AWD: flatbed preferred."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Restore power. Shift normally or via override.",
+        "AWD: flatbed preferred."
+      ],
+      "notes": "FWD: rear lift. AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from rear. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "AWD: no TC neutral \u2014 flatbed."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button.",
+        "steps": [
+          "Restore 12V.",
+          "Hold EPB."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard",
+        "type": "standard-12v",
+        "warnings": "AWD: flatbed preferred."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Fiat",
+      "model": "500L (2014-2020)",
+      "yearStart": 2014,
+      "yearEnd": 2020,
+      "slug": "fiat-500l-2014-2020",
+      "fuelType": "gasoline",
+      "trans": "6-speed dual-clutch (DCT) or 6-speed manual",
+      "drivetrain": "FWD",
+      "curbWeight": "3,196\u20133,307 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Override slot near selector base",
+      "shift": [
+        "Locate override near selector base.",
+        "Insert key, press.",
+        "Press brake. Move to N.",
+        "Manual: depress clutch, select N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Shift normally.",
+        "FWD: rear lift."
+      ],
+      "notes": "FWD \u2014 rear lift. DCT: rear lift only (not flat-tow).",
+      "warn": "DCT transmission: rear lift only, not flat-tow.",
+      "towMethod": "Lift from rear (front FWD wheels roll). Do not flat-tow DCT.",
+      "tc": null,
+      "towNotes": [
+        "DCT: rear lift only.",
+        "FWD: straightforward."
+      ],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key or electronic.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard",
+        "type": "standard-12v",
+        "warnings": "DCT: rear lift only."
+      },
+      "knownIssues": []
+    }
+  ]
+}

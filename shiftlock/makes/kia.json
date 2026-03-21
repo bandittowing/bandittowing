@@ -33,7 +33,7 @@
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
@@ -42,10 +42,21 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals. Hybrid/PHEV: 12V only.",
+        "jumpTerminals": "Under hood \u2014 standard terminals. Hybrid/PHEV: 12V only.",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "kia-sorento-2003-2026",
+      "fuelType": "hybrid",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Kia",
@@ -68,20 +79,31 @@
       "notes": "",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release \u2014 use flatbed if shift override fails."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals. Hybrid/PHEV: 12V only.",
+        "jumpTerminals": "Under hood \u2014 standard terminals. Hybrid/PHEV: 12V only.",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "kia-sportage-2005-2026",
+      "fuelType": "hybrid",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Kia",
@@ -89,7 +111,7 @@
       "yearStart": 2020,
       "yearEnd": 2026,
       "trans": "8-speed automatic",
-      "slot": "Electronic selector — slot near selector base",
+      "slot": "Electronic selector \u2014 slot near selector base",
       "shift": [
         "Ignition to ON.",
         "Find slot near electronic selector.",
@@ -102,9 +124,9 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "AWD optional. 3-row SUV.",
-      "warn": "AWD — flatbed preferred.",
+      "warn": "AWD \u2014 flatbed preferred.",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -112,10 +134,24 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "kia-telluride-2020-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button until brake releases."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Kia",
@@ -123,7 +159,7 @@
       "yearStart": 2022,
       "yearEnd": 2026,
       "trans": "Single-speed electric",
-      "slot": "Electronic selector — slot near selector base",
+      "slot": "Electronic selector \u2014 slot near selector base",
       "shift": [
         "WITH POWER: Press brake. Select N.",
         "WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."
@@ -136,16 +172,16 @@
       "notes": "E-GMP platform shared with Hyundai Ioniq 5.",
       "warn": "FLATBED ONLY.",
       "drivetrain": "RWD or AWD (electric)",
-      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "towMethod": "FLATBED ONLY \u2014 electric drivetrain",
       "tc": null,
       "towNotes": [
-        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "ELECTRIC VEHICLE: FLATBED ONLY \u2014 never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
         "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
-        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+        "12V battery ONLY for jumping \u2014 NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
       ],
       "knownIssues": [
         {
-          "title": "800V System — Extreme HV Hazard",
+          "title": "800V System \u2014 Extreme HV Hazard",
           "detail": "The EV6 shares the 800V E-GMP platform with the Hyundai Ioniq 5. This is double the voltage of standard EVs. Never probe, access, or touch any orange HV cables or connectors. 12V auxiliary battery under hood only for all electrical operations."
         },
         {
@@ -155,10 +191,24 @@
       ],
       "battery": {
         "location": "Under hood (12V auxiliary)",
-        "jumpTerminals": "Under hood — 12V auxiliary terminals only",
+        "jumpTerminals": "Under hood \u2014 12V auxiliary terminals only",
         "type": "auxiliary-12v-only",
         "warnings": "800V HV system. NEVER touch HV components. 12V auxiliary only. Flatbed only."
-      }
+      },
+      "slug": "kia-ev6-2022-2026",
+      "fuelType": "electric",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button until brake releases."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Kia",
@@ -178,9 +228,9 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "RWD or AWD.",
-      "warn": "AWD — flatbed preferred.",
+      "warn": "AWD \u2014 flatbed preferred.",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
@@ -189,10 +239,24 @@
       "knownIssues": [],
       "battery": {
         "location": "In trunk, under panel",
-        "jumpTerminals": "Under hood: fused red (+) terminal, black ground bolt (−)",
+        "jumpTerminals": "Under hood: fused red (+) terminal, black ground bolt (\u2212)",
         "type": "agm-12v",
-        "warnings": "Use hood terminals — not trunk battery directly."
-      }
+        "warnings": "Use hood terminals \u2014 not trunk battery directly."
+      },
+      "slug": "kia-stinger-2018-2023",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button until brake releases."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Kia",
@@ -215,20 +279,31 @@
       "notes": "",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release \u2014 use flatbed if shift override fails."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "kia-k5-optima-2001-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     }
   ]
 }

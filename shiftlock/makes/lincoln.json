@@ -1,0 +1,339 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Lincoln",
+  "_count": 6,
+  "vehicles": [
+    {
+      "make": "Lincoln",
+      "model": "Navigator (2015-2024)",
+      "yearStart": 2015,
+      "yearEnd": 2024,
+      "slug": "lincoln-navigator-2015-2024",
+      "fuelType": "gasoline",
+      "trans": "6-speed or 10-speed SelectShift automatic",
+      "drivetrain": "RWD or 4WD (part-time, Torque on Demand)",
+      "curbWeight": "5,685\u20136,056 lbs (varies by wheelbase/drivetrain)",
+      "gvwr": "7,300\u20137,600 lbs",
+      "slot": "Below media hub in center console storage bin \u2014 small access hole",
+      "shift": [
+        "Open center console storage bin lid.",
+        "Locate small override hole below the media hub/USB ports.",
+        "Press and hold the brake shift interlock override button in that hole with a key or flathead.",
+        "While holding, press the N (Neutral) button on the electronic shifter.",
+        "Confirm N is displayed. Release override button."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "12V battery is under hood on passenger side near windshield base.",
+        "Connect jump pack to under-hood terminals (red +, black \u2212).",
+        "Once power is restored, use override hole + N button procedure above.",
+        "Confirm N before lifting."
+      ],
+      "notes": "4WD Torque on Demand: transfer case must be in 2H before wheel-lift tow.",
+      "warn": "Transfer case to 2H before towing. Flatbed strongly preferred.",
+      "towMethod": "4WD models: transfer case to 2H, then wheel-lift from front (rear drive wheels roll). RWD: lift from front. Flatbed strongly preferred for all configurations.",
+      "tc": {
+        "type": "Electronic Torque on Demand (part-time 4WD, push-button on dash)",
+        "positions": [
+          "2WD \u2014 REQUIRED for all road towing",
+          "4WD Auto \u2014 NOT safe for towing",
+          "4WD High \u2014 NOT safe for dry road towing",
+          "4WD Low \u2014 NEVER tow in this position"
+        ],
+        "steps": [
+          "Slow to under 3 MPH.",
+          "Press the 2WD button on the dash. Wait for 2WD indicator lamp.",
+          "Confirm all 4WD indicators are OFF before wheel-lift.",
+          "IF BATTERY DEAD: Jump battery first to power TC, shift to 2WD, then tow."
+        ]
+      },
+      "towNotes": [
+        "ELECTRONIC TC requires 12V power. Jump battery first if dead.",
+        "If TC cannot be confirmed in 2WD, USE FLATBED.",
+        "Very heavy vehicle \u2014 confirm tow truck capacity before lifting."
+      ],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Lincoln Air Glide suspension (optional on some trims). Self-leveling. Automatically adjusts under load.",
+        "towingNotes": [
+          "Air suspension self-levels and maintains stance \u2014 no special towing procedure required.",
+          "Do NOT disable air suspension before loading on flatbed.",
+          "If suspension is failed/deflated, notify flatbed operator \u2014 vehicle will be lower than normal."
+        ]
+      },
+      "steeringLock": "Electronic steering lock. Releases with ignition ON. Will lock when ignition is removed \u2014 use tow dolly or flatbed to avoid binding.",
+      "battery": {
+        "location": "Under hood, passenger side near windshield base",
+        "jumpTerminals": "Under hood \u2014 standard red (+) / black (\u2212) terminals",
+        "type": "standard-12v",
+        "warnings": "4WD: confirm TC in 2WD before wheel-lift."
+      },
+      "knownIssues": [
+        {
+          "title": "Override Button Hidden Below Media Hub",
+          "detail": "The shift interlock override is NOT at the base of the shifter. It is a small hole BELOW the USB/media hub in the console storage bin. Many operators look at the shifter base and cannot find it. Look inside the bin, below the ports."
+        }
+      ]
+    },
+    {
+      "make": "Lincoln",
+      "model": "Aviator (2020-2024)",
+      "yearStart": 2020,
+      "yearEnd": 2024,
+      "slug": "lincoln-aviator-2020-2024",
+      "fuelType": "gasoline",
+      "trans": "10-speed SelectShift automatic (or Grand Touring PHEV)",
+      "drivetrain": "RWD or AWD",
+      "curbWeight": "4,745\u20135,673 lbs (RWD to AWD Grand Touring PHEV)",
+      "gvwr": "Not published \u2014 check door jamb label",
+      "slot": "Below media hub in center console storage bin \u2014 small access hole",
+      "shift": [
+        "Open center console storage bin lid.",
+        "Find override hole below the media hub.",
+        "Insert key or flathead, press and hold override button.",
+        "While holding, press N on the electronic shifter.",
+        "Confirm N is displayed."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "12V battery under hood, passenger side.",
+        "Connect jump pack. Restore power.",
+        "Use override hole + N button above.",
+        "PHEV: use 12V auxiliary only \u2014 NEVER touch high-voltage system."
+      ],
+      "notes": "Grand Touring PHEV: orange HV cables present \u2014 12V auxiliary only for jump.",
+      "warn": "AWD: FLATBED ONLY. PHEV: never touch HV battery.",
+      "towMethod": "AWD: FLATBED ONLY. RWD: lift from front (rear drive wheels roll). PHEV models: FLATBED ONLY regardless of drivetrain.",
+      "tc": null,
+      "towNotes": [
+        "AWD system does not have a neutral for the transfer case \u2014 flatbed mandatory.",
+        "PHEV Grand Touring: orange HV wiring present. 12V auxiliary jump only.",
+        "PHEV is significantly heavier than gas model \u2014 verify flatbed capacity."
+      ],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock. Will engage without ignition power.",
+      "battery": {
+        "location": "Under hood, passenger side",
+        "jumpTerminals": "Under hood \u2014 standard terminals. PHEV: 12V auxiliary only.",
+        "type": "standard-12v",
+        "warnings": "PHEV: NEVER touch HV battery. AWD: flatbed only."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Lincoln",
+      "model": "Nautilus / MKX (2007-2024)",
+      "yearStart": 2007,
+      "yearEnd": 2024,
+      "slug": "lincoln-nautilus-mkx-2007-2024",
+      "fuelType": "gasoline",
+      "trans": "6-speed or 8-speed SelectShift automatic",
+      "drivetrain": "FWD or AWD",
+      "curbWeight": "4,007\u20134,350 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Small plastic cap near base of gear selector on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate small cap near shifter base. Pry off with flathead.",
+        "Insert key, press down on plunger.",
+        "Press brake. Move selector to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot.",
+        "AWD: flatbed required \u2014 do not wheel-lift."
+      ],
+      "notes": "Earlier MKX (2007-2015) uses traditional shift slot. 2016+ Nautilus has electronic selector.",
+      "warn": "AWD: flatbed only.",
+      "towMethod": "FWD: lift from rear (front drive wheels roll). AWD: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "AWD system has no TC neutral \u2014 flatbed required.",
+        "FWD: rear lift, front (drive) wheels roll freely."
+      ],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Standard key or electronic steering lock.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "type": "standard-12v",
+        "warnings": "AWD: flatbed only."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Lincoln",
+      "model": "MKZ / Zephyr (2006-2023)",
+      "yearStart": 2006,
+      "yearEnd": 2023,
+      "slug": "lincoln-mkz-zephyr-2006-2023",
+      "fuelType": "gasoline",
+      "trans": "6-speed SelectShift automatic or hybrid eCVT",
+      "drivetrain": "FWD or AWD",
+      "curbWeight": "3,653\u20133,911 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Below media hub in center console storage bin \u2014 same as Navigator",
+      "shift": [
+        "Open center console bin.",
+        "Find override hole below media hub.",
+        "Press and hold with key/flathead.",
+        "Press N button on electronic shifter.",
+        "Confirm N displayed."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Restore power.",
+        "Use override procedure above.",
+        "Hybrid: 12V only \u2014 never touch IMA/HV battery."
+      ],
+      "notes": "Hybrid eCVT equipped trims: 12V auxiliary jump only.",
+      "warn": "AWD: flatbed only. Hybrid: 12V only.",
+      "towMethod": "FWD: lift from rear (front drive wheels roll). AWD: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "Hybrid: use 12V auxiliary only for jump. HV battery is orange-cable marked.",
+        "FWD models: rear lift only."
+      ],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock on push-button start models.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "type": "standard-12v",
+        "warnings": "Hybrid: 12V auxiliary only."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Lincoln",
+      "model": "Continental (2017-2020)",
+      "yearStart": 2017,
+      "yearEnd": 2020,
+      "slug": "lincoln-continental-2017-2020",
+      "fuelType": "gasoline",
+      "trans": "6-speed SelectShift automatic",
+      "drivetrain": "FWD or AWD",
+      "curbWeight": "4,044\u20134,253 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Small override hole below electronic shifter in center console",
+      "shift": [
+        "Open center console area.",
+        "Find override slot near the electronic gear selector base.",
+        "Insert key, press plunger.",
+        "Press brake. Press N on shifter display.",
+        "Confirm N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Primary battery: under hood. Secondary chassis battery may be in trunk right side behind panel.",
+        "Connect jump pack to under-hood terminals first.",
+        "Once powered, use override procedure above.",
+        "AWD: flatbed required."
+      ],
+      "notes": "Some models have secondary battery in trunk. Use under-hood terminals for jumping.",
+      "warn": "AWD: flatbed only.",
+      "towMethod": "FWD: lift from rear. AWD: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "Secondary battery may be in trunk \u2014 always jump from under-hood terminals.",
+        "AWD: flatbed mandatory."
+      ],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock.",
+      "battery": {
+        "location": "Under hood (primary). Possible secondary in trunk right side.",
+        "jumpTerminals": "Under hood \u2014 use hood terminals, NOT trunk battery for jumping",
+        "type": "standard-12v",
+        "warnings": "Always jump from under-hood terminals. AWD: flatbed only."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Lincoln",
+      "model": "Corsair / MKC (2015-2024)",
+      "yearStart": 2015,
+      "yearEnd": 2024,
+      "slug": "lincoln-corsair-mkc-2015-2024",
+      "fuelType": "gasoline",
+      "trans": "6-speed or 8-speed SelectShift automatic",
+      "drivetrain": "FWD or AWD",
+      "curbWeight": "3,665\u20134,033 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Below media hub in center console \u2014 same override hole as other Lincoln models",
+      "shift": [
+        "Open center console storage bin.",
+        "Find override hole below USB/media hub area.",
+        "Insert key or flathead, press and hold.",
+        "Press N on electronic shifter.",
+        "Confirm N displayed."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood (cover snaps off). Secondary access under spare tire in rear.",
+        "Pull back red rubber boot on positive terminal to access.",
+        "Connect jump pack. Restore power.",
+        "Use override procedure above.",
+        "AWD: flatbed required."
+      ],
+      "notes": "Compact crossover. AWD has no TC neutral \u2014 flatbed only for AWD.",
+      "warn": "AWD: flatbed only.",
+      "towMethod": "FWD: lift from rear (front drive wheels roll). AWD: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "AWD: no transfer case neutral \u2014 flatbed mandatory.",
+        "Compact vehicle \u2014 front access can be tight."
+      ],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock.",
+      "battery": {
+        "location": "Under hood (primary). Secondary battery access under spare tire in rear.",
+        "jumpTerminals": "Under hood \u2014 red rubber boot on positive terminal",
+        "type": "standard-12v",
+        "warnings": "AWD: flatbed only."
+      },
+      "knownIssues": []
+    }
+  ]
+}

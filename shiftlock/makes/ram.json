@@ -33,15 +33,15 @@
       "notes": "4WD: transfer case MUST be in 2H before towing on road.",
       "warn": "4WD: transfer case to 2H.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button (NV244/NV246 Autotrac) or manual lever depending on trim",
         "positions": [
-          "2WD (2H) — rear wheels only — REQUIRED for all road towing",
-          "4WD Auto — automatic AWD — NOT safe for towing",
-          "4WD Hi (4H) — part-time 4WD — NOT safe for dry-road towing",
-          "N — neutral (some models)",
-          "4WD Lo (4L) — low range — NEVER tow in this position"
+          "2WD (2H) \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
+          "4WD Hi (4H) \u2014 part-time 4WD \u2014 NOT safe for dry-road towing",
+          "N \u2014 neutral (some models)",
+          "4WD Lo (4L) \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH.",
@@ -55,16 +55,35 @@
       "towNotes": [
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": "Confirm TC in 2WD before lifting."
-      }
+      },
+      "slug": "ram-1500-classic-ds-2009-2021",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Air ride rear suspension available on Laramie Longhorn, Limited, TRX trims.",
+        "towingNotes": [
+          "Not all Ram 1500s have air suspension \u2014 check trim.",
+          "If equipped: battery jump normalizes height.",
+          "Truck may sit low if air spring has failed."
+        ]
+      },
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Ram",
@@ -72,7 +91,7 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "8-speed TorqueFlite or eTorque mild hybrid",
-      "slot": "Electronic selector — trim panel near selector, remove to expose slot",
+      "slot": "Electronic selector \u2014 trim panel near selector, remove to expose slot",
       "shift": [
         "Ignition to ON.",
         "Locate trim panel near electronic selector. Remove or pry.",
@@ -88,14 +107,14 @@
       "notes": "eTorque mild hybrid: same 12V procedure.",
       "warn": "4WD: transfer case to 2H.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric rotary dial on center console",
         "positions": [
-          "2WD — rear wheels only — REQUIRED for all road towing",
-          "4WD Auto — automatic AWD engagement — NOT safe for towing",
-          "4WD Hi — part-time 4WD high — NOT safe for dry-road towing",
-          "4WD Lo — low range — NEVER tow in this position"
+          "2WD \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4WD Auto \u2014 automatic AWD engagement \u2014 NOT safe for towing",
+          "4WD Hi \u2014 part-time 4WD high \u2014 NOT safe for dry-road towing",
+          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH.",
@@ -108,21 +127,43 @@
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [
         {
-          "title": "eTorque Mild Hybrid — Not Full Hybrid",
+          "title": "eTorque Mild Hybrid \u2014 Not Full Hybrid",
           "detail": "The eTorque system is a 48V mild hybrid assist. Despite having a small lithium battery, this is NOT a full hybrid. The 12V battery under the hood is used for jumping normally. The eTorque battery is not accessible for jumping and is managed separately by the vehicle."
         }
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
-        "warnings": "eTorque 48V system is separate — 12V under hood for jumping only."
-      }
+        "warnings": "eTorque 48V system is separate \u2014 12V under hood for jumping only."
+      },
+      "slug": "ram-1500-dt-2019-2026",
+      "fuelType": "hybrid",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button until brake releases."
+        ]
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Air ride rear suspension available on Laramie Longhorn, Limited, TRX trims.",
+        "towingNotes": [
+          "Not all Ram 1500s have air suspension \u2014 check trim.",
+          "If equipped: battery jump normalizes height.",
+          "Truck may sit low if air spring has failed."
+        ]
+      },
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Ram",
@@ -130,7 +171,7 @@
       "yearStart": 2021,
       "yearEnd": 2024,
       "trans": "8-speed TorqueFlite (8HP95)",
-      "slot": "Electronic selector — slot near base",
+      "slot": "Electronic selector \u2014 slot near base",
       "shift": [
         "Ignition to ON.",
         "Find slot near electronic selector.",
@@ -145,14 +186,14 @@
       "notes": "High-performance off-road trim. Same as DT 1500 procedure.",
       "warn": "4WD: transfer case.",
       "drivetrain": "4WD (standard)",
-      "towMethod": "Transfer case to 2H first, then lift from front (rear/drive wheels roll on ground), or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Transfer case to 2H first, then lift from front (rear/drive wheels roll on ground), or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric rotary dial on center console",
         "positions": [
-          "2WD — rear wheels only — REQUIRED for road towing",
-          "4WD Auto — NOT safe for towing",
-          "4WD Hi — part-time 4WD",
-          "4WD Lo — low range — NEVER on pavement"
+          "2WD \u2014 rear wheels only \u2014 REQUIRED for road towing",
+          "4WD Auto \u2014 NOT safe for towing",
+          "4WD Hi \u2014 part-time 4WD",
+          "4WD Lo \u2014 low range \u2014 NEVER on pavement"
         ],
         "steps": [
           "Slow under 3 MPH.",
@@ -164,16 +205,38 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "ram-1500-trx-2021-2024",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button until brake releases."
+        ]
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Air ride rear suspension available on Laramie Longhorn, Limited, TRX trims.",
+        "towingNotes": [
+          "Not all Ram 1500s have air suspension \u2014 check trim.",
+          "If equipped: battery jump normalizes height.",
+          "Truck may sit low if air spring has failed."
+        ]
+      },
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Ram",
@@ -194,49 +257,60 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "Cummins diesel: same procedure. 4WD standard. Heavy-duty.",
-      "warn": "4WD: transfer case. Heavy-duty — use heavy wheel blocks.",
+      "warn": "4WD: transfer case. Heavy-duty \u2014 use heavy wheel blocks.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Heavy-duty — use rated equipment. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Heavy-duty \u2014 use rated equipment. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Manual floor lever (NV271) or Electric push-button (NV273) depending on trim",
         "positions": [
-          "2H — rear wheels only — REQUIRED for all road towing",
-          "4H — part-time 4WD high range — NOT safe for dry-road towing",
-          "N — neutral",
-          "4L — low range — NEVER tow in this position on road"
+          "2H \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4H \u2014 part-time 4WD high range \u2014 NOT safe for dry-road towing",
+          "N \u2014 neutral",
+          "4L \u2014 low range \u2014 NEVER tow in this position on road"
         ],
         "steps": [
           "MANUAL: Stop completely. Shift TC floor lever firmly to 2H.",
           "ELECTRIC: Slow under 3 MPH. Press 2H button. Confirm indicator.",
           "Confirm 2H indicator before lifting rear wheels.",
           "NEVER tow in 4H on dry pavement or in 4L.",
-          "Heavy-duty — use properly rated chains, straps, and wheel blocks.",
+          "Heavy-duty \u2014 use properly rated chains, straps, and wheel blocks.",
           "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
         ]
       },
       "towNotes": [
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
-        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight — account for extra weight in equipment ratings.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight \u2014 account for extra weight in equipment ratings.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [
         {
           "title": "Manual Transfer Case Lever May Be Stiff",
-          "detail": "The NV271 manual transfer case floor lever on older HD Rams can be extremely stiff, especially if the vehicle has been in 4WD for extended periods. Rock the vehicle gently in neutral while applying firm pressure to the lever. Do not force — damage to the TC shift fork can occur."
+          "detail": "The NV271 manual transfer case floor lever on older HD Rams can be extremely stiff, especially if the vehicle has been in 4WD for extended periods. Rock the vehicle gently in neutral while applying firm pressure to the lever. Do not force \u2014 damage to the TC shift fork can occur."
         },
         {
-          "title": "Very Heavy Vehicle — Equipment Ratings Critical",
-          "detail": "Ram 2500/3500 curb weight ranges from 6,400–7,200 lbs. A fully loaded 3500 dually can exceed 14,000 lbs GVWR. Verify all wheel-lift and flatbed equipment is rated appropriately. Standard equipment is often under-rated for these trucks."
+          "title": "Very Heavy Vehicle \u2014 Equipment Ratings Critical",
+          "detail": "Ram 2500/3500 curb weight ranges from 6,400\u20137,200 lbs. A fully loaded 3500 dually can exceed 14,000 lbs GVWR. Verify all wheel-lift and flatbed equipment is rated appropriately. Standard equipment is often under-rated for these trucks."
         }
       ],
       "battery": {
         "location": "Under hood. Cummins diesel may have dual batteries on driver side.",
-        "jumpTerminals": "Under hood: red (+) on either battery (diesel), black (−) to engine block",
+        "jumpTerminals": "Under hood: red (+) on either battery (diesel), black (\u2212) to engine block",
         "type": "standard-12v",
         "warnings": "Diesel dual batteries. Very heavy. Verify equipment ratings. Manual TC lever may be stiff on older models."
-      }
+      },
+      "slug": "ram-2500-3500-2010-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Ram",
@@ -244,7 +318,7 @@
       "yearStart": 2014,
       "yearEnd": 2026,
       "trans": "6-speed automatic",
-      "slot": "Column shifter — slot on steering column; OR console slot on some trims",
+      "slot": "Column shifter \u2014 slot on steering column; OR console slot on some trims",
       "shift": [
         "COLUMN: Find slot on steering column. Insert key, press down. Press brake. Move to N.",
         "CONSOLE: Find slot at console shifter base. Insert key, press down. Press brake. Move to N."
@@ -255,9 +329,9 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "Commercial van. Based on Fiat Ducato platform.",
-      "warn": "Large van — heavy wheel blocks.",
+      "warn": "Large van \u2014 heavy wheel blocks.",
       "drivetrain": "FWD",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
@@ -266,10 +340,21 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "ram-promaster-promaster-city-2014-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     }
   ]
 }

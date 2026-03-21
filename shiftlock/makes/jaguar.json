@@ -1,0 +1,410 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. Unauthorized use prohibited.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Jaguar",
+  "_count": 7,
+  "vehicles": [
+    {
+      "make": "Jaguar",
+      "model": "XF (2009-2024)",
+      "yearStart": 2009,
+      "yearEnd": 2024,
+      "slug": "jaguar-xf-2009-2024",
+      "fuelType": "gasoline",
+      "trans": "6-speed or 8-speed automatic (ZF)",
+      "drivetrain": "RWD or AWD",
+      "curbWeight": "3,671\u20134,101 lbs",
+      "gvwr": "5,181\u20135,401 lbs",
+      "slot": "JaguarDrive rotary dial \u2014 override near rotary base or under console trim",
+      "shift": [
+        "Locate override slot near rotary dial base under console trim.",
+        "Insert key, press plunger.",
+        "Press brake. Rotate dial to N (or press N on newer electronic selector).",
+        "Confirm N on cluster."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood (standard).",
+        "Connect jump pack.",
+        "Restore power. Shift via dial or override.",
+        "AWD: flatbed preferred."
+      ],
+      "notes": "Rotary 'JaguarDrive' selector. AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "RWD: lift from front (rear drive wheels roll). AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "AWD system: flatbed safest.",
+        "Rotary dial requires power \u2014 jump first if dead."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release. Manual: remove EPB module connector in trunk and connect spade connectors to motor pins to retract.",
+        "steps": [
+          "Restore 12V via under-hood terminals.",
+          "Hold EPB button to release.",
+          "Manual fallback: EPB module in trunk right side. Disconnect connector, insert spade connectors into correct slots (Violet/Brown and Yellow/Green pins noted on 2009-2015 XF). Connect to 12V to retract."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "type": "agm-12v",
+        "warnings": "AGM battery. AWD: flatbed preferred. EPB manual release requires wiring connector access."
+      },
+      "knownIssues": [
+        {
+          "title": "EPB Manual Release Requires Wiring Access",
+          "detail": "The manual release for the XF's electronic parking brake requires accessing the EPB motor connector in the trunk and connecting directly to the motor pins with spade connectors. Without power and without this method, the EPB cannot be released. A jump start is strongly preferred over the manual method."
+        }
+      ]
+    },
+    {
+      "make": "Jaguar",
+      "model": "XE (2015-2024)",
+      "yearStart": 2015,
+      "yearEnd": 2024,
+      "slug": "jaguar-xe-2015-2024",
+      "fuelType": "gasoline",
+      "trans": "8-speed automatic (ZF)",
+      "drivetrain": "RWD or AWD",
+      "curbWeight": "3,373\u20133,715 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Electronic selector override near selector base under console trim",
+      "shift": [
+        "Locate override near selector base.",
+        "Insert key, press.",
+        "Press brake. Move to N. Confirm."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Restore power. Shift normally or use override.",
+        "AWD: flatbed preferred."
+      ],
+      "notes": "Compact sports sedan. AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "RWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "AWD: flatbed.",
+        "All electronic \u2014 restore power first."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button.",
+        "steps": [
+          "Restore 12V.",
+          "Hold EPB button to release."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 AGM rated",
+        "type": "agm-12v",
+        "warnings": "AWD: flatbed preferred."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Jaguar",
+      "model": "F-Pace (2017-2024)",
+      "yearStart": 2017,
+      "yearEnd": 2024,
+      "slug": "jaguar-f-pace-2017-2024",
+      "fuelType": "gasoline",
+      "trans": "8-speed automatic (ZF); PHEV available (P400e)",
+      "drivetrain": "AWD",
+      "curbWeight": "4,024\u20134,662 lbs",
+      "gvwr": "5,423 lbs",
+      "slot": "JaguarDrive rotary dial \u2014 override under console trim near dial base",
+      "shift": [
+        "Locate override under rotary dial base in console.",
+        "Insert key, press plunger.",
+        "Press brake. Rotate dial or use button to select N.",
+        "Confirm N.",
+        "PHEV: restore 12V first."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for PHEV).",
+        "Restore power. Shift via dial or override.",
+        "AWD: flatbed required.",
+        "PHEV: 12V only, flatbed only."
+      ],
+      "notes": "All F-Pace are AWD \u2014 FLATBED PREFERRED. PHEV: 12V only, flatbed only.",
+      "warn": "AWD: flatbed preferred. PHEV: 12V only, flatbed only.",
+      "towMethod": "FLATBED PREFERRED \u2014 AWD. PHEV: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "All F-Pace are AWD \u2014 flatbed preferred.",
+        "PHEV: HV orange cables, flatbed mandatory."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button. Manual: EPB module connector in trunk \u2014 same method as XF.",
+        "steps": [
+          "Restore 12V.",
+          "Hold EPB button.",
+          "Manual fallback: EPB module connector in trunk."
+        ]
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Adaptive dynamics / air suspension optional.",
+        "towingNotes": [
+          "Restore 12V to normalize.",
+          "Note vehicle height for loading clearance."
+        ]
+      },
+      "steeringLock": "Electronic steering lock.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 AGM rated",
+        "type": "agm-12v",
+        "warnings": "AWD: flatbed preferred. PHEV: 12V only, flatbed only."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Jaguar",
+      "model": "E-Pace (2018-2024)",
+      "yearStart": 2018,
+      "yearEnd": 2024,
+      "slug": "jaguar-e-pace-2018-2024",
+      "fuelType": "gasoline",
+      "trans": "9-speed automatic",
+      "drivetrain": "FWD or AWD",
+      "curbWeight": "3,527\u20133,924 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Electronic selector \u2014 override near selector base under console trim",
+      "shift": [
+        "Find override near selector base.",
+        "Insert key, press.",
+        "Press brake. Move to N. Confirm."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Restore power. Shift normally.",
+        "AWD: flatbed preferred."
+      ],
+      "notes": "Compact crossover. AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: rear lift. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "AWD: flatbed."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button.",
+        "steps": [
+          "Restore 12V.",
+          "Hold EPB button."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard",
+        "type": "standard-12v",
+        "warnings": "AWD: flatbed preferred."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Jaguar",
+      "model": "I-Pace EV (2019-2024)",
+      "yearStart": 2019,
+      "yearEnd": 2024,
+      "slug": "jaguar-i-pace-2019-2024",
+      "fuelType": "electric",
+      "trans": "Single-speed electric",
+      "drivetrain": "AWD electric",
+      "curbWeight": "4,784 lbs",
+      "gvwr": "5,954 lbs",
+      "slot": "Electronic touchscreen \u2014 Service menu for Tow Mode / Neutral. Override near selector base.",
+      "shift": [
+        "PREFERRED: Use touchscreen Service menu to select Tow Mode / Neutral.",
+        "Override: locate slot near selector base. Insert key, press. Press brake. Move to N.",
+        "Without power: connect 12V jump pack to under-hood or accessible terminals first."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "12V battery accessible under hood or in dedicated access point.",
+        "Connect jump pack to 12V terminals.",
+        "Restore power. Use Service menu for Tow Mode.",
+        "FLATBED ONLY. NEVER touch HV battery (orange cables)."
+      ],
+      "notes": "FLATBED ONLY. Electric drivetrain. Tow Mode via touchscreen.",
+      "warn": "FLATBED ONLY. 12V only \u2014 never touch HV orange cables/battery.",
+      "towMethod": "FLATBED ONLY \u2014 AWD electric drivetrain.",
+      "tc": null,
+      "towNotes": [
+        "Electric AWD \u2014 flatbed only.",
+        "Tow Mode via touchscreen is proper neutral method.",
+        "12V accessible under hood \u2014 check door jamb label for exact location."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Tow Mode on touchscreen releases EPB. Manual: EPB connector method (same as XF/F-Pace).",
+        "steps": [
+          "Connect 12V jump pack.",
+          "Use Tow Mode on touchscreen \u2014 releases EPB and engages neutral.",
+          "Manual fallback: EPB module connector access."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock.",
+      "battery": {
+        "location": "Under hood \u2014 12V auxiliary terminal accessible",
+        "jumpTerminals": "Under hood \u2014 12V auxiliary only",
+        "type": "auxiliary-12v-only",
+        "warnings": "FLATBED ONLY. 12V auxiliary ONLY. Never touch orange HV cables."
+      },
+      "knownIssues": [
+        {
+          "title": "FLATBED ONLY \u2014 Electric AWD",
+          "detail": "The I-Pace has permanent AWD electric motors. Towing with any wheels on the ground will damage the drive units. Flatbed with Tow Mode active is the only safe method."
+        }
+      ]
+    },
+    {
+      "make": "Jaguar",
+      "model": "F-Type (2014-2024)",
+      "yearStart": 2014,
+      "yearEnd": 2024,
+      "slug": "jaguar-f-type-2014-2024",
+      "fuelType": "gasoline",
+      "trans": "8-speed automatic (ZF)",
+      "drivetrain": "RWD or AWD",
+      "curbWeight": "3,373\u20133,924 lbs",
+      "gvwr": "4,409\u20134,850 lbs",
+      "slot": "Rotary or electronic selector override at selector base under console trim",
+      "shift": [
+        "Locate override at selector base.",
+        "Insert key, press.",
+        "Press brake. Move to N. Confirm."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Restore power. Shift normally or use override.",
+        "AWD: flatbed preferred."
+      ],
+      "notes": "Sports car. Very low clearance. AWD: flatbed preferred.",
+      "warn": "Very low ground clearance. AWD: flatbed preferred.",
+      "towMethod": "RWD: lift from front (rear drive wheels roll). AWD: flatbed preferred. Very low \u2014 use wheel nets, not chains on body.",
+      "tc": null,
+      "towNotes": [
+        "Very low ground clearance \u2014 check approach angle carefully.",
+        "AWD: flatbed.",
+        "Sports car \u2014 use wheel baskets on flatbed, never hook body."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button.",
+        "steps": [
+          "Restore 12V.",
+          "Hold EPB button."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock.",
+      "battery": {
+        "location": "Under hood (front storage) or trunk depending on trim",
+        "jumpTerminals": "Under hood \u2014 standard or trunk area",
+        "type": "agm-12v",
+        "warnings": "AGM battery. Very low clearance. AWD: flatbed preferred."
+      },
+      "knownIssues": [
+        {
+          "title": "Extremely Low Ground Clearance",
+          "detail": "The F-Type, especially with sport or lowered suspension, has very low ground clearance. The approach angle on a flatbed must be minimal. Use ramp extensions if available. Never chain or hook the body panels."
+        }
+      ]
+    },
+    {
+      "make": "Jaguar",
+      "model": "XJ (2010-2019)",
+      "yearStart": 2010,
+      "yearEnd": 2019,
+      "slug": "jaguar-xj-2010-2019",
+      "fuelType": "gasoline",
+      "trans": "6-speed or 8-speed automatic (ZF)",
+      "drivetrain": "RWD or AWD",
+      "curbWeight": "3,902\u20134,409 lbs",
+      "gvwr": "5,181\u20135,512 lbs",
+      "slot": "JaguarDrive rotary dial \u2014 override under console trim near dial base",
+      "shift": [
+        "Override under rotary dial base.",
+        "Insert key, press plunger.",
+        "Press brake. Rotate dial to N.",
+        "Confirm N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Restore power. Shift via dial.",
+        "AWD: flatbed preferred."
+      ],
+      "notes": "Flagship luxury sedan. Aluminum body \u2014 do NOT use standard chain/hook on body.",
+      "warn": "Aluminum body \u2014 do NOT hook or chain to body panels. AWD: flatbed preferred.",
+      "towMethod": "RWD: lift from front. AWD: flatbed preferred. Aluminum body \u2014 use soft tie-downs and wheel baskets.",
+      "tc": null,
+      "towNotes": [
+        "Aluminum body is soft \u2014 do not hook body panels.",
+        "Use wheel baskets/straps on flatbed.",
+        "AWD: flatbed."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button. Manual: EPB module connector same as XF.",
+        "steps": [
+          "Restore 12V.",
+          "Hold EPB button."
+        ]
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Air suspension available. Self-leveling.",
+        "towingNotes": [
+          "Battery jump to normalize.",
+          "Note vehicle height for clearance."
+        ]
+      },
+      "steeringLock": "Electronic steering lock.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 AGM rated",
+        "type": "agm-12v",
+        "warnings": "Aluminum body \u2014 no chains on body. AGM battery. AWD: flatbed."
+      },
+      "knownIssues": [
+        {
+          "title": "Aluminum Body \u2014 Do Not Hook or Chain",
+          "detail": "The XJ uses an all-aluminum body structure. Standard chains or hooks on the body panels will cause serious damage. Always use wheel baskets/straps or hook only at proper tow points. Never drape chains over the body."
+        }
+      ]
+    }
+  ]
+}

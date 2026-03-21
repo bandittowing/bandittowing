@@ -1,0 +1,297 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. Unauthorized use prohibited.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Pontiac",
+  "_count": 6,
+  "vehicles": [
+    {
+      "make": "Pontiac",
+      "model": "G6 (2005-2010)",
+      "yearStart": 2005,
+      "yearEnd": 2010,
+      "slug": "pontiac-g6-2005-2010",
+      "fuelType": "gasoline",
+      "trans": "4-speed or 6-speed automatic",
+      "drivetrain": "FWD",
+      "curbWeight": "3,131\u20133,439 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Cap near selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap at selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Shift normally or use slot."
+      ],
+      "notes": "FWD \u2014 rear lift. Common on roads despite discontinuation in 2010.",
+      "warn": "",
+      "towMethod": "Lift from rear (front FWD drive wheels roll).",
+      "tc": null,
+      "towNotes": [
+        "FWD: straightforward rear lift."
+      ],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Pontiac",
+      "model": "Grand Prix (2004-2008)",
+      "yearStart": 2004,
+      "yearEnd": 2008,
+      "slug": "pontiac-grand-prix-2004-2008",
+      "fuelType": "gasoline",
+      "trans": "4-speed automatic",
+      "drivetrain": "FWD",
+      "curbWeight": "3,439\u20133,704 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Find cap at selector base. Pry off.",
+        "Insert key, press.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Shift normally."
+      ],
+      "notes": "FWD \u2014 rear lift.",
+      "warn": "",
+      "towMethod": "Lift from rear (front FWD wheels roll).",
+      "tc": null,
+      "towNotes": [],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Pontiac",
+      "model": "Grand Am (2002-2005)",
+      "yearStart": 2002,
+      "yearEnd": 2005,
+      "slug": "pontiac-grand-am-2002-2005",
+      "fuelType": "gasoline",
+      "trans": "4-speed automatic",
+      "drivetrain": "FWD",
+      "curbWeight": "3,042\u20133,175 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Shift normally."
+      ],
+      "notes": "FWD \u2014 rear lift. N-body platform.",
+      "warn": "",
+      "towMethod": "Lift from rear.",
+      "tc": null,
+      "towNotes": [],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard",
+        "type": "standard-12v",
+        "warnings": ""
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Pontiac",
+      "model": "Vibe (2003-2010)",
+      "yearStart": 2003,
+      "yearEnd": 2010,
+      "slug": "pontiac-vibe-2003-2010",
+      "fuelType": "gasoline",
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "FWD or AWD (GT AWD)",
+      "curbWeight": "2,712\u20133,086 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Find cap at selector base. Pry off.",
+        "Insert key, press.",
+        "Press brake. Move to N.",
+        "Manual: clutch, N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Shift normally.",
+        "AWD (GT): flatbed preferred."
+      ],
+      "notes": "Toyota Matrix twin. AWD: flatbed preferred. Manual option available.",
+      "warn": "AWD GT: flatbed preferred.",
+      "towMethod": "FWD: rear lift. AWD GT: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "Toyota Matrix twin \u2014 shares all service data.",
+        "AWD: flatbed."
+      ],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard",
+        "type": "standard-12v",
+        "warnings": "AWD: flatbed preferred."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Pontiac",
+      "model": "Torrent (2006-2009)",
+      "yearStart": 2006,
+      "yearEnd": 2009,
+      "slug": "pontiac-torrent-2006-2009",
+      "fuelType": "gasoline",
+      "trans": "5-speed automatic",
+      "drivetrain": "FWD or AWD",
+      "curbWeight": "3,571\u20133,748 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Find cap. Pry off.",
+        "Insert key, press.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Shift normally.",
+        "AWD: flatbed preferred."
+      ],
+      "notes": "Chevrolet Equinox twin. AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: rear lift. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "Equinox twin \u2014 shares all procedures."
+      ],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard",
+        "type": "standard-12v",
+        "warnings": "AWD: flatbed."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Pontiac",
+      "model": "Solstice (2006-2009)",
+      "yearStart": 2006,
+      "yearEnd": 2009,
+      "slug": "pontiac-solstice-2006-2009",
+      "fuelType": "gasoline",
+      "trans": "5-speed automatic or 5-speed manual",
+      "drivetrain": "RWD",
+      "curbWeight": "2,888\u20133,042 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Cap or slot near selector base on console",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press.",
+        "Press brake. Move to N.",
+        "Manual: clutch, N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Shift normally.",
+        "RWD: lift from front."
+      ],
+      "notes": "Roadster/convertible. RWD \u2014 lift from front. Very low clearance.",
+      "warn": "Very low ground clearance. Use flatbed or minimal ramp angle.",
+      "towMethod": "Lift from front (rear RWD wheels roll). Flatbed preferred due to low clearance.",
+      "tc": null,
+      "towNotes": [
+        "Very low clearance \u2014 flatbed preferred.",
+        "Convertible soft top \u2014 do not strap over roof."
+      ],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard",
+        "type": "standard-12v",
+        "warnings": "Very low clearance \u2014 flatbed preferred."
+      },
+      "knownIssues": [
+        {
+          "title": "Very Low Ground Clearance",
+          "detail": "The Solstice roadster has very low ground clearance, especially when found lowered or with aftermarket suspension. Use a flatbed when possible. If using wheel-lift, check clearance carefully."
+        }
+      ]
+    }
+  ]
+}

@@ -6,15 +6,48 @@
     "website": "bandittowing.com",
     "location": "Cary, NC",
     "year": 2025,
-    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "rights": "All rights reserved. This dataset was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use is strictly prohibited.",
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
-  "_description": "Bandit Towing vehicle database manifest. Fetch each file in makes/ to load all vehicles.",
+  "_schemaVersion": "2.0",
+  "_description": "Bandit Towing vehicle database manifest v2.0. Includes shift lock release, neutral override, battery/jump, tow method, transfer case, EPB, air suspension, curb weight, GVWR, fuel type, and known issues for each vehicle. Fetch each file in makes/ to load all vehicles.",
+  "_totalVehicles": 308,
+  "_totalMakes": 38,
+  "_fields": [
+    "make",
+    "model",
+    "yearStart",
+    "yearEnd",
+    "slug",
+    "fuelType",
+    "trans",
+    "drivetrain",
+    "curbWeight",
+    "gvwr",
+    "slot",
+    "shift",
+    "neutral",
+    "notes",
+    "warn",
+    "towMethod",
+    "tc",
+    "towNotes",
+    "epb",
+    "airSuspension",
+    "steeringLock",
+    "battery",
+    "knownIssues"
+  ],
   "makes": [
     {
       "make": "Acura",
       "file": "acura.json",
       "count": 17
+    },
+    {
+      "make": "Alfa Romeo",
+      "file": "alfa-romeo.json",
+      "count": 3
     },
     {
       "make": "Audi",
@@ -52,6 +85,11 @@
       "count": 8
     },
     {
+      "make": "Fiat",
+      "file": "fiat.json",
+      "count": 4
+    },
+    {
       "make": "Ford",
       "file": "ford.json",
       "count": 20
@@ -60,6 +98,11 @@
       "make": "GMC",
       "file": "gmc.json",
       "count": 8
+    },
+    {
+      "make": "Genesis",
+      "file": "genesis.json",
+      "count": 5
     },
     {
       "make": "Honda",
@@ -77,6 +120,11 @@
       "count": 7
     },
     {
+      "make": "Jaguar",
+      "file": "jaguar.json",
+      "count": 7
+    },
+    {
       "make": "Jeep",
       "file": "jeep.json",
       "count": 7
@@ -87,9 +135,24 @@
       "count": 6
     },
     {
+      "make": "Land Rover",
+      "file": "land-rover.json",
+      "count": 7
+    },
+    {
       "make": "Lexus",
       "file": "lexus.json",
       "count": 7
+    },
+    {
+      "make": "Lincoln",
+      "file": "lincoln.json",
+      "count": 6
+    },
+    {
+      "make": "MINI",
+      "file": "mini.json",
+      "count": 5
     },
     {
       "make": "Mazda",
@@ -112,8 +175,33 @@
       "count": 11
     },
     {
+      "make": "Polestar",
+      "file": "polestar.json",
+      "count": 2
+    },
+    {
+      "make": "Pontiac",
+      "file": "pontiac.json",
+      "count": 6
+    },
+    {
+      "make": "Porsche",
+      "file": "porsche.json",
+      "count": 8
+    },
+    {
       "make": "Ram",
       "file": "ram.json",
+      "count": 5
+    },
+    {
+      "make": "Rivian",
+      "file": "rivian.json",
+      "count": 2
+    },
+    {
+      "make": "Saturn",
+      "file": "saturn.json",
       "count": 5
     },
     {
@@ -135,6 +223,11 @@
       "make": "Volkswagen",
       "file": "volkswagen.json",
       "count": 7
+    },
+    {
+      "make": "Volvo",
+      "file": "volvo.json",
+      "count": 6
     }
   ]
 }

@@ -1,0 +1,350 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Volvo",
+  "_count": 6,
+  "vehicles": [
+    {
+      "make": "Volvo",
+      "model": "XC90 (2003-2014)",
+      "yearStart": 2003,
+      "yearEnd": 2014,
+      "slug": "volvo-xc90-2003-2014",
+      "fuelType": "gasoline",
+      "trans": "4-speed or 6-speed automatic (Aisin)",
+      "drivetrain": "AWD (Haldex angle gear)",
+      "curbWeight": "4,564\u20134,740 lbs",
+      "gvwr": "6,008 lbs",
+      "slot": "Lift rubber mat in storage compartment BEHIND center console \u2014 two access holes",
+      "shift": [
+        "Lift the rubber mat in the storage tray BEHIND the center console shifter.",
+        "Two holes are exposed. Insert a screwdriver into the correct hole.",
+        "Pull the shifter trigger while pushing the selector toward Neutral.",
+        "Alternatively: remove the air cleaner box under hood and disconnect the cable from the transmission shift lever \u2014 two clicks equals Neutral.",
+        "Confirm N before moving vehicle."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery is under hood.",
+        "Connect jump pack. Restore power.",
+        "Use rubber mat / access hole method above.",
+        "AWD: flatbed strongly recommended."
+      ],
+      "notes": "Slot is BEHIND the shifter, under rubber mat in storage tray \u2014 not at the shifter base.",
+      "warn": "AWD Haldex angle gear \u2014 flatbed strongly preferred. Do not wheel-lift without flatbed.",
+      "towMethod": "AWD: FLATBED STRONGLY PREFERRED. If wheel-lift required: rear lift only, short distance, slow speed. Haldex damage risk is high with prolonged wheel-lift.",
+      "tc": null,
+      "towNotes": [
+        "Haldex AWD angle gear is easily damaged by improper towing. Flatbed always preferred.",
+        "If wheel-lift must be used: rear lift, under 35 mph, under 35 miles.",
+        "Parking brake electronic issues reported \u2014 confirm brake functionality."
+      ],
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering lock. Standard.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "type": "standard-12v",
+        "warnings": "AWD: flatbed strongly preferred."
+      },
+      "knownIssues": [
+        {
+          "title": "Shift Release Is BEHIND the Shifter, Not at Base",
+          "detail": "The override access holes are under the rubber mat in the storage compartment BEHIND the center console, not at the shifter base. Many operators probe the base area and cannot find it. Lift the mat in the tray behind the shifter."
+        }
+      ]
+    },
+    {
+      "make": "Volvo",
+      "model": "XC90 (2016-2024)",
+      "yearStart": 2016,
+      "yearEnd": 2024,
+      "slug": "volvo-xc90-2016-2024",
+      "fuelType": "gasoline",
+      "trans": "8-speed automatic (Aisin) or T8 PHEV",
+      "drivetrain": "AWD (rear electric motor on T8)",
+      "curbWeight": "4,409\u20135,423 lbs (T8 PHEV heavier)",
+      "gvwr": "6,008 lbs",
+      "slot": "Console storage tray BEHIND shifter \u2014 two holes under rubber mat (same as 2003-2014)",
+      "shift": [
+        "Lift rubber mat in storage tray BEHIND shifter.",
+        "Insert screwdriver into override hole.",
+        "Pull the shifter tab while moving selector to Neutral.",
+        "Confirm N on display."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "12V battery under hood. 48V mild-hybrid: DO NOT touch 48V battery.",
+        "Connect jump pack to 12V under-hood terminals ONLY.",
+        "Restore power, then use override procedure above.",
+        "T8 PHEV: 12V only \u2014 never touch orange HV cables or HV battery."
+      ],
+      "notes": "48V mild-hybrid on some trims. T8 PHEV: orange HV system present.",
+      "warn": "48V: NEVER use 48V battery to jump \u2014 lethal voltage. T8 PHEV: HV system present.",
+      "towMethod": "AWD: FLATBED ONLY for T8 PHEV and Recharge. Standard AWD: flatbed strongly preferred.",
+      "tc": null,
+      "towNotes": [
+        "48V MILD-HYBRID: Never jump from the 48V support battery. 12V only.",
+        "T8 PHEV: FLATBED ONLY. Orange cables indicate HV system \u2014 do not touch.",
+        "AWD angle gear damage risk with wheel-lift \u2014 flatbed always preferred."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Connect 12V to restore power, then release EPB normally via button. Manual: T40 Torx to manually retract caliper piston at rear calipers.",
+        "steps": [
+          "PREFERRED: Connect jump pack to 12V under-hood terminals.",
+          "Once power restored, press and hold EPB button to release.",
+          "MANUAL (no power available): Locate T40 Torx socket.",
+          "At each rear caliper, use T40 Torx to manually retract the EPB actuator piston.",
+          "This requires removing the wheel for caliper access."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock. Requires ignition power.",
+      "battery": {
+        "location": "Under hood (12V). 48V support battery separate \u2014 never jump from 48V.",
+        "jumpTerminals": "Under hood \u2014 12V terminals only. NEVER use 48V system.",
+        "type": "standard-12v",
+        "warnings": "48V mild-hybrid: lethal voltage \u2014 never jump from 48V. T8 PHEV: 12V auxiliary only, never touch HV."
+      },
+      "knownIssues": [
+        {
+          "title": "48V Mild-Hybrid Jump Hazard",
+          "detail": "SPA-platform XC90s with mild-hybrid have a 48V support battery. Under no circumstances should this battery be used for jump starting. The 48V system can cause lethal shock. Always use the 12V under-hood terminals only."
+        }
+      ]
+    },
+    {
+      "make": "Volvo",
+      "model": "XC60 (2008-2024)",
+      "yearStart": 2008,
+      "yearEnd": 2024,
+      "slug": "volvo-xc60-2008-2024",
+      "fuelType": "gasoline",
+      "trans": "6-speed automatic or 8-speed automatic (2018+); T8 PHEV available",
+      "drivetrain": "FWD or AWD",
+      "curbWeight": "3,901\u20134,662 lbs",
+      "gvwr": "5,511\u20135,732 lbs",
+      "slot": "Center console near shifter base \u2014 cap or access hole under rubber mat",
+      "shift": [
+        "Locate cap or access point near selector base or under rubber mat behind shifter.",
+        "Remove cap / lift mat.",
+        "Insert key, press plunger while pressing brake.",
+        "Move selector to N.",
+        "Confirm N on display."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery is in TRUNK under cargo floor panel (many models).",
+        "Use engine compartment charging terminals (marked + with cover) for jumping.",
+        "Negative at right engine mount outer screw or grounding bolt.",
+        "Restore power, shift normally or use override.",
+        "T8 PHEV: 12V only \u2014 never touch HV system."
+      ],
+      "notes": "Battery often in trunk \u2014 ALWAYS use engine compartment jump terminals, not trunk battery directly.",
+      "warn": "AWD: flatbed preferred. Battery in trunk \u2014 use engine compartment terminals.",
+      "towMethod": "FWD: lift from rear (front drive wheels roll). AWD: flatbed preferred. T8 PHEV AWD: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "Battery under cargo floor \u2014 never jump directly at trunk battery. Use engine compartment posts.",
+        "AWD Haldex: flatbed preferred to avoid angle gear damage.",
+        "T8 PHEV: flatbed only \u2014 regenerative braking and HV system."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Connect 12V to engine compartment terminals to restore power, then release EPB via button. Manual release requires T40 Torx at rear calipers.",
+        "steps": [
+          "Connect jump pack to engine compartment charging terminals (+ marked, \u2212 at engine mount).",
+          "Power up system.",
+          "Press and hold EPB button to release.",
+          "Manual: T40 Torx to retract rear caliper pistons if no power available."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models).",
+      "battery": {
+        "location": "TRUNK under cargo floor panel (most models). Engine compartment has jump terminals.",
+        "jumpTerminals": "Engine compartment: positive under plastic cover marked '+'; negative at right engine mount outer screw",
+        "type": "standard-12v",
+        "warnings": "NEVER jump at trunk battery directly \u2014 use engine compartment terminals. T8 PHEV: 12V only."
+      },
+      "knownIssues": [
+        {
+          "title": "Battery Is in Trunk \u2014 Use Engine Compartment Terminals",
+          "detail": "The main 12V battery on most XC60 models is under the cargo floor in the trunk. Do NOT attempt to jump directly at the trunk battery. Volvo provides dedicated jump-start terminals in the engine compartment (positive post with cover, negative at engine mount bolt). Always use these terminals."
+        }
+      ]
+    },
+    {
+      "make": "Volvo",
+      "model": "XC40 (2018-2024)",
+      "yearStart": 2018,
+      "yearEnd": 2024,
+      "slug": "volvo-xc40-2018-2024",
+      "fuelType": "gasoline",
+      "trans": "7-speed or 8-speed automatic; Recharge: single-speed electric",
+      "drivetrain": "FWD or AWD; Recharge: AWD electric",
+      "curbWeight": "3,627\u20134,508 lbs (Recharge heavier)",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Electronic selector with mechanical override near console base",
+      "shift": [
+        "Locate mechanical override near selector base.",
+        "Insert key or flat tool, press plunger.",
+        "Press brake. Move selector to N.",
+        "Recharge EV: use touchscreen Service menu or restore 12V for touchscreen access."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery in engine compartment (gas) or frunk/under hood (Recharge).",
+        "Connect 12V jump pack to engine compartment terminals.",
+        "Restore power. Shift normally or use override.",
+        "Recharge: 12V auxiliary only \u2014 NEVER touch HV battery."
+      ],
+      "notes": "Recharge (EV): FLATBED ONLY. 12V auxiliary under hood.",
+      "warn": "Recharge EV: FLATBED ONLY. Never tow with driven wheels on ground.",
+      "towMethod": "Gas AWD: flatbed preferred. Gas FWD: rear lift. Recharge EV: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "Recharge EV: flatbed only \u2014 electric motors damaged by rolling on ground.",
+        "Gas AWD: Haldex system \u2014 flatbed preferred.",
+        "Use engine compartment jump terminals on all models."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Connect 12V to restore power, then EPB button release. Manual T40 Torx at rear calipers.",
+        "steps": [
+          "Connect jump pack to engine compartment 12V terminals.",
+          "Restore power. Press and hold EPB button to release.",
+          "If no power possible: T40 Torx at rear calipers to manually retract pistons."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock.",
+      "battery": {
+        "location": "Engine compartment (gas). Under hood (Recharge EV).",
+        "jumpTerminals": "Engine compartment \u2014 marked + and \u2212",
+        "type": "standard-12v",
+        "warnings": "Recharge EV: flatbed only. 12V auxiliary only \u2014 never touch HV."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Volvo",
+      "model": "S60 (2011-2024)",
+      "yearStart": 2011,
+      "yearEnd": 2024,
+      "slug": "volvo-s60-2011-2024",
+      "fuelType": "gasoline",
+      "trans": "6-speed or 8-speed automatic; T8 PHEV available",
+      "drivetrain": "FWD or AWD",
+      "curbWeight": "3,527\u20134,167 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Center console \u2014 access point near shifter base or under rubber mat behind shifter",
+      "shift": [
+        "Locate override slot at shifter base or lift rubber mat in tray behind shifter.",
+        "Insert key, press plunger.",
+        "Press brake. Move to N.",
+        "Some models: press brake pedal first, then use override, then move shifter."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery in TRUNK under floor panel (primary). Stop-start models may have second battery.",
+        "Use engine compartment jump terminals \u2014 positive under small black plastic cover marked '+'; negative at fuse box area.",
+        "Restore power. Shift normally or use slot.",
+        "T8 PHEV: 12V only."
+      ],
+      "notes": "Stop-start equipped models may have dual 12V batteries. Battery in trunk \u2014 use engine compartment terminals.",
+      "warn": "Battery in trunk \u2014 always use engine compartment jump terminals. AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from rear (front drive wheels roll). AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "Battery in trunk \u2014 never jump at trunk battery directly.",
+        "Dual battery on stop-start models \u2014 engine compartment terminals handle both.",
+        "AWD: Haldex \u2014 flatbed preferred."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V via engine compartment terminals, then EPB button. Manual T40 Torx at rear calipers.",
+        "steps": [
+          "Connect jump pack to engine compartment terminals (+/\u2212).",
+          "Press and hold EPB button to release.",
+          "Manual fallback: T40 Torx at rear EPB caliper actuators."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock on newer push-button start models.",
+      "battery": {
+        "location": "TRUNK under floor panel. Engine compartment has jump terminals.",
+        "jumpTerminals": "Engine compartment: small cover marked '+'; negative at fuse box area",
+        "type": "standard-12v",
+        "warnings": "Always use engine compartment terminals \u2014 not trunk battery directly. T8 PHEV: 12V only."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Volvo",
+      "model": "S90 / V90 (2017-2024)",
+      "yearStart": 2017,
+      "yearEnd": 2024,
+      "slug": "volvo-s90-v90-2017-2024",
+      "fuelType": "gasoline",
+      "trans": "8-speed automatic (Aisin); T8 PHEV available",
+      "drivetrain": "FWD or AWD",
+      "curbWeight": "3,946\u20134,387 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Modern electronic shifter \u2014 mechanical emergency release under console",
+      "shift": [
+        "Press brake pedal.",
+        "Use electronic shifter to select N.",
+        "If no power: locate mechanical override in center console (under console trim near shifter base).",
+        "Insert key, engage override plunger, press brake, move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery in TRUNK under floor (primary).",
+        "Connect jump pack at engine compartment terminals (positive marked '+', negative at mount).",
+        "Restore power. Shift normally.",
+        "T8 PHEV: 12V only \u2014 never touch HV system."
+      ],
+      "notes": "Electronic systems require power for all functions. Battery in trunk \u2014 engine compartment terminals mandatory.",
+      "warn": "AWD: flatbed preferred. Battery in trunk \u2014 use engine compartment terminals.",
+      "towMethod": "FWD: lift from rear. AWD: flatbed preferred. T8 AWD: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "Fully electronic steering and shifting \u2014 requires power for safe operation.",
+        "T8 PHEV AWD: flatbed only."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V via engine compartment terminals, EPB button release. Manual: T40 Torx at rear calipers.",
+        "steps": [
+          "Connect jump pack to engine compartment 12V terminals.",
+          "Restore power. Hold EPB button to release.",
+          "Manual fallback: T40 Torx at rear caliper EPB actuators."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock \u2014 requires ignition power.",
+      "battery": {
+        "location": "TRUNK under floor panel (primary). Engine compartment has jump terminals.",
+        "jumpTerminals": "Engine compartment \u2014 positive under cover marked '+'; negative at engine mount",
+        "type": "standard-12v",
+        "warnings": "Always use engine compartment terminals. T8 PHEV: 12V only."
+      },
+      "knownIssues": []
+    }
+  ]
+}

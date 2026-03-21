@@ -1,0 +1,176 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. Unauthorized use prohibited.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Alfa Romeo",
+  "_count": 3,
+  "vehicles": [
+    {
+      "make": "Alfa Romeo",
+      "model": "Giulia (2017-2024)",
+      "yearStart": 2017,
+      "yearEnd": 2024,
+      "slug": "alfa-romeo-giulia-2017-2024",
+      "fuelType": "gasoline",
+      "trans": "8-speed automatic (ZF)",
+      "drivetrain": "RWD or AWD (Q4)",
+      "curbWeight": "3,256\u20133,570 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "DNA rotary selector \u2014 override button/slot under console near selector",
+      "shift": [
+        "Locate override slot at selector base under center console trim.",
+        "Insert key, press plunger.",
+        "Press brake. Move selector to N.",
+        "Confirm N on cluster."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Restore power. Shift normally or use override.",
+        "AWD (Q4): flatbed preferred."
+      ],
+      "notes": "RWD standard, AWD (Q4) optional. AWD: flatbed preferred.",
+      "warn": "AWD Q4: flatbed preferred. Italian vehicle \u2014 connector and trim may be less familiar.",
+      "towMethod": "RWD: lift from front (rear drive wheels roll). AWD Q4: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "AWD Q4: flatbed preferred.",
+        "ZF 8HP \u2014 same transmission as BMW/Land Rover. Well-proven."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button. Manual: run 12V directly to EPB motor to rewind, or remove motor and wind back manually (requires tools).",
+        "steps": [
+          "Preferred: connect jump pack, restore 12V.",
+          "Hold EPB button to release.",
+          "Manual (no power): remove EPB actuator motor. Wind manually, or apply 12V directly to motor terminals to retract (polarity selects direction)."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "type": "standard-12v",
+        "warnings": "AWD Q4: flatbed preferred. EPB manual release requires motor removal."
+      },
+      "knownIssues": [
+        {
+          "title": "EPB Manual Release Requires Motor Access",
+          "detail": "Without 12V power, the Giulia's EPB cannot be released without physically accessing the EPB actuator motor at the rear caliper and either directly powering it (12V to motor terminals) or manually winding the piston back. A jump start is strongly preferred."
+        }
+      ]
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "Stelvio (2018-2024)",
+      "yearStart": 2018,
+      "yearEnd": 2024,
+      "slug": "alfa-romeo-stelvio-2018-2024",
+      "fuelType": "gasoline",
+      "trans": "8-speed automatic (ZF)",
+      "drivetrain": "RWD or AWD (Q4)",
+      "curbWeight": "3,660\u20134,024 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "DNA rotary selector \u2014 override near selector base under console trim",
+      "shift": [
+        "Find override at selector base.",
+        "Insert key, press.",
+        "Press brake. Move to N. Confirm.",
+        "AWD Q4: flatbed preferred."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack.",
+        "Restore power. Shift via override or normally.",
+        "AWD: flatbed preferred."
+      ],
+      "notes": "Crossover version of Giulia platform. Same drivetrain rules.",
+      "warn": "AWD Q4: flatbed preferred.",
+      "towMethod": "RWD: lift from front. AWD Q4: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "Same EPB and towing rules as Giulia."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button. Manual: EPB motor access at rear caliper.",
+        "steps": [
+          "Restore 12V under hood.",
+          "Hold EPB button.",
+          "Manual: EPB motor direct power or physical wind-back."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "type": "standard-12v",
+        "warnings": "AWD Q4: flatbed preferred."
+      },
+      "knownIssues": []
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "Tonale (2023-2024)",
+      "yearStart": 2023,
+      "yearEnd": 2024,
+      "slug": "alfa-romeo-tonale-2023-2024",
+      "fuelType": "hybrid",
+      "trans": "6-speed automatic (mild hybrid) or PHEV eCVT",
+      "drivetrain": "FWD (MHEV) or AWD (PHEV)",
+      "curbWeight": "3,527\u20134,079 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Electronic selector \u2014 override slot near base",
+      "shift": [
+        "Locate override near selector base.",
+        "Insert key, press.",
+        "Press brake. Move to N.",
+        "PHEV: restore 12V first."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect 12V jump pack.",
+        "Restore power. Shift normally.",
+        "PHEV AWD: flatbed only, 12V only.",
+        "MHEV FWD: rear lift."
+      ],
+      "notes": "PHEV AWD: flatbed only, 12V only. MHEV FWD: rear lift.",
+      "warn": "PHEV AWD: FLATBED ONLY. MHEV: 12V mild hybrid \u2014 no HV danger but note 48V system on some.",
+      "towMethod": "MHEV FWD: lift from rear (front drive wheels roll). PHEV AWD: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "PHEV: flatbed only, HV present.",
+        "MHEV: rear lift for FWD."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button.",
+        "steps": [
+          "Restore 12V.",
+          "Hold EPB."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock.",
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood \u2014 standard",
+        "type": "standard-12v",
+        "warnings": "PHEV: 12V only, flatbed only."
+      },
+      "knownIssues": []
+    }
+  ]
+}

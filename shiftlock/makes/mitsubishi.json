@@ -33,7 +33,7 @@
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD (S-AWC)",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD/PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD/PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
@@ -42,10 +42,21 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals. PHEV: 12V only.",
+        "jumpTerminals": "Under hood \u2014 standard terminals. PHEV: 12V only.",
         "type": "standard-12v",
         "warnings": "PHEV: 12V only."
-      }
+      },
+      "slug": "mitsubishi-outlander-outlander-sport-2003-2026",
+      "fuelType": "phev",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Mitsubishi",
@@ -67,20 +78,31 @@
       "notes": "Evo X SST DCT: restore power first. Manual: clutch to N. AWD standard on Evo.",
       "warn": "",
       "drivetrain": "FWD or AWD (Evo AWD standard)",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed.",
         "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": "Evo SST DCT: restore power before shift."
-      }
+      },
+      "slug": "mitsubishi-lancer-lancer-evolution-2002-2017",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Mitsubishi",
@@ -102,7 +124,7 @@
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD (S-AWC)",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
@@ -111,10 +133,24 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "mitsubishi-eclipse-cross-2018-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button until brake releases."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Mitsubishi",
@@ -136,7 +172,7 @@
       "notes": "FWD only.",
       "warn": "",
       "drivetrain": "FWD",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -144,10 +180,21 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "mitsubishi-galant-2004-2012",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     }
   ]
 }

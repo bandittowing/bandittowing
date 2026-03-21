@@ -22,623 +22,320 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Oswald:wght@400;500;600;700&family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-/* ═══════════════════════════════════════════════
-   TOKENS
-═══════════════════════════════════════════════ */
+/* ── TOKENS ── */
 :root {
-  --gold:        #C8900A;
-  --gold-bright: #F0B429;
-  --gold-light:  #FFD166;
-  --gold-dark:   #8A6008;
-  --orange:      #C85A0A;
-  --red:         #c0392b;
-  --black:       #060606;
-  --dark1:       #0C0C0A;
-  --dark2:       #111110;
-  --dark3:       #181815;
-  --dark4:       #202018;
-  --dark5:       #282820;
-  --dark6:       #303028;
-  --white:       #F0E8D8;
-  --off-white:   #D8D0C0;
-  --gray:        #807868;
-  --gray-light:  #A09880;
+  --gold:#C8900A; --gold-bright:#F0B429; --gold-light:#FFD166; --gold-dark:#8A6008;
+  --orange:#C85A0A; --red:#c0392b;
+  --black:#060606; --dark1:#0C0C0A; --dark2:#111110; --dark3:#181815;
+  --dark4:#202018; --dark5:#282820; --dark6:#303028;
+  --white:#F0E8D8; --off-white:#D8D0C0; --gray:#807868; --gray-light:#A09880;
+  --green:#4ea84b; --green-bg:rgba(78,168,75,.07);
+  --amber:#d4952a; --amber-bg:rgba(212,149,42,.07);
+  --blue:#4a85c0; --blue-bg:rgba(74,133,192,.07);
+  --fwd-color:#4ea84b; --rwd-color:#d4952a; --awd-color:#4a85c0;
+  --fourwd-color:#9060b0; --ev-color:#28a8a8;
+  --font-d:'Big Shoulders Display',sans-serif;
+  --font-u:'Oswald',sans-serif;
+  --font-b:'Barlow',sans-serif;
+  --font-c:'Barlow Condensed',sans-serif;
+  --gap-xs:8px; --gap-sm:16px; --gap-md:28px; --gap-lg:44px;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--black);color:var(--white);font-family:var(--font-b);min-height:100vh;line-height:1.6;-webkit-font-smoothing:antialiased;}
+a{color:inherit;}
 
-  --green:       #4ea84b;
-  --green-bg:    rgba(78,168,75,.07);
-  --amber:       #d4952a;
-  --amber-bg:    rgba(212,149,42,.07);
-  --blue:        #4a85c0;
-  --blue-bg:     rgba(74,133,192,.07);
+/* ── HEADER ── */
+header{background:var(--dark1);border-bottom:2px solid rgba(200,144,10,.3);position:sticky;top:0;z-index:100;backdrop-filter:blur(12px);}
+.hdr{max-width:1080px;margin:0 auto;padding:14px 28px;display:flex;align-items:center;justify-content:space-between;gap:20px;}
+.logo-link{text-decoration:none;display:block;}
+.logo-link img{height:48px;display:block;}
+.hdr-phone{font-family:var(--font-u);font-size:16px;font-weight:700;color:var(--gold-bright);letter-spacing:1px;text-decoration:none;padding:9px 20px;transition:all .2s;border:1px solid rgba(200,144,10,.35);background:rgba(200,144,10,.06);}
+.hdr-phone:hover{background:var(--gold);color:var(--black);border-color:var(--gold);}
 
-  --fwd-color:   #4ea84b;
-  --rwd-color:   #d4952a;
-  --awd-color:   #4a85c0;
-  --fourwd-color:#9060b0;
-  --ev-color:    #28a8a8;
+/* ── HERO ── */
+.hero{padding:48px 28px 40px;text-align:center;position:relative;background:var(--dark1);overflow:hidden;}
+.hero::before{content:'';position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,transparent,transparent 119px,rgba(200,144,10,.018) 119px,rgba(200,144,10,.018) 120px);}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent 0%,var(--gold) 30%,var(--gold) 70%,transparent 100%);opacity:.4;}
+.hero-eyebrow{display:inline-block;font-family:var(--font-u);font-size:10px;font-weight:600;letter-spacing:6px;text-transform:uppercase;color:var(--gold-dark);margin-bottom:16px;}
+.hero h1{font-family:var(--font-d);font-size:clamp(2.2rem,6vw,4rem);font-weight:900;text-transform:uppercase;letter-spacing:2px;line-height:.95;margin-bottom:14px;color:var(--white);}
+.hero h1 em{color:var(--gold-bright);font-style:normal;}
+.hero-sub{font-family:var(--font-c);font-size:.95rem;color:var(--gray);letter-spacing:1.5px;max-width:540px;margin:0 auto;line-height:1.7;}
+.hero-kbd{display:inline-block;font-family:var(--font-u);font-size:9px;letter-spacing:2px;color:var(--gray);margin-top:10px;opacity:.6;}
+.hero-kbd kbd{background:var(--dark4);border:1px solid var(--dark6);padding:1px 6px;font-size:10px;border-radius:3px;}
 
-  --font-d: 'Big Shoulders Display', sans-serif;
-  --font-u: 'Oswald', sans-serif;
-  --font-b: 'Barlow', sans-serif;
-  --font-c: 'Barlow Condensed', sans-serif;
+/* ── WRAP ── */
+.wrap{max-width:940px;margin:0 auto;padding:36px 24px 100px;}
 
-  --gap-xs:  8px;
-  --gap-sm:  16px;
-  --gap-md:  28px;
-  --gap-lg:  44px;
-  --gap-xl:  60px;
-}
+/* ── LOOKUP CARD ── */
+.lookup-card{background:var(--dark2);border:1px solid var(--dark5);border-top:2px solid var(--gold);padding:28px 24px 24px;margin-bottom:var(--gap-lg);box-shadow:0 8px 48px rgba(0,0,0,.5);}
+@media(max-width:580px){.lookup-card{padding:20px 16px;}}
+.card-label{font-family:var(--font-u);font-size:10px;font-weight:600;letter-spacing:5px;text-transform:uppercase;color:var(--gold-dark);display:flex;align-items:center;gap:12px;margin-bottom:18px;}
+.card-label::after{content:'';flex:1;height:1px;background:var(--dark5);}
+.db-status{font-family:var(--font-u);font-size:11px;letter-spacing:2px;color:var(--gray);text-align:center;padding:6px 0 4px;}
+.db-error{color:#c4705a;}
 
-*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
-body { background:var(--black); color:var(--white); font-family:var(--font-b); min-height:100vh; line-height:1.6; -webkit-font-smoothing:antialiased; }
-a { color:inherit; }
+/* ── SEARCH ── */
+.search-wrap{position:relative;margin-bottom:12px;}
+.search-input{width:100%;background:var(--dark3);border:1px solid var(--dark5);border-bottom:2px solid var(--gold-dark);color:var(--white);font-family:var(--font-u);font-size:1rem;font-weight:500;padding:13px 44px 13px 16px;outline:none;transition:border-color .2s;}
+.search-input::placeholder{color:var(--gray);font-weight:400;}
+.search-input:focus{border-bottom-color:var(--gold-bright);}
+.search-input:disabled{opacity:.3;cursor:not-allowed;}
+.search-icon{position:absolute;right:14px;top:50%;transform:translateY(-50%);font-size:1rem;pointer-events:none;color:var(--gold-dark);}
+.search-results{position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:200;background:var(--dark2);border:1px solid var(--dark5);border-top:2px solid var(--gold);max-height:320px;overflow-y:auto;display:none;box-shadow:0 16px 48px rgba(0,0,0,.7);}
+.search-results.open{display:block;}
+.search-result-item{padding:11px 16px;cursor:pointer;border-bottom:1px solid var(--dark4);display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:10px;transition:background .12s;}
+.search-result-item:last-child{border-bottom:none;}
+.search-result-item:hover,.search-result-item.highlighted{background:var(--dark4);}
+.sri-name{font-family:var(--font-u);font-size:0.88rem;font-weight:600;color:var(--white);}
+.sri-name mark{background:transparent;color:var(--gold-bright);}
+.sri-years{font-family:var(--font-c);font-size:0.78rem;color:var(--gray);white-space:nowrap;}
+.sri-badge{font-family:var(--font-u);font-size:8px;font-weight:700;letter-spacing:1px;padding:2px 7px;border:1px solid;white-space:nowrap;}
+.sri-badge.fwd{color:var(--fwd-color);border-color:rgba(78,168,75,.4);}
+.sri-badge.rwd{color:var(--rwd-color);border-color:rgba(212,149,42,.4);}
+.sri-badge.awd{color:var(--awd-color);border-color:rgba(74,133,192,.4);}
+.sri-badge.4wd{color:var(--fourwd-color);border-color:rgba(144,96,176,.4);}
+.sri-badge.ev{color:var(--ev-color);border-color:rgba(40,168,168,.4);}
+.sri-badge.multi{color:var(--gold);border-color:rgba(200,144,10,.3);}
+.search-no-results{padding:16px;font-family:var(--font-u);font-size:0.82rem;color:var(--gray);text-align:center;letter-spacing:2px;}
+</style>
+<style>
+/* ── DROPDOWNS ── */
+.sel-grid{display:grid;grid-template-columns:1fr 1fr 2fr;gap:10px;margin-bottom:12px;}
+@media(max-width:580px){.sel-grid{grid-template-columns:1fr;}}
+.sel-wrap{position:relative;}
+.sel-wrap label{display:block;font-family:var(--font-u);font-size:9px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--gray);margin-bottom:5px;}
+.sel-wrap select{width:100%;background:var(--dark3);border:1px solid var(--dark5);border-bottom:2px solid var(--dark6);color:var(--white);font-family:var(--font-u);font-size:14px;font-weight:500;padding:11px 34px 11px 12px;appearance:none;cursor:pointer;outline:none;transition:border-color .18s;}
+.sel-wrap select:focus,.sel-wrap select:hover{border-bottom-color:var(--gold);}
+.sel-wrap select:disabled{opacity:.3;cursor:not-allowed;}
+.sel-arr{position:absolute;right:11px;bottom:13px;pointer-events:none;color:var(--gold-dark);font-size:11px;}
 
-/* ── HEADER ─────────────────────────────────── */
-header {
-  background:var(--dark1);
-  border-bottom:2px solid rgba(200,144,10,.3);
-  position:sticky; top:0; z-index:100;
-  backdrop-filter:blur(12px);
-  -webkit-backdrop-filter:blur(12px);
-}
-.hdr {
-  max-width:1080px; margin:0 auto; padding:14px 28px;
-  display:flex; align-items:center; justify-content:space-between; gap:20px;
-}
-.logo-link { text-decoration:none; display:block; }
-.logo-link img { height:48px; display:block; }
-.hdr-phone {
-  font-family:var(--font-u); font-size:16px; font-weight:700;
-  color:var(--gold-bright); letter-spacing:1px; text-decoration:none;
-  padding:9px 20px; transition:all .2s;
-  border:1px solid rgba(200,144,10,.35);
-  background:rgba(200,144,10,.06);
-}
-.hdr-phone:hover { background:var(--gold); color:var(--black); border-color:var(--gold); }
+/* ── QUICK FILTERS ── */
+.quick-filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px;padding-top:4px;}
+.qf-btn{padding:5px 12px;background:transparent;border:1px solid var(--dark5);color:var(--gray);font-family:var(--font-u);font-size:0.72rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:all .15s;white-space:nowrap;}
+.qf-btn:hover{border-color:var(--dark6);color:var(--off-white);}
+.qf-btn.active{background:var(--dark4);color:var(--white);border-color:var(--gray);}
+.qf-btn.flatbed-filter.active{background:rgba(192,57,43,.15);color:#e07070;border-color:rgba(192,57,43,.5);}
+.qf-btn.awd-filter.active{background:var(--blue-bg);color:var(--blue);border-color:rgba(74,133,192,.4);}
+.qf-btn.ev-filter.active{background:rgba(40,168,168,.08);color:var(--ev-color);border-color:rgba(40,168,168,.4);}
+.qf-btn.issues-filter.active{background:rgba(192,57,43,.12);color:#e07070;border-color:rgba(192,57,43,.4);}
+.qf-sep{width:1px;background:var(--dark5);align-self:stretch;margin:0 2px;}
 
-/* ── HERO ─────────────────────────────────── */
-.hero {
-  padding:56px 28px 48px; text-align:center; position:relative;
-  background:var(--dark1);
-  overflow:hidden;
-}
-/* subtle horizontal rule lines — track-stripe feel */
-.hero::before {
-  content:''; position:absolute; inset:0; pointer-events:none;
-  background:
-    linear-gradient(180deg,
-      transparent 0%, transparent 49%,
-      rgba(200,144,10,.04) 49%, rgba(200,144,10,.04) 51%,
-      transparent 51%) center/100% 80px repeat-y,
-    repeating-linear-gradient(90deg,
-      transparent, transparent 119px,
-      rgba(200,144,10,.018) 119px, rgba(200,144,10,.018) 120px);
-}
-.hero::after {
-  content:''; position:absolute; bottom:0; left:0; right:0; height:1px;
-  background:linear-gradient(90deg, transparent 0%, var(--gold) 30%, var(--gold) 70%, transparent 100%);
-  opacity:.4;
-}
-.hero-eyebrow {
-  display:inline-block; font-family:var(--font-u); font-size:10px;
-  font-weight:600; letter-spacing:6px; text-transform:uppercase;
-  color:var(--gold-dark); margin-bottom:18px;
-}
-.hero h1 {
-  font-family:var(--font-d); font-size:clamp(2.4rem,6.5vw,4.4rem);
-  font-weight:900; text-transform:uppercase; letter-spacing:2px;
-  line-height:.95; margin-bottom:16px; color:var(--white);
-}
-.hero h1 em { color:var(--gold-bright); font-style:normal; }
-.hero-sub {
-  font-family:var(--font-c); font-size:1rem; color:var(--gray);
-  letter-spacing:1.5px; max-width:520px; margin:0 auto; line-height:1.7;
-}
+.lookup-btn{width:100%;background:var(--gold);border:none;color:var(--black);font-family:var(--font-d);font-size:1.1rem;font-weight:900;letter-spacing:4px;text-transform:uppercase;padding:15px;cursor:pointer;transition:all .2s;position:relative;overflow:hidden;}
+.lookup-btn::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.12) 0%,transparent 60%);pointer-events:none;}
+.lookup-btn:hover:not(:disabled){background:var(--gold-bright);transform:translateY(-2px);box-shadow:0 6px 24px rgba(200,144,10,.4);}
+.lookup-btn:disabled{background:var(--dark5);color:var(--gray);cursor:not-allowed;}
+.lookup-btn:disabled::after{display:none;}
 
-/* ── LAYOUT WRAPPER ─────────────────────────────────── */
-.wrap { max-width:940px; margin:0 auto; padding:40px 24px 100px; }
+/* ── RECENTLY VIEWED ── */
+.recent-wrap{margin-top:14px;display:none;}
+.recent-wrap.show{display:block;}
+.recent-label{font-family:var(--font-u);font-size:9px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:var(--gray);margin-bottom:8px;display:flex;align-items:center;gap:10px;}
+.recent-label::after{content:'';flex:1;height:1px;background:var(--dark5);}
+.recent-list{display:flex;flex-wrap:wrap;gap:6px;}
+.recent-item{font-family:var(--font-u);font-size:0.78rem;font-weight:600;letter-spacing:.5px;padding:5px 12px;background:var(--dark3);border:1px solid var(--dark5);color:var(--gray-light);cursor:pointer;transition:all .15s;white-space:nowrap;}
+.recent-item:hover{background:var(--dark4);color:var(--white);border-color:var(--gold-dark);}
 
-/* ── LOOKUP CARD ─────────────────────────────────── */
-.lookup-card {
-  background:var(--dark2);
-  border:1px solid var(--dark5);
-  border-top:2px solid var(--gold);
-  padding:32px 28px 28px;
-  margin-bottom:var(--gap-lg);
-  box-shadow:0 8px 48px rgba(0,0,0,.5);
-}
-@media(max-width:580px) { .lookup-card { padding:24px 18px 20px; } }
+/* ── RESULTS ── */
+#results{display:none;}
+#results.show{display:block;animation:fadeIn .4s ease;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:translateY(0);}}
 
-.card-label {
-  font-family:var(--font-u); font-size:10px; font-weight:600;
-  letter-spacing:5px; text-transform:uppercase; color:var(--gold-dark);
-  display:flex; align-items:center; gap:12px; margin-bottom:20px;
-}
-.card-label::after { content:''; flex:1; height:1px; background:var(--dark5); }
+/* ── VEHICLE TITLE ── */
+.veh-title-bar{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:12px;padding-bottom:var(--gap-md);margin-bottom:var(--gap-sm);border-bottom:1px solid var(--dark5);}
+.veh-name{font-family:var(--font-d);font-size:clamp(2rem,5.5vw,3.2rem);font-weight:900;text-transform:uppercase;color:var(--gold-bright);letter-spacing:2px;line-height:.95;}
+.veh-years{font-family:var(--font-c);font-size:0.95rem;color:var(--gray);letter-spacing:3px;margin-top:6px;}
 
-.db-status { font-family:var(--font-u); font-size:11px; letter-spacing:2px; color:var(--gray); text-align:center; padding:8px 0 4px; }
-.db-error  { color:#c4705a; }
+/* ── DT EMBLEM ── */
+.dt-emblem{display:inline-flex;align-items:center;gap:7px;padding:7px 14px;font-family:var(--font-u);font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;border:1px solid;flex-shrink:0;margin-top:4px;}
+.dt-emblem svg{width:26px;height:26px;flex-shrink:0;}
+.dt-emblem.fwd{color:var(--fwd-color);border-color:rgba(78,168,75,.4);background:var(--green-bg);}
+.dt-emblem.rwd{color:var(--rwd-color);border-color:rgba(212,149,42,.4);background:var(--amber-bg);}
+.dt-emblem.awd{color:var(--awd-color);border-color:rgba(74,133,192,.4);background:var(--blue-bg);}
+.dt-emblem.4wd{color:var(--fourwd-color);border-color:rgba(144,96,176,.4);background:rgba(144,96,176,.06);}
+.dt-emblem.ev{color:var(--ev-color);border-color:rgba(40,168,168,.4);background:rgba(40,168,168,.06);}
+.dt-emblem.multi{color:var(--gold);border-color:rgba(200,144,10,.3);background:rgba(200,144,10,.05);}
 
-/* Search */
-.search-wrap { position:relative; margin-bottom:14px; }
-.search-input {
-  width:100%; background:var(--dark3); border:1px solid var(--dark5);
-  border-bottom:2px solid var(--gold-dark); color:var(--white);
-  font-family:var(--font-u); font-size:1rem; font-weight:500;
-  padding:13px 44px 13px 16px; outline:none; transition:border-color .2s;
-}
-.search-input::placeholder { color:var(--gray); font-weight:400; }
-.search-input:focus { border-bottom-color:var(--gold-bright); }
-.search-input:disabled { opacity:.3; cursor:not-allowed; }
-.search-icon { position:absolute; right:14px; top:50%; transform:translateY(-50%); font-size:1rem; pointer-events:none; color:var(--gold-dark); }
-.search-results {
-  position:absolute; top:calc(100% + 4px); left:0; right:0; z-index:200;
-  background:var(--dark2); border:1px solid var(--dark5); border-top:2px solid var(--gold);
-  max-height:300px; overflow-y:auto; display:none;
-  box-shadow:0 16px 48px rgba(0,0,0,.7);
-}
-.search-results.open { display:block; }
-.search-result-item {
-  padding:12px 16px; cursor:pointer; border-bottom:1px solid var(--dark4);
-  display:flex; align-items:center; justify-content:space-between; gap:12px;
-  transition:background .12s;
-}
-.search-result-item:last-child { border-bottom:none; }
-.search-result-item:hover, .search-result-item.highlighted { background:var(--dark4); }
-.sri-name { font-family:var(--font-u); font-size:0.9rem; font-weight:600; color:var(--white); }
-.sri-name mark { background:transparent; color:var(--gold-bright); }
-.sri-years { font-family:var(--font-c); font-size:0.8rem; color:var(--gray); white-space:nowrap; }
-.search-no-results { padding:16px; font-family:var(--font-u); font-size:0.82rem; color:var(--gray); text-align:center; letter-spacing:2px; }
+/* ── SECTION FILTERS ── */
+.section-filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:var(--gap-md);padding-bottom:var(--gap-sm);border-bottom:1px solid var(--dark4);}
+.sf-btn{padding:7px 14px;background:transparent;border:1px solid var(--dark5);color:var(--gray);font-family:var(--font-u);font-size:0.75rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:all .15s;white-space:nowrap;}
+.sf-btn:hover{border-color:var(--gold-dark);color:var(--off-white);}
+.sf-btn.active{background:var(--gold);color:var(--black);border-color:var(--gold);font-weight:700;}
+.sf-btn.active:hover{background:var(--gold-bright);}
+.sf-divider{width:1px;background:var(--dark5);align-self:stretch;margin:0 2px;}
+[class*="sec-"].hidden{display:none !important;}
+</style>
+<style>
+/* ── INFO ROW ── */
+.info-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--dark5);margin-bottom:var(--gap-md);border:1px solid var(--dark5);}
+@media(max-width:580px){.info-row{grid-template-columns:1fr 1fr;}}
+.info-cell{background:var(--dark2);padding:16px 18px;}
+.info-cell-label{font-family:var(--font-u);font-size:9px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:var(--gold-dark);margin-bottom:5px;}
+.info-cell-val{font-family:var(--font-u);font-size:0.95rem;font-weight:600;color:var(--white);line-height:1.3;}
+.info-cell.trans .info-cell-val{font-family:var(--font-c);font-size:0.88rem;font-weight:500;color:var(--off-white);}
 
-/* Dropdowns */
-.sel-grid { display:grid; grid-template-columns:1fr 1fr 2fr; gap:10px; margin-bottom:14px; }
-@media(max-width:580px) { .sel-grid { grid-template-columns:1fr; } }
-.sel-wrap { position:relative; }
-.sel-wrap label { display:block; font-family:var(--font-u); font-size:9px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:var(--gray); margin-bottom:5px; }
-.sel-wrap select {
-  width:100%; background:var(--dark3); border:1px solid var(--dark5);
-  border-bottom:2px solid var(--dark6); color:var(--white);
-  font-family:var(--font-u); font-size:14px; font-weight:500;
-  padding:11px 34px 11px 12px; appearance:none; cursor:pointer; outline:none;
-  transition:border-color .18s;
-}
-.sel-wrap select:focus, .sel-wrap select:hover { border-bottom-color:var(--gold); }
-.sel-wrap select:disabled { opacity:.3; cursor:not-allowed; }
-.sel-arr { position:absolute; right:11px; bottom:13px; pointer-events:none; color:var(--gold-dark); font-size:11px; }
+/* ── TOW METHOD ── */
+.tow-block{margin-bottom:var(--gap-md);}
+.tow-banner{display:flex;align-items:center;gap:16px;padding:18px 22px;background:var(--dark3);border-left:4px solid var(--gold);}
+.tow-banner.flatbed-only{border-left-color:var(--red);background:#140808;}
+.tow-banner.flatbed-only .tow-inner-label{color:#d04040;}
+.tow-icon{font-size:1.6rem;flex-shrink:0;}
+.tow-inner{flex:1;}
+.tow-inner-label{font-family:var(--font-u);font-size:9px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:var(--gold-dark);margin-bottom:4px;}
+.tow-inner-val{font-family:var(--font-u);font-size:1rem;font-weight:600;color:var(--white);line-height:1.5;}
+.tow-notes{border-top:1px solid var(--dark5);background:var(--dark2);}
+.tow-notes-label{font-family:var(--font-u);font-size:9px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:var(--gray);padding:12px 22px 8px;}
+.tow-notes ul{list-style:none;padding:0 22px 14px;display:flex;flex-direction:column;gap:0;}
+.tow-notes ul li{font-family:var(--font-b);font-size:0.88rem;color:var(--off-white);line-height:1.6;padding:9px 0 9px 20px;position:relative;border-bottom:1px solid var(--dark4);}
+.tow-notes ul li:last-child{border-bottom:none;}
+.tow-notes ul li::before{content:'';position:absolute;left:0;top:18px;width:5px;height:5px;border-radius:50%;background:var(--gold-dark);}
+.tow-notes ul li .note-key{font-family:var(--font-u);font-size:0.85rem;font-weight:700;color:var(--gold-bright);margin-right:6px;}
 
-.lookup-btn {
-  width:100%; background:var(--gold); border:none; color:var(--black);
-  font-family:var(--font-d); font-size:1.1rem; font-weight:900;
-  letter-spacing:4px; text-transform:uppercase; padding:15px;
-  cursor:pointer; transition:all .2s; position:relative; overflow:hidden;
-}
-.lookup-btn::after {
-  content:''; position:absolute; inset:0;
-  background:linear-gradient(135deg, rgba(255,255,255,.12) 0%, transparent 60%);
-  pointer-events:none;
-}
-.lookup-btn:hover:not(:disabled) { background:var(--gold-bright); transform:translateY(-2px); box-shadow:0 6px 24px rgba(200,144,10,.4); }
-.lookup-btn:disabled { background:var(--dark5); color:var(--gray); cursor:not-allowed; }
-.lookup-btn:disabled::after { display:none; }
+/* ── BATTERY ── */
+.battery-block{margin-bottom:var(--gap-md);border-left:3px solid rgba(212,168,0,.4);background:var(--dark2);}
+.battery-head{display:flex;align-items:center;gap:10px;padding:14px 20px 10px;}
+.battery-head-title{font-family:var(--font-u);font-size:10px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--gold-dark);flex:1;}
+.battery-type-badge{font-family:var(--font-u);font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:3px 10px;border:1px solid;}
+.battery-type-badge.standard{color:var(--green);border-color:rgba(78,168,75,.3);background:var(--green-bg);}
+.battery-type-badge.agm{color:var(--blue);border-color:rgba(74,133,192,.3);background:var(--blue-bg);}
+.battery-type-badge.auxiliary{color:var(--ev-color);border-color:rgba(40,168,168,.3);background:rgba(40,168,168,.06);}
+.battery-cols{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--dark5);}
+@media(max-width:600px){.battery-cols{grid-template-columns:1fr;}}
+.battery-col{padding:14px 20px;}
+.battery-col:first-child{border-right:1px solid var(--dark5);}
+@media(max-width:600px){.battery-col:first-child{border-right:none;border-bottom:1px solid var(--dark5);}}
+.battery-col-label{font-family:var(--font-u);font-size:9px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--gold-dark);margin-bottom:6px;}
+.battery-col-val{font-family:var(--font-b);font-size:0.88rem;color:var(--white);line-height:1.55;}
+.battery-warn{padding:10px 20px;border-top:1px solid var(--dark5);font-family:var(--font-b);font-size:0.82rem;color:#c8b040;line-height:1.5;background:rgba(212,168,0,.04);}
+.battery-warn::before{content:'⚡ ';}
 
-/* ── RESULTS ─────────────────────────────────── */
-#results { display:none; }
-#results.show { display:block; animation:fadeIn .4s ease; }
-@keyframes fadeIn { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+/* ── TRANSFER CASE ── */
+.tc-block{margin-bottom:var(--gap-md);background:var(--dark2);border-left:3px solid rgba(74,133,192,.5);}
+.tc-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:14px 20px 10px;flex-wrap:wrap;}
+.tc-head-title{font-family:var(--font-u);font-size:10px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--blue);}
+.tc-head-type{font-family:var(--font-b);font-size:0.78rem;color:var(--gray);}
+.tc-cols{display:grid;grid-template-columns:1fr 1.4fr;gap:0;border-top:1px solid var(--dark5);}
+@media(max-width:600px){.tc-cols{grid-template-columns:1fr;}}
+.tc-col{padding:16px 20px;}
+.tc-col:first-child{border-right:1px solid var(--dark5);}
+@media(max-width:600px){.tc-col:first-child{border-right:none;border-bottom:1px solid var(--dark5);}}
+.tc-col-label{font-family:var(--font-u);font-size:9px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--gray);margin-bottom:10px;}
+.tc-pos-list{list-style:none;display:flex;flex-direction:column;gap:6px;}
+.tc-pos-list li{font-family:var(--font-c);font-size:0.88rem;color:var(--off-white);display:flex;gap:8px;align-items:flex-start;line-height:1.45;}
+.tc-pos-list li .pos-dot{width:5px;height:5px;background:rgba(74,133,192,.5);border-radius:50%;flex-shrink:0;margin-top:6px;}
+.tc-steps-list{list-style:none;display:flex;flex-direction:column;gap:8px;}
+.tc-steps-list li{display:flex;gap:10px;font-family:var(--font-b);font-size:0.88rem;color:var(--off-white);line-height:1.55;align-items:flex-start;}
+.tc-step-num{flex-shrink:0;width:20px;height:20px;border:1px solid rgba(74,133,192,.4);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-u);font-size:10px;font-weight:700;color:var(--blue);margin-top:2px;background:rgba(74,133,192,.06);}
+</style>
+<style>
+/* ── PROCEDURES ── */
+.proc-section{margin-bottom:var(--gap-md);margin-top:var(--gap-sm);}
+.proc-eyebrow{font-family:var(--font-u);font-size:9px;font-weight:600;letter-spacing:6px;text-transform:uppercase;color:var(--gold-dark);margin-bottom:var(--gap-sm);display:flex;align-items:center;gap:14px;}
+.proc-eyebrow::before,.proc-eyebrow::after{content:'';flex:1;height:1px;}
+.proc-eyebrow::before{background:linear-gradient(90deg,transparent,var(--dark6));}
+.proc-eyebrow::after{background:linear-gradient(90deg,var(--dark6),transparent);}
+.proc-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap-sm);}
+@media(max-width:600px){.proc-grid{grid-template-columns:1fr;}}
+.proc-box{background:var(--dark2);overflow:hidden;display:flex;flex-direction:column;}
+.proc-box.shift{border-top:3px solid var(--green);}
+.proc-box.neutral{border-top:3px solid var(--amber);}
+.proc-head{padding:16px 20px 14px;display:flex;align-items:center;gap:10px;font-family:var(--font-d);font-size:1.05rem;font-weight:900;letter-spacing:3px;text-transform:uppercase;border-bottom:1px solid var(--dark5);}
+.proc-head .ph-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0;}
+.proc-box.shift .proc-head{color:var(--green);background:rgba(78,168,75,.05);}
+.proc-box.shift .ph-dot{background:var(--green);box-shadow:0 0 8px rgba(78,168,75,.4);}
+.proc-box.neutral .proc-head{color:var(--amber);background:rgba(212,149,42,.05);}
+.proc-box.neutral .ph-dot{background:var(--amber);box-shadow:0 0 8px rgba(212,149,42,.4);}
+.proc-body{padding:20px;flex:1;}
+.slot-strip{background:var(--dark3);border-left:2px solid var(--gold-dark);padding:10px 14px;margin-bottom:16px;line-height:1.5;font-family:var(--font-b);font-size:0.82rem;color:var(--gray);font-style:italic;}
+.slot-strip strong{display:block;font-style:normal;font-family:var(--font-u);font-size:9px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold-dark);margin-bottom:3px;}
+.steps-list{list-style:none;display:flex;flex-direction:column;gap:10px;}
+.steps-list li{display:flex;gap:12px;font-family:var(--font-b);font-size:0.9rem;color:var(--off-white);line-height:1.55;align-items:flex-start;}
+.step-num{flex-shrink:0;width:24px;height:24px;border:1px solid var(--dark6);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-u);font-size:11px;font-weight:700;color:var(--gold);margin-top:2px;background:var(--dark3);}
+.proc-box.shift .step-num{border-color:rgba(78,168,75,.25);color:var(--green);}
+.proc-box.neutral .step-num{border-color:rgba(212,149,42,.25);color:var(--amber);}
 
-/* Vehicle title */
-.veh-title-bar {
-  display:flex; align-items:flex-start; justify-content:space-between;
-  flex-wrap:wrap; gap:12px;
-  padding-bottom:var(--gap-md);
-  margin-bottom:var(--gap-sm);
-  border-bottom:1px solid var(--dark5);
-}
-.veh-name {
-  font-family:var(--font-d); font-size:clamp(2rem,5.5vw,3.2rem);
-  font-weight:900; text-transform:uppercase; color:var(--gold-bright);
-  letter-spacing:2px; line-height:.95;
-}
-.veh-years { font-family:var(--font-c); font-size:0.95rem; color:var(--gray); letter-spacing:3px; margin-top:6px; }
+/* ── NOTES / WARNINGS ── */
+.note-box,.warn-box{padding:16px 20px;font-family:var(--font-b);font-size:0.95rem;line-height:1.65;margin-bottom:var(--gap-sm);border-left:4px solid;}
+.note-box{border-color:var(--blue);color:#c8dff0;background:rgba(74,133,192,.08);}
+.warn-box{border-color:var(--orange);color:#f0c898;background:rgba(200,90,10,.08);}
+.note-box strong,.warn-box strong{display:flex;align-items:center;gap:6px;font-family:var(--font-u);font-size:10px;font-weight:700;letter-spacing:4px;text-transform:uppercase;margin-bottom:6px;}
+.note-box strong{color:var(--blue);}
+.warn-box strong{color:var(--orange);}
 
-/* DT emblem */
-.dt-emblem {
-  display:inline-flex; align-items:center; gap:7px; padding:7px 14px;
-  font-family:var(--font-u); font-size:11px; font-weight:700;
-  letter-spacing:2px; text-transform:uppercase; border:1px solid; flex-shrink:0;
-  margin-top:4px;
-}
-.dt-emblem svg { width:26px; height:26px; flex-shrink:0; }
-.dt-emblem.fwd  { color:var(--fwd-color);   border-color:rgba(78,168,75,.4);   background:var(--green-bg); }
-.dt-emblem.rwd  { color:var(--rwd-color);   border-color:rgba(212,149,42,.4);  background:var(--amber-bg); }
-.dt-emblem.awd  { color:var(--awd-color);   border-color:rgba(74,133,192,.4);  background:var(--blue-bg); }
-.dt-emblem.4wd  { color:var(--fourwd-color);border-color:rgba(144,96,176,.4);  background:rgba(144,96,176,.06); }
-.dt-emblem.ev   { color:var(--ev-color);    border-color:rgba(40,168,168,.4);  background:rgba(40,168,168,.06); }
-.dt-emblem.multi{ color:var(--gold);        border-color:rgba(200,144,10,.3);  background:rgba(200,144,10,.05); }
+/* ── GENERIC EXTRA SECTION (for new data types) ── */
+.extra-block{margin-bottom:var(--gap-md);background:var(--dark2);border-left:3px solid var(--dark6);overflow:hidden;}
+.extra-head{display:flex;align-items:center;gap:10px;padding:14px 20px 10px;border-bottom:1px solid var(--dark5);}
+.extra-head-icon{font-size:1rem;flex-shrink:0;opacity:.8;}
+.extra-head-title{font-family:var(--font-u);font-size:10px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--gray-light);flex:1;}
+.extra-body{padding:16px 20px;}
+.extra-body p{font-family:var(--font-b);font-size:0.9rem;color:var(--off-white);line-height:1.65;margin-bottom:10px;}
+.extra-body p:last-child{margin-bottom:0;}
+.extra-kv-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--dark5);}
+@media(max-width:500px){.extra-kv-grid{grid-template-columns:1fr;}}
+.extra-kv-cell{background:var(--dark2);padding:12px 16px;}
+.extra-kv-label{font-family:var(--font-u);font-size:9px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--gold-dark);margin-bottom:4px;}
+.extra-kv-val{font-family:var(--font-b);font-size:0.88rem;color:var(--white);line-height:1.5;}
+.extra-steps{list-style:none;display:flex;flex-direction:column;gap:8px;}
+.extra-steps li{display:flex;gap:10px;font-family:var(--font-b);font-size:0.88rem;color:var(--off-white);line-height:1.55;align-items:flex-start;}
+.extra-step-num{flex-shrink:0;width:20px;height:20px;border:1px solid var(--dark6);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-u);font-size:10px;font-weight:700;color:var(--gray-light);margin-top:2px;background:var(--dark3);}
+.extra-tags{display:flex;flex-wrap:wrap;gap:6px;}
+.extra-tag{font-family:var(--font-u);font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:4px 10px;border:1px solid var(--dark6);color:var(--off-white);background:var(--dark3);}
 
-/* Section filters */
-.section-filters {
-  display:flex; flex-wrap:wrap; gap:6px;
-  margin-bottom:var(--gap-md);
-  padding-bottom:var(--gap-sm);
-  border-bottom:1px solid var(--dark4);
-}
-.sf-btn {
-  padding:7px 14px; background:transparent; border:1px solid var(--dark5);
-  color:var(--gray); font-family:var(--font-u); font-size:0.75rem;
-  font-weight:600; letter-spacing:1.5px; text-transform:uppercase;
-  cursor:pointer; transition:all .15s; white-space:nowrap;
-}
-.sf-btn:hover { border-color:var(--gold-dark); color:var(--off-white); }
-.sf-btn.active { background:var(--gold); color:var(--black); border-color:var(--gold); font-weight:700; }
-.sf-btn.active:hover { background:var(--gold-bright); }
-.sf-divider { width:1px; background:var(--dark5); align-self:stretch; margin:0 2px; }
-[class*="sec-"].hidden { display:none !important; }
+/* ── KNOWN ISSUES ── */
+.issues-section{margin-bottom:var(--gap-md);border-left:3px solid rgba(192,57,43,.6);background:var(--dark2);overflow:hidden;}
+.issues-header{padding:14px 20px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(192,57,43,.2);}
+.issues-header-icon{font-size:1rem;flex-shrink:0;}
+.issues-header-text{font-family:var(--font-u);font-size:10px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:#c04040;flex:1;}
+.issues-header-count{font-family:var(--font-u);font-size:9px;font-weight:700;letter-spacing:2px;color:#804040;background:rgba(192,57,43,.1);border:1px solid rgba(192,57,43,.2);padding:3px 10px;}
+.issues-list{list-style:none;}
+.issue-item{border-bottom:1px solid rgba(192,57,43,.1);}
+.issue-item:last-child{border-bottom:none;}
+.issue-title{width:100%;padding:12px 20px;background:transparent;border:none;display:flex;align-items:center;gap:10px;cursor:pointer;text-align:left;transition:background .12s;}
+.issue-title:hover{background:rgba(192,57,43,.06);}
+.issue-title-icon{color:#c04040;font-size:0.8rem;flex-shrink:0;}
+.issue-title-text{font-family:var(--font-u);font-size:0.85rem;font-weight:700;letter-spacing:0.3px;color:#d07070;flex:1;}
+.issue-chevron{color:rgba(192,57,43,.4);font-size:0.65rem;flex-shrink:0;transition:transform .2s;}
+.issue-item.open .issue-chevron{transform:rotate(90deg);}
+.issue-detail{display:none;padding:0 20px 14px 38px;font-family:var(--font-b);font-size:0.87rem;color:var(--off-white);line-height:1.65;background:rgba(192,57,43,.03);}
+.issue-item.open .issue-detail{display:block;}
 
-/* ── INFO ROW ─────────────────────────────────── */
-.info-row {
-  display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
-  background:var(--dark5);
-  margin-bottom:var(--gap-md);
-  border:1px solid var(--dark5);
-}
-@media(max-width:580px) { .info-row { grid-template-columns:1fr 1fr; } }
-.info-cell { background:var(--dark2); padding:16px 18px; }
-.info-cell-label {
-  font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:4px; text-transform:uppercase; color:var(--gold-dark);
-  margin-bottom:5px;
-}
-.info-cell-val {
-  font-family:var(--font-u); font-size:0.95rem; font-weight:600;
-  color:var(--white); line-height:1.3;
-}
-.info-cell.trans .info-cell-val { font-family:var(--font-c); font-size:0.88rem; font-weight:500; color:var(--off-white); }
+/* ── TOWSPEC / ACTIONS ── */
+.towspec-wrap{margin-bottom:var(--gap-sm);}
+.towspec-lbl{font-family:var(--font-u);font-size:9px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:var(--gray);margin-bottom:8px;}
+.towspec-btn{display:flex;align-items:center;justify-content:space-between;width:100%;padding:15px 20px;background:transparent;border:1px solid var(--dark5);border-left:3px solid var(--gold-dark);color:var(--off-white);text-decoration:none;font-family:var(--font-u);font-size:0.9rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;transition:all .2s;}
+.towspec-btn:hover{border-left-color:var(--gold-bright);color:var(--gold-bright);background:rgba(200,144,10,.04);transform:translateX(3px);}
+.towspec-btn .arr{font-size:1.1rem;transition:transform .2s;}
+.towspec-btn:hover .arr{transform:translateX(4px);}
+.print-share-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:var(--gap-sm);}
+.action-btn{padding:12px;background:transparent;border:1px solid var(--dark5);color:var(--gray);font-family:var(--font-u);font-size:0.8rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:all .18s;}
+.action-btn:hover{color:var(--white);border-color:var(--dark6);background:var(--dark3);}
+.print-btn:hover{border-color:var(--gold-dark);color:var(--gold);}
+.share-btn:hover{border-color:rgba(74,133,192,.5);color:var(--blue);}
 
-/* ── TOW METHOD ─────────────────────────────────── */
-.tow-block { margin-bottom:var(--gap-md); }
-.tow-banner {
-  display:flex; align-items:center; gap:16px;
-  padding:18px 22px;
-  background:var(--dark3);
-  border-left:4px solid var(--gold);
-  margin-bottom:0;
-}
-.tow-banner.flatbed-only { border-left-color:var(--red); background:#140808; }
-.tow-banner.flatbed-only .tow-inner-label { color:#d04040; }
-.tow-icon { font-size:1.6rem; flex-shrink:0; }
-.tow-inner { flex:1; }
-.tow-inner-label {
-  font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:4px; text-transform:uppercase; color:var(--gold-dark);
-  margin-bottom:4px;
-}
-.tow-inner-val {
-  font-family:var(--font-u); font-size:1rem; font-weight:600;
-  color:var(--white); line-height:1.5;
-}
+/* ── FOOTER ── */
+footer{border-top:1px solid var(--dark5);padding:32px 28px;text-align:center;background:var(--dark1);}
+footer a{color:var(--gold-dark);text-decoration:none;font-family:var(--font-u);font-size:13px;letter-spacing:2px;transition:color .2s;}
+footer a:hover{color:var(--gold);}
+footer p{font-family:var(--font-b);font-size:11px;color:var(--gray);margin-top:8px;}
+footer .copy{margin-top:10px;font-size:10px;color:var(--dark6);}
 
-/* operator notes */
-.tow-notes {
-  border-top:1px solid var(--dark5);
-  background:var(--dark2);
-}
-.tow-notes-label {
-  font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:4px; text-transform:uppercase; color:var(--gray);
-  padding:12px 22px 8px;
-}
-.tow-notes ul { list-style:none; padding:0 22px 14px; display:flex; flex-direction:column; gap:0; }
-.tow-notes ul li {
-  font-family:var(--font-b); font-size:0.88rem; color:var(--off-white);
-  line-height:1.6; padding:9px 0 9px 20px; position:relative;
-  border-bottom:1px solid var(--dark4);
-}
-.tow-notes ul li:last-child { border-bottom:none; }
-.tow-notes ul li::before {
-  content:''; position:absolute; left:0; top:18px;
-  width:5px; height:5px; border-radius:50%; background:var(--gold-dark);
-}
-.tow-notes ul li .note-key {
-  font-family:var(--font-u); font-size:0.85rem; font-weight:700;
-  color:var(--gold-bright); margin-right:6px;
-}
-
-/* ── BATTERY ─────────────────────────────────── */
-.battery-block {
-  margin-bottom:var(--gap-md);
-  border-left:3px solid rgba(212,168,0,.4);
-  background:var(--dark2);
-}
-.battery-head {
-  display:flex; align-items:center; gap:10px;
-  padding:14px 20px 10px;
-}
-.battery-head-title {
-  font-family:var(--font-u); font-size:10px; font-weight:700;
-  letter-spacing:4px; text-transform:uppercase; color:var(--gold-dark);
-  flex:1;
-}
-.battery-type-badge {
-  font-family:var(--font-u); font-size:9px; font-weight:700;
-  letter-spacing:2px; text-transform:uppercase;
-  padding:3px 10px; border:1px solid;
-}
-.battery-type-badge.standard { color:var(--green);   border-color:rgba(78,168,75,.3);   background:var(--green-bg); }
-.battery-type-badge.agm      { color:var(--blue);    border-color:rgba(74,133,192,.3);  background:var(--blue-bg); }
-.battery-type-badge.auxiliary{ color:var(--ev-color);border-color:rgba(40,168,168,.3);  background:rgba(40,168,168,.06); }
-.battery-cols {
-  display:grid; grid-template-columns:1fr 1fr; gap:0;
-  border-top:1px solid var(--dark5);
-}
-@media(max-width:600px) { .battery-cols { grid-template-columns:1fr; } }
-.battery-col { padding:14px 20px; }
-.battery-col:first-child { border-right:1px solid var(--dark5); }
-@media(max-width:600px) { .battery-col:first-child { border-right:none; border-bottom:1px solid var(--dark5); } }
-.battery-col-label {
-  font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:3px; text-transform:uppercase; color:var(--gold-dark);
-  margin-bottom:6px;
-}
-.battery-col-val { font-family:var(--font-b); font-size:0.88rem; color:var(--white); line-height:1.55; }
-.battery-warn {
-  padding:10px 20px; border-top:1px solid var(--dark5);
-  font-family:var(--font-b); font-size:0.82rem; color:#c8b040;
-  line-height:1.5; background:rgba(212,168,0,.04);
-}
-.battery-warn::before { content:'⚡ '; }
-
-/* ── TRANSFER CASE ─────────────────────────────────── */
-.tc-block {
-  margin-bottom:var(--gap-md);
-  background:var(--dark2);
-  border-left:3px solid rgba(74,133,192,.5);
-}
-.tc-head {
-  display:flex; align-items:baseline; justify-content:space-between; gap:12px;
-  padding:14px 20px 10px; flex-wrap:wrap;
-}
-.tc-head-title {
-  font-family:var(--font-u); font-size:10px; font-weight:700;
-  letter-spacing:4px; text-transform:uppercase; color:var(--blue);
-}
-.tc-head-type { font-family:var(--font-b); font-size:0.78rem; color:var(--gray); }
-.tc-cols {
-  display:grid; grid-template-columns:1fr 1.4fr; gap:0;
-  border-top:1px solid var(--dark5);
-}
-@media(max-width:600px) { .tc-cols { grid-template-columns:1fr; } }
-.tc-col { padding:16px 20px; }
-.tc-col:first-child { border-right:1px solid var(--dark5); }
-@media(max-width:600px) { .tc-col:first-child { border-right:none; border-bottom:1px solid var(--dark5); } }
-.tc-col-label {
-  font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:3px; text-transform:uppercase; color:var(--gray);
-  margin-bottom:10px;
-}
-.tc-pos-list { list-style:none; display:flex; flex-direction:column; gap:6px; }
-.tc-pos-list li {
-  font-family:var(--font-c); font-size:0.88rem; color:var(--off-white);
-  display:flex; gap:8px; align-items:flex-start; line-height:1.45;
-}
-.tc-pos-list li .pos-dot { width:5px; height:5px; background:rgba(74,133,192,.5); border-radius:50%; flex-shrink:0; margin-top:6px; }
-.tc-steps-list { list-style:none; display:flex; flex-direction:column; gap:8px; }
-.tc-steps-list li {
-  display:flex; gap:10px; font-family:var(--font-b);
-  font-size:0.88rem; color:var(--off-white); line-height:1.55; align-items:flex-start;
-}
-.tc-step-num {
-  flex-shrink:0; width:20px; height:20px;
-  border:1px solid rgba(74,133,192,.4);
-  border-radius:50%; display:flex; align-items:center; justify-content:center;
-  font-family:var(--font-u); font-size:10px; font-weight:700;
-  color:var(--blue); margin-top:2px; background:rgba(74,133,192,.06);
-}
-
-/* ── PROCEDURES — HERO SECTION ─────────────────────────────────── */
-.proc-section {
-  margin-bottom:var(--gap-md);
-  margin-top:var(--gap-sm);
-}
-.proc-eyebrow {
-  font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:6px; text-transform:uppercase; color:var(--gold-dark);
-  margin-bottom:var(--gap-sm); display:flex; align-items:center; gap:14px;
-}
-.proc-eyebrow::before, .proc-eyebrow::after { content:''; flex:1; height:1px; }
-.proc-eyebrow::before { background:linear-gradient(90deg,transparent,var(--dark6)); }
-.proc-eyebrow::after  { background:linear-gradient(90deg,var(--dark6),transparent); }
-
-.proc-grid {
-  display:grid; grid-template-columns:1fr 1fr; gap:var(--gap-sm);
-}
-@media(max-width:600px) { .proc-grid { grid-template-columns:1fr; } }
-
-.proc-box {
-  background:var(--dark2); overflow:hidden;
-  display:flex; flex-direction:column;
-}
-/* shift — green accent */
-.proc-box.shift { border-top:3px solid var(--green); }
-/* neutral — amber accent */
-.proc-box.neutral { border-top:3px solid var(--amber); }
-
-.proc-head {
-  padding:16px 20px 14px;
-  display:flex; align-items:center; gap:10px;
-  font-family:var(--font-d); font-size:1.05rem; font-weight:900;
-  letter-spacing:3px; text-transform:uppercase;
-  border-bottom:1px solid var(--dark5);
-}
-.proc-head .ph-dot { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
-.proc-box.shift  .proc-head { color:var(--green); background:rgba(78,168,75,.05); }
-.proc-box.shift  .ph-dot { background:var(--green); box-shadow:0 0 8px rgba(78,168,75,.4); }
-.proc-box.neutral .proc-head { color:var(--amber); background:rgba(212,149,42,.05); }
-.proc-box.neutral .ph-dot { background:var(--amber); box-shadow:0 0 8px rgba(212,149,42,.4); }
-
-.proc-body { padding:20px; flex:1; }
-
-.slot-strip {
-  background:var(--dark3); border-left:2px solid var(--gold-dark);
-  padding:10px 14px; margin-bottom:16px; line-height:1.5;
-  font-family:var(--font-b); font-size:0.82rem; color:var(--gray); font-style:italic;
-}
-.slot-strip strong {
-  display:block; font-style:normal; font-family:var(--font-u);
-  font-size:9px; font-weight:700; letter-spacing:3px;
-  text-transform:uppercase; color:var(--gold-dark); margin-bottom:3px;
-}
-
-.steps-list { list-style:none; display:flex; flex-direction:column; gap:10px; }
-.steps-list li {
-  display:flex; gap:12px; font-family:var(--font-b);
-  font-size:0.9rem; color:var(--off-white); line-height:1.55; align-items:flex-start;
-}
-.step-num {
-  flex-shrink:0; width:24px; height:24px;
-  border:1px solid var(--dark6); border-radius:50%;
-  display:flex; align-items:center; justify-content:center;
-  font-family:var(--font-u); font-size:11px; font-weight:700;
-  color:var(--gold); margin-top:2px; background:var(--dark3);
-}
-.proc-box.shift  .step-num { border-color:rgba(78,168,75,.25); color:var(--green); }
-.proc-box.neutral .step-num { border-color:rgba(212,149,42,.25); color:var(--amber); }
-
-/* ── NOTES / WARNINGS ─────────────────────────────────── */
-.note-box, .warn-box {
-  padding:16px 20px; font-family:var(--font-b); font-size:0.95rem;
-  line-height:1.65; margin-bottom:var(--gap-sm);
-  border-left:4px solid;
-}
-.note-box { border-color:var(--blue); color:#c8dff0; background:rgba(74,133,192,.08); }
-.warn-box { border-color:var(--orange); color:#f0c898; background:rgba(200,90,10,.08); }
-.note-box strong {
-  display:block; font-family:var(--font-u); font-size:10px; font-weight:700;
-  letter-spacing:4px; text-transform:uppercase; color:var(--blue);
-  margin-bottom:6px; display:flex; align-items:center; gap:6px;
-}
-.warn-box strong {
-  display:block; font-family:var(--font-u); font-size:10px; font-weight:700;
-  letter-spacing:4px; text-transform:uppercase; color:var(--orange);
-  margin-bottom:6px; display:flex; align-items:center; gap:6px;
-}
-
-/* ── KNOWN ISSUES ─────────────────────────────────── */
-.issues-section {
-  margin-bottom:var(--gap-md);
-  border-left:3px solid rgba(192,57,43,.6);
-  background:var(--dark2);
-  overflow:hidden;
-}
-.issues-header {
-  padding:14px 20px;
-  display:flex; align-items:center; gap:10px;
-  border-bottom:1px solid rgba(192,57,43,.2);
-}
-.issues-header-icon { font-size:1rem; flex-shrink:0; }
-.issues-header-text {
-  font-family:var(--font-u); font-size:10px; font-weight:700;
-  letter-spacing:4px; text-transform:uppercase; color:#c04040; flex:1;
-}
-.issues-header-count {
-  font-family:var(--font-u); font-size:9px; font-weight:700;
-  letter-spacing:2px; color:#804040;
-  background:rgba(192,57,43,.1); border:1px solid rgba(192,57,43,.2);
-  padding:3px 10px;
-}
-.issues-list { list-style:none; }
-.issue-item { border-bottom:1px solid rgba(192,57,43,.1); }
-.issue-item:last-child { border-bottom:none; }
-.issue-title {
-  width:100%; padding:12px 20px; background:transparent; border:none;
-  display:flex; align-items:center; gap:10px; cursor:pointer; text-align:left;
-  transition:background .12s;
-}
-.issue-title:hover { background:rgba(192,57,43,.06); }
-.issue-title-icon { color:#c04040; font-size:0.8rem; flex-shrink:0; }
-.issue-title-text {
-  font-family:var(--font-u); font-size:0.85rem; font-weight:700;
-  letter-spacing:0.3px; color:#d07070; flex:1;
-}
-.issue-chevron { color:rgba(192,57,43,.4); font-size:0.65rem; flex-shrink:0; transition:transform .2s; }
-.issue-item.open .issue-chevron { transform:rotate(90deg); }
-.issue-detail {
-  display:none; padding:0 20px 14px 38px;
-  font-family:var(--font-b); font-size:0.87rem; color:var(--off-white);
-  line-height:1.65; background:rgba(192,57,43,.03);
-}
-.issue-item.open .issue-detail { display:block; }
-
-/* ── TOWSPEC ─────────────────────────────────── */
-.towspec-wrap { margin-bottom:var(--gap-sm); }
-.towspec-lbl {
-  font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:4px; text-transform:uppercase; color:var(--gray);
-  margin-bottom:8px;
-}
-.towspec-btn {
-  display:flex; align-items:center; justify-content:space-between;
-  width:100%; padding:15px 20px;
-  background:transparent; border:1px solid var(--dark5);
-  border-left:3px solid var(--gold-dark);
-  color:var(--off-white); text-decoration:none;
-  font-family:var(--font-u); font-size:0.9rem; font-weight:600;
-  letter-spacing:2px; text-transform:uppercase;
-  transition:all .2s;
-}
-.towspec-btn:hover { border-left-color:var(--gold-bright); color:var(--gold-bright); background:rgba(200,144,10,.04); transform:translateX(3px); }
-.towspec-btn .arr { font-size:1.1rem; transition:transform .2s; }
-.towspec-btn:hover .arr { transform:translateX(4px); }
-
-/* ── PRINT / SHARE ─────────────────────────────────── */
-.print-share-row { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:var(--gap-sm); }
-.action-btn {
-  padding:12px; background:transparent; border:1px solid var(--dark5);
-  color:var(--gray); font-family:var(--font-u); font-size:0.8rem;
-  font-weight:600; letter-spacing:1.5px; text-transform:uppercase;
-  cursor:pointer; transition:all .18s;
-}
-.action-btn:hover { color:var(--white); border-color:var(--dark6); background:var(--dark3); }
-.print-btn:hover { border-color:var(--gold-dark); color:var(--gold); }
-.share-btn:hover { border-color:rgba(74,133,192,.5); color:var(--blue); }
-
-/* ── SECTION DIVIDER ─────────────────────────────────── */
-.sec-divider {
-  height:1px; background:var(--dark5);
-  margin:var(--gap-md) 0;
-}
-
-/* ── FOOTER ─────────────────────────────────── */
-footer {
-  border-top:1px solid var(--dark5);
-  padding:32px 28px; text-align:center;
-  background:var(--dark1);
-}
-footer a { color:var(--gold-dark); text-decoration:none; font-family:var(--font-u); font-size:13px; letter-spacing:2px; transition:color .2s; }
-footer a:hover { color:var(--gold); }
-footer p { font-family:var(--font-b); font-size:11px; color:var(--gray); margin-top:8px; }
-footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
-
-/* ── PRINT ─────────────────────────────────── */
-@media print {
-  header, .hero, .lookup-card, .print-share-row, .towspec-wrap, footer { display:none !important; }
-  body { background:#fff !important; color:#000 !important; }
-  #results { display:block !important; }
-  .veh-name { color:#000 !important; }
-  .chip-label, .info-cell-label, .battery-col-label, .tc-col-label { color:#666 !important; }
-  .proc-box.shift { border-top-color:#2a6028 !important; }
-  .proc-box.neutral { border-top-color:#8a5000 !important; }
-  .proc-box.shift .proc-head { color:#2a6028 !important; }
-  .proc-box.neutral .proc-head { color:#8a5000 !important; }
-  .issue-detail { display:block !important; }
-  .issue-chevron { display:none; }
-  * { box-shadow:none !important; text-shadow:none !important; }
-  @page { margin:1.5cm; }
+/* ── PRINT ── */
+@media print{
+  header,.hero,.lookup-card,.print-share-row,.towspec-wrap,footer{display:none !important;}
+  body{background:#fff !important;color:#000 !important;}
+  #results{display:block !important;}
+  .veh-name{color:#000 !important;}
+  .proc-box.shift{border-top-color:#2a6028 !important;}
+  .proc-box.neutral{border-top-color:#8a5000 !important;}
+  .proc-box.shift .proc-head{color:#2a6028 !important;}
+  .proc-box.neutral .proc-head{color:#8a5000 !important;}
+  .issue-detail{display:block !important;}
+  .issue-chevron{display:none;}
+  *{box-shadow:none !important;text-shadow:none !important;}
+  @page{margin:1.5cm;}
 }
 </style>
 </head>
 <body>
-
 <!-- ═══ HEADER ═══ -->
 <header>
   <div class="hdr">
@@ -653,7 +350,8 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
 <div class="hero">
   <div class="hero-eyebrow">Professional Field Reference</div>
   <h1>Shift Lock &amp; <em>Neutral Override</em></h1>
-  <p class="hero-sub">Shift lock release · Neutral override · Drivetrain · Transfer case · Tow method — 2000–2026, every major make and model.</p>
+  <p class="hero-sub">Procedures · Tow method · Battery terminals · Transfer case · 2000–2026</p>
+  <p class="hero-kbd">Press <kbd>/</kbd> to search</p>
 </div>
 
 <!-- ═══ MAIN ═══ -->
@@ -664,13 +362,14 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
     <div class="card-label">Vehicle Lookup</div>
     <div id="db-status" class="db-status">Loading vehicle database…</div>
 
-    <!-- Search bar -->
+    <!-- Search -->
     <div class="search-wrap">
-      <input type="text" id="search-input" class="search-input" placeholder="Quick search — type make, model, or year…" autocomplete="off" disabled>
+      <input type="text" id="search-input" class="search-input" placeholder="Search make, model, or year…" autocomplete="off" disabled>
       <span class="search-icon">🔍</span>
       <div class="search-results" id="search-results"></div>
     </div>
 
+    <!-- Dropdowns -->
     <div class="sel-grid">
       <div class="sel-wrap">
         <label>Year</label>
@@ -688,7 +387,24 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
         <span class="sel-arr">▼</span>
       </div>
     </div>
+
+    <!-- Quick filters -->
+    <div class="quick-filters">
+      <span style="font-family:var(--font-u);font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--gray);align-self:center;">Filter</span>
+      <div class="qf-sep"></div>
+      <button class="qf-btn flatbed-filter" data-filter="flatbed" title="Show only flatbed-required vehicles">🚨 Flatbed Only</button>
+      <button class="qf-btn awd-filter" data-filter="awd" title="AWD / 4WD vehicles">AWD / 4WD</button>
+      <button class="qf-btn ev-filter" data-filter="ev" title="Electric & Hybrid vehicles">EV / Hybrid</button>
+      <button class="qf-btn issues-filter" data-filter="issues" title="Vehicles with known towing issues">⚠ Known Issues</button>
+    </div>
+
     <button class="lookup-btn" id="lookup-btn" disabled>Look Up Procedure</button>
+
+    <!-- Recently viewed -->
+    <div class="recent-wrap" id="recent-wrap">
+      <div class="recent-label">Recently Viewed</div>
+      <div class="recent-list" id="recent-list"></div>
+    </div>
   </div>
 
   <!-- RESULTS -->
@@ -703,15 +419,15 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
       <div id="res-dt-emblem"></div>
     </div>
 
-    <!-- Section filter tabs -->
-    <div class="section-filters">
+    <!-- Section filters — dynamically updated per vehicle -->
+    <div class="section-filters" id="section-filters">
       <button class="sf-btn active" data-section="all">All</button>
       <div class="sf-divider"></div>
       <button class="sf-btn" data-section="procedures">Procedures</button>
-      <button class="sf-btn" data-section="battery">Battery &amp; Terminals</button>
+      <button class="sf-btn" data-section="battery">Battery</button>
       <button class="sf-btn" data-section="towing">Tow Method</button>
-      <button class="sf-btn" data-section="tc">Transfer Case</button>
-      <button class="sf-btn" data-section="issues">Known Issues</button>
+      <button class="sf-btn sf-tc" data-section="tc">Transfer Case</button>
+      <button class="sf-btn sf-issues" data-section="issues">Known Issues</button>
     </div>
 
     <!-- Info row -->
@@ -730,7 +446,7 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
       </div>
     </div>
 
-    <!-- Shift lock + Neutral override — PRIMARY CONTENT -->
+    <!-- PROCEDURES — primary content -->
     <div class="proc-section sec-procedures">
       <div class="proc-eyebrow">Procedures</div>
       <div class="proc-grid">
@@ -769,10 +485,10 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
       </div>
     </div>
 
-    <!-- Battery & Terminals -->
+    <!-- Battery -->
     <div class="battery-block sec-battery">
       <div class="battery-head">
-        <span style="font-size:1rem;opacity:.7">🔋</span>
+        <span class="extra-head-icon">🔋</span>
         <span class="battery-head-title">Battery &amp; Jump Terminals</span>
         <span class="battery-type-badge" id="res-bat-badge"></span>
       </div>
@@ -807,6 +523,9 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
       </div>
     </div>
 
+    <!-- Extra sections — dynamically rendered from extraSections[] in vehicle data -->
+    <div id="extra-sections"></div>
+
     <!-- Known Issues -->
     <div class="issues-section sec-issues" id="res-issues" style="display:none">
       <div class="issues-header">
@@ -817,7 +536,7 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
       <ul class="issues-list" id="res-issues-list"></ul>
     </div>
 
-    <!-- TowSpec link -->
+    <!-- TowSpec -->
     <div class="towspec-wrap">
       <div class="towspec-lbl">Towing Specifications</div>
       <a id="towspec-btn" class="towspec-btn" href="#" target="_blank" rel="noopener">
@@ -828,7 +547,7 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
 
     <!-- Print / Share -->
     <div class="print-share-row">
-      <button class="action-btn print-btn" onclick="window.print()">🖨 Print This Page</button>
+      <button class="action-btn print-btn" onclick="window.print()">🖨 Print</button>
       <button class="action-btn share-btn" id="share-btn">📤 Share</button>
     </div>
 
@@ -843,115 +562,46 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
 </footer>
 
 <script>
-/* ═══════════════════════════════════════════════════════════
-   DRIVETRAIN EMBLEM BUILDER
-   Returns an HTML string with SVG icon + label
-═══════════════════════════════════════════════════════════ */
+/* ── DRIVETRAIN HELPERS ── */
 function dtClass(dt) {
   if (!dt) return 'multi';
   const u = dt.toUpperCase();
-  if (u.includes('ELECTRIC') || u.includes('EV') || u.startsWith('FWD (E') || u.startsWith('AWD (E') || u.startsWith('RWD OR AWD (D') || u.includes('ELECTRIC/PHEV')) return 'ev';
-  if (u.includes('QUATTRO') || u.includes('XDRIVE') || u.includes('4MATIC') || u.includes('SH-AWD') || u.includes('VTM-4') || u.includes('SYMMETRICAL') || u.includes('ATTESA') || u.includes('AWD (D') || u.includes('AWD (S') || u.includes('AWD (I') || u.includes('AWD STANDARD') || (u.startsWith('AWD') && !u.includes('OR'))) return 'awd';
-  if (u.includes('4WD') && !u.includes('FWD OR') && !u.includes('RWD OR AWD')) return '4wd';
-  if (u.includes('RWD') && !u.includes('AWD') && !u.includes('FWD')) return 'rwd';
-  if (u.startsWith('FWD') && !u.includes('OR AWD') && !u.includes('OR 4WD')) return 'fwd';
+  if (u.includes('ELECTRIC')||u.includes('EV')||u.startsWith('FWD (E')||u.startsWith('AWD (E')||u.includes('ELECTRIC/PHEV')) return 'ev';
+  if (u.includes('QUATTRO')||u.includes('XDRIVE')||u.includes('4MATIC')||u.includes('SH-AWD')||u.includes('VTM-4')||u.includes('SYMMETRICAL')||u.includes('ATTESA')||(u.startsWith('AWD')&&!u.includes('OR'))) return 'awd';
+  if (u.includes('4WD')&&!u.includes('FWD OR')&&!u.includes('RWD OR AWD')) return '4wd';
+  if (u.includes('RWD')&&!u.includes('AWD')&&!u.includes('FWD')) return 'rwd';
+  if (u.startsWith('FWD')&&!u.includes('OR AWD')&&!u.includes('OR 4WD')) return 'fwd';
   return 'multi';
 }
-
-// SVG icons for each drivetrain type
+const DT_LABELS = {fwd:'FWD',rwd:'RWD',awd:'AWD','4wd':'4WD',ev:'Electric',multi:'Mixed'};
 const DT_ICONS = {
-  fwd: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <!-- car body simplified -->
-    <rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/>
-    <rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/>
-    <!-- front wheels (active) -->
-    <circle cx="10" cy="23" r="4" fill="currentColor" opacity=".9"/>
-    <circle cx="10" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>
-    <!-- rear wheels (inactive) -->
-    <circle cx="30" cy="23" r="4" fill="currentColor" opacity=".25"/>
-    <!-- arrow front -->
-    <path d="M4 18 L1 15 M4 18 L1 21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".8"/>
-  </svg>`,
-  rwd: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/>
-    <rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/>
-    <!-- front wheels (inactive) -->
-    <circle cx="10" cy="23" r="4" fill="currentColor" opacity=".25"/>
-    <!-- rear wheels (active) -->
-    <circle cx="30" cy="23" r="4" fill="currentColor" opacity=".9"/>
-    <circle cx="30" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>
-    <!-- arrow rear -->
-    <path d="M36 18 L39 15 M36 18 L39 21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".8"/>
-  </svg>`,
-  awd: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/>
-    <rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/>
-    <!-- all wheels active -->
-    <circle cx="10" cy="23" r="4" fill="currentColor" opacity=".9"/>
-    <circle cx="10" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>
-    <circle cx="30" cy="23" r="4" fill="currentColor" opacity=".9"/>
-    <circle cx="30" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>
-    <!-- driveshaft line -->
-    <line x1="10" y1="19" x2="30" y2="19" stroke="currentColor" stroke-width="1" stroke-dasharray="3,2" opacity=".5"/>
-  </svg>`,
-  '4wd': `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/>
-    <rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/>
-    <!-- all wheels active with TC indicator -->
-    <circle cx="10" cy="23" r="4" fill="currentColor" opacity=".9"/>
-    <circle cx="10" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>
-    <circle cx="30" cy="23" r="4" fill="currentColor" opacity=".9"/>
-    <circle cx="30" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>
-    <!-- transfer case box -->
-    <rect x="17" y="17" width="6" height="5" rx="1" fill="currentColor" opacity=".7"/>
-    <line x1="10" y1="19" x2="17" y2="19" stroke="currentColor" stroke-width="1.2" opacity=".6"/>
-    <line x1="23" y1="19" x2="30" y2="19" stroke="currentColor" stroke-width="1.2" opacity=".6"/>
-  </svg>`,
-  ev: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/>
-    <rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/>
-    <circle cx="10" cy="23" r="4" fill="currentColor" opacity=".8"/>
-    <circle cx="30" cy="23" r="4" fill="currentColor" opacity=".8"/>
-    <!-- lightning bolt -->
-    <path d="M21 10 L19 15 L21.5 15 L19 21 L23 14 L20.5 14 Z" fill="currentColor" opacity=".9"/>
-  </svg>`,
-  multi: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/>
-    <rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/>
-    <circle cx="10" cy="23" r="4" fill="currentColor" opacity=".6"/>
-    <circle cx="30" cy="23" r="4" fill="currentColor" opacity=".6"/>
-    <text x="20" y="20" font-family="sans-serif" font-size="7" text-anchor="middle" fill="currentColor" opacity=".8">?</text>
-  </svg>`
+  fwd:`<svg viewBox="0 0 40 28" fill="none"><rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/><rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/><circle cx="10" cy="23" r="4" fill="currentColor" opacity=".9"/><circle cx="10" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><circle cx="30" cy="23" r="4" fill="currentColor" opacity=".25"/><path d="M4 18 L1 15 M4 18 L1 21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".8"/></svg>`,
+  rwd:`<svg viewBox="0 0 40 28" fill="none"><rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/><rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/><circle cx="10" cy="23" r="4" fill="currentColor" opacity=".25"/><circle cx="30" cy="23" r="4" fill="currentColor" opacity=".9"/><circle cx="30" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><path d="M36 18 L39 15 M36 18 L39 21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".8"/></svg>`,
+  awd:`<svg viewBox="0 0 40 28" fill="none"><rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/><rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/><circle cx="10" cy="23" r="4" fill="currentColor" opacity=".9"/><circle cx="10" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><circle cx="30" cy="23" r="4" fill="currentColor" opacity=".9"/><circle cx="30" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><line x1="10" y1="19" x2="30" y2="19" stroke="currentColor" stroke-width="1" stroke-dasharray="3,2" opacity=".5"/></svg>`,
+  '4wd':`<svg viewBox="0 0 40 28" fill="none"><rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/><rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/><circle cx="10" cy="23" r="4" fill="currentColor" opacity=".9"/><circle cx="10" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><circle cx="30" cy="23" r="4" fill="currentColor" opacity=".9"/><circle cx="30" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><rect x="17" y="17" width="6" height="5" rx="1" fill="currentColor" opacity=".7"/><line x1="10" y1="19" x2="17" y2="19" stroke="currentColor" stroke-width="1.2" opacity=".6"/><line x1="23" y1="19" x2="30" y2="19" stroke="currentColor" stroke-width="1.2" opacity=".6"/></svg>`,
+  ev:`<svg viewBox="0 0 40 28" fill="none"><rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/><rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/><circle cx="10" cy="23" r="4" fill="currentColor" opacity=".8"/><circle cx="30" cy="23" r="4" fill="currentColor" opacity=".8"/><path d="M21 10 L19 15 L21.5 15 L19 21 L23 14 L20.5 14 Z" fill="currentColor" opacity=".9"/></svg>`,
+  multi:`<svg viewBox="0 0 40 28" fill="none"><rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/><rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/><circle cx="10" cy="23" r="4" fill="currentColor" opacity=".6"/><circle cx="30" cy="23" r="4" fill="currentColor" opacity=".6"/><text x="20" y="20" font-family="sans-serif" font-size="7" text-anchor="middle" fill="currentColor" opacity=".8">?</text></svg>`
 };
-
-const DT_LABELS = {
-  fwd: 'FWD', rwd: 'RWD', awd: 'AWD', '4wd': '4WD', ev: 'Electric', multi: 'Mixed'
-};
-
 function buildDtEmblem(drivetrain) {
   const cls = dtClass(drivetrain);
-  const icon = DT_ICONS[cls] || DT_ICONS.multi;
-  const label = DT_LABELS[cls] || 'Mixed';
-  return `<div class="dt-emblem ${cls}">${icon}<span>${label}</span></div>`;
+  return `<div class="dt-emblem ${cls}">${DT_ICONS[cls]||DT_ICONS.multi}<span>${DT_LABELS[cls]||'Mixed'}</span></div>`;
 }
 
-/* ═══════════════════════════════════════════════════════════
-   DATABASE LOADER
-═══════════════════════════════════════════════════════════ */
+/* ── DB LOADING ── */
 let DB = [];
 const selYear  = document.getElementById('sel-year');
 const selMake  = document.getElementById('sel-make');
 const selModel = document.getElementById('sel-model');
 const btn      = document.getElementById('lookup-btn');
 const dbStatus = document.getElementById('db-status');
+const searchInput   = document.getElementById('search-input');
+const searchResults = document.getElementById('search-results');
 
 async function loadDB() {
   try {
-    // Load manifest first, then fetch all make files in parallel
     const manifestRes = await fetch('makes/manifest.json');
     if (!manifestRes.ok) throw new Error('HTTP ' + manifestRes.status);
     const manifest = await manifestRes.json();
-
     const results = await Promise.all(
       manifest.makes.map(m =>
         fetch('makes/' + m.file)
@@ -959,10 +609,10 @@ async function loadDB() {
           .then(data => data.vehicles || [])
       )
     );
-
     DB = results.flat();
     dbStatus.style.display = 'none';
     initYears();
+    renderRecent();
   } catch(e) {
     dbStatus.textContent = '⚠ Could not load vehicle database. Check connection and refresh.';
     dbStatus.classList.add('db-error');
@@ -970,270 +620,246 @@ async function loadDB() {
   }
 }
 
-/* ═══════════════════════════════════════════════════════════
-   DROPDOWN LOGIC
-═══════════════════════════════════════════════════════════ */
+/* ── DROPDOWNS ── */
 function initYears() {
   for (let y = 2026; y >= 2000; y--) selYear.add(new Option(y, y));
   selYear.disabled = false;
   searchInput.disabled = false;
-  searchInput.placeholder = 'Quick search — type make, model, or year…';
 }
-
 selYear.addEventListener('change', function() {
   const yr = parseInt(this.value);
-  selMake.innerHTML  = '<option value="">— Make —</option>';
+  selMake.innerHTML = '<option value="">— Make —</option>';
   selModel.innerHTML = '<option value="">— Model —</option>';
   selMake.disabled = !yr; selModel.disabled = true; btn.disabled = true;
   if (!yr) return;
-  [...new Set(DB.filter(v => yr >= v.yearStart && yr <= v.yearEnd).map(v => v.make))].sort()
-    .forEach(m => selMake.add(new Option(m, m)));
+  let pool = DB.filter(v => yr >= v.yearStart && yr <= v.yearEnd);
+  pool = applyQuickFilter(pool);
+  [...new Set(pool.map(v => v.make))].sort().forEach(m => selMake.add(new Option(m, m)));
   selMake.disabled = false;
 });
-
 selMake.addEventListener('change', function() {
   const yr = parseInt(selYear.value), make = this.value;
   selModel.innerHTML = '<option value="">— Model —</option>';
   selModel.disabled = !make; btn.disabled = true;
   if (!make) return;
-  DB.filter(v => v.make === make && yr >= v.yearStart && yr <= v.yearEnd)
-    .sort((a, b) => a.model.localeCompare(b.model))
-    .forEach(v => selModel.add(new Option(v.model, v.model)));
+  let pool = DB.filter(v => v.make === make && yr >= v.yearStart && yr <= v.yearEnd);
+  pool = applyQuickFilter(pool);
+  pool.sort((a,b) => a.model.localeCompare(b.model)).forEach(v => selModel.add(new Option(v.model, v.model)));
   selModel.disabled = false;
 });
-
 selModel.addEventListener('change', () => { btn.disabled = !selModel.value; });
+/* ── QUICK FILTERS ── */
+let activeFilter = null;
+function applyQuickFilter(pool) {
+  if (!activeFilter) return pool;
+  if (activeFilter === 'flatbed') return pool.filter(v => (v.towMethod||'').toUpperCase().includes('FLATBED ONLY'));
+  if (activeFilter === 'awd')     return pool.filter(v => { const c = dtClass(v.drivetrain); return c==='awd'||c==='4wd'; });
+  if (activeFilter === 'ev')      return pool.filter(v => dtClass(v.drivetrain) === 'ev');
+  if (activeFilter === 'issues')  return pool.filter(v => v.knownIssues && v.knownIssues.length > 0);
+  return pool;
+}
+document.querySelectorAll('.qf-btn').forEach(b => {
+  b.addEventListener('click', function() {
+    const f = this.dataset.filter;
+    if (activeFilter === f) {
+      activeFilter = null;
+      this.classList.remove('active');
+    } else {
+      document.querySelectorAll('.qf-btn').forEach(x => x.classList.remove('active'));
+      activeFilter = f;
+      this.classList.add('active');
+    }
+    // Re-trigger dropdowns
+    selMake.innerHTML = '<option value="">— Make —</option>';
+    selModel.innerHTML = '<option value="">— Model —</option>';
+    selMake.disabled = true; selModel.disabled = true; btn.disabled = true;
+    const yr = parseInt(selYear.value);
+    if (!yr) return;
+    let pool = DB.filter(v => yr >= v.yearStart && yr <= v.yearEnd);
+    pool = applyQuickFilter(pool);
+    [...new Set(pool.map(v => v.make))].sort().forEach(m => selMake.add(new Option(m, m)));
+    selMake.disabled = false;
+  });
+});
 
-/* ═══════════════════════════════════════════════════════════
-   HELPERS
-═══════════════════════════════════════════════════════════ */
+/* ── RECENTLY VIEWED ── */
+const RECENT_KEY = 'bt_recent_v1';
+const RECENT_MAX = 5;
+function getRecent() { try { return JSON.parse(localStorage.getItem(RECENT_KEY)) || []; } catch { return []; } }
+function addRecent(v) {
+  let list = getRecent().filter(r => !(r.make===v.make && r.model===v.model));
+  list.unshift({ make:v.make, model:v.model, yearStart:v.yearStart, yearEnd:v.yearEnd });
+  if (list.length > RECENT_MAX) list = list.slice(0, RECENT_MAX);
+  try { localStorage.setItem(RECENT_KEY, JSON.stringify(list)); } catch {}
+}
+function renderRecent() {
+  const list = getRecent();
+  const wrap = document.getElementById('recent-wrap');
+  const container = document.getElementById('recent-list');
+  if (!list.length) { wrap.classList.remove('show'); return; }
+  wrap.classList.add('show');
+  container.innerHTML = '';
+  list.forEach(r => {
+    const btn = document.createElement('button');
+    btn.className = 'recent-item';
+    btn.textContent = r.make + ' ' + r.model;
+    btn.title = r.yearStart + '–' + r.yearEnd;
+    btn.addEventListener('click', () => {
+      const v = DB.find(x => x.make===r.make && x.model===r.model);
+      if (v) { searchInput.value = ''; renderVehicle(v); }
+    });
+    container.appendChild(btn);
+  });
+}
+
+/* ── HELPERS ── */
 function setEl(id, html, asText) {
   const el = document.getElementById(id);
   if (!el) return;
   asText ? (el.textContent = html) : (el.innerHTML = html);
 }
-
 function showHide(id, show) {
   const el = document.getElementById(id);
   if (el) el.style.display = show ? '' : 'none';
 }
-
-function fillSteps(listId, steps) {
+function fillSteps(listId, steps, numClass) {
   const ul = document.getElementById(listId);
+  if (!ul) return;
   ul.innerHTML = '';
   steps.forEach((s, i) => {
     const li = document.createElement('li');
-    li.innerHTML = `<span class="${listId.includes('tc') ? 'tc-step-num' : 'step-num'}">${i+1}</span><span>${s}</span>`;
+    li.innerHTML = `<span class="${numClass||'step-num'}">${i+1}</span><span>${s}</span>`;
     ul.appendChild(li);
   });
 }
 
-/* ═══════════════════════════════════════════════════════════
-   LOOKUP & RENDER
-═══════════════════════════════════════════════════════════ */
-btn.addEventListener('click', function() {
-  const yr    = parseInt(selYear.value);
-  const make  = selMake.value;
-  const model = selModel.value;
-  const v     = DB.find(v => v.make === make && v.model === model && yr >= v.yearStart && yr <= v.yearEnd);
-  if (!v) return;
-  renderVehicle(v);
-});
-
-/* ═══════════════════════════════════════════════════════════
-   KNOWN ISSUES ACCORDION
-═══════════════════════════════════════════════════════════ */
-function toggleIssue(item) {
-  item.classList.toggle('open');
-}
-
-/* ═══════════════════════════════════════════════════════════
-   SHARE BUTTON
-═══════════════════════════════════════════════════════════ */
-document.getElementById('share-btn').addEventListener('click', function() {
-  const name  = document.getElementById('res-name').textContent;
-  const years = document.getElementById('res-years').textContent;
-  const dt    = document.getElementById('res-drivetrain').textContent;
-  const tow   = document.getElementById('res-towmethod').textContent;
-  const shareText = `${name} (${years})\nDrivetrain: ${dt}\nTow Method: ${tow}\n\nFull procedure: ${window.location.href}`;
-
-  if (navigator.share) {
-    navigator.share({
-      title: `${name} Tow Procedure`,
-      text: shareText,
-      url: window.location.href
-    }).catch(() => {});
-  } else if (navigator.clipboard) {
-    navigator.clipboard.writeText(shareText).then(() => {
-      const btn = document.getElementById('share-btn');
-      const orig = btn.textContent;
-      btn.textContent = '✓ Copied to clipboard';
-      btn.style.color = 'var(--green)';
-      btn.style.borderColor = 'var(--green)';
-      setTimeout(() => {
-        btn.textContent = orig;
-        btn.style.color = '';
-        btn.style.borderColor = '';
-      }, 2500);
-    });
-  } else {
-    alert(shareText);
-  }
-});
-
-/* ═══════════════════════════════════════════════════════════
-   SEARCH BAR
-═══════════════════════════════════════════════════════════ */
-const searchInput   = document.getElementById('search-input');
-const searchResults = document.getElementById('search-results');
-let searchHighlight = -1;
-
-function highlightText(text, query) {
-  if (!query) return text;
-  const re = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
-  return text.replace(re, '<mark>$1</mark>');
-}
-
-function doSearch(q) {
-  q = q.trim();
-  if (q.length < 2) { searchResults.classList.remove('open'); return; }
-  const ql = q.toLowerCase();
-  const matches = DB.filter(v => {
-    const str = (v.make + ' ' + v.model + ' ' + v.yearStart + ' ' + v.yearEnd + ' ' + v.drivetrain).toLowerCase();
-    return str.includes(ql);
-  }).slice(0, 12);
-
-  searchResults.innerHTML = '';
-  searchHighlight = -1;
-
-  if (matches.length === 0) {
-    searchResults.innerHTML = '<div class="search-no-results">No vehicles found</div>';
-  } else {
-    matches.forEach((v, i) => {
-      const div = document.createElement('div');
-      div.className = 'search-result-item';
-      div.dataset.idx = i;
-      const label = v.make + ' ' + v.model;
-      div.innerHTML = `
-        <span class="sri-name">${highlightText(label, q)}</span>
-        <span class="sri-years">${v.yearStart}–${v.yearEnd}</span>`;
-      div.addEventListener('mousedown', e => {
-        e.preventDefault();
-        selectFromSearch(v);
-      });
-      searchResults.appendChild(div);
-    });
-  }
-  searchResults._matches = matches;
-  searchResults.classList.add('open');
-}
-
-function selectFromSearch(v) {
-  searchInput.value = v.make + ' ' + v.model;
-  searchResults.classList.remove('open');
-  renderVehicle(v);
-}
-
-searchInput.addEventListener('input', () => doSearch(searchInput.value));
-searchInput.addEventListener('focus', () => { if (searchInput.value.length >= 2) doSearch(searchInput.value); });
-searchInput.addEventListener('blur', () => setTimeout(() => searchResults.classList.remove('open'), 150));
-searchInput.addEventListener('keydown', e => {
-  const items = searchResults.querySelectorAll('.search-result-item');
-  if (e.key === 'ArrowDown') {
-    e.preventDefault();
-    searchHighlight = Math.min(searchHighlight + 1, items.length - 1);
-    items.forEach((el, i) => el.classList.toggle('highlighted', i === searchHighlight));
-  } else if (e.key === 'ArrowUp') {
-    e.preventDefault();
-    searchHighlight = Math.max(searchHighlight - 1, 0);
-    items.forEach((el, i) => el.classList.toggle('highlighted', i === searchHighlight));
-  } else if (e.key === 'Enter') {
-    e.preventDefault();
-    const matches = searchResults._matches;
-    if (matches && searchHighlight >= 0 && matches[searchHighlight]) {
-      selectFromSearch(matches[searchHighlight]);
-    } else if (matches && matches.length > 0) {
-      selectFromSearch(matches[0]);
-    }
-  } else if (e.key === 'Escape') {
-    searchResults.classList.remove('open');
-  }
-});
-
-/* ═══════════════════════════════════════════════════════════
-   SECTION FILTER TABS
-═══════════════════════════════════════════════════════════ */
-const SECTION_CLASSES = {
+/* ── SECTION FILTERS ── */
+const SECTION_MAP = {
   all:        [],
-  procedures: ['sec-towing', 'sec-tc', 'sec-battery', 'sec-issues'],
-  battery:    ['sec-towing', 'sec-tc', 'sec-procedures', 'sec-issues'],
-  towing:     ['sec-tc', 'sec-procedures', 'sec-battery', 'sec-issues'],
-  tc:         ['sec-towing', 'sec-procedures', 'sec-battery', 'sec-issues'],
-  issues:     ['sec-towing', 'sec-tc', 'sec-procedures', 'sec-battery'],
+  procedures: ['sec-towing','sec-tc','sec-battery','sec-issues','sec-extra'],
+  battery:    ['sec-towing','sec-tc','sec-procedures','sec-issues','sec-extra'],
+  towing:     ['sec-tc','sec-procedures','sec-battery','sec-issues','sec-extra'],
+  tc:         ['sec-towing','sec-procedures','sec-battery','sec-issues','sec-extra'],
+  issues:     ['sec-towing','sec-tc','sec-procedures','sec-battery','sec-extra'],
 };
-
-document.querySelectorAll('.sf-btn').forEach(btn => {
-  btn.addEventListener('click', function() {
-    document.querySelectorAll('.sf-btn').forEach(b => b.classList.remove('active'));
-    this.classList.add('active');
-    const section = this.dataset.section;
-    const toHide = SECTION_CLASSES[section] || [];
-    // Show all first
-    document.querySelectorAll('#results [class*="sec-"]').forEach(el => el.classList.remove('hidden'));
-    // Then hide the ones not in this section
-    toHide.forEach(cls => {
-      document.querySelectorAll('#results .' + cls).forEach(el => el.classList.add('hidden'));
-    });
-  });
+// Extra sections get their own filter key built dynamically
+document.getElementById('section-filters').addEventListener('click', function(e) {
+  const b = e.target.closest('.sf-btn');
+  if (!b) return;
+  document.querySelectorAll('.sf-btn').forEach(x => x.classList.remove('active'));
+  b.classList.add('active');
+  const section = b.dataset.section;
+  document.querySelectorAll('#results [class*="sec-"]').forEach(el => el.classList.remove('hidden'));
+  const hide = SECTION_MAP[section] || SECTION_MAP['all'];
+  hide.forEach(cls => document.querySelectorAll('#results .' + cls).forEach(el => el.classList.add('hidden')));
+  // Handle dynamic extra section filters
+  if (section.startsWith('extra-')) {
+    document.querySelectorAll('#results .sec-extra').forEach(el => el.classList.add('hidden'));
+    document.querySelectorAll('#results .sec-extra-' + section.slice(6)).forEach(el => el.classList.remove('hidden'));
+  }
 });
+/* ── EXTRA SECTIONS RENDERER ──
+   Reads v.extraSections[] from vehicle data and renders any new data type automatically.
+   Each item: { key, title, icon, accentColor, type, content }
+   type options: "text" | "kv" | "steps" | "tags"
+   Add new fields to any make JSON file — they appear automatically.
+── */
+function renderExtraSections(v) {
+  const container = document.getElementById('extra-sections');
+  container.innerHTML = '';
+  // Remove any old extra filter tabs
+  document.querySelectorAll('.sf-btn[data-section^="extra-"]').forEach(b => b.remove());
+  document.querySelectorAll('.sf-divider-extra').forEach(d => d.remove());
 
-/* ═══════════════════════════════════════════════════════════
-   BATTERY RENDER HELPER
-═══════════════════════════════════════════════════════════ */
+  if (!v.extraSections || !v.extraSections.length) return;
+
+  // Add divider + tabs for extra sections
+  const filterRow = document.getElementById('section-filters');
+  const divider = document.createElement('div');
+  divider.className = 'sf-divider sf-divider-extra';
+  filterRow.appendChild(divider);
+
+  v.extraSections.forEach(sec => {
+    const key = sec.key || sec.title.toLowerCase().replace(/\s+/g,'-');
+    const color = sec.accentColor || 'var(--dark6)';
+    const icon  = sec.icon || '📋';
+
+    // Build tab
+    const tab = document.createElement('button');
+    tab.className = 'sf-btn';
+    tab.dataset.section = 'extra-' + key;
+    tab.textContent = (icon + ' ' + sec.title).trim();
+    filterRow.appendChild(tab);
+
+    // Build block
+    const block = document.createElement('div');
+    block.className = `extra-block sec-extra sec-extra-${key}`;
+    block.style.borderLeftColor = color;
+
+    let bodyHtml = '';
+    if (sec.type === 'kv' && Array.isArray(sec.content)) {
+      bodyHtml = '<div class="extra-kv-grid">' +
+        sec.content.map(item =>
+          `<div class="extra-kv-cell"><div class="extra-kv-label">${item.label}</div><div class="extra-kv-val">${item.value}</div></div>`
+        ).join('') + '</div>';
+    } else if (sec.type === 'steps' && Array.isArray(sec.content)) {
+      bodyHtml = '<ul class="extra-steps">' +
+        sec.content.map((s,i) =>
+          `<li><span class="extra-step-num">${i+1}</span><span>${s}</span></li>`
+        ).join('') + '</ul>';
+    } else if (sec.type === 'tags' && Array.isArray(sec.content)) {
+      bodyHtml = '<div class="extra-tags">' +
+        sec.content.map(t => `<span class="extra-tag">${t}</span>`).join('') + '</div>';
+    } else if (typeof sec.content === 'string') {
+      bodyHtml = `<p>${sec.content}</p>`;
+    } else if (Array.isArray(sec.content)) {
+      bodyHtml = sec.content.map(p => `<p>${p}</p>`).join('');
+    }
+
+    block.innerHTML = `
+      <div class="extra-head">
+        <span class="extra-head-icon">${icon}</span>
+        <span class="extra-head-title" style="color:${color}">${sec.title}</span>
+      </div>
+      <div class="extra-body">${bodyHtml}</div>`;
+    container.appendChild(block);
+  });
+}
+
+/* ── BATTERY RENDER ── */
 function renderBattery(bat) {
   if (!bat) return;
   setEl('res-bat-location', bat.location, true);
   setEl('res-bat-terminals', bat.jumpTerminals, true);
-
   const badge = document.getElementById('res-bat-badge');
   const typeMap = {
-    'standard-12v':    { label:'Standard 12V',   cls:'standard' },
-    'agm-12v':         { label:'AGM 12V',         cls:'agm'      },
-    'auxiliary-12v-only': { label:'12V Aux Only', cls:'auxiliary'},
+    'standard-12v': {label:'Standard 12V',cls:'standard'},
+    'agm-12v': {label:'AGM 12V',cls:'agm'},
+    'auxiliary-12v-only': {label:'12V Aux Only',cls:'auxiliary'},
   };
-  const info = typeMap[bat.type] || { label:'12V', cls:'standard' };
+  const info = typeMap[bat.type] || {label:'12V',cls:'standard'};
   badge.textContent = info.label;
   badge.className = 'battery-type-badge ' + info.cls;
-
   const warnEl = document.getElementById('res-bat-warn');
-  if (bat.warnings) {
-    warnEl.textContent = bat.warnings;
-    warnEl.style.display = 'block';
-  } else {
-    warnEl.style.display = 'none';
-  }
+  if (bat.warnings) { warnEl.textContent = bat.warnings; warnEl.style.display = 'block'; }
+  else { warnEl.style.display = 'none'; }
 }
 
-/* ═══════════════════════════════════════════════════════════
-   EXTRACT RENDER VEHICLE — refactored so search can call it too
-═══════════════════════════════════════════════════════════ */
+/* ── MAIN RENDER ── */
 function renderVehicle(v) {
-  const make  = v.make;
-  const model = v.model;
-
-  // Reset filter to "All" when new vehicle loaded
+  // Reset filters
   document.querySelectorAll('.sf-btn').forEach(b => b.classList.remove('active'));
   document.querySelector('.sf-btn[data-section="all"]').classList.add('active');
   document.querySelectorAll('#results [class*="sec-"]').forEach(el => el.classList.remove('hidden'));
 
-  setEl('res-name',  `${make} ${model}`, true);
-  setEl('res-years', `${v.yearStart} – ${v.yearEnd}`, true);
-  setEl('res-yearrange', `${v.yearStart} – ${v.yearEnd}`, true);
+  setEl('res-name',  v.make + ' ' + v.model, true);
+  setEl('res-years', v.yearStart + ' – ' + v.yearEnd, true);
+  setEl('res-yearrange', v.yearStart + ' – ' + v.yearEnd, true);
   setEl('res-dt-emblem', buildDtEmblem(v.drivetrain));
   setEl('res-drivetrain', v.drivetrain || '—', true);
-  setEl('res-trans',      v.trans      || '—', true);
+  setEl('res-trans', v.trans || '—', true);
 
-  const isFlat = (v.towMethod || '').toUpperCase().includes('FLATBED ONLY');
+  const isFlat = (v.towMethod||'').toUpperCase().includes('FLATBED ONLY');
   const banner = document.getElementById('res-tow-banner');
   banner.className = 'tow-banner' + (isFlat ? ' flatbed-only' : '');
   setEl('res-tow-icon', isFlat ? '🚨' : '🚛', true);
@@ -1241,19 +867,15 @@ function renderVehicle(v) {
 
   const tnList = document.getElementById('res-tow-notes-list');
   tnList.innerHTML = '';
-  if (v.towNotes && v.towNotes.length > 0) {
+  if (v.towNotes && v.towNotes.length) {
     v.towNotes.forEach(n => {
       const li = document.createElement('li');
-      const keyMatch = n.match(/^([A-Z0-9][A-Z0-9\/\-\s]{1,35}?):\s+/);
-      if (keyMatch) {
-        li.innerHTML = `<span class="note-key">${keyMatch[1]}:</span>${n.slice(keyMatch[0].length)}`;
-      } else { li.textContent = n; }
+      const m = n.match(/^([A-Z0-9][A-Z0-9\/\-\s]{1,35}?):\s+/);
+      li.innerHTML = m ? `<span class="note-key">${m[1]}:</span>${n.slice(m[0].length)}` : n;
       tnList.appendChild(li);
     });
     showHide('res-tow-notes', true);
-  } else {
-    showHide('res-tow-notes', false);
-  }
+  } else { showHide('res-tow-notes', false); }
 
   renderBattery(v.battery);
 
@@ -1266,58 +888,146 @@ function renderVehicle(v) {
       li.innerHTML = `<span class="pos-dot"></span><span>${p}</span>`;
       posList.appendChild(li);
     });
-    fillSteps('res-tc-steps', v.tc.steps);
+    fillSteps('res-tc-steps', v.tc.steps, 'tc-step-num');
     showHide('res-tc-box', true);
-  } else {
-    showHide('res-tc-box', false);
-  }
+  } else { showHide('res-tc-box', false); }
 
   const slotEl = document.getElementById('res-slot');
   slotEl.innerHTML = `<strong>Slot / Release Location</strong>${v.slot || '—'}`;
-  fillSteps('res-shift-steps',   v.shift   || []);
+  fillSteps('res-shift-steps', v.shift || []);
   fillSteps('res-neutral-steps', v.neutral || []);
 
   if (v.notes) { setEl('res-note', `<strong>ℹ Note</strong>${v.notes}`); showHide('res-note', true); }
   else showHide('res-note', false);
-  if (v.warn)  { setEl('res-warn', `<strong>⚠ Warning</strong>${v.warn}`); showHide('res-warn', true); }
+  if (v.warn) { setEl('res-warn', `<strong>⚠ Warning</strong>${v.warn}`); showHide('res-warn', true); }
   else showHide('res-warn', false);
+
+  renderExtraSections(v);
+
+  // Show/hide TC filter tab
+  document.querySelector('.sf-tc').style.display = v.tc ? '' : 'none';
 
   const issuesList = document.getElementById('res-issues-list');
   issuesList.innerHTML = '';
-  if (v.knownIssues && v.knownIssues.length > 0) {
+  if (v.knownIssues && v.knownIssues.length) {
     setEl('res-issues-count', v.knownIssues.length + ' issue' + (v.knownIssues.length > 1 ? 's' : ''), true);
     v.knownIssues.forEach(issue => {
       const li = document.createElement('li');
       li.className = 'issue-item';
-      li.innerHTML = `
-        <button class="issue-title" onclick="toggleIssue(this.parentElement)">
-          <span class="issue-title-icon">⚠</span>
-          <span class="issue-title-text">${issue.title}</span>
-          <span class="issue-chevron">▶</span>
-        </button>
-        <div class="issue-detail">${issue.detail}</div>`;
+      li.innerHTML = `<button class="issue-title" onclick="toggleIssue(this.parentElement)"><span class="issue-title-icon">⚠</span><span class="issue-title-text">${issue.title}</span><span class="issue-chevron">▶</span></button><div class="issue-detail">${issue.detail}</div>`;
       issuesList.appendChild(li);
     });
     showHide('res-issues', true);
+    document.querySelector('.sf-issues').style.display = '';
   } else {
     showHide('res-issues', false);
+    document.querySelector('.sf-issues').style.display = 'none';
   }
 
-  const cleanModel = v.model.replace(/\s*\(.*?\)/g, '').replace(/\s*\d{4}.*$/, '').trim();
+  const cleanModel = v.model.replace(/\s*\(.*?\)/g,'').replace(/\s*\d{4}.*$/,'').trim();
   document.getElementById('towspec-btn').href =
-    'https://towspec.com/Vehicles/specificsearch?make=' +
-    encodeURIComponent(make) + '&model=' + encodeURIComponent(cleanModel);
+    'https://towspec.com/Vehicles/specificsearch?make=' + encodeURIComponent(v.make) + '&model=' + encodeURIComponent(cleanModel);
+
+  addRecent(v);
+  renderRecent();
 
   const results = document.getElementById('results');
   results.classList.remove('show');
   void results.offsetWidth;
   results.classList.add('show');
-  results.scrollIntoView({ behavior:'smooth', block:'start' });
+  results.scrollIntoView({behavior:'smooth',block:'start'});
 }
+/* ── LOOKUP BUTTON ── */
+btn.addEventListener('click', function() {
+  const yr = parseInt(selYear.value), make = selMake.value, model = selModel.value;
+  let pool = DB.filter(v => v.make===make && v.model===model && yr>=v.yearStart && yr<=v.yearEnd);
+  pool = applyQuickFilter(pool);
+  const v = pool[0] || DB.find(v => v.make===make && v.model===model && yr>=v.yearStart && yr<=v.yearEnd);
+  if (v) renderVehicle(v);
+});
 
-/* ═══════════════════════════════════════════════════════════
-   BOOT
-═══════════════════════════════════════════════════════════ */
+/* ── KNOWN ISSUES ACCORDION ── */
+function toggleIssue(item) { item.classList.toggle('open'); }
+
+/* ── SHARE ── */
+document.getElementById('share-btn').addEventListener('click', function() {
+  const name = document.getElementById('res-name').textContent;
+  const years = document.getElementById('res-years').textContent;
+  const tow = document.getElementById('res-towmethod').textContent;
+  const text = `${name} (${years})\nTow Method: ${tow}\n\nFull procedure: ${window.location.href}`;
+  if (navigator.share) {
+    navigator.share({title: name + ' Tow Procedure', text, url: window.location.href}).catch(()=>{});
+  } else if (navigator.clipboard) {
+    navigator.clipboard.writeText(text).then(() => {
+      const b = document.getElementById('share-btn');
+      const orig = b.textContent;
+      b.textContent = '✓ Copied';
+      b.style.color = 'var(--green)';
+      b.style.borderColor = 'var(--green)';
+      setTimeout(() => { b.textContent = orig; b.style.color = ''; b.style.borderColor = ''; }, 2500);
+    });
+  }
+});
+
+/* ── SEARCH ── */
+let searchHighlight = -1;
+function highlightText(text, q) {
+  if (!q) return text;
+  return text.replace(new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi'),'<mark>$1</mark>');
+}
+function doSearch(q) {
+  q = q.trim();
+  if (q.length < 2) { searchResults.classList.remove('open'); return; }
+  const ql = q.toLowerCase();
+  let pool = DB.filter(v => {
+    const str = (v.make+' '+v.model+' '+v.yearStart+' '+v.yearEnd+' '+v.drivetrain+' '+(v.towMethod||'')).toLowerCase();
+    return str.includes(ql);
+  });
+  pool = applyQuickFilter(pool).slice(0, 14);
+  searchResults.innerHTML = '';
+  searchHighlight = -1;
+  if (!pool.length) {
+    searchResults.innerHTML = '<div class="search-no-results">No vehicles found</div>';
+  } else {
+    pool.forEach((v, i) => {
+      const div = document.createElement('div');
+      div.className = 'search-result-item';
+      const cls = dtClass(v.drivetrain);
+      div.innerHTML = `<span class="sri-name">${highlightText(v.make+' '+v.model, q)}</span><span class="sri-years">${v.yearStart}–${v.yearEnd}</span><span class="sri-badge ${cls}">${DT_LABELS[cls]||'—'}</span>`;
+      div.addEventListener('mousedown', e => { e.preventDefault(); selectFromSearch(v); });
+      searchResults.appendChild(div);
+    });
+  }
+  searchResults._matches = pool;
+  searchResults.classList.add('open');
+}
+function selectFromSearch(v) {
+  searchInput.value = v.make + ' ' + v.model;
+  searchResults.classList.remove('open');
+  renderVehicle(v);
+}
+searchInput.addEventListener('input', () => doSearch(searchInput.value));
+searchInput.addEventListener('focus', () => { if (searchInput.value.length >= 2) doSearch(searchInput.value); });
+searchInput.addEventListener('blur', () => setTimeout(() => searchResults.classList.remove('open'), 150));
+searchInput.addEventListener('keydown', e => {
+  const items = searchResults.querySelectorAll('.search-result-item');
+  if (e.key === 'ArrowDown') { e.preventDefault(); searchHighlight = Math.min(searchHighlight+1, items.length-1); items.forEach((el,i) => el.classList.toggle('highlighted', i===searchHighlight)); }
+  else if (e.key === 'ArrowUp') { e.preventDefault(); searchHighlight = Math.max(searchHighlight-1, 0); items.forEach((el,i) => el.classList.toggle('highlighted', i===searchHighlight)); }
+  else if (e.key === 'Enter') { e.preventDefault(); const m = searchResults._matches; if (m && searchHighlight >= 0 && m[searchHighlight]) selectFromSearch(m[searchHighlight]); else if (m && m.length) selectFromSearch(m[0]); }
+  else if (e.key === 'Escape') searchResults.classList.remove('open');
+});
+
+/* ── KEYBOARD SHORTCUT: / focuses search ── */
+document.addEventListener('keydown', e => {
+  if (e.key === '/' && document.activeElement !== searchInput &&
+      !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)) {
+    e.preventDefault();
+    searchInput.focus();
+    searchInput.select();
+  }
+});
+
+/* ── BOOT ── */
 loadDB();
 </script>
 </body>

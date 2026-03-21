@@ -30,14 +30,14 @@
         "Battery under hood.",
         "Connect jump pack. Shift normally or use slot."
       ],
-      "notes": "Manual: clutch to N. RWD. High-perf models have strong parking pawl — apply firm pressure on slot.",
-      "warn": "RWD — block rear wheels.",
+      "notes": "Manual: clutch to N. RWD. High-perf models have strong parking pawl \u2014 apply firm pressure on slot.",
+      "warn": "RWD \u2014 block rear wheels.",
       "drivetrain": "RWD",
-      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [
         {
@@ -47,10 +47,21 @@
       ],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
-        "warnings": "Hellcat/Redeye/Demon: parking pawl is very strong — press slot firmly for 3-5 seconds."
-      }
+        "warnings": "Hellcat/Redeye/Demon: parking pawl is very strong \u2014 press slot firmly for 3-5 seconds."
+      },
+      "slug": "dodge-challenger-3rd-gen-2008-2023",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Dodge",
@@ -71,9 +82,9 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "AWD (Daytona/Pursuit) variants: flatbed preferred.",
-      "warn": "AWD — flatbed preferred.",
+      "warn": "AWD \u2014 flatbed preferred.",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
@@ -82,10 +93,21 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "dodge-charger-2006-2023-2006-2023",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Dodge",
@@ -93,7 +115,7 @@
       "yearStart": 2024,
       "yearEnd": 2026,
       "trans": "Single-speed electric",
-      "slot": "Electronic selector — slot near selector base",
+      "slot": "Electronic selector \u2014 slot near selector base",
       "shift": [
         "WITH POWER: Press brake. Select N.",
         "WITHOUT POWER: Find slot near selector base. Insert key, press down. Press brake. Select N."
@@ -106,20 +128,34 @@
       "notes": "AWD standard.",
       "warn": "FLATBED ONLY.",
       "drivetrain": "AWD (electric)",
-      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "towMethod": "FLATBED ONLY \u2014 electric drivetrain",
       "tc": null,
       "towNotes": [
-        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "ELECTRIC VEHICLE: FLATBED ONLY \u2014 never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
         "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
-        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+        "12V battery ONLY for jumping \u2014 NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood (12V auxiliary)",
-        "jumpTerminals": "Under hood — 12V auxiliary terminals only",
+        "jumpTerminals": "Under hood \u2014 12V auxiliary terminals only",
         "type": "auxiliary-12v-only",
         "warnings": "NEVER touch HV battery. Flatbed only."
-      }
+      },
+      "slug": "dodge-charger-daytona-ev-2024-2026",
+      "fuelType": "electric",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button until brake releases."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Dodge",
@@ -139,16 +175,16 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "AWD/4WD. 3-row SUV (2011+).",
-      "warn": "AWD — flatbed preferred.",
+      "warn": "AWD \u2014 flatbed preferred.",
       "drivetrain": "RWD or 4WD/AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. AWD/4WD: transfer case to 2WD or flatbed. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD/4WD: transfer case to 2WD or flatbed. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button (NV244 or NV140 depending on year)",
         "positions": [
-          "2WD — rear wheels only — REQUIRED for road towing",
-          "4WD Auto — automatic AWD — NOT safe for towing",
-          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
-          "4WD Lo — low range — NEVER tow in this position"
+          "2WD \u2014 rear wheels only \u2014 REQUIRED for road towing",
+          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
+          "4WD Hi \u2014 part-time 4WD \u2014 NOT safe for dry-road towing",
+          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Stop or slow under 3 MPH.",
@@ -160,15 +196,26 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline."
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "dodge-durango-2000-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Dodge",
@@ -191,7 +238,7 @@
       "notes": "FWD only. Very common van.",
       "warn": "Block all wheels.",
       "drivetrain": "FWD",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -199,10 +246,21 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "dodge-grand-caravan-2000-2020",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Dodge",
@@ -225,7 +283,7 @@
       "notes": "FWD or AWD.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -233,10 +291,21 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "dodge-journey-2009-2020",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Dodge",
@@ -259,14 +328,14 @@
       "notes": "4WD: transfer case. Manual: clutch to N.",
       "warn": "4WD: transfer case.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Manual floor lever or electric push-button depending on trim",
         "positions": [
-          "2H — rear wheels only — REQUIRED for all road towing",
-          "4H — part-time 4WD high range",
-          "N — neutral",
-          "4L — low range — NEVER tow in this position"
+          "2H \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4H \u2014 part-time 4WD high range",
+          "N \u2014 neutral",
+          "4L \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "MANUAL: Stop completely. Shift TC floor lever to 2H.",
@@ -279,17 +348,28 @@
       "towNotes": [
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "dodge-dakota-2000-2011",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Dodge",
@@ -299,7 +379,7 @@
       "trans": "6-speed manual (most) or rare auto",
       "slot": "Manual: no shift lock. Auto: slot near selector",
       "shift": [
-        "MANUAL (most Vipers): No shift lock — depress clutch, select Neutral.",
+        "MANUAL (most Vipers): No shift lock \u2014 depress clutch, select Neutral.",
         "AUTO (rare): Find slot near selector. Insert key, press down. Press brake. Move to N."
       ],
       "neutral": [
@@ -307,31 +387,42 @@
         "Auto: connect jump pack, shift normally or use slot."
       ],
       "notes": "Most Vipers are manual. SRT/ACR: manual only.",
-      "warn": "EXTREMELY LOW CLEARANCE — flatbed ONLY. Side lift recommended.",
+      "warn": "EXTREMELY LOW CLEARANCE \u2014 flatbed ONLY. Side lift recommended.",
       "drivetrain": "RWD",
-      "towMethod": "FLATBED ONLY — extremely low clearance, side lift recommended",
+      "towMethod": "FLATBED ONLY \u2014 extremely low clearance, side lift recommended",
       "tc": null,
       "towNotes": [
         "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
-        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift \u2014 front splitter/rear diffuser damage is common.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [
         {
-          "title": "Extremely Low Ground Clearance — Side Lift Required",
+          "title": "Extremely Low Ground Clearance \u2014 Side Lift Required",
           "detail": "The Viper has approximately 3.7 inches of ground clearance. Standard flatbed ramps cannot be used without damaging the front splitter and underbody. Side-lift equipment or very shallow approach ramps with extensions are required. Never winch from the front."
         },
         {
           "title": "Most Vipers Are Manual Transmission",
-          "detail": "The vast majority of Vipers have manual transmissions — no shift lock, no neutral override needed. Simply depress the clutch and select neutral. Automatic Viper variants are extremely rare. Verify before spending time on neutral override procedures."
+          "detail": "The vast majority of Vipers have manual transmissions \u2014 no shift lock, no neutral override needed. Simply depress the clutch and select neutral. Automatic Viper variants are extremely rare. Verify before spending time on neutral override procedures."
         }
       ],
       "battery": {
         "location": "Under hood, passenger side near firewall",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
-        "warnings": "Side-lift or special ramps only. Carbon ceramic brakes on some trims — no metal chocks against rotors."
-      }
+        "warnings": "Side-lift or special ramps only. Carbon ceramic brakes on some trims \u2014 no metal chocks against rotors."
+      },
+      "slug": "dodge-viper-2003-2017",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     }
   ]
 }

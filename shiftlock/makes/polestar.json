@@ -1,0 +1,134 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. Unauthorized use prohibited.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Polestar",
+  "_count": 2,
+  "vehicles": [
+    {
+      "make": "Polestar",
+      "model": "Polestar 2 EV (2021-2024)",
+      "yearStart": 2021,
+      "yearEnd": 2024,
+      "slug": "polestar-polestar-2-2021-2024",
+      "fuelType": "electric",
+      "trans": "Single-speed electric",
+      "drivetrain": "FWD, RWD, or AWD electric",
+      "curbWeight": "4,464\u20134,824 lbs",
+      "gvwr": "5,556 lbs",
+      "slot": "Center display (touchscreen) \u2014 Car Status > Service > Tow Mode. Physical selector override near column stalk.",
+      "shift": [
+        "PREFERRED: Touchscreen \u2014 Car Status > Service > Tow Mode. This safely engages Neutral and disables parking brake.",
+        "MANUAL: locate column-mounted gear selector (stalk). Push or rotate to N.",
+        "WITHOUT POWER: connect 12V jump pack to under-hood 12V terminals. Restore power, then use touchscreen or stalk."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "12V battery: accessible under hood via jump terminal points (positive under cover, negative at chassis ground).",
+        "Connect jump pack to 12V terminals.",
+        "Restore power.",
+        "Use touchscreen: Car Status > Service > Tow Mode.",
+        "FLATBED ONLY \u2014 electric drivetrain. NEVER touch orange HV cables."
+      ],
+      "notes": "FLATBED ONLY. Tow Mode via touchscreen. 12V auxiliary under hood.",
+      "warn": "FLATBED ONLY. 12V only \u2014 NEVER touch orange HV battery cables.",
+      "towMethod": "FLATBED ONLY \u2014 electric drivetrain. FWD, RWD, or AWD depending on variant \u2014 all are flatbed only.",
+      "tc": null,
+      "towNotes": [
+        "Electric drivetrain \u2014 flatbed only on all variants.",
+        "Tow Mode on touchscreen is the correct neutral method.",
+        "12V under-hood terminals accessible \u2014 standard procedure.",
+        "Contact Polestar Customer Support if Tow Mode unavailable and vehicle cannot be powered."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V via under-hood terminals. Tow Mode on touchscreen releases EPB. No confirmed manual cable override.",
+        "steps": [
+          "Connect jump pack to under-hood 12V terminals.",
+          "Restore power.",
+          "Touchscreen: Car Status > Service > Tow Mode.",
+          "Tow Mode releases EPB and engages Neutral.",
+          "If unavailable: contact Polestar support. Use wheel skates on rear."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic \u2014 Tow Mode disengages.",
+      "battery": {
+        "location": "Under hood \u2014 12V auxiliary jump terminal access points",
+        "jumpTerminals": "Under hood: positive under plastic cover (+), negative at chassis ground (\u2212)",
+        "type": "auxiliary-12v-only",
+        "warnings": "FLATBED ONLY. 12V only. Never touch orange HV system."
+      },
+      "knownIssues": [
+        {
+          "title": "Tow Mode via Touchscreen Is the Correct Method",
+          "detail": "Polestar 2 requires Tow Mode to be activated via the center touchscreen (Car Status > Service > Tow Mode) for safe neutral and EPB release. Using the column stalk alone may allow the vehicle to re-engage drive. Always use Tow Mode."
+        },
+        {
+          "title": "FLATBED ONLY \u2014 All Variants",
+          "detail": "All Polestar 2 variants (Standard Range FWD, Long Range Single Motor, Long Range Dual Motor AWD, Performance AWD) are electric drivetrains. Towing with any driven wheels on the ground risks motor damage. Flatbed is the only method."
+        }
+      ]
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar 3 EV (2024)",
+      "yearStart": 2024,
+      "yearEnd": 2026,
+      "slug": "polestar-polestar-3-2024-2026",
+      "fuelType": "electric",
+      "trans": "Single-speed electric",
+      "drivetrain": "AWD electric",
+      "curbWeight": "5,291 lbs (approx)",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Center display touchscreen \u2014 same Tow Mode path as Polestar 2",
+      "shift": [
+        "Touchscreen: Car Status > Service > Tow Mode.",
+        "Physical selector or stalk for N if powered.",
+        "Without power: connect 12V jump pack under hood.",
+        "Restore power. Use Tow Mode."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "12V under-hood terminals.",
+        "Connect jump pack. Restore power.",
+        "Activate Tow Mode via touchscreen.",
+        "FLATBED ONLY \u2014 AWD electric.",
+        "Never touch HV orange cables."
+      ],
+      "notes": "FLATBED ONLY. AWD electric. Same Tow Mode as Polestar 2.",
+      "warn": "FLATBED ONLY. 12V only. AWD electric \u2014 no exceptions.",
+      "towMethod": "FLATBED ONLY \u2014 AWD electric drivetrain.",
+      "tc": null,
+      "towNotes": [
+        "AWD EV \u2014 flatbed only.",
+        "Larger, heavier than Polestar 2.",
+        "Verify flatbed capacity."
+      ],
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Tow Mode on touchscreen releases EPB.",
+        "steps": [
+          "Connect 12V under hood.",
+          "Tow Mode on touchscreen."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic.",
+      "battery": {
+        "location": "Under hood \u2014 12V auxiliary access",
+        "jumpTerminals": "Under hood 12V terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "FLATBED ONLY. AWD EV. 12V only."
+      },
+      "knownIssues": []
+    }
+  ]
+}

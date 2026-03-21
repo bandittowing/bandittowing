@@ -31,14 +31,14 @@
       "notes": "Same platform as Silverado. 4WD: transfer case to 2H.",
       "warn": "4WD: transfer case to 2H.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button (Autotrac) or manual floor lever depending on year and trim",
         "positions": [
-          "2WD (2H) — rear wheels only — REQUIRED for all road towing",
-          "4WD Auto — automatic AWD — NOT safe for towing",
-          "4WD Hi (4H) — part-time 4WD — NOT safe for dry-road towing",
-          "4WD Lo (4L) — low range — NEVER tow in this position"
+          "2WD (2H) \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
+          "4WD Hi (4H) \u2014 part-time 4WD \u2014 NOT safe for dry-road towing",
+          "4WD Lo (4L) \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "ELECTRIC: Slow under 3 MPH. Press 2WD button. Confirm 2WD indicator.",
@@ -51,7 +51,7 @@
       "towNotes": [
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [
@@ -62,10 +62,21 @@
       ],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
-        "warnings": "Confirm TC in 2WD before wheel lift — most common towing damage on this platform."
-      }
+        "warnings": "Confirm TC in 2WD before wheel lift \u2014 most common towing damage on this platform."
+      },
+      "slug": "gmc-sierra-1500-2000-2018-2000-2018",
+      "fuelType": "gasoline",
+      "curbWeight": "4,229\u20135,377 lbs",
+      "gvwr": "6,200\u20137,050 lbs",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "GMC",
@@ -73,7 +84,7 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "6, 8, or 10-speed automatic",
-      "slot": "Electronic selector — trim panel near selector, remove to expose slot",
+      "slot": "Electronic selector \u2014 trim panel near selector, remove to expose slot",
       "shift": [
         "Ignition to ON.",
         "Locate trim panel near electronic selector. Pry or remove.",
@@ -89,14 +100,14 @@
       "notes": "Sierra EV (2024+): flatbed only.",
       "warn": "Sierra EV: FLATBED ONLY. 4WD: transfer case.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric rotary dial on center console (Autotrac)",
         "positions": [
-          "2WD — rear wheels only — REQUIRED for all road towing",
-          "4WD Auto — automatic AWD — NOT safe for towing",
-          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
-          "4WD Lo — low range — NEVER tow in this position"
+          "2WD \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
+          "4WD Hi \u2014 part-time 4WD \u2014 NOT safe for dry-road towing",
+          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH.",
@@ -108,16 +119,30 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": "Sierra EV: 12V auxiliary only."
-      }
+      },
+      "slug": "gmc-sierra-1500-2019-2026-2019-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "4,229\u20135,377 lbs",
+      "gvwr": "6,200\u20137,050 lbs",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button until brake releases."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "GMC",
@@ -136,40 +161,51 @@
         "Battery under hood.",
         "Connect jump pack. Shift normally or use slot."
       ],
-      "notes": "Duramax diesel: same. Heavy-duty — heavy blocks.",
+      "notes": "Duramax diesel: same. Heavy-duty \u2014 heavy blocks.",
       "warn": "4WD: transfer case. Heavy blocks required.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Heavy-duty — use rated equipment. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Heavy-duty \u2014 use rated equipment. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button or manual lever (varies by year)",
         "positions": [
-          "2H — rear wheels only — REQUIRED for all road towing",
-          "4H — part-time 4WD high range",
-          "4L — low range — NEVER tow in this position"
+          "2H \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4H \u2014 part-time 4WD high range",
+          "4L \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "ELECTRIC: Slow under 3 MPH. Press 2H. Confirm indicator.",
           "MANUAL: Stop completely. Shift TC lever to 2H.",
           "Confirm before lifting rear wheels.",
-          "Heavy-duty truck — use proper rated equipment.",
+          "Heavy-duty truck \u2014 use proper rated equipment.",
           "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
         ]
       },
       "towNotes": [
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
-        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight — account for extra weight in equipment ratings.",
+        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight \u2014 account for extra weight in equipment ratings.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood. Duramax diesel may have dual batteries.",
-        "jumpTerminals": "Under hood: red (+) on either battery, black (−) to engine block",
+        "jumpTerminals": "Under hood: red (+) on either battery, black (\u2212) to engine block",
         "type": "standard-12v",
-        "warnings": "Diesel dual batteries. Very heavy — verify equipment ratings."
-      }
+        "warnings": "Diesel dual batteries. Very heavy \u2014 verify equipment ratings."
+      },
+      "slug": "gmc-sierra-2500hd-3500hd-2001-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "4,229\u20135,377 lbs",
+      "gvwr": "6,200\u20137,050 lbs",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "GMC",
@@ -190,16 +226,16 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "4WD standard.",
-      "warn": "4WD: transfer case. Large — block all wheels.",
+      "warn": "4WD: transfer case. Large \u2014 block all wheels.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button (Autotrac)",
         "positions": [
-          "2WD — rear wheels only — REQUIRED for all road towing",
-          "4WD Auto — automatic AWD — NOT safe for towing",
-          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
-          "4WD Lo — low range — NEVER tow in this position"
+          "2WD \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
+          "4WD Hi \u2014 part-time 4WD \u2014 NOT safe for dry-road towing",
+          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow under 3 MPH.",
@@ -211,17 +247,28 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
-        "warnings": "Large vehicle — block all wheels."
-      }
+        "warnings": "Large vehicle \u2014 block all wheels."
+      },
+      "slug": "gmc-yukon-yukon-xl-2000-2020-2000-2020",
+      "fuelType": "gasoline",
+      "curbWeight": "5,238\u20135,869 lbs",
+      "gvwr": "7,000\u20137,300 lbs",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "GMC",
@@ -229,7 +276,7 @@
       "yearStart": 2021,
       "yearEnd": 2026,
       "trans": "10-speed automatic (10L80)",
-      "slot": "Electronic selector — trim panel near selector, remove to expose slot",
+      "slot": "Electronic selector \u2014 trim panel near selector, remove to expose slot",
       "shift": [
         "Ignition to ON.",
         "Locate trim panel near electronic selector. Pry or remove.",
@@ -245,14 +292,14 @@
       "notes": "AWD and 4WD available.",
       "warn": "4WD: transfer case. Block all wheels.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric rotary dial (Autotrac)",
         "positions": [
-          "2WD — rear wheels only — REQUIRED for all road towing",
-          "4WD Auto — automatic AWD — NOT safe for towing",
-          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
-          "4WD Lo — low range — NEVER tow in this position"
+          "2WD \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
+          "4WD Hi \u2014 part-time 4WD \u2014 NOT safe for dry-road towing",
+          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow under 3 MPH.",
@@ -264,17 +311,31 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "gmc-yukon-yukon-xl-2021-2026-2021-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "5,238\u20135,869 lbs",
+      "gvwr": "7,000\u20137,300 lbs",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button until brake releases."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "GMC",
@@ -296,7 +357,7 @@
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -304,10 +365,21 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "gmc-terrain-2010-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "3,329\u20133,748 lbs",
+      "gvwr": "4,519\u20135,070 lbs",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "GMC",
@@ -329,7 +401,7 @@
       "notes": "FWD or AWD.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -337,10 +409,21 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "gmc-acadia-2007-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "4,101\u20134,740 lbs",
+      "gvwr": "5,512\u20135,864 lbs",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "GMC",
@@ -362,13 +445,13 @@
       "notes": "4WD optional.",
       "warn": "4WD: transfer case.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button or rotary dial on console",
         "positions": [
-          "2H — rear wheels only — REQUIRED for all road towing",
-          "4H — part-time 4WD high range",
-          "4L — low range — NEVER tow in this position"
+          "2H \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4H \u2014 part-time 4WD high range",
+          "4L \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow under 3 MPH.",
@@ -379,16 +462,27 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "gmc-canyon-2004-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "3,924\u20134,536 lbs",
+      "gvwr": "5,016\u20135,512 lbs",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     }
   ]
 }

@@ -31,22 +31,33 @@
         "Connect jump pack.",
         "Shift normally or use slot."
       ],
-      "notes": "Manual: depress clutch, select N — no shift lock.",
+      "notes": "Manual: depress clutch, select N \u2014 no shift lock.",
       "warn": "",
       "drivetrain": "RWD",
-      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk (right side under panel) or under rear seat",
-        "jumpTerminals": "Under hood: red fused terminal near firewall (+), black ground bolt on strut tower (−)",
+        "jumpTerminals": "Under hood: red fused terminal near firewall (+), black ground bolt on strut tower (\u2212)",
         "type": "agm-12v",
-        "warnings": "Always use hood terminals — never jump directly at battery. AGM rated jump pack."
-      }
+        "warnings": "Always use hood terminals \u2014 never jump directly at battery. AGM rated jump pack."
+      },
+      "slug": "bmw-1-series-e81-e82-e87-e88-2004-2013",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "BMW",
@@ -54,7 +65,7 @@
       "yearStart": 2012,
       "yearEnd": 2019,
       "trans": "8-speed auto ZF 8HP or 6-speed manual",
-      "slot": "Near base of gear selector on console — trim piece may need removal",
+      "slot": "Near base of gear selector on console \u2014 trim piece may need removal",
       "shift": [
         "Ignition to ON.",
         "Remove trim piece at selector base if present.",
@@ -69,18 +80,33 @@
       "notes": "ZF 8HP is reliable. Manual: clutch to N.",
       "warn": "",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk right side under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals only. AGM jump pack."
-      }
+      },
+      "slug": "bmw-1-series-f20-f21-2012-2019",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -103,18 +129,33 @@
       "notes": "Manual: clutch to N.",
       "warn": "",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk under panel or under rear seat",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals only. AGM jump pack."
-      }
+      },
+      "slug": "bmw-2-series-f22-f23-f44-g42-2014-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -122,7 +163,7 @@
       "yearStart": 2000,
       "yearEnd": 2006,
       "trans": "5-speed or 4-speed auto, or manual",
-      "slot": "Trim cap on console near selector — pry to expose slot",
+      "slot": "Trim cap on console near selector \u2014 pry to expose slot",
       "shift": [
         "Ignition to ON.",
         "Pry small trim cap near selector to expose slot.",
@@ -134,21 +175,32 @@
         "Jump terminals UNDER HOOD (red near firewall, black at ground). No need to access trunk.",
         "Connect jump pack. Shift normally or use slot."
       ],
-      "notes": "Use hood jump terminals — no need to access trunk battery directly.",
+      "notes": "Use hood jump terminals \u2014 no need to access trunk battery directly.",
       "warn": "",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side (no trunk battery on E46)",
-        "jumpTerminals": "Under hood — standard terminals, easy access",
+        "jumpTerminals": "Under hood \u2014 standard terminals, easy access",
         "type": "standard-12v",
         "warnings": "E46 is one of the few BMWs with a conventional under-hood battery."
-      }
+      },
+      "slug": "bmw-3-series-e46-2000-2006",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "BMW",
@@ -156,7 +208,7 @@
       "yearStart": 2006,
       "yearEnd": 2013,
       "trans": "6-speed auto or 6-speed manual",
-      "slot": "Under the gear selector BOOT — gently pull boot upward to expose slot underneath",
+      "slot": "Under the gear selector BOOT \u2014 gently pull boot upward to expose slot underneath",
       "shift": [
         "Ignition to ON.",
         "Gently pull the gear selector boot upward to expose the slot beneath.",
@@ -172,18 +224,29 @@
       "notes": "Manual: clutch to N.",
       "warn": "",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk (right side under panel)",
-        "jumpTerminals": "Under hood: red fused terminal near firewall (+), black ground bolt on strut tower (−)",
+        "jumpTerminals": "Under hood: red fused terminal near firewall (+), black ground bolt on strut tower (\u2212)",
         "type": "agm-12v",
-        "warnings": "Use hood terminals — NOT trunk battery directly. AGM jump pack. Register new battery with IBS sensor if replacing."
-      }
+        "warnings": "Use hood terminals \u2014 NOT trunk battery directly. AGM jump pack. Register new battery with IBS sensor if replacing."
+      },
+      "slug": "bmw-3-series-e90-e91-e92-e93-2006-2013",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "BMW",
@@ -191,7 +254,7 @@
       "yearStart": 2012,
       "yearEnd": 2019,
       "trans": "8-speed auto ZF 8HP or 6-speed manual",
-      "slot": "Trim piece at base of gear selector — pry to expose slot",
+      "slot": "Trim piece at base of gear selector \u2014 pry to expose slot",
       "shift": [
         "Ignition to ON.",
         "Pry trim piece at selector base.",
@@ -206,19 +269,34 @@
       "notes": "",
       "warn": "",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk right side under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals only. AGM jump pack."
-      }
+      },
+      "slug": "bmw-3-series-f30-f31-f34-2012-2019",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -226,7 +304,7 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "8-speed auto ZF 8HP or 6-speed manual",
-      "slot": "Electronic selector — slot under removable cover near selector base",
+      "slot": "Electronic selector \u2014 slot under removable cover near selector base",
       "shift": [
         "Ignition to ON.",
         "Remove cover near electronic selector base.",
@@ -240,21 +318,36 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "",
-      "warn": "AWD (xDrive) — flatbed preferred.",
+      "warn": "AWD (xDrive) \u2014 flatbed preferred.",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk right side under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals only. AGM jump pack."
-      }
+      },
+      "slug": "bmw-3-series-g20-g21-2019-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -262,7 +355,7 @@
       "yearStart": 2014,
       "yearEnd": 2021,
       "trans": "8-speed auto or 6-speed manual",
-      "slot": "Trim piece near selector base — pry to expose slot",
+      "slot": "Trim piece near selector base \u2014 pry to expose slot",
       "shift": [
         "Ignition to ON.",
         "Pry trim piece at selector base.",
@@ -277,18 +370,33 @@
       "notes": "M4 DCT (F82): power required preferred.",
       "warn": "M4 DCT: power required. Flatbed if no power.",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals only. AGM jump pack."
-      }
+      },
+      "slug": "bmw-4-series-f32-f33-f36-2014-2021",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -296,7 +404,7 @@
       "yearStart": 2021,
       "yearEnd": 2026,
       "trans": "8-speed auto or 6-speed manual",
-      "slot": "Electronic selector — slot under trim near base",
+      "slot": "Electronic selector \u2014 slot under trim near base",
       "shift": [
         "Ignition to ON.",
         "Locate slot under trim near selector base.",
@@ -311,18 +419,33 @@
       "notes": "",
       "warn": "",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals only. AGM jump pack."
-      }
+      },
+      "slug": "bmw-4-series-g22-g23-g26-2021-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -330,7 +453,7 @@
       "yearStart": 2004,
       "yearEnd": 2010,
       "trans": "6-speed auto or 6-speed manual",
-      "slot": "Under the gear selector console BOOT — pull boot upward to access slot",
+      "slot": "Under the gear selector console BOOT \u2014 pull boot upward to access slot",
       "shift": [
         "Ignition to ON.",
         "Pull gear selector console boot upward to expose slot.",
@@ -343,13 +466,13 @@
         "Battery in trunk. Jump terminals under hood.",
         "Connect jump pack. Shift normally or use slot."
       ],
-      "notes": "M5 E60 uses SMG — REQUIRES POWER to shift to neutral. Jump battery FIRST on M5.",
+      "notes": "M5 E60 uses SMG \u2014 REQUIRES POWER to shift to neutral. Jump battery FIRST on M5.",
       "warn": "M5 E60 SMG: jump battery first. No mechanical override on SMG.",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [
         {
@@ -359,10 +482,28 @@
       ],
       "battery": {
         "location": "In trunk (right side under panel)",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
-        "warnings": "Use hood terminals. M5 E60 SMG: must restore power before any neutral shift — no mechanical override."
-      }
+        "warnings": "Use hood terminals. M5 E60 SMG: must restore power before any neutral shift \u2014 no mechanical override."
+      },
+      "slug": "bmw-5-series-e60-e61-2004-2010",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Electronic air suspension available on higher trims.",
+        "towingNotes": [
+          "Restore 12V to normalize suspension.",
+          "Check height before loading."
+        ]
+      },
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "BMW",
@@ -370,7 +511,7 @@
       "yearStart": 2011,
       "yearEnd": 2017,
       "trans": "8-speed auto ZF 8HP or 6-speed manual",
-      "slot": "Trim piece at side of gear selector base — pry to expose slot",
+      "slot": "Trim piece at side of gear selector base \u2014 pry to expose slot",
       "shift": [
         "Ignition to ON.",
         "Pry trim at selector base.",
@@ -385,19 +526,41 @@
       "notes": "M5 F10 M-DCT: power required.",
       "warn": "M5 M-DCT: power required.",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk right side under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals only. AGM jump pack."
-      }
+      },
+      "slug": "bmw-5-series-f10-f11-2011-2017",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Electronic air suspension available on higher trims.",
+        "towingNotes": [
+          "Restore 12V to normalize suspension.",
+          "Check height before loading."
+        ]
+      },
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -405,7 +568,7 @@
       "yearStart": 2017,
       "yearEnd": 2026,
       "trans": "8-speed auto ZF 8HP or 6-speed manual",
-      "slot": "Electronic selector — slot under trim near base",
+      "slot": "Electronic selector \u2014 slot under trim near base",
       "shift": [
         "Ignition to ON.",
         "Find slot under trim near selector.",
@@ -420,19 +583,41 @@
       "notes": "",
       "warn": "",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk right side under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals only. AGM jump pack."
-      }
+      },
+      "slug": "bmw-5-series-g30-g31-2017-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Electronic air suspension available on higher trims.",
+        "towingNotes": [
+          "Restore 12V to normalize suspension.",
+          "Check height before loading."
+        ]
+      },
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -440,7 +625,7 @@
       "yearStart": 2002,
       "yearEnd": 2008,
       "trans": "6-speed automatic",
-      "slot": "Base of selector COLUMN — small slot under a cap (iDrive electronic selector)",
+      "slot": "Base of selector COLUMN \u2014 small slot under a cap (iDrive electronic selector)",
       "shift": [
         "Ignition to ON.",
         "Find cap at base of selector column. Pry off.",
@@ -453,13 +638,13 @@
         "Battery under rear seat or trunk. Jump terminals under hood.",
         "Connect jump pack. Shift normally or use slot."
       ],
-      "notes": "iDrive selector — slot is at column base, not console. Air suspension — check clearance.",
+      "notes": "iDrive selector \u2014 slot is at column base, not console. Air suspension \u2014 check clearance.",
       "warn": "Air suspension: verify clearance before flatbed.",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible."
       ],
       "knownIssues": [
         {
@@ -472,11 +657,29 @@
         }
       ],
       "battery": {
-        "location": "Under rear seat or in trunk — varies",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "location": "Under rear seat or in trunk \u2014 varies",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals only. Air suspension drops with dead battery. AGM jump pack."
-      }
+      },
+      "slug": "bmw-7-series-e65-e66-2002-2008",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Electronic air suspension available on higher trims.",
+        "towingNotes": [
+          "Restore 12V to normalize suspension.",
+          "Check height before loading."
+        ]
+      },
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "BMW",
@@ -484,7 +687,7 @@
       "yearStart": 2009,
       "yearEnd": 2015,
       "trans": "6 or 8-speed auto",
-      "slot": "Electronic selector — slot under trim piece near selector",
+      "slot": "Electronic selector \u2014 slot under trim piece near selector",
       "shift": [
         "Ignition to ON.",
         "Find slot under trim near selector.",
@@ -499,19 +702,37 @@
       "notes": "Air suspension.",
       "warn": "",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals. AGM jump pack."
-      }
+      },
+      "slug": "bmw-7-series-f01-f02-2009-2015",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Electronic air suspension available on higher trims.",
+        "towingNotes": [
+          "Restore 12V to normalize suspension.",
+          "Check height before loading."
+        ]
+      },
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "BMW",
@@ -519,7 +740,7 @@
       "yearStart": 2016,
       "yearEnd": 2026,
       "trans": "8-speed auto ZF 8HP",
-      "slot": "Electronic dial/rotary selector — slot at base of selector column under trim cover",
+      "slot": "Electronic dial/rotary selector \u2014 slot at base of selector column under trim cover",
       "shift": [
         "Ignition to ON.",
         "Remove trim cover at selector column base.",
@@ -535,19 +756,41 @@
       "notes": "Air suspension.",
       "warn": "",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals. AGM jump pack. PHEV: 12V auxiliary only."
-      }
+      },
+      "slug": "bmw-7-series-g11-g12-g70-2016-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Electronic air suspension available on higher trims.",
+        "towingNotes": [
+          "Restore 12V to normalize suspension.",
+          "Check height before loading."
+        ]
+      },
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -568,9 +811,9 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "All E83 X3 are xDrive AWD.",
-      "warn": "AWD — flatbed.",
+      "warn": "AWD \u2014 flatbed.",
       "drivetrain": "xDrive AWD (standard)",
-      "towMethod": "FLATBED ONLY — xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
@@ -578,10 +821,21 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "bmw-x3-e83-2004-2010",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "BMW",
@@ -589,7 +843,7 @@
       "yearStart": 2011,
       "yearEnd": 2017,
       "trans": "8-speed auto ZF 8HP",
-      "slot": "Trim piece at selector base — pry to expose slot",
+      "slot": "Trim piece at selector base \u2014 pry to expose slot",
       "shift": [
         "Ignition to ON.",
         "Pry trim at selector base.",
@@ -602,9 +856,9 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "xDrive standard.",
-      "warn": "AWD — flatbed.",
+      "warn": "AWD \u2014 flatbed.",
       "drivetrain": "xDrive AWD (standard)",
-      "towMethod": "FLATBED ONLY — xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
@@ -612,10 +866,25 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "agm-12v",
         "warnings": "AGM jump pack recommended."
-      }
+      },
+      "slug": "bmw-x3-f25-2011-2017",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -623,7 +892,7 @@
       "yearStart": 2018,
       "yearEnd": 2026,
       "trans": "8-speed auto ZF 8HP",
-      "slot": "Electronic selector — slot under trim near base",
+      "slot": "Electronic selector \u2014 slot under trim near base",
       "shift": [
         "Ignition to ON.",
         "Find slot under trim near selector.",
@@ -636,9 +905,9 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "",
-      "warn": "AWD — flatbed.",
+      "warn": "AWD \u2014 flatbed.",
       "drivetrain": "xDrive AWD (standard)",
-      "towMethod": "FLATBED ONLY — xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
@@ -647,10 +916,25 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "agm-12v",
         "warnings": "AGM jump pack."
-      }
+      },
+      "slug": "bmw-x3-g01-x3-m-2018-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -658,7 +942,7 @@
       "yearStart": 2000,
       "yearEnd": 2006,
       "trans": "5-speed auto",
-      "slot": "Slot at gear selector base on console — remove cap first",
+      "slot": "Slot at gear selector base on console \u2014 remove cap first",
       "shift": [
         "Ignition to ON.",
         "Remove cap at selector base.",
@@ -671,20 +955,38 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "xDrive standard.",
-      "warn": "AWD — flatbed.",
+      "warn": "AWD \u2014 flatbed.",
       "drivetrain": "RWD or xDrive AWD",
-      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      }
+      },
+      "slug": "bmw-x5-e53-2000-2006",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Electronic air suspension available on higher trims.",
+        "towingNotes": [
+          "Restore 12V to normalize suspension.",
+          "Check height before loading."
+        ]
+      },
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "BMW",
@@ -692,7 +994,7 @@
       "yearStart": 2007,
       "yearEnd": 2013,
       "trans": "6-speed auto ZF 6HP (2007-2010); 8-speed auto ZF 8HP on 2011+ gasoline models (35i/50i); diesel 35d retained 6-speed through 2013",
-      "slot": "Trim piece at selector base — pry to access slot",
+      "slot": "Trim piece at selector base \u2014 pry to access slot",
       "shift": [
         "Ignition to ON.",
         "Pry trim at selector base.",
@@ -705,22 +1007,40 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "X5M E70: same procedure.",
-      "warn": "AWD — flatbed.",
+      "warn": "AWD \u2014 flatbed.",
       "drivetrain": "xDrive AWD (standard)",
-      "towMethod": "FLATBED ONLY — xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible.",
-        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight — account for extra weight in equipment ratings."
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible.",
+        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight \u2014 account for extra weight in equipment ratings."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "agm-12v",
         "warnings": "AGM jump pack."
-      }
+      },
+      "slug": "bmw-x5-e70-2007-2013",
+      "fuelType": "diesel",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Electronic air suspension available on higher trims.",
+        "towingNotes": [
+          "Restore 12V to normalize suspension.",
+          "Check height before loading."
+        ]
+      },
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "BMW",
@@ -741,22 +1061,44 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "",
-      "warn": "AWD — flatbed.",
+      "warn": "AWD \u2014 flatbed.",
       "drivetrain": "xDrive AWD (standard)",
-      "towMethod": "FLATBED ONLY — xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "agm-12v",
         "warnings": "AGM jump pack. PHEV: 12V only."
-      }
+      },
+      "slug": "bmw-x5-f15-x5-m-f85-2014-2018",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Electronic air suspension available on higher trims.",
+        "towingNotes": [
+          "Restore 12V to normalize suspension.",
+          "Check height before loading."
+        ]
+      },
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -764,7 +1106,7 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "8-speed auto ZF 8HP",
-      "slot": "Electronic selector — slot under trim near selector",
+      "slot": "Electronic selector \u2014 slot under trim near selector",
       "shift": [
         "Ignition to ON.",
         "Find slot under trim near selector.",
@@ -778,22 +1120,44 @@
         "Without power: slot."
       ],
       "notes": "",
-      "warn": "AWD — flatbed.",
+      "warn": "AWD \u2014 flatbed.",
       "drivetrain": "xDrive AWD (standard)",
-      "towMethod": "FLATBED ONLY — xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "agm-12v",
         "warnings": "AGM jump pack. PHEV: 12V only."
-      }
+      },
+      "slug": "bmw-x5-g05-x5-m-g05m-2019-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Electronic air suspension available on higher trims.",
+        "towingNotes": [
+          "Restore 12V to normalize suspension.",
+          "Check height before loading."
+        ]
+      },
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -801,7 +1165,7 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "8-speed auto ZF 8HP",
-      "slot": "Electronic selector — slot under trim near selector base",
+      "slot": "Electronic selector \u2014 slot under trim near selector base",
       "shift": [
         "Ignition to ON.",
         "Find slot under trim near selector.",
@@ -815,22 +1179,44 @@
         "Without power: slot."
       ],
       "notes": "Large 3-row SUV.",
-      "warn": "AWD — flatbed.",
+      "warn": "AWD \u2014 flatbed.",
       "drivetrain": "xDrive AWD (standard)",
-      "towMethod": "FLATBED ONLY — xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "agm-12v",
         "warnings": "AGM jump pack. PHEV: 12V only."
-      }
+      },
+      "slug": "bmw-x7-g07-2019-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": {
+        "equipped": true,
+        "description": "Electronic air suspension available on higher trims.",
+        "towingNotes": [
+          "Restore 12V to normalize suspension.",
+          "Check height before loading."
+        ]
+      },
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -838,29 +1224,29 @@
       "yearStart": 2022,
       "yearEnd": 2026,
       "trans": "Single-speed electric drive",
-      "slot": "Electronic selector — slot under trim at selector base",
+      "slot": "Electronic selector \u2014 slot under trim at selector base",
       "shift": [
         "WITH 12V POWER: Press brake. Select N on electronic selector.",
         "WITHOUT 12V POWER: Find slot under trim at selector base. Insert key, press down. Press brake. Select N."
       ],
       "neutral": [
         "12V battery locations: iX under hood, i4/i5/i7 in trunk.",
-        "Connect jump pack to 12V ONLY — NEVER touch HV system.",
+        "Connect jump pack to 12V ONLY \u2014 NEVER touch HV system.",
         "Once powered, press brake and select N."
       ],
       "notes": "NEVER touch the high-voltage system.",
       "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
       "drivetrain": "AWD or RWD (electric)",
-      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "towMethod": "FLATBED ONLY \u2014 electric drivetrain",
       "tc": null,
       "towNotes": [
-        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "ELECTRIC VEHICLE: FLATBED ONLY \u2014 never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
         "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
-        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+        "12V battery ONLY for jumping \u2014 NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
       ],
       "knownIssues": [
         {
-          "title": "FLATBED ONLY — High Voltage System",
+          "title": "FLATBED ONLY \u2014 High Voltage System",
           "detail": "800V high-voltage system. Never attempt to tow with wheels on ground. Never connect jumper cables to HV components. 12V auxiliary battery only for powering electronics."
         },
         {
@@ -873,7 +1259,22 @@
         "jumpTerminals": "See location. 12V auxiliary terminals only.",
         "type": "auxiliary-12v-only",
         "warnings": "NEVER touch HV orange cables. 12V auxiliary only for all jump operations."
-      }
+      },
+      "slug": "bmw-ix-i4-i5-i7-2022-2026",
+      "fuelType": "electric",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "BMW",
@@ -896,20 +1297,31 @@
       "notes": "Manual: clutch to N.",
       "warn": "",
       "drivetrain": "RWD",
-      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
-        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift \u2014 front splitter/rear diffuser damage is common.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk, right side under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "standard-12v",
         "warnings": "Use hood terminals."
-      }
+      },
+      "slug": "bmw-z4-e85-e86-2003-2008",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "BMW",
@@ -917,7 +1329,7 @@
       "yearStart": 2009,
       "yearEnd": 2016,
       "trans": "6-speed auto or 6-speed manual",
-      "slot": "Slot at selector base — trim piece may need removal",
+      "slot": "Slot at selector base \u2014 trim piece may need removal",
       "shift": [
         "Ignition to ON.",
         "Remove trim at selector base if present.",
@@ -932,20 +1344,31 @@
       "notes": "Manual: clutch to N.",
       "warn": "",
       "drivetrain": "RWD",
-      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
-        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift \u2014 front splitter/rear diffuser damage is common.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk, right side under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals."
-      }
+      },
+      "slug": "bmw-z4-e89-2009-2016",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "BMW",
@@ -953,7 +1376,7 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "8-speed auto or 6-speed manual",
-      "slot": "Electronic selector — slot under trim near base",
+      "slot": "Electronic selector \u2014 slot under trim near base",
       "shift": [
         "Ignition to ON.",
         "Find slot under trim near selector.",
@@ -968,20 +1391,35 @@
       "notes": "Shared platform with Toyota Supra.",
       "warn": "",
       "drivetrain": "RWD",
-      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
-        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift \u2014 front splitter/rear diffuser damage is common.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "In trunk, under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals."
-      }
+      },
+      "slug": "bmw-z4-g29-2019-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V to engine compartment terminals (never at trunk battery directly). Hold the P/EPB button.",
+        "steps": [
+          "Connect jump pack to engine compartment hood terminals (NEVER trunk battery directly).",
+          "Press and hold the EPB/P button until brake releases.",
+          "Manual: scan tool may be required for some models."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     }
   ]
 }

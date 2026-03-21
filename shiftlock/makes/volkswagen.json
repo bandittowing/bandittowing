@@ -29,24 +29,35 @@
       "neutral": [
         "Apply parking brake.",
         "Battery under hood.",
-        "Connect jump pack. DSG — power preferred. Shift normally or use slot."
+        "Connect jump pack. DSG \u2014 power preferred. Shift normally or use slot."
       ],
-      "notes": "Manual: clutch to N. DSG — restore power first.",
+      "notes": "Manual: clutch to N. DSG \u2014 restore power first.",
       "warn": "DSG: restore power before shifting.",
       "drivetrain": "FWD",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood or under rear seat — varies by generation",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "location": "Under hood or under rear seat \u2014 varies by generation",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals. AGM jump pack."
-      }
+      },
+      "slug": "volkswagen-jetta-jetta-sportwagen-2000-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Volkswagen",
@@ -65,33 +76,44 @@
       "neutral": [
         "Apply parking brake.",
         "Battery under hood.",
-        "Connect jump pack. DSG — power preferred. Shift normally or use slot."
+        "Connect jump pack. DSG \u2014 power preferred. Shift normally or use slot."
       ],
       "notes": "Manual: clutch to N. DSG: restore power first. Golf R AWD: flatbed preferred.",
-      "warn": "Golf R AWD — flatbed preferred.",
+      "warn": "Golf R AWD \u2014 flatbed preferred.",
       "drivetrain": "FWD or 4MOTION AWD (Golf R)",
-      "towMethod": "FWD/GTI: lift from rear — front (drive) wheels roll on ground. Golf R 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD/GTI: lift from rear \u2014 front (drive) wheels roll on ground. Golf R 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [
         {
-          "title": "Golf R AWD Cannot Be Disabled — Flatbed Only",
+          "title": "Golf R AWD Cannot Be Disabled \u2014 Flatbed Only",
           "detail": "The Golf R 4MOTION AWD system cannot be disabled. Golf R must always be flatbedded. Standard Golf and GTI are FWD and can be wheel-lifted normally from the rear."
         },
         {
-          "title": "DSG Requires Power to Shift — Battery Often Under Rear Seat",
-          "detail": "DSG dual-clutch transmission requires 12V power to shift to neutral. Battery is often under the rear seat on Golf variants — not always under the hood. Locate battery before attempting to jump."
+          "title": "DSG Requires Power to Shift \u2014 Battery Often Under Rear Seat",
+          "detail": "DSG dual-clutch transmission requires 12V power to shift to neutral. Battery is often under the rear seat on Golf variants \u2014 not always under the hood. Locate battery before attempting to jump."
         }
       ],
       "battery": {
         "location": "Under rear seat (most Golf generations)",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
-        "warnings": "Use hood terminals — NOT rear seat battery directly. AGM jump pack. Golf R: flatbed only (4MOTION AWD)."
-      }
+        "warnings": "Use hood terminals \u2014 NOT rear seat battery directly. AGM jump pack. Golf R: flatbed only (4MOTION AWD)."
+      },
+      "slug": "volkswagen-golf-gti-golf-r-2005-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Volkswagen",
@@ -108,24 +130,35 @@
       "neutral": [
         "Apply parking brake.",
         "Battery under hood.",
-        "Connect jump pack. DSG — power preferred. Shift normally or use slot."
+        "Connect jump pack. DSG \u2014 power preferred. Shift normally or use slot."
       ],
       "notes": "Manual: clutch to N. DSG: restore power first. 4MOTION AWD: flatbed.",
-      "warn": "4MOTION AWD — flatbed preferred.",
+      "warn": "4MOTION AWD \u2014 flatbed preferred.",
       "drivetrain": "FWD or 4MOTION AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under rear seat or in trunk — varies by generation",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "location": "Under rear seat or in trunk \u2014 varies by generation",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals. AGM jump pack."
-      }
+      },
+      "slug": "volkswagen-passat-2000-2022",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Volkswagen",
@@ -142,23 +175,34 @@
       "neutral": [
         "Apply parking brake.",
         "Battery under hood.",
-        "Connect jump pack. DSG — power preferred. Shift normally or use slot."
+        "Connect jump pack. DSG \u2014 power preferred. Shift normally or use slot."
       ],
       "notes": "4MOTION AWD optional.",
-      "warn": "AWD — flatbed preferred.",
+      "warn": "AWD \u2014 flatbed preferred.",
       "drivetrain": "FWD or 4MOTION AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood or under rear seat — varies",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "location": "Under hood or under rear seat \u2014 varies",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals. AGM jump pack."
-      }
+      },
+      "slug": "volkswagen-tiguan-2009-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": false,
+        "override": null,
+        "steps": []
+      },
+      "airSuspension": null,
+      "steeringLock": "Key-operated steering column lock."
     },
     {
       "make": "Volkswagen",
@@ -166,7 +210,7 @@
       "yearStart": 2018,
       "yearEnd": 2026,
       "trans": "8-speed automatic",
-      "slot": "Electronic selector — slot near selector base on console",
+      "slot": "Electronic selector \u2014 slot near selector base on console",
       "shift": [
         "Ignition to ON.",
         "Find slot near electronic selector.",
@@ -179,9 +223,9 @@
         "Connect jump pack. Shift normally or use slot."
       ],
       "notes": "4MOTION AWD optional.",
-      "warn": "AWD — flatbed preferred.",
+      "warn": "AWD \u2014 flatbed preferred.",
       "drivetrain": "FWD or 4MOTION AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -189,10 +233,24 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": "AWD: flatbed only."
-      }
+      },
+      "slug": "volkswagen-atlas-atlas-cross-sport-2018-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button until brake releases."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Volkswagen",
@@ -209,12 +267,12 @@
       "neutral": [
         "Apply parking brake.",
         "Battery under hood.",
-        "Connect jump pack. DSG — power preferred. Shift normally or use slot."
+        "Connect jump pack. DSG \u2014 power preferred. Shift normally or use slot."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or 4MOTION AWD",
-      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -222,10 +280,24 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood or under rear seat",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
         "type": "agm-12v",
         "warnings": "Use hood terminals."
-      }
+      },
+      "slug": "volkswagen-taos-2022-2026",
+      "fuelType": "gasoline",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button until brake releases."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     },
     {
       "make": "Volkswagen",
@@ -233,7 +305,7 @@
       "yearStart": 2021,
       "yearEnd": 2026,
       "trans": "Single-speed electric",
-      "slot": "Electronic selector — slot near selector base",
+      "slot": "Electronic selector \u2014 slot near selector base",
       "shift": [
         "WITH POWER: Press brake. Select N.",
         "WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."
@@ -246,16 +318,16 @@
       "notes": "ID.Buzz (2024+): same procedure.",
       "warn": "FLATBED ONLY.",
       "drivetrain": "RWD or AWD (electric)",
-      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "towMethod": "FLATBED ONLY \u2014 electric drivetrain",
       "tc": null,
       "towNotes": [
-        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "ELECTRIC VEHICLE: FLATBED ONLY \u2014 never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
         "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
-        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+        "12V battery ONLY for jumping \u2014 NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
       ],
       "knownIssues": [
         {
-          "title": "FLATBED ONLY — Electric Drivetrain",
+          "title": "FLATBED ONLY \u2014 Electric Drivetrain",
           "detail": "Electric RWD or AWD. Towing with wheels on ground will damage motors. Flatbed only with no exceptions."
         },
         {
@@ -265,10 +337,24 @@
       ],
       "battery": {
         "location": "Under hood (12V auxiliary)",
-        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "jumpTerminals": "Under hood \u2014 12V auxiliary terminals",
         "type": "auxiliary-12v-only",
         "warnings": "NEVER touch HV battery. Flatbed only."
-      }
+      },
+      "slug": "volkswagen-id-4-id-buzz-2021-2026",
+      "fuelType": "electric",
+      "curbWeight": "Varies \u2014 check door jamb label",
+      "gvwr": "Varies \u2014 check door jamb label",
+      "epb": {
+        "equipped": true,
+        "override": "Restore 12V. Hold EPB button to release.",
+        "steps": [
+          "Connect jump pack under hood.",
+          "Hold EPB button until brake releases."
+        ]
+      },
+      "airSuspension": null,
+      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
     }
   ]
 }
