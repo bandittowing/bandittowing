@@ -193,7 +193,7 @@ header::before {
 .chip { background:var(--dark3); border:1px solid var(--dark5); padding:14px 16px; border-radius:var(--radius); }
 .chip-label { font-family:var(--font-u); font-size:10px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:var(--gold); margin-bottom:6px; }
 .chip-val { font-family:var(--font-u); font-size:0.95rem; font-weight:600; color:var(--white); line-height:1.35; }
-.chip.trans .chip-val { color:var(--gray-light); font-family:var(--font-c); font-size:0.9rem; font-weight:500; }
+.chip.trans .chip-val { color:var(--white); font-family:var(--font-c); font-size:0.9rem; font-weight:600; }
 
 /* ═══════════════════════════════════════════════
    TOW METHOD BANNER
@@ -233,20 +233,20 @@ header::before {
 }
 .tow-notes ul { list-style:none; display:flex; flex-direction:column; gap:0; }
 .tow-notes ul li {
-  font-family:var(--font-b); font-size:0.88rem; color:#c0b090;
+  font-family:var(--font-b); font-size:0.9rem; color:var(--white);
   line-height:1.55; padding:10px 16px 10px 40px; position:relative;
   border-bottom:1px solid var(--dark4);
 }
 .tow-notes ul li:last-child { border-bottom:none; }
 .tow-notes ul li::before {
-  content:''; position:absolute; left:16px; top:17px;
+  content:''; position:absolute; left:16px; top:18px;
   width:6px; height:6px; border-radius:50%;
-  background:var(--gold-dark);
+  background:var(--gold);
 }
-/* bold the ALL-CAPS keyword at the start of each note */
+/* bold keyword prefix on each note */
 .tow-notes ul li .note-key {
-  font-family:var(--font-u); font-size:0.82rem; font-weight:700;
-  color:var(--gold-bright); letter-spacing:0.5px; margin-right:4px;
+  font-family:var(--font-u); font-size:0.88rem; font-weight:700;
+  color:var(--gold-bright); letter-spacing:0.5px; margin-right:5px;
 }
 
 /* ═══════════════════════════════════════════════
@@ -269,13 +269,13 @@ header::before {
 .tc-col { padding:14px 18px; }
 .tc-col:first-child { border-right:1px solid #1a2535; }
 @media(max-width:600px){ .tc-col:first-child { border-right:none; border-bottom:1px solid #1a2535; } }
-.tc-sub { font-family:var(--font-u); font-size:9px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#3a6090; margin-bottom:8px; }
+.tc-sub { font-family:var(--font-u); font-size:10px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:var(--gold); margin-bottom:8px; }
 .tc-pos-list { list-style:none; display:flex; flex-direction:column; gap:5px; }
-.tc-pos-list li { font-family:var(--font-c); font-size:0.82rem; color:#6a9ab8; display:flex; gap:8px; align-items:flex-start; line-height:1.4; }
-.tc-pos-list li .pos-dot { width:6px; height:6px; background:#2a5070; border-radius:50%; flex-shrink:0; margin-top:5px; }
+.tc-pos-list li { font-family:var(--font-c); font-size:0.88rem; color:var(--white); display:flex; gap:8px; align-items:flex-start; line-height:1.4; }
+.tc-pos-list li .pos-dot { width:6px; height:6px; background:var(--gold-dark); border-radius:50%; flex-shrink:0; margin-top:5px; }
 .tc-steps-list { list-style:none; display:flex; flex-direction:column; gap:7px; }
-.tc-steps-list li { display:flex; gap:10px; font-family:var(--font-b); font-size:0.83rem; color:#6a9ab8; line-height:1.5; align-items:flex-start; }
-.tc-step-num { flex-shrink:0; width:20px; height:20px; background:#0a1020; border:1px solid #2a5070; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:var(--font-u); font-size:10px; font-weight:700; color:#4a80b0; margin-top:2px; }
+.tc-steps-list li { display:flex; gap:10px; font-family:var(--font-b); font-size:0.88rem; color:var(--white); line-height:1.5; align-items:flex-start; }
+.tc-step-num { flex-shrink:0; width:20px; height:20px; background:#0a1020; border:1px solid #2a5070; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:var(--font-u); font-size:10px; font-weight:700; color:var(--gold); margin-top:2px; }
 
 /* ═══════════════════════════════════════════════
    MAIN PROCEDURE GRID — PRIMARY CONTENT
@@ -339,7 +339,7 @@ header::before {
 }
 .slot-strip strong {
   display:block; font-style:normal; font-family:var(--font-u);
-  font-size:9px; letter-spacing:3px; text-transform:uppercase;
+  font-size:10px; font-weight:700; letter-spacing:3px; text-transform:uppercase;
   color:var(--gold); margin-bottom:4px;
 }
 
@@ -364,9 +364,12 @@ header::before {
 .note-box, .warn-box { padding:11px 15px; font-family:var(--font-b); font-size:0.82rem; line-height:1.55; margin-bottom:12px; border-radius:var(--radius); }
 .note-box { background:#0d1318; border:1px solid #1a2535; border-left:3px solid var(--blue); color:#7aaaca; }
 .warn-box { background:#180d08; border:1px solid #302010; border-left:3px solid var(--orange); color:#c88858; }
-.note-box strong, .warn-box strong { display:block; font-family:var(--font-u); font-size:9px; letter-spacing:2px; text-transform:uppercase; margin-bottom:4px; }
-.note-box strong { color:#5090b8; }
-.warn-box strong { color:#c07030; }
+.note-box strong, .warn-box strong {
+  display:block; font-family:var(--font-u); font-size:11px; font-weight:700;
+  letter-spacing:3px; text-transform:uppercase; margin-bottom:6px;
+}
+.note-box strong { color:var(--blue); }
+.warn-box strong { color:var(--orange); }
 
 /* ═══════════════════════════════════════════════
    KNOWN ISSUES SECTION
@@ -530,18 +533,18 @@ header::before {
 .battery-col:first-child { border-right:1px solid var(--dark5); }
 @media(max-width:600px) { .battery-col:first-child { border-right:none; border-bottom:1px solid var(--dark5); } }
 .battery-col-label {
-  font-family:var(--font-u); font-size:9px; font-weight:700;
-  letter-spacing:3px; text-transform:uppercase; color:#8a7000;
+  font-family:var(--font-u); font-size:10px; font-weight:700;
+  letter-spacing:3px; text-transform:uppercase; color:var(--gold);
   margin-bottom:7px;
 }
 .battery-col-val {
-  font-family:var(--font-b); font-size:0.88rem; color:#d8c070;
+  font-family:var(--font-b); font-size:0.9rem; color:var(--white);
   line-height:1.55;
 }
 .battery-warn {
   padding:10px 18px; background:#141000; border-top:1px solid #2a2200;
-  font-family:var(--font-b); font-size:0.82rem; color:#a09040;
-  line-height:1.5; display:none;
+  font-family:var(--font-b); font-size:0.85rem; color:#d8c070;
+  line-height:1.5;
 }
 .battery-warn::before { content:'⚡ '; }
 ═══════════════════════════════════════════════ */

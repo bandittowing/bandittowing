@@ -27,7 +27,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [],
@@ -66,7 +66,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
     ],
     "knownIssues": [],
@@ -261,7 +261,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -295,7 +295,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -326,12 +326,12 @@
       "Without power: shift lock slot method."
     ],
     "notes": "3rd gen uses electronic push-button shifter — no physical lever. N button must be activated electronically.",
-    "warn": "Electronic shifter requires 12V power. Always carry a jump pack.",
+    "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -401,7 +401,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -436,7 +436,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [],
@@ -471,7 +471,7 @@
     "towMethod": "FWD: rear wheel lift OK. SH-AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [],
@@ -509,7 +509,7 @@
     "towMethod": "FWD: rear wheel lift OK. SH-AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
     ],
     "knownIssues": [
@@ -552,7 +552,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -586,7 +586,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [],
@@ -655,7 +655,7 @@
     "towMethod": "FWD: rear wheel lift OK. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [
       {
@@ -698,7 +698,7 @@
     "towMethod": "FWD: rear wheel lift OK. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -734,7 +734,7 @@
     "towMethod": "FWD: rear wheel lift OK. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -767,7 +767,7 @@
     "towMethod": "FWD: rear wheel lift OK. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -870,7 +870,7 @@
     "towMethod": "FWD: rear wheel lift OK. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -937,8 +937,8 @@
       "Shift normally or use slot.",
       "PHEV: use ONLY 12V auxiliary battery."
     ],
-    "notes": "Q7 e-tron PHEV: 12V auxiliary only. Battery in spare tire well.",
-    "warn": "PHEV: NEVER jump from HV battery. 12V auxiliary terminals only.",
+    "notes": "Battery in spare tire well.",
+    "warn": "",
     "drivetrain": "Quattro AWD",
     "towMethod": "FLATBED ONLY — Quattro AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
     "tc": null,
@@ -1062,7 +1062,7 @@
     "towMethod": "Front wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [],
@@ -1228,7 +1228,7 @@
       "Battery in trunk. Jump terminals under hood.",
       "Connect jump pack. Shift normally or use slot."
     ],
-    "notes": "330e PHEV: 12V only.",
+    "notes": "",
     "warn": "",
     "drivetrain": "RWD or xDrive AWD",
     "towMethod": "RWD: front wheel lift OK. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -1264,7 +1264,7 @@
       "Battery in trunk. Jump terminals under hood.",
       "Connect jump pack. Shift normally or use slot."
     ],
-    "notes": "330e PHEV: 12V only.",
+    "notes": "",
     "warn": "AWD (xDrive) — flatbed preferred.",
     "drivetrain": "RWD or xDrive AWD",
     "towMethod": "RWD: front wheel lift OK. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -1407,7 +1407,7 @@
       "Battery in trunk. Jump terminals under hood.",
       "Connect jump pack. Shift normally or use slot."
     ],
-    "notes": "530e PHEV: 12V only. M5 F10 M-DCT: power required.",
+    "notes": "M5 F10 M-DCT: power required.",
     "warn": "M5 M-DCT: power required.",
     "drivetrain": "RWD or xDrive AWD",
     "towMethod": "RWD: front wheel lift OK. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -1442,7 +1442,7 @@
       "Battery in trunk. Jump terminals under hood.",
       "Connect jump pack. Shift normally or use slot."
     ],
-    "notes": "545e xDrive PHEV: 12V only.",
+    "notes": "",
     "warn": "",
     "drivetrain": "RWD or xDrive AWD",
     "towMethod": "RWD: front wheel lift OK. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -1521,7 +1521,7 @@
       "Battery in trunk. Jump terminals under hood.",
       "Connect jump pack. Shift normally or use slot."
     ],
-    "notes": "740e PHEV: 12V only. Air suspension.",
+    "notes": "Air suspension.",
     "warn": "",
     "drivetrain": "RWD or xDrive AWD",
     "towMethod": "RWD: front wheel lift OK. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -1557,8 +1557,8 @@
       "Battery in trunk. Jump terminals under hood.",
       "Connect jump pack. Shift normally or use slot."
     ],
-    "notes": "745e/750e PHEV: 12V only. Air suspension.",
-    "warn": "PHEV: 12V only.",
+    "notes": "Air suspension.",
+    "warn": "",
     "drivetrain": "RWD or xDrive AWD",
     "towMethod": "RWD: front wheel lift OK. xDrive AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
@@ -1660,7 +1660,7 @@
       "Battery in engine bay.",
       "Connect jump pack. Shift normally or use slot."
     ],
-    "notes": "X3 30e PHEV: 12V only.",
+    "notes": "",
     "warn": "AWD — flatbed.",
     "drivetrain": "xDrive AWD (standard)",
     "towMethod": "FLATBED ONLY — xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
@@ -1765,7 +1765,7 @@
       "Battery under hood.",
       "Connect jump pack. Shift normally or use slot."
     ],
-    "notes": "x40e PHEV: 12V only.",
+    "notes": "",
     "warn": "AWD — flatbed.",
     "drivetrain": "xDrive AWD (standard)",
     "towMethod": "FLATBED ONLY — xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
@@ -1802,7 +1802,7 @@
       "Connect jump pack. Select N once powered.",
       "Without power: slot."
     ],
-    "notes": "xDrive50e PHEV (2023+): 12V only.",
+    "notes": "",
     "warn": "AWD — flatbed.",
     "drivetrain": "xDrive AWD (standard)",
     "towMethod": "FLATBED ONLY — xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
@@ -1839,7 +1839,7 @@
       "Connect jump pack. Select N once powered.",
       "Without power: slot."
     ],
-    "notes": "xDrive50e PHEV: 12V only. Large 3-row SUV.",
+    "notes": "Large 3-row SUV.",
     "warn": "AWD — flatbed.",
     "drivetrain": "xDrive AWD (standard)",
     "towMethod": "FLATBED ONLY — xDrive AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
@@ -1924,7 +1924,7 @@
     "towMethod": "Front wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
@@ -1960,7 +1960,7 @@
     "towMethod": "Front wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
@@ -1996,7 +1996,7 @@
     "towMethod": "Front wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
@@ -2033,7 +2033,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [
       {
@@ -2072,7 +2072,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -2107,7 +2107,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -2141,7 +2141,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -2177,7 +2177,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -2211,7 +2211,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -2372,7 +2372,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -2406,7 +2406,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -2440,7 +2440,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -2474,7 +2474,7 @@
     "towMethod": "RWD: front wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "AWD VARIANT: Use flatbed. If no flatbed, wheel-lift with dollies on free-rolling axle."
     ],
     "knownIssues": [],
@@ -2813,7 +2813,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -2847,7 +2847,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. Equinox EV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -2880,7 +2880,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -3012,7 +3012,7 @@
     "towMethod": "FLATBED ONLY — extremely low clearance, no wheel lift. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
@@ -3047,7 +3047,7 @@
     "towMethod": "FLATBED ONLY — extremely low clearance, no wheel lift. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
@@ -3084,7 +3084,7 @@
     "towMethod": "FLATBED ONLY — extremely low clearance, load from rear only",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
@@ -3188,7 +3188,7 @@
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -3223,7 +3223,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -3257,7 +3257,7 @@
     "towMethod": "Front wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [],
@@ -3291,7 +3291,7 @@
     "towMethod": "Front wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [],
@@ -3318,7 +3318,7 @@
       "NEVER touch the HV floor battery.",
       "Once powered, shift normally or use slot."
     ],
-    "notes": "PHEV. 12V battery under hood. HV battery runs down floor tunnel.",
+    "notes": "PHEV. HV battery runs down floor tunnel.",
     "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
     "drivetrain": "FWD (electric/PHEV)",
     "towMethod": "FLATBED ONLY — electric drivetrain",
@@ -3400,7 +3400,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -3435,7 +3435,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. Blazer EV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -3469,7 +3469,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -3507,7 +3507,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [
       {
@@ -3554,7 +3554,7 @@
     "towMethod": "RWD: front wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "AWD VARIANT: Use flatbed. If no flatbed, wheel-lift with dollies on free-rolling axle."
     ],
     "knownIssues": [],
@@ -3585,14 +3585,14 @@
       "Connect jump pack (12V only for PHEV).",
       "Rotate to N once powered or use slot."
     ],
-    "notes": "Pacifica Hybrid PHEV: 12V auxiliary ONLY. Never access HV battery.",
-    "warn": "PHEV: 12V battery ONLY.",
+    "notes": "Never access HV battery.",
+    "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [
       {
@@ -3635,7 +3635,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -3669,7 +3669,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [],
@@ -3704,7 +3704,7 @@
     "towMethod": "Front wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [
@@ -3744,7 +3744,7 @@
     "towMethod": "RWD: front wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "AWD VARIANT: Use flatbed. If no flatbed, wheel-lift with dollies on free-rolling axle."
     ],
     "knownIssues": [],
@@ -3862,7 +3862,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -3896,7 +3896,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -3980,7 +3980,7 @@
     "towMethod": "FLATBED ONLY — extremely low clearance, side lift recommended",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
@@ -4072,7 +4072,7 @@
       "Connect jump pack. Shift normally or use slot.",
       "PowerBoost Hybrid: 12V only."
     ],
-    "notes": "F-150 Lightning EV (2022+): flatbed only. 12V battery in frunk.",
+    "notes": "F-150 Lightning EV (2022+): flatbed only.",
     "warn": "Lightning EV: FLATBED ONLY. 4WD: transfer case.",
     "drivetrain": "RWD or 4WD (part-time)",
     "towMethod": "RWD: rear wheel lift OK. 4WD: transfer case to 2H first, then rear wheel lift. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -4124,7 +4124,7 @@
       "NEVER touch the HV battery.",
       "Once powered, press brake and select N."
     ],
-    "notes": "12V battery is in the FRUNK, not under the hood. HV battery in frame — never touch.",
+    "notes": "HV battery in frame — never touch.",
     "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
     "drivetrain": "AWD (dual electric motors)",
     "towMethod": "FLATBED ONLY — electric drivetrain, no transfer case",
@@ -4340,7 +4340,7 @@
     "towMethod": "RWD: front wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "AWD VARIANT: Use flatbed. If no flatbed, wheel-lift with dollies on free-rolling axle."
     ],
     "knownIssues": [],
@@ -4478,14 +4478,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for PHEV). Shift normally or use slot."
     ],
-    "notes": "Escape PHEV (2021+): 12V only.",
-    "warn": "PHEV: 12V only.",
+    "notes": "",
+    "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. Escape PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -4518,7 +4518,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -4605,7 +4605,7 @@
     "towMethod": "Front wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [],
@@ -4640,7 +4640,7 @@
     "towMethod": "Front wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [],
@@ -4668,7 +4668,7 @@
       "NEVER touch HV battery.",
       "Once powered, press brake and select N."
     ],
-    "notes": "12V battery in FRUNK. RWD or AWD.",
+    "notes": "RWD or AWD.",
     "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
     "drivetrain": "RWD or AWD (electric)",
     "towMethod": "FLATBED ONLY — electric drivetrain",
@@ -4763,14 +4763,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
     ],
-    "notes": "Fusion Hybrid/Energi PHEV: 12V only.",
-    "warn": "PHEV/Hybrid: 12V only.",
+    "notes": "",
+    "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD/PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -4805,7 +4805,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
     ],
     "knownIssues": [],
@@ -4875,7 +4875,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -5173,7 +5173,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -5206,7 +5206,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -5284,14 +5284,14 @@
       "Connect jump pack. Shift normally or use slot.",
       "Hybrid: 12V only."
     ],
-    "notes": "Manual trans: no shift lock — depress clutch. All Hybrid years: 12V only.",
-    "warn": "Hybrid: 12V only. Do not access IMA/HV battery.",
+    "notes": "Manual trans: no shift lock — depress clutch.",
+    "warn": "",
     "drivetrain": "FWD (most) or AWD (2023+ select trims)",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -5322,14 +5322,14 @@
       "Connect jump pack. Shift normally or use slot.",
       "Hybrid: 12V only."
     ],
-    "notes": "AWD optional. CR-V Hybrid (2020+): 12V only.",
-    "warn": "Hybrid: 12V only.",
+    "notes": "AWD optional.",
+    "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -5360,14 +5360,14 @@
       "Connect jump pack. Shift normally or use slot.",
       "Hybrid: 12V only."
     ],
-    "notes": "Type R: manual only — clutch to N. Hybrid: 12V only.",
+    "notes": "Type R: manual only — clutch to N.",
     "warn": "",
     "drivetrain": "FWD",
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
@@ -5404,7 +5404,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -5440,7 +5440,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [
       {
@@ -5479,7 +5479,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -5516,7 +5516,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [
       {
@@ -5560,7 +5560,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -5596,7 +5596,7 @@
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [
@@ -5677,7 +5677,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
@@ -5708,14 +5708,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
     ],
-    "notes": "Hybrid/PHEV: 12V only.",
+    "notes": "",
     "warn": "",
     "drivetrain": "FWD",
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -5745,14 +5745,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
     ],
-    "notes": "Hybrid/PHEV (2022+): 12V only.",
+    "notes": "",
     "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
@@ -5783,14 +5783,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
     ],
-    "notes": "Hybrid/PHEV: 12V only. AWD optional.",
+    "notes": "AWD optional.",
     "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -5824,7 +5824,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -6011,7 +6011,7 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Q50 Hybrid). Shift normally or use slot."
     ],
-    "notes": "Q50 Hybrid: 12V only. AWD optional.",
+    "notes": "AWD optional.",
     "warn": "",
     "drivetrain": "RWD or AWD",
     "towMethod": "RWD: front wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -6051,7 +6051,7 @@
     "towMethod": "RWD: front wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "AWD VARIANT: Use flatbed. If no flatbed, wheel-lift with dollies on free-rolling axle."
     ],
     "knownIssues": [],
@@ -6120,7 +6120,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
@@ -6156,7 +6156,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -6296,8 +6296,8 @@
       "Connect jump pack (auto). Shift normally or use slot.",
       "4xe PHEV: 12V only."
     ],
-    "notes": "4xe PHEV: 12V only. Flat tow: transfer case in neutral.",
-    "warn": "4xe PHEV: 12V only.",
+    "notes": "Flat tow: transfer case in neutral.",
+    "warn": "",
     "drivetrain": "4WD (Command-Trac or Rock-Trac, standard)",
     "towMethod": "Transfer case to 2H for wheel lift. TC to N for flat towing. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": {
@@ -6474,7 +6474,7 @@
       "Connect jump pack. Shift normally or use slot.",
       "4xe PHEV: 12V only."
     ],
-    "notes": "4xe PHEV: 12V only.",
+    "notes": "",
     "warn": "AWD — flatbed preferred.",
     "drivetrain": "RWD or 4WD (Quadra-Trac / Selec-Terrain)",
     "towMethod": "4WD with 2WD mode: transfer case to 2WD first, then rear wheel lift. Full-time 4WD: flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -6538,7 +6538,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -6565,14 +6565,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for PHEV). Shift normally or use slot."
     ],
-    "notes": "PHEV (2021+): 12V only.",
+    "notes": "",
     "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -6601,14 +6601,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
     ],
-    "notes": "Hybrid/PHEV: 12V only. AWD optional.",
+    "notes": "AWD optional.",
     "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -6636,14 +6636,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
     ],
-    "notes": "Hybrid/PHEV: 12V only.",
+    "notes": "",
     "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
     ],
     "knownIssues": [],
@@ -6678,7 +6678,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -6754,7 +6754,7 @@
     "towMethod": "RWD: front wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "AWD VARIANT: Use flatbed. If no flatbed, wheel-lift with dollies on free-rolling axle."
     ],
     "knownIssues": [],
@@ -6783,14 +6783,14 @@
       "Battery under hood.",
       "Connect jump pack. Shift normally or use slot."
     ],
-    "notes": "Hybrid: 12V only.",
+    "notes": "",
     "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
     ],
     "knownIssues": [],
@@ -6820,14 +6820,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
     ],
-    "notes": "ES 300h Hybrid (all years): 12V only. Shift lock may be inside console storage bin.",
-    "warn": "Hybrid: 12V only.",
+    "notes": "Shift lock may be inside console storage bin.",
+    "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -6856,14 +6856,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
     ],
-    "notes": "RX 400h/450h Hybrid: 12V only. AWD optional.",
-    "warn": "Hybrid: 12V only.",
+    "notes": "AWD optional.",
+    "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -7039,14 +7039,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
     ],
-    "notes": "Hybrid/PHEV: 12V only. AWD optional.",
+    "notes": "AWD optional.",
     "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD/Hybrid/PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -7074,8 +7074,8 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
     ],
-    "notes": "LS 600h Hybrid: 12V only. Air suspension — check clearance.",
-    "warn": "Air suspension: check clearance. Hybrid: 12V only.",
+    "notes": "Air suspension — check clearance.",
+    "warn": "",
     "drivetrain": "RWD or AWD",
     "towMethod": "RWD: front wheel lift OK. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
@@ -7116,7 +7116,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
@@ -7153,7 +7153,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -7180,14 +7180,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for CX-90 PHEV). Shift normally or use slot."
     ],
-    "notes": "CX-90 PHEV: 12V only. AWD standard.",
+    "notes": "AWD standard.",
     "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. CX-90 PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -7220,7 +7220,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -7252,7 +7252,7 @@
     "towMethod": "Front wheel lift or flatbed — low clearance, flatbed preferred. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
@@ -7292,7 +7292,7 @@
       "Connect jump pack. Shift normally or use slot.",
       "PHEVs: 12V only."
     ],
-    "notes": "PHEVs (C350e, C63e): 12V only. 4MATIC AWD: flatbed. AMG DCT: power preferred.",
+    "notes": "4MATIC AWD: flatbed. AMG DCT: power preferred.",
     "warn": "AWD (4MATIC) — flatbed preferred.",
     "drivetrain": "RWD or 4MATIC AWD",
     "towMethod": "RWD: front wheel lift OK. 4MATIC AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -7325,7 +7325,7 @@
       "Battery under hood.",
       "Connect jump pack (12V only for PHEVs). Shift normally or use slot."
     ],
-    "notes": "PHEVs: 12V only. 4MATIC: flatbed.",
+    "notes": "4MATIC: flatbed.",
     "warn": "AWD (4MATIC) — flatbed preferred.",
     "drivetrain": "RWD or 4MATIC AWD",
     "towMethod": "RWD: front wheel lift OK. 4MATIC AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -7358,7 +7358,7 @@
       "Battery under hood or under rear seat depending on year.",
       "Connect jump pack. Shift normally or use slot."
     ],
-    "notes": "Air suspension — check clearance. PHEVs: 12V only.",
+    "notes": "Air suspension — check clearance.",
     "warn": "Air suspension: verify clearance. 4MATIC: flatbed.",
     "drivetrain": "RWD or 4MATIC AWD",
     "towMethod": "RWD: front wheel lift OK. 4MATIC AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -7401,7 +7401,7 @@
       "Battery under hood.",
       "Connect jump pack (12V only for PHEVs). Shift normally or use slot."
     ],
-    "notes": "PHEVs (350e, 450e): 12V only. 4MATIC standard.",
+    "notes": "4MATIC standard.",
     "warn": "4MATIC AWD — flatbed preferred.",
     "drivetrain": "4MATIC AWD (standard)",
     "towMethod": "FLATBED ONLY — 4MATIC AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
@@ -7523,14 +7523,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for PHEV). Shift normally or use slot."
     ],
-    "notes": "Outlander PHEV: 12V only. AWD optional.",
-    "warn": "PHEV: 12V only.",
+    "notes": "AWD optional.",
+    "warn": "",
     "drivetrain": "FWD or AWD (S-AWC)",
     "towMethod": "FWD: rear wheel lift OK. AWD/PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -7563,7 +7563,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
@@ -7598,7 +7598,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -7632,7 +7632,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -7667,7 +7667,7 @@
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
@@ -7696,14 +7696,14 @@
       "Battery under hood.",
       "Connect jump pack. Shift normally or use slot."
     ],
-    "notes": "AWD optional. e-POWER hybrid: 12V only.",
+    "notes": "AWD optional.",
     "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -7754,7 +7754,7 @@
     "towNotes": [
       "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
       "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -7782,14 +7782,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
     ],
-    "notes": "AWD optional. Hybrid: 12V only.",
+    "notes": "AWD optional.",
     "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -7823,7 +7823,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
     "knownIssues": [],
@@ -8000,7 +8000,7 @@
       "Connect jump pack to 12V ONLY.",
       "Once powered, select N."
     ],
-    "notes": "FWD. 12V battery under hood.",
+    "notes": "FWD.",
     "warn": "FLATBED ONLY.",
     "drivetrain": "FWD (electric)",
     "towMethod": "FLATBED ONLY — electric drivetrain",
@@ -8094,7 +8094,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
@@ -8354,7 +8354,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift."
     ],
     "knownIssues": [],
@@ -8384,7 +8384,7 @@
       "Battery under hood.",
       "Connect jump pack (12V only for XT PHEV). Shift normally or use slot."
     ],
-    "notes": "AWD standard (Symmetrical). Manual: clutch to N. XT PHEV: 12V only.",
+    "notes": "AWD standard (Symmetrical). Manual: clutch to N.",
     "warn": "AWD — flatbed preferred.",
     "drivetrain": "AWD (Symmetrical, standard)",
     "towMethod": "FLATBED ONLY — Subaru Symmetrical AWD cannot be disabled on any model. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
@@ -8465,8 +8465,8 @@
       "Battery under hood.",
       "Connect jump pack (12V only for PHEV). Shift normally or use slot."
     ],
-    "notes": "AWD standard. PHEV: 12V only.",
-    "warn": "PHEV: 12V only.",
+    "notes": "AWD standard.",
+    "warn": "",
     "drivetrain": "AWD (Symmetrical, standard)",
     "towMethod": "FLATBED ONLY — Subaru Symmetrical AWD cannot be disabled. Crosstrek PHEV: 12V only. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
     "tc": null,
@@ -8554,7 +8554,7 @@
     "towMethod": "Front wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
@@ -8618,7 +8618,7 @@
       "Connect jump pack to 12V frunk terminals ONLY. NEVER touch HV battery.",
       "Once 12V is live, use stalk or touchscreen to select N."
     ],
-    "notes": "TOW MODE is the preferred method — it safely locks in Neutral. 12V battery in frunk.",
+    "notes": "TOW MODE is the preferred method — it safely locks in Neutral.",
     "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
     "drivetrain": "RWD or AWD (Dual Motor electric)",
     "towMethod": "FLATBED ONLY — electric drivetrain",
@@ -8877,14 +8877,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
     ],
-    "notes": "SLOT IS BEHIND THE SELECTOR — insert key VERTICALLY. Very common mistake. Hybrid (2007+): 12V only.",
-    "warn": "Hybrid: 12V only. Do not access HV battery.",
+    "notes": "SLOT IS BEHIND THE SELECTOR — insert key VERTICALLY. Very common mistake.",
+    "warn": "",
     "drivetrain": "FWD or AWD (2020+ select trims)",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [
       {
@@ -8918,14 +8918,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
     ],
-    "notes": "Manual: clutch to N. Hybrid (2020+): 12V only.",
+    "notes": "Manual: clutch to N.",
     "warn": "",
     "drivetrain": "FWD or AWD (Cross/Corolla Cross)",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
       "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
     ],
@@ -8956,14 +8956,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
     ],
-    "notes": "RAV4 Hybrid/Prime PHEV: 12V only. AWD optional.",
-    "warn": "Hybrid/PHEV: 12V only.",
+    "notes": "AWD optional.",
+    "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD/Hybrid/PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -9041,7 +9041,7 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
     ],
-    "notes": "4WD optional. 3rd gen (2022+) Hybrid: 12V only.",
+    "notes": "4WD optional.",
     "warn": "4WD: transfer case.",
     "drivetrain": "RWD or 4WD (part-time)",
     "towMethod": "RWD: rear wheel lift OK. 4WD: transfer case to 2WD first, then rear wheel lift. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -9145,14 +9145,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
     ],
-    "notes": "Hybrid: 12V only. AWD optional.",
+    "notes": "AWD optional.",
     "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -9180,14 +9180,14 @@
       "Battery under hood.",
       "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
     ],
-    "notes": "4th gen (2021+) is hybrid only — 12V only. FWD or AWD.",
-    "warn": "Hybrid: 12V only.",
+    "notes": "FWD or AWD.",
+    "warn": "",
     "drivetrain": "FWD or AWD",
     "towMethod": "FWD: rear wheel lift OK. AWD: flatbed only. 4th gen Sienna is Hybrid only — 12V only for jumping. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -9217,13 +9217,13 @@
       "Once powered, move joystick to N."
     ],
     "notes": "12V battery IN TRUNK. HV battery under rear seat — NEVER touch. Joystick selector.",
-    "warn": "12V battery is IN TRUNK. Do NOT access HV battery under rear seat.",
+    "warn": "",
     "drivetrain": "FWD (hybrid)",
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [
       {
@@ -9265,13 +9265,13 @@
       "Once powered, move joystick to N."
     ],
     "notes": "12V battery IN TRUNK.",
-    "warn": "12V battery is IN TRUNK.",
+    "warn": "",
     "drivetrain": "FWD (hybrid)",
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [
       {
@@ -9308,14 +9308,14 @@
       "Connect jump pack to trunk 12V battery.",
       "Once powered, move joystick to N."
     ],
-    "notes": "12V IN TRUNK. Prius Prime PHEV: same trunk battery.",
-    "warn": "12V battery is IN TRUNK.",
+    "notes": "Prius Prime PHEV: same trunk battery.",
+    "warn": "",
     "drivetrain": "FWD or AWD-e (hybrid)",
     "towMethod": "FWD: rear wheel lift OK. AWD-e: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [
       {
@@ -9351,14 +9351,14 @@
       "Connect jump pack to trunk battery.",
       "Once powered, shift normally or use slot."
     ],
-    "notes": "12V IN TRUNK.",
-    "warn": "12V battery is IN TRUNK.",
+    "notes": "",
+    "warn": "",
     "drivetrain": "FWD or AWD-e (hybrid)",
     "towMethod": "FWD: rear wheel lift OK. AWD-e: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
       "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -9436,7 +9436,7 @@
       "Battery under hood.",
       "Connect jump pack (12V only for 3rd gen Hybrid). Shift normally or use slot."
     ],
-    "notes": "3rd gen (2023+) is hybrid — 12V only. 4WD optional.",
+    "notes": "4WD optional.",
     "warn": "4WD: transfer case.",
     "drivetrain": "RWD or 4WD (part-time)",
     "towMethod": "RWD: rear wheel lift OK. 4WD: transfer case to 2WD first, then rear wheel lift. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -9495,7 +9495,7 @@
     "towMethod": "Front wheel lift or flatbed — low clearance, flatbed preferred. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "RWD: Lift from FRONT (drive wheels in the air). If towing rear-first with wheels down, use dollies under rear wheels.",
+      "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
       "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common."
     ],
     "knownIssues": [],
@@ -9566,7 +9566,7 @@
     "towMethod": "Rear wheel lift or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [],
@@ -9602,7 +9602,7 @@
     "towMethod": "FWD/GTI: rear wheel lift OK. Golf R 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [
@@ -9645,7 +9645,7 @@
     "towMethod": "FWD: rear wheel lift OK. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels.",
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
       "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
     ],
     "knownIssues": [],
@@ -9679,7 +9679,7 @@
     "towMethod": "FWD: rear wheel lift OK. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -9713,7 +9713,7 @@
     "towMethod": "FWD: rear wheel lift OK. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
@@ -9746,7 +9746,7 @@
     "towMethod": "FWD: rear wheel lift OK. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
     "tc": null,
     "towNotes": [
-      "FWD: Lift from REAR (drive wheels in the air). If towing front-first with wheels down, use dollies under front wheels."
+      "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
     ],
     "knownIssues": [],
     "battery": {
