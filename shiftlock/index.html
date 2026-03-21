@@ -506,19 +506,21 @@ header {
 
 /* ── NOTES / WARNINGS ─────────────────────────────────── */
 .note-box, .warn-box {
-  padding:14px 18px; font-family:var(--font-b); font-size:0.88rem;
-  line-height:1.6; margin-bottom:var(--gap-sm);
-  border-left:3px solid;
+  padding:16px 20px; font-family:var(--font-b); font-size:0.95rem;
+  line-height:1.65; margin-bottom:var(--gap-sm);
+  border-left:4px solid;
 }
-.note-box { border-color:rgba(74,133,192,.5); color:var(--off-white); background:rgba(74,133,192,.04); }
-.warn-box { border-color:rgba(200,90,10,.6); color:var(--off-white); background:rgba(200,90,10,.04); }
+.note-box { border-color:var(--blue); color:#c8dff0; background:rgba(74,133,192,.08); }
+.warn-box { border-color:var(--orange); color:#f0c898; background:rgba(200,90,10,.08); }
 .note-box strong {
-  display:block; font-family:var(--font-u); font-size:9px; font-weight:700;
-  letter-spacing:4px; text-transform:uppercase; color:var(--blue); margin-bottom:5px;
+  display:block; font-family:var(--font-u); font-size:10px; font-weight:700;
+  letter-spacing:4px; text-transform:uppercase; color:var(--blue);
+  margin-bottom:6px; display:flex; align-items:center; gap:6px;
 }
 .warn-box strong {
-  display:block; font-family:var(--font-u); font-size:9px; font-weight:700;
-  letter-spacing:4px; text-transform:uppercase; color:var(--orange); margin-bottom:5px;
+  display:block; font-family:var(--font-u); font-size:10px; font-weight:700;
+  letter-spacing:4px; text-transform:uppercase; color:var(--orange);
+  margin-bottom:6px; display:flex; align-items:center; gap:6px;
 }
 
 /* ── KNOWN ISSUES ─────────────────────────────────── */
@@ -1275,7 +1277,7 @@ function renderVehicle(v) {
   fillSteps('res-shift-steps',   v.shift   || []);
   fillSteps('res-neutral-steps', v.neutral || []);
 
-  if (v.notes) { setEl('res-note', `<strong>Note</strong>${v.notes}`); showHide('res-note', true); }
+  if (v.notes) { setEl('res-note', `<strong>ℹ Note</strong>${v.notes}`); showHide('res-note', true); }
   else showHide('res-note', false);
   if (v.warn)  { setEl('res-warn', `<strong>⚠ Warning</strong>${v.warn}`); showHide('res-warn', true); }
   else showHide('res-warn', false);
