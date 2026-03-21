@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Ram",
-  "_count": 5,
+  "_count": 8,
   "vehicles": [
     {
       "make": "Ram",
@@ -200,7 +200,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood. Cummins diesel may have dual batteries on driver side..",
+        "Connect jump pack to battery — Under hood. Cummins diesel may have dual batteries on driver side.",
         "Once 12V power is restored, press brake and shift to N normally."
       ],
       "notes": "Cummins diesel: same procedure. 4WD standard. Heavy-duty.",
@@ -283,6 +283,139 @@
         "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
+      }
+    },
+    {
+      "make": "Ram",
+      "model": "1500 (2002-2008 DR/DS Predecessor)",
+      "yearStart": 2002,
+      "yearEnd": 2008,
+      "trans": "4-speed automatic (45RFE) or 5-speed automatic (545RFE)",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small slot near gear selector base on floor console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on floor console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2WD before road towing."
+      ],
+      "notes": "Dodge Ram rebadged as Ram post-2010 but same platform. TC may be electronic or floor lever depending on trim.",
+      "warn": "Shift TC to 2WD before road towing.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2WD first, then lift rear.",
+      "tc": {
+        "type": "Electronic push-button or floor lever (varies by trim)",
+        "positions": [
+          "2WD — REQUIRED for road towing",
+          "4WD Hi — NOT safe for dry road",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Slow to under 3 MPH.",
+          "Shift TC to 2WD using button or lever.",
+          "Confirm 2WD indicator on cluster.",
+          "IF BATTERY IS DEAD: Jump battery first, shift to 2WD, then disconnect."
+        ]
+      },
+      "towNotes": [
+        "TC must be in 2WD for road towing.",
+        "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect. If unable, FLATBED ONLY."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ram",
+      "model": "1500 REV (EV)",
+      "yearStart": 2025,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "drivetrain": "AWD electric",
+      "slot": "Electronic selector — N button or touchscreen",
+      "shift": [
+        "Turn vehicle to ON/Ready mode.",
+        "Use the electronic gear selector or touchscreen to select N (Neutral).",
+        "Press and hold the N button for 3 seconds while pressing the brake pedal.",
+        "Confirm N on the instrument cluster.",
+        "If power is lost: connect jump pack to 12V auxiliary battery — under the hood."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "FLATBED ONLY — electric drivetrain.",
+        "Connect jump pack to 12V auxiliary battery — under the hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery.",
+        "Once 12V is restored, select Neutral."
+      ],
+      "notes": "Electric pickup truck. Very heavy — confirm tow capacity. Flatbed only.",
+      "warn": "FLATBED ONLY. Very heavy — confirm tow capacity. 12V auxiliary ONLY.",
+      "towMethod": "FLATBED ONLY — electric drivetrain.",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC: FLATBED ONLY.",
+        "Very heavy — confirm tow truck capacity.",
+        "12V auxiliary under hood — never touch HV battery (orange cables)."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "FLATBED ONLY. Very heavy. Never touch HV battery."
+      }
+    },
+    {
+      "make": "Ram",
+      "model": "ProMaster City",
+      "yearStart": 2015,
+      "yearEnd": 2022,
+      "trans": "9-speed automatic (ZF 9HP)",
+      "drivetrain": "FWD",
+      "slot": "ZF 9HP rotary dial selector — override slot near base of rotary dial",
+      "shift": [
+        "Turn ignition to ON.",
+        "ZF 9HP rotary selector: locate override slot near base of rotary dial on console.",
+        "Insert key or thin flathead and press firmly.",
+        "While holding, press the brake pedal.",
+        "Rotate or move dial to Neutral.",
+        "ZF 9HP requires 12V power — restore battery first for best results."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "ZF 9HP: restore power before shifting for easiest operation.",
+        "Once powered, use rotary dial to select Neutral."
+      ],
+      "notes": "ZF 9HP rotary — power strongly preferred. Small commercial van. FWD.",
+      "warn": "ZF 9HP: restore power before shifting.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front. ZF 9HP: restore power before shifting."
+      ],
+      "knownIssues": [
+        {
+          "title": "ZF 9HP Requires Power to Shift",
+          "detail": "The ZF 9HP rotary transmission cannot reliably shift without 12V power. Always restore the battery before attempting to select Neutral."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "ZF 9HP: restore power before shifting."
       }
     }
   ]

@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Hyundai",
-  "_count": 11,
+  "_count": 17,
   "vehicles": [
     {
       "make": "Hyundai",
@@ -450,6 +450,231 @@
         "warnings": ""
       },
       "knownIssues": []
+    },
+    {
+      "make": "Hyundai",
+      "model": "Accent / Excel",
+      "yearStart": 1994,
+      "yearEnd": 2017,
+      "trans": "4-speed automatic or CVT (select years) or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual: depress clutch, select Neutral. CVT (certain years): flatbed preferred.",
+      "warn": "CVT: flatbed preferred.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Genesis Coupe",
+      "yearStart": 2010,
+      "yearEnd": 2016,
+      "trans": "6-speed automatic or 6-speed manual",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual: depress clutch, select Neutral. RWD platform. Not to be confused with Genesis luxury brand.",
+      "warn": "",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Veloster",
+      "yearStart": 2012,
+      "yearEnd": 2022,
+      "trans": "6-speed automatic, DCT, or 6-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual: depress clutch, select Neutral. DCT models: power strongly preferred.",
+      "warn": "DCT: restore power before shifting.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "IONIQ (1st Gen Hybrid/PHEV/EV)",
+      "yearStart": 2017,
+      "yearEnd": 2022,
+      "trans": "6-speed DCT (Hybrid/PHEV) or single-speed electric (EV)",
+      "drivetrain": "FWD",
+      "slot": "Small slot near gear selector base on console; EV: electronic N button",
+      "shift": [
+        "Turn ignition to ON.",
+        "HYBRID/PHEV: Locate shift lock slot near gear selector base. Insert key, press firmly, hold, press brake, move to N.",
+        "EV variant: press and hold the N button on the gear selector while pressing the brake pedal."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to 12V battery — under the hood.",
+        "HYBRID/PHEV/EV: 12V auxiliary ONLY — NEVER touch the high-voltage battery.",
+        "Once 12V is restored, shift to Neutral using DCT slot or N button.",
+        "DCT: requires power to shift reliably.",
+        "EV variant: FLATBED ONLY."
+      ],
+      "notes": "Three powertrains: Hybrid, PHEV, and EV. EV: flatbed only. All FWD. 12V under hood.",
+      "warn": "EV variant: FLATBED ONLY. All variants: 12V auxiliary ONLY — never touch HV battery.",
+      "towMethod": "Hybrid/PHEV: lift from front (FWD). EV: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "Hybrid/PHEV FWD: lift from front.",
+        "EV: FLATBED ONLY — electric drivetrain.",
+        "ALL variants: 12V auxiliary only — never access HV battery."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "12V auxiliary ONLY. Never touch HV battery."
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Santa Cruz",
+      "yearStart": 2022,
+      "yearEnd": 2026,
+      "trans": "8-speed automatic or 8-speed wet DCT (2.5T)",
+      "drivetrain": "FWD or AWD",
+      "slot": "Electronic selector — small slot near base of electronic gear selector",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: small slot near base of electronic gear selector.",
+        "Remove trim cover if present.",
+        "Insert a thin key or flathead and press firmly inward.",
+        "While holding, press the brake pedal.",
+        "Move or press the selector to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral normally.",
+        "AWD: flatbed preferred."
+      ],
+      "notes": "Compact pickup/crossover. AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "2022+ with stop-start: AGM battery — use AGM-compatible jump pack."
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Venue",
+      "yearStart": 2020,
+      "yearEnd": 2026,
+      "trans": "CVT or 6-speed manual or 7-speed DCT",
+      "drivetrain": "FWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "CVT: flatbed preferred. Manual: depress clutch. DCT: restore power preferred.",
+      "warn": "CVT: flatbed preferred.",
+      "towMethod": "FWD: lift from front.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "CVT: Do NOT exceed 35 mph or 50 miles with drive wheels on ground."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
     }
   ]
 }

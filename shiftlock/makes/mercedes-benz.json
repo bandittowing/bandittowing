@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Mercedes-Benz",
-  "_count": 8,
+  "_count": 15,
   "vehicles": [
     {
       "make": "Mercedes-Benz",
@@ -343,6 +343,318 @@
           "detail": "The W210 E-Class is notorious for electrical problems including corroded battery connections, failed brake light switches causing shift lock issues, and wiring harness failures. If the normal shift override doesn't work, check fuses and brake light switch before assuming solenoid failure."
         }
       ]
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "ML / GLE (W163/W164/W166)",
+      "yearStart": 1998,
+      "yearEnd": 2019,
+      "trans": "5-speed automatic (W163) or 7-speed 7G-Tronic (W164/W166)",
+      "drivetrain": "AWD (4MATIC, standard)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood (W163/W164) or in the TRUNK (some W166).",
+        "W163/W164: battery under hood, driver side.",
+        "W166 (2012-2019): battery may be in the trunk — check both locations.",
+        "Once powered, shift to Neutral normally."
+      ],
+      "notes": "W166 battery location: some models have battery in trunk. Always verify. Flatbed preferred — full-time 4MATIC.",
+      "warn": "Permanent 4MATIC AWD — flatbed preferred. W166: battery may be in trunk.",
+      "towMethod": "FLATBED PREFERRED — permanent 4MATIC AWD. Wheel-lift with dollies if no flatbed.",
+      "tc": null,
+      "towNotes": [
+        "Permanent 4MATIC AWD — cannot disengage. Flatbed is safest.",
+        "Wheel-lift with dollies on free-rolling axle if flatbed unavailable."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood driver side (W163/W164); trunk possible on W166 — check both",
+        "jumpTerminals": "Under hood — standard terminals; W166: may be trunk",
+        "type": "standard-12v",
+        "warnings": "W166: verify battery location — may be in trunk."
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CLK (W208/W209)",
+      "yearStart": 1998,
+      "yearEnd": 2009,
+      "trans": "5-speed automatic (722.6) or 6-speed automatic (722.9)",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — BATTERY IS IN THE TRUNK.",
+        "CLK battery is in the trunk — do NOT look under the hood.",
+        "Open the trunk and connect jump pack directly to battery.",
+        "Once powered, shift to Neutral."
+      ],
+      "notes": "Battery in TRUNK on most CLK variants. RWD coupe/convertible.",
+      "warn": "Battery in TRUNK — not under the hood.",
+      "towMethod": "RWD: lift from rear. Flatbed preferred for convertible.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Battery in TRUNK — open trunk for jump access."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Trunk",
+          "detail": "The CLK 12V battery is typically in the trunk. There is no battery under the hood. Open the trunk to access."
+        }
+      ],
+      "battery": {
+        "location": "TRUNK",
+        "jumpTerminals": "Trunk — 12V battery terminals",
+        "type": "standard-12v",
+        "warnings": "Battery in trunk."
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "SL (R129/R230/R231)",
+      "yearStart": 1990,
+      "yearEnd": 2022,
+      "trans": "4-speed (R129 early) or 5-speed (722.6) or 7-speed (722.9) automatic",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "R129: battery under hood.",
+        "R230/R231: battery in the TRUNK — open trunk for access.",
+        "Connect jump pack. Once powered, shift to Neutral.",
+        "Very high-value vehicle — flatbed strongly preferred."
+      ],
+      "notes": "Battery location: R129 (1990-2002) under hood. R230/R231: in TRUNK. Very high-value.",
+      "warn": "R230/R231: battery in TRUNK. Very high-value — flatbed ONLY.",
+      "towMethod": "RWD: lift from rear. Flatbed strongly preferred for all generations.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Very high-value vehicle — flatbed strongly preferred.",
+        "Battery location varies by generation — R230/R231 battery is in TRUNK."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Trunk (R230/R231)",
+          "detail": "The R230 (2003-2012) and R231 (2013-2022) SL-Class have the 12V battery in the trunk. The R129 (1990-2002) has the battery under the hood."
+        }
+      ],
+      "battery": {
+        "location": "R129: under hood. R230/R231: TRUNK",
+        "jumpTerminals": "Varies by generation — R129 under hood, R230/R231 trunk",
+        "type": "standard-12v",
+        "warnings": "Very high-value vehicle. R230/R231: battery in trunk."
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "SLK / SLC (R170/R171/R172)",
+      "yearStart": 1997,
+      "yearEnd": 2020,
+      "trans": "5-speed automatic (722.6) or 6 or 7-speed automatic",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — battery location varies.",
+        "R170 (1997-2004): battery under hood.",
+        "R171/R172 (2005-2020): battery in the TRUNK.",
+        "Once powered, shift to Neutral normally."
+      ],
+      "notes": "Battery location varies: R170 under hood; R171/R172 in TRUNK. Low clearance — flatbed preferred.",
+      "warn": "R171/R172: battery in TRUNK. Low clearance — flatbed preferred.",
+      "towMethod": "RWD: lift from rear. Flatbed preferred due to low clearance.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "R171/R172 battery in TRUNK.",
+        "Low clearance on all generations — use flatbed with ramps when available."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Trunk (R171/R172)",
+          "detail": "The R171 (2005-2011) and R172 (2012-2020) SLK/SLC have the 12V battery in the trunk. R170 has it under the hood."
+        }
+      ],
+      "battery": {
+        "location": "R170: under hood. R171/R172: TRUNK",
+        "jumpTerminals": "R170: under hood. R171/R172: trunk",
+        "type": "standard-12v",
+        "warnings": "Battery in trunk on R171/R172."
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "G-Class (W463)",
+      "yearStart": 1990,
+      "yearEnd": 2026,
+      "trans": "4-speed (early) or 5-speed (722.6) or 7-speed (722.9) automatic; 2019+: 9-speed (725)",
+      "drivetrain": "4WD (full-time with 3 locking differentials, standard)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral normally.",
+        "Transfer case must be in High mode for road towing.",
+        "VERY IMPORTANT: all 3 differential locks MUST be disengaged before road towing."
+      ],
+      "notes": "Full-time 4WD with front, center, and rear locking diffs. ALL THREE LOCKS must be OFF before road towing. Never tow with diff locks engaged.",
+      "warn": "ALL 3 DIFF LOCKS MUST BE DISENGAGED BEFORE TOWING. Locking diffs on dry pavement will destroy the drivetrain.",
+      "towMethod": "FLATBED STRONGLY PREFERRED. If wheel-lift: TC in High, all diff locks OFF, dollies on free-rolling axle.",
+      "tc": {
+        "type": "Manual floor lever (low/high) plus 3 separate differential lock buttons on dash",
+        "positions": [
+          "High — standard road mode — required for road towing",
+          "Low — low range — NEVER tow on road in low range"
+        ],
+        "steps": [
+          "Ensure all THREE differential locks are disengaged (center, front, rear locks all OFF).",
+          "TC floor lever must be in High range.",
+          "FLATBED is strongly preferred.",
+          "If wheel-lift: dollies REQUIRED on free-rolling axle.",
+          "IF BATTERY IS DEAD: Jump battery first. VERIFY diff locks are off before moving vehicle."
+        ]
+      },
+      "towNotes": [
+        "CRITICAL: Three differential locks MUST ALL be disengaged before road towing.",
+        "Full-time 4WD — flatbed is safest.",
+        "NEVER tow with any differential lock engaged — will destroy the drivetrain on pavement."
+      ],
+      "knownIssues": [
+        {
+          "title": "3 Differential Locks MUST Be Disengaged",
+          "detail": "The G-Class has three lockable differentials: center, front, and rear. ALL THREE must be disengaged before road towing. If any lock is engaged while towing on dry pavement, severe driveline damage will occur. Check the dash indicator lights and confirm all three diff lock indicators are OFF."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "2019+ uses AGM battery. ALL diff locks must be OFF before road towing."
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "A-Class / CLA / GLA (W176/W177/C117/H247)",
+      "yearStart": 2014,
+      "yearEnd": 2026,
+      "trans": "7-speed DCT (7G-DCT) or 8-speed automatic (2020+)",
+      "drivetrain": "FWD or AWD (4MATIC)",
+      "slot": "Small slot near gear selector base on center console or stalk-style selector",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the shift lock release: small slot near gear selector base or stalk selector.",
+        "Insert key or thin flathead and press firmly.",
+        "While holding, press the brake pedal.",
+        "Move selector to Neutral.",
+        "DCT models: power preferred — restore 12V first if possible."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "DCT: restore 12V power before shifting — strongly preferred.",
+        "Once powered, shift to Neutral normally.",
+        "AWD: flatbed preferred."
+      ],
+      "notes": "DCT on most trims: power preferred. AWD (4MATIC): flatbed preferred.",
+      "warn": "DCT: restore power before shifting. AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD (4MATIC): flatbed preferred.",
+        "DCT: restore 12V power before attempting shift."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "AGM battery — use AGM-compatible jump pack. DCT: restore power before shifting."
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "Metris Van",
+      "yearStart": 2016,
+      "yearEnd": 2026,
+      "trans": "7-speed automatic (7G-Tronic)",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base or stalk-type selector on column",
+      "shift": [
+        "Turn ignition to ON.",
+        "Column/stalk-style selector: rotate the stalk or use the slot near the selector base.",
+        "Locate the shift lock release slot.",
+        "Insert key or thin flathead and press firmly.",
+        "While holding, press the brake pedal.",
+        "Move to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral normally."
+      ],
+      "notes": "Cargo/passenger van. Common commercial vehicle. RWD.",
+      "warn": "",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear. Commercial vehicle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "AGM battery — use AGM-compatible jump pack."
+      }
     }
   ]
 }

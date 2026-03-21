@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Alfa Romeo",
-  "_count": 4,
+  "_count": 7,
   "vehicles": [
     {
       "make": "Alfa Romeo",
@@ -214,6 +214,138 @@
         "warnings": ""
       },
       "knownIssues": []
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "GTV / Spider (916)",
+      "yearStart": 1995,
+      "yearEnd": 2005,
+      "trans": "4-speed automatic or 6-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual transmission: depress clutch, select Neutral. Rare in US — mostly gray market or private imports. Parts availability is limited.",
+      "warn": "Very rare in US market. High value — flatbed preferred.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. Flatbed preferred due to vehicle value and rarity.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "High-value, low-production vehicle — flatbed strongly preferred to avoid damage."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "Spider / Brera",
+      "yearStart": 2006,
+      "yearEnd": 2011,
+      "trans": "6-speed automatic (Selespeed) or 6-speed manual",
+      "drivetrain": "RWD or AWD (Q4 on some Brera trims)",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral normally.",
+        "Selespeed (automated manual): requires 12V power to disengage — jump battery first."
+      ],
+      "notes": "Selespeed is an automated manual (robotized), NOT a true torque-converter automatic. It requires electrical power to shift. Very rare in the US.",
+      "warn": "SELESPEED: Must have 12V power to shift — jump pack required. High value — flatbed preferred.",
+      "towMethod": "RWD: lift from rear. AWD (Q4): flatbed only. Flatbed strongly preferred for all variants.",
+      "tc": null,
+      "towNotes": [
+        "RWD variants: lift from rear — rear (drive) wheels up.",
+        "Q4 AWD variants: FLATBED ONLY — cannot disengage AWD.",
+        "High-value vehicle — use flatbed with padded wheel grids."
+      ],
+      "knownIssues": [
+        {
+          "title": "Selespeed Cannot Shift Without Power",
+          "detail": "The Selespeed transmission is an automated manual gearbox controlled by electrohydraulic actuators. Without 12V power it will not disengage from gear. Always jump the 12V battery before attempting any shift override."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Selespeed: must restore 12V before attempting shift."
+      }
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "4C",
+      "yearStart": 2015,
+      "yearEnd": 2020,
+      "trans": "6-speed TCT dual-clutch (automated)",
+      "drivetrain": "RWD",
+      "slot": "Small slot near selector base on center console — TCT requires power",
+      "shift": [
+        "Turn ignition to ON.",
+        "TCT dual-clutch: requires 12V power to shift — jump battery first.",
+        "Locate the shift lock slot near the selector base on the center console.",
+        "With power restored, press brake and use the paddle shifters or selector to move to Neutral.",
+        "If using mechanical slot without power: insert thin flathead, press firmly, hold while pressing brake, move to N.",
+        "TCT without power will strongly resist — apply steady firm pressure for several seconds."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — battery is in the REAR of the vehicle, in the engine compartment at the rear.",
+        "4C is MID-ENGINE: the 'hood' at the front is a frunk (storage). Battery is at the rear engine bay.",
+        "Once powered, use TCT paddle shifters or selector to select Neutral.",
+        "Flatbed strongly preferred — high value, low clearance, mid-engine."
+      ],
+      "notes": "Mid-engine. Battery is in the REAR engine compartment — not the front frunk. Carbon fiber body — use extreme care with straps. Very low clearance.",
+      "warn": "Battery in REAR engine bay, NOT the front. Mid-engine carbon body — flatbed ONLY with padded equipment.",
+      "towMethod": "RWD — FLATBED ONLY. Extremely low clearance and carbon fiber body make wheel-lift dangerous.",
+      "tc": null,
+      "towNotes": [
+        "FLATBED ONLY — very low clearance, mid-engine, carbon fiber body.",
+        "Battery is at the REAR in the engine compartment — open the rear hood, not the front frunk.",
+        "Use flatbed with padded wheel ramps only. Carbon fiber body can crack if improperly loaded."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Rear Engine Bay",
+          "detail": "The 4C is mid-engine. The front 'hood' opens to a small storage frunk. The 12V battery is in the REAR engine compartment. Many operators open the front and find no battery — open the REAR hood."
+        },
+        {
+          "title": "TCT Requires Power to Shift",
+          "detail": "The 6-speed TCT (Twin Clutch Transmission) is electro-hydraulic and will not release without 12V power. Always jump the battery before attempting to select Neutral."
+        }
+      ],
+      "battery": {
+        "location": "REAR engine compartment — open the rear hood, NOT the front frunk",
+        "jumpTerminals": "Rear engine bay — standard 12V terminals",
+        "type": "standard-12v",
+        "warnings": "Battery is in the REAR. Carbon fiber body — flatbed only, padded equipment required."
+      }
     }
   ]
 }

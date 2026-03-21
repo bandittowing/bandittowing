@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Chrysler",
-  "_count": 6,
+  "_count": 11,
   "vehicles": [
     {
       "make": "Chrysler",
@@ -59,7 +59,7 @@
       "slot": "ROTARY DIAL selector — slot near BASE of dial on console. No traditional lever.",
       "shift": [
         "Turn ignition to ON.",
-        "ZF 9HP transmission: locate the shift lock slot — ROTARY DIAL selector — slot near BASE of dial on console. No traditional lever..",
+        "ZF 9HP transmission: locate the shift lock slot — ROTARY DIAL selector — slot near BASE of dial on console. No traditional lever.",
         "Insert a thin key or dedicated ZF 9HP override tool (~$50 from dealer tool suppliers) into the slot.",
         "Press firmly and hold.",
         "While holding, press the brake pedal.",
@@ -256,6 +256,220 @@
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "Concorde / 300M / LHS",
+      "yearStart": 1998,
+      "yearEnd": 2004,
+      "trans": "4-speed automatic (42LE or 42RLE)",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "Sebring (2001-2010)",
+      "yearStart": 2001,
+      "yearEnd": 2010,
+      "trans": "4-speed automatic (41TE) or CVT (2007-2010 2.4L)",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "CVT (2007-2010): do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred.",
+      "warn": "CVT models: flatbed preferred — CVT damage risk if towed with front wheels on ground.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. CVT: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "Crossfire",
+      "yearStart": 2004,
+      "yearEnd": 2008,
+      "trans": "5-speed automatic (Mercedes 722.6) or 6-speed manual",
+      "drivetrain": "RWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — BATTERY IS IN THE TRUNK.",
+        "Crossfire has a trunk-mounted battery — do NOT look under the hood for jump terminals.",
+        "Open the trunk, locate the battery on the right side, connect jump pack.",
+        "Once powered, press brake and shift to Neutral normally."
+      ],
+      "notes": "Mercedes SLK-based platform. Battery is in the TRUNK — not under the hood. Manual: depress clutch, select Neutral.",
+      "warn": "Battery is in the TRUNK — not under the hood.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Flatbed preferred due to low clearance.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Battery is in the TRUNK — open trunk for jump access.",
+        "Low clearance — use flatbed with ramps when possible."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Trunk",
+          "detail": "The Crossfire is Mercedes SLK-based. The 12V battery is in the TRUNK on the right side. There is no battery under the hood. Many operators waste time looking under the hood — go directly to the trunk."
+        }
+      ],
+      "battery": {
+        "location": "TRUNK — right side when looking in from the rear",
+        "jumpTerminals": "Trunk — standard 12V battery terminals",
+        "type": "standard-12v",
+        "warnings": "Battery is in the TRUNK — not under the hood."
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "Aspen",
+      "yearStart": 2007,
+      "yearEnd": 2009,
+      "trans": "5-speed automatic (545RFE)",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small slot near gear selector base on floor console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on floor console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2WD before road towing."
+      ],
+      "notes": "Dodge Durango-based platform. Transfer case must be in 2H/2WD for road towing.",
+      "warn": "Transfer case must be in 2H for road towing — 4WD on dry pavement damages driveline.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear. Flatbed preferred.",
+      "tc": {
+        "type": "Electronic push-button or floor lever (varies by trim)",
+        "positions": [
+          "2WD — rear wheels only — REQUIRED for road towing",
+          "4WD Auto — NOT safe for road towing",
+          "4WD Hi — part-time — NOT safe for dry-road towing",
+          "4WD Lo — NEVER tow in this position"
+        ],
+        "steps": [
+          "Slow to under 3 MPH or stop completely.",
+          "Shift TC to 2WD using the console button or floor lever.",
+          "Confirm 2WD indicator on instrument cluster.",
+          "Verify all 4WD indicator lights are off before lifting rear wheels.",
+          "IF BATTERY IS DEAD: Jump battery first, shift to 2WD, then disconnect."
+        ]
+      },
+      "towNotes": [
+        "Dodge Durango platform. Electronic or manual TC depending on trim.",
+        "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect. If unable, FLATBED ONLY."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "Voyager / Town & Country (1991-1999)",
+      "yearStart": 1991,
+      "yearEnd": 1999,
+      "trans": "3-speed automatic (A413) or 4-speed automatic (41TE/A604)",
+      "drivetrain": "FWD or AWD (select years)",
+      "slot": "Small cap near gear selector base on console or dash-mounted column shifter",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "COLUMN SHIFTER (some trims): key to ON, press brake, move column lever to N.",
+        "FLOOR SHIFTER: Locate shift lock cap near selector base.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly.",
+        "While holding, press the brake pedal.",
+        "Move selector to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Early models (1991-1995) may have column shifter. AWD: flatbed preferred.",
+      "warn": "AWD models: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD: flatbed preferred."
       ],
       "knownIssues": [],
       "battery": {

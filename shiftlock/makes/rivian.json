@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Rivian",
-  "_count": 2,
+  "_count": 3,
   "vehicles": [
     {
       "make": "Rivian",
@@ -162,6 +162,50 @@
           "detail": "R1S weighs approximately 7,000-7,148 lbs. Verify flatbed deck weight capacity before loading."
         }
       ]
+    },
+    {
+      "make": "Rivian",
+      "model": "EDV / Amazon Delivery Van",
+      "yearStart": 2022,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "drivetrain": "RWD electric",
+      "slot": "Electronic selector — touchscreen or physical button on console",
+      "shift": [
+        "Turn vehicle to ON/Ready mode.",
+        "Use the touchscreen or physical gear selector to select N (Neutral).",
+        "If power is lost: connect jump pack to 12V auxiliary battery.",
+        "EDV 700/900: 12V auxiliary battery is in the cab under the driver or passenger seat area.",
+        "Once 12V is restored, select Neutral on the touchscreen."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary battery location: under the driver or passenger seat in the cab — lift seat cushion.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery.",
+        "Once 12V is restored, select Neutral."
+      ],
+      "notes": "Amazon/Rivian commercial delivery van. RWD electric. 12V battery is under the cab seat. VERY common commercial fleet tow. Flatbed only.",
+      "warn": "FLATBED ONLY. 12V battery under cab seat — NOT under the hood. Never touch HV battery.",
+      "towMethod": "FLATBED ONLY — electric drivetrain.",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC: FLATBED ONLY.",
+        "12V battery is under the driver or passenger seat in the cab — NOT under the hood.",
+        "Very common fleet vehicle — operators will see this regularly."
+      ],
+      "knownIssues": [
+        {
+          "title": "12V Battery Under Cab Seat — NOT Under Hood",
+          "detail": "The Rivian EDV delivery van 12V auxiliary battery is under the cab seat (driver or passenger side depending on build), not under the hood. Lift the seat cushion to access it. Many operators waste time looking under the hood."
+        }
+      ],
+      "battery": {
+        "location": "Under cab seat — lift driver or passenger seat cushion",
+        "jumpTerminals": "Under cab seat — 12V auxiliary battery terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "Battery under seat — NOT under hood. Flatbed only. Never touch HV battery."
+      }
     }
   ]
 }

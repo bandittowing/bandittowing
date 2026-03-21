@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Mitsubishi",
-  "_count": 4,
+  "_count": 8,
   "vehicles": [
     {
       "make": "Mitsubishi",
@@ -164,6 +164,174 @@
         "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
+      }
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Montero / Montero Sport",
+      "yearStart": 1991,
+      "yearEnd": 2006,
+      "trans": "4-speed automatic (V4AW3/W4A33) or 5-speed manual",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small cap near gear selector base on floor console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on floor console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral.",
+        "Transfer case: shift to 2WD before road towing. Manual floor TC lever."
+      ],
+      "notes": "Manual TC floor lever on most. Must be in 2H for road towing. Manual: depress clutch.",
+      "warn": "Shift TC to 2H before road towing.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear.",
+      "tc": {
+        "type": "Manual floor lever (Super Select 4WD or part-time)",
+        "positions": [
+          "2WD — REQUIRED for road towing",
+          "4WD Hi — NOT safe for dry road",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move TC floor lever to 2WD.",
+          "Confirm 2WD before lifting rear wheels.",
+          "MANUAL TRANSMISSION: depress clutch, select Neutral."
+        ]
+      },
+      "towNotes": [
+        "Manual TC floor lever — shift to 2WD before road towing.",
+        "MANUAL TRANSMISSION: depress clutch, select Neutral."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "Diamante",
+      "yearStart": 1992,
+      "yearEnd": 2004,
+      "trans": "4-speed automatic (V4AW2/F4A4B)",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "3000GT / Stealth",
+      "yearStart": 1991,
+      "yearEnd": 1999,
+      "trans": "4-speed automatic (F4A4B) or 5/6-speed manual",
+      "drivetrain": "FWD (base) or AWD (VR-4/Stealth R/T Turbo)",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral.",
+        "Manual: depress clutch, select Neutral.",
+        "AWD (VR-4): flatbed preferred."
+      ],
+      "notes": "Manual: depress clutch. AWD VR-4: flatbed preferred. Very low clearance — flatbed preferred for all.",
+      "warn": "AWD (VR-4): flatbed preferred. Very low clearance — flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred. Very low clearance — flatbed preferred for all.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD (VR-4): flatbed preferred.",
+        "Very low ground clearance — flatbed preferred for all variants."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Mitsubishi",
+      "model": "i-MiEV",
+      "yearStart": 2012,
+      "yearEnd": 2017,
+      "trans": "Single-speed electric",
+      "drivetrain": "RWD electric (rear motor)",
+      "slot": "Electronic selector — no mechanical shift lock slot",
+      "shift": [
+        "Turn vehicle to ON/Ready mode.",
+        "Electronic gear selector: press N on the selector while pressing the brake pedal.",
+        "If power is lost: restore 12V auxiliary battery under the hood.",
+        "Once powered, press N to select Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "FLATBED ONLY — electric drivetrain.",
+        "Connect jump pack to 12V auxiliary battery — under the hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery.",
+        "Once powered, select Neutral.",
+        "FLATBED ONLY."
+      ],
+      "notes": "Electric city car. RWD (rear motor). Very small. 12V under hood. Flatbed only.",
+      "warn": "FLATBED ONLY. 12V auxiliary ONLY — never touch HV battery.",
+      "towMethod": "FLATBED ONLY — electric drivetrain.",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC: FLATBED ONLY.",
+        "12V auxiliary under hood — never touch HV battery."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "FLATBED ONLY. Never touch HV battery."
       }
     }
   ]

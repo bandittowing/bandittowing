@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Infiniti",
-  "_count": 7,
+  "_count": 11,
   "vehicles": [
     {
       "make": "Infiniti",
@@ -289,6 +289,169 @@
         "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
         "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "I30 / I35",
+      "yearStart": 1996,
+      "yearEnd": 2004,
+      "trans": "4-speed automatic (RE4F04A/V) or 5-speed automatic",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Nissan Maxima-based platform. FWD.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "M35 / M45 / Q70",
+      "yearStart": 2003,
+      "yearEnd": 2019,
+      "trans": "5-speed automatic (2003-2006) or 7-speed automatic (2007+)",
+      "drivetrain": "RWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "M35/M45 (2003-2010), Q70 (2014-2019). AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "RWD: lift from rear. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "FX35 / FX45 / FX50 / QX70",
+      "yearStart": 2003,
+      "yearEnd": 2017,
+      "trans": "5-speed automatic (FX35/45) or 7-speed automatic (FX50/QX70)",
+      "drivetrain": "RWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "AWD: flatbed preferred. High-performance AWD system — do not tow AWD variants with wheels on ground.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "RWD: lift from rear. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "AWD: flatbed preferred — high-performance AWD system."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX4",
+      "yearStart": 1997,
+      "yearEnd": 2003,
+      "trans": "4-speed automatic (RE4R01A)",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2WD/2H before road towing."
+      ],
+      "notes": "Nissan Pathfinder R50-based. Manual TC floor lever. Must be in 2H for road towing.",
+      "warn": "Shift TC to 2H before road towing.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear.",
+      "tc": {
+        "type": "Manual floor-mounted lever",
+        "positions": [
+          "2WD — REQUIRED for road towing",
+          "4WD Hi — NOT safe for dry road",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move TC floor lever to 2WD.",
+          "Confirm 2WD before lifting rear wheels."
+        ]
+      },
+      "towNotes": [
+        "Nissan Pathfinder R50 platform. Manual TC floor lever — must be in 2WD for road towing."
       ],
       "knownIssues": [],
       "battery": {

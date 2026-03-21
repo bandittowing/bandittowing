@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Lincoln",
-  "_count": 10,
+  "_count": 13,
   "vehicles": [
     {
       "make": "Lincoln",
@@ -498,6 +498,127 @@
         "warnings": "Air suspension may drop with dead battery."
       },
       "knownIssues": []
+    },
+    {
+      "make": "Lincoln",
+      "model": "MKS",
+      "yearStart": 2009,
+      "yearEnd": 2016,
+      "trans": "6-speed SelectShift automatic (6F55)",
+      "drivetrain": "FWD or AWD (EcoBoost)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "EcoBoost AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "MKT",
+      "yearStart": 2010,
+      "yearEnd": 2019,
+      "trans": "6-speed automatic (6F55)",
+      "drivetrain": "FWD or AWD (EcoBoost)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Flex platform. AWD: flatbed preferred. Common as a livery/funeral vehicle.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "LS",
+      "yearStart": 2000,
+      "yearEnd": 2006,
+      "trans": "5-speed automatic (5R55N) or 6-speed manual (Getrag)",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — BATTERY IS IN THE TRUNK.",
+        "LS has a trunk-mounted battery — do NOT look under the hood for jump terminals.",
+        "Open the trunk, access the battery, connect jump pack.",
+        "Once powered, press brake and shift to Neutral."
+      ],
+      "notes": "Battery in TRUNK. Manual: depress clutch, select Neutral.",
+      "warn": "Battery in TRUNK — not under the hood.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Battery in TRUNK — open trunk for jump access."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Trunk",
+          "detail": "The LS 12V battery is in the trunk. There is no battery under the hood. Always open the trunk to access jump terminals."
+        }
+      ],
+      "battery": {
+        "location": "TRUNK",
+        "jumpTerminals": "Trunk — 12V battery terminals",
+        "type": "standard-12v",
+        "warnings": "Battery in trunk."
+      }
     }
   ]
 }

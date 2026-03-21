@@ -14,172 +14,172 @@
     {
       "make": "Acura",
       "file": "acura.json",
-      "count": 21
+      "count": 26
     },
     {
       "make": "Alfa Romeo",
       "file": "alfa-romeo.json",
-      "count": 4
+      "count": 7
     },
     {
       "make": "Audi",
       "file": "audi.json",
-      "count": 11
+      "count": 16
     },
     {
-      "make": "BMW",
+      "make": "Bmw",
       "file": "bmw.json",
-      "count": 30
+      "count": 38
     },
     {
       "make": "Buick",
       "file": "buick.json",
-      "count": 6
+      "count": 13
     },
     {
       "make": "Cadillac",
       "file": "cadillac.json",
-      "count": 7
+      "count": 16
     },
     {
       "make": "Chevrolet",
       "file": "chevrolet.json",
-      "count": 26
+      "count": 35
     },
     {
       "make": "Chrysler",
       "file": "chrysler.json",
-      "count": 6
+      "count": 11
     },
     {
       "make": "Dodge",
       "file": "dodge.json",
-      "count": 11
+      "count": 17
     },
     {
       "make": "Fiat",
       "file": "fiat.json",
-      "count": 4
+      "count": 5
     },
     {
       "make": "Ford",
       "file": "ford.json",
-      "count": 26
+      "count": 37
     },
     {
       "make": "Genesis",
       "file": "genesis.json",
-      "count": 5
+      "count": 7
     },
     {
-      "make": "GMC",
+      "make": "Gmc",
       "file": "gmc.json",
-      "count": 9
+      "count": 12
     },
     {
       "make": "Honda",
       "file": "honda.json",
-      "count": 15
+      "count": 23
     },
     {
       "make": "Hyundai",
       "file": "hyundai.json",
-      "count": 11
+      "count": 17
     },
     {
       "make": "Infiniti",
       "file": "infiniti.json",
-      "count": 7
+      "count": 11
     },
     {
       "make": "Jaguar",
       "file": "jaguar.json",
-      "count": 9
+      "count": 13
     },
     {
       "make": "Jeep",
       "file": "jeep.json",
-      "count": 9
+      "count": 15
     },
     {
       "make": "Kia",
       "file": "kia.json",
-      "count": 6
+      "count": 12
     },
     {
       "make": "Land Rover",
       "file": "land-rover.json",
-      "count": 10
+      "count": 14
     },
     {
       "make": "Lexus",
       "file": "lexus.json",
-      "count": 7
+      "count": 11
     },
     {
       "make": "Lincoln",
       "file": "lincoln.json",
-      "count": 10
+      "count": 13
     },
     {
       "make": "Mazda",
       "file": "mazda.json",
-      "count": 5
+      "count": 10
     },
     {
       "make": "Mercedes-Benz",
       "file": "mercedes-benz.json",
-      "count": 8
+      "count": 15
     },
     {
-      "make": "MINI",
+      "make": "Mini",
       "file": "mini.json",
-      "count": 5
+      "count": 7
     },
     {
       "make": "Mitsubishi",
       "file": "mitsubishi.json",
-      "count": 4
+      "count": 8
     },
     {
       "make": "Nissan",
       "file": "nissan.json",
-      "count": 15
+      "count": 22
     },
     {
       "make": "Polestar",
       "file": "polestar.json",
-      "count": 2
+      "count": 4
     },
     {
       "make": "Pontiac",
       "file": "pontiac.json",
-      "count": 10
+      "count": 12
     },
     {
       "make": "Porsche",
       "file": "porsche.json",
-      "count": 11
+      "count": 10
     },
     {
       "make": "Ram",
       "file": "ram.json",
-      "count": 5
+      "count": 8
     },
     {
       "make": "Rivian",
       "file": "rivian.json",
-      "count": 2
+      "count": 3
     },
     {
       "make": "Saturn",
       "file": "saturn.json",
-      "count": 7
+      "count": 8
     },
     {
       "make": "Subaru",
       "file": "subaru.json",
-      "count": 8
+      "count": 12
     },
     {
       "make": "Tesla",
@@ -189,17 +189,20 @@
     {
       "make": "Toyota",
       "file": "toyota.json",
-      "count": 23
+      "count": 32
     },
     {
       "make": "Volkswagen",
       "file": "volkswagen.json",
-      "count": 9
+      "count": 14
     },
     {
       "make": "Volvo",
       "file": "volvo.json",
       "count": 11
     }
-  ]
+  ],
+  "totalVehicles": 550,
+  "lastUpdated": "2026-03-21",
+  "version": "2.0"
 }

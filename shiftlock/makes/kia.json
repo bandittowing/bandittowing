@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Kia",
-  "_count": 6,
+  "_count": 12,
   "vehicles": [
     {
       "make": "Kia",
@@ -247,6 +247,228 @@
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Kia",
+      "model": "Sephia / Spectra",
+      "yearStart": 1993,
+      "yearEnd": 2009,
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual: depress clutch, select Neutral.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Kia",
+      "model": "Rio",
+      "yearStart": 2001,
+      "yearEnd": 2026,
+      "trans": "4-speed automatic or CVT or 6-speed manual (varies by generation)",
+      "drivetrain": "FWD",
+      "slot": "Small cap or slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap or slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "CVT (certain years): flatbed preferred. Manual: depress clutch.",
+      "warn": "CVT: flatbed preferred.",
+      "towMethod": "FWD: lift from front.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front. CVT: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Kia",
+      "model": "Soul",
+      "yearStart": 2010,
+      "yearEnd": 2026,
+      "trans": "6-speed automatic or DCT or CVT or single-speed electric (EV)",
+      "drivetrain": "FWD (gas/EV)",
+      "slot": "Small slot near gear selector base on console; EV: N button on selector",
+      "shift": [
+        "Turn ignition to ON.",
+        "GAS: Locate shift lock slot near gear selector base. Insert key, press firmly, hold, press brake, shift to N.",
+        "EV (Soul EV): press and hold the N button on the selector while pressing the brake."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to 12V battery — under the hood.",
+        "GAS models: shift to N using slot method.",
+        "EV: FLATBED ONLY. 12V auxiliary ONLY — never touch HV battery."
+      ],
+      "notes": "Soul EV: flatbed only. Gas: CVT flatbed preferred.",
+      "warn": "EV: FLATBED ONLY. CVT: flatbed preferred.",
+      "towMethod": "Gas FWD: lift from front. EV: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "FWD gas: lift from front. CVT: flatbed preferred.",
+        "EV: FLATBED ONLY — electric drivetrain."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "EV: 12V auxiliary only — never touch HV battery."
+      }
+    },
+    {
+      "make": "Kia",
+      "model": "Niro (Hybrid / PHEV / EV)",
+      "yearStart": 2017,
+      "yearEnd": 2026,
+      "trans": "6-speed DCT (Hybrid/PHEV) or single-speed electric (EV)",
+      "drivetrain": "FWD",
+      "slot": "Small slot near gear selector base; EV: N button on selector",
+      "shift": [
+        "Turn ignition to ON.",
+        "HYBRID/PHEV: Locate shift lock slot near gear selector base. Insert key, press firmly, hold, press brake, shift to N.",
+        "EV: press and hold the N button on the selector while pressing the brake."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to 12V auxiliary battery — under the hood.",
+        "HYBRID/PHEV/EV: 12V auxiliary ONLY — never touch the HV battery.",
+        "Hybrid/PHEV: shift to Neutral using slot or normally once powered.",
+        "EV: FLATBED ONLY."
+      ],
+      "notes": "Hybrid, PHEV, and EV variants. All FWD. EV: flatbed only.",
+      "warn": "EV: FLATBED ONLY. ALL variants: 12V auxiliary ONLY — never touch HV battery.",
+      "towMethod": "Hybrid/PHEV: lift from front (FWD). EV: FLATBED ONLY.",
+      "tc": null,
+      "towNotes": [
+        "Hybrid/PHEV FWD: lift from front.",
+        "EV: FLATBED ONLY.",
+        "ALL variants: 12V auxiliary only — never access HV battery."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "12V auxiliary ONLY. Never touch HV battery."
+      }
+    },
+    {
+      "make": "Kia",
+      "model": "Sedona / Carnival",
+      "yearStart": 2002,
+      "yearEnd": 2026,
+      "trans": "5-speed automatic or 8-speed automatic (2022+)",
+      "drivetrain": "FWD",
+      "slot": "Small cap or slot near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap or slot near gear selector base on console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Sedona (2002-2021), Carnival (2022+). All FWD.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Kia",
+      "model": "Cadenza / K900",
+      "yearStart": 2014,
+      "yearEnd": 2021,
+      "trans": "6-speed automatic (Cadenza) or 8-speed automatic (K900)",
+      "drivetrain": "FWD (Cadenza) or RWD/AWD (K900)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Cadenza is FWD. K900 is RWD or AWD (2015-2020). AWD: flatbed preferred.",
+      "warn": "K900 AWD: flatbed preferred.",
+      "towMethod": "Cadenza FWD: lift from front. K900 RWD: lift from rear. K900 AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "Cadenza (FWD): lift from front.",
+        "K900 RWD: lift from rear.",
+        "K900 AWD: flatbed preferred."
       ],
       "knownIssues": [],
       "battery": {

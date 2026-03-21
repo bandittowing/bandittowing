@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "MINI",
-  "_count": 5,
+  "_count": 7,
   "vehicles": [
     {
       "make": "MINI",
@@ -275,6 +275,84 @@
         "warnings": "ALL4: flatbed only. Automatic: front lift only."
       },
       "knownIssues": []
+    },
+    {
+      "make": "MINI",
+      "model": "Paceman / Roadster (R61 / R59)",
+      "yearStart": 2012,
+      "yearEnd": 2015,
+      "trans": "6-speed automatic (Aisin) or 6-speed manual",
+      "drivetrain": "FWD or ALL4 AWD (Paceman)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral.",
+        "Manual: depress clutch, select Neutral.",
+        "ALL4 AWD: flatbed preferred."
+      ],
+      "notes": "Paceman R61: FWD or ALL4 AWD. Roadster R59: RWD roadster. Manual: depress clutch.",
+      "warn": "ALL4 AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. RWD (R59): lift from rear. ALL4 AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front. RWD: lift from rear. ALL4 AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper SE Electric (F56 EV)",
+      "yearStart": 2020,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "drivetrain": "FWD electric",
+      "slot": "Electronic toggle selector — no mechanical shift lock slot",
+      "shift": [
+        "Turn vehicle to ON/Ready mode.",
+        "The Cooper SE uses a toggle-style electronic selector.",
+        "Press and hold the N (Neutral) position on the toggle for 3 seconds while pressing the brake.",
+        "Confirm N on the instrument cluster.",
+        "If power is lost: restore 12V auxiliary battery first — battery is under the hood."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "FLATBED ONLY — electric drivetrain.",
+        "Connect jump pack to 12V auxiliary battery — under the hood.",
+        "12V AUXILIARY ONLY — NEVER touch the HV battery.",
+        "Once 12V is restored, toggle selector to N.",
+        "FLATBED ONLY."
+      ],
+      "notes": "Electric FWD only. 12V auxiliary under hood. HV battery under floor. Flatbed only.",
+      "warn": "FLATBED ONLY. 12V auxiliary ONLY — never touch HV battery.",
+      "towMethod": "FLATBED ONLY — electric drivetrain.",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC: FLATBED ONLY.",
+        "12V auxiliary under hood — never touch HV battery under floor."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "FLATBED ONLY. Never touch HV battery."
+      }
     }
   ]
 }

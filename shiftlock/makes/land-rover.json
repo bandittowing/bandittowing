@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Land Rover",
-  "_count": 10,
+  "_count": 14,
   "vehicles": [
     {
       "make": "Land Rover",
@@ -688,6 +688,201 @@
         "warnings": "Flatbed only — no 2WD mode."
       },
       "knownIssues": []
+    },
+    {
+      "make": "Land Rover",
+      "model": "LR2 / Freelander 2",
+      "yearStart": 2006,
+      "yearEnd": 2015,
+      "trans": "6-speed automatic (Aisin TF-80SC)",
+      "drivetrain": "AWD (Haldex, permanent)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Permanent Haldex AWD. No traditional transfer case lever. Flatbed preferred.",
+      "warn": "AWD — flatbed preferred. No transfer case to disengage.",
+      "towMethod": "FLATBED PREFERRED — permanent AWD cannot be disengaged. Wheel-lift with dollies on free-rolling axle if no flatbed.",
+      "tc": null,
+      "towNotes": [
+        "Permanent Haldex AWD — cannot disengage. Flatbed is safest.",
+        "Wheel-lift with dollies on free-rolling axle if flatbed unavailable."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "LR3 / Discovery 3",
+      "yearStart": 2005,
+      "yearEnd": 2009,
+      "trans": "6-speed automatic (ZF 6HP26)",
+      "drivetrain": "4WD (permanent, electronic TC)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case must be in High mode for road towing — do NOT leave in Low."
+      ],
+      "notes": "Full-time 4WD with electronic TC. Must shift TC to high range before road towing.",
+      "warn": "Permanent 4WD — flatbed preferred. If wheel-lift, must use dollies on free-rolling axle.",
+      "towMethod": "FLATBED PREFERRED. Wheel-lift with dollies on free-rolling axle if no flatbed.",
+      "tc": {
+        "type": "Electronic rotary dial on center console",
+        "positions": [
+          "High — standard road range — required for road towing",
+          "Low — low range — NEVER tow in low range on pavement"
+        ],
+        "steps": [
+          "Ensure TC is in High range (not Low) before road towing.",
+          "TC is full-time — cannot disengage to 2WD.",
+          "FLATBED is safest option.",
+          "IF wheel-lift: dollies MUST be under the free-rolling axle.",
+          "IF BATTERY IS DEAD: Jump battery first, confirm TC in High, then proceed."
+        ]
+      },
+      "towNotes": [
+        "Full-time permanent 4WD. FLATBED is safest.",
+        "If wheel-lift must be used: dollies REQUIRED on free-rolling axle.",
+        "DEAD BATTERY: Jump first before any tow movement."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Velar (L560)",
+      "yearStart": 2018,
+      "yearEnd": 2026,
+      "trans": "8-speed automatic (ZF 8HP)",
+      "drivetrain": "4WD (permanent, electronic TC)",
+      "slot": "Electronic selector — touch-sensitive panel on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "The Velar uses a touch-sensitive electronic gear selector (Touch Pro Duo) — no physical lever.",
+        "With power on, press N on the touch panel to select Neutral.",
+        "If power is lost: connect jump pack to 12V battery. Battery is under the hood.",
+        "Once powered, use the touch panel to select N.",
+        "Electronic selectors require power — no mechanical override slot."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, use the touch panel to select N.",
+        "FLATBED preferred — permanent AWD."
+      ],
+      "notes": "Fully electronic touch panel selector — no physical gear lever. Permanent AWD. Flatbed preferred.",
+      "warn": "Permanent AWD — flatbed preferred. Electronic selector requires power.",
+      "towMethod": "FLATBED PREFERRED — permanent AWD. Wheel-lift with dollies if no flatbed.",
+      "tc": {
+        "type": "Electronic — managed by Terrain Response system",
+        "positions": [
+          "High — standard range — for road towing",
+          "Low — NEVER tow on pavement in low range"
+        ],
+        "steps": [
+          "Ensure Terrain Response is not in Low range before road towing.",
+          "Full-time permanent AWD — cannot disengage to 2WD.",
+          "FLATBED is safest.",
+          "IF wheel-lift: dollies on free-rolling axle REQUIRED."
+        ]
+      },
+      "towNotes": [
+        "Full-time permanent AWD. FLATBED strongly preferred.",
+        "Electronic touch panel requires power to shift."
+      ],
+      "knownIssues": [
+        {
+          "title": "Fully Electronic Touch Panel — No Physical Selector",
+          "detail": "The Velar has a Touch Pro Duo glass-panel selector system. There is no physical gear lever or traditional shift lock slot. Without 12V power, the selector cannot be operated. Always restore 12V power before attempting to select Neutral."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "AGM battery — use AGM-compatible jump pack. Electronic selector requires 12V power."
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "Discovery (5th Gen L462)",
+      "yearStart": 2017,
+      "yearEnd": 2026,
+      "trans": "8-speed automatic (ZF 8HP)",
+      "drivetrain": "4WD (permanent, electronic TC)",
+      "slot": "Electronic rotary selector rises from console — slot near selector base",
+      "shift": [
+        "Turn ignition to ON.",
+        "The Discovery 5 uses an electronic rotary 'rising' selector on the center console.",
+        "With power on, rotate selector to N (Neutral).",
+        "If power is lost: connect jump pack to 12V battery under the hood.",
+        "Once powered, rotate the selector to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, rotate the electronic selector to N.",
+        "FLATBED preferred — permanent AWD."
+      ],
+      "notes": "Electronic rotary selector. Permanent AWD. Must have power for selector. Flatbed preferred.",
+      "warn": "Permanent AWD — flatbed preferred. Electronic rotary requires power.",
+      "towMethod": "FLATBED PREFERRED. Wheel-lift with dollies on free-rolling axle if no flatbed.",
+      "tc": {
+        "type": "Electronic — Terrain Response 2",
+        "positions": [
+          "High — standard range — required for road towing",
+          "Low — NEVER tow on pavement in low range"
+        ],
+        "steps": [
+          "Ensure TC is in High range before road towing.",
+          "Full-time AWD — cannot disengage.",
+          "FLATBED is safest.",
+          "IF wheel-lift: dollies REQUIRED on free-rolling axle."
+        ]
+      },
+      "towNotes": [
+        "Full-time permanent AWD. FLATBED strongly preferred.",
+        "Electronic rotary selector requires 12V power to operate."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "AGM battery. Electronic selector requires power."
+      }
     }
   ]
 }

@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "GMC",
-  "_count": 9,
+  "_count": 12,
   "vehicles": [
     {
       "make": "GMC",
@@ -144,7 +144,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood. Duramax diesel may have dual batteries..",
+        "Connect jump pack to battery — Under hood. Duramax diesel may have dual batteries.",
         "Once 12V power is restored, press brake and select N normally on the electronic selector.",
         "Electronic selectors require power — mechanical override is a last resort only."
       ],
@@ -471,6 +471,149 @@
         "warnings": ""
       },
       "knownIssues": []
+    },
+    {
+      "make": "GMC",
+      "model": "Safari",
+      "yearStart": 1990,
+      "yearEnd": 2005,
+      "trans": "4-speed automatic (4L60-E)",
+      "drivetrain": "RWD or AWD",
+      "slot": "Small cap near gear selector base on floor console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on floor console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "AWD uses Borg-Warner AWD system — no traditional TC. AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "RWD: lift from rear. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear. AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "GMC",
+      "model": "Envoy / Envoy XL / Envoy XUV",
+      "yearStart": 2002,
+      "yearEnd": 2009,
+      "trans": "4-speed automatic (4L60-E) or 5-speed automatic (5L40-E for I6 inline-6)",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2WD before road towing."
+      ],
+      "notes": "Shares Trailblazer platform. Electronic TC push-button. Must be in 2WD for road towing.",
+      "warn": "Shift TC to 2WD before road towing. 4WD on dry pavement damages driveline.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2WD first, then lift rear.",
+      "tc": {
+        "type": "Electronic push-button on dashboard",
+        "positions": [
+          "2WD — rear wheels only — REQUIRED for road towing",
+          "AWD — automatic — NOT safe for road towing",
+          "4WD Hi — part-time — NOT safe for dry-road towing",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Slow to under 3 MPH.",
+          "Press the 2WD button on the dashboard.",
+          "Confirm 2WD indicator is lit.",
+          "Verify all 4WD indicator lights are off before lifting rear wheels.",
+          "IF BATTERY IS DEAD: Jump battery first, shift TC to 2WD, then disconnect."
+        ]
+      },
+      "towNotes": [
+        "Electronic TC requires 12V power to shift.",
+        "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect. If unable, FLATBED ONLY."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "GMC",
+      "model": "Sonoma",
+      "yearStart": 1991,
+      "yearEnd": 2004,
+      "trans": "3-speed automatic (3L30) or 4-speed automatic (4L60-E) or 5-speed manual",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small cap near gear selector base on floor console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on floor console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2WD/2H before road towing."
+      ],
+      "notes": "S-10 Blazer/S-Series platform. Manual TC floor lever on most. Manual: depress clutch, select Neutral.",
+      "warn": "Shift TC to 2H before road towing.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear.",
+      "tc": {
+        "type": "Manual floor lever",
+        "positions": [
+          "2WD — REQUIRED for road towing",
+          "4WD Hi — NOT safe for dry road",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move TC floor lever to 2WD.",
+          "Confirm 2WD before lifting rear wheels.",
+          "MANUAL TRANSMISSION: depress clutch, select Neutral."
+        ]
+      },
+      "towNotes": [
+        "Manual TC — shift to 2WD before road towing.",
+        "MANUAL TRANSMISSION: depress clutch, select Neutral."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
     }
   ]
 }

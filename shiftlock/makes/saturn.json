@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Saturn",
-  "_count": 7,
+  "_count": 8,
   "vehicles": [
     {
       "make": "Saturn",
@@ -340,6 +340,43 @@
         "warnings": "Plastic panels."
       },
       "knownIssues": []
+    },
+    {
+      "make": "Saturn",
+      "model": "L-Series (L200/L300)",
+      "yearStart": 2000,
+      "yearEnd": 2005,
+      "trans": "4-speed automatic (4T40-E) or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Opel Vectra platform. Manual: depress clutch, select Neutral.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
     }
   ]
 }

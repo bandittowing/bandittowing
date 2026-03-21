@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Volvo",
-  "_count": 6,
+  "_count": 11,
   "vehicles": [
     {
       "make": "Volvo",
@@ -345,6 +345,197 @@
         "warnings": "Always use engine compartment terminals. T8 PHEV: 12V only."
       },
       "knownIssues": []
+    },
+    {
+      "make": "Volvo",
+      "model": "850 / S70 / V70 / C70 (1st Gen)",
+      "yearStart": 1993,
+      "yearEnd": 2000,
+      "trans": "4-speed automatic (AW50-42 or AW72-40) or 5-speed manual (M56/M57)",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once powered, press brake and shift to Neutral.",
+        "Manual: depress clutch, select Neutral."
+      ],
+      "notes": "Manual: depress clutch. FWD. AWD (AWD models): flatbed preferred.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "S40 / V40 / V50 (1995-2012)",
+      "yearStart": 1995,
+      "yearEnd": 2012,
+      "trans": "4-speed automatic or 5-speed automatic (AW55-51SN) or 5-speed manual",
+      "drivetrain": "FWD or AWD (select trims)",
+      "slot": "Small cap or slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap or slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once powered, press brake and shift to Neutral.",
+        "Manual: depress clutch. AWD: flatbed preferred."
+      ],
+      "notes": "Manual: depress clutch. AWD (select trims): flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front. AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "S60 / V70 (2001-2009)",
+      "yearStart": 2001,
+      "yearEnd": 2009,
+      "trans": "5-speed automatic (AW55-51SN or TF-80SC) or 6-speed manual",
+      "drivetrain": "FWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once powered, shift to Neutral.",
+        "Manual: depress clutch. AWD: flatbed preferred."
+      ],
+      "notes": "Manual: depress clutch. AWD (Haldex): flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front. AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "XC70",
+      "yearStart": 2001,
+      "yearEnd": 2016,
+      "trans": "5-speed automatic (AW55-51SN or TF-80SC) or 6-speed automatic (TF-80SC, 2008+)",
+      "drivetrain": "AWD (Haldex, standard)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once powered, shift to Neutral.",
+        "FLATBED PREFERRED — permanent Haldex AWD."
+      ],
+      "notes": "Permanent Haldex AWD — flatbed preferred.",
+      "warn": "Permanent AWD — flatbed preferred.",
+      "towMethod": "FLATBED PREFERRED — permanent Haldex AWD. Wheel-lift with dollies if no flatbed.",
+      "tc": null,
+      "towNotes": [
+        "Permanent Haldex AWD — cannot disengage. Flatbed preferred.",
+        "Wheel-lift with dollies on free-rolling axle if no flatbed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "C30 / C70 (2006-2013)",
+      "yearStart": 2006,
+      "yearEnd": 2013,
+      "trans": "5-speed automatic (AW55-51SN) or 6-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once powered, shift to Neutral.",
+        "Manual: depress clutch, select Neutral."
+      ],
+      "notes": "Manual: depress clutch. FWD compact. C70 is convertible — high value.",
+      "warn": "C70 convertible: high value — flatbed preferred.",
+      "towMethod": "FWD: lift from front. C70 convertible: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front. C70 convertible: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
     }
   ]
 }

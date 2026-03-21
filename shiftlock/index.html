@@ -8,27 +8,27 @@
   Website: bandittowing.com | Contact: justin@bandittowing.com
   All rights reserved. Unauthorized use prohibited.
   ============================================================
+  v2.0 — 550 vehicles, 38 makes, 1990–2026
+  ============================================================
 -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shift Lock Release & Neutral Override Guide | Tow Operator Field Reference | Bandit Towing</title>
-<meta name="description" content="Professional tow operator field reference — shift lock release and neutral override procedures for 380 vehicles, 38 makes, 1990–2026. Covers transmission type, battery terminal location, transfer case, tow method, and known towing issues for every major make and model. By Bandit Towing & Transport, Cary NC.">
-<meta name="keywords" content="shift lock release, neutral override dead battery, how to put car in neutral dead battery, shift interlock override, tow truck neutral override, towing procedures by vehicle, battery jump terminal location, transfer case towing, flatbed towing guide, tow operator reference, ZF 9HP neutral override, Tesla tow mode, Prius neutral dead battery, Porsche frunk battery, Land Rover transfer case neutral, Rivian tow mode, shift lock slot location, 1990s towing procedures, Bandit Towing Cary NC">
+<meta name="description" content="Professional tow operator field reference — shift lock release and neutral override procedures for 550 vehicles, 38 makes, 1990–2026. Battery terminal locations, transfer case procedures, tow method, known issues. Bandit Towing & Transport, Cary NC.">
+<meta name="keywords" content="shift lock release, neutral override dead battery, how to put car in neutral dead battery, shift interlock override, tow truck neutral override, towing procedures by vehicle, battery jump terminal location, transfer case towing, flatbed towing guide, tow operator reference, ZF 9HP neutral override, Tesla tow mode, Prius neutral dead battery, battery in trunk, Jaguar S-Type battery location, BMW trunk battery, Land Rover transfer case, Rivian tow mode, shift lock slot location, 1990s towing procedures, Bandit Towing Cary NC">
 <meta name="author" content="Bandit Towing & Transport">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://www.bandittowing.com/shiftlock/">
-
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.bandittowing.com/shiftlock/">
 <meta property="og:title" content="Shift Lock Release & Neutral Override | Tow Operator Field Reference">
-<meta property="og:description" content="Step-by-step shift lock release and neutral override procedures for 380 vehicles (1990–2026). Battery locations, transfer case steps, tow method, and known issues. Free professional towing reference by Bandit Towing, Cary NC.">
+<meta property="og:description" content="Step-by-step shift lock release and neutral override procedures for 550 vehicles (1990–2026). Battery locations, transfer case steps, tow method, known issues. Free professional towing reference by Bandit Towing, Cary NC.">
 <meta property="og:site_name" content="Bandit Towing & Transport">
-
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Shift Lock Release & Neutral Override | Tow Operator Reference">
-<meta name="twitter:description" content="Free field reference for tow operators — shift lock release, neutral override, battery terminals, and transfer case procedures for 380 vehicles, 38 makes, 1990–2026.">
+<meta name="twitter:description" content="Free field reference for tow operators — shift lock release, neutral override, battery terminals, and transfer case procedures for 550 vehicles, 38 makes, 1990–2026.">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Bandit Towing">
@@ -38,7 +38,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Oswald:wght@400;500;600;700&family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 /* ═══════════════════════════════════════════════
-   TOKENS
+   DESIGN TOKENS
 ═══════════════════════════════════════════════ */
 :root {
   --gold:        #C8900A;
@@ -47,6 +47,7 @@
   --gold-dark:   #8A6008;
   --orange:      #C85A0A;
   --red:         #c0392b;
+  --red-bg:      rgba(192,57,43,.08);
   --black:       #060606;
   --dark1:       #0C0C0A;
   --dark2:       #111110;
@@ -65,12 +66,15 @@
   --amber-bg:    rgba(212,149,42,.07);
   --blue:        #4a85c0;
   --blue-bg:     rgba(74,133,192,.07);
+  --purple:      #9060b0;
+  --purple-bg:   rgba(144,96,176,.07);
+  --ev-color:    #28a8a8;
+  --ev-bg:       rgba(40,168,168,.07);
 
   --fwd-color:   #4ea84b;
   --rwd-color:   #d4952a;
   --awd-color:   #4a85c0;
   --fourwd-color:#9060b0;
-  --ev-color:    #28a8a8;
 
   --font-d: 'Big Shoulders Display', sans-serif;
   --font-u: 'Oswald', sans-serif;
@@ -82,13 +86,24 @@
   --gap-md:  28px;
   --gap-lg:  44px;
   --gap-xl:  60px;
+
+  --radius:  3px;
+  --shadow:  0 8px 48px rgba(0,0,0,.5);
 }
 
 *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
-body { background:var(--black); color:var(--white); font-family:var(--font-b); min-height:100vh; line-height:1.6; -webkit-font-smoothing:antialiased; }
+html { scroll-behavior: smooth; }
+body {
+  background:var(--black); color:var(--white);
+  font-family:var(--font-b); min-height:100vh; line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
 a { color:inherit; }
+button { cursor:pointer; }
 
-/* ── HEADER ─────────────────────────────────── */
+/* ══════════════════════════════════════
+   HEADER
+══════════════════════════════════════ */
 header {
   background:var(--dark1);
   border-bottom:2px solid rgba(200,144,10,.3);
@@ -97,11 +112,12 @@ header {
   -webkit-backdrop-filter:blur(12px);
 }
 .hdr {
-  max-width:1080px; margin:0 auto; padding:14px 28px;
+  max-width:1100px; margin:0 auto; padding:14px 24px;
   display:flex; align-items:center; justify-content:space-between; gap:20px;
 }
 .logo-link { text-decoration:none; display:block; }
 .logo-link img { height:48px; display:block; }
+.hdr-right { display:flex; align-items:center; gap:10px; }
 .hdr-phone {
   font-family:var(--font-u); font-size:16px; font-weight:700;
   color:var(--gold-bright); letter-spacing:1px; text-decoration:none;
@@ -110,24 +126,25 @@ header {
   background:rgba(200,144,10,.06);
 }
 .hdr-phone:hover { background:var(--gold); color:var(--black); border-color:var(--gold); }
-
-/* ── HERO ─────────────────────────────────── */
-.hero {
-  padding:56px 28px 48px; text-align:center; position:relative;
-  background:var(--dark1);
-  overflow:hidden;
+.hdr-count {
+  font-family:var(--font-u); font-size:11px; font-weight:600;
+  letter-spacing:2px; color:var(--gray); text-transform:uppercase;
+  display:none;
 }
-/* subtle horizontal rule lines — track-stripe feel */
+@media(min-width:640px){ .hdr-count { display:block; } }
+
+/* ══════════════════════════════════════
+   HERO
+══════════════════════════════════════ */
+.hero {
+  padding:52px 24px 44px; text-align:center; position:relative;
+  background:var(--dark1); overflow:hidden;
+}
 .hero::before {
   content:''; position:absolute; inset:0; pointer-events:none;
   background:
-    linear-gradient(180deg,
-      transparent 0%, transparent 49%,
-      rgba(200,144,10,.04) 49%, rgba(200,144,10,.04) 51%,
-      transparent 51%) center/100% 80px repeat-y,
-    repeating-linear-gradient(90deg,
-      transparent, transparent 119px,
-      rgba(200,144,10,.018) 119px, rgba(200,144,10,.018) 120px);
+    linear-gradient(180deg, transparent 0%, transparent 49%, rgba(200,144,10,.04) 49%, rgba(200,144,10,.04) 51%, transparent 51%) center/100% 80px repeat-y,
+    repeating-linear-gradient(90deg, transparent, transparent 119px, rgba(200,144,10,.018) 119px, rgba(200,144,10,.018) 120px);
 }
 .hero::after {
   content:''; position:absolute; bottom:0; left:0; right:0; height:1px;
@@ -140,42 +157,62 @@ header {
   color:var(--gold-dark); margin-bottom:18px;
 }
 .hero h1 {
-  font-family:var(--font-d); font-size:clamp(2.4rem,6.5vw,4.4rem);
+  font-family:var(--font-d); font-size:clamp(2.2rem,6.5vw,4.4rem);
   font-weight:900; text-transform:uppercase; letter-spacing:2px;
   line-height:.95; margin-bottom:16px; color:var(--white);
 }
 .hero h1 em { color:var(--gold-bright); font-style:normal; }
 .hero-sub {
   font-family:var(--font-c); font-size:1rem; color:var(--gray);
-  letter-spacing:1.5px; max-width:520px; margin:0 auto; line-height:1.7;
+  letter-spacing:1.5px; max-width:580px; margin:0 auto 24px; line-height:1.7;
 }
+.hero-stats {
+  display:flex; align-items:center; justify-content:center; gap:0;
+  flex-wrap:wrap; margin-top:4px;
+}
+.hero-stat {
+  padding:10px 24px; border:1px solid var(--dark5); border-right:none;
+  font-family:var(--font-u);
+}
+.hero-stat:last-child { border-right:1px solid var(--dark5); }
+.hero-stat-num {
+  font-size:1.5rem; font-weight:700; color:var(--gold-bright);
+  line-height:1; display:block;
+}
+.hero-stat-lbl {
+  font-size:9px; font-weight:600; letter-spacing:3px;
+  text-transform:uppercase; color:var(--gray); display:block; margin-top:2px;
+}
+@media(max-width:480px){ .hero-stat { padding:8px 14px; } .hero-stat-num { font-size:1.2rem; } }
 
-/* ── LAYOUT WRAPPER ─────────────────────────────────── */
-.wrap { max-width:940px; margin:0 auto; padding:40px 24px 100px; }
+/* ══════════════════════════════════════
+   LAYOUT WRAPPER
+══════════════════════════════════════ */
+.wrap { max-width:960px; margin:0 auto; padding:36px 20px 100px; }
 
-/* ── LOOKUP CARD ─────────────────────────────────── */
+/* ══════════════════════════════════════
+   LOOKUP CARD
+══════════════════════════════════════ */
 .lookup-card {
   background:var(--dark2);
   border:1px solid var(--dark5);
   border-top:2px solid var(--gold);
-  padding:32px 28px 28px;
+  padding:28px 24px 24px;
   margin-bottom:var(--gap-lg);
-  box-shadow:0 8px 48px rgba(0,0,0,.5);
+  box-shadow:var(--shadow);
 }
-@media(max-width:580px) { .lookup-card { padding:24px 18px 20px; } }
-
 .card-label {
   font-family:var(--font-u); font-size:10px; font-weight:600;
   letter-spacing:5px; text-transform:uppercase; color:var(--gold-dark);
-  display:flex; align-items:center; gap:12px; margin-bottom:20px;
+  display:flex; align-items:center; gap:12px; margin-bottom:18px;
 }
 .card-label::after { content:''; flex:1; height:1px; background:var(--dark5); }
 
 .db-status { font-family:var(--font-u); font-size:11px; letter-spacing:2px; color:var(--gray); text-align:center; padding:8px 0 4px; }
 .db-error  { color:#c4705a; }
 
-/* Search */
-.search-wrap { position:relative; margin-bottom:14px; }
+/* ── Search ──────────────────────────── */
+.search-wrap { position:relative; margin-bottom:12px; }
 .search-input {
   width:100%; background:var(--dark3); border:1px solid var(--dark5);
   border-bottom:2px solid var(--gold-dark); color:var(--white);
@@ -189,33 +226,58 @@ header {
 .search-results {
   position:absolute; top:calc(100% + 4px); left:0; right:0; z-index:200;
   background:var(--dark2); border:1px solid var(--dark5); border-top:2px solid var(--gold);
-  max-height:300px; overflow-y:auto; display:none;
-  box-shadow:0 16px 48px rgba(0,0,0,.7);
+  max-height:320px; overflow-y:auto; display:none;
+  box-shadow:0 16px 48px rgba(0,0,0,.75);
 }
 .search-results.open { display:block; }
 .search-result-item {
-  padding:12px 16px; cursor:pointer; border-bottom:1px solid var(--dark4);
+  padding:11px 16px; cursor:pointer; border-bottom:1px solid var(--dark4);
   display:flex; align-items:center; justify-content:space-between; gap:12px;
   transition:background .12s;
 }
 .search-result-item:last-child { border-bottom:none; }
 .search-result-item:hover, .search-result-item.highlighted { background:var(--dark4); }
+.sri-left { display:flex; flex-direction:column; gap:1px; min-width:0; }
 .sri-name { font-family:var(--font-u); font-size:0.9rem; font-weight:600; color:var(--white); }
 .sri-name mark { background:transparent; color:var(--gold-bright); }
-.sri-years { font-family:var(--font-c); font-size:0.8rem; color:var(--gray); white-space:nowrap; }
+.sri-dt { font-family:var(--font-c); font-size:0.75rem; color:var(--gray); }
+.sri-years { font-family:var(--font-c); font-size:0.8rem; color:var(--gray); white-space:nowrap; flex-shrink:0; }
 .search-no-results { padding:16px; font-family:var(--font-u); font-size:0.82rem; color:var(--gray); text-align:center; letter-spacing:2px; }
 
-/* Dropdowns */
-.sel-grid { display:grid; grid-template-columns:1fr 1fr 2fr; gap:10px; margin-bottom:14px; }
-@media(max-width:580px) { .sel-grid { grid-template-columns:1fr; } }
+/* ── VIN ──────────────────────────── */
+.vin-decoded {
+  display:none; margin-bottom:10px;
+  background:rgba(78,168,75,.08); border:1px solid rgba(78,168,75,.3);
+  border-left:3px solid var(--green); padding:10px 14px;
+  font-family:var(--font-u); font-size:0.8rem; color:var(--green); letter-spacing:1px;
+}
+.vin-decoded.show { display:flex; align-items:center; gap:10px; }
+.vin-decoded-text { flex:1; }
+.vin-decoded-clear { background:transparent; border:none; color:var(--gray); font-size:1rem; padding:0 4px; }
+.vin-decoded-clear:hover { color:var(--white); }
+
+.vin-btn {
+  width:100%; background:transparent; border:1px solid var(--gold-dark);
+  color:var(--gold); font-family:var(--font-u); font-size:0.85rem;
+  font-weight:700; letter-spacing:3px; text-transform:uppercase;
+  padding:12px; transition:all .2s;
+  display:flex; align-items:center; justify-content:center; gap:10px;
+  margin-bottom:12px;
+}
+.vin-btn:hover { background:rgba(200,144,10,.08); border-color:var(--gold); }
+.vin-btn:disabled { opacity:.3; cursor:not-allowed; }
+
+/* ── Dropdowns ──────────────────────────── */
+.sel-grid { display:grid; grid-template-columns:1fr 1fr 2fr; gap:10px; margin-bottom:12px; }
+@media(max-width:560px) { .sel-grid { grid-template-columns:1fr 1fr; } .sel-grid .sel-model-wrap { grid-column:1 / -1; } }
+@media(max-width:380px) { .sel-grid { grid-template-columns:1fr; } .sel-grid .sel-model-wrap { grid-column:auto; } }
 .sel-wrap { position:relative; }
 .sel-wrap label { display:block; font-family:var(--font-u); font-size:9px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:var(--gray); margin-bottom:5px; }
 .sel-wrap select {
   width:100%; background:var(--dark3); border:1px solid var(--dark5);
   border-bottom:2px solid var(--dark6); color:var(--white);
   font-family:var(--font-u); font-size:14px; font-weight:500;
-  padding:11px 34px 11px 12px; appearance:none; cursor:pointer; outline:none;
-  transition:border-color .18s;
+  padding:11px 34px 11px 12px; appearance:none; outline:none; transition:border-color .18s;
 }
 .sel-wrap select:focus, .sel-wrap select:hover { border-bottom-color:var(--gold); }
 .sel-wrap select:disabled { opacity:.3; cursor:not-allowed; }
@@ -225,7 +287,7 @@ header {
   width:100%; background:var(--gold); border:none; color:var(--black);
   font-family:var(--font-d); font-size:1.1rem; font-weight:900;
   letter-spacing:4px; text-transform:uppercase; padding:15px;
-  cursor:pointer; transition:all .2s; position:relative; overflow:hidden;
+  transition:all .2s; position:relative; overflow:hidden;
 }
 .lookup-btn::after {
   content:''; position:absolute; inset:0;
@@ -236,21 +298,22 @@ header {
 .lookup-btn:disabled { background:var(--dark5); color:var(--gray); cursor:not-allowed; }
 .lookup-btn:disabled::after { display:none; }
 
-/* ── RESULTS ─────────────────────────────────── */
+/* ══════════════════════════════════════
+   RESULTS
+══════════════════════════════════════ */
 #results { display:none; }
 #results.show { display:block; animation:fadeIn .4s ease; }
 @keyframes fadeIn { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
 
-/* Vehicle title */
+/* ── Vehicle Title Bar ──────────────────────────── */
 .veh-title-bar {
   display:flex; align-items:flex-start; justify-content:space-between;
   flex-wrap:wrap; gap:12px;
-  padding-bottom:var(--gap-md);
-  margin-bottom:var(--gap-sm);
+  padding-bottom:var(--gap-md); margin-bottom:var(--gap-sm);
   border-bottom:1px solid var(--dark5);
 }
 .veh-name {
-  font-family:var(--font-d); font-size:clamp(2rem,5.5vw,3.2rem);
+  font-family:var(--font-d); font-size:clamp(1.8rem,5.5vw,3.2rem);
   font-weight:900; text-transform:uppercase; color:var(--gold-bright);
   letter-spacing:2px; line-height:.95;
 }
@@ -260,29 +323,27 @@ header {
 .dt-emblem {
   display:inline-flex; align-items:center; gap:7px; padding:7px 14px;
   font-family:var(--font-u); font-size:11px; font-weight:700;
-  letter-spacing:2px; text-transform:uppercase; border:1px solid; flex-shrink:0;
-  margin-top:4px;
+  letter-spacing:2px; text-transform:uppercase; border:1px solid; flex-shrink:0; margin-top:4px;
 }
 .dt-emblem svg { width:26px; height:26px; flex-shrink:0; }
 .dt-emblem.fwd  { color:var(--fwd-color);   border-color:rgba(78,168,75,.4);   background:var(--green-bg); }
 .dt-emblem.rwd  { color:var(--rwd-color);   border-color:rgba(212,149,42,.4);  background:var(--amber-bg); }
 .dt-emblem.awd  { color:var(--awd-color);   border-color:rgba(74,133,192,.4);  background:var(--blue-bg); }
-.dt-emblem.4wd  { color:var(--fourwd-color);border-color:rgba(144,96,176,.4);  background:rgba(144,96,176,.06); }
-.dt-emblem.ev   { color:var(--ev-color);    border-color:rgba(40,168,168,.4);  background:rgba(40,168,168,.06); }
+.dt-emblem.4wd  { color:var(--fourwd-color);border-color:rgba(144,96,176,.4);  background:var(--purple-bg); }
+.dt-emblem.ev   { color:var(--ev-color);    border-color:rgba(40,168,168,.4);  background:var(--ev-bg); }
 .dt-emblem.multi{ color:var(--gold);        border-color:rgba(200,144,10,.3);  background:rgba(200,144,10,.05); }
 
-/* Section filters */
+/* ── Section Filters ──────────────────────────── */
 .section-filters {
-  display:flex; flex-wrap:wrap; gap:6px;
-  margin-bottom:var(--gap-md);
-  padding-bottom:var(--gap-sm);
+  display:flex; flex-wrap:wrap; gap:5px;
+  margin-bottom:var(--gap-md); padding-bottom:var(--gap-sm);
   border-bottom:1px solid var(--dark4);
 }
 .sf-btn {
-  padding:7px 14px; background:transparent; border:1px solid var(--dark5);
-  color:var(--gray); font-family:var(--font-u); font-size:0.75rem;
+  padding:7px 13px; background:transparent; border:1px solid var(--dark5);
+  color:var(--gray); font-family:var(--font-u); font-size:0.72rem;
   font-weight:600; letter-spacing:1.5px; text-transform:uppercase;
-  cursor:pointer; transition:all .15s; white-space:nowrap;
+  transition:all .15s; white-space:nowrap;
 }
 .sf-btn:hover { border-color:var(--gold-dark); color:var(--off-white); }
 .sf-btn.active { background:var(--gold); color:var(--black); border-color:var(--gold); font-weight:700; }
@@ -290,62 +351,132 @@ header {
 .sf-divider { width:1px; background:var(--dark5); align-self:stretch; margin:0 2px; }
 [class*="sec-"].hidden { display:none !important; }
 
-/* ── INFO ROW ─────────────────────────────────── */
+/* ── Info Row ──────────────────────────── */
 .info-row {
   display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
-  background:var(--dark5);
-  margin-bottom:var(--gap-md);
-  border:1px solid var(--dark5);
+  background:var(--dark5); margin-bottom:var(--gap-md); border:1px solid var(--dark5);
 }
-@media(max-width:580px) { .info-row { grid-template-columns:1fr; } }
-.info-cell { background:var(--dark2); padding:16px 18px; }
+@media(max-width:560px) { .info-row { grid-template-columns:1fr 1fr; } .info-row .info-cell:last-child { grid-column:1/-1; border-top:1px solid var(--dark5); } }
+.info-cell { background:var(--dark2); padding:15px 17px; }
 .info-cell-label {
   font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:4px; text-transform:uppercase; color:var(--gold-dark);
-  margin-bottom:5px;
+  letter-spacing:4px; text-transform:uppercase; color:var(--gold-dark); margin-bottom:5px;
 }
 .info-cell-val {
-  font-family:var(--font-u); font-size:0.95rem; font-weight:600;
-  color:var(--white); line-height:1.3;
+  font-family:var(--font-u); font-size:0.9rem; font-weight:600;
+  color:var(--white); line-height:1.35;
 }
-.info-cell.trans .info-cell-val { font-family:var(--font-u); font-size:0.82rem; font-weight:600; color:var(--white); }
+.info-cell.trans .info-cell-val { font-size:0.8rem; }
 
-/* ── TOW METHOD ─────────────────────────────────── */
+/* ══════════════════════════════════════
+   PROCEDURES
+══════════════════════════════════════ */
+.proc-section { margin-bottom:var(--gap-md); margin-top:var(--gap-sm); }
+.proc-eyebrow {
+  font-family:var(--font-u); font-size:9px; font-weight:600;
+  letter-spacing:6px; text-transform:uppercase; color:var(--gold-dark);
+  margin-bottom:var(--gap-sm); display:flex; align-items:center; gap:14px;
+}
+.proc-eyebrow::before, .proc-eyebrow::after { content:''; flex:1; height:1px; }
+.proc-eyebrow::before { background:linear-gradient(90deg,transparent,var(--dark6)); }
+.proc-eyebrow::after  { background:linear-gradient(90deg,var(--dark6),transparent); }
+
+.proc-grid { display:grid; grid-template-columns:1fr 1fr; gap:var(--gap-sm); }
+@media(max-width:580px) { .proc-grid { grid-template-columns:1fr; } }
+
+.proc-box { background:var(--dark2); overflow:hidden; display:flex; flex-direction:column; }
+.proc-box.shift   { border-top:3px solid var(--green); }
+.proc-box.neutral { border-top:3px solid var(--amber); }
+
+.proc-head {
+  padding:15px 18px 13px; display:flex; align-items:center; gap:10px;
+  font-family:var(--font-d); font-size:1.05rem; font-weight:900;
+  letter-spacing:3px; text-transform:uppercase;
+  border-bottom:1px solid var(--dark5);
+}
+.proc-head .ph-dot { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
+.proc-box.shift   .proc-head { color:var(--green); background:rgba(78,168,75,.05); }
+.proc-box.shift   .ph-dot { background:var(--green); box-shadow:0 0 8px rgba(78,168,75,.4); }
+.proc-box.neutral .proc-head { color:var(--amber); background:rgba(212,149,42,.05); }
+.proc-box.neutral .ph-dot { background:var(--amber); box-shadow:0 0 8px rgba(212,149,42,.4); }
+
+.proc-body { padding:18px; flex:1; }
+
+.slot-strip {
+  background:var(--dark3); border-left:2px solid var(--gold-dark);
+  padding:10px 14px; margin-bottom:16px; line-height:1.5;
+  font-family:var(--font-b); font-size:0.82rem; color:var(--gray); font-style:italic;
+}
+.slot-strip strong {
+  display:block; font-style:normal; font-family:var(--font-u);
+  font-size:9px; font-weight:700; letter-spacing:3px;
+  text-transform:uppercase; color:var(--gold-dark); margin-bottom:3px;
+}
+
+.steps-list { list-style:none; display:flex; flex-direction:column; gap:9px; }
+.steps-list li {
+  display:flex; gap:11px; font-family:var(--font-b);
+  font-size:0.88rem; color:var(--off-white); line-height:1.55; align-items:flex-start;
+}
+.step-num {
+  flex-shrink:0; width:22px; height:22px; border:1px solid;
+  border-radius:50%; display:flex; align-items:center; justify-content:center;
+  font-family:var(--font-u); font-size:11px; font-weight:700;
+  margin-top:2px;
+}
+.proc-box.shift  .step-num { border-color:rgba(78,168,75,.35); color:var(--green); background:rgba(78,168,75,.06); }
+.proc-box.neutral .step-num { border-color:rgba(212,149,42,.35); color:var(--amber); background:rgba(212,149,42,.06); }
+
+/* ══════════════════════════════════════
+   NOTES & WARNINGS
+══════════════════════════════════════ */
+.note-box, .warn-box {
+  padding:15px 18px; font-family:var(--font-b); font-size:0.92rem;
+  line-height:1.65; margin-bottom:var(--gap-sm); border-left:4px solid;
+}
+.note-box { border-color:var(--blue); color:#c8dff0; background:rgba(74,133,192,.08); }
+.warn-box { border-color:var(--orange); color:#f0c898; background:rgba(200,90,10,.08); }
+.note-box strong, .warn-box strong {
+  display:flex; align-items:center; gap:7px;
+  font-family:var(--font-u); font-size:10px; font-weight:700;
+  letter-spacing:4px; text-transform:uppercase; margin-bottom:7px;
+}
+.note-box strong { color:var(--blue); }
+.warn-box strong { color:var(--orange); }
+
+/* ══════════════════════════════════════
+   TOW METHOD
+══════════════════════════════════════ */
 .tow-block { margin-bottom:var(--gap-md); }
 .tow-banner {
   display:flex; align-items:center; gap:16px;
-  padding:18px 22px;
-  background:var(--dark3);
-  border-left:4px solid var(--gold);
-  margin-bottom:0;
+  padding:18px 20px; background:var(--dark3);
+  border-left:4px solid var(--gold); margin-bottom:0;
 }
-.tow-banner.flatbed-only { border-left-color:var(--red); background:#140808; }
-.tow-banner.flatbed-only .tow-inner-label { color:#d04040; }
-.tow-icon { font-size:1.6rem; flex-shrink:0; }
+.tow-banner.flatbed-only  { border-left-color:var(--red); background:#130a0a; }
+.tow-banner.flatbed-only .tow-inner-label { color:#c05050; }
+.tow-banner.flatbed-pref  { border-left-color:var(--amber); background:#131008; }
+.tow-banner.flatbed-pref .tow-inner-label { color:var(--amber); }
+.tow-icon { font-size:1.5rem; flex-shrink:0; }
 .tow-inner { flex:1; }
 .tow-inner-label {
   font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:4px; text-transform:uppercase; color:var(--gold-dark);
-  margin-bottom:4px;
+  letter-spacing:4px; text-transform:uppercase; color:var(--gold-dark); margin-bottom:4px;
 }
 .tow-inner-val {
-  font-family:var(--font-u); font-size:1rem; font-weight:600;
+  font-family:var(--font-u); font-size:0.95rem; font-weight:600;
   color:var(--white); line-height:1.5;
 }
 
-/* operator notes */
-.tow-notes {
-  border-top:1px solid var(--dark5);
-  background:var(--dark2);
-}
+.tow-notes { border-top:1px solid var(--dark5); background:var(--dark2); }
 .tow-notes-label {
   font-family:var(--font-u); font-size:9px; font-weight:600;
   letter-spacing:4px; text-transform:uppercase; color:var(--gray);
-  padding:12px 22px 8px;
+  padding:12px 20px 8px;
 }
-.tow-notes ul { list-style:none; padding:0 22px 14px; display:flex; flex-direction:column; gap:0; }
+.tow-notes ul { list-style:none; padding:0 20px 14px; display:flex; flex-direction:column; gap:0; }
 .tow-notes ul li {
-  font-family:var(--font-b); font-size:0.88rem; color:var(--off-white);
+  font-family:var(--font-b); font-size:0.87rem; color:var(--off-white);
   line-height:1.6; padding:9px 0 9px 20px; position:relative;
   border-bottom:1px solid var(--dark4);
 }
@@ -359,59 +490,71 @@ header {
   color:var(--gold-bright); margin-right:6px;
 }
 
-/* ── BATTERY ─────────────────────────────────── */
+/* ══════════════════════════════════════
+   BATTERY
+══════════════════════════════════════ */
 .battery-block {
   margin-bottom:var(--gap-md);
   border-left:3px solid rgba(212,168,0,.4);
   background:var(--dark2);
 }
 .battery-head {
-  display:flex; align-items:center; gap:10px;
-  padding:14px 20px 10px;
+  display:flex; align-items:center; gap:10px; padding:13px 18px 10px;
 }
 .battery-head-title {
   font-family:var(--font-u); font-size:10px; font-weight:700;
-  letter-spacing:4px; text-transform:uppercase; color:var(--gold-dark);
-  flex:1;
+  letter-spacing:4px; text-transform:uppercase; color:var(--gold-dark); flex:1;
 }
 .battery-type-badge {
   font-family:var(--font-u); font-size:9px; font-weight:700;
-  letter-spacing:2px; text-transform:uppercase;
-  padding:3px 10px; border:1px solid;
+  letter-spacing:2px; text-transform:uppercase; padding:3px 10px; border:1px solid;
 }
-.battery-type-badge.standard { color:var(--green);   border-color:rgba(78,168,75,.3);   background:var(--green-bg); }
-.battery-type-badge.agm      { color:var(--blue);    border-color:rgba(74,133,192,.3);  background:var(--blue-bg); }
-.battery-type-badge.auxiliary{ color:var(--ev-color);border-color:rgba(40,168,168,.3);  background:rgba(40,168,168,.06); }
+.battery-type-badge.standard  { color:var(--green);    border-color:rgba(78,168,75,.3);   background:var(--green-bg); }
+.battery-type-badge.agm       { color:var(--blue);     border-color:rgba(74,133,192,.3);  background:var(--blue-bg); }
+.battery-type-badge.auxiliary { color:var(--ev-color); border-color:rgba(40,168,168,.3);  background:var(--ev-bg); }
+
+/* Non-standard battery location alert */
+.battery-nonstandard {
+  margin:0 18px 0; padding:10px 14px;
+  background:rgba(200,90,10,.1); border:1px solid rgba(200,90,10,.3);
+  border-left:3px solid var(--orange);
+  font-family:var(--font-u); font-size:0.78rem; font-weight:600;
+  letter-spacing:0.5px; color:#f0b860; line-height:1.5;
+  display:none;
+}
+.battery-nonstandard.show { display:flex; align-items:flex-start; gap:8px; }
+.battery-nonstandard-icon { font-size:0.9rem; flex-shrink:0; margin-top:1px; }
+
 .battery-cols {
   display:grid; grid-template-columns:1fr 1fr; gap:0;
   border-top:1px solid var(--dark5);
 }
-@media(max-width:600px) { .battery-cols { grid-template-columns:1fr; } }
-.battery-col { padding:14px 20px; }
+@media(max-width:560px) { .battery-cols { grid-template-columns:1fr; } }
+.battery-col { padding:13px 18px; }
 .battery-col:first-child { border-right:1px solid var(--dark5); }
-@media(max-width:600px) { .battery-col:first-child { border-right:none; border-bottom:1px solid var(--dark5); } }
+@media(max-width:560px) { .battery-col:first-child { border-right:none; border-bottom:1px solid var(--dark5); } }
 .battery-col-label {
   font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:3px; text-transform:uppercase; color:var(--gold-dark);
-  margin-bottom:6px;
+  letter-spacing:3px; text-transform:uppercase; color:var(--gold-dark); margin-bottom:6px;
 }
-.battery-col-val { font-family:var(--font-b); font-size:0.88rem; color:var(--white); line-height:1.55; }
+.battery-col-val { font-family:var(--font-b); font-size:0.87rem; color:var(--white); line-height:1.55; }
 .battery-warn {
-  padding:10px 20px; border-top:1px solid var(--dark5);
+  padding:10px 18px; border-top:1px solid var(--dark5);
   font-family:var(--font-b); font-size:0.82rem; color:#c8b040;
   line-height:1.5; background:rgba(212,168,0,.04);
 }
 .battery-warn::before { content:'⚡ '; }
 
-/* ── TRANSFER CASE ─────────────────────────────────── */
+/* ══════════════════════════════════════
+   TRANSFER CASE
+══════════════════════════════════════ */
 .tc-block {
-  margin-bottom:var(--gap-md);
-  background:var(--dark2);
+  margin-bottom:var(--gap-md); background:var(--dark2);
   border-left:3px solid rgba(74,133,192,.5);
 }
 .tc-head {
   display:flex; align-items:baseline; justify-content:space-between; gap:12px;
-  padding:14px 20px 10px; flex-wrap:wrap;
+  padding:13px 18px 10px; flex-wrap:wrap;
 }
 .tc-head-title {
   font-family:var(--font-u); font-size:10px; font-weight:700;
@@ -422,132 +565,50 @@ header {
   display:grid; grid-template-columns:1fr 1.4fr; gap:0;
   border-top:1px solid var(--dark5);
 }
-@media(max-width:600px) { .tc-cols { grid-template-columns:1fr; } }
-.tc-col { padding:16px 20px; }
+@media(max-width:560px) { .tc-cols { grid-template-columns:1fr; } }
+.tc-col { padding:15px 18px; }
 .tc-col:first-child { border-right:1px solid var(--dark5); }
-@media(max-width:600px) { .tc-col:first-child { border-right:none; border-bottom:1px solid var(--dark5); } }
+@media(max-width:560px) { .tc-col:first-child { border-right:none; border-bottom:1px solid var(--dark5); } }
 .tc-col-label {
   font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:3px; text-transform:uppercase; color:var(--gray);
-  margin-bottom:10px;
+  letter-spacing:3px; text-transform:uppercase; color:var(--gray); margin-bottom:10px;
 }
-.tc-pos-list { list-style:none; display:flex; flex-direction:column; gap:6px; }
+.tc-pos-list { list-style:none; display:flex; flex-direction:column; gap:7px; }
 .tc-pos-list li {
-  font-family:var(--font-c); font-size:0.88rem; color:var(--off-white);
-  display:flex; gap:8px; align-items:flex-start; line-height:1.45;
+  font-family:var(--font-c); font-size:0.87rem; color:var(--off-white);
+  display:flex; gap:9px; align-items:flex-start; line-height:1.45;
 }
 .tc-pos-list li .pos-dot { width:5px; height:5px; background:rgba(74,133,192,.5); border-radius:50%; flex-shrink:0; margin-top:6px; }
-.tc-steps-list { list-style:none; display:flex; flex-direction:column; gap:8px; }
+.tc-pos-list li .pos-danger { color:var(--red); font-weight:600; }
+.tc-steps-list { list-style:none; display:flex; flex-direction:column; gap:9px; }
 .tc-steps-list li {
   display:flex; gap:10px; font-family:var(--font-b);
-  font-size:0.88rem; color:var(--off-white); line-height:1.55; align-items:flex-start;
+  font-size:0.87rem; color:var(--off-white); line-height:1.55; align-items:flex-start;
 }
 .tc-step-num {
-  flex-shrink:0; width:20px; height:20px;
-  border:1px solid rgba(74,133,192,.4);
+  flex-shrink:0; width:20px; height:20px; border:1px solid rgba(74,133,192,.4);
   border-radius:50%; display:flex; align-items:center; justify-content:center;
   font-family:var(--font-u); font-size:10px; font-weight:700;
   color:var(--blue); margin-top:2px; background:rgba(74,133,192,.06);
 }
 
-/* ── PROCEDURES — HERO SECTION ─────────────────────────────────── */
-.proc-section {
-  margin-bottom:var(--gap-md);
-  margin-top:var(--gap-sm);
+/* Dead battery fallback notice */
+.tc-dead-bat-note {
+  padding:10px 18px; border-top:1px solid var(--dark5);
+  background:rgba(192,57,43,.05);
+  font-family:var(--font-b); font-size:0.82rem; color:#e08060; line-height:1.5;
 }
-.proc-eyebrow {
-  font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:6px; text-transform:uppercase; color:var(--gold-dark);
-  margin-bottom:var(--gap-sm); display:flex; align-items:center; gap:14px;
-}
-.proc-eyebrow::before, .proc-eyebrow::after { content:''; flex:1; height:1px; }
-.proc-eyebrow::before { background:linear-gradient(90deg,transparent,var(--dark6)); }
-.proc-eyebrow::after  { background:linear-gradient(90deg,var(--dark6),transparent); }
+.tc-dead-bat-note::before { content:'🔴 '; }
 
-.proc-grid {
-  display:grid; grid-template-columns:1fr 1fr; gap:var(--gap-sm);
-}
-@media(max-width:600px) { .proc-grid { grid-template-columns:1fr; } }
-
-.proc-box {
-  background:var(--dark2); overflow:hidden;
-  display:flex; flex-direction:column;
-}
-/* shift — green accent */
-.proc-box.shift { border-top:3px solid var(--green); }
-/* neutral — amber accent */
-.proc-box.neutral { border-top:3px solid var(--amber); }
-
-.proc-head {
-  padding:16px 20px 14px;
-  display:flex; align-items:center; gap:10px;
-  font-family:var(--font-d); font-size:1.05rem; font-weight:900;
-  letter-spacing:3px; text-transform:uppercase;
-  border-bottom:1px solid var(--dark5);
-}
-.proc-head .ph-dot { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
-.proc-box.shift  .proc-head { color:var(--green); background:rgba(78,168,75,.05); }
-.proc-box.shift  .ph-dot { background:var(--green); box-shadow:0 0 8px rgba(78,168,75,.4); }
-.proc-box.neutral .proc-head { color:var(--amber); background:rgba(212,149,42,.05); }
-.proc-box.neutral .ph-dot { background:var(--amber); box-shadow:0 0 8px rgba(212,149,42,.4); }
-
-.proc-body { padding:20px; flex:1; }
-
-.slot-strip {
-  background:var(--dark3); border-left:2px solid var(--gold-dark);
-  padding:10px 14px; margin-bottom:16px; line-height:1.5;
-  font-family:var(--font-b); font-size:0.82rem; color:var(--gray); font-style:italic;
-}
-.slot-strip strong {
-  display:block; font-style:normal; font-family:var(--font-u);
-  font-size:9px; font-weight:700; letter-spacing:3px;
-  text-transform:uppercase; color:var(--gold-dark); margin-bottom:3px;
-}
-
-.steps-list { list-style:none; display:flex; flex-direction:column; gap:10px; }
-.steps-list li {
-  display:flex; gap:12px; font-family:var(--font-b);
-  font-size:0.9rem; color:var(--off-white); line-height:1.55; align-items:flex-start;
-}
-.step-num {
-  flex-shrink:0; width:24px; height:24px;
-  border:1px solid var(--dark6); border-radius:50%;
-  display:flex; align-items:center; justify-content:center;
-  font-family:var(--font-u); font-size:11px; font-weight:700;
-  color:var(--gold); margin-top:2px; background:var(--dark3);
-}
-.proc-box.shift  .step-num { border-color:rgba(78,168,75,.25); color:var(--green); }
-.proc-box.neutral .step-num { border-color:rgba(212,149,42,.25); color:var(--amber); }
-
-/* ── NOTES / WARNINGS ─────────────────────────────────── */
-.note-box, .warn-box {
-  padding:16px 20px; font-family:var(--font-b); font-size:0.95rem;
-  line-height:1.65; margin-bottom:var(--gap-sm);
-  border-left:4px solid;
-}
-.note-box { border-color:var(--blue); color:#c8dff0; background:rgba(74,133,192,.08); }
-.warn-box { border-color:var(--orange); color:#f0c898; background:rgba(200,90,10,.08); }
-.note-box strong {
-  display:block; font-family:var(--font-u); font-size:10px; font-weight:700;
-  letter-spacing:4px; text-transform:uppercase; color:var(--blue);
-  margin-bottom:6px; display:flex; align-items:center; gap:6px;
-}
-.warn-box strong {
-  display:block; font-family:var(--font-u); font-size:10px; font-weight:700;
-  letter-spacing:4px; text-transform:uppercase; color:var(--orange);
-  margin-bottom:6px; display:flex; align-items:center; gap:6px;
-}
-
-/* ── KNOWN ISSUES ─────────────────────────────────── */
+/* ══════════════════════════════════════
+   KNOWN ISSUES
+══════════════════════════════════════ */
 .issues-section {
-  margin-bottom:var(--gap-md);
-  border-left:3px solid rgba(192,57,43,.6);
-  background:var(--dark2);
-  overflow:hidden;
+  margin-bottom:var(--gap-md); border-left:3px solid rgba(192,57,43,.6);
+  background:var(--dark2); overflow:hidden;
 }
 .issues-header {
-  padding:14px 20px;
-  display:flex; align-items:center; gap:10px;
+  padding:13px 18px; display:flex; align-items:center; gap:10px;
   border-bottom:1px solid rgba(192,57,43,.2);
 }
 .issues-header-icon { font-size:1rem; flex-shrink:0; }
@@ -556,109 +617,50 @@ header {
   letter-spacing:4px; text-transform:uppercase; color:#c04040; flex:1;
 }
 .issues-header-count {
-  font-family:var(--font-u); font-size:9px; font-weight:700;
-  letter-spacing:2px; color:#804040;
-  background:rgba(192,57,43,.1); border:1px solid rgba(192,57,43,.2);
-  padding:3px 10px;
+  font-family:var(--font-u); font-size:9px; font-weight:700; letter-spacing:2px; color:#804040;
+  background:rgba(192,57,43,.1); border:1px solid rgba(192,57,43,.2); padding:3px 10px;
 }
 .issues-list { list-style:none; }
 .issue-item { border-bottom:1px solid rgba(192,57,43,.1); }
 .issue-item:last-child { border-bottom:none; }
 .issue-title {
-  width:100%; padding:12px 20px; background:transparent; border:none;
+  width:100%; padding:12px 18px; background:transparent; border:none;
   display:flex; align-items:center; gap:10px; cursor:pointer; text-align:left;
   transition:background .12s;
 }
 .issue-title:hover { background:rgba(192,57,43,.06); }
 .issue-title-icon { color:#c04040; font-size:0.8rem; flex-shrink:0; }
-.issue-title-text {
-  font-family:var(--font-u); font-size:0.85rem; font-weight:700;
-  letter-spacing:0.3px; color:#d07070; flex:1;
-}
+.issue-title-text { font-family:var(--font-u); font-size:0.85rem; font-weight:700; letter-spacing:0.3px; color:#d07070; flex:1; }
 .issue-chevron { color:rgba(192,57,43,.4); font-size:0.65rem; flex-shrink:0; transition:transform .2s; }
 .issue-item.open .issue-chevron { transform:rotate(90deg); }
 .issue-detail {
-  display:none; padding:0 20px 14px 38px;
+  display:none; padding:0 18px 14px 36px;
   font-family:var(--font-b); font-size:0.87rem; color:var(--off-white);
   line-height:1.65; background:rgba(192,57,43,.03);
 }
 .issue-item.open .issue-detail { display:block; }
 
-/* ── TOWSPEC ─────────────────────────────────── */
-.towspec-wrap { margin-bottom:var(--gap-sm); }
-.towspec-lbl {
-  font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:4px; text-transform:uppercase; color:var(--gray);
-  margin-bottom:8px;
-}
-.towspec-btn {
-  display:flex; align-items:center; justify-content:space-between;
-  width:100%; padding:15px 20px;
-  background:transparent; border:1px solid var(--dark5);
-  border-left:3px solid var(--gold-dark);
-  color:var(--off-white); text-decoration:none;
-  font-family:var(--font-u); font-size:0.9rem; font-weight:600;
-  letter-spacing:2px; text-transform:uppercase;
-  transition:all .2s;
-}
-.towspec-btn:hover { border-left-color:var(--gold-bright); color:var(--gold-bright); background:rgba(200,144,10,.04); transform:translateX(3px); }
-.towspec-btn .arr { font-size:1.1rem; transition:transform .2s; }
-.towspec-btn:hover .arr { transform:translateX(4px); }
-
-/* ── PRINT / SHARE ─────────────────────────────────── */
-.print-share-row { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:var(--gap-sm); }
-.action-btn {
-  padding:12px; background:transparent; border:1px solid var(--dark5);
-  color:var(--gray); font-family:var(--font-u); font-size:0.8rem;
-  font-weight:600; letter-spacing:1.5px; text-transform:uppercase;
-  cursor:pointer; transition:all .18s;
-}
-.action-btn:hover { color:var(--white); border-color:var(--dark6); background:var(--dark3); }
-.print-btn:hover { border-color:var(--gold-dark); color:var(--gold); }
-.share-btn:hover { border-color:rgba(74,133,192,.5); color:var(--blue); }
-
-/* ── SECTION DIVIDER ─────────────────────────────────── */
-.sec-divider {
-  height:1px; background:var(--dark5);
-  margin:var(--gap-md) 0;
-}
-
-/* ── FOOTER ─────────────────────────────────── */
-footer {
-  border-top:1px solid var(--dark5);
-  padding:32px 28px; text-align:center;
-  background:var(--dark1);
-}
-footer a { color:var(--gold-dark); text-decoration:none; font-family:var(--font-u); font-size:13px; letter-spacing:2px; transition:color .2s; }
-footer a:hover { color:var(--gold); }
-footer p { font-family:var(--font-b); font-size:11px; color:var(--gray); margin-top:8px; }
-footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
-
-/* ── NHTSA PANEL ── */
+/* ══════════════════════════════════════
+   NHTSA PANEL
+══════════════════════════════════════ */
 .nhtsa-panel {
-  margin-bottom:var(--gap-md);
-  background:var(--dark2);
-  border-left:3px solid rgba(74,133,192,.5);
-  overflow:hidden;
+  margin-bottom:var(--gap-md); background:var(--dark2);
+  border-left:3px solid rgba(74,133,192,.5); overflow:hidden;
 }
 .nhtsa-head {
   display:flex; align-items:center; gap:10px;
-  padding:14px 20px 10px; border-bottom:1px solid var(--dark5);
+  padding:13px 18px 10px; border-bottom:1px solid var(--dark5);
 }
 .nhtsa-head-icon { font-size:1rem; flex-shrink:0; opacity:.8; }
 .nhtsa-head-title {
   font-family:var(--font-u); font-size:10px; font-weight:700;
   letter-spacing:4px; text-transform:uppercase; color:var(--blue); flex:1;
 }
-.nhtsa-head-sub {
-  font-family:var(--font-u); font-size:9px; letter-spacing:2px;
-  color:var(--gray); text-transform:uppercase;
-}
+.nhtsa-head-sub { font-family:var(--font-u); font-size:9px; letter-spacing:2px; color:var(--gray); text-transform:uppercase; }
 .nhtsa-body { padding:4px 0 8px; }
 .nhtsa-row {
   display:flex; align-items:baseline; gap:12px;
-  padding:8px 20px; border-bottom:1px solid var(--dark4);
-  flex-wrap:wrap;
+  padding:7px 18px; border-bottom:1px solid var(--dark4); flex-wrap:wrap;
 }
 .nhtsa-row:last-child { border-bottom:none; }
 .nhtsa-label {
@@ -666,55 +668,42 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
   letter-spacing:3px; text-transform:uppercase; color:var(--gold-dark);
   flex-shrink:0; min-width:110px;
 }
-.nhtsa-val {
-  font-family:var(--font-b); font-size:0.88rem;
-  color:var(--off-white); line-height:1.5; word-break:break-all;
-}
+.nhtsa-val { font-family:var(--font-b); font-size:0.87rem; color:var(--off-white); line-height:1.5; word-break:break-all; }
 
-.vin-capture-wrap {
-  position:absolute; bottom:24px; left:0; right:0;
-  display:flex; flex-direction:column; align-items:center; gap:8px;
-  pointer-events:none;
+/* ══════════════════════════════════════
+   TOWSPEC + ACTIONS
+══════════════════════════════════════ */
+.towspec-wrap { margin-bottom:var(--gap-sm); }
+.towspec-lbl {
+  font-family:var(--font-u); font-size:9px; font-weight:600;
+  letter-spacing:4px; text-transform:uppercase; color:var(--gray); margin-bottom:8px;
 }
-.vin-capture-btn {
-  width:72px; height:72px; border-radius:50%;
-  background:rgba(255,255,255,.15); border:3px solid rgba(255,255,255,.8);
-  cursor:pointer; position:relative; pointer-events:all;
-  display:flex; align-items:center; justify-content:center;
-  transition:transform .1s, background .2s;
-  -webkit-tap-highlight-color:transparent;
+.towspec-btn {
+  display:flex; align-items:center; justify-content:space-between;
+  width:100%; padding:15px 18px;
+  background:transparent; border:1px solid var(--dark5); border-left:3px solid var(--gold-dark);
+  color:var(--off-white); text-decoration:none;
+  font-family:var(--font-u); font-size:0.88rem; font-weight:600;
+  letter-spacing:2px; text-transform:uppercase; transition:all .2s;
 }
-.vin-capture-btn:active { transform:scale(.92); background:rgba(255,255,255,.3); }
-.vin-capture-ring {
-  position:absolute; inset:-6px; border-radius:50%;
-  border:3px solid var(--gold); animation:captureRing 2s ease-in-out infinite;
-}
-@keyframes captureRing { 0%,100%{opacity:.4;transform:scale(1);} 50%{opacity:1;transform:scale(1.05);} }
-.vin-capture-dot {
-  width:52px; height:52px; border-radius:50%;
-  background:rgba(255,255,255,.9);
-}
-.vin-capture-btn:active .vin-capture-dot { background:var(--gold-bright); }
-.vin-capture-hint {
-  font-family:var(--font-u); font-size:11px; font-weight:600;
-  letter-spacing:3px; text-transform:uppercase;
-  color:rgba(255,255,255,.7); text-shadow:0 1px 4px rgba(0,0,0,.8);
-  pointer-events:none;
-}
-.vin-capture-btn:disabled { opacity:.4; cursor:not-allowed; }
-.vin-capture-btn:disabled .vin-capture-ring { animation:none; }
+.towspec-btn:hover { border-left-color:var(--gold-bright); color:var(--gold-bright); background:rgba(200,144,10,.04); transform:translateX(3px); }
+.towspec-btn .arr { font-size:1.1rem; transition:transform .2s; }
+.towspec-btn:hover .arr { transform:translateX(4px); }
 
-/* ── VIN SCANNER ── */
-.vin-btn {
-  width:100%; background:transparent; border:1px solid var(--gold-dark);
-  color:var(--gold); font-family:var(--font-u); font-size:0.85rem;
-  font-weight:700; letter-spacing:3px; text-transform:uppercase;
-  padding:12px; cursor:pointer; transition:all .2s;
-  display:flex; align-items:center; justify-content:center; gap:10px;
-  margin-bottom:12px;
+.print-share-row { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:var(--gap-sm); }
+.action-btn {
+  padding:12px; background:transparent; border:1px solid var(--dark5);
+  color:var(--gray); font-family:var(--font-u); font-size:0.8rem;
+  font-weight:600; letter-spacing:1.5px; text-transform:uppercase;
+  transition:all .18s;
 }
-.vin-btn:hover { background:rgba(200,144,10,.08); border-color:var(--gold); }
-.vin-btn:disabled { opacity:.3; cursor:not-allowed; }
+.action-btn:hover { color:var(--white); border-color:var(--dark6); background:var(--dark3); }
+.print-btn:hover { border-color:var(--gold-dark); color:var(--gold); }
+.share-btn:hover { border-color:rgba(74,133,192,.5); color:var(--blue); }
+
+/* ══════════════════════════════════════
+   VIN SCANNER OVERLAY
+══════════════════════════════════════ */
 .vin-overlay {
   position:fixed; inset:0; z-index:1000;
   background:rgba(0,0,0,.97); display:none; flex-direction:column;
@@ -730,7 +719,7 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
 }
 .vin-overlay-close {
   background:transparent; border:none; color:var(--gray);
-  font-size:1.4rem; cursor:pointer; padding:4px 8px; line-height:1;
+  font-size:1.4rem; padding:4px 8px; line-height:1;
 }
 .vin-overlay-close:hover { color:var(--white); }
 .vin-camera-wrap {
@@ -775,23 +764,14 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
 .vin-status-dot.found { background:var(--green); }
 .vin-status-dot.error { background:var(--red); }
 @keyframes vdot { from{opacity:.4;} to{opacity:1;} }
-.vin-status-text {
-  font-family:var(--font-u); font-size:0.8rem; font-weight:600;
-  letter-spacing:1px; color:var(--gray); flex:1;
-}
-.vin-manual-wrap {
-  padding:20px; background:var(--dark1); border-top:1px solid var(--dark5); display:none;
-}
+.vin-status-text { font-family:var(--font-u); font-size:0.8rem; font-weight:600; letter-spacing:1px; color:var(--gray); flex:1; }
+.vin-manual-wrap { padding:20px; background:var(--dark1); border-top:1px solid var(--dark5); display:none; }
 .vin-manual-wrap.show { display:block; }
-.vin-manual-label {
-  font-family:var(--font-u); font-size:9px; font-weight:600;
-  letter-spacing:4px; text-transform:uppercase; color:var(--gray); margin-bottom:8px; display:block;
-}
+.vin-manual-label { font-family:var(--font-u); font-size:9px; font-weight:600; letter-spacing:4px; text-transform:uppercase; color:var(--gray); margin-bottom:8px; display:block; }
 .vin-manual-row { display:flex; gap:8px; }
 .vin-manual-input {
-  flex:1; background:var(--dark3); border:1px solid var(--dark5);
-  border-bottom:2px solid var(--gold-dark); color:var(--white);
-  font-family:var(--font-u); font-size:0.95rem; font-weight:600;
+  flex:1; background:var(--dark3); border:1px solid var(--dark5); border-bottom:2px solid var(--gold-dark);
+  color:var(--white); font-family:var(--font-u); font-size:0.95rem; font-weight:600;
   padding:11px 14px; outline:none; letter-spacing:2px; text-transform:uppercase;
 }
 .vin-manual-input:focus { border-bottom-color:var(--gold-bright); }
@@ -799,35 +779,102 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
 .vin-manual-btn {
   background:var(--gold); border:none; color:var(--black);
   font-family:var(--font-u); font-size:0.8rem; font-weight:700;
-  letter-spacing:2px; text-transform:uppercase; padding:11px 18px;
-  cursor:pointer; transition:background .2s; white-space:nowrap;
+  letter-spacing:2px; text-transform:uppercase; padding:11px 18px; transition:background .2s; white-space:nowrap;
 }
 .vin-manual-btn:hover { background:var(--gold-bright); }
-.vin-decoded {
-  display:none; margin-bottom:12px;
-  background:rgba(78,168,75,.08); border:1px solid rgba(78,168,75,.3);
-  border-left:3px solid var(--green); padding:10px 14px;
-  font-family:var(--font-u); font-size:0.8rem; color:var(--green); letter-spacing:1px;
-}
-.vin-decoded.show { display:flex; align-items:center; gap:10px; }
-.vin-decoded-text { flex:1; }
-.vin-decoded-clear { background:transparent; border:none; color:var(--gray); cursor:pointer; font-size:1rem; padding:0 4px; }
-.vin-decoded-clear:hover { color:var(--white); }
 
-/* ── PRINT ─────────────────────────────────── */
+.vin-capture-wrap {
+  position:absolute; bottom:24px; left:0; right:0;
+  display:flex; flex-direction:column; align-items:center; gap:8px; pointer-events:none;
+}
+.vin-capture-btn {
+  width:72px; height:72px; border-radius:50%;
+  background:rgba(255,255,255,.15); border:3px solid rgba(255,255,255,.8);
+  position:relative; pointer-events:all;
+  display:flex; align-items:center; justify-content:center;
+  transition:transform .1s, background .2s;
+  -webkit-tap-highlight-color:transparent;
+}
+.vin-capture-btn:active { transform:scale(.92); background:rgba(255,255,255,.3); }
+.vin-capture-ring {
+  position:absolute; inset:-6px; border-radius:50%;
+  border:3px solid var(--gold); animation:captureRing 2s ease-in-out infinite;
+}
+@keyframes captureRing { 0%,100%{opacity:.4;transform:scale(1);} 50%{opacity:1;transform:scale(1.05);} }
+.vin-capture-dot { width:52px; height:52px; border-radius:50%; background:rgba(255,255,255,.9); }
+.vin-capture-btn:active .vin-capture-dot { background:var(--gold-bright); }
+.vin-capture-hint {
+  font-family:var(--font-u); font-size:11px; font-weight:600;
+  letter-spacing:3px; text-transform:uppercase;
+  color:rgba(255,255,255,.7); text-shadow:0 1px 4px rgba(0,0,0,.8); pointer-events:none;
+}
+.vin-capture-btn:disabled { opacity:.4; cursor:not-allowed; }
+.vin-capture-btn:disabled .vin-capture-ring { animation:none; }
+
+/* ══════════════════════════════════════
+   QUICK-TIPS PANEL (new)
+══════════════════════════════════════ */
+.quicktips {
+  margin-bottom:var(--gap-md);
+  border:1px solid var(--dark5); border-top:2px solid var(--gold-dark);
+  background:var(--dark2); overflow:hidden;
+}
+.quicktips-head {
+  display:flex; align-items:center; gap:10px; padding:13px 18px;
+  border-bottom:1px solid var(--dark5); cursor:pointer;
+  transition:background .15s;
+}
+.quicktips-head:hover { background:var(--dark3); }
+.quicktips-title {
+  font-family:var(--font-u); font-size:9px; font-weight:700;
+  letter-spacing:5px; text-transform:uppercase; color:var(--gold-dark); flex:1;
+}
+.quicktips-chevron { color:var(--gray); font-size:0.65rem; transition:transform .25s; }
+.quicktips.open .quicktips-chevron { transform:rotate(90deg); }
+.quicktips-body { display:none; padding:0; }
+.quicktips.open .quicktips-body { display:block; }
+.qt-grid { display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--dark5); }
+@media(max-width:560px){ .qt-grid { grid-template-columns:1fr; } }
+.qt-item { background:var(--dark2); padding:14px 18px; }
+.qt-label {
+  font-family:var(--font-u); font-size:9px; font-weight:700;
+  letter-spacing:3px; text-transform:uppercase; color:var(--gold-dark); margin-bottom:6px;
+}
+.qt-val { font-family:var(--font-b); font-size:0.85rem; color:var(--off-white); line-height:1.55; }
+.qt-val strong { color:var(--white); }
+
+/* ══════════════════════════════════════
+   FOOTER
+══════════════════════════════════════ */
+footer {
+  border-top:1px solid var(--dark5); padding:32px 24px; text-align:center; background:var(--dark1);
+}
+footer a { color:var(--gold-dark); text-decoration:none; font-family:var(--font-u); font-size:13px; letter-spacing:2px; transition:color .2s; }
+footer a:hover { color:var(--gold); }
+footer p { font-family:var(--font-b); font-size:11px; color:var(--gray); margin-top:8px; }
+footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
+
+/* ══════════════════════════════════════
+   PRINT
+══════════════════════════════════════ */
 @media print {
-  header, .hero, .lookup-card, .print-share-row, .towspec-wrap, footer { display:none !important; }
+  header, .hero, .lookup-card, .print-share-row, .towspec-wrap, .quicktips, footer { display:none !important; }
   body { background:#fff !important; color:#000 !important; }
   #results { display:block !important; }
-  .veh-name { color:#000 !important; }
-  .chip-label, .info-cell-label, .battery-col-label, .tc-col-label { color:#666 !important; }
+  .veh-name { color:#000 !important; font-size:2rem !important; }
+  .info-cell-label, .battery-col-label, .tc-col-label { color:#666 !important; }
   .proc-box.shift { border-top-color:#2a6028 !important; }
   .proc-box.neutral { border-top-color:#8a5000 !important; }
-  .proc-box.shift .proc-head { color:#2a6028 !important; }
-  .proc-box.neutral .proc-head { color:#8a5000 !important; }
+  .proc-box.shift .proc-head { color:#2a6028 !important; background:#f0fff0 !important; }
+  .proc-box.neutral .proc-head { color:#8a5000 !important; background:#fff8f0 !important; }
+  .proc-box { background:#fff !important; border:1px solid #ccc !important; page-break-inside:avoid; }
   .issue-detail { display:block !important; }
   .issue-chevron { display:none; }
-  * { box-shadow:none !important; text-shadow:none !important; }
+  .battery-block, .tc-block, .tow-block, .issues-section, .nhtsa-panel { background:#f8f8f8 !important; border-color:#ccc !important; page-break-inside:avoid; }
+  .note-box { background:#e8f4ff !important; color:#000 !important; }
+  .warn-box { background:#fff4e0 !important; color:#000 !important; }
+  .section-filters { display:none !important; }
+  * { box-shadow:none !important; text-shadow:none !important; color-adjust:exact; }
   @page { margin:1.5cm; }
 }
 </style>
@@ -840,7 +887,10 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
     <a href="https://bandittowing.com" class="logo-link">
       <img src="../images/logo-nobg.png" alt="Bandit Towing & Transport">
     </a>
-    <a href="tel:9196569468" class="hdr-phone">(919) 656-9468</a>
+    <div class="hdr-right">
+      <span class="hdr-count" id="hdr-count"></span>
+      <a href="tel:9196569468" class="hdr-phone">(919) 656-9468</a>
+    </div>
   </div>
 </header>
 
@@ -848,7 +898,13 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
 <div class="hero">
   <div class="hero-eyebrow">Professional Field Reference</div>
   <h1>Shift Lock &amp; <em>Neutral Override</em></h1>
-  <p class="hero-sub">Step-by-step shift lock release · Neutral override with dead battery · Battery terminal locations · Transfer case procedures · Tow method — 380 vehicles, 38 makes, 1990–2026</p>
+  <p class="hero-sub">Step-by-step shift lock release · Neutral override with dead battery · Battery terminal locations · Transfer case procedures · Tow method — 550 vehicles, 38 makes, 1990–2026</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><span class="hero-stat-num" id="stat-vehicles">550</span><span class="hero-stat-lbl">Vehicles</span></div>
+    <div class="hero-stat"><span class="hero-stat-num">38</span><span class="hero-stat-lbl">Makes</span></div>
+    <div class="hero-stat"><span class="hero-stat-num">36</span><span class="hero-stat-lbl">Years</span></div>
+    <div class="hero-stat"><span class="hero-stat-num">6</span><span class="hero-stat-lbl">Data Points</span></div>
+  </div>
 </div>
 
 <!-- ═══ MAIN ═══ -->
@@ -889,7 +945,7 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
         <select id="sel-make" disabled><option value="">— Make —</option></select>
         <span class="sel-arr">▼</span>
       </div>
-      <div class="sel-wrap">
+      <div class="sel-wrap sel-model-wrap">
         <label>Model</label>
         <select id="sel-model" disabled><option value="">— Model —</option></select>
         <span class="sel-arr">▼</span>
@@ -915,13 +971,13 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
       <button class="sf-btn active" data-section="all">All</button>
       <div class="sf-divider"></div>
       <button class="sf-btn" data-section="procedures">Procedures</button>
-      <button class="sf-btn" data-section="battery">Battery &amp; Terminals</button>
+      <button class="sf-btn" data-section="battery">Battery</button>
       <button class="sf-btn" data-section="towing">Tow Method</button>
       <button class="sf-btn" data-section="tc">Transfer Case</button>
       <button class="sf-btn" data-section="issues">Known Issues</button>
     </div>
 
-    <!-- Info row -->
+    <!-- Info row: drivetrain / transmission / year range -->
     <div class="info-row sec-towing">
       <div class="info-cell">
         <div class="info-cell-label">Drivetrain</div>
@@ -937,7 +993,7 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
       </div>
     </div>
 
-    <!-- Shift lock + Neutral override — PRIMARY CONTENT -->
+    <!-- ══ PROCEDURES ══ -->
     <div class="proc-section sec-procedures">
       <div class="proc-eyebrow">Procedures</div>
       <div class="proc-grid">
@@ -961,12 +1017,12 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
     <div class="note-box sec-procedures" id="res-note" style="display:none"></div>
     <div class="warn-box sec-procedures" id="res-warn" style="display:none"></div>
 
-    <!-- Tow method -->
+    <!-- ══ TOW METHOD ══ -->
     <div class="tow-block sec-towing">
       <div class="tow-banner" id="res-tow-banner">
         <div class="tow-icon" id="res-tow-icon">🚛</div>
         <div class="tow-inner">
-          <div class="tow-inner-label">Recommended Tow Method</div>
+          <div class="tow-inner-label" id="res-tow-banner-label">Recommended Tow Method</div>
           <div class="tow-inner-val" id="res-towmethod"></div>
         </div>
       </div>
@@ -976,12 +1032,17 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
       </div>
     </div>
 
-    <!-- Battery & Terminals -->
+    <!-- ══ BATTERY ══ -->
     <div class="battery-block sec-battery">
       <div class="battery-head">
         <span style="font-size:1rem;opacity:.7">🔋</span>
         <span class="battery-head-title">Battery &amp; Jump Terminals</span>
         <span class="battery-type-badge" id="res-bat-badge"></span>
+      </div>
+      <!-- Non-standard location alert — shown when battery NOT under hood -->
+      <div class="battery-nonstandard" id="res-bat-nonstandard">
+        <span class="battery-nonstandard-icon">⚠</span>
+        <span id="res-bat-nonstandard-text"></span>
       </div>
       <div class="battery-cols">
         <div class="battery-col">
@@ -996,7 +1057,7 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
       <div class="battery-warn" id="res-bat-warn" style="display:none"></div>
     </div>
 
-    <!-- Transfer case -->
+    <!-- ══ TRANSFER CASE ══ -->
     <div class="tc-block sec-tc" id="res-tc-box" style="display:none">
       <div class="tc-head">
         <div class="tc-head-title">⚙ Transfer Case — Shift to 2WD Before Towing</div>
@@ -1008,13 +1069,14 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
           <ul class="tc-pos-list" id="res-tc-positions"></ul>
         </div>
         <div class="tc-col">
-          <div class="tc-col-label">Steps to Put in 2WD / 2H</div>
+          <div class="tc-col-label">Steps to Shift to 2WD / 2H</div>
           <ul class="tc-steps-list" id="res-tc-steps"></ul>
         </div>
       </div>
+      <div class="tc-dead-bat-note" id="res-tc-dead-note" style="display:none"></div>
     </div>
 
-    <!-- Known Issues -->
+    <!-- ══ KNOWN ISSUES ══ -->
     <div class="issues-section sec-issues" id="res-issues" style="display:none">
       <div class="issues-header">
         <span class="issues-header-icon">⚠️</span>
@@ -1024,7 +1086,7 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
       <ul class="issues-list" id="res-issues-list"></ul>
     </div>
 
-    <!-- NHTSA Vehicle Data Panel — shown after VIN scan -->
+    <!-- ══ NHTSA PANEL ══ -->
     <div id="nhtsa-panel" class="nhtsa-panel" style="display:none">
       <div class="nhtsa-head">
         <span class="nhtsa-head-icon">🔍</span>
@@ -1032,6 +1094,18 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
         <span class="nhtsa-head-sub">Official decoded VIN specs</span>
       </div>
       <div class="nhtsa-body" id="nhtsa-body"></div>
+    </div>
+
+    <!-- ══ QUICK REFERENCE TIPS ══ -->
+    <div class="quicktips sec-procedures" id="res-quicktips" style="display:none">
+      <div class="quicktips-head" onclick="this.parentElement.classList.toggle('open')">
+        <span style="font-size:0.9rem;opacity:.6">💡</span>
+        <span class="quicktips-title">Quick Reference — Key Operator Reminders</span>
+        <span class="quicktips-chevron">▶</span>
+      </div>
+      <div class="quicktips-body">
+        <div class="qt-grid" id="res-qt-grid"></div>
+      </div>
     </div>
 
     <!-- TowSpec link -->
@@ -1069,12 +1143,9 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
     <video id="vin-video" autoplay playsinline muted></video>
     <canvas id="vin-canvas" style="display:none"></canvas>
     <div class="vin-aim">
-      <div class="vin-aim-box">
-        <div class="vin-scan-line"></div>
-      </div>
+      <div class="vin-aim-box"><div class="vin-scan-line"></div></div>
       <div class="vin-aim-label">Align the VIN barcode inside the box</div>
     </div>
-    <!-- Capture button sits over the camera view -->
     <div class="vin-capture-wrap">
       <button class="vin-capture-btn" id="vin-capture-btn" title="Take photo to scan VIN">
         <div class="vin-capture-ring"></div>
@@ -1090,108 +1161,49 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
   <div class="vin-manual-wrap" id="vin-manual-wrap">
     <label class="vin-manual-label">Enter VIN Manually</label>
     <div class="vin-manual-row">
-      <input type="text" class="vin-manual-input" id="vin-manual-input" placeholder="17-character VIN" maxlength="17" autocomplete="off" autocorrect="off" autocapitalize="characters" spellcheck="false">
+      <input type="text" class="vin-manual-input" id="vin-manual-input"
+        placeholder="17-character VIN" maxlength="17" autocomplete="off"
+        autocorrect="off" autocapitalize="characters" spellcheck="false">
       <button class="vin-manual-btn" id="vin-manual-submit">Look Up</button>
     </div>
   </div>
 </div>
 
 <script>
-/* ═══════════════════════════════════════════════════════════
-   DRIVETRAIN EMBLEM BUILDER
-   Returns an HTML string with SVG icon + label
-═══════════════════════════════════════════════════════════ */
+/* ════════════════════════════════════════════════════════════════
+   DRIVETRAIN EMBLEM
+════════════════════════════════════════════════════════════════ */
 function dtClass(dt) {
   if (!dt) return 'multi';
   const u = dt.toUpperCase();
-  if (u.includes('ELECTRIC') || u.includes('EV') || u.startsWith('FWD (E') || u.startsWith('AWD (E') || u.startsWith('RWD OR AWD (D') || u.includes('ELECTRIC/PHEV')) return 'ev';
-  if (u.includes('QUATTRO') || u.includes('XDRIVE') || u.includes('4MATIC') || u.includes('SH-AWD') || u.includes('VTM-4') || u.includes('SYMMETRICAL') || u.includes('ATTESA') || u.includes('AWD (D') || u.includes('AWD (S') || u.includes('AWD (I') || u.includes('AWD STANDARD') || (u.startsWith('AWD') && !u.includes('OR'))) return 'awd';
-  if (u.includes('4WD') && !u.includes('FWD OR') && !u.includes('RWD OR AWD')) return '4wd';
+  if (u.includes('ELECTRIC') || u.includes('EV') || u.includes('ELECTRIC/PHEV')) return 'ev';
+  if (u.startsWith('AWD') && !u.includes('OR') && !u.includes('HALDEX')
+      || u.includes('QUATTRO') || u.includes('XDRIVE') || u.includes('4MATIC')
+      || u.includes('SH-AWD') || u.includes('VTM-4') || u.includes('SYMMETRICAL')
+      || u.includes('ATTESA') || u.includes('PERMANENT') || u.includes('PTM')) return 'awd';
+  if ((u.includes('4WD') || u.includes('AWD (HALDEX') || u.includes('PART-TIME')) && !u.includes('FWD OR') && !u.includes('RWD OR AWD')) return '4wd';
   if (u.includes('RWD') && !u.includes('AWD') && !u.includes('FWD')) return 'rwd';
   if (u.startsWith('FWD') && !u.includes('OR AWD') && !u.includes('OR 4WD')) return 'fwd';
   return 'multi';
 }
 
-// SVG icons for each drivetrain type
 const DT_ICONS = {
-  fwd: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <!-- car body simplified -->
-    <rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/>
-    <rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/>
-    <!-- front wheels (active) -->
-    <circle cx="10" cy="23" r="4" fill="currentColor" opacity=".9"/>
-    <circle cx="10" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>
-    <!-- rear wheels (inactive) -->
-    <circle cx="30" cy="23" r="4" fill="currentColor" opacity=".25"/>
-    <!-- arrow front -->
-    <path d="M4 18 L1 15 M4 18 L1 21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".8"/>
-  </svg>`,
-  rwd: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/>
-    <rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/>
-    <!-- front wheels (inactive) -->
-    <circle cx="10" cy="23" r="4" fill="currentColor" opacity=".25"/>
-    <!-- rear wheels (active) -->
-    <circle cx="30" cy="23" r="4" fill="currentColor" opacity=".9"/>
-    <circle cx="30" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>
-    <!-- arrow rear -->
-    <path d="M36 18 L39 15 M36 18 L39 21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".8"/>
-  </svg>`,
-  awd: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/>
-    <rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/>
-    <!-- all wheels active -->
-    <circle cx="10" cy="23" r="4" fill="currentColor" opacity=".9"/>
-    <circle cx="10" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>
-    <circle cx="30" cy="23" r="4" fill="currentColor" opacity=".9"/>
-    <circle cx="30" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>
-    <!-- driveshaft line -->
-    <line x1="10" y1="19" x2="30" y2="19" stroke="currentColor" stroke-width="1" stroke-dasharray="3,2" opacity=".5"/>
-  </svg>`,
-  '4wd': `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/>
-    <rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/>
-    <!-- all wheels active with TC indicator -->
-    <circle cx="10" cy="23" r="4" fill="currentColor" opacity=".9"/>
-    <circle cx="10" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>
-    <circle cx="30" cy="23" r="4" fill="currentColor" opacity=".9"/>
-    <circle cx="30" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>
-    <!-- transfer case box -->
-    <rect x="17" y="17" width="6" height="5" rx="1" fill="currentColor" opacity=".7"/>
-    <line x1="10" y1="19" x2="17" y2="19" stroke="currentColor" stroke-width="1.2" opacity=".6"/>
-    <line x1="23" y1="19" x2="30" y2="19" stroke="currentColor" stroke-width="1.2" opacity=".6"/>
-  </svg>`,
-  ev: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/>
-    <rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/>
-    <circle cx="10" cy="23" r="4" fill="currentColor" opacity=".8"/>
-    <circle cx="30" cy="23" r="4" fill="currentColor" opacity=".8"/>
-    <!-- lightning bolt -->
-    <path d="M21 10 L19 15 L21.5 15 L19 21 L23 14 L20.5 14 Z" fill="currentColor" opacity=".9"/>
-  </svg>`,
-  multi: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/>
-    <rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/>
-    <circle cx="10" cy="23" r="4" fill="currentColor" opacity=".6"/>
-    <circle cx="30" cy="23" r="4" fill="currentColor" opacity=".6"/>
-    <text x="20" y="20" font-family="sans-serif" font-size="7" text-anchor="middle" fill="currentColor" opacity=".8">?</text>
-  </svg>`
+  fwd: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/><rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/><circle cx="10" cy="23" r="4" fill="currentColor" opacity=".9"/><circle cx="10" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><circle cx="30" cy="23" r="4" fill="currentColor" opacity=".25"/><path d="M4 18 L1 15 M4 18 L1 21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".8"/></svg>`,
+  rwd: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/><rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/><circle cx="10" cy="23" r="4" fill="currentColor" opacity=".25"/><circle cx="30" cy="23" r="4" fill="currentColor" opacity=".9"/><circle cx="30" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><path d="M36 18 L39 15 M36 18 L39 21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".8"/></svg>`,
+  awd: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/><rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/><circle cx="10" cy="23" r="4" fill="currentColor" opacity=".9"/><circle cx="10" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><circle cx="30" cy="23" r="4" fill="currentColor" opacity=".9"/><circle cx="30" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><line x1="10" y1="19" x2="30" y2="19" stroke="currentColor" stroke-width="1" stroke-dasharray="3,2" opacity=".5"/></svg>`,
+  '4wd': `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/><rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/><circle cx="10" cy="23" r="4" fill="currentColor" opacity=".9"/><circle cx="10" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><circle cx="30" cy="23" r="4" fill="currentColor" opacity=".9"/><circle cx="30" cy="23" r="2" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><rect x="17" y="17" width="6" height="5" rx="1" fill="currentColor" opacity=".7"/><line x1="10" y1="19" x2="17" y2="19" stroke="currentColor" stroke-width="1.2" opacity=".6"/><line x1="23" y1="19" x2="30" y2="19" stroke="currentColor" stroke-width="1.2" opacity=".6"/></svg>`,
+  ev: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/><rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/><circle cx="10" cy="23" r="4" fill="currentColor" opacity=".8"/><circle cx="30" cy="23" r="4" fill="currentColor" opacity=".8"/><path d="M21 10 L19 15 L21.5 15 L19 21 L23 14 L20.5 14 Z" fill="currentColor" opacity=".9"/></svg>`,
+  multi: `<svg viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="12" width="36" height="10" rx="2" fill="currentColor" opacity=".15" stroke="currentColor" stroke-width="1.2"/><rect x="8" y="7" width="24" height="8" rx="2" fill="currentColor" opacity=".12" stroke="currentColor" stroke-width="1"/><circle cx="10" cy="23" r="4" fill="currentColor" opacity=".6"/><circle cx="30" cy="23" r="4" fill="currentColor" opacity=".6"/><text x="20" y="20" font-family="sans-serif" font-size="7" text-anchor="middle" fill="currentColor" opacity=".8">?</text></svg>`
 };
-
-const DT_LABELS = {
-  fwd: 'FWD', rwd: 'RWD', awd: 'AWD', '4wd': '4WD', ev: 'Electric', multi: 'Mixed'
-};
-
+const DT_LABELS = { fwd:'FWD', rwd:'RWD', awd:'AWD', '4wd':'4WD', ev:'Electric', multi:'Mixed' };
 function buildDtEmblem(drivetrain) {
   const cls = dtClass(drivetrain);
-  const icon = DT_ICONS[cls] || DT_ICONS.multi;
-  const label = DT_LABELS[cls] || 'Mixed';
-  return `<div class="dt-emblem ${cls}">${icon}<span>${label}</span></div>`;
+  return `<div class="dt-emblem ${cls}">${DT_ICONS[cls]||DT_ICONS.multi}<span>${DT_LABELS[cls]||'Mixed'}</span></div>`;
 }
 
-/* ═══════════════════════════════════════════════════════════
+/* ════════════════════════════════════════════════════════════════
    DATABASE LOADER
-═══════════════════════════════════════════════════════════ */
+════════════════════════════════════════════════════════════════ */
 let DB = [];
 const selYear  = document.getElementById('sel-year');
 const selMake  = document.getElementById('sel-make');
@@ -1201,7 +1213,6 @@ const dbStatus = document.getElementById('db-status');
 
 async function loadDB() {
   try {
-    // Load manifest first, then fetch all make files in parallel
     const manifestRes = await fetch('makes/manifest.json');
     if (!manifestRes.ok) throw new Error('HTTP ' + manifestRes.status);
     const manifest = await manifestRes.json();
@@ -1215,7 +1226,10 @@ async function loadDB() {
     );
 
     DB = results.flat();
+    const total = DB.length;
     dbStatus.style.display = 'none';
+    document.getElementById('stat-vehicles').textContent = total;
+    document.getElementById('hdr-count').textContent = total + ' Vehicles';
     initYears();
     vinScanBtn.disabled = false;
   } catch(e) {
@@ -1225,9 +1239,9 @@ async function loadDB() {
   }
 }
 
-/* ═══════════════════════════════════════════════════════════
+/* ════════════════════════════════════════════════════════════════
    DROPDOWN LOGIC
-═══════════════════════════════════════════════════════════ */
+════════════════════════════════════════════════════════════════ */
 function initYears() {
   for (let y = 2026; y >= 1990; y--) selYear.add(new Option(y, y));
   selYear.disabled = false;
@@ -1259,33 +1273,42 @@ selMake.addEventListener('change', function() {
 
 selModel.addEventListener('change', () => { btn.disabled = !selModel.value; });
 
-/* ═══════════════════════════════════════════════════════════
+/* ════════════════════════════════════════════════════════════════
    HELPERS
-═══════════════════════════════════════════════════════════ */
+════════════════════════════════════════════════════════════════ */
 function setEl(id, html, asText) {
   const el = document.getElementById(id);
   if (!el) return;
   asText ? (el.textContent = html) : (el.innerHTML = html);
 }
-
 function showHide(id, show) {
   const el = document.getElementById(id);
   if (el) el.style.display = show ? '' : 'none';
 }
-
-function fillSteps(listId, steps) {
+function fillSteps(listId, steps, isTc) {
   const ul = document.getElementById(listId);
+  if (!ul) return;
   ul.innerHTML = '';
-  steps.forEach((s, i) => {
+  (steps || []).forEach((s, i) => {
     const li = document.createElement('li');
-    li.innerHTML = `<span class="${listId.includes('tc') ? 'tc-step-num' : 'step-num'}">${i+1}</span><span>${s}</span>`;
+    const numCls = isTc ? 'tc-step-num' : 'step-num';
+    li.innerHTML = `<span class="${numCls}">${i+1}</span><span>${s}</span>`;
     ul.appendChild(li);
   });
 }
 
-/* ═══════════════════════════════════════════════════════════
-   LOOKUP & RENDER
-═══════════════════════════════════════════════════════════ */
+/* Detect non-standard battery location */
+function isNonStandardBattery(loc) {
+  if (!loc) return false;
+  const l = loc.toUpperCase();
+  return l.includes('TRUNK') || l.includes('BOOT') || l.includes('FRUNK') ||
+         l.includes('REAR') || l.includes('UNDER SEAT') || l.includes('CARGO') ||
+         l.includes('UNDER HOOD') === false && l.includes('NOT UNDER HOOD');
+}
+
+/* ════════════════════════════════════════════════════════════════
+   LOOKUP
+════════════════════════════════════════════════════════════════ */
 btn.addEventListener('click', function() {
   const yr    = parseInt(selYear.value);
   const make  = selMake.value;
@@ -1295,50 +1318,36 @@ btn.addEventListener('click', function() {
   renderVehicle(v);
 });
 
-/* ═══════════════════════════════════════════════════════════
+/* ════════════════════════════════════════════════════════════════
    KNOWN ISSUES ACCORDION
-═══════════════════════════════════════════════════════════ */
-function toggleIssue(item) {
-  item.classList.toggle('open');
-}
+════════════════════════════════════════════════════════════════ */
+function toggleIssue(item) { item.classList.toggle('open'); }
 
-/* ═══════════════════════════════════════════════════════════
-   SHARE BUTTON
-═══════════════════════════════════════════════════════════ */
+/* ════════════════════════════════════════════════════════════════
+   SHARE
+════════════════════════════════════════════════════════════════ */
 document.getElementById('share-btn').addEventListener('click', function() {
   const name  = document.getElementById('res-name').textContent;
   const years = document.getElementById('res-years').textContent;
-  const dt    = document.getElementById('res-drivetrain').textContent;
   const tow   = document.getElementById('res-towmethod').textContent;
-  const shareText = `${name} (${years})\nDrivetrain: ${dt}\nTow Method: ${tow}\n\nFull procedure: ${window.location.href}`;
-
+  const bat   = document.getElementById('res-bat-location').textContent;
+  const shareText = `${name} (${years})\nTow Method: ${tow}\nBattery: ${bat}\n\nFull procedure: ${window.location.href}`;
   if (navigator.share) {
-    navigator.share({
-      title: `${name} Tow Procedure`,
-      text: shareText,
-      url: window.location.href
-    }).catch(() => {});
+    navigator.share({ title: `${name} Tow Procedure`, text: shareText, url: window.location.href }).catch(() => {});
   } else if (navigator.clipboard) {
     navigator.clipboard.writeText(shareText).then(() => {
-      const btn = document.getElementById('share-btn');
-      const orig = btn.textContent;
-      btn.textContent = '✓ Copied to clipboard';
-      btn.style.color = 'var(--green)';
-      btn.style.borderColor = 'var(--green)';
-      setTimeout(() => {
-        btn.textContent = orig;
-        btn.style.color = '';
-        btn.style.borderColor = '';
-      }, 2500);
+      const b = document.getElementById('share-btn');
+      const orig = b.textContent;
+      b.textContent = '✓ Copied to clipboard';
+      b.style.color = 'var(--green)'; b.style.borderColor = 'var(--green)';
+      setTimeout(() => { b.textContent = orig; b.style.color = ''; b.style.borderColor = ''; }, 2500);
     });
-  } else {
-    alert(shareText);
-  }
+  } else { alert(shareText); }
 });
 
-/* ═══════════════════════════════════════════════════════════
+/* ════════════════════════════════════════════════════════════════
    SEARCH BAR
-═══════════════════════════════════════════════════════════ */
+════════════════════════════════════════════════════════════════ */
 const searchInput   = document.getElementById('search-input');
 const searchResults = document.getElementById('search-results');
 let searchHighlight = -1;
@@ -1354,9 +1363,9 @@ function doSearch(q) {
   if (q.length < 2) { searchResults.classList.remove('open'); return; }
   const ql = q.toLowerCase();
   const matches = DB.filter(v => {
-    const str = (v.make + ' ' + v.model + ' ' + v.yearStart + ' ' + v.yearEnd + ' ' + v.drivetrain).toLowerCase();
+    const str = (v.make+' '+v.model+' '+v.yearStart+' '+v.yearEnd+' '+v.drivetrain).toLowerCase();
     return str.includes(ql);
-  }).slice(0, 12);
+  }).slice(0, 14);
 
   searchResults.innerHTML = '';
   searchHighlight = -1;
@@ -1369,13 +1378,15 @@ function doSearch(q) {
       div.className = 'search-result-item';
       div.dataset.idx = i;
       const label = v.make + ' ' + v.model;
+      // Add battery non-standard indicator in search results
+      const batFlag = isNonStandardBattery(v.battery?.location) ? ' <span style="color:var(--orange);font-size:0.7rem;">⚡ BAT</span>' : '';
       div.innerHTML = `
-        <span class="sri-name">${highlightText(label, q)}</span>
+        <div class="sri-left">
+          <span class="sri-name">${highlightText(label, q)}${batFlag}</span>
+          <span class="sri-dt">${v.drivetrain||''}</span>
+        </div>
         <span class="sri-years">${v.yearStart}–${v.yearEnd}</span>`;
-      div.addEventListener('mousedown', e => {
-        e.preventDefault();
-        selectFromSearch(v);
-      });
+      div.addEventListener('mousedown', e => { e.preventDefault(); selectFromSearch(v); });
       searchResults.appendChild(div);
     });
   }
@@ -1404,96 +1415,192 @@ searchInput.addEventListener('keydown', e => {
     items.forEach((el, i) => el.classList.toggle('highlighted', i === searchHighlight));
   } else if (e.key === 'Enter') {
     e.preventDefault();
-    const matches = searchResults._matches;
-    if (matches && searchHighlight >= 0 && matches[searchHighlight]) {
-      selectFromSearch(matches[searchHighlight]);
-    } else if (matches && matches.length > 0) {
-      selectFromSearch(matches[0]);
-    }
+    const ms = searchResults._matches;
+    if (ms && searchHighlight >= 0 && ms[searchHighlight]) selectFromSearch(ms[searchHighlight]);
+    else if (ms && ms.length > 0) selectFromSearch(ms[0]);
   } else if (e.key === 'Escape') {
     searchResults.classList.remove('open');
   }
 });
 
-/* ═══════════════════════════════════════════════════════════
+/* ════════════════════════════════════════════════════════════════
    SECTION FILTER TABS
-═══════════════════════════════════════════════════════════ */
+════════════════════════════════════════════════════════════════ */
 const SECTION_CLASSES = {
   all:        [],
-  procedures: ['sec-towing', 'sec-tc', 'sec-battery', 'sec-issues'],
-  battery:    ['sec-towing', 'sec-tc', 'sec-procedures', 'sec-issues'],
-  towing:     ['sec-tc', 'sec-procedures', 'sec-battery', 'sec-issues'],
-  tc:         ['sec-towing', 'sec-procedures', 'sec-battery', 'sec-issues'],
-  issues:     ['sec-towing', 'sec-tc', 'sec-procedures', 'sec-battery'],
+  procedures: ['sec-towing','sec-tc','sec-battery','sec-issues'],
+  battery:    ['sec-towing','sec-tc','sec-procedures','sec-issues'],
+  towing:     ['sec-tc','sec-procedures','sec-battery','sec-issues'],
+  tc:         ['sec-towing','sec-procedures','sec-battery','sec-issues'],
+  issues:     ['sec-towing','sec-tc','sec-procedures','sec-battery'],
 };
-
-document.querySelectorAll('.sf-btn').forEach(btn => {
-  btn.addEventListener('click', function() {
+document.querySelectorAll('.sf-btn').forEach(sfBtn => {
+  sfBtn.addEventListener('click', function() {
     document.querySelectorAll('.sf-btn').forEach(b => b.classList.remove('active'));
     this.classList.add('active');
-    const section = this.dataset.section;
-    const toHide = SECTION_CLASSES[section] || [];
-    // Show all first
+    const toHide = SECTION_CLASSES[this.dataset.section] || [];
     document.querySelectorAll('#results [class*="sec-"]').forEach(el => el.classList.remove('hidden'));
-    // Then hide the ones not in this section
     toHide.forEach(cls => {
-      document.querySelectorAll('#results .' + cls).forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('#results .'+cls).forEach(el => el.classList.add('hidden'));
     });
   });
 });
 
-/* ═══════════════════════════════════════════════════════════
-   BATTERY RENDER HELPER
-═══════════════════════════════════════════════════════════ */
+/* ════════════════════════════════════════════════════════════════
+   BATTERY RENDER
+════════════════════════════════════════════════════════════════ */
 function renderBattery(bat) {
   if (!bat) return;
-  setEl('res-bat-location', bat.location, true);
-  setEl('res-bat-terminals', bat.jumpTerminals, true);
+  setEl('res-bat-location',  bat.location,      true);
+  setEl('res-bat-terminals', bat.jumpTerminals,  true);
 
   const badge = document.getElementById('res-bat-badge');
   const typeMap = {
-    'standard-12v':    { label:'Standard 12V',   cls:'standard' },
-    'agm-12v':         { label:'AGM 12V',         cls:'agm'      },
-    'auxiliary-12v-only': { label:'12V Aux Only', cls:'auxiliary'},
+    'standard-12v':      { label:'Standard 12V',   cls:'standard'  },
+    'agm-12v':           { label:'AGM 12V',         cls:'agm'       },
+    'auxiliary-12v-only':{ label:'12V Aux Only',    cls:'auxiliary' },
   };
   const info = typeMap[bat.type] || { label:'12V', cls:'standard' };
   badge.textContent = info.label;
   badge.className = 'battery-type-badge ' + info.cls;
 
-  const warnEl = document.getElementById('res-bat-warn');
-  if (bat.warnings) {
-    warnEl.textContent = bat.warnings;
-    warnEl.style.display = 'block';
-  } else {
-    warnEl.style.display = 'none';
+  // Non-standard location alert
+  const nsEl  = document.getElementById('res-bat-nonstandard');
+  const nsTxt = document.getElementById('res-bat-nonstandard-text');
+  const loc   = (bat.location || '').toUpperCase();
+  let nsMsg   = '';
+
+  if (loc.includes('TRUNK') || loc.includes('BOOT')) {
+    nsMsg = 'Battery is in the TRUNK — do not look under the hood.';
+  } else if (loc.includes('FRUNK') || loc.includes('FRONT TRUNK')) {
+    nsMsg = 'Battery is in the FRUNK (front storage area) — not in the engine bay.';
+  } else if (loc.includes('UNDER') && (loc.includes('SEAT') || loc.includes('CAB'))) {
+    nsMsg = 'Battery is under the seat in the cab — not under the hood.';
+  } else if (loc.includes('REAR') && !loc.includes('UNDER HOOD')) {
+    nsMsg = 'Battery is in the REAR compartment — verify location before jumping.';
   }
+
+  if (nsMsg) {
+    nsTxt.textContent = nsMsg;
+    nsEl.classList.add('show');
+  } else {
+    nsEl.classList.remove('show');
+  }
+
+  const warnEl = document.getElementById('res-bat-warn');
+  if (bat.warnings) { warnEl.textContent = bat.warnings; warnEl.style.display = 'block'; }
+  else { warnEl.style.display = 'none'; }
 }
 
-/* ═══════════════════════════════════════════════════════════
-   EXTRACT RENDER VEHICLE — refactored so search can call it too
-═══════════════════════════════════════════════════════════ */
-function renderVehicle(v) {
-  const make  = v.make;
-  const model = v.model;
+/* ════════════════════════════════════════════════════════════════
+   QUICK TIPS BUILDER
+   Assembles key at-a-glance reminders based on vehicle data
+════════════════════════════════════════════════════════════════ */
+function buildQuickTips(v) {
+  const tips = [];
+  const dt = (v.drivetrain || '').toUpperCase();
+  const tow = (v.towMethod || '').toUpperCase();
+  const bat = (v.battery?.location || '').toUpperCase();
+  const batType = v.battery?.type || '';
+  const hasTc = !!v.tc;
+  const isEv = batType === 'auxiliary-12v-only';
+  const isAgm = batType === 'agm-12v';
 
-  // Reset filter to "All" when new vehicle loaded
+  // EV tip
+  if (isEv) {
+    tips.push({ label:'EV / Hybrid', val:'<strong>Flatbed only.</strong> Use 12V auxiliary battery only — never touch the high-voltage (HV) pack.' });
+  }
+
+  // Battery location
+  if (bat.includes('TRUNK') || bat.includes('BOOT')) {
+    tips.push({ label:'Battery Location', val:'<strong>Battery is in the trunk.</strong> Do not look under the hood for jump terminals — open the trunk.' });
+  } else if (bat.includes('FRUNK')) {
+    tips.push({ label:'Battery Location', val:'<strong>Battery is in the frunk</strong> (front storage area). The engine bay is at the rear or mid.' });
+  } else if (bat.includes('UNDER') && (bat.includes('SEAT') || bat.includes('CAB'))) {
+    tips.push({ label:'Battery Location', val:'<strong>Battery under cab seat.</strong> Lift the seat cushion to access — not under the hood.' });
+  }
+
+  // AGM battery
+  if (isAgm && !isEv) {
+    tips.push({ label:'AGM Battery', val:'This vehicle uses an <strong>AGM battery.</strong> Use an AGM-compatible jump pack — standard lead-acid jump packs may not work correctly.' });
+  }
+
+  // Flatbed-only
+  if (tow.includes('FLATBED ONLY')) {
+    tips.push({ label:'Tow Method', val:'<strong>Flatbed ONLY.</strong> Never tow with driven wheels on the ground.' });
+  }
+  // Flatbed preferred
+  else if (tow.includes('FLATBED PREFERRED') || tow.includes('FLATBED STRONGLY')) {
+    tips.push({ label:'Tow Method', val:'<strong>Flatbed preferred.</strong> If wheel-lift is used, dollies must be under the free-rolling axle.' });
+  }
+  // FWD lift direction
+  else if (dt.startsWith('FWD') && !dt.includes('OR AWD') && !dt.includes('OR 4WD')) {
+    tips.push({ label:'Lift Direction', val:'<strong>FWD — lift from front.</strong> Front (drive) wheels must be in the air.' });
+  }
+  // RWD lift direction
+  else if (dt.includes('RWD') && !dt.includes('AWD') && !dt.includes('FWD')) {
+    tips.push({ label:'Lift Direction', val:'<strong>RWD — lift from rear.</strong> Rear (drive) wheels must be in the air.' });
+  }
+
+  // Transfer case
+  if (hasTc) {
+    tips.push({ label:'Transfer Case', val:'<strong>Must shift to 2WD before towing.</strong> Towing in 4WD on dry pavement will destroy the drivetrain. See TC section below.' });
+    tips.push({ label:'Dead Battery + TC', val:'If battery is dead: <strong>jump the battery first</strong>, shift TC to 2WD, then disconnect. If unable to shift, use flatbed.' });
+  }
+
+  // CVT warning
+  if ((v.trans || '').toUpperCase().includes('CVT')) {
+    tips.push({ label:'CVT Transmission', val:'Do <strong>not</strong> exceed 35 mph or 50 miles with drive wheels on the ground. Flatbed strongly preferred.' });
+  }
+
+  // DSG / S-tronic / ZF 9HP
+  const transUp = (v.trans || '').toUpperCase();
+  if (transUp.includes('DSG') || transUp.includes('S-TRONIC') || transUp.includes('DCT')) {
+    tips.push({ label:'Dual-Clutch Trans', val:'DCT/DSG/S-tronic transmissions require <strong>12V power to shift.</strong> Always restore battery before attempting Neutral.' });
+  }
+  if (transUp.includes('ZF 9HP') || transUp.includes('9HP')) {
+    tips.push({ label:'ZF 9HP Rotary', val:'The rotary ZF 9HP selector <strong>requires 12V power</strong> to operate reliably. Restore battery power before shifting.' });
+  }
+
+  return tips;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   RENDER VEHICLE
+════════════════════════════════════════════════════════════════ */
+function renderVehicle(v) {
+  // Reset filter to "All"
   document.querySelectorAll('.sf-btn').forEach(b => b.classList.remove('active'));
   document.querySelector('.sf-btn[data-section="all"]').classList.add('active');
   document.querySelectorAll('#results [class*="sec-"]').forEach(el => el.classList.remove('hidden'));
 
-  setEl('res-name',  `${make} ${model}`, true);
-  setEl('res-years', `${v.yearStart} – ${v.yearEnd}`, true);
+  setEl('res-name',      `${v.make} ${v.model}`, true);
+  setEl('res-years',     `${v.yearStart} – ${v.yearEnd}`, true);
   setEl('res-yearrange', `${v.yearStart} – ${v.yearEnd}`, true);
   setEl('res-dt-emblem', buildDtEmblem(v.drivetrain));
   setEl('res-drivetrain', v.drivetrain || '—', true);
   setEl('res-trans',      v.trans      || '—', true);
 
-  const isFlat = (v.towMethod || '').toUpperCase().includes('FLATBED ONLY');
+  // Tow method banner — color-coded
+  const towUp = (v.towMethod || '').toUpperCase();
   const banner = document.getElementById('res-tow-banner');
-  banner.className = 'tow-banner' + (isFlat ? ' flatbed-only' : '');
-  setEl('res-tow-icon', isFlat ? '🚨' : '🚛', true);
+  const lbl = document.getElementById('res-tow-banner-label');
+  if (towUp.includes('FLATBED ONLY')) {
+    banner.className = 'tow-banner flatbed-only';
+    setEl('res-tow-icon', '🚨', true);
+    lbl.textContent = 'FLATBED ONLY';
+  } else if (towUp.includes('FLATBED STRONGLY PREFERRED') || towUp.includes('FLATBED PREFERRED')) {
+    banner.className = 'tow-banner flatbed-pref';
+    setEl('res-tow-icon', '⚠️', true);
+    lbl.textContent = 'Flatbed Preferred';
+  } else {
+    banner.className = 'tow-banner';
+    setEl('res-tow-icon', '🚛', true);
+    lbl.textContent = 'Recommended Tow Method';
+  }
   setEl('res-towmethod', v.towMethod || '—', true);
 
+  // Tow notes
   const tnList = document.getElementById('res-tow-notes-list');
   tnList.innerHTML = '';
   if (v.towNotes && v.towNotes.length > 0) {
@@ -1510,33 +1617,49 @@ function renderVehicle(v) {
     showHide('res-tow-notes', false);
   }
 
+  // Battery
   renderBattery(v.battery);
 
+  // Transfer case
   if (v.tc) {
     setEl('res-tc-type', v.tc.type, true);
     const posList = document.getElementById('res-tc-positions');
     posList.innerHTML = '';
-    v.tc.positions.forEach(p => {
+    (v.tc.positions || []).forEach(p => {
       const li = document.createElement('li');
-      li.innerHTML = `<span class="pos-dot"></span><span>${p}</span>`;
+      const isNot = p.toUpperCase().includes('NOT SAFE') || p.toUpperCase().includes('NEVER');
+      li.innerHTML = `<span class="pos-dot"></span><span class="${isNot?'pos-danger':''}">${p}</span>`;
       posList.appendChild(li);
     });
-    fillSteps('res-tc-steps', v.tc.steps);
+    fillSteps('res-tc-steps', v.tc.steps || [], true);
     showHide('res-tc-box', true);
+
+    // Dead battery note in TC section
+    const hasDeadNote = (v.tc.steps||[]).some(s => s.toUpperCase().includes('DEAD BATTERY') || s.toUpperCase().includes('BATTERY IS DEAD'));
+    const tcDeadNote  = document.getElementById('res-tc-dead-note');
+    if (hasDeadNote) {
+      tcDeadNote.textContent = 'Dead battery procedure: Jump the battery FIRST — electronic TC requires 12V power to shift. If TC cannot be shifted after jumping, use FLATBED ONLY.';
+      tcDeadNote.style.display = 'block';
+    } else {
+      tcDeadNote.style.display = 'none';
+    }
   } else {
     showHide('res-tc-box', false);
   }
 
+  // Shift lock slot + steps
   const slotEl = document.getElementById('res-slot');
   slotEl.innerHTML = `<strong>Slot / Release Location</strong>${v.slot || '—'}`;
   fillSteps('res-shift-steps',   v.shift   || []);
   fillSteps('res-neutral-steps', v.neutral || []);
 
+  // Notes / warnings
   if (v.notes) { setEl('res-note', `<strong>ℹ Note</strong>${v.notes}`); showHide('res-note', true); }
   else showHide('res-note', false);
   if (v.warn)  { setEl('res-warn', `<strong>⚠ Warning</strong>${v.warn}`); showHide('res-warn', true); }
   else showHide('res-warn', false);
 
+  // Known issues
   const issuesList = document.getElementById('res-issues-list');
   issuesList.innerHTML = '';
   if (v.knownIssues && v.knownIssues.length > 0) {
@@ -1558,11 +1681,26 @@ function renderVehicle(v) {
     showHide('res-issues', false);
   }
 
-  const cleanModel = v.model.replace(/\s*\(.*?\)/g, '').replace(/\s*\d{4}.*$/, '').trim();
-  document.getElementById('towspec-btn').href =
-    'https://towspec.com/Vehicles/specificsearch?make=' +
-    encodeURIComponent(make) + '&model=' + encodeURIComponent(cleanModel);
+  // Quick tips
+  const tips = buildQuickTips(v);
+  const qtPanel  = document.getElementById('res-quicktips');
+  const qtGrid   = document.getElementById('res-qt-grid');
+  if (tips.length > 0) {
+    qtGrid.innerHTML = tips.map(t =>
+      `<div class="qt-item"><div class="qt-label">${t.label}</div><div class="qt-val">${t.val}</div></div>`
+    ).join('');
+    qtPanel.style.display = 'block';
+    qtPanel.classList.remove('open'); // collapsed by default, tap to expand
+  } else {
+    qtPanel.style.display = 'none';
+  }
 
+  // TowSpec link
+  const cleanModel = v.model.replace(/\s*\(.*?\)/g,'').replace(/\s*\d{4}.*$/,'').trim();
+  document.getElementById('towspec-btn').href =
+    'https://towspec.com/Vehicles/specificsearch?make=' + encodeURIComponent(v.make) + '&model=' + encodeURIComponent(cleanModel);
+
+  // Animate in
   const results = document.getElementById('results');
   results.classList.remove('show');
   void results.offsetWidth;
@@ -1570,13 +1708,9 @@ function renderVehicle(v) {
   results.scrollIntoView({ behavior:'smooth', block:'start' });
 }
 
-/* ═══════════════════════════════════════════════════════════
+/* ════════════════════════════════════════════════════════════════
    VIN SCANNER
-   Camera: BarcodeDetector with getSupportedFormats() check
-           setInterval at 250ms (not rAF) + isProcessing flag
-   Decode: NHTSA free public API — no key required
-   Display: identity + towing-relevant NHTSA specs panel
-═══════════════════════════════════════════════════════════ */
+════════════════════════════════════════════════════════════════ */
 const vinOverlay     = document.getElementById('vin-overlay');
 const vinVideo       = document.getElementById('vin-video');
 const vinDot         = document.getElementById('vin-dot');
@@ -1587,14 +1721,9 @@ const vinDecodedEl   = document.getElementById('vin-decoded');
 const vinDecodedText = document.getElementById('vin-decoded-text');
 const vinScanBtn     = document.getElementById('vin-scan-btn');
 
-let vinStream       = null;
-let vinDetector     = null;
-let vinScanTimer    = null;
-let vinIsProcessing = false;
-let vinLastVin      = null;
-let vinNhtsaData    = null;
+let vinStream = null, vinDetector = null, vinScanTimer = null;
+let vinIsProcessing = false, vinLastVin = null, vinNhtsaData = null;
 
-/* ── NHTSA decode — returns full towing-relevant fields ── */
 async function nhtsaDecode(vin) {
   const res  = await fetch(`https://vpic.nhtsa.dot.gov/api/vehicles/decodevin/${vin}?format=json`);
   const data = await res.json();
@@ -1604,31 +1733,20 @@ async function nhtsaDecode(vin) {
     return (v && v !== 'Not Applicable' && v !== 'null' && v.trim() !== '') ? v.trim() : null;
   };
   return {
-    vin,
-    year:        get('Model Year'),
-    make:        get('Make'),
-    model:       get('Model'),
-    trim:        get('Trim'),
-    bodyClass:   get('Body Class'),
-    driveType:   get('Drive Type'),
-    fuelType:    get('Fuel Type - Primary'),
-    fuelTypeAlt: get('Fuel Type - Secondary'),
-    engineL:     get('Displacement (L)'),
-    engineCyl:   get('Engine Number of Cylinders'),
-    gvwr:        get('Gross Vehicle Weight Rating From'),
-    gvwrTo:      get('Gross Vehicle Weight Rating To'),
-    trans:       get('Transmission Style'),
-    transSpeed:  get('Transmission Speeds'),
-    evType:      get('Electrification Level'),
-    plantCountry:get('Plant Country'),
+    vin, year:get('Model Year'), make:get('Make'), model:get('Model'), trim:get('Trim'),
+    bodyClass:get('Body Class'), driveType:get('Drive Type'),
+    fuelType:get('Fuel Type - Primary'), fuelTypeAlt:get('Fuel Type - Secondary'),
+    engineL:get('Displacement (L)'), engineCyl:get('Engine Number of Cylinders'),
+    gvwr:get('Gross Vehicle Weight Rating From'), gvwrTo:get('Gross Vehicle Weight Rating To'),
+    trans:get('Transmission Style'), transSpeed:get('Transmission Speeds'),
+    evType:get('Electrification Level'), plantCountry:get('Plant Country'),
   };
 }
 
-/* ── Fuzzy match NHTSA result to DB ── */
 function fuzzyMatch(nhtsa) {
   if (!nhtsa.year || !nhtsa.make || !nhtsa.model) return null;
-  const yr    = parseInt(nhtsa.year);
-  const make  = nhtsa.make.toLowerCase().trim();
+  const yr = parseInt(nhtsa.year);
+  const make = nhtsa.make.toLowerCase().trim();
   const model = nhtsa.model.toLowerCase().trim();
   let best = null, bestScore = 0;
   DB.forEach(v => {
@@ -1648,7 +1766,6 @@ function fuzzyMatch(nhtsa) {
   return bestScore >= 30 ? best : null;
 }
 
-/* ── Render NHTSA panel in results ── */
 function renderNhtsaPanel(nhtsa) {
   const panel = document.getElementById('nhtsa-panel');
   const body  = document.getElementById('nhtsa-body');
@@ -1671,18 +1788,18 @@ function renderNhtsaPanel(nhtsa) {
     rows.push(['GVWR', g]);
   }
   if (nhtsa.plantCountry) rows.push(['Manufactured In', nhtsa.plantCountry]);
-  body.innerHTML = rows.map(([l,v]) => `<div class="nhtsa-row"><span class="nhtsa-label">${l}</span><span class="nhtsa-val">${v}</span></div>`).join('');
+  body.innerHTML = rows.map(([l,v]) =>
+    `<div class="nhtsa-row"><span class="nhtsa-label">${l}</span><span class="nhtsa-val">${v}</span></div>`
+  ).join('');
   panel.style.display = 'block';
   setTimeout(() => panel.scrollIntoView({behavior:'smooth', block:'nearest'}), 400);
 }
 
-/* ── Status helper ── */
 function vinSetStatus(msg, state) {
   vinStatusText.textContent = msg;
   vinDot.className = 'vin-status-dot' + (state ? ' '+state : '');
 }
 
-/* ── Handle a decoded VIN ── */
 async function handleVin(vin) {
   vin = vin.toUpperCase().replace(/[^A-Z0-9]/g,'');
   if (vin.length !== 17) { vinSetStatus('VIN must be 17 characters — try again.', 'error'); return; }
@@ -1694,8 +1811,7 @@ async function handleVin(vin) {
     vinNhtsaData = nhtsa;
     if (!nhtsa.make || !nhtsa.model) {
       vinSetStatus('Could not decode VIN — enter manually below.', 'error');
-      vinManualWrap.classList.add('show');
-      return;
+      vinManualWrap.classList.add('show'); return;
     }
     const match = fuzzyMatch(nhtsa);
     const label = [nhtsa.year, nhtsa.make, nhtsa.model, nhtsa.trim].filter(Boolean).join(' ');
@@ -1714,7 +1830,6 @@ async function handleVin(vin) {
   }
 }
 
-/* ── Pre-fill dropdowns when no exact DB match ── */
 function prefillDropdowns(nhtsa) {
   const yr = parseInt(nhtsa.year);
   if (!yr) return;
@@ -1731,10 +1846,8 @@ function prefillDropdowns(nhtsa) {
   }, 200);
 }
 
-/* ── Open camera overlay ── */
 async function openVinOverlay() {
-  vinLastVin      = null;
-  vinIsProcessing = false;
+  vinLastVin = null; vinIsProcessing = false;
   vinManualWrap.classList.remove('show');
   vinManualInput.value = '';
   const captureBtn = document.getElementById('vin-capture-btn');
@@ -1748,8 +1861,6 @@ async function openVinOverlay() {
     });
     vinVideo.srcObject = vinStream;
     await vinVideo.play();
-
-    // Set up BarcodeDetector if available
     if ('BarcodeDetector' in window) {
       let supported = [];
       try { supported = await BarcodeDetector.getSupportedFormats(); } catch {}
@@ -1761,12 +1872,10 @@ async function openVinOverlay() {
       vinSetStatus('Camera ready — position VIN barcode in frame, then tap capture.', '');
     } else {
       vinDetector = null;
-      vinSetStatus('Camera ready — barcode auto-detect not available on this browser. Enter VIN manually below.', '');
+      vinSetStatus('Camera ready — barcode auto-detect not available. Enter VIN manually below.', '');
       vinManualWrap.classList.add('show');
     }
-
     captureBtn.disabled = false;
-
   } catch(err) {
     const msg = err.name === 'NotAllowedError'
       ? 'Camera permission denied — enter VIN manually below.'
@@ -1776,90 +1885,46 @@ async function openVinOverlay() {
   }
 }
 
-/* ── 250ms scan interval with single concurrent call guard ── */
-function startScanInterval() {
-  if (vinScanTimer) clearInterval(vinScanTimer);
-  vinScanTimer = setInterval(async () => {
-    if (vinIsProcessing || !vinDetector) return;
-    if (!vinVideo.readyState || vinVideo.readyState < 2) return;
-    vinIsProcessing = true;
-    try {
-      const codes = await vinDetector.detect(vinVideo);
-      for (const bc of codes) {
-        const raw = (bc.rawValue||'').toUpperCase().replace(/[^A-Z0-9]/g,'');
-        if (raw.length === 17) {
-          clearInterval(vinScanTimer);
-          vinScanTimer = null;
-          vinIsProcessing = false;
-          await handleVin(raw);
-          return;
-        }
-      }
-    } catch {}
-    vinIsProcessing = false;
-  }, 250);
-}
-
-/* ── Capture still frame and scan it ── */
 async function captureAndScan() {
   const captureBtn = document.getElementById('vin-capture-btn');
   if (!vinVideo || !vinVideo.readyState || vinVideo.readyState < 2) {
-    vinSetStatus('Camera not ready — try again.', 'error');
-    return;
+    vinSetStatus('Camera not ready — try again.', 'error'); return;
   }
   if (vinIsProcessing) return;
-
-  // Flash effect
   captureBtn.disabled = true;
   vinSetStatus('Processing image…', 'scanning');
-
-  // Draw current video frame to canvas
   const canvas = document.getElementById('vin-canvas');
   canvas.width  = vinVideo.videoWidth  || 1280;
   canvas.height = vinVideo.videoHeight || 720;
-  const ctx = canvas.getContext('2d');
-  ctx.drawImage(vinVideo, 0, 0, canvas.width, canvas.height);
-
+  canvas.getContext('2d').drawImage(vinVideo, 0, 0, canvas.width, canvas.height);
   vinIsProcessing = true;
   let found = false;
-
   try {
     if (vinDetector) {
-      // Try BarcodeDetector on the canvas image (ImageBitmap is more reliable than video)
       const bitmap = await createImageBitmap(canvas);
       const codes  = await vinDetector.detect(bitmap);
       bitmap.close();
       for (const bc of codes) {
         const raw = (bc.rawValue||'').toUpperCase().replace(/[^A-Z0-9]/g,'');
-        if (raw.length === 17) {
-          found = true;
-          vinIsProcessing = false;
-          await handleVin(raw);
-          break;
-        }
+        if (raw.length === 17) { found = true; vinIsProcessing = false; await handleVin(raw); break; }
       }
     }
-
     if (!found) {
-      // BarcodeDetector missed it or unavailable — show manual entry
-      vinSetStatus('No VIN barcode detected. Try getting closer, better lighting, or enter manually below.', 'error');
+      vinSetStatus('No VIN barcode detected. Try closer, better lighting, or enter manually below.', 'error');
       vinManualWrap.classList.add('show');
     }
   } catch(e) {
     vinSetStatus('Scan failed — try again or enter VIN manually below.', 'error');
     vinManualWrap.classList.add('show');
   }
-
   vinIsProcessing = false;
   captureBtn.disabled = false;
 }
 
-/* ── Close overlay ── */
 function closeVinOverlay() {
   if (vinScanTimer) { clearInterval(vinScanTimer); vinScanTimer = null; }
   if (vinStream)    { vinStream.getTracks().forEach(t => t.stop()); vinStream = null; }
-  vinDetector     = null;
-  vinIsProcessing = false;
+  vinDetector = null; vinIsProcessing = false;
   vinVideo.srcObject = null;
   vinOverlay.classList.remove('open');
   document.body.style.overflow = '';
@@ -1871,17 +1936,14 @@ document.getElementById('vin-close').addEventListener('click', closeVinOverlay);
 document.getElementById('vin-manual-submit').addEventListener('click', () => handleVin(vinManualInput.value.trim()));
 vinManualInput.addEventListener('keydown', e => { if (e.key === 'Enter') handleVin(vinManualInput.value.trim()); });
 document.getElementById('vin-decoded-clear').addEventListener('click', () => {
-  vinDecodedEl.classList.remove('show');
-  vinLastVin = null;
+  vinDecodedEl.classList.remove('show'); vinLastVin = null;
   const panel = document.getElementById('nhtsa-panel');
   if (panel) panel.style.display = 'none';
 });
 
-
-
-/* ═══════════════════════════════════════════════════════════
+/* ════════════════════════════════════════════════════════════════
    BOOT
-═══════════════════════════════════════════════════════════ */
+════════════════════════════════════════════════════════════════ */
 loadDB();
 </script>
 </body>

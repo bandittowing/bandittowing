@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Cadillac",
-  "_count": 7,
+  "_count": 16,
   "vehicles": [
     {
       "make": "Cadillac",
@@ -336,6 +336,346 @@
         "jumpTerminals": "Under hood — 12V auxiliary terminals only",
         "type": "auxiliary-12v-only",
         "warnings": "NEVER touch HV battery. 12V auxiliary only."
+      }
+    },
+    {
+      "make": "Cadillac",
+      "model": "DeVille / DTS",
+      "yearStart": 1994,
+      "yearEnd": 2011,
+      "trans": "4-speed automatic (4T80-E)",
+      "drivetrain": "FWD",
+      "slot": "Small cap on right side of shift indicator on the console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap on right side of shift indicator on the console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "DeVille (1994-2005), DTS (2006-2011). All FWD. 4T80-E transmission is robust.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front (front/drive wheels in the air)."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Cadillac",
+      "model": "Eldorado",
+      "yearStart": 1992,
+      "yearEnd": 2002,
+      "trans": "4-speed automatic (4T80-E)",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Cadillac",
+      "model": "Seville / STS (1998-2004)",
+      "yearStart": 1998,
+      "yearEnd": 2004,
+      "trans": "4-speed automatic (4T80-E)",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Seville (1998-2004), STS used this platform. All FWD.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Cadillac",
+      "model": "CTS / STS (2003-2014)",
+      "yearStart": 2003,
+      "yearEnd": 2014,
+      "trans": "5-speed automatic (2003-2007) or 6-speed automatic (2008-2014); manual available on CTS",
+      "drivetrain": "RWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "CTS manual: depress clutch, select Neutral. AWD (CTS-AWD): flatbed preferred.",
+      "warn": "AWD models: flatbed preferred.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed preferred. Wheel-lift with dollies on front axle if no flatbed.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "AWD: flatbed preferred. Wheel-lift with dollies on non-driven axle if flatbed unavailable.",
+        "MANUAL TRANSMISSION: depress clutch, select Neutral."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Cadillac",
+      "model": "ATS",
+      "yearStart": 2013,
+      "yearEnd": 2019,
+      "trans": "6-speed automatic or 8-speed automatic (2016+); 6-speed manual available",
+      "drivetrain": "RWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual: depress clutch, select Neutral. AWD: flatbed preferred.",
+      "warn": "AWD models: flatbed preferred.",
+      "towMethod": "RWD: lift from rear. AWD: flatbed preferred or wheel-lift with dollies on front axle.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "AWD: flatbed preferred.",
+        "MANUAL TRANSMISSION: depress clutch, select Neutral."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Cadillac",
+      "model": "SRX (1st Gen)",
+      "yearStart": 2004,
+      "yearEnd": 2009,
+      "trans": "5-speed automatic",
+      "drivetrain": "RWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "AWD: flatbed preferred.",
+      "warn": "AWD models: flatbed preferred.",
+      "towMethod": "RWD: lift from rear. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "AWD: flatbed preferred — no true 2WD disengagement."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Cadillac",
+      "model": "SRX (2nd Gen)",
+      "yearStart": 2010,
+      "yearEnd": 2016,
+      "trans": "6-speed automatic",
+      "drivetrain": "FWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "AWD: flatbed preferred.",
+      "warn": "AWD models: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred. AWD without flatbed: wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Cadillac",
+      "model": "CT6",
+      "yearStart": 2016,
+      "yearEnd": 2020,
+      "trans": "8-speed or 10-speed automatic; PHEV eCVT available",
+      "drivetrain": "RWD or AWD; PHEV is AWD",
+      "slot": "Near base of electronic gear selector on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: near base of electronic gear selector on center console.",
+        "Remove trim cover if present.",
+        "Insert a thin key or flathead into the slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Move selector to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood. Use AGM-compatible jump pack.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "PHEV models: 12V auxiliary battery ONLY — never touch HV battery."
+      ],
+      "notes": "Electronic shift selector. PHEV models have both 12V and high-voltage battery systems.",
+      "warn": "PHEV: 12V auxiliary ONLY — never touch HV system. AWD: flatbed preferred.",
+      "towMethod": "RWD: lift from rear. AWD: flatbed preferred. AWD without flatbed: dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "AWD / PHEV: flatbed preferred.",
+        "PHEV HYBRID: 12V auxiliary ONLY — never access HV battery."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "PHEV: 12V auxiliary only. AGM battery — use AGM-compatible jump pack."
+      }
+    },
+    {
+      "make": "Cadillac",
+      "model": "Fleetwood / Brougham",
+      "yearStart": 1990,
+      "yearEnd": 1996,
+      "trans": "4-speed automatic (4L60 / 4L60-E)",
+      "drivetrain": "RWD",
+      "slot": "Column shifter — no console shift lock slot. Column lock released by ignition key in ON position.",
+      "shift": [
+        "Turn ignition to ON.",
+        "Column shifter: the shift lock is released by the ignition key being in the ON position.",
+        "Press the brake pedal firmly.",
+        "Move the column shifter from Park to Neutral.",
+        "If ignition is off and shifter is locked: insert key to ON position, press brake, then shift."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, insert key to ON, press brake, and shift to Neutral normally."
+      ],
+      "notes": "Column shifter. RWD platform. Very large vehicle — allow extra space for tow truck maneuvering.",
+      "warn": "",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear. Large vehicle — confirm clearance before approach."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
       }
     }
   ]

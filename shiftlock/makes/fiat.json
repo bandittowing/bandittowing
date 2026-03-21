@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Fiat",
-  "_count": 4,
+  "_count": 5,
   "vehicles": [
     {
       "make": "Fiat",
@@ -213,6 +213,45 @@
         "warnings": "DCT: rear lift only."
       },
       "knownIssues": []
+    },
+    {
+      "make": "Fiat",
+      "model": "124 Spider",
+      "yearStart": 2017,
+      "yearEnd": 2020,
+      "trans": "6-speed automatic or 6-speed manual",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral normally.",
+        "Manual: depress clutch, select Neutral."
+      ],
+      "notes": "Mazda MX-5 (ND) platform. Manual: depress clutch. High-value roadster — flatbed preferred.",
+      "warn": "High-value vehicle — flatbed preferred.",
+      "towMethod": "RWD: lift from rear. Flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Mazda MX-5 ND platform. High-value — flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
     }
   ]
 }

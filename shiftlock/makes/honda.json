@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Honda",
-  "_count": 15,
+  "_count": 23,
   "vehicles": [
     {
       "make": "Honda",
@@ -597,6 +597,312 @@
         "warnings": ""
       },
       "knownIssues": []
+    },
+    {
+      "make": "Honda",
+      "model": "Prelude",
+      "yearStart": 1992,
+      "yearEnd": 2001,
+      "trans": "4-speed automatic (4AT) or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual: depress clutch, select Neutral. ATTS system on some — FWD only.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "S2000",
+      "yearStart": 1999,
+      "yearEnd": 2009,
+      "trans": "6-speed manual only",
+      "drivetrain": "RWD",
+      "slot": "Manual transmission only — no shift lock slot",
+      "shift": [
+        "Manual transmission only — no automatic shift lock.",
+        "Depress the clutch pedal fully.",
+        "Move the gear lever to Neutral.",
+        "Do not attempt to use a shift lock slot — there is none."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Depress the clutch and select Neutral.",
+        "If clutch cannot be depressed (power issue), manually move the gear lever — it will slide to Neutral without clutch pressure when stationary.",
+        "Battery is under the hood if a jump is needed."
+      ],
+      "notes": "Manual transmission ONLY — no automatic, no shift lock slot. High-value sports car.",
+      "warn": "High-value vehicle — flatbed preferred. Manual only — no shift lock slot.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Flatbed strongly preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "High-value vehicle — use flatbed with padded wheel grids whenever possible."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "High-value vehicle — handle with care."
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Element",
+      "yearStart": 2003,
+      "yearEnd": 2011,
+      "trans": "5-speed automatic or 5-speed manual",
+      "drivetrain": "FWD or AWD (Real Time 4WD)",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "AWD uses Honda Real Time 4WD (on-demand rear coupling) — no traditional TC. AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred. AWD without flatbed: wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD (Real Time 4WD): no traditional TC — flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Fit / Jazz",
+      "yearStart": 2007,
+      "yearEnd": 2020,
+      "trans": "5-speed automatic or CVT (2015+) or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "CVT (2015+): flatbed preferred. Manual: depress clutch, select Neutral.",
+      "warn": "CVT: flatbed preferred.",
+      "towMethod": "FWD: lift from front. CVT: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "HR-V",
+      "yearStart": 2016,
+      "yearEnd": 2026,
+      "trans": "CVT or 6-speed manual (2016-2021); CVT only (2023+)",
+      "drivetrain": "FWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "CVT on most trims: flatbed preferred. Manual (2016-2021 FWD): depress clutch, select Neutral. AWD: flatbed preferred.",
+      "warn": "CVT: flatbed preferred. AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. CVT/AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Passport",
+      "yearStart": 2019,
+      "yearEnd": 2026,
+      "trans": "9-speed automatic (9AT)",
+      "drivetrain": "FWD or AWD (i-VTM4)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "AWD uses Honda i-VTM4 torque-vectoring AWD — no traditional TC. AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred. AWD without flatbed: dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD (i-VTM4): no traditional TC — flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Clarity (PHEV / FCV / EV)",
+      "yearStart": 2018,
+      "yearEnd": 2021,
+      "trans": "PHEV eCVT or electric single-speed",
+      "drivetrain": "FWD (all variants)",
+      "slot": "Electronic selector — no traditional shift lock slot",
+      "shift": [
+        "Turn ignition/power to ON.",
+        "PHEV/EV: press the N button on the electronic gear selector.",
+        "Hold N button for 2 seconds while pressing the brake pedal.",
+        "Verify N is shown on the instrument display.",
+        "If power is lost: restore 12V auxiliary power first."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to 12V auxiliary battery — under the hood, driver side.",
+        "PHEV/EV: 12V auxiliary battery ONLY — NEVER touch the high-voltage battery.",
+        "Once 12V is restored, press N button to select Neutral.",
+        "PHEV: lift from front (FWD). EV and FCV: flatbed preferred."
+      ],
+      "notes": "Three variants: PHEV (most common), EV, and FCV (fuel cell). All are FWD. High-voltage battery under floor. 12V auxiliary under hood.",
+      "warn": "PHEV/EV/FCV: NEVER touch HV battery. 12V auxiliary ONLY for jumping.",
+      "towMethod": "FWD: lift from front for PHEV. EV/FCV: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "PHEV: FWD, lift from front.",
+        "EV and FCV variants: FLATBED ONLY — electric drivetrain.",
+        "NEVER access high-voltage battery. 12V auxiliary is under the hood."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "NEVER touch HV battery. 12V auxiliary only."
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "CR-Z",
+      "yearStart": 2011,
+      "yearEnd": 2016,
+      "trans": "CVT or 6-speed manual",
+      "drivetrain": "FWD (hybrid)",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to 12V battery — under the hood.",
+        "12V battery ONLY — never touch the IMA hybrid battery under the rear.",
+        "Once powered, press brake and shift to Neutral normally.",
+        "Manual: depress clutch, select Neutral."
+      ],
+      "notes": "IMA mild hybrid. 12V under hood. IMA battery under rear cargo area. Manual: depress clutch. CVT: flatbed preferred.",
+      "warn": "CVT: flatbed preferred. HYBRID: 12V under hood ONLY — never touch IMA battery.",
+      "towMethod": "FWD: lift from front. CVT: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "CVT: Do NOT exceed 35 mph or 50 miles with drive wheels on ground.",
+        "HYBRID: 12V under hood only — never touch IMA battery."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard 12V terminals",
+        "type": "standard-12v",
+        "warnings": "IMA hybrid: 12V under hood ONLY. Never touch IMA battery under cargo area."
+      }
     }
   ]
 }

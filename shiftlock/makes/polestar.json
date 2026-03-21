@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Polestar",
-  "_count": 2,
+  "_count": 4,
   "vehicles": [
     {
       "make": "Polestar",
@@ -129,6 +129,88 @@
         "warnings": "FLATBED ONLY. AWD EV. 12V only."
       },
       "knownIssues": []
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar 1",
+      "yearStart": 2020,
+      "yearEnd": 2021,
+      "trans": "8-speed automatic (ZF 8HP) + electric motor hybrid",
+      "drivetrain": "AWD (hybrid: front ICE + rear electric)",
+      "slot": "Electronic selector — no mechanical shift lock slot",
+      "shift": [
+        "Turn vehicle to ON/Ready mode.",
+        "The Polestar 1 uses an electronic gear selector — no mechanical shift lock slot.",
+        "With power on, use the electronic selector to move to Neutral.",
+        "If power is lost: connect jump pack to 12V auxiliary battery — under the hood.",
+        "Once 12V is restored, use the selector to select Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "FLATBED ONLY — hybrid drivetrain with permanent AWD.",
+        "Connect jump pack to 12V auxiliary battery — under the hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery.",
+        "Once powered, select Neutral using the electronic selector."
+      ],
+      "notes": "PHEV Grand Tourer. Very rare (~1,500 produced total). Carbon fiber body. Extremely high value. Flatbed only.",
+      "warn": "FLATBED ONLY. Extremely high-value, very rare vehicle. Carbon fiber body — padded equipment only.",
+      "towMethod": "FLATBED ONLY — hybrid AWD drivetrain. Carbon fiber body.",
+      "tc": null,
+      "towNotes": [
+        "FLATBED ONLY — hybrid permanent AWD.",
+        "Extremely high-value and rare (~1,500 produced).",
+        "Carbon fiber body — use padded flatbed ramps and soft ties only."
+      ],
+      "knownIssues": [
+        {
+          "title": "Extremely Rare and High-Value",
+          "detail": "The Polestar 1 is one of the rarest vehicles you will ever tow — approximately 1,500 were produced total. It has a carbon fiber body. Use a flatbed with padded ramps and soft tie-down straps. Do not use metal chains or hooks against any body surface."
+        }
+      ],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "FLATBED ONLY. Never touch HV battery. Carbon fiber body — padded equipment only."
+      }
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar 4 EV",
+      "yearStart": 2025,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "drivetrain": "RWD or AWD electric",
+      "slot": "Electronic selector on center console",
+      "shift": [
+        "Turn vehicle to ON/Ready mode.",
+        "Use the electronic selector or touchscreen to select Neutral.",
+        "Press and hold the N button while pressing the brake pedal.",
+        "Confirm N on the instrument cluster.",
+        "If power is lost: restore 12V auxiliary battery first."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "FLATBED ONLY — electric drivetrain.",
+        "Connect jump pack to 12V auxiliary battery — under the hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery.",
+        "Once 12V is restored, select Neutral."
+      ],
+      "notes": "Electric coupe/SUV. No rear window. Flatbed only. 12V auxiliary under hood.",
+      "warn": "FLATBED ONLY. 12V auxiliary ONLY — never touch HV battery.",
+      "towMethod": "FLATBED ONLY — electric drivetrain.",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC: FLATBED ONLY.",
+        "12V auxiliary under hood — never touch HV battery."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "FLATBED ONLY. Never touch HV battery."
+      }
     }
   ]
 }

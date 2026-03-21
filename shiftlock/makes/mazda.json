@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Mazda",
-  "_count": 5,
+  "_count": 10,
   "vehicles": [
     {
       "make": "Mazda",
@@ -213,6 +213,230 @@
         "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "Very low clearance. Soft top: never run straps over the roof."
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "Miata MX-5 (NA/NB)",
+      "yearStart": 1990,
+      "yearEnd": 2005,
+      "trans": "4-speed automatic (NA) or 5-speed manual",
+      "drivetrain": "RWD",
+      "slot": "Small cap near gear selector base on center console (auto only)",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "AUTOMATIC: Locate the shift lock cap near selector base on center console.",
+        "Pry off cap with small flathead. Insert key and press firmly.",
+        "While holding, press brake. Move selector to Neutral.",
+        "MANUAL TRANSMISSION (most common): depress clutch fully, move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Manual trans: depress clutch, select Neutral.",
+        "Automatic: shift lock release as above."
+      ],
+      "notes": "Manual transmission is the most common variant. Lightweight sports car — high value. Flatbed preferred.",
+      "warn": "High-value vehicle — flatbed preferred.",
+      "towMethod": "RWD: lift from rear. Flatbed strongly preferred to avoid body damage.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Lightweight body — very easy to scratch. Flatbed preferred.",
+        "Manual trans: depress clutch, select Neutral — no shift lock."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "RX-8",
+      "yearStart": 2004,
+      "yearEnd": 2011,
+      "trans": "6-speed automatic (RE6R01A) or 6-speed manual",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral.",
+        "IMPORTANT: The Renesis rotary engine must be warm before restarting — a cold rotary tow call is common after flooding. Do not attempt a restart without warming procedure."
+      ],
+      "notes": "Renesis rotary engine. Very common flood/no-start tow. Battery under hood. Manual: depress clutch.",
+      "warn": "Rotary engine: very prone to flooding (over-choking on cold starts). Extremely common tow call.",
+      "towMethod": "RWD: lift from rear. Flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Rotary engine: very common flood tow — do not attempt restart without proper procedure."
+      ],
+      "knownIssues": [
+        {
+          "title": "Rotary Engine Flooding — Extremely Common Tow Call",
+          "detail": "The RX-8 Renesis rotary engine is notorious for flooding (fuel-wash of apex seals) when started cold, driven short distances, or improperly shut down. This is the most common reason the RX-8 is towed. Do not attempt to 'jump start and go' — the engine requires a specific flooding recovery procedure. Tow to a shop."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Rotary engine frequently floods — this is a shop repair, not a roadside fix."
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "Tribute",
+      "yearStart": 2001,
+      "yearEnd": 2011,
+      "trans": "4-speed automatic (4F27E) or 5-speed manual",
+      "drivetrain": "FWD or 4WD (part-time)",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2WD before road towing."
+      ],
+      "notes": "Ford Escape platform. 4WD: must shift to 2WD before road towing. Manual: depress clutch, select Neutral.",
+      "warn": "4WD: shift to 2WD before road towing.",
+      "towMethod": "FWD: lift from front. 4WD: shift TC to 2WD first, then lift rear. Flatbed preferred.",
+      "tc": {
+        "type": "Electronic push-button on console",
+        "positions": [
+          "2WD — REQUIRED for road towing",
+          "4WD Auto — NOT safe for road towing",
+          "4WD Hi — NOT safe for dry road"
+        ],
+        "steps": [
+          "Slow to under 3 MPH.",
+          "Press 2WD button on console.",
+          "Confirm 2WD indicator.",
+          "IF BATTERY IS DEAD: Jump battery first, shift to 2WD, then disconnect."
+        ]
+      },
+      "towNotes": [
+        "Ford Escape platform. TC must be in 2WD for road towing.",
+        "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-7",
+      "yearStart": 2007,
+      "yearEnd": 2012,
+      "trans": "6-speed automatic",
+      "drivetrain": "FWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "B-Series Truck (B2300/B2500/B3000/B4000)",
+      "yearStart": 1994,
+      "yearEnd": 2009,
+      "trans": "4-speed automatic (4R44E/4R55E) or 5-speed manual",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small cap near gear selector base on floor console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on floor console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral.",
+        "Transfer case: shift to 2WD before road towing. Manual TC floor lever on most."
+      ],
+      "notes": "Ford Ranger-based. Manual TC floor lever. Manual: depress clutch, select Neutral.",
+      "warn": "Shift TC to 2H before road towing.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear.",
+      "tc": {
+        "type": "Manual floor lever",
+        "positions": [
+          "2WD — REQUIRED for road towing",
+          "4WD Hi — NOT safe for dry road",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move TC floor lever to 2WD.",
+          "Confirm 2WD before lifting rear wheels.",
+          "MANUAL TRANSMISSION: depress clutch, select Neutral."
+        ]
+      },
+      "towNotes": [
+        "Ford Ranger platform. Manual TC floor lever — must be in 2WD before road towing.",
+        "MANUAL TRANSMISSION: depress clutch, select Neutral."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
       }
     }
   ]

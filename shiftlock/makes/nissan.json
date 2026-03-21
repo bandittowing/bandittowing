@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Nissan",
-  "_count": 15,
+  "_count": 22,
   "vehicles": [
     {
       "make": "Nissan",
@@ -677,6 +677,287 @@
         "warnings": ""
       },
       "knownIssues": []
+    },
+    {
+      "make": "Nissan",
+      "model": "350Z / 370Z",
+      "yearStart": 2003,
+      "yearEnd": 2020,
+      "trans": "5-speed auto (350Z) or 7-speed auto with paddle shifters (370Z) or 6-speed manual",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral.",
+        "Manual: depress clutch, select Neutral."
+      ],
+      "notes": "Manual: depress clutch. High-value sports car — flatbed preferred. Low clearance.",
+      "warn": "High-value vehicle — flatbed preferred.",
+      "towMethod": "RWD: lift from rear. Flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "High-value, low clearance — flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "Quest",
+      "yearStart": 1993,
+      "yearEnd": 2017,
+      "trans": "4-speed automatic (RE4F04A) or 5-speed automatic (RE5F22A) or CVT",
+      "drivetrain": "FWD",
+      "slot": "Small cap or slot near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap or slot near gear selector base on console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "CVT (2011-2017): flatbed preferred.",
+      "warn": "CVT: flatbed preferred.",
+      "towMethod": "FWD: lift from front. CVT: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "Xterra",
+      "yearStart": 2000,
+      "yearEnd": 2015,
+      "trans": "5-speed automatic (RE5R05A) or 6-speed manual",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small cap near gear selector base on floor console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on floor console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral.",
+        "Transfer case: shift to 2WD before road towing."
+      ],
+      "notes": "Manual TC floor lever. Manual: depress clutch. Must be in 2H for road towing.",
+      "warn": "Shift TC to 2H before road towing.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear.",
+      "tc": {
+        "type": "Manual floor lever (part-time with 2WD, 4H, 4L, and Neutral)",
+        "positions": [
+          "2WD — REQUIRED for road towing",
+          "4H — part-time 4WD — NOT safe for dry road",
+          "N — Neutral — for flat towing",
+          "4L — NEVER tow on road"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move TC floor lever to 2WD.",
+          "Confirm 2WD before lifting rear wheels.",
+          "MANUAL TRANSMISSION: depress clutch, select Neutral."
+        ]
+      },
+      "towNotes": [
+        "Manual TC floor lever — shift to 2WD before road towing.",
+        "MANUAL TRANSMISSION: depress clutch, select Neutral."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "Juke",
+      "yearStart": 2011,
+      "yearEnd": 2017,
+      "trans": "6-speed manual or CVT or 6-speed DCT",
+      "drivetrain": "FWD or AWD (All-Mode 4x4-i)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral.",
+        "CVT: flatbed preferred. AWD: flatbed preferred."
+      ],
+      "notes": "CVT: flatbed preferred. AWD: flatbed preferred. Manual: depress clutch.",
+      "warn": "CVT: flatbed preferred. AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. CVT/AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "CVT: flatbed preferred. AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "Kicks",
+      "yearStart": 2018,
+      "yearEnd": 2026,
+      "trans": "CVT",
+      "drivetrain": "FWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral.",
+        "CVT: flatbed preferred."
+      ],
+      "notes": "CVT only: flatbed preferred.",
+      "warn": "CVT: flatbed preferred.",
+      "towMethod": "FWD: lift from front. CVT: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "NV Cargo / NV Passenger",
+      "yearStart": 2012,
+      "yearEnd": 2021,
+      "trans": "5-speed automatic (RE5R05A) or 7-speed automatic",
+      "drivetrain": "RWD",
+      "slot": "Column shifter — key in ON releases shift interlock",
+      "shift": [
+        "Turn ignition to ON.",
+        "Column shifter: key in ON position releases the shift interlock.",
+        "Press the brake pedal firmly.",
+        "Move the column lever from Park to Neutral.",
+        "If lever resists: ensure ignition is fully ON."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, turn key to ON and shift to Neutral using column lever."
+      ],
+      "notes": "Full-size commercial van. Column shifter. RWD. Very common fleet/commercial vehicle.",
+      "warn": "",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Large heavy vehicle — confirm tow capacity."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "ARIYA (EV)",
+      "yearStart": 2023,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "drivetrain": "FWD or AWD electric",
+      "slot": "Electronic selector — joystick or button on console",
+      "shift": [
+        "Turn vehicle to ON/Ready mode.",
+        "Press and hold the N button on the electronic selector while pressing the brake pedal.",
+        "Hold for 3 seconds. Confirm N on the instrument cluster.",
+        "If power is lost: restore 12V auxiliary under the hood first."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "FLATBED ONLY — electric drivetrain.",
+        "Connect jump pack to 12V auxiliary battery — under the hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery.",
+        "Once 12V is restored, select Neutral."
+      ],
+      "notes": "Electric crossover. Flatbed only. 12V auxiliary under hood.",
+      "warn": "FLATBED ONLY. 12V auxiliary ONLY — never touch HV battery.",
+      "towMethod": "FLATBED ONLY — electric drivetrain.",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC: FLATBED ONLY.",
+        "12V auxiliary under hood — never touch HV battery."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "FLATBED ONLY. Never touch HV battery."
+      }
     }
   ]
 }

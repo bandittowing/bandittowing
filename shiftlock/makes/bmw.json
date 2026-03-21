@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "BMW",
-  "_count": 30,
+  "_count": 38,
   "vehicles": [
     {
       "make": "BMW",
@@ -1183,6 +1183,357 @@
         "warnings": "AGM jump pack. Air suspension may drop with dead battery."
       },
       "knownIssues": []
+    },
+    {
+      "make": "BMW",
+      "model": "X1 (E84 / F48 / U11)",
+      "yearStart": 2010,
+      "yearEnd": 2026,
+      "trans": "6-speed auto (E84) or 8-speed ZF 8HP (F48/U11) or DCT",
+      "drivetrain": "RWD or xDrive AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral normally.",
+        "xDrive AWD: flatbed preferred."
+      ],
+      "notes": "xDrive AWD: flatbed preferred. F48/U11 uses ZF 8HP.",
+      "warn": "xDrive AWD: flatbed preferred.",
+      "towMethod": "RWD: lift from rear. xDrive AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "xDrive AWD: flatbed preferred — permanent AWD."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood or trunk (varies by generation — E84: trunk; F48/U11: under hood or trunk)",
+        "jumpTerminals": "Under hood — remote jump terminals; or trunk battery directly",
+        "type": "agm-12v",
+        "warnings": "AGM battery — use AGM-compatible jump pack. Verify battery location."
+      }
+    },
+    {
+      "make": "BMW",
+      "model": "X2 (F39)",
+      "yearStart": 2018,
+      "yearEnd": 2026,
+      "trans": "7-speed dual-clutch (DCT) or 8-speed ZF 8HP",
+      "drivetrain": "FWD or xDrive AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "DCT: REQUIRES 12V power — restore battery first.",
+        "Locate the shift lock slot near the selector base.",
+        "Insert key or thin flathead, press firmly, hold, press brake, move to Neutral.",
+        "DCT without power will not release — always jump first."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "DCT: must restore 12V power before shifting.",
+        "Once powered, shift to Neutral normally.",
+        "xDrive AWD: flatbed preferred."
+      ],
+      "notes": "DCT: requires power. xDrive: flatbed preferred.",
+      "warn": "DCT: restore power before shifting. xDrive: flatbed preferred.",
+      "towMethod": "FWD: lift from front. xDrive AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "xDrive AWD: flatbed preferred.",
+        "DCT: cannot shift without 12V power."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood or trunk — verify before jumping",
+        "jumpTerminals": "Under hood remote terminals or trunk",
+        "type": "agm-12v",
+        "warnings": "AGM. DCT: must restore power before shifting."
+      }
+    },
+    {
+      "make": "BMW",
+      "model": "X4 (F26 / G02)",
+      "yearStart": 2015,
+      "yearEnd": 2026,
+      "trans": "8-speed ZF 8HP automatic",
+      "drivetrain": "xDrive AWD (standard)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood or trunk (verify location).",
+        "Once 12V power is restored, shift to Neutral normally."
+      ],
+      "notes": "Always xDrive AWD — flatbed preferred.",
+      "warn": "xDrive AWD — flatbed preferred.",
+      "towMethod": "FLATBED PREFERRED — permanent xDrive AWD. Wheel-lift with dollies if no flatbed.",
+      "tc": null,
+      "towNotes": [
+        "Permanent xDrive AWD — flatbed is safest.",
+        "Wheel-lift with dollies on free-rolling axle if no flatbed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Trunk (most X4) — verify before jumping",
+        "jumpTerminals": "Under hood remote positive terminal + chassis ground; or trunk battery directly",
+        "type": "agm-12v",
+        "warnings": "Battery typically in trunk on X4. Use under-hood remote jump posts if available. AGM — use AGM-compatible jump pack."
+      }
+    },
+    {
+      "make": "BMW",
+      "model": "X6 (E71 / F16 / G06)",
+      "yearStart": 2008,
+      "yearEnd": 2026,
+      "trans": "6-speed auto (E71) or 8-speed ZF 8HP (F16/G06)",
+      "drivetrain": "xDrive AWD (standard)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — TRUNK on most X6 generations.",
+        "X6 battery is typically in the trunk — check under the rear cargo floor.",
+        "Under-hood remote positive jump post is available on the driver side of the engine bay.",
+        "Once powered, shift to Neutral normally."
+      ],
+      "notes": "Battery in TRUNK on most X6. Remote jump post under hood on driver side. Permanent xDrive — flatbed preferred.",
+      "warn": "Battery in TRUNK — check under cargo floor. Remote jump post under hood. xDrive AWD — flatbed preferred.",
+      "towMethod": "FLATBED PREFERRED — permanent xDrive AWD.",
+      "tc": null,
+      "towNotes": [
+        "Permanent xDrive AWD — flatbed is safest.",
+        "Battery in trunk — use under-hood remote jump post if available.",
+        "Wheel-lift with dollies on free-rolling axle if no flatbed."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Trunk — Remote Jump Post Under Hood",
+          "detail": "The X6 battery is in the trunk under the cargo floor. BMW provides a remote positive (+) jump post in the engine bay on the driver side. Use the remote post and a good chassis ground rather than opening the trunk. The trunk battery can also be accessed directly."
+        }
+      ],
+      "battery": {
+        "location": "TRUNK — under cargo floor. Remote jump post under hood (driver side engine bay).",
+        "jumpTerminals": "Under hood remote post (+) + chassis ground, OR trunk battery directly",
+        "type": "agm-12v",
+        "warnings": "Battery in trunk. AGM — use AGM-compatible jump pack."
+      }
+    },
+    {
+      "make": "BMW",
+      "model": "Z3 (E36/7 / E36/8)",
+      "yearStart": 1996,
+      "yearEnd": 2002,
+      "trans": "5-speed automatic (5HP18) or 5-speed manual (Getrag 250G) or 6-speed manual (Getrag 286)",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — TRUNK (driver side, under cargo area).",
+        "Z3 battery is in the trunk — do NOT look under the hood.",
+        "Once powered, shift to Neutral normally.",
+        "Manual: depress clutch, select Neutral."
+      ],
+      "notes": "Battery in TRUNK. Manual: depress clutch. High-value collectible — flatbed preferred.",
+      "warn": "Battery in TRUNK. High-value vehicle — flatbed preferred.",
+      "towMethod": "RWD: lift from rear. Flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Battery in TRUNK.",
+        "High-value — flatbed preferred."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Trunk",
+          "detail": "The Z3 12V battery is in the trunk on the driver side under the cargo area. There is no battery under the hood."
+        }
+      ],
+      "battery": {
+        "location": "TRUNK — driver side under cargo area",
+        "jumpTerminals": "Trunk — 12V battery terminals",
+        "type": "standard-12v",
+        "warnings": "Battery in trunk."
+      }
+    },
+    {
+      "make": "BMW",
+      "model": "i3 (I01)",
+      "yearStart": 2014,
+      "yearEnd": 2021,
+      "trans": "Single-speed electric (or range extender 2-cylinder scooter engine on REx)",
+      "drivetrain": "RWD electric",
+      "slot": "Electronic selector — joystick-style on center console",
+      "shift": [
+        "Turn vehicle to ON/Ready mode.",
+        "The i3 uses a joystick-style electronic selector on the center console.",
+        "Push the joystick TOWARD YOU (rearward) to select Neutral.",
+        "Hold for 2-3 seconds. Confirm N on the instrument cluster.",
+        "If 12V power is lost: restore 12V auxiliary power first (battery under hood in frunk area).",
+        "Once powered, use the joystick to select N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "FLATBED ONLY — electric drivetrain.",
+        "Connect jump pack to 12V auxiliary battery — under the front hood (small frunk area).",
+        "12V AUXILIARY ONLY — NEVER touch the high-voltage battery pack.",
+        "Once 12V is restored, push joystick rearward to select Neutral.",
+        "Enable Tow mode via iDrive if available: Vehicle Settings > Service > Tow."
+      ],
+      "notes": "Carbon fiber body (CFRP) — very light. 12V auxiliary in frunk. HV battery under floor. Flatbed only. REx models have small 2-cylinder range extender but it does NOT drive the wheels.",
+      "warn": "FLATBED ONLY. Carbon fiber body — use padded equipment only. 12V in frunk.",
+      "towMethod": "FLATBED ONLY — electric drivetrain. Carbon fiber body requires padded ramps.",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC: FLATBED ONLY.",
+        "Carbon fiber (CFRP) body — never use metal hooks or chains against the body. Padded equipment only.",
+        "12V auxiliary in frunk — NEVER touch HV battery (orange cables under floor).",
+        "REx models still FLATBED ONLY — range extender does not drive wheels."
+      ],
+      "knownIssues": [
+        {
+          "title": "Carbon Fiber Body — Special Equipment Required",
+          "detail": "The i3 is constructed from carbon fiber reinforced plastic (CFRP). Never use metal chains, hooks, or straps directly against the body — it will crack. Use padded or soft-loop equipment only. Load onto flatbed with padded ramps."
+        },
+        {
+          "title": "12V Battery in Frunk",
+          "detail": "The i3 12V auxiliary battery is in the front hood area (frunk). Open the front hood — it is a small storage area, not an engine bay. The HV battery is under the floor and must NEVER be touched."
+        }
+      ],
+      "battery": {
+        "location": "FRUNK (front hood area) — small 12V auxiliary battery",
+        "jumpTerminals": "Frunk — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "NEVER touch HV battery. Carbon body — padded equipment only. Flatbed only."
+      }
+    },
+    {
+      "make": "BMW",
+      "model": "6 Series (E63/E64/F12/F13/G32)",
+      "yearStart": 2004,
+      "yearEnd": 2026,
+      "trans": "6-speed auto (E63/E64) or 8-speed ZF 8HP (F12/F13/G32)",
+      "drivetrain": "RWD or xDrive AWD (some trims)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery location varies: E63/E64 battery is in the TRUNK. F12/F13 battery in trunk.",
+        "Open trunk, access battery directly OR use under-hood remote jump post if present.",
+        "Once powered, shift to Neutral.",
+        "xDrive AWD: flatbed preferred."
+      ],
+      "notes": "Battery typically in TRUNK on most 6 Series. Remote jump post may be under hood. High value.",
+      "warn": "Battery in TRUNK. xDrive AWD: flatbed preferred.",
+      "towMethod": "RWD: lift from rear. xDrive AWD: flatbed preferred. Flatbed preferred for all due to vehicle value.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Battery in trunk — use under-hood remote post if available.",
+        "High-value vehicle — flatbed preferred."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Trunk",
+          "detail": "Most 6 Series have the 12V battery in the trunk. A remote positive jump post may be in the engine bay. Always check the trunk for the battery."
+        }
+      ],
+      "battery": {
+        "location": "TRUNK — under cargo floor or cargo area",
+        "jumpTerminals": "Trunk battery directly OR under-hood remote post (+) + chassis ground",
+        "type": "agm-12v",
+        "warnings": "Battery in trunk. AGM — use AGM-compatible jump pack."
+      }
+    },
+    {
+      "make": "BMW",
+      "model": "8 Series (G14/G15/G16)",
+      "yearStart": 2019,
+      "yearEnd": 2026,
+      "trans": "8-speed ZF 8HP automatic",
+      "drivetrain": "RWD or xDrive AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack — battery is in the TRUNK.",
+        "Use under-hood remote positive jump post (driver side engine bay) + chassis ground.",
+        "Or open trunk and connect directly to battery.",
+        "xDrive AWD: flatbed preferred."
+      ],
+      "notes": "Very high-value grand touring car. Battery in trunk. Remote post under hood. xDrive: flatbed preferred.",
+      "warn": "Battery in TRUNK. Very high-value — flatbed preferred.",
+      "towMethod": "RWD: lift from rear. xDrive AWD: flatbed preferred. Flatbed strongly preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Very high-value — flatbed strongly preferred.",
+        "Battery in trunk — use remote under-hood post."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Trunk",
+          "detail": "The 8 Series battery is in the trunk. Remote positive jump post is in the engine bay on the driver side."
+        }
+      ],
+      "battery": {
+        "location": "TRUNK. Remote jump post under hood (driver side engine bay).",
+        "jumpTerminals": "Under hood remote post (+) + chassis ground, OR trunk battery directly",
+        "type": "agm-12v",
+        "warnings": "Battery in trunk. AGM. Very high-value vehicle."
+      }
     }
   ]
 }

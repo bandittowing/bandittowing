@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Dodge",
-  "_count": 11,
+  "_count": 17,
   "vehicles": [
     {
       "make": "Dodge",
@@ -491,6 +491,245 @@
         "warnings": ""
       },
       "knownIssues": []
+    },
+    {
+      "make": "Dodge",
+      "model": "Stratus / Avenger",
+      "yearStart": 1995,
+      "yearEnd": 2010,
+      "trans": "4-speed automatic (41TE) or CVT (2008-2010 2.4L Avenger)",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Stratus (1995-2006), Avenger (2008-2014). CVT on late Avenger: flatbed preferred.",
+      "warn": "CVT models: flatbed preferred.",
+      "towMethod": "FWD: lift from front. CVT models: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "CVT EQUIPPED (2008-2010): Do NOT exceed 35 mph or 50 miles with drive wheels on ground."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Caliber",
+      "yearStart": 2007,
+      "yearEnd": 2012,
+      "trans": "CVT or 6-speed automatic or 5-speed manual",
+      "drivetrain": "FWD or AWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "CVT on most FWD trims. Manual: depress clutch, select Neutral. AWD: flatbed preferred.",
+      "warn": "CVT: flatbed preferred. AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. CVT: flatbed preferred. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Magnum",
+      "yearStart": 2005,
+      "yearEnd": 2008,
+      "trans": "5-speed automatic (545RFE) or 6-speed automatic (W5A580 on V8)",
+      "drivetrain": "RWD or AWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "AWD: flatbed preferred. Shares Chrysler LX platform with 300 and Charger.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "RWD: lift from rear. AWD: flatbed preferred. AWD without flatbed: dollies on front axle.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Nitro",
+      "yearStart": 2007,
+      "yearEnd": 2011,
+      "trans": "4-speed automatic (42RLE) or 5-speed automatic",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2WD before road towing."
+      ],
+      "notes": "Jeep Liberty-based. Transfer case must be in 2H for road towing.",
+      "warn": "Shift transfer case to 2H before road towing.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear. Flatbed preferred.",
+      "tc": {
+        "type": "Electronic rotary dial or push-button on console",
+        "positions": [
+          "2WD — rear wheels only — REQUIRED for road towing",
+          "4WD Part Time — NOT safe for dry road",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Slow to under 3 MPH.",
+          "Shift TC dial or button to 2WD.",
+          "Confirm 2WD indicator on instrument cluster.",
+          "IF BATTERY IS DEAD: Jump battery first, shift to 2WD, then disconnect."
+        ]
+      },
+      "towNotes": [
+        "Jeep Liberty platform. Electronic TC requires power.",
+        "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect. If unable, FLATBED ONLY."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Ram Van / Ram Wagon B-Series",
+      "yearStart": 1992,
+      "yearEnd": 2003,
+      "trans": "3-speed automatic (A727) or 4-speed automatic (46RH/46RE)",
+      "drivetrain": "RWD",
+      "slot": "Column shifter — shift lock released by key in ON position",
+      "shift": [
+        "Turn ignition to ON.",
+        "Column shifter: key in ON position releases the shift interlock.",
+        "Press the brake pedal firmly.",
+        "Move column lever from Park to Neutral.",
+        "If column lever is stiff: ensure ignition is fully in ON position, not just ACC."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood or on the right front inner fender.",
+        "Once 12V power is restored, turn key to ON and shift to Neutral using column lever."
+      ],
+      "notes": "Column shifter. RWD. Very common commercial/fleet vehicle.",
+      "warn": "",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear. Large/heavy vehicle — confirm tow capacity."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood or right front inner fender (varies by year)",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Shadow / Spirit",
+      "yearStart": 1990,
+      "yearEnd": 1995,
+      "trans": "3-speed automatic (A413) or 4-speed automatic (41TE)",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
     }
   ]
 }

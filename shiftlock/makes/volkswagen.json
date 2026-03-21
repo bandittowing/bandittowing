@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Volkswagen",
-  "_count": 9,
+  "_count": 14,
   "vehicles": [
     {
       "make": "Volkswagen",
@@ -374,6 +374,214 @@
         "warnings": "Always use hood terminals — never jump directly at rear seat battery. AGM jump pack."
       },
       "knownIssues": []
+    },
+    {
+      "make": "Volkswagen",
+      "model": "New Beetle / Beetle (A5)",
+      "yearStart": 1998,
+      "yearEnd": 2019,
+      "trans": "4-speed automatic (01M) or 6-speed DSG or 5/6-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "DSG: must restore 12V power before shifting — strongly preferred.",
+        "Once powered, press brake and shift to Neutral.",
+        "Manual: depress clutch, select Neutral."
+      ],
+      "notes": "New Beetle (1998-2010), Beetle A5 (2012-2019). DSG: power required. Manual: depress clutch.",
+      "warn": "DSG: restore power before shifting.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front. DSG: restore power before shifting."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "DSG: must restore power before shifting."
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "CC / Arteon",
+      "yearStart": 2009,
+      "yearEnd": 2023,
+      "trans": "6-speed DSG or 8-speed automatic (Arteon)",
+      "drivetrain": "FWD or 4MOTION AWD",
+      "slot": "Small slot near gear selector base on center console; DSG: slot on selector housing",
+      "shift": [
+        "Turn ignition to ON.",
+        "DSG: REQUIRES 12V power — restore battery first.",
+        "Locate the shift lock slot near selector base or on selector housing.",
+        "Insert key or thin flathead, press firmly, hold, press brake, move to Neutral.",
+        "DSG without power will not release — always jump first."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "DSG: must restore 12V power before shifting.",
+        "Once powered, shift to Neutral.",
+        "4MOTION AWD: flatbed preferred."
+      ],
+      "notes": "DSG: power required. 4MOTION AWD: flatbed preferred.",
+      "warn": "DSG: restore power before shifting. 4MOTION AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. 4MOTION AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "4MOTION AWD: flatbed preferred.",
+        "DSG: cannot shift without 12V power — jump battery first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "AGM battery. DSG: must restore power before shifting."
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Touareg (1G/2G/3G)",
+      "yearStart": 2004,
+      "yearEnd": 2023,
+      "trans": "6-speed automatic (ZF 6HP19) or 8-speed automatic (ZF 8HP70, 2G/3G); PHEV available",
+      "drivetrain": "4WD (4MOTION, permanent AWD with low range TC)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral.",
+        "Transfer case must be in high range before road towing.",
+        "PHEV models: 12V auxiliary ONLY — never touch HV battery."
+      ],
+      "notes": "Permanent 4MOTION AWD with electronic TC. Must be in high range for road towing. PHEV (eHybrid) available on 3G — 12V only for jumping.",
+      "warn": "Permanent AWD — flatbed preferred. TC must be in high range. PHEV: 12V auxiliary ONLY.",
+      "towMethod": "FLATBED PREFERRED — permanent AWD. Wheel-lift with dollies if no flatbed.",
+      "tc": {
+        "type": "Electronic rotary dial or button on center console",
+        "positions": [
+          "High range — standard road mode — use for road towing",
+          "Low range — off-road only — NEVER tow on road in low range"
+        ],
+        "steps": [
+          "Confirm TC is in high range (not low range) before road towing.",
+          "Permanent AWD — cannot disengage to 2WD.",
+          "FLATBED is safest option.",
+          "If wheel-lift: dollies REQUIRED on free-rolling axle.",
+          "PHEV: 12V auxiliary only — never touch HV battery."
+        ]
+      },
+      "towNotes": [
+        "Permanent AWD — flatbed is safest.",
+        "TC must be in high range for road towing.",
+        "PHEV: 12V auxiliary only — never access HV battery."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "AGM battery. PHEV: 12V auxiliary only. Permanent AWD — flatbed preferred."
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Routan",
+      "yearStart": 2009,
+      "yearEnd": 2014,
+      "trans": "6-speed automatic (62TE)",
+      "drivetrain": "FWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Chrysler Town & Country / Grand Caravan rebadge. Same as Chrysler procedure.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Golf / GTI (Mk4 / Mk5 1999-2009)",
+      "yearStart": 1999,
+      "yearEnd": 2009,
+      "trans": "4-speed auto (01M, Mk4) or 6-speed DSG (Mk5) or 5/6-speed manual",
+      "drivetrain": "FWD or 4MOTION AWD (Golf 4Motion)",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "DSG (Mk5): must restore 12V power before shifting.",
+        "Once powered, shift to Neutral.",
+        "Manual: depress clutch, select Neutral."
+      ],
+      "notes": "DSG (Mk5+): power required. Manual: depress clutch. 4MOTION AWD (Golf 4Motion): flatbed preferred.",
+      "warn": "DSG: restore power before shifting. 4MOTION AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. 4MOTION AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front. 4MOTION AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "DSG: must restore power before shifting."
+      }
     }
   ]
 }

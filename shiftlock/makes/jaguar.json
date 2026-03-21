@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Jaguar",
-  "_count": 9,
+  "_count": 13,
   "vehicles": [
     {
       "make": "Jaguar",
@@ -491,6 +491,181 @@
           "detail": "The XJ-S is a long, low grand tourer with very limited ground clearance. Flatbed loading requires a minimal approach angle. Use ramp extenders where available. Wheel-lift is possible but clearance is tight."
         }
       ]
+    },
+    {
+      "make": "Jaguar",
+      "model": "S-Type",
+      "yearStart": 2000,
+      "yearEnd": 2008,
+      "trans": "5-speed automatic (ZF 5HP24) or 6-speed automatic (ZF 6HP26)",
+      "drivetrain": "RWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — in the TRUNK (boot), passenger side.",
+        "S-Type battery is in the trunk — do NOT look under the hood.",
+        "Once powered, press brake and shift to Neutral normally."
+      ],
+      "notes": "Battery in TRUNK. AWD: flatbed preferred.",
+      "warn": "Battery is in the TRUNK — not under the hood.",
+      "towMethod": "RWD: lift from rear. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "AWD: flatbed preferred.",
+        "Battery is in the TRUNK — open boot for jump access."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Trunk (Boot)",
+          "detail": "The S-Type 12V battery is in the trunk (boot) on the passenger side. There is no battery under the hood. Always open the trunk to access jump terminals."
+        }
+      ],
+      "battery": {
+        "location": "TRUNK (boot) — passenger side",
+        "jumpTerminals": "Trunk — 12V battery terminals",
+        "type": "standard-12v",
+        "warnings": "Battery in trunk — not under the hood."
+      }
+    },
+    {
+      "make": "Jaguar",
+      "model": "X-Type",
+      "yearStart": 2002,
+      "yearEnd": 2008,
+      "trans": "5-speed automatic (Ford 5R55N) or 5-speed manual",
+      "drivetrain": "AWD (standard) or FWD (rare)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Ford Mondeo-based platform. AWD is standard on most US models — flatbed preferred. Manual: depress clutch, select Neutral.",
+      "warn": "AWD standard on US models: flatbed preferred.",
+      "towMethod": "AWD: flatbed preferred. FWD (rare): lift from front. AWD without flatbed: dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "AWD: flatbed preferred — full-time AWD cannot be easily disengaged.",
+        "FWD (rare): lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Jaguar",
+      "model": "XK / XKR (X100 / X150)",
+      "yearStart": 1997,
+      "yearEnd": 2015,
+      "trans": "5-speed automatic (ZF 5HP24) or 6-speed automatic (ZF 6HP26, X150)",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — battery location varies: X100 has battery in boot (trunk); X150 has a remote terminal under the hood.",
+        "X100 (1997-2006): BATTERY IN TRUNK (boot) — passenger side.",
+        "X150 (2007-2015): Jump terminals are under the hood — battery itself may be in the trunk.",
+        "Once powered, press brake and shift to Neutral.",
+        "High-value vehicle — flatbed preferred."
+      ],
+      "notes": "X100 (1997-2006): battery in TRUNK. X150 (2007-2015): jump terminals under hood. High-value sports car.",
+      "warn": "Battery location varies by generation — see notes. High value — flatbed preferred.",
+      "towMethod": "RWD: lift from rear. Flatbed strongly preferred due to vehicle value and low clearance.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "High-value vehicle — flatbed strongly preferred.",
+        "X100 battery in TRUNK. X150 jump terminals under hood."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery Location Varies by Generation",
+          "detail": "X100 (1997-2006): 12V battery is in the trunk (boot). X150 (2007-2015): remote jump terminals are under the hood for convenience, but the battery may still be in the trunk. Always check under the hood first for the X150."
+        }
+      ],
+      "battery": {
+        "location": "X100: TRUNK (boot). X150: jump terminals under hood (battery in trunk on some trims).",
+        "jumpTerminals": "X100: trunk. X150: under hood remote terminals",
+        "type": "standard-12v",
+        "warnings": "Battery or remote terminals location varies by generation."
+      }
+    },
+    {
+      "make": "Jaguar",
+      "model": "XJ (X350 / X358 2004-2009)",
+      "yearStart": 2004,
+      "yearEnd": 2009,
+      "trans": "6-speed automatic (ZF 6HP26)",
+      "drivetrain": "RWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — BATTERY IS IN THE TRUNK (boot).",
+        "Open the trunk and access the battery directly.",
+        "Once powered, press brake and shift to Neutral."
+      ],
+      "notes": "Battery in TRUNK. Aluminum body — do NOT use magnetic attachments or standard rubber-pad wheel restraints on exposed aluminum.",
+      "warn": "Battery in TRUNK. Aluminum body — avoid magnetic equipment.",
+      "towMethod": "RWD: lift from rear. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear. AWD: flatbed preferred.",
+        "Battery in TRUNK — open boot for jump access.",
+        "Aluminum body — use non-magnetic equipment. Do not scratch painted surfaces with chain hooks."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Trunk",
+          "detail": "The X350/X358 XJ 12V battery is in the trunk (boot). Open the trunk to access it."
+        }
+      ],
+      "battery": {
+        "location": "TRUNK (boot)",
+        "jumpTerminals": "Trunk — 12V battery terminals",
+        "type": "standard-12v",
+        "warnings": "Battery in trunk. Aluminum body — use appropriate equipment."
+      }
     }
   ]
 }

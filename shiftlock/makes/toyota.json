@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Toyota",
-  "_count": 23,
+  "_count": 32,
   "vehicles": [
     {
       "make": "Toyota",
@@ -21,7 +21,7 @@
       "slot": "Small square cover BEHIND the gear selector (toward rear of console) — NOT at the base. Insert key VERTICALLY.",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the shift lock slot: Small square cover BEHIND the gear selector (toward rear of console) — NOT at the base. Insert key VERTICALLY..",
+        "Locate the shift lock slot: Small square cover BEHIND the gear selector (toward rear of console) — NOT at the base. Insert key VERTICALLY.",
         "Insert a thin key or flathead into the slot and press firmly down.",
         "While holding the slot, press the brake pedal.",
         "Move the selector to Neutral."
@@ -485,7 +485,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "IMPORTANT — 12V BATTERY IS IN THE TRUNK, not under the hood. Open the trunk — battery is trunk — under cargo floor on right side. prius prime: same.. Connect jump pack. 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack.",
+        "IMPORTANT — 12V BATTERY IS IN THE TRUNK, not under the hood. Open the trunk — battery is under cargo floor on right side. Prius Prime: same location. Connect jump pack. 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack.",
         "NEVER touch the HV battery under the rear seat.",
         "Once 12V power is restored, press brake and shift joystick to N normally.",
         "AWD-e models (2019+ 4th gen): FLATBED ONLY — rear electric motor cannot be disabled."
@@ -1036,6 +1036,387 @@
         "warnings": ""
       },
       "knownIssues": []
+    },
+    {
+      "make": "Toyota",
+      "model": "Celica (6th/7th Gen)",
+      "yearStart": 1994,
+      "yearEnd": 2006,
+      "trans": "4-speed automatic (A140E) or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral.",
+        "Manual: depress clutch, select Neutral."
+      ],
+      "notes": "Manual is most common variant. FWD. Low clearance on some — flatbed preferred.",
+      "warn": "",
+      "towMethod": "FWD: lift from front. Flatbed preferred for low-clearance variants.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "MR2 / MR2 Spyder (W20/W30)",
+      "yearStart": 1991,
+      "yearEnd": 2005,
+      "trans": "4-speed automatic (A240E, W20) or 5-speed sequential (SMT, W30 Spyder) or 5/6-speed manual",
+      "drivetrain": "RWD (mid-engine)",
+      "slot": "Console selector — small cap near selector base (auto) or no slot (manual/SMT)",
+      "shift": [
+        "Turn ignition to ON.",
+        "AUTOMATIC (W20): Locate shift lock cap near selector base. Pry off, insert flathead, press firmly, hold, press brake, move to Neutral.",
+        "SMT (W30 Spyder sequential): REQUIRES 12V power — restore battery first, then use the sequential lever or paddle to move to Neutral.",
+        "MANUAL: depress clutch fully, move gear lever to Neutral.",
+        "SMT without power will NOT shift — always jump battery first."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "MID-ENGINE: battery is in the FRONT storage area (frunk) — NOT in the engine bay at the rear.",
+        "W20 (1991-1995): battery may be in the front storage area — verify before jumping.",
+        "W30 Spyder (2000-2005): battery is in the front storage area under the front hood.",
+        "Connect jump pack. Shift to Neutral using appropriate method.",
+        "FLATBED ONLY — very low clearance, mid-engine, high value."
+      ],
+      "notes": "MID-ENGINE: battery in FRONT storage area (frunk). SMT requires power. Very low clearance. High-value collectible. FLATBED ONLY.",
+      "warn": "BATTERY IN FRONT FRUNK — not in rear engine bay. FLATBED ONLY. SMT requires power.",
+      "towMethod": "FLATBED ONLY — very low clearance, mid-engine, high value.",
+      "tc": null,
+      "towNotes": [
+        "FLATBED ONLY — extremely low clearance, mid-engine.",
+        "Battery is in the FRONT storage area (frunk), NOT the rear engine bay.",
+        "SMT (W30 Spyder): requires 12V power to shift — jump battery first.",
+        "High-value collectible — padded ramps and soft ties."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Front Frunk — NOT Rear Engine Bay",
+          "detail": "The MR2 is mid-engine. The rear hood opens to the engine. The FRONT hood opens to a small storage frunk where the 12V battery is located. Never look in the engine bay for the battery — always open the front hood."
+        },
+        {
+          "title": "SMT Sequential Requires Power",
+          "detail": "The W30 MR2 Spyder SMT (Sequential Manual Transmission) is electro-hydraulic and cannot shift without 12V power. Always restore battery power before attempting to select Neutral."
+        }
+      ],
+      "battery": {
+        "location": "FRONT frunk (front storage area under front hood) — NOT the rear engine bay",
+        "jumpTerminals": "Front frunk — 12V battery terminals",
+        "type": "standard-12v",
+        "warnings": "Battery in FRONT frunk. SMT requires power. FLATBED ONLY."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Avalon",
+      "yearStart": 1995,
+      "yearEnd": 2022,
+      "trans": "4-speed (1995-1999), 5-speed (2000-2012), 6-speed (2013-2018), 8-speed (2019-2022) automatic; hybrid eCVT available",
+      "drivetrain": "FWD",
+      "slot": "Small cap or slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap or slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "12V auxiliary under hood ONLY (hybrid) — never touch HV battery.",
+        "Once powered, press brake and shift to Neutral."
+      ],
+      "notes": "FWD full-size sedan. Hybrid available (2013+): 12V under hood only — never touch HV battery.",
+      "warn": "Hybrid: 12V auxiliary ONLY — never touch HV battery.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "Hybrid: 12V auxiliary under hood only — never touch HV battery."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Hybrid: 12V auxiliary only. Never touch HV battery."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Echo / Yaris",
+      "yearStart": 2000,
+      "yearEnd": 2020,
+      "trans": "4-speed automatic (A245E) or 5-speed manual (C50)",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once powered, press brake and shift to Neutral.",
+        "Manual: depress clutch, select Neutral."
+      ],
+      "notes": "Echo (2000-2005), Yaris (2006-2020). Manual: depress clutch. Very small/light — easy to maneuver.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front. Very small vehicle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Matrix",
+      "yearStart": 2003,
+      "yearEnd": 2013,
+      "trans": "4-speed automatic (A246E) or 5-speed manual",
+      "drivetrain": "FWD or AWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once powered, press brake and shift to Neutral.",
+        "Manual: depress clutch. AWD: flatbed preferred."
+      ],
+      "notes": "Corolla-based. Pontiac Vibe sibling. AWD: flatbed preferred. Manual: depress clutch.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "FJ Cruiser",
+      "yearStart": 2007,
+      "yearEnd": 2014,
+      "trans": "5-speed automatic (A750F) or 6-speed manual",
+      "drivetrain": "RWD or 4WD (part-time, A-TRAC)",
+      "slot": "Small slot near gear selector base on floor console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on floor console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral.",
+        "Transfer case: shift to 2WD/H4 before road towing.",
+        "Manual: depress clutch, select Neutral."
+      ],
+      "notes": "4Runner-based. Electronic push-button TC (H4 / L4 / Neutral). Must be in H4 for road towing. Manual trans available. Rear suicide doors. Very common off-road/adventure vehicle.",
+      "warn": "Shift TC to H4 (high range 4WD rear-drive equivalent) before road towing.",
+      "towMethod": "RWD/H4: lift from rear. 4WD: shift TC to H4 first, then lift rear.",
+      "tc": {
+        "type": "Electronic push-button on center console (H4 / L4 / Neutral)",
+        "positions": [
+          "H4 (4WD High) — standard road mode for towing",
+          "L4 — low range — NEVER tow on road",
+          "N — Neutral — for flat towing all 4 wheels on ground"
+        ],
+        "steps": [
+          "Stop completely or slow to under 3 MPH.",
+          "Press H4 button to ensure high range is selected.",
+          "Confirm TC indicator on instrument cluster.",
+          "For wheel-lift: select H4 and lift rear wheels.",
+          "IF BATTERY IS DEAD: Jump battery first, confirm TC in H4, then proceed."
+        ]
+      },
+      "towNotes": [
+        "Electronic TC requires 12V power.",
+        "DEAD BATTERY: Jump first, select H4, THEN proceed.",
+        "FJ Cruiser does not have a traditional 2WD mode — H4 is the correct road-tow position."
+      ],
+      "knownIssues": [
+        {
+          "title": "No 2WD Mode — H4 is Road-Tow Position",
+          "detail": "The FJ Cruiser does not have a 2WD-only mode. H4 (high range) is the appropriate transfer case position for road towing. The rear wheels drive the vehicle and the front axle is not driven in H4."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "C-HR",
+      "yearStart": 2018,
+      "yearEnd": 2023,
+      "trans": "CVT",
+      "drivetrain": "FWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once powered, press brake and shift to Neutral.",
+        "CVT: flatbed preferred."
+      ],
+      "notes": "CVT only. Flatbed preferred.",
+      "warn": "CVT: flatbed preferred.",
+      "towMethod": "FWD: lift from front. CVT: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Venza",
+      "yearStart": 2009,
+      "yearEnd": 2015,
+      "trans": "6-speed automatic (A761E/U660E)",
+      "drivetrain": "FWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once powered, press brake and shift to Neutral.",
+        "AWD: flatbed preferred."
+      ],
+      "notes": "Camry-based crossover. AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front. AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Venza (2nd Gen Hybrid)",
+      "yearStart": 2021,
+      "yearEnd": 2026,
+      "trans": "eCVT hybrid",
+      "drivetrain": "AWD (hybrid, standard)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to 12V auxiliary battery — under the hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery.",
+        "Once powered, press brake and shift to Neutral.",
+        "FLATBED PREFERRED — hybrid AWD + eCVT."
+      ],
+      "notes": "Hybrid AWD with eCVT — flatbed strongly preferred. 12V auxiliary under hood only.",
+      "warn": "HYBRID + eCVT + AWD: flatbed strongly preferred. 12V auxiliary ONLY — never touch HV battery.",
+      "towMethod": "FLATBED STRONGLY PREFERRED — hybrid AWD and eCVT.",
+      "tc": null,
+      "towNotes": [
+        "Hybrid AWD + eCVT — flatbed strongly preferred.",
+        "12V auxiliary under hood only — never touch HV battery."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "12V auxiliary only. Never touch HV battery. Flatbed preferred."
+      }
     }
   ]
 }

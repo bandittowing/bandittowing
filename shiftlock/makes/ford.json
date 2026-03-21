@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Ford",
-  "_count": 26,
+  "_count": 37,
   "vehicles": [
     {
       "make": "Ford",
@@ -196,7 +196,7 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood, driver side. Diesel trims may have dual batteries..",
+        "Connect jump pack to battery — Under hood, driver side. Diesel trims may have dual batteries.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
         "If power cannot be restored, use the shift lock slot above — Cap at side of console shifter base."
       ],
@@ -254,7 +254,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood. Diesel Power Stroke may have dual batteries..",
+        "Connect jump pack to battery — Under hood. Diesel Power Stroke may have dual batteries.",
         "Once 12V power is restored, press brake and select N normally on the electronic selector.",
         "Electronic selectors require power — mechanical override is a last resort only."
       ],
@@ -1206,6 +1206,464 @@
         "warnings": ""
       },
       "knownIssues": []
+    },
+    {
+      "make": "Ford",
+      "model": "Probe",
+      "yearStart": 1993,
+      "yearEnd": 1997,
+      "trans": "4-speed automatic (4EAT-G) or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Mazda 626 platform. Manual: depress clutch, select Neutral.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Contour / Mystique",
+      "yearStart": 1995,
+      "yearEnd": 2000,
+      "trans": "4-speed automatic (CD4E) or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Mercury Mystique is the same vehicle. Manual: depress clutch, select Neutral.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Five Hundred / Freestyle",
+      "yearStart": 2005,
+      "yearEnd": 2007,
+      "trans": "CVT (Continuously Variable Transmission)",
+      "drivetrain": "FWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "CVT: do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred.",
+      "warn": "CVT: flatbed preferred — CVT damage risk if towed at speed with drive wheels down.",
+      "towMethod": "FWD: lift from front. CVT: flatbed preferred. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Thunderbird (11th Gen)",
+      "yearStart": 2002,
+      "yearEnd": 2005,
+      "trans": "5-speed automatic (5R55S)",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "High-value collectible — flatbed preferred.",
+      "warn": "High-value vehicle — flatbed preferred.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Flatbed strongly preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear. High value — flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Flex",
+      "yearStart": 2009,
+      "yearEnd": 2019,
+      "trans": "6-speed automatic (6F50 or 6F55)",
+      "drivetrain": "FWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "AWD: flatbed preferred. EcoBoost available.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred. AWD without flatbed: dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "EcoSport",
+      "yearStart": 2018,
+      "yearEnd": 2022,
+      "trans": "6-speed automatic or 5-speed manual",
+      "drivetrain": "FWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Small crossover. Manual: depress clutch, select Neutral. AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Bronco Sport",
+      "yearStart": 2021,
+      "yearEnd": 2026,
+      "trans": "8-speed automatic (8F24)",
+      "drivetrain": "FWD or AWD (GOAT Modes on Badlands/Outer Banks)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Compact crossover — different from full-size Bronco. No transfer case on Bronco Sport.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred. AWD without flatbed: dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "Bronco Sport is a COMPACT CROSSOVER — it does NOT have a transfer case like the full-size Bronco.",
+        "FWD: lift from front. AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "2021+ with stop-start: use AGM-compatible jump pack."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Transit Connect",
+      "yearStart": 2010,
+      "yearEnd": 2023,
+      "trans": "6-speed automatic (6F35) or 8-speed automatic (8F35, 2019+)",
+      "drivetrain": "FWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Common commercial/delivery vehicle. FWD. Sliding rear doors.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Ranger (1993-2011)",
+      "yearStart": 1993,
+      "yearEnd": 2011,
+      "trans": "4-speed automatic (4R44E / 4R55E) or 5-speed manual",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small cap near gear selector base on floor console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on floor console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2WD/2H before road towing."
+      ],
+      "notes": "Manual TC (floor lever) on most. Must be in 2H for road towing. Manual trans: depress clutch, select Neutral.",
+      "warn": "Shift transfer case to 2H before road towing. 4WD on dry pavement damages driveline.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: shift TC to 2H first, then lift rear.",
+      "tc": {
+        "type": "Manual floor-mounted lever or push-button (electronic on later years)",
+        "positions": [
+          "2WD — rear wheels only — REQUIRED for road towing",
+          "4WD Hi — part-time — NOT safe for dry-road towing",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Stop completely or slow to under 3 MPH.",
+          "Move TC lever to 2WD (floor lever) or push 2WD button.",
+          "Confirm 2WD before lifting rear wheels.",
+          "MANUAL TRANSMISSION: depress clutch, select Neutral — no shift lock slot needed.",
+          "IF BATTERY IS DEAD: Jump battery first, shift TC to 2WD, then disconnect."
+        ]
+      },
+      "towNotes": [
+        "Manual TC: must shift to 2WD before road towing.",
+        "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect. If unable, FLATBED ONLY."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "F-250 / F-350 Super Duty (1999 Classic)",
+      "yearStart": 1999,
+      "yearEnd": 1999,
+      "trans": "4-speed automatic (4R100 / E4OD) or 5-speed manual (ZF-5)",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small cap near gear selector base on floor console or column",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on floor console or column.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under hood, driver side. May have dual batteries (diesel).",
+        "Once 12V power is restored, shift to Neutral.",
+        "Transfer case must be in 2WD/2H before road towing.",
+        "DIESEL MODELS: may have dual battery setup — both batteries are under hood."
+      ],
+      "notes": "1999 was both old-body and new-body (Super Duty launched mid-cycle). This covers the transitional year.",
+      "warn": "Shift TC to 2H before road towing. Diesel may have dual batteries.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear.",
+      "tc": {
+        "type": "Manual floor lever (NP271 or NP273)",
+        "positions": [
+          "2WD — rear only — REQUIRED for road towing",
+          "4WD Hi — NOT safe for dry-road towing",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move TC floor lever to 2WD.",
+          "Confirm 2WD indicator.",
+          "MANUAL TRANSMISSION: depress clutch, select Neutral."
+        ]
+      },
+      "towNotes": [
+        "Manual TC floor lever on most configurations.",
+        "DIESEL: may have dual batteries — both under the hood, driver side."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side (diesel may have dual battery setup)",
+        "jumpTerminals": "Under hood — standard terminals; diesel: connect to primary battery",
+        "type": "standard-12v",
+        "warnings": "Diesel dual battery: connect jump pack to primary (larger) battery."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Explorer Sport Trac",
+      "yearStart": 2001,
+      "yearEnd": 2010,
+      "trans": "5-speed automatic (5R55S or 5R55W) or 4-speed automatic (4R70W)",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2WD before road towing."
+      ],
+      "notes": "Explorer-based pickup. 4WD versions have a manual floor TC lever or electronic push-button.",
+      "warn": "Shift TC to 2H before road towing.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear.",
+      "tc": {
+        "type": "Electronic push-button or manual floor lever",
+        "positions": [
+          "2WD — REQUIRED for road towing",
+          "4WD Hi — NOT safe for dry road",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Stop or slow to under 3 MPH.",
+          "Shift TC to 2WD using button or lever.",
+          "Confirm 2WD indicator.",
+          "IF BATTERY IS DEAD: Jump battery first, shift TC to 2WD, then disconnect."
+        ]
+      },
+      "towNotes": [
+        "TC must be in 2WD for all road towing.",
+        "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
     }
   ]
 }

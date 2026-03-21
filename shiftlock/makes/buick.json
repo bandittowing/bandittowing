@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Buick",
-  "_count": 6,
+  "_count": 13,
   "vehicles": [
     {
       "make": "Buick",
@@ -237,6 +237,284 @@
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Buick",
+      "model": "LeSabre",
+      "yearStart": 1991,
+      "yearEnd": 2005,
+      "trans": "4-speed automatic (4T60-E or 4T65-E)",
+      "drivetrain": "FWD",
+      "slot": "Small cap on the right side of the shift indicator on the console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap on the right side of the shift indicator on the console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front (front/drive wheels in the air)."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Buick",
+      "model": "Park Avenue",
+      "yearStart": 1991,
+      "yearEnd": 2005,
+      "trans": "4-speed automatic (4T65-E)",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Buick",
+      "model": "Century / Regal",
+      "yearStart": 1997,
+      "yearEnd": 2004,
+      "trans": "4-speed automatic (4T65-E)",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Century discontinued 2005. Regal (Mk3) was sedan. Both FWD.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Buick",
+      "model": "Rendezvous",
+      "yearStart": 2002,
+      "yearEnd": 2007,
+      "trans": "4-speed automatic (4T65-E)",
+      "drivetrain": "FWD or AWD",
+      "slot": "Small cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "AWD uses Versatrak on-demand system — not a traditional transfer case.",
+      "warn": "AWD models: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred. AWD without flatbed: wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD (Versatrak): no traditional transfer case — flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Buick",
+      "model": "Rainier",
+      "yearStart": 2004,
+      "yearEnd": 2007,
+      "trans": "4-speed automatic (4L60-E) or 5-speed automatic (for I6)",
+      "drivetrain": "RWD or AWD (part-time)",
+      "slot": "Floor shift — small cap near shifter base on console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near shifter base on console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2WD/2H before road towing."
+      ],
+      "notes": "Trailblazer-based platform. Electric push-button transfer case on most. Must shift TC to 2WD before road towing.",
+      "warn": "Transfer case must be in 2H/2WD for road towing. 4WD on dry pavement will damage drivetrain.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. AWD/4WD: shift TC to 2H first, then lift rear. Flatbed preferred.",
+      "tc": {
+        "type": "Electronic push-button on dashboard or console",
+        "positions": [
+          "2WD — rear wheels only — REQUIRED for road towing",
+          "AWD — automatic — NOT safe for road towing",
+          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
+          "4WD Lo — low range — NEVER tow on road"
+        ],
+        "steps": [
+          "Slow to under 3 MPH.",
+          "Press the 2WD button on the dashboard transfer case controls.",
+          "Confirm 2WD indicator on instrument cluster.",
+          "Verify all 4WD lights are off before lifting rear wheels.",
+          "IF BATTERY IS DEAD: Jump battery first, shift to 2WD, then disconnect."
+        ]
+      },
+      "towNotes": [
+        "GM Trailblazer platform. Electronic TC requires 12V power to shift.",
+        "DEAD BATTERY: Jump battery FIRST, shift to 2WD, THEN disconnect. If unable, FLATBED ONLY."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Buick",
+      "model": "Verano",
+      "yearStart": 2012,
+      "yearEnd": 2017,
+      "trans": "6-speed automatic or 6-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual: depress clutch, select Neutral.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Buick",
+      "model": "Regal (5th Gen)",
+      "yearStart": 2011,
+      "yearEnd": 2017,
+      "trans": "6-speed automatic or 6-speed manual",
+      "drivetrain": "FWD or AWD (eAWD on select trims)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "eAWD (TourX/Sportback): electric rear motor AWD — flatbed preferred for AWD trims.",
+      "warn": "AWD TourX/Sportback: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred. AWD without flatbed: wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "eAWD: electric rear motor — flatbed preferred."
       ],
       "knownIssues": [],
       "battery": {

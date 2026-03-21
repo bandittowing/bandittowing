@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Subaru",
-  "_count": 8,
+  "_count": 12,
   "vehicles": [
     {
       "make": "Subaru",
@@ -345,6 +345,161 @@
         "warnings": "FLATBED ONLY."
       },
       "knownIssues": []
+    },
+    {
+      "make": "Subaru",
+      "model": "SVX",
+      "yearStart": 1992,
+      "yearEnd": 1997,
+      "trans": "4-speed automatic (4EAT)",
+      "drivetrain": "AWD (permanent, standard)",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral.",
+        "FLATBED PREFERRED — permanent Symmetrical AWD."
+      ],
+      "notes": "Permanent Symmetrical AWD — cannot be disengaged. Flatbed preferred. Very rare collectible.",
+      "warn": "Permanent AWD — flatbed preferred. Rare vehicle — handle with care.",
+      "towMethod": "FLATBED PREFERRED — permanent AWD. Wheel-lift with dollies on free-rolling axle if no flatbed.",
+      "tc": null,
+      "towNotes": [
+        "Permanent Symmetrical AWD — cannot disengage. Flatbed preferred.",
+        "Wheel-lift with dollies on free-rolling axle if no flatbed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "Baja",
+      "yearStart": 2003,
+      "yearEnd": 2006,
+      "trans": "4-speed automatic (4EAT) or 5-speed manual",
+      "drivetrain": "AWD (Symmetrical, standard)",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral.",
+        "Manual: depress clutch, select Neutral.",
+        "FLATBED PREFERRED — permanent AWD."
+      ],
+      "notes": "Outback-based pickup/car hybrid. Permanent Symmetrical AWD. Manual: depress clutch.",
+      "warn": "Permanent AWD — flatbed preferred.",
+      "towMethod": "FLATBED PREFERRED — permanent AWD. Wheel-lift with dollies if no flatbed.",
+      "tc": null,
+      "towNotes": [
+        "Permanent Symmetrical AWD — cannot disengage. Flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "Tribeca (B9X)",
+      "yearStart": 2006,
+      "yearEnd": 2014,
+      "trans": "5-speed automatic (5EAT)",
+      "drivetrain": "AWD (Symmetrical, standard)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral.",
+        "FLATBED PREFERRED — permanent Symmetrical AWD."
+      ],
+      "notes": "Permanent Symmetrical AWD — flatbed preferred. Three-row SUV.",
+      "warn": "Permanent AWD — flatbed preferred.",
+      "towMethod": "FLATBED PREFERRED — permanent AWD. Wheel-lift with dollies if no flatbed.",
+      "tc": null,
+      "towNotes": [
+        "Permanent Symmetrical AWD — cannot disengage. Flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "Ascent",
+      "yearStart": 2019,
+      "yearEnd": 2026,
+      "trans": "CVT (Lineartronic)",
+      "drivetrain": "AWD (Symmetrical, standard)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral.",
+        "FLATBED PREFERRED — permanent AWD and CVT."
+      ],
+      "notes": "Permanent Symmetrical AWD with CVT — flatbed strongly preferred.",
+      "warn": "Permanent AWD + CVT — flatbed strongly preferred.",
+      "towMethod": "FLATBED STRONGLY PREFERRED — permanent AWD and CVT.",
+      "tc": null,
+      "towNotes": [
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground.",
+        "Permanent AWD — cannot disengage. Flatbed strongly preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "2019+ uses AGM battery — use AGM-compatible jump pack. Permanent AWD + CVT — flatbed preferred."
+      }
     }
   ]
 }

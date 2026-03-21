@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Acura",
-  "_count": 21,
+  "_count": 26,
   "vehicles": [
     {
       "make": "Acura",
@@ -175,7 +175,7 @@
       "slot": "FRONT LIP of center console near the dashboard — silver rectangular slot. NOT near the shift handle.",
       "shift": [
         "Turn ignition to ON.",
-        "ZF 9HP transmission: locate the shift lock slot — FRONT LIP of center console near the dashboard — silver rectangular slot. NOT near the shift handle..",
+        "ZF 9HP transmission: locate the shift lock slot — FRONT LIP of center console near the dashboard — silver rectangular slot. NOT near the shift handle.",
         "Insert a thin key or dedicated ZF 9HP override tool (~$50 from dealer tool suppliers) into the slot.",
         "Press firmly and hold.",
         "While holding, press the brake pedal.",
@@ -828,6 +828,211 @@
           "detail": "The NSX is mid-engine. The battery is in the front storage compartment (frunk), not at the rear engine. Many operators open the rear engine lid and find no battery — open the FRONT hood."
         }
       ]
+    },
+    {
+      "make": "Acura",
+      "model": "TL (2nd Gen)",
+      "yearStart": 1999,
+      "yearEnd": 2003,
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off the plastic cap with a small flathead or ignition key.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above."
+      ],
+      "notes": "Manual transmission: depress clutch fully, select Neutral — no shift lock.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front (front/drive wheels in the air). If rear-lift only, use wheel dollies under rear wheels.",
+        "MANUAL TRANSMISSION: depress clutch, select Neutral — no override slot needed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard red (+) / black (−)",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "RSX",
+      "yearStart": 2002,
+      "yearEnd": 2006,
+      "trans": "5-speed automatic or 6-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off the plastic cap with a small flathead or ignition key.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above."
+      ],
+      "notes": "Manual transmission (Type-S and base 6-speed): depress clutch, select Neutral — no shift lock.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air, or flatbed.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front (front/drive wheels in the air).",
+        "MANUAL TRANSMISSION: depress clutch, select Neutral — no override slot needed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "Vigor",
+      "yearStart": 1992,
+      "yearEnd": 1994,
+      "trans": "4-speed automatic or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with a small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual transmission: depress clutch, select Neutral.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "SLX",
+      "yearStart": 1996,
+      "yearEnd": 1999,
+      "trans": "4-speed automatic",
+      "drivetrain": "4WD (part-time, Isuzu Trooper-based)",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2H before towing on road."
+      ],
+      "notes": "Isuzu Trooper platform. Transfer case must be in 2H for road towing. Avoid towing in 4H or 4L on dry pavement.",
+      "warn": "Shift transfer case to 2H before road towing. 4WD modes will damage drivetrain on pavement.",
+      "towMethod": "2H: lift from rear — rear (drive) wheels in the air. Transfer case to 2H first. Flatbed preferred.",
+      "tc": {
+        "type": "Manual floor-mounted lever (Isuzu-style)",
+        "positions": [
+          "2H — rear wheels only — use for road towing",
+          "4H — part-time 4WD high — do NOT tow on dry road",
+          "4L — low range — NEVER tow on road"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move the transfer case floor lever to 2H.",
+          "Confirm 2H operation before lifting rear wheels.",
+          "NEVER tow in 4H or 4L on pavement."
+        ]
+      },
+      "towNotes": [
+        "Isuzu Trooper-based platform. Shift transfer case to 2H before road towing.",
+        "FLATBED preferred for this vehicle due to age and drivetrain complexity."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "MDX (2021 — Transition Year)",
+      "yearStart": 2021,
+      "yearEnd": 2021,
+      "trans": "10-speed automatic",
+      "drivetrain": "AWD (SH-AWD, standard)",
+      "slot": "Near base of electronic gear selector on center console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: near base of electronic gear selector on center console.",
+        "Remove trim cover if present using a trim pry tool.",
+        "Insert a thin key or flathead into the slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the selector to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under hood. AGM battery — use AGM-compatible jump pack.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is last resort only."
+      ],
+      "notes": "2021 MDX is the first year of the 4th Gen body but mechanically shares features with late 3rd Gen. Treat as 4th Gen.",
+      "warn": "AWD — flatbed preferred.",
+      "towMethod": "FLATBED ONLY — SH-AWD cannot be disabled. Wheel-lift with dollies on free-rolling axle if no flatbed.",
+      "tc": null,
+      "towNotes": [
+        "FULL-TIME AWD: Cannot disengage SH-AWD. Flatbed is safest. If using wheel-lift, dollies MUST be under the free-rolling axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "Use AGM-compatible jump pack."
+      }
     }
   ]
 }

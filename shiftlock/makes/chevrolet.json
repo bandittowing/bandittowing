@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Chevrolet",
-  "_count": 26,
+  "_count": 35,
   "vehicles": [
     {
       "make": "Chevrolet",
@@ -673,7 +673,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Behind passenger seat OR in front storage — depends on trim. NOT in engine bay (mid-engine vehicle)..",
+        "Connect jump pack to battery — Behind passenger seat OR in front storage — depends on trim. NOT in engine bay (mid-engine vehicle).",
         "Once 12V power is restored, press brake and select N normally on the electronic selector.",
         "Electronic selectors require power — mechanical override is a last resort only."
       ],
@@ -1182,6 +1182,374 @@
         "warnings": ""
       },
       "knownIssues": []
+    },
+    {
+      "make": "Chevrolet",
+      "model": "S-10 / S-10 Blazer (2WD/4WD)",
+      "yearStart": 1990,
+      "yearEnd": 2004,
+      "trans": "4-speed automatic (4L60-E) or 5-speed manual",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small cap near gear selector base on floor console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on floor console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, shift to Neutral.",
+        "Transfer case: shift to 2WD before road towing. Manual floor TC lever."
+      ],
+      "notes": "Manual TC floor lever. Manual trans: depress clutch, select Neutral. Very common vehicle — millions on road.",
+      "warn": "Shift TC to 2H before road towing. 4WD on dry pavement damages driveline.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear.",
+      "tc": {
+        "type": "Manual floor-mounted lever",
+        "positions": [
+          "2WD — REQUIRED for road towing",
+          "4WD Hi — NOT safe for dry road",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Stop completely.",
+          "Move TC floor lever to 2WD.",
+          "Confirm 2WD before lifting rear wheels.",
+          "MANUAL TRANSMISSION: depress clutch, select Neutral."
+        ]
+      },
+      "towNotes": [
+        "Manual TC floor lever — must be in 2WD before road towing.",
+        "MANUAL TRANSMISSION: depress clutch, select Neutral."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Astro Van",
+      "yearStart": 1990,
+      "yearEnd": 2005,
+      "trans": "4-speed automatic (4L60-E)",
+      "drivetrain": "RWD or AWD",
+      "slot": "Column shifter — key in ON releases shift interlock",
+      "shift": [
+        "Turn ignition to ON.",
+        "Column shifter: key in ON position releases the shift interlock.",
+        "Press the brake pedal firmly.",
+        "Move the column lever from Park to Neutral.",
+        "If column lever resists: ensure ignition is fully ON, not just ACC."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, turn key to ON and shift to Neutral using column lever."
+      ],
+      "notes": "Column shifter. AWD: flatbed preferred. Very common commercial/cargo van.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "RWD: lift from rear. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "AWD (Borg-Warner): no TC lever — flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Cobalt / HHR",
+      "yearStart": 2005,
+      "yearEnd": 2011,
+      "trans": "4-speed automatic (4T45-E) or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small cap near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual: depress clutch, select Neutral. Cobalt SS supercharged: same procedure.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Cruze",
+      "yearStart": 2011,
+      "yearEnd": 2019,
+      "trans": "6-speed automatic or 6-speed manual; diesel: 6-speed manual or 6-speed auto",
+      "drivetrain": "FWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual: depress clutch, select Neutral. Diesel available 2014-2016.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Sonic",
+      "yearStart": 2012,
+      "yearEnd": 2020,
+      "trans": "6-speed automatic or 5/6-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Manual: depress clutch, select Neutral.",
+      "warn": "",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Spark",
+      "yearStart": 2013,
+      "yearEnd": 2022,
+      "trans": "CVT or 5-speed manual",
+      "drivetrain": "FWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "CVT: flatbed preferred. Manual: depress clutch, select Neutral. Smallest Chevy — very light.",
+      "warn": "CVT: flatbed preferred.",
+      "towMethod": "FWD: lift from front. CVT: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Avalanche",
+      "yearStart": 2002,
+      "yearEnd": 2013,
+      "trans": "4-speed automatic (4L60-E or 4L65-E) or 6-speed automatic (6L80, 2007+)",
+      "drivetrain": "RWD or 4WD (part-time, Autotrac)",
+      "slot": "Small slot near gear selector base on floor console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on floor console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2WD before road towing."
+      ],
+      "notes": "Suburban-based. Electronic Autotrac TC. Must be in 2WD for road towing.",
+      "warn": "Shift TC to 2WD before road towing.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2WD first, then lift rear.",
+      "tc": {
+        "type": "Electronic rotary dial on center console (Autotrac)",
+        "positions": [
+          "2WD — rear wheels only — REQUIRED for road towing",
+          "4WD Auto — automatic AWD — NOT safe for road towing",
+          "4WD Hi — part-time — NOT safe for dry-road towing",
+          "4WD Lo — NEVER tow in this position"
+        ],
+        "steps": [
+          "Slow to under 3 MPH.",
+          "Turn the TC dial to 2WD.",
+          "Wait for the 2WD indicator to illuminate.",
+          "Verify all 4WD lights are off before lifting rear wheels.",
+          "IF BATTERY IS DEAD: Jump battery first, shift to 2WD, then disconnect."
+        ]
+      },
+      "towNotes": [
+        "Electronic TC requires 12V power.",
+        "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect. If unable, FLATBED ONLY."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Venture / Uplander",
+      "yearStart": 1997,
+      "yearEnd": 2008,
+      "trans": "4-speed automatic (4T65-E)",
+      "drivetrain": "FWD or AWD",
+      "slot": "Small cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap near gear selector base on console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally."
+      ],
+      "notes": "Venture (1997-2005), Uplander (2005-2008). AWD: flatbed preferred.",
+      "warn": "AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD: flatbed preferred."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Silverado EV",
+      "yearStart": 2024,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "drivetrain": "AWD electric (dual motor)",
+      "slot": "Electronic selector — N button or touchscreen",
+      "shift": [
+        "Turn vehicle to ON/Ready mode.",
+        "Use the electronic gear selector or touchscreen to select N (Neutral).",
+        "Press and hold the N button for 3 seconds while pressing the brake pedal.",
+        "Confirm N on the instrument cluster.",
+        "If power is lost: connect jump pack to 12V auxiliary battery — under the hood."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "FLATBED ONLY — electric drivetrain.",
+        "Connect jump pack to 12V auxiliary battery — under the hood.",
+        "12V AUXILIARY ONLY — NEVER touch the high-voltage battery.",
+        "Once 12V is restored, use the selector to engage Neutral."
+      ],
+      "notes": "Electric truck. Flatbed only. 12V auxiliary under hood. Very heavy — confirm tow capacity.",
+      "warn": "FLATBED ONLY. Very heavy vehicle — confirm tow truck capacity. 12V auxiliary ONLY.",
+      "towMethod": "FLATBED ONLY — electric drivetrain.",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC: FLATBED ONLY.",
+        "Very heavy — confirm tow capacity before approach.",
+        "12V auxiliary under hood — never touch HV battery (orange cables)."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "FLATBED ONLY. Very heavy. Never touch HV battery."
+      }
     }
   ]
 }

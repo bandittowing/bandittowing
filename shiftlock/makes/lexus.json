@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Lexus",
-  "_count": 7,
+  "_count": 11,
   "vehicles": [
     {
       "make": "Lexus",
@@ -324,6 +324,172 @@
         "jumpTerminals": "Under hood: fused jump terminal (+), ground bolt (−)",
         "type": "agm-12v",
         "warnings": "Air suspension drops with dead battery. Hybrid: 12V only. Use hood terminals."
+      }
+    },
+    {
+      "make": "Lexus",
+      "model": "SC 430",
+      "yearStart": 2002,
+      "yearEnd": 2010,
+      "trans": "5-speed automatic (A750E)",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — in the TRUNK, driver side.",
+        "SC 430 battery is in the trunk — do NOT look under the hood.",
+        "Once powered, press brake and shift to Neutral normally."
+      ],
+      "notes": "Battery is in the TRUNK. High-value convertible — flatbed preferred.",
+      "warn": "Battery in TRUNK. High-value vehicle — flatbed preferred.",
+      "towMethod": "RWD: lift from rear. Flatbed strongly preferred.",
+      "tc": null,
+      "towNotes": [
+        "Battery in TRUNK — open trunk for jump access.",
+        "High-value vehicle — flatbed preferred.",
+        "RWD: lift from rear if flatbed unavailable."
+      ],
+      "knownIssues": [
+        {
+          "title": "Battery in Trunk",
+          "detail": "The SC 430 12V battery is in the trunk on the driver side. There is no battery under the hood."
+        }
+      ],
+      "battery": {
+        "location": "TRUNK — driver side",
+        "jumpTerminals": "Trunk — 12V battery terminals",
+        "type": "standard-12v",
+        "warnings": "Battery in trunk. High-value vehicle."
+      }
+    },
+    {
+      "make": "Lexus",
+      "model": "GS (All Generations)",
+      "yearStart": 1993,
+      "yearEnd": 2020,
+      "trans": "4-speed (1993-1997), 5-speed (1998-2005), 6-speed or 8-speed automatic (2006-2020); hybrid available",
+      "drivetrain": "RWD or AWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "GS Hybrid: 12V auxiliary under hood ONLY — never touch HV battery."
+      ],
+      "notes": "GS 300/400/430/460/350/450h. AWD: flatbed preferred. GS Hybrid: 12V only.",
+      "warn": "AWD: flatbed preferred. Hybrid: 12V auxiliary ONLY.",
+      "towMethod": "RWD: lift from rear. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "AWD: flatbed preferred.",
+        "Hybrid: 12V auxiliary only — never touch HV battery."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Hybrid: 12V auxiliary only. Never touch HV battery."
+      }
+    },
+    {
+      "make": "Lexus",
+      "model": "LC 500 / LC 500h",
+      "yearStart": 2018,
+      "yearEnd": 2026,
+      "trans": "10-speed automatic (LC 500) or hybrid CVT (LC 500h)",
+      "drivetrain": "RWD",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "LC 500h Hybrid: 12V auxiliary ONLY — never touch HV battery."
+      ],
+      "notes": "High-value grand touring car. LC 500h hybrid: 12V auxiliary only. Flatbed strongly preferred.",
+      "warn": "High-value vehicle — flatbed preferred. Hybrid: 12V ONLY.",
+      "towMethod": "RWD: lift from rear. Flatbed strongly preferred.",
+      "tc": null,
+      "towNotes": [
+        "RWD: lift from rear.",
+        "Very high-value vehicle — flatbed preferred.",
+        "Hybrid variant: 12V auxiliary only — never touch HV battery."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "High-value vehicle — flatbed preferred. Hybrid: 12V auxiliary only."
+      }
+    },
+    {
+      "make": "Lexus",
+      "model": "UX 200 / UX 250h",
+      "yearStart": 2019,
+      "yearEnd": 2026,
+      "trans": "CVT (UX 200) or hybrid eCVT (UX 250h)",
+      "drivetrain": "FWD (UX 200) or AWD (UX 250h hybrid)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to 12V battery — under the hood.",
+        "12V auxiliary ONLY — never touch HV battery.",
+        "Once powered, press brake and shift to Neutral normally.",
+        "CVT: flatbed preferred."
+      ],
+      "notes": "CVT: flatbed preferred. UX 250h hybrid: 12V auxiliary only. AWD: flatbed preferred.",
+      "warn": "CVT and AWD: flatbed preferred. Hybrid: 12V auxiliary ONLY.",
+      "towMethod": "FWD/CVT: flatbed preferred or lift front with dollies on rear. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred.",
+        "AWD: flatbed preferred.",
+        "Hybrid: 12V auxiliary only — never touch HV battery."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "Hybrid: 12V auxiliary only. Never touch HV battery."
       }
     }
   ]

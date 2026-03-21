@@ -10,7 +10,7 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Jeep",
-  "_count": 9,
+  "_count": 15,
   "vehicles": [
     {
       "make": "Jeep",
@@ -506,6 +506,314 @@
         "warnings": ""
       },
       "knownIssues": []
+    },
+    {
+      "make": "Jeep",
+      "model": "Wrangler YJ / TJ",
+      "yearStart": 1991,
+      "yearEnd": 2006,
+      "trans": "3-speed automatic (32RH/AW4) or 4-speed automatic (42RE) or 5-speed manual (AX5/AX15/NV3550)",
+      "drivetrain": "4WD (part-time, standard)",
+      "slot": "Floor shifter — small cap near selector base; column on early YJ",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "AUTOMATIC: Locate shift lock release — small cap near selector base on console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "MANUAL TRANSMISSION: depress clutch fully, move gear lever to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2H before road towing. Manual TC lever on floor or dash."
+      ],
+      "notes": "Manual TC floor lever on all. Must be in 2H for road towing. Manual trans: depress clutch, select Neutral. Very common flat-tow vehicle (behind motorhome).",
+      "warn": "Must shift TC to 2H before road towing. 4WD on dry pavement damages driveline.",
+      "towMethod": "2H: lift from rear — rear (drive) wheels in the air. Flat tow (4 wheels down): requires TC in N.",
+      "tc": {
+        "type": "Manual floor-mounted lever (Command-Trac NV231 or Dana 300)",
+        "positions": [
+          "2H — rear wheels only — use for road towing with wheel lift",
+          "4H — part-time 4WD high — NOT safe for dry-road towing",
+          "N — NEUTRAL — used for flat towing all 4 wheels on ground",
+          "4L — low range — NEVER tow in this position on pavement"
+        ],
+        "steps": [
+          "FOR WHEEL-LIFT TOWING: Stop completely. Move TC lever to 2H. Shift transmission to Neutral.",
+          "Confirm 2H before lifting rear wheels.",
+          "FOR FLAT TOWING (behind motorhome): Move TC lever to N (Neutral). Follow complete flat tow procedure.",
+          "MANUAL TRANSMISSION: depress clutch and select Neutral — no shift lock slot.",
+          "NEVER tow in 4H or 4L on dry pavement."
+        ]
+      },
+      "towNotes": [
+        "Very common flat-tow vehicle. TC must be in 2H for wheel-lift towing or N for all-four-wheels-down flat towing.",
+        "MANUAL TRANSMISSION: depress clutch, select Neutral.",
+        "NEVER tow in 4WD on dry pavement."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Liberty / Cherokee KJ",
+      "yearStart": 2002,
+      "yearEnd": 2012,
+      "trans": "4-speed automatic (42RLE or 45RFE) or 6-speed manual (NSG370)",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "slot": "Small cap or slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small cap or slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2WD before road towing."
+      ],
+      "notes": "Electronic or manual TC depending on year. Manual trans (2003-2007): depress clutch, select Neutral.",
+      "warn": "Shift TC to 2H before road towing.",
+      "towMethod": "2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear.",
+      "tc": {
+        "type": "Electronic push-button or manual floor lever (depending on year/trim)",
+        "positions": [
+          "2WD — REQUIRED for road towing",
+          "4WD Hi — NOT safe for dry road",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Stop or slow to under 3 MPH.",
+          "Shift TC to 2WD using button or floor lever.",
+          "Confirm 2WD indicator.",
+          "IF BATTERY IS DEAD: Jump battery first, shift to 2WD, THEN disconnect."
+        ]
+      },
+      "towNotes": [
+        "TC must be in 2WD for road towing.",
+        "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect. If unable, FLATBED ONLY."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Commander",
+      "yearStart": 2006,
+      "yearEnd": 2010,
+      "trans": "5-speed automatic (545RFE) or 6-speed automatic (W5A580, V8)",
+      "drivetrain": "RWD or 4WD (Quadra-Trac I, II, or Selec-Trac)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2WD before road towing."
+      ],
+      "notes": "Grand Cherokee platform. Electronic TC on most. Must be in 2WD for road towing.",
+      "warn": "Shift TC to 2WD before road towing.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2WD first, then lift rear.",
+      "tc": {
+        "type": "Electronic rotary dial or push-button on console",
+        "positions": [
+          "2WD — REQUIRED for road towing",
+          "4WD Hi — NOT safe for dry road",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Slow to under 3 MPH.",
+          "Turn the TC dial or push button to 2WD.",
+          "Confirm 2WD indicator is lit.",
+          "IF BATTERY IS DEAD: Jump battery first, then shift to 2WD."
+        ]
+      },
+      "towNotes": [
+        "Grand Cherokee WK platform. Electronic TC requires power.",
+        "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Renegade",
+      "yearStart": 2015,
+      "yearEnd": 2026,
+      "trans": "9-speed automatic (ZF 9HP) or 6-speed automatic or 4-speed automatic (base)",
+      "drivetrain": "FWD or AWD (Active Drive)",
+      "slot": "ROTARY DIAL selector — small slot near base of rotary dial on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "ZF 9HP: Locate the shift lock slot — small slot near base of the rotary dial selector on the console.",
+        "Insert a thin key or ZF 9HP override tool (~$50) into the slot.",
+        "Press firmly and hold.",
+        "While holding, press the brake pedal.",
+        "Turn or move the dial to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "ZF 9HP: Connect jump pack to battery — under the hood. Power strongly preferred.",
+        "Once 12V power is restored, use the rotary dial to select N.",
+        "Without power: use the override slot — apply firm steady pressure."
+      ],
+      "notes": "ZF 9HP rotary selector. Fiat/Jeep small platform. AWD: flatbed preferred. Italian-built vehicle.",
+      "warn": "ZF 9HP: jump pack strongly preferred. AWD: flatbed preferred.",
+      "towMethod": "FWD: lift from front. AWD: flatbed preferred.",
+      "tc": null,
+      "towNotes": [
+        "FWD: lift from front.",
+        "AWD (Active Drive): flatbed preferred."
+      ],
+      "knownIssues": [
+        {
+          "title": "ZF 9HP Rotary Selector Requires Power",
+          "detail": "The 9-speed ZF 9HP transmission requires 12V power to shift. Without power, the rotary dial override is very difficult. Always restore 12V power first."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "ZF 9HP: restore power before attempting shift."
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Gladiator",
+      "yearStart": 2020,
+      "yearEnd": 2026,
+      "trans": "8-speed automatic or 6-speed manual",
+      "drivetrain": "4WD (part-time, standard)",
+      "slot": "Small slot near gear selector base on center console",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: small slot near gear selector base on center console.",
+        "Pry off cap if present.",
+        "Insert key or thin flathead and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "Transfer case: shift to 2H before road towing."
+      ],
+      "notes": "JT body on JL Wrangler frame. Manual TC floor lever. Manual: depress clutch, select Neutral.",
+      "warn": "Shift TC to 2H before road towing.",
+      "towMethod": "2H: lift from rear — rear (drive) wheels in the air. Transfer case in 2H required.",
+      "tc": {
+        "type": "Manual floor-mounted lever (NV241 Command-Trac or Rock-Trac)",
+        "positions": [
+          "2H — rear wheels only — REQUIRED for road towing",
+          "4H — part-time 4WD — NOT safe for dry-road towing",
+          "N — NEUTRAL — for flat towing all 4 wheels on ground",
+          "4L — low range — NEVER tow on road"
+        ],
+        "steps": [
+          "FOR WHEEL-LIFT TOWING: Stop completely. Move TC lever to 2H. Shift transmission to Neutral.",
+          "FOR FLAT TOWING: Move TC lever to N. Follow complete flat tow procedure.",
+          "MANUAL TRANSMISSION: depress clutch, select Neutral.",
+          "NEVER tow in 4H or 4L on dry pavement."
+        ]
+      },
+      "towNotes": [
+        "Wrangler JL-based platform. TC must be in 2H for wheel-lift towing.",
+        "Manual transmission: depress clutch, select Neutral.",
+        "Flat tow (all 4 wheels down): TC to N."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "2020+ Gladiator uses AGM battery — use AGM-compatible jump pack."
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Wagoneer / Wagoneer",
+      "yearStart": 2022,
+      "yearEnd": 2026,
+      "trans": "8-speed automatic (8HP75)",
+      "drivetrain": "RWD or 4WD (Quadra-Trac or Quadra-Drive II)",
+      "slot": "Electronic gear selector — small slot near base of electronic selector",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: small slot near base of electronic selector on console.",
+        "Remove trim cover if present.",
+        "Insert a thin key or flathead and press firmly.",
+        "While holding, press the brake pedal.",
+        "Move selector to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under the hood. Use AGM-compatible jump pack.",
+        "Once 12V power is restored, shift to Neutral using electronic selector.",
+        "Transfer case: shift to 2WD before road towing."
+      ],
+      "notes": "Large premium SUV. Electronic TC. Must be in 2WD for road towing. AGM battery.",
+      "warn": "Shift TC to 2WD before road towing. Very large/heavy vehicle.",
+      "towMethod": "RWD/2WD: lift from rear. 4WD: shift TC to 2WD first, then lift rear. Very heavy — confirm tow capacity.",
+      "tc": {
+        "type": "Electronic rotary dial on center console",
+        "positions": [
+          "2WD — REQUIRED for road towing",
+          "4WD Auto — NOT safe for road towing",
+          "4WD Lo — NEVER tow on road"
+        ],
+        "steps": [
+          "Slow to under 3 MPH.",
+          "Turn TC dial to 2WD.",
+          "Confirm 2WD indicator on instrument cluster.",
+          "IF BATTERY IS DEAD: Jump battery first, then shift TC to 2WD."
+        ]
+      },
+      "towNotes": [
+        "Very large, heavy vehicle — confirm tow truck capacity before approach.",
+        "Electronic TC requires power — jump battery first if dead.",
+        "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect. If unable, FLATBED ONLY."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "AGM battery — use AGM-compatible jump pack."
+      }
     }
   ]
 }
