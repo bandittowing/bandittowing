@@ -20,43 +20,35 @@
       "trans": "4-speed, 5-speed auto, CVT, or PHEV eCVT",
       "slot": "Cap near selector base on console",
       "shift": [
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON.",
+        "Locate the shift lock slot: Cap near selector base on console.",
+        "Insert a thin key or flathead into the slot and press firmly down.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (12V only for PHEV). Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "If using slot without power, apply consistent firm pressure — hybrid selectors may require more force.",
+        "Hybrid: 12V auxiliary only — never touch HV battery."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD (S-AWC)",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD/PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD/PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals. PHEV: 12V only.",
+        "jumpTerminals": "Under hood — standard terminals. PHEV: 12V only.",
         "type": "standard-12v",
         "warnings": "PHEV: 12V only."
-      },
-      "slug": "mitsubishi-outlander-outlander-sport-2003-2026",
-      "fuelType": "phev",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Mitsubishi",
@@ -66,43 +58,37 @@
       "trans": "4-speed, 5-speed auto, or CVT; manual available",
       "slot": "Cap near selector base",
       "shift": [
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn the Mitsubishi Lancer / Lancer Evolution to ON/Ready mode.",
+        "Shift lock slot: Cap near selector base.",
+        "Insert a thin key or flathead into the slot and press firmly.",
+        "Press the brake pedal while holding the slot.",
+        "Move selector to N.",
+        "FLATBED ONLY — do not tow with driven wheels on the ground."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "NEVER touch the high-voltage traction battery.",
+        "FLATBED ONLY."
       ],
       "notes": "Evo X SST DCT: restore power first. Manual: clutch to N. AWD standard on Evo.",
       "warn": "",
       "drivetrain": "FWD or AWD (Evo AWD standard)",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed.",
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
         "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "Evo SST DCT: restore power before shift."
-      },
-      "slug": "mitsubishi-lancer-lancer-evolution-2002-2017",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Mitsubishi",
@@ -112,45 +98,35 @@
       "trans": "CVT",
       "slot": "Cap near selector base",
       "shift": [
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "This vehicle has a Jatco CVT — shift lock slot location: Cap near selector base.",
+        "Insert a thin key or small flathead into the slot.",
+        "Press firmly and hold.",
+        "Press the brake pedal while holding.",
+        "Move the selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "CVT transmissions: do NOT exceed 35 mph or 50 miles with driven wheels on ground — flatbed strongly preferred."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD (S-AWC)",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "mitsubishi-eclipse-cross-2018-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button to release.",
-        "steps": [
-          "Connect jump pack under hood.",
-          "Hold EPB button until brake releases."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Mitsubishi",
@@ -160,41 +136,35 @@
       "trans": "4-speed automatic",
       "slot": "Cap near selector base",
       "shift": [
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near selector base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near selector base."
       ],
       "notes": "FWD only.",
       "warn": "",
       "drivetrain": "FWD",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "mitsubishi-galant-2004-2012",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     }
   ]
 }

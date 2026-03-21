@@ -20,25 +20,29 @@
       "trans": "4-speed, 6-speed, or 8-speed automatic",
       "slot": "Cap at side of console shifter base (console shift) or slot on steering column (column shift)",
       "shift": [
-        "CONSOLE SHIFT: Find cap at side of console shifter. Remove. Insert key, press down. Press brake. Move to N.",
-        "COLUMN SHIFT: Find slot on steering column near shifter. Insert key, press down. Press brake. Move column shifter to N."
+        "Turn ignition to ON.",
+        "This vehicle uses a COLUMN-MOUNTED shifter — the shift lock slot is on the STEERING COLUMN, not the floor console.",
+        "Locate the slot on the steering column — Cap at side of console shifter base (console shift) or slot on steering column (column shift).",
+        "Insert a thin key or flathead into the slot on the column.",
+        "Press firmly while pressing the brake pedal.",
+        "Move the column shifter to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood, driver side.",
+        "Once 12V power is restored, press brake and move column shifter to N normally."
       ],
       "notes": "4WD: transfer case MUST be in 2H before towing on paved road.",
       "warn": "4WD: transfer case to 2H.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground), or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear — rear (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button (Autotrac) on most; manual floor lever on some older bench-seat trims",
         "positions": [
-          "2WD (2H) \u2014 rear wheels only \u2014 REQUIRED for all road towing",
-          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
-          "4WD Hi (4H) \u2014 part-time 4WD high \u2014 NOT safe for dry-road towing",
-          "4WD Lo (4L) \u2014 low range \u2014 NEVER tow in this position"
+          "2WD (2H) — rear wheels only — REQUIRED for all road towing",
+          "4WD Auto — automatic AWD — NOT safe for towing",
+          "4WD Hi (4H) — part-time 4WD high — NOT safe for dry-road towing",
+          "4WD Lo (4L) — low range — NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH (electric TC) or stop completely (manual lever).",
@@ -46,39 +50,28 @@
           "MANUAL LEVER: Stop the vehicle completely. Move the floor-mounted TC lever firmly to the 2H position.",
           "Confirm the 2WD indicator lamp is ON on the instrument cluster.",
           "Verify NO 4WD indicator lights are illuminated before lifting rear wheels.",
-          "NEVER tow in 4H, 4WD Auto, or 4L on pavement \u2014 will damage axles and transfer case.",
+          "NEVER tow in 4H, 4WD Auto, or 4L on pavement — will damage axles and transfer case.",
           "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
         ]
       },
       "towNotes": [
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [
         {
           "title": "Transfer Case in 4H/4L Will Destroy Driveline",
-          "detail": "Towing a 4WD Silverado with the transfer case in 4H or 4L on dry pavement \u2014 even for short distances \u2014 will cause severe transfer case and differential damage. Always confirm 2WD indicator is illuminated before lifting. This is the single most common towing damage claim on these trucks."
+          "detail": "Towing a 4WD Silverado with the transfer case in 4H or 4L on dry pavement — even for short distances — will cause severe transfer case and differential damage. Always confirm 2WD indicator is illuminated before lifting. This is the single most common towing damage claim on these trucks."
         }
       ],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood \u2014 standard red (+) / black (\u2212)",
+        "jumpTerminals": "Under hood — standard red (+) / black (−)",
         "type": "standard-12v",
         "warnings": "Confirm TC in 2WD before wheel lift. Most common towing damage on this platform is from towing in 4H."
-      },
-      "slug": "chevrolet-silverado-1500-2000-2018-2000-2018",
-      "fuelType": "gasoline",
-      "curbWeight": "4,229\u20135,377 lbs",
-      "gvwr": "6,200\u20137,050 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Chevrolet",
@@ -86,66 +79,55 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "6, 8, or 10-speed automatic",
-      "slot": "Electronic selector \u2014 trim panel near selector, remove to expose slot",
+      "slot": "Electronic selector — trim panel near selector, remove to expose slot",
       "shift": [
-        "Ignition to ON.",
-        "Locate trim panel near electronic selector. Pry or remove.",
-        "Insert key into slot, press down.",
-        "Press brake. Move to N.",
-        "Replace panel."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Electronic selector — trim panel near selector, remove to expose slot.",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
       "notes": "Silverado EV (2024+): flatbed only, 12V auxiliary.",
       "warn": "Silverado EV: FLATBED ONLY. 4WD: transfer case.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground), or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear — rear (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric rotary dial on center console (Autotrac)",
         "positions": [
-          "2WD \u2014 rear wheels only \u2014 REQUIRED for all road towing",
-          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
-          "4WD Hi \u2014 part-time 4WD \u2014 NOT safe for dry-road towing",
-          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
+          "2WD — rear wheels only — REQUIRED for all road towing",
+          "4WD Auto — automatic AWD — NOT safe for towing",
+          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
+          "4WD Lo — low range — NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH.",
           "Turn the rotary transfer case dial on the center console to 2WD.",
           "Wait for the 2WD indicator to illuminate on the instrument cluster.",
           "Verify all 4WD indicator lights are OFF before lifting rear wheels.",
-          "Silverado EV (2024+): FLATBED ONLY \u2014 no TC, electric drivetrain.",
+          "Silverado EV (2024+): FLATBED ONLY — no TC, electric drivetrain.",
           "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
         ]
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "Silverado EV: 12V auxiliary only."
-      },
-      "slug": "chevrolet-silverado-1500-2019-2026-2019-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "4,229\u20135,377 lbs",
-      "gvwr": "6,200\u20137,050 lbs",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button to release.",
-        "steps": [
-          "Connect jump pack under hood.",
-          "Hold EPB button until brake releases."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Chevrolet",
@@ -155,32 +137,37 @@
       "trans": "4-speed, 6-speed, or 10-speed automatic",
       "slot": "Cap at console shifter base or electronic selector slot depending on year",
       "shift": [
-        "Find cap/slot near shifter base.",
-        "Remove cap if present. Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Cap at console shifter base or electronic selector slot depending on year.",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood — may have dual batteries on diesel trims.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
-      "notes": "Duramax diesel: same procedure. Heavy-duty \u2014 use heavy wheel blocks.",
+      "notes": "Duramax diesel: same procedure. Heavy-duty — use heavy wheel blocks.",
       "warn": "4WD: transfer case to 2H.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Heavy-duty \u2014 use rated blocks. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first. Heavy-duty — use rated blocks. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
-        "type": "Electric push-button (newer) or manual floor lever (older) \u2014 NV246 or NV261 transfer case",
+        "type": "Electric push-button (newer) or manual floor lever (older) — NV246 or NV261 transfer case",
         "positions": [
-          "2H \u2014 rear wheels only \u2014 REQUIRED for all road towing",
-          "4H \u2014 part-time 4WD high range \u2014 NOT safe for dry-road towing",
-          "N \u2014 neutral (some models) \u2014 used for flatbed loading only",
-          "4L \u2014 low range \u2014 NEVER tow in this position"
+          "2H — rear wheels only — REQUIRED for all road towing",
+          "4H — part-time 4WD high range — NOT safe for dry-road towing",
+          "N — neutral (some models) — used for flatbed loading only",
+          "4L — low range — NEVER tow in this position"
         ],
         "steps": [
           "ELECTRIC: Slow under 3 MPH. Press 2H button. Confirm 2H indicator illuminates.",
           "MANUAL: Stop the vehicle completely. Move TC floor lever firmly to 2H.",
           "Confirm 2H indicator before lifting rear wheels.",
-          "Heavy-duty truck \u2014 use properly rated wheel blocks, chains, and straps.",
+          "Heavy-duty truck — use properly rated wheel blocks, chains, and straps.",
           "Do NOT tow in 4H or 4L on pavement.",
           "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
         ]
@@ -188,29 +175,18 @@
       "towNotes": [
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
-        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight \u2014 account for extra weight in equipment ratings.",
+        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight — account for extra weight in equipment ratings.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood \u2014 may have dual batteries on diesel trims",
-        "jumpTerminals": "Under hood: jump to positive (+) terminal on either battery. Ground (\u2212) to engine block or frame.",
+        "location": "Under hood — may have dual batteries on diesel trims",
+        "jumpTerminals": "Under hood: jump to positive (+) terminal on either battery. Ground (−) to engine block or frame.",
         "type": "standard-12v",
-        "warnings": "Diesel trims may have two 12V batteries in parallel. Jump to either positive terminal. Heavy vehicle \u2014 verify equipment ratings."
-      },
-      "slug": "chevrolet-silverado-2500hd-3500hd-2001-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "4,229\u20135,377 lbs",
-      "gvwr": "6,200\u20137,050 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+        "warnings": "Diesel trims may have two 12V batteries in parallel. Jump to either positive terminal. Heavy vehicle — verify equipment ratings."
+      }
     },
     {
       "make": "Chevrolet",
@@ -220,61 +196,54 @@
       "trans": "4-speed or 6-speed automatic",
       "slot": "Cap at side of console shifter base",
       "shift": [
-        "Find cap at side of console shifter. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap at side of console shifter base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood, driver side.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap at side of console shifter base."
       ],
       "notes": "4WD standard. Transfer case to 2H.",
-      "warn": "4WD: transfer case. Large SUV \u2014 block all wheels.",
+      "warn": "4WD: transfer case. Large SUV — block all wheels.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear — rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button (Autotrac)",
         "positions": [
-          "2WD \u2014 rear wheels only \u2014 REQUIRED for all road towing",
-          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
-          "4WD Hi \u2014 part-time 4WD \u2014 NOT safe for dry-road towing",
-          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
+          "2WD — rear wheels only — REQUIRED for all road towing",
+          "4WD Auto — automatic AWD — NOT safe for towing",
+          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
+          "4WD Lo — low range — NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH.",
           "Press the 2WD button on the transfer case control panel.",
           "Wait for the 2WD indicator lamp to illuminate.",
           "Verify all 4WD lights are OFF before lifting rear wheels.",
-          "Large SUV \u2014 use heavy wheel blocks before releasing Park.",
+          "Large SUV — use heavy wheel blocks before releasing Park.",
           "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
         ]
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chevrolet-suburban-tahoe-2000-2020-2000-2020",
-      "fuelType": "gasoline",
-      "curbWeight": "5,652\u20136,152 lbs",
-      "gvwr": "7,300\u20137,700 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Chevrolet",
@@ -282,30 +251,33 @@
       "yearStart": 2021,
       "yearEnd": 2026,
       "trans": "10-speed automatic (10L80)",
-      "slot": "Electronic selector \u2014 trim panel near selector, remove to expose slot",
+      "slot": "Electronic selector — trim panel near selector, remove to expose slot",
       "shift": [
-        "Ignition to ON.",
-        "Locate trim panel near electronic selector. Pry or remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace panel."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Electronic selector — trim panel near selector, remove to expose slot.",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
       "notes": "AWD and 4WD available.",
       "warn": "4WD: transfer case to 2H. Block all wheels.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear — rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric rotary dial (Autotrac)",
         "positions": [
-          "2WD \u2014 rear wheels only \u2014 REQUIRED for all road towing",
-          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
-          "4WD Hi \u2014 part-time 4WD \u2014 NOT safe for dry-road towing",
-          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
+          "2WD — rear wheels only — REQUIRED for all road towing",
+          "4WD Auto — automatic AWD — NOT safe for towing",
+          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
+          "4WD Lo — low range — NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH.",
@@ -317,31 +289,17 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chevrolet-suburban-tahoe-2021-2026-2021-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "5,652\u20136,152 lbs",
-      "gvwr": "7,300\u20137,700 lbs",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button to release.",
-        "steps": [
-          "Connect jump pack under hood.",
-          "Hold EPB button until brake releases."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Chevrolet",
@@ -351,42 +309,35 @@
       "trans": "5-speed or 6-speed automatic",
       "slot": "Cap near console shifter base",
       "shift": [
-        "Find cap near shifter base. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near console shifter base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near console shifter base."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chevrolet-equinox-2005-2017-2005-2017",
-      "fuelType": "gasoline",
-      "curbWeight": "3,307\u20133,704 lbs",
-      "gvwr": "4,519\u20135,027 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Chevrolet",
@@ -394,47 +345,37 @@
       "yearStart": 2018,
       "yearEnd": 2026,
       "trans": "6 or 9-speed automatic",
-      "slot": "Electronic selector \u2014 slot near base",
+      "slot": "Electronic selector — slot near base",
       "shift": [
-        "Ignition to ON.",
-        "Find slot near electronic selector.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Electronic selector — slot near base.",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
       "notes": "Equinox EV (2024+): flatbed only.",
       "warn": "Equinox EV: FLATBED ONLY.",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. Equinox EV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. Equinox EV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "EV variant: 12V auxiliary only."
-      },
-      "slug": "chevrolet-equinox-2018-2026-2018-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "3,307\u20133,704 lbs",
-      "gvwr": "4,519\u20135,027 lbs",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button to release.",
-        "steps": [
-          "Connect jump pack under hood.",
-          "Hold EPB button until brake releases."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Chevrolet",
@@ -444,41 +385,35 @@
       "trans": "6-speed, 9-speed, or 8-speed automatic",
       "slot": "Cap near shifter base (2009-2017) or electronic selector slot (2018+)",
       "shift": [
-        "Find cap/slot near shifter or selector base. Remove cap if present.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Cap near shifter base (2009-2017) or electronic selector slot (2018+).",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chevrolet-traverse-2009-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "4,387\u20134,982 lbs",
-      "gvwr": "5,733\u20136,008 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Chevrolet",
@@ -488,26 +423,30 @@
       "trans": "4-speed, 6-speed, or 8-speed automatic",
       "slot": "Cap near console shifter base",
       "shift": [
-        "Find cap near shifter base. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near console shifter base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near console shifter base."
       ],
       "notes": "4WD optional. Transfer case to 2H.",
       "warn": "4WD: transfer case.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button or manual lever depending on year and trim",
         "positions": [
-          "2H \u2014 rear wheels only \u2014 REQUIRED for all road towing",
-          "4H \u2014 part-time 4WD high range \u2014 NOT safe for dry-road towing",
-          "4L \u2014 low range \u2014 NEVER tow in this position"
+          "2H — rear wheels only — REQUIRED for all road towing",
+          "4H — part-time 4WD high range — NOT safe for dry-road towing",
+          "4L — low range — NEVER tow in this position"
         ],
         "steps": [
           "ELECTRIC: Slow under 3 MPH. Press 2H button. Confirm 2H indicator.",
@@ -519,27 +458,16 @@
       "towNotes": [
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chevrolet-colorado-2004-2022-2004-2022",
-      "fuelType": "gasoline",
-      "curbWeight": "3,924\u20134,536 lbs",
-      "gvwr": "5,016\u20135,512 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Chevrolet",
@@ -547,28 +475,32 @@
       "yearStart": 2023,
       "yearEnd": 2026,
       "trans": "8-speed automatic",
-      "slot": "Electronic selector \u2014 slot near base",
+      "slot": "Electronic selector — slot near base",
       "shift": [
-        "Ignition to ON.",
-        "Find slot near electronic selector.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Electronic selector — slot near base.",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
       "notes": "4WD optional.",
       "warn": "4WD: transfer case.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button or rotary dial on console",
         "positions": [
-          "2H \u2014 rear wheels only \u2014 REQUIRED for all road towing",
-          "4H \u2014 part-time 4WD high range",
-          "4L \u2014 low range \u2014 NEVER tow in this position"
+          "2H — rear wheels only — REQUIRED for all road towing",
+          "4H — part-time 4WD high range",
+          "4L — low range — NEVER tow in this position"
         ],
         "steps": [
           "Slow under 3 MPH.",
@@ -579,30 +511,16 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chevrolet-colorado-2023-2026-2023-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "3,924\u20134,536 lbs",
-      "gvwr": "5,016\u20135,512 lbs",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button to release.",
-        "steps": [
-          "Connect jump pack under hood.",
-          "Hold EPB button until brake releases."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Chevrolet",
@@ -610,45 +528,39 @@
       "yearStart": 2000,
       "yearEnd": 2004,
       "trans": "4-speed auto or 6-speed manual",
-      "slot": "Cap near center tunnel shifter \u2014 remove to access slot",
+      "slot": "Cap near center tunnel shifter — remove to access slot",
       "shift": [
-        "Find cap near console shifter. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near center tunnel shifter — remove to access slot.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood (in front storage area).",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near center tunnel shifter — remove to access slot."
       ],
       "notes": "Manual: clutch to N. Z06: same.",
-      "warn": "EXTREMELY LOW CLEARANCE \u2014 flatbed ONLY.",
+      "warn": "EXTREMELY LOW CLEARANCE — flatbed ONLY.",
       "drivetrain": "RWD",
-      "towMethod": "FLATBED ONLY \u2014 extremely low clearance, no wheel lift. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FLATBED ONLY — extremely low clearance, no wheel lift. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
-        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift \u2014 front splitter/rear diffuser damage is common.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
+        "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood (in front storage area)",
-        "jumpTerminals": "Under hood \u2014 in the front storage compartment",
+        "jumpTerminals": "Under hood — in the front storage compartment",
         "type": "standard-12v",
         "warnings": "Very low clearance. Flatbed only."
-      },
-      "slug": "chevrolet-corvette-c5-2000-2004",
-      "fuelType": "gasoline",
-      "curbWeight": "3,235\u20133,748 lbs",
-      "gvwr": "3,814\u20134,519 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Chevrolet",
@@ -658,43 +570,37 @@
       "trans": "6-speed auto or 6-speed manual",
       "slot": "Cap near console shifter base",
       "shift": [
-        "Find cap near shifter base. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near console shifter base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood (in front storage area).",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near console shifter base."
       ],
       "notes": "Z06, ZR1: same.",
-      "warn": "EXTREMELY LOW CLEARANCE \u2014 flatbed ONLY.",
+      "warn": "EXTREMELY LOW CLEARANCE — flatbed ONLY.",
       "drivetrain": "RWD",
-      "towMethod": "FLATBED ONLY \u2014 extremely low clearance, no wheel lift. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FLATBED ONLY — extremely low clearance, no wheel lift. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
-        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift \u2014 front splitter/rear diffuser damage is common.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
+        "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood (in front storage area)",
-        "jumpTerminals": "Under hood \u2014 in the front storage compartment",
+        "jumpTerminals": "Under hood — in the front storage compartment",
         "type": "standard-12v",
         "warnings": "Very low clearance. Flatbed only."
-      },
-      "slug": "chevrolet-corvette-c6-2005-2013",
-      "fuelType": "gasoline",
-      "curbWeight": "3,235\u20133,748 lbs",
-      "gvwr": "3,814\u20134,519 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Chevrolet",
@@ -702,60 +608,52 @@
       "yearStart": 2014,
       "yearEnd": 2019,
       "trans": "8-speed auto or 7-speed manual",
-      "slot": "Removable panel near electronic selector on console \u2014 remove to expose slot",
+      "slot": "Removable panel near electronic selector on console — remove to expose slot",
       "shift": [
-        "Remove panel near electronic selector on console.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace panel."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Removable panel near electronic selector on console — remove to expose slot.",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery is in the REAR TRUNK (right rear, under carpet) \u2014 NOT in the frunk.",
-        "Connect jump pack to rear trunk battery terminals.",
-        "Shift normally or use slot."
+        "Open the front hood — the 12V auxiliary battery is in the frunk (front storage area).  Connect jump pack to the 12V terminals.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
       "notes": "Battery is in the REAR TRUNK (right rear under carpet). Z06, Grand Sport, ZR1: same.",
       "warn": "FLATBED ONLY. Extremely low clearance. Load from REAR only.",
       "drivetrain": "RWD",
-      "towMethod": "FLATBED ONLY \u2014 extremely low clearance, load from rear only",
+      "towMethod": "FLATBED ONLY — extremely low clearance, load from rear only",
       "tc": null,
       "towNotes": [
-        "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
-        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift \u2014 front splitter/rear diffuser damage is common.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
+        "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [
         {
-          "title": "Battery in Frunk \u2014 Not Engine Bay",
+          "title": "Battery in Frunk — Not Engine Bay",
           "detail": "The C7 Corvette has a front trunk (frunk) where the battery is located, NOT in the engine bay. Operators who don't know this will waste significant time looking for jump terminals. Open the hood and look in the front storage compartment."
         },
         {
           "title": "Extremely Low Ground Clearance",
-          "detail": "Standard ground clearance is approximately 4.5 inches. Lowered or Z51 variants are even lower. Any approach angle to a flatbed must be carefully managed with ramps or approach plates. Load from rear only \u2014 never winch from front over a standard ramp angle."
+          "detail": "Standard ground clearance is approximately 4.5 inches. Lowered or Z51 variants are even lower. Any approach angle to a flatbed must be carefully managed with ramps or approach plates. Load from rear only — never winch from front over a standard ramp angle."
         },
         {
-          "title": "Carbon Ceramic Brakes \u2014 No Metal-to-Metal Contact",
+          "title": "Carbon Ceramic Brakes — No Metal-to-Metal Contact",
           "detail": "Many C7 Z06 and Grand Sport trims have carbon ceramic brake rotors. These are extremely expensive ($15,000+). Never use metal wheel chocks directly against the rotors. Use rubber-padded chocks only."
         }
       ],
       "battery": {
-        "location": "FRUNK (front trunk) \u2014 NOT in the engine bay. Open hood and look in front storage compartment.",
-        "jumpTerminals": "Inside the frunk \u2014 standard red (+) / black (\u2212) terminals on battery",
+        "location": "FRUNK (front trunk) — NOT in the engine bay. Open hood and look in front storage compartment.",
+        "jumpTerminals": "Inside the frunk — standard red (+) / black (−) terminals on battery",
         "type": "standard-12v",
-        "warnings": "Many operators waste time looking for the battery in the engine bay. It is NOT there. Open the hood \u2014 the frunk IS the storage area. Very low clearance \u2014 flatbed only."
-      },
-      "slug": "chevrolet-corvette-c7-2014-2019",
-      "fuelType": "gasoline",
-      "curbWeight": "3,235\u20133,748 lbs",
-      "gvwr": "3,814\u20134,519 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+        "warnings": "Many operators waste time looking for the battery in the engine bay. It is NOT there. Open the hood — the frunk IS the storage area. Very low clearance — flatbed only."
+      }
     },
     {
       "make": "Chevrolet",
@@ -763,38 +661,39 @@
       "yearStart": 2020,
       "yearEnd": 2026,
       "trans": "8-speed DCT (auto)",
-      "slot": "Cover near electronic selector on center console \u2014 remove to expose slot",
+      "slot": "Cover near electronic selector on center console — remove to expose slot",
       "shift": [
-        "Press START without brake (ON mode).",
-        "Remove cover near electronic selector.",
-        "Insert key, press down.",
-        "Press brake. Move electronic selector to N.",
-        "Replace cover."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Cover near electronic selector on center console — remove to expose slot.",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery: MID-ENGINE \u2014 access panel BEHIND passenger seat or in frunk.",
-        "Connect jump pack.",
-        "Shift normally or use slot.",
-        "E-Ray hybrid: 12V terminals only."
+        "Connect jump pack to battery — Behind passenger seat OR in front storage — depends on trim. NOT in engine bay (mid-engine vehicle)..",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
-      "notes": "C8 is MID-ENGINE \u2014 battery location differs from all previous Corvettes.",
+      "notes": "C8 is MID-ENGINE — battery location differs from all previous Corvettes.",
       "warn": "FLATBED ONLY for all C8. Extremely low clearance. Do not winch from front or rear.",
       "drivetrain": "RWD or AWD (E-Ray)",
-      "towMethod": "FLATBED ONLY \u2014 mid-engine, extremely low clearance. AWD without flatbed: wheel-lift with dollies on opposite axle.",
+      "towMethod": "FLATBED ONLY — mid-engine, extremely low clearance. AWD without flatbed: wheel-lift with dollies on opposite axle.",
       "tc": null,
       "towNotes": [
-        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift \u2014 front splitter/rear diffuser damage is common.",
-        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release \u2014 use flatbed if shift override fails."
+        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
       ],
       "knownIssues": [
         {
-          "title": "Mid-Engine \u2014 Battery Behind Passenger Seat",
-          "detail": "Unlike all previous Corvettes, the C8 is mid-engine. The 12V battery is located behind the passenger seat or in the front storage area \u2014 NOT in the engine bay. There is no frunk battery on most C8 trims."
+          "title": "Mid-Engine — Battery Behind Passenger Seat",
+          "detail": "Unlike all previous Corvettes, the C8 is mid-engine. The 12V battery is located behind the passenger seat or in the front storage area — NOT in the engine bay. There is no frunk battery on most C8 trims."
         },
         {
           "title": "Absolutely No Winching From Front or Rear Bumper",
-          "detail": "The C8 front and rear fascias have virtually zero structural tolerance for winching. Damage to the carbon fiber body panels is extremely costly. Use only designated tow hooks \u2014 front tow hook is accessed through the front fascia opening on the driver side."
+          "detail": "The C8 front and rear fascias have virtually zero structural tolerance for winching. Damage to the carbon fiber body panels is extremely costly. Use only designated tow hooks — front tow hook is accessed through the front fascia opening on the driver side."
         },
         {
           "title": "Extremely Low Ground Clearance",
@@ -802,29 +701,15 @@
         },
         {
           "title": "E-Ray Hybrid AWD",
-          "detail": "C8 E-Ray (2024+) is a hybrid AWD. FLATBED ONLY for E-Ray. 12V terminals only \u2014 never access the HV front axle motor system."
+          "detail": "C8 E-Ray (2024+) is a hybrid AWD. FLATBED ONLY for E-Ray. 12V terminals only — never access the HV front axle motor system."
         }
       ],
       "battery": {
-        "location": "Behind passenger seat OR in front storage \u2014 depends on trim. NOT in engine bay (mid-engine vehicle).",
+        "location": "Behind passenger seat OR in front storage — depends on trim. NOT in engine bay (mid-engine vehicle).",
         "jumpTerminals": "Behind passenger seat: pull seat forward panel to access. OR front storage compartment on some trims.",
         "type": "standard-12v",
-        "warnings": "Mid-engine \u2014 no conventional engine bay battery. E-Ray hybrid: 12V only, never touch HV front motor. Flatbed only."
-      },
-      "slug": "chevrolet-corvette-c8-2020-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "3,235\u20133,748 lbs",
-      "gvwr": "3,814\u20134,519 lbs",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button to release.",
-        "steps": [
-          "Connect jump pack under hood.",
-          "Hold EPB button until brake releases."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+        "warnings": "Mid-engine — no conventional engine bay battery. E-Ray hybrid: 12V only, never touch HV front motor. Flatbed only."
+      }
     },
     {
       "make": "Chevrolet",
@@ -834,43 +719,37 @@
       "trans": "4-speed, 6-speed, or CVT automatic",
       "slot": "Cap near shifter base (older) or slot near electronic selector (2016+)",
       "shift": [
-        "Find cap/slot near shifter or selector. Remove cap if present.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Cap near shifter base (older) or slot near electronic selector (2016+).",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
       "notes": "Hybrid (2016-2019): 12V procedure only.",
       "warn": "",
       "drivetrain": "FWD",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chevrolet-malibu-2004-2024",
-      "fuelType": "gasoline",
-      "curbWeight": "3,131\u20133,417 lbs",
-      "gvwr": "3,946\u20134,365 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Chevrolet",
@@ -880,42 +759,35 @@
       "trans": "4-speed or 6-speed automatic",
       "slot": "Cap near selector base on console",
       "shift": [
-        "Find cap near selector base. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near selector base on console.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near selector base on console."
       ],
       "notes": "FWD. Police PPV variant: same.",
       "warn": "",
       "drivetrain": "FWD",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chevrolet-impala-2000-2020",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Chevrolet",
@@ -925,43 +797,36 @@
       "trans": "6-speed auto or 6-speed manual",
       "slot": "Cap near console shifter base",
       "shift": [
-        "Find cap near shifter base. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near console shifter base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood, driver side near firewall.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near console shifter base."
       ],
       "notes": "Manual: clutch to N. RWD.",
-      "warn": "RWD \u2014 block rear wheels.",
+      "warn": "RWD — block rear wheels.",
       "drivetrain": "RWD",
-      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Lift from rear — rear (drive) wheels in the air or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
+        "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side near firewall",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chevrolet-camaro-5th-gen-2010-2015",
-      "fuelType": "gasoline",
-      "curbWeight": "3,354\u20134,024 lbs",
-      "gvwr": "4,000\u20134,800 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Chevrolet",
@@ -969,44 +834,38 @@
       "yearStart": 2016,
       "yearEnd": 2024,
       "trans": "8-speed auto or 6-speed manual",
-      "slot": "Slot near console shifter base \u2014 trim cover may need removal first",
+      "slot": "Slot near console shifter base — trim cover may need removal first",
       "shift": [
-        "Remove trim cover near shifter base if present.",
-        "Find slot. Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Slot near console shifter base — trim cover may need removal first.",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood, driver side.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
       "notes": "ZL1, 1LE: same. Manual: clutch to N.",
-      "warn": "RWD \u2014 block rear wheels.",
+      "warn": "RWD — block rear wheels.",
       "drivetrain": "RWD",
-      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Lift from rear — rear (drive) wheels in the air or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
+        "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chevrolet-camaro-6th-gen-2016-2024",
-      "fuelType": "gasoline",
-      "curbWeight": "3,354\u20134,024 lbs",
-      "gvwr": "4,000\u20134,800 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Chevrolet",
@@ -1014,29 +873,34 @@
       "yearStart": 2011,
       "yearEnd": 2019,
       "trans": "Electric drive / PHEV",
-      "slot": "Electronic selector \u2014 slot near shifter on console",
+      "slot": "Electronic selector — slot near shifter on console",
       "shift": [
-        "WITH POWER: Press brake. Move selector to N.",
-        "WITHOUT POWER: Find slot near electronic shifter. Insert key, press down. Press brake. Move to N."
+        "Turn the Chevrolet Volt to ON/Ready mode.",
+        "Shift lock slot: Electronic selector — slot near shifter on console.",
+        "Insert a thin key or flathead into the slot and press firmly.",
+        "Press the brake pedal while holding the slot.",
+        "Move selector to N.",
+        "FLATBED ONLY — do not tow with driven wheels on the ground."
       ],
       "neutral": [
-        "12V auxiliary battery under hood \u2014 connect jump pack to 12V ONLY.",
-        "NEVER touch the HV floor battery.",
-        "Once powered, shift normally or use slot."
+        "Apply parking brake.",
+        "Connect jump pack to battery — Under hood (12V auxiliary battery). 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "FLATBED ONLY."
       ],
       "notes": "PHEV. HV battery runs down floor tunnel.",
       "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
       "drivetrain": "FWD (electric/PHEV)",
-      "towMethod": "FLATBED ONLY \u2014 electric drivetrain",
+      "towMethod": "FLATBED ONLY — electric drivetrain",
       "tc": null,
       "towNotes": [
-        "ELECTRIC VEHICLE: FLATBED ONLY \u2014 never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
         "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
-        "12V battery ONLY for jumping \u2014 NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
       ],
       "knownIssues": [
         {
-          "title": "FLATBED ONLY \u2014 PHEV Drivetrain",
+          "title": "FLATBED ONLY — PHEV Drivetrain",
           "detail": "The Volt's electric drive system means the driven wheels CANNOT rotate freely. Towing with driven wheels on the ground will damage the electric motor and inverter. Flatbed is the only acceptable method."
         },
         {
@@ -1046,21 +910,10 @@
       ],
       "battery": {
         "location": "Under hood (12V auxiliary battery)",
-        "jumpTerminals": "Under hood \u2014 12V auxiliary terminals only. Red (+) near firewall, Black (\u2212) ground bolt.",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals only. Red (+) near firewall, Black (−) ground bolt.",
         "type": "auxiliary-12v-only",
         "warnings": "NEVER touch the HV floor battery (orange cables). 12V auxiliary under hood ONLY."
-      },
-      "slug": "chevrolet-volt-2011-2019",
-      "fuelType": "electric",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Chevrolet",
@@ -1070,18 +923,22 @@
       "trans": "4-speed or 6-speed automatic",
       "slot": "Column shifter: slot on steering column. Console shift: cap at shifter base",
       "shift": [
-        "COLUMN: Find slot on steering column. Insert key, press down. Press brake. Move to N.",
-        "CONSOLE: Find cap at shifter base. Remove. Insert key, press down. Press brake. Move to N."
+        "Turn ignition to ON.",
+        "This vehicle uses a COLUMN-MOUNTED shifter — the shift lock slot is on the STEERING COLUMN, not the floor console.",
+        "Locate the slot on the steering column — Column shifter: slot on steering column. Console shift: cap at shifter base.",
+        "Insert a thin key or flathead into the slot on the column.",
+        "Press firmly while pressing the brake pedal.",
+        "Move the column shifter to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood, driver side.",
+        "Once 12V power is restored, press brake and move column shifter to N normally."
       ],
       "notes": "Large commercial van.",
-      "warn": "Large van \u2014 use heavy wheel blocks before releasing Park.",
+      "warn": "Large van — use heavy wheel blocks before releasing Park.",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift."
@@ -1089,21 +946,10 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chevrolet-express-van-2000-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Chevrolet",
@@ -1113,42 +959,36 @@
       "trans": "6-speed auto or CVT",
       "slot": "Cap near shifter base or electronic selector slot depending on year",
       "shift": [
-        "Find cap/slot near shifter. Remove cap if present.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Cap near shifter base or electronic selector slot depending on year.",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
       "notes": "",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chevrolet-trax-2015-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "3,020\u20133,307 lbs",
-      "gvwr": "3,924\u20134,297 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Chevrolet",
@@ -1156,47 +996,37 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "9-speed automatic",
-      "slot": "Electronic selector \u2014 slot near base",
+      "slot": "Electronic selector — slot near base",
       "shift": [
-        "Ignition to ON.",
-        "Find slot near electronic selector.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Electronic selector — slot near base.",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
       "notes": "Blazer EV (2024+): flatbed only.",
       "warn": "Blazer EV: FLATBED ONLY.",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. Blazer EV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. Blazer EV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "EV variant: 12V auxiliary only."
-      },
-      "slug": "chevrolet-blazer-2019-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "3,922\u20134,227 lbs",
-      "gvwr": "5,181\u20135,512 lbs",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button to release.",
-        "steps": [
-          "Connect jump pack under hood.",
-          "Hold EPB button until brake releases."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     }
   ]
 }

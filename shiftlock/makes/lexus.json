@@ -18,46 +18,37 @@
       "yearStart": 2002,
       "yearEnd": 2026,
       "trans": "5-speed, 6-speed, or 8-speed auto; hybrid eCVT",
-      "slot": "Cap near selector base on console \u2014 Lexus may place release INSIDE center console storage bin",
+      "slot": "Cap near selector base on console — Lexus may place release INSIDE center console storage bin",
       "shift": [
         "Turn ignition to ON.",
-        "Check INSIDE the center console storage bin first \u2014 Lexus often places the shift lock release inside the bin.",
-        "If not in bin: find slot near selector base.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Locate the shift lock slot: Cap near selector base on console — Lexus may place release INSIDE center console storage bin.",
+        "Insert a thin key or flathead into the slot and press firmly down.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "If using slot without power, apply consistent firm pressure — hybrid selectors may require more force.",
+        "Hybrid: 12V auxiliary only — never touch HV battery."
       ],
       "notes": "Shift lock may be inside console storage bin.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals. Hybrid: 12V only.",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid: 12V only.",
         "type": "standard-12v",
         "warnings": "Hybrid: 12V auxiliary only."
-      },
-      "slug": "lexus-es-all-generations-2002-2026",
-      "fuelType": "hybrid",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Lexus",
@@ -65,46 +56,37 @@
       "yearStart": 2000,
       "yearEnd": 2026,
       "trans": "4-speed, 5-speed, 6-speed auto; hybrid eCVT",
-      "slot": "Cap near selector base \u2014 may be inside center console storage on some years",
+      "slot": "Cap near selector base — may be inside center console storage on some years",
       "shift": [
         "Turn ignition to ON.",
-        "Check inside center console storage if slot not visible at selector base.",
-        "Find cap/slot. Pry cap if present.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Locate the shift lock slot: Cap near selector base — may be inside center console storage on some years.",
+        "Insert a thin key or flathead into the slot and press firmly down.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "If using slot without power, apply consistent firm pressure — hybrid selectors may require more force.",
+        "Hybrid: 12V auxiliary only — never touch HV battery."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals. Hybrid: 12V only.",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid: 12V only.",
         "type": "standard-12v",
         "warnings": "Hybrid: 12V only."
-      },
-      "slug": "lexus-rx-all-generations-2000-2026",
-      "fuelType": "hybrid",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Lexus",
@@ -114,42 +96,35 @@
       "trans": "6-speed or 8-speed automatic; IS-F manual",
       "slot": "Cap near selector base on console",
       "shift": [
-        "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near selector base on console.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood or in trunk — varies by generation.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near selector base on console."
       ],
-      "notes": "IS-F: manual \u2014 clutch to N. AWD optional.",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "notes": "IS-F: manual — clutch to N. AWD optional.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood or in trunk \u2014 varies by generation",
-        "jumpTerminals": "Under hood: fused terminal (+), ground bolt (\u2212)",
+        "location": "Under hood or in trunk — varies by generation",
+        "jumpTerminals": "Under hood: fused terminal (+), ground bolt (−)",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "lexus-is-all-generations-2006-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Lexus",
@@ -159,26 +134,30 @@
       "trans": "5-speed auto (GX 470, 2003-2009), 6-speed auto (GX 460, 2010-2023), 10-speed auto (GX 550, 2024+)",
       "slot": "Cap near selector base on console",
       "shift": [
-        "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near selector base on console.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near selector base on console."
       ],
       "notes": "4WD standard.",
       "warn": "4WD: transfer case.",
       "drivetrain": "4WD (Torsen limited-slip, standard)",
-      "towMethod": "Transfer case to H2 (2WD) first, then lift from front (rear/drive wheels roll on ground), or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Transfer case to H2 (2WD) first, then lift from rear — rear (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
-        "type": "Electric push-button on dash \u2014 H2 / H4 / L4",
+        "type": "Electric push-button on dash — H2 / H4 / L4",
         "positions": [
-          "H2 \u2014 2WD rear wheels only \u2014 REQUIRED for road towing",
-          "H4 \u2014 4WD high range (standard driving mode)",
-          "L4 \u2014 4WD low range \u2014 NEVER tow in this position on road"
+          "H2 — 2WD rear wheels only — REQUIRED for road towing",
+          "H4 — 4WD high range (standard driving mode)",
+          "L4 — 4WD low range — NEVER tow in this position on road"
         ],
         "steps": [
           "Stop or slow under 25 MPH.",
@@ -191,7 +170,7 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [
@@ -202,21 +181,10 @@
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "KDSS equipped trims: suspension may shift when lifted."
-      },
-      "slug": "lexus-gx-all-generations-2003-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Lexus",
@@ -226,26 +194,30 @@
       "trans": "4-speed, 6-speed, or 10-speed automatic",
       "slot": "Cap near selector base on console",
       "shift": [
-        "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near selector base on console.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near selector base on console."
       ],
       "notes": "4WD standard. Large luxury SUV.",
       "warn": "4WD: transfer case.",
       "drivetrain": "4WD (Torsen full-time, standard)",
-      "towMethod": "Transfer case to H2 (2WD) first, then lift from front (rear/drive wheels roll on ground), or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Transfer case to H2 (2WD) first, then lift from rear — rear (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
-        "type": "Electric push-button on dash \u2014 H2 / H4 / L4",
+        "type": "Electric push-button on dash — H2 / H4 / L4",
         "positions": [
-          "H2 \u2014 2WD rear wheels only \u2014 REQUIRED for road towing",
-          "H4 \u2014 4WD high range (normal driving mode)",
-          "L4 \u2014 4WD low range \u2014 NEVER tow in this position on road"
+          "H2 — 2WD rear wheels only — REQUIRED for road towing",
+          "H4 — 4WD high range (normal driving mode)",
+          "L4 — 4WD low range — NEVER tow in this position on road"
         ],
         "steps": [
           "Stop or slow under 25 MPH.",
@@ -257,7 +229,7 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [
@@ -272,21 +244,10 @@
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "Air suspension drops with dead battery. Very heavy vehicle (~6,000 lbs). Restore power before loading."
-      },
-      "slug": "lexus-lx-all-generations-2000-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Lexus",
@@ -296,45 +257,35 @@
       "trans": "6-speed, 8-speed auto; hybrid or PHEV eCVT",
       "slot": "Cap near selector base",
       "shift": [
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "Locate the shift lock slot: Cap near selector base.",
+        "Insert a thin key or flathead into the slot and press firmly down.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "If using slot without power, apply consistent firm pressure — hybrid selectors may require more force.",
+        "Hybrid: 12V auxiliary only — never touch HV battery."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD/Hybrid/PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD/Hybrid/PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals. Hybrid/PHEV: 12V only.",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid/PHEV: 12V only.",
         "type": "standard-12v",
         "warnings": "Hybrid/PHEV: 12V only."
-      },
-      "slug": "lexus-nx-all-generations-2015-2026",
-      "fuelType": "phev",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button/switch to release.",
-        "steps": [
-          "Connect jump pack under hood.",
-          "Hold EPB button to release."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Lexus",
@@ -344,43 +295,36 @@
       "trans": "5-speed, 8-speed, or 10-speed auto; hybrid",
       "slot": "Cap near selector base or inside center console storage",
       "shift": [
-        "Turn ignition to ON.",
-        "Check inside console storage \u2014 Lexus may hide shift lock there.",
-        "Find cap/slot. Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near selector base or inside center console storage.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Battery is under the rear seat — but use the jump terminals UNDER THE HOOD to connect your jump pack. Use an AGM-compatible jump pack — this vehicle has an AGM battery.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near selector base or inside center console storage."
       ],
-      "notes": "Air suspension \u2014 check clearance.",
+      "notes": "Air suspension — check clearance.",
       "warn": "",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible."
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood or under rear seat \u2014 varies by generation",
-        "jumpTerminals": "Under hood: fused jump terminal (+), ground bolt (\u2212)",
+        "location": "Under hood or under rear seat — varies by generation",
+        "jumpTerminals": "Under hood: fused jump terminal (+), ground bolt (−)",
         "type": "agm-12v",
         "warnings": "Air suspension drops with dead battery. Hybrid: 12V only. Use hood terminals."
-      },
-      "slug": "lexus-ls-all-generations-2001-2026",
-      "fuelType": "hybrid",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     }
   ]
 }

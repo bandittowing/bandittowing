@@ -21,44 +21,35 @@
       "slot": "Cap near selector base on console",
       "shift": [
         "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "This vehicle has a CVT — shift lock slot location: Cap near selector base on console.",
+        "Insert a thin key or small flathead into the slot.",
+        "Press firmly and hold.",
+        "Press the brake pedal while holding.",
+        "Move the selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "CVT transmissions: do NOT exceed 35 mph or 50 miles with driven wheels on ground — flatbed strongly preferred."
       ],
       "notes": "Manual: clutch to N. AWD available on Mazda3 (2019+).",
       "warn": "",
       "drivetrain": "FWD or AWD (Mazda3 2019+)",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed.",
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
         "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "mazda-mazda3-mazda6-2004-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Mazda",
@@ -68,43 +59,35 @@
       "trans": "6-speed automatic",
       "slot": "Cap near selector base on console",
       "shift": [
-        "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near selector base on console.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near selector base on console."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "mazda-cx-5-2013-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Mazda",
@@ -114,42 +97,36 @@
       "trans": "6-speed or 8-speed automatic",
       "slot": "Cap near selector base (older) or electronic selector slot (2024+)",
       "shift": [
-        "Find cap/slot near selector. Remove cap if present.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Cap near selector base (older) or electronic selector slot (2024+).",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (12V only for CX-90 PHEV). Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
       "notes": "AWD standard.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. CX-90 PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. CX-90 PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals. CX-90 PHEV: 12V only.",
+        "jumpTerminals": "Under hood — standard terminals. CX-90 PHEV: 12V only.",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "mazda-cx-9-cx-90-2007-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Mazda",
@@ -159,41 +136,35 @@
       "trans": "6-speed automatic",
       "slot": "Cap near selector base",
       "shift": [
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near selector base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near selector base."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "mazda-cx-3-cx-30-cx-50-2016-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Mazda",
@@ -203,23 +174,29 @@
       "trans": "6-speed auto or 6-speed manual",
       "slot": "Cap near selector base (auto only)",
       "shift": [
-        "Auto: Find cap near selector base. Pry off. Insert key, press down. Press brake. Move to N.",
-        "Manual: Depress clutch, select Neutral."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near selector base (auto only).",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (auto). Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood (driver side on ND gen), or passenger side on NC gen.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near selector base (auto only)."
       ],
       "notes": "Manual: clutch to N. Very low clearance.",
-      "warn": "LOW CLEARANCE \u2014 flatbed preferred.",
+      "warn": "LOW CLEARANCE — flatbed preferred.",
       "drivetrain": "RWD",
-      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed \u2014 low clearance, flatbed preferred. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Lift from rear — rear (drive) wheels in the air or flatbed — low clearance, flatbed preferred. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
-        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift \u2014 front splitter/rear diffuser damage is common.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
+        "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [
         {
@@ -233,21 +210,10 @@
       ],
       "battery": {
         "location": "Under hood (driver side on ND gen), or passenger side on NC gen",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "Very low clearance. Soft top: never run straps over the roof."
-      },
-      "slug": "mazda-mx-5-miata-2006-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     }
   ]
 }

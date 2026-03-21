@@ -20,43 +20,35 @@
       "trans": "5 or 7-speed automatic or 6-speed manual",
       "slot": "Cap near gear selector base on console",
       "shift": [
-        "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near gear selector base on console.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near gear selector base on console."
       ],
       "notes": "Manual: clutch to N. RWD or AWD.",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "infiniti-g35-g37-q40-2003-2015",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Infiniti",
@@ -66,21 +58,24 @@
       "trans": "7-speed automatic",
       "slot": "Cap near gear selector base on console",
       "shift": [
-        "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near gear selector base on console.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (12V only for Q50 Hybrid). Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near gear selector base on console."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack."
@@ -88,24 +83,10 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "Hybrid: 12V only."
-      },
-      "slug": "infiniti-q50-2014-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button.",
-        "steps": [
-          "Restore 12V under hood.",
-          "Hold EPB button to release."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Infiniti",
@@ -115,46 +96,36 @@
       "trans": "7-speed automatic",
       "slot": "Cap near gear selector base",
       "shift": [
-        "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near gear selector base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near gear selector base."
       ],
       "notes": "RWD or AWD.",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
+        "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "AWD VARIANT: Use flatbed. If no flatbed, wheel-lift with dollies on free-rolling axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "infiniti-q60-2017-2022",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button.",
-        "steps": [
-          "Restore 12V under hood.",
-          "Hold EPB button to release."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Infiniti",
@@ -164,42 +135,35 @@
       "trans": "5-speed automatic (2008-2010) or 7-speed automatic (2011-2017)",
       "slot": "Cap near gear selector base on console",
       "shift": [
-        "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near gear selector base on console.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near gear selector base on console."
       ],
       "notes": "RWD standard; AWD optional.",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible."
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "infiniti-qx50-ex35-ex37-2008-2017",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Infiniti",
@@ -210,46 +174,35 @@
       "slot": "Cap near gear selector base on console",
       "shift": [
         "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "This vehicle has a Jatco CVT — shift lock slot location: Cap near gear selector base on console.",
+        "Insert a thin key or small flathead into the slot.",
+        "Press firmly and hold.",
+        "Press the brake pedal while holding.",
+        "Move the selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood — verify before attempting to jump.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "CVT transmissions: do NOT exceed 35 mph or 50 miles with driven wheels on ground — flatbed strongly preferred."
       ],
       "notes": "2nd gen on new FWD-based platform. AWD optional.",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible.",
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible.",
         "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood \u2014 verify before attempting to jump",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "location": "Under hood — verify before attempting to jump",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "infiniti-qx50-2nd-gen-2019-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button.",
-        "steps": [
-          "Restore 12V under hood.",
-          "Hold EPB button to release."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Infiniti",
@@ -260,45 +213,34 @@
       "slot": "Cap near gear selector base on console",
       "shift": [
         "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "This vehicle has a Jatco CVT — shift lock slot location: Cap near gear selector base on console.",
+        "Insert a thin key or small flathead into the slot.",
+        "Press firmly and hold.",
+        "Press the brake pedal while holding.",
+        "Move the selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "CVT transmissions: do NOT exceed 35 mph or 50 miles with driven wheels on ground — flatbed strongly preferred."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "infiniti-qx60-jx35-2013-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button.",
-        "steps": [
-          "Restore 12V under hood.",
-          "Hold EPB button to release."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Infiniti",
@@ -308,27 +250,31 @@
       "trans": "5-speed, 7-speed, or 8-speed automatic",
       "slot": "Cap near gear selector base on console",
       "shift": [
-        "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near gear selector base on console.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near gear selector base on console."
       ],
       "notes": "AWD standard. Large luxury SUV.",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from front \u2014 rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button on center console",
         "positions": [
-          "2WD \u2014 rear wheels only \u2014 REQUIRED for road towing",
-          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
-          "4WD Hi \u2014 part-time 4WD \u2014 NOT safe for dry-road towing",
-          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
+          "2WD — rear wheels only — REQUIRED for road towing",
+          "4WD Auto — automatic AWD — NOT safe for towing",
+          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
+          "4WD Lo — low range — NEVER tow in this position"
         ],
         "steps": [
           "Stop or slow under 3 MPH.",
@@ -340,28 +286,17 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "infiniti-qx80-qx56-2004-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     }
   ]
 }

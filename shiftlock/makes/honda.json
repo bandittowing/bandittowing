@@ -21,45 +21,36 @@
       "slot": "Cap or slot near gear selector base on console; 11th gen (2023+): slot near electronic selector",
       "shift": [
         "Turn ignition to ON.",
-        "Find cap/slot near selector base. Pry cap off if present.",
-        "Insert ignition key, press down firmly.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Locate the electronic selector override: Cap or slot near gear selector base on console; 11th gen (2023+): slot near electronic selector.",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot.",
-        "Hybrid: 12V only."
+        "Connect jump pack to battery — Under hood, driver side.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
-      "notes": "Manual trans: no shift lock \u2014 depress clutch.",
+      "notes": "Manual trans: no shift lock — depress clutch.",
       "warn": "",
       "drivetrain": "FWD (most) or AWD (2023+ select trims)",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
-        "warnings": "Hybrid: 12V auxiliary under hood only \u2014 never touch IMA/HV battery."
-      },
-      "slug": "honda-accord-2000-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "3,131\u20133,417 lbs",
-      "gvwr": "4,056\u20134,409 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+        "warnings": "Hybrid: 12V auxiliary under hood only — never touch IMA/HV battery."
+      }
     },
     {
       "make": "Honda",
@@ -70,45 +61,35 @@
       "slot": "Cap near gear selector base on console",
       "shift": [
         "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "This vehicle has a CVT — shift lock slot location: Cap near gear selector base on console.",
+        "Insert a thin key or small flathead into the slot.",
+        "Press firmly and hold.",
+        "Press the brake pedal while holding.",
+        "Move the selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot.",
-        "Hybrid: 12V only."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "CVT transmissions: do NOT exceed 35 mph or 50 miles with driven wheels on ground — flatbed strongly preferred."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "Hybrid: 12V only."
-      },
-      "slug": "honda-cr-v-2000-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "3,307\u20133,726 lbs",
-      "gvwr": "4,475\u20135,070 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Honda",
@@ -119,46 +100,37 @@
       "slot": "Cap near gear selector base on console",
       "shift": [
         "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "This vehicle has a DCT dual-clutch transmission — it requires 12V power to shift reliably.",
+        "Locate the shift lock slot — Cap near gear selector base on console.",
+        "Insert a thin key or flathead into the slot.",
+        "Press firmly and hold.",
+        "Press the brake pedal while holding.",
+        "Move the selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot.",
-        "Hybrid: 12V only."
+        "DCT REQUIRES POWER: Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "If mechanical slot is used without power: DCT transmissions may resist — apply steady firm pressure and hold for several seconds."
       ],
-      "notes": "Type R: manual only \u2014 clutch to N.",
+      "notes": "Type R: manual only — clutch to N.",
       "warn": "",
       "drivetrain": "FWD",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release \u2014 use flatbed if shift override fails.",
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails.",
         "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "honda-civic-2001-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "2,711\u20132,988 lbs",
-      "gvwr": "3,549\u20133,924 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Honda",
@@ -168,43 +140,35 @@
       "trans": "5-speed automatic",
       "slot": "Cap near gear selector base on console",
       "shift": [
-        "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near gear selector base on console.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near gear selector base on console."
       ],
       "notes": "AWD optional.",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "honda-pilot-2003-2015",
-      "fuelType": "gasoline",
-      "curbWeight": "4,232\u20135,147 lbs",
-      "gvwr": "5,512\u20135,952 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Honda",
@@ -212,51 +176,41 @@
       "yearStart": 2016,
       "yearEnd": 2022,
       "trans": "6-speed or 9-speed auto (ZF 9HP)",
-      "slot": "Slot on right side or front of selector housing \u2014 use PHYSICAL KEY from key fob as the tool",
+      "slot": "Slot on right side or front of selector housing — use PHYSICAL KEY from key fob as the tool",
       "shift": [
         "Turn ignition to ON.",
-        "Find slot on right side or front of the selector housing.",
-        "POP THE PHYSICAL KEY out of the key fob \u2014 this is your tool.",
-        "Insert the physical key into the slot. Press down.",
-        "Press brake. Move to N."
+        "Locate the shift lock slot — Slot on right side or front of selector housing.",
+        "OVERRIDE TOOL: Pop out the PHYSICAL KEY from inside the key fob (press the release button on the fob to eject it) — this is the override tool for this vehicle.",
+        "Insert the physical key into the slot and press firmly down.",
+        "While holding, press the brake pedal.",
+        "Move the selector from Park to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally.",
-        "Without power: physical key from fob into slot method."
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "The physical key inside the key fob is required for the mechanical override — always carry a spare key."
       ],
-      "notes": "3rd gen Pilot key fob contains a hidden physical key \u2014 use this as the tool for the shift lock slot. ZF 9HP: jump pack preferred.",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "notes": "3rd gen Pilot key fob contains a hidden physical key — use this as the tool for the shift lock slot. ZF 9HP: jump pack preferred.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [
         {
           "title": "Physical Key from Fob Is the Override Tool",
-          "detail": "The 3rd gen Pilot (2016-2022) shift lock slot requires a thin key to actuate. The override tool is the PHYSICAL KEY hidden inside the key fob \u2014 pop it out using the release button on the fob. Operators without this key or who don't know about it cannot complete the override without improvising a thin tool."
+          "detail": "The 3rd gen Pilot (2016-2022) shift lock slot requires a thin key to actuate. The override tool is the PHYSICAL KEY hidden inside the key fob — pop it out using the release button on the fob. Operators without this key or who don't know about it cannot complete the override without improvising a thin tool."
         }
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "Key fob physical key is the shift lock tool on this generation."
-      },
-      "slug": "honda-pilot-3rd-gen-2016-2022",
-      "fuelType": "gasoline",
-      "curbWeight": "4,232\u20135,147 lbs",
-      "gvwr": "5,512\u20135,952 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Honda",
@@ -267,44 +221,34 @@
       "slot": "Slot near electronic gear selector base on console",
       "shift": [
         "Turn ignition to ON.",
-        "Find slot near electronic selector base.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Locate the electronic selector override: Slot near electronic gear selector base on console.",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
       "notes": "",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "honda-pilot-4th-gen-2023-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "4,232\u20135,147 lbs",
-      "gvwr": "5,512\u20135,952 lbs",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button to release.",
-        "steps": [
-          "Connect jump pack under hood.",
-          "Hold EPB button until brake releases."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Honda",
@@ -315,25 +259,27 @@
       "slot": "Cap near gear selector base on console; special ZF 9HP override tool also available",
       "shift": [
         "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap.",
-        "SPECIAL TOOL: Honda ZF 9HP override tool (~$50 online) is the most reliable option."
+        "ZF 9HP transmission: locate the shift lock slot — Cap near gear selector base on console; special ZF 9HP override tool also available.",
+        "Insert a thin key or dedicated ZF 9HP override tool (~$50 from dealer tool suppliers) into the slot.",
+        "Press firmly and hold.",
+        "While holding, press the brake pedal.",
+        "Move the selector to Neutral.",
+        "NOTE: The ZF 9HP solenoid requires more force than most vehicles — apply steady firm pressure."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally.",
-        "Without power: slot method or ZF 9HP tool."
+        "ZF 9HP STRONGLY RECOMMENDED: Connect jump pack to battery — Under hood.",
+        "The ZF 9HP is very difficult to shift without 12V power — jumping the battery first is the most reliable method.",
+        "Once powered, press brake and shift normally.",
+        "If using mechanical slot: a dedicated ZF 9HP override tool (~$50 online) is more reliable than a key."
       ],
       "notes": "ZF 9HP: use jump pack or special tool. Do not force shift without power.",
-      "warn": "Do not force shift without power \u2014 ZF 9HP is sensitive to improper manual shifting.",
+      "warn": "Do not force shift without power — ZF 9HP is sensitive to improper manual shifting.",
       "drivetrain": "FWD",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [
         {
@@ -347,24 +293,10 @@
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
-        "warnings": "ZF 9HP: must restore power before neutral shift. Use jump pack \u2014 ZF 9HP override tool is the most reliable manual method."
-      },
-      "slug": "honda-odyssey-5th-gen-2018-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "4,387\u20134,673 lbs",
-      "gvwr": "5,512\u20135,952 lbs",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button to release.",
-        "steps": [
-          "Connect jump pack under hood.",
-          "Hold EPB button until brake releases."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+        "warnings": "ZF 9HP: must restore power before neutral shift. Use jump pack — ZF 9HP override tool is the most reliable manual method."
+      }
     },
     {
       "make": "Honda",
@@ -374,43 +306,35 @@
       "trans": "5-speed or 6-speed automatic",
       "slot": "Cap near gear selector base on console",
       "shift": [
-        "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near gear selector base on console.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near gear selector base on console."
       ],
       "notes": "FWD minivan.",
       "warn": "Block all wheels.",
       "drivetrain": "FWD",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "honda-odyssey-3rd-4th-gen-2005-2017",
-      "fuelType": "gasoline",
-      "curbWeight": "4,387\u20134,673 lbs",
-      "gvwr": "5,512\u20135,952 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Honda",
@@ -420,25 +344,25 @@
       "trans": "e-CVT hybrid",
       "slot": "Cap near gear selector base",
       "shift": [
-        "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON (do not start).",
+        "Honda confirmed the Insight e-CVT CANNOT be shifted without 12V power on most units.",
+        "Locate the shift lock slot near the selector base — this may not work without power.",
+        "Strongly recommended: jump the 12V battery first before attempting any override."
       ],
       "neutral": [
-        "POWER IS REQUIRED \u2014 Honda confirmed this model cannot be shifted to neutral without battery power on most units.",
-        "Connect a jump pack to the 12V battery under the hood \u2014 MANDATORY.",
-        "Once powered, press brake and shift to Neutral normally.",
-        "If no power source: use vehicle dollies instead of forcing the shifter."
+        "Apply parking brake.",
+        "POWER REQUIRED: Connect jump pack to battery — Under hood (12V auxiliary). 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack.",
+        "Once 12V power is restored, press brake and move selector to N normally.",
+        "If power cannot be restored, use wheel dollies under the driven wheels — do NOT attempt to force."
       ],
       "notes": "Honda officially confirmed power is required. Slot method may not override on all units. Always jump pack first.",
-      "warn": "POWER REQUIRED on most units. Do not force \u2014 use dollies if no power is available.",
+      "warn": "POWER REQUIRED on most units. Do not force — use dollies if no power is available.",
       "drivetrain": "FWD (hybrid)",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
       ],
       "knownIssues": [
@@ -449,24 +373,10 @@
       ],
       "battery": {
         "location": "Under hood (12V auxiliary)",
-        "jumpTerminals": "Under hood \u2014 12V auxiliary terminals only",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals only",
         "type": "auxiliary-12v-only",
-        "warnings": "POWER REQUIRED to shift to neutral on most units. Jump first \u2014 do not attempt without power."
-      },
-      "slug": "honda-insight-3rd-gen-2019-2022",
-      "fuelType": "hybrid",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button to release.",
-        "steps": [
-          "Connect jump pack under hood.",
-          "Hold EPB button until brake releases."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+        "warnings": "POWER REQUIRED to shift to neutral on most units. Jump first — do not attempt without power."
+      }
     },
     {
       "make": "Honda",
@@ -476,48 +386,40 @@
       "trans": "5-speed or 6-speed automatic",
       "slot": "Cap near gear selector base on console",
       "shift": [
-        "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near gear selector base on console.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near gear selector base on console."
       ],
       "notes": "AWD standard on all Ridgeline.",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "AWD (i-VTM4, standard)",
-      "towMethod": "FLATBED ONLY \u2014 AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY — AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
       ],
       "knownIssues": [
         {
-          "title": "AWD Cannot Be Disabled \u2014 Flatbed Only",
+          "title": "AWD Cannot Be Disabled — Flatbed Only",
           "detail": "All Ridgeline trims have full-time AWD (i-VTM4) that cannot be disabled. There is no 2WD mode or transfer case position. FLATBED ONLY on all Ridgelines. Do not attempt wheel-lift towing on any Ridgeline."
         }
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
-        "warnings": "AWD standard \u2014 flatbed only on all Ridgelines."
-      },
-      "slug": "honda-ridgeline-2006-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "4,532\u20134,753 lbs",
-      "gvwr": "5,620\u20135,944 lbs",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+        "warnings": "AWD standard — flatbed only on all Ridgelines."
+      }
     }
   ]
 }

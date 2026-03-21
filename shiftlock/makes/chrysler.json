@@ -20,42 +20,35 @@
       "trans": "4 or 6-speed automatic",
       "slot": "Cap near console shifter base",
       "shift": [
-        "Find cap near shifter base. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near console shifter base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near console shifter base."
       ],
       "notes": "",
       "warn": "",
       "drivetrain": "FWD",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chrysler-200-1st-gen-sebring-2011-2014",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Chrysler",
@@ -63,33 +56,34 @@
       "yearStart": 2015,
       "yearEnd": 2017,
       "trans": "9-speed automatic ZF 9HP",
-      "slot": "ROTARY DIAL selector \u2014 slot near BASE of dial on console. No traditional lever.",
+      "slot": "ROTARY DIAL selector — slot near BASE of dial on console. No traditional lever.",
       "shift": [
-        "IMPORTANT: This car has a ROTARY DIAL selector, not a lever.",
         "Turn ignition to ON.",
-        "Find the slot near the BASE of the rotary dial on the console.",
-        "Insert key, press down.",
-        "Press brake.",
-        "ROTATE the dial to N."
+        "ZF 9HP transmission: locate the shift lock slot — ROTARY DIAL selector — slot near BASE of dial on console. No traditional lever..",
+        "Insert a thin key or dedicated ZF 9HP override tool (~$50 from dealer tool suppliers) into the slot.",
+        "Press firmly and hold.",
+        "While holding, press the brake pedal.",
+        "Move the selector to Neutral.",
+        "NOTE: The ZF 9HP solenoid requires more force than most vehicles — apply steady firm pressure."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack.",
-        "Rotate dial to N normally once powered.",
-        "Without power: dial base slot method."
+        "ZF 9HP STRONGLY RECOMMENDED: Connect jump pack to battery — Under hood.",
+        "The ZF 9HP is very difficult to shift without 12V power — jumping the battery first is the most reliable method.",
+        "Once powered, press brake and shift normally.",
+        "If using mechanical slot: a dedicated ZF 9HP override tool (~$50 online) is more reliable than a key."
       ],
-      "notes": "ROTARY DIAL only \u2014 no shifter lever. Familiarize with the dial before attempting.",
+      "notes": "ROTARY DIAL only — no shifter lever. Familiarize with the dial before attempting.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [
         {
-          "title": "ROTARY DIAL SELECTOR \u2014 Not a Traditional Shifter",
+          "title": "ROTARY DIAL SELECTOR — Not a Traditional Shifter",
           "detail": "The 2015-2017 Chrysler 200 uses a rotary dial on the center console instead of a gear lever. Operators unfamiliar with this vehicle waste significant time looking for a shifter that does not exist. The shift lock release slot is at the BASE of the rotary dial."
         },
         {
@@ -103,21 +97,10 @@
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard red (+) / black (\u2212)",
+        "jumpTerminals": "Under hood — standard red (+) / black (−)",
         "type": "standard-12v",
-        "warnings": "Rotary dial selector \u2014 no gear lever. ZF 9HP requires power. Jump first, then shift."
-      },
-      "slug": "chrysler-200-2nd-gen-2015-2017",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+        "warnings": "Rotary dial selector — no gear lever. ZF 9HP requires power. Jump first, then shift."
+      }
     },
     {
       "make": "Chrysler",
@@ -127,43 +110,36 @@
       "trans": "5-speed, 8-speed auto",
       "slot": "Cap near console shifter base",
       "shift": [
-        "Find cap near shifter base. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near console shifter base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near console shifter base."
       ],
       "notes": "AWD available.",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
+        "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "AWD VARIANT: Use flatbed. If no flatbed, wheel-lift with dollies on free-rolling axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chrysler-300-2005-2023",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Chrysler",
@@ -171,56 +147,46 @@
       "yearStart": 2017,
       "yearEnd": 2026,
       "trans": "9-speed auto or PHEV eCVT",
-      "slot": "ROTARY DIAL selector \u2014 slot near BASE of dial on console",
+      "slot": "ROTARY DIAL selector — slot near BASE of dial on console",
       "shift": [
-        "IMPORTANT: Rotary dial selector \u2014 no lever.",
-        "Find slot near base of the rotary dial.",
-        "Insert key, press down.",
-        "Press brake.",
-        "ROTATE dial to N."
+        "Turn ignition to ON.",
+        "Locate the shift lock slot: ROTARY DIAL selector — slot near BASE of dial on console.",
+        "Insert a thin key or flathead into the slot and press firmly down.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (12V only for PHEV).",
-        "Rotate to N once powered or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "If using slot without power, apply consistent firm pressure — hybrid selectors may require more force.",
+        "Hybrid: 12V auxiliary only — never touch HV battery."
       ],
       "notes": "Never access HV battery.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [
         {
-          "title": "ROTARY DIAL SELECTOR \u2014 Not a Traditional Shifter",
+          "title": "ROTARY DIAL SELECTOR — Not a Traditional Shifter",
           "detail": "Like the Chrysler 200, the Pacifica uses a rotary dial on the center console. No shift lever exists. The manual override slot is at the base of the dial."
         },
         {
-          "title": "Hybrid PHEV \u2014 12V Only for Jumping",
+          "title": "Hybrid PHEV — 12V Only for Jumping",
           "detail": "Pacifica Hybrid has a high-voltage battery pack under the floor. ONLY use the 12V auxiliary battery under the hood for jumping. Never attempt to access or jump from the HV pack."
         }
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals. Hybrid: 12V auxiliary under hood only.",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid: 12V auxiliary under hood only.",
         "type": "standard-12v",
         "warnings": "Pacifica Hybrid PHEV: 12V auxiliary only. NEVER touch HV battery under floor."
-      },
-      "slug": "chrysler-pacifica-2017-2026",
-      "fuelType": "phev",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Chrysler",
@@ -230,42 +196,35 @@
       "trans": "4-speed or 6-speed automatic",
       "slot": "Cap near console shifter base",
       "shift": [
-        "Find cap near shifter base. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near console shifter base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near console shifter base."
       ],
       "notes": "FWD minivan.",
       "warn": "Block all wheels.",
       "drivetrain": "FWD",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chrysler-town-country-2000-2016",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Chrysler",
@@ -275,43 +234,36 @@
       "trans": "4-speed auto or 5-speed manual",
       "slot": "Cap near console shifter base",
       "shift": [
-        "Find cap near shifter base. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near console shifter base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near console shifter base."
       ],
       "notes": "Manual: clutch to N.",
       "warn": "",
       "drivetrain": "FWD",
-      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "chrysler-pt-cruiser-2001-2010",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     }
   ]
 }

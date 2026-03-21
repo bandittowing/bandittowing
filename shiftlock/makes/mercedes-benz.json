@@ -18,23 +18,24 @@
       "yearStart": 2001,
       "yearEnd": 2026,
       "trans": "5-speed, 7-speed, or 9-speed automatic",
-      "slot": "Slot at base of gear selector housing or column selector \u2014 pry/slide cover to expose",
+      "slot": "Slot at base of gear selector housing or column selector — pry/slide cover to expose",
       "shift": [
-        "Ignition to ON (position 2).",
-        "Find slot at base of selector housing. Pry or slide cover.",
-        "Insert key or flathead, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "This vehicle uses a COLUMN-MOUNTED shifter — the shift lock slot is on the STEERING COLUMN, not the floor console.",
+        "Locate the slot on the steering column — Slot at base of gear selector housing or column selector — pry/slide cover to expose.",
+        "Insert a thin key or flathead into the slot on the column.",
+        "Press firmly while pressing the brake pedal.",
+        "Move the column shifter to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot.",
-        "PHEVs: 12V only."
+        "Battery is under the rear seat — but use the jump terminals UNDER THE HOOD to connect your jump pack. Use an AGM-compatible jump pack — this vehicle has an AGM battery.",
+        "Once 12V power is restored, press brake and move column shifter to N normally."
       ],
       "notes": "4MATIC AWD: flatbed. AMG DCT: power preferred.",
-      "warn": "AWD (4MATIC) \u2014 flatbed preferred.",
+      "warn": "AWD (4MATIC) — flatbed preferred.",
       "drivetrain": "RWD or 4MATIC AWD",
-      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. 4MATIC AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. 4MATIC AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack."
@@ -42,29 +43,10 @@
       "knownIssues": [],
       "battery": {
         "location": "In trunk (most generations) or under rear seat",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt on strut tower (\u2212)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt on strut tower (−)",
         "type": "agm-12v",
         "warnings": "Use hood terminals ONLY. Never jump directly at the trunk battery. AGM jump pack required."
-      },
-      "slug": "mercedes-benz-c-class-all-generations-2001-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": {
-        "equipped": true,
-        "description": "AIRMATIC air suspension (standard or optional depending on model/trim).",
-        "towingNotes": [
-          "AIRMATIC may have raised/lowered vehicle. Press towing button above rearview mirror to lock level if available.",
-          "Battery jump allows system to normalize.",
-          "Check vehicle height before approach."
-        ]
-      },
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Mercedes-Benz",
@@ -74,19 +56,22 @@
       "trans": "5-speed, 7-speed, or 9-speed automatic",
       "slot": "Slot near console or column selector base",
       "shift": [
-        "Ignition to ON.",
-        "Find slot near selector base. Insert key or flathead, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "This vehicle uses a COLUMN-MOUNTED shifter — the shift lock slot is on the STEERING COLUMN, not the floor console.",
+        "Locate the slot on the steering column — Slot near console or column selector base.",
+        "Insert a thin key or flathead into the slot on the column.",
+        "Press firmly while pressing the brake pedal.",
+        "Move the column shifter to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (12V only for PHEVs). Shift normally or use slot."
+        "Battery is under the rear seat — but use the jump terminals UNDER THE HOOD to connect your jump pack. Use an AGM-compatible jump pack — this vehicle has an AGM battery.",
+        "Once 12V power is restored, press brake and move column shifter to N normally."
       ],
       "notes": "4MATIC: flatbed.",
-      "warn": "AWD (4MATIC) \u2014 flatbed preferred.",
+      "warn": "AWD (4MATIC) — flatbed preferred.",
       "drivetrain": "RWD or 4MATIC AWD",
-      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. 4MATIC AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. 4MATIC AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack."
@@ -94,29 +79,10 @@
       "knownIssues": [],
       "battery": {
         "location": "In trunk (most) or under rear seat",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
         "type": "agm-12v",
         "warnings": "Use hood terminals only. AGM jump pack."
-      },
-      "slug": "mercedes-benz-e-class-all-generations-2000-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": {
-        "equipped": true,
-        "description": "AIRMATIC air suspension (standard or optional depending on model/trim).",
-        "towingNotes": [
-          "AIRMATIC may have raised/lowered vehicle. Press towing button above rearview mirror to lock level if available.",
-          "Battery jump allows system to normalize.",
-          "Check vehicle height before approach."
-        ]
-      },
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Mercedes-Benz",
@@ -124,25 +90,28 @@
       "yearStart": 2000,
       "yearEnd": 2026,
       "trans": "5-speed, 7-speed, or 9-speed automatic",
-      "slot": "Column selector (W220) or console selector (W221+) \u2014 slot at selector base",
+      "slot": "Column selector (W220) or console selector (W221+) — slot at selector base",
       "shift": [
-        "Ignition to ON.",
-        "Find slot at base of column or console selector. Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "This vehicle uses a COLUMN-MOUNTED shifter — the shift lock slot is on the STEERING COLUMN, not the floor console.",
+        "Locate the slot on the steering column — Column selector (W220) or console selector (W221+) — slot at selector base.",
+        "Insert a thin key or flathead into the slot on the column.",
+        "Press firmly while pressing the brake pedal.",
+        "Move the column shifter to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood or under rear seat depending on year.",
-        "Connect jump pack. Shift normally or use slot."
+        "Battery is under the rear seat — but use the jump terminals UNDER THE HOOD to connect your jump pack. Use an AGM-compatible jump pack — this vehicle has an AGM battery.",
+        "Once 12V power is restored, press brake and move column shifter to N normally."
       ],
-      "notes": "Air suspension \u2014 check clearance.",
+      "notes": "Air suspension — check clearance.",
       "warn": "Air suspension: verify clearance. 4MATIC: flatbed.",
       "drivetrain": "RWD or 4MATIC AWD",
-      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. 4MATIC AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. 4MATIC AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible."
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
       ],
       "knownIssues": [
         {
@@ -156,29 +125,10 @@
       ],
       "battery": {
         "location": "Under rear seat (W220/W221) or in trunk (W222/W223)",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
         "type": "agm-12v",
         "warnings": "Air suspension drops with power loss. Use hood terminals only. AGM jump pack."
-      },
-      "slug": "mercedes-benz-s-class-all-generations-2000-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": {
-        "equipped": true,
-        "description": "AIRMATIC air suspension (standard or optional depending on model/trim).",
-        "towingNotes": [
-          "AIRMATIC may have raised/lowered vehicle. Press towing button above rearview mirror to lock level if available.",
-          "Battery jump allows system to normalize.",
-          "Check vehicle height before approach."
-        ]
-      },
-      "steeringLock": "Key-operated steering column lock."
+      }
     },
     {
       "make": "Mercedes-Benz",
@@ -188,28 +138,33 @@
       "trans": "7-speed or 9-speed automatic",
       "slot": "Slot near console selector base",
       "shift": [
-        "Ignition to ON.",
-        "Find slot near console selector base. Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Slot near console selector base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (12V only for PHEVs). Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood or in cargo area — varies by model. Use an AGM-compatible jump pack — this vehicle has an AGM battery.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Slot near console selector base."
       ],
       "notes": "4MATIC standard.",
-      "warn": "4MATIC AWD \u2014 flatbed preferred.",
+      "warn": "4MATIC AWD — flatbed preferred.",
       "drivetrain": "4MATIC AWD (standard)",
-      "towMethod": "FLATBED ONLY \u2014 4MATIC AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY — 4MATIC AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible."
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
       ],
       "knownIssues": [
         {
-          "title": "Full-Time 4MATIC AWD \u2014 Flatbed Only",
+          "title": "Full-Time 4MATIC AWD — Flatbed Only",
           "detail": "4MATIC AWD is full-time with no 2WD mode on most GLC/GLE/GLS trims. These vehicles CANNOT be wheel-lifted without dollies. FLATBED is the standard and correct method for all 4MATIC vehicles."
         },
         {
@@ -218,34 +173,11 @@
         }
       ],
       "battery": {
-        "location": "Under hood or in cargo area \u2014 varies by model",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (\u2212)",
+        "location": "Under hood or in cargo area — varies by model",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
         "type": "agm-12v",
-        "warnings": "4MATIC AWD \u2014 flatbed only. Use hood terminals. AGM jump pack."
-      },
-      "slug": "mercedes-benz-glc-gle-gls-all-generations-2016-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V under hood. Hold EPB switch to release. AIRMATIC: note suspension mode.",
-        "steps": [
-          "Connect jump pack to under-hood terminals.",
-          "Hold EPB switch to release parking brake.",
-          "AIRMATIC vehicles: check suspension position before loading."
-        ]
-      },
-      "airSuspension": {
-        "equipped": true,
-        "description": "AIRMATIC air suspension (standard or optional depending on model/trim).",
-        "towingNotes": [
-          "AIRMATIC may have raised/lowered vehicle. Press towing button above rearview mirror to lock level if available.",
-          "Battery jump allows system to normalize.",
-          "Check vehicle height before approach."
-        ]
-      },
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+        "warnings": "4MATIC AWD — flatbed only. Use hood terminals. AGM jump pack."
+      }
     },
     {
       "make": "Mercedes-Benz",
@@ -253,65 +185,47 @@
       "yearStart": 2020,
       "yearEnd": 2026,
       "trans": "Single-speed electric",
-      "slot": "Electronic selector \u2014 slot near selector base",
+      "slot": "Electronic selector — slot near selector base",
       "shift": [
-        "WITH POWER: Press brake. Select N.",
-        "WITHOUT POWER: Find slot near selector base. Insert key, press down. Press brake. Select N."
+        "Turn the Mercedes-Benz EQC / EQE / EQS / EQA / EQB (Electric) to ON/Ready mode.",
+        "Shift lock slot: Electronic selector — slot near selector base.",
+        "Insert a thin key or flathead into the slot and press firmly.",
+        "Press the brake pedal while holding the slot.",
+        "Move selector to N.",
+        "FLATBED ONLY — do not tow with driven wheels on the ground."
       ],
       "neutral": [
-        "12V battery location varies \u2014 check owner's manual.",
-        "Connect jump pack to 12V ONLY. NEVER touch 400V/800V HV system.",
-        "Once powered, select N."
+        "Apply parking brake.",
+        "Connect jump pack to battery — Varies by model — check owner's manual for 12V auxiliary location. 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "FLATBED ONLY."
       ],
       "notes": "Do NOT touch the high-voltage system.",
       "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
       "drivetrain": "AWD or RWD (electric)",
-      "towMethod": "FLATBED ONLY \u2014 electric drivetrain",
+      "towMethod": "FLATBED ONLY — electric drivetrain",
       "tc": null,
       "towNotes": [
-        "ELECTRIC VEHICLE: FLATBED ONLY \u2014 never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
         "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
-        "12V battery ONLY for jumping \u2014 NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
       ],
       "knownIssues": [
         {
-          "title": "FLATBED ONLY \u2014 Electric Drivetrain",
+          "title": "FLATBED ONLY — Electric Drivetrain",
           "detail": "All EQ-series Mercedes are electric. Towing with wheels on ground will damage motors. No exceptions."
         },
         {
           "title": "800V System on EQS/EQE",
-          "detail": "EQS and EQE use an 800V architecture. Extreme hazard \u2014 never probe or touch any HV components. 12V terminals only."
+          "detail": "EQS and EQE use an 800V architecture. Extreme hazard — never probe or touch any HV components. 12V terminals only."
         }
       ],
       "battery": {
-        "location": "Varies by model \u2014 check owner's manual for 12V auxiliary location",
-        "jumpTerminals": "12V auxiliary terminals only \u2014 location varies by model",
+        "location": "Varies by model — check owner's manual for 12V auxiliary location",
+        "jumpTerminals": "12V auxiliary terminals only — location varies by model",
         "type": "auxiliary-12v-only",
         "warnings": "800V HV on EQS/EQE. NEVER touch HV components. 12V auxiliary only. Flatbed only."
-      },
-      "slug": "mercedes-benz-eqc-eqe-eqs-eqa-eqb-electric-2020-2026",
-      "fuelType": "electric",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V under hood. Hold EPB switch to release. AIRMATIC: note suspension mode.",
-        "steps": [
-          "Connect jump pack to under-hood terminals.",
-          "Hold EPB switch to release parking brake.",
-          "AIRMATIC vehicles: check suspension position before loading."
-        ]
-      },
-      "airSuspension": {
-        "equipped": true,
-        "description": "AIRMATIC air suspension (standard or optional depending on model/trim).",
-        "towingNotes": [
-          "AIRMATIC may have raised/lowered vehicle. Press towing button above rearview mirror to lock level if available.",
-          "Battery jump allows system to normalize.",
-          "Check vehicle height before approach."
-        ]
-      },
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Mercedes-Benz",
@@ -321,50 +235,34 @@
       "trans": "5-speed, 7-speed, or 9-speed automatic",
       "slot": "Slot near selector or column shifter base",
       "shift": [
-        "Ignition to ON.",
-        "Find slot near selector or column base. Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "This vehicle uses a COLUMN-MOUNTED shifter — the shift lock slot is on the STEERING COLUMN, not the floor console.",
+        "Locate the slot on the steering column — Slot near selector or column shifter base.",
+        "Insert a thin key or flathead into the slot on the column.",
+        "Press firmly while pressing the brake pedal.",
+        "Move the column shifter to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood, passenger side.",
+        "Once 12V power is restored, press brake and move column shifter to N normally."
       ],
       "notes": "Large commercial van. Gas and diesel: same.",
-      "warn": "Large van \u2014 heavy wheel blocks required.",
+      "warn": "Large van — heavy wheel blocks required.",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
-        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight \u2014 account for extra weight in equipment ratings."
+        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight — account for extra weight in equipment ratings."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood, passenger side",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "Large commercial van. Heavy wheel blocks required."
-      },
-      "slug": "mercedes-benz-sprinter-van-2007-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": {
-        "equipped": true,
-        "description": "AIRMATIC air suspension (standard or optional depending on model/trim).",
-        "towingNotes": [
-          "AIRMATIC may have raised/lowered vehicle. Press towing button above rearview mirror to lock level if available.",
-          "Battery jump allows system to normalize.",
-          "Check vehicle height before approach."
-        ]
-      },
-      "steeringLock": "Key-operated steering column lock."
+      }
     }
   ]
 }

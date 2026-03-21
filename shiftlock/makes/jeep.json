@@ -20,44 +20,51 @@
       "trans": "4-speed automatic or 6-speed manual",
       "slot": "Cap near gear selector base on console (auto)",
       "shift": [
-        "Auto: Find cap near selector base. Remove. Insert key, press down. Press brake. Move to N.",
-        "Manual: Depress clutch, select Neutral \u2014 no shift lock."
+        "Turn ignition to ON.",
+        "AUTOMATIC TRANS: Locate shift lock slot — Cap near gear selector base on console (auto).",
+        "Insert key or flathead into slot, press firmly.",
+        "Press brake pedal while holding slot.",
+        "Move selector to Neutral.",
+        "MANUAL TRANS: Depress clutch fully.",
+        "Move gear lever to Neutral position (center gate).",
+        "Release clutch. Vehicle should roll freely.",
+        "FLAT TOW CAPABLE: JK/JL Wrangler can be flat-towed with TC in Neutral and trans in Neutral per owner's manual. For wheel-lift towing, TC must be in 2H — these are different procedures."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (auto). Shift normally or use slot.",
-        "Manual: clutch to N."
+        "Connect jump pack to battery — Under hood, driver side.",
+        "Once powered, shift normally.",
+        "FLAT TOW CAPABLE: JK/JL Wrangler can be flat-towed with TC in Neutral and trans in Neutral per owner's manual. For wheel-lift towing, TC must be in 2H — these are different procedures."
       ],
       "notes": "Flat tow capable when transfer case in neutral.",
       "warn": "Transfer case must be in neutral for flat towing behind another vehicle.",
       "drivetrain": "4WD (Command-Trac or Rock-Trac, standard)",
-      "towMethod": "Transfer case to 2H for wheel lift. TC to N for flat towing. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Transfer case to 2H for wheel lift. TC to N for flat towing. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
-        "type": "Manual floor lever \u2014 NV241 Command-Trac or NV241OR Rock-Trac",
+        "type": "Manual floor lever — NV241 Command-Trac or NV241OR Rock-Trac",
         "positions": [
-          "2H \u2014 rear wheels only \u2014 use for road towing with wheel lift",
-          "4H \u2014 part-time 4WD high range \u2014 NOT safe for dry-road towing",
-          "N \u2014 NEUTRAL \u2014 used for flat towing all 4 wheels on the ground",
-          "4L \u2014 low range \u2014 NEVER tow in this position on pavement"
+          "2H — rear wheels only — use for road towing with wheel lift",
+          "4H — part-time 4WD high range — NOT safe for dry-road towing",
+          "N — NEUTRAL — used for flat towing all 4 wheels on the ground",
+          "4L — low range — NEVER tow in this position on pavement"
         ],
         "steps": [
           "FOR WHEEL-LIFT TOWING: Stop completely. Shift transmission to Neutral.",
           "Move TC floor lever to 2H. Confirm 2H indicator before lifting rear wheels.",
           "FOR FLAT TOWING (all 4 on ground behind motorhome): Shift TC lever to N (Neutral).",
-          "Follow complete flat tow procedure in the owner's manual \u2014 ignition and transmission positions are critical.",
+          "Follow complete flat tow procedure in the owner's manual — ignition and transmission positions are critical.",
           "NEVER tow in 4L on pavement."
         ]
       },
       "towNotes": [
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle.",
         "FLAT TOW CAPABLE: Wrangler can be flat-towed (all 4 wheels on ground) behind a motorhome with TC in Neutral. Follow owner's manual procedure exactly."
       ],
       "knownIssues": [
         {
-          "title": "Flat Tow Capable \u2014 Know the Difference",
+          "title": "Flat Tow Capable — Know the Difference",
           "detail": "The JK Wrangler is one of the few vehicles that can be flat-towed (all four wheels on the ground) behind a motorhome when the transfer case is in neutral and the transmission is in neutral. However this is NOT the same as wheel-lift towing. For wheel-lift, TC must be in 2H. Confirm which type of tow is being performed before setting up."
         },
         {
@@ -67,21 +74,10 @@
       ],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
-        "warnings": "Flat tow capable with TC in neutral \u2014 different from wheel-lift. Confirm tow type before setup."
-      },
-      "slug": "jeep-wrangler-jk-2007-2018",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+        "warnings": "Flat tow capable with TC in neutral — different from wheel-lift. Confirm tow type before setup."
+      }
     },
     {
       "make": "Jeep",
@@ -91,72 +87,63 @@
       "trans": "8-speed automatic or 6-speed manual",
       "slot": "Slot near gear selector base or electronic selector area",
       "shift": [
-        "Auto: Find slot near selector base. Insert key, press down. Press brake. Move to N.",
-        "Manual: Depress clutch, select Neutral."
+        "Turn ignition to ON.",
+        "Locate the electronic selector override: Slot near gear selector base or electronic selector area.",
+        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Insert a thin key or flathead into the exposed slot.",
+        "Press firmly inward and hold.",
+        "While holding, press the brake pedal.",
+        "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (auto). Shift normally or use slot.",
-        "4xe PHEV: 12V only."
+        "Connect jump pack to battery — Under hood, driver side.",
+        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+        "Electronic selectors require power — mechanical override is a last resort only."
       ],
       "notes": "Flat tow: transfer case in neutral.",
       "warn": "",
       "drivetrain": "4WD (Command-Trac or Rock-Trac, standard)",
-      "towMethod": "Transfer case to 2H for wheel lift. TC to N for flat towing. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Transfer case to 2H for wheel lift. TC to N for flat towing. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
-        "type": "Manual floor lever \u2014 NV241 Command-Trac or NV241OR Rock-Trac",
+        "type": "Manual floor lever — NV241 Command-Trac or NV241OR Rock-Trac",
         "positions": [
-          "2H \u2014 rear wheels only \u2014 use for road towing with wheel lift",
-          "4H \u2014 part-time 4WD high range \u2014 NOT safe for dry-road towing",
-          "N \u2014 NEUTRAL \u2014 for flat towing all 4 wheels on ground",
-          "4L \u2014 low range \u2014 NEVER tow in this position on pavement"
+          "2H — rear wheels only — use for road towing with wheel lift",
+          "4H — part-time 4WD high range — NOT safe for dry-road towing",
+          "N — NEUTRAL — for flat towing all 4 wheels on ground",
+          "4L — low range — NEVER tow in this position on pavement"
         ],
         "steps": [
           "FOR WHEEL-LIFT TOWING: Stop completely. Shift transmission to Neutral.",
           "Move TC floor lever to 2H. Confirm 2H indicator before lifting rear wheels.",
           "FOR FLAT TOWING: Shift TC to N. Follow full flat tow procedure in owner's manual.",
-          "4xe PHEV: same TC procedure \u2014 also see PHEV 12V power notes.",
+          "4xe PHEV: same TC procedure — also see PHEV 12V power notes.",
           "NEVER tow in 4H on dry pavement. NEVER tow in 4L."
         ]
       },
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle.",
         "FLAT TOW CAPABLE: Wrangler can be flat-towed (all 4 wheels on ground) behind a motorhome with TC in Neutral. Follow owner's manual procedure exactly."
       ],
       "knownIssues": [
         {
-          "title": "4xe PHEV \u2014 12V Battery Only for Jumping",
+          "title": "4xe PHEV — 12V Battery Only for Jumping",
           "detail": "Wrangler 4xe has a high-voltage battery pack. Only the 12V auxiliary battery is to be used for jumping. Never access the HV battery."
         },
         {
-          "title": "Flat Tow Capable \u2014 Same Distinction as JK",
-          "detail": "JL Wrangler can be flat-towed with TC in neutral per owner's manual. For wheel-lift towing, TC must be in 2H. These are two different procedures \u2014 confirm which applies before setting up."
+          "title": "Flat Tow Capable — Same Distinction as JK",
+          "detail": "JL Wrangler can be flat-towed with TC in neutral per owner's manual. For wheel-lift towing, TC must be in 2H. These are two different procedures — confirm which applies before setting up."
         }
       ],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood \u2014 standard terminals. 4xe PHEV: 12V auxiliary only.",
+        "jumpTerminals": "Under hood — standard terminals. 4xe PHEV: 12V auxiliary only.",
         "type": "standard-12v",
         "warnings": "4xe PHEV: 12V only. Flat tow capable with TC in neutral."
-      },
-      "slug": "jeep-wrangler-jl-2018-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button to release.",
-        "steps": [
-          "Connect jump pack under hood.",
-          "Hold EPB button until brake releases."
-        ]
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Jeep",
@@ -166,33 +153,37 @@
       "trans": "4-speed or 5-speed automatic",
       "slot": "Cap near console selector base",
       "shift": [
-        "Find cap near selector base. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the shift lock release: Cap near console selector base.",
+        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal.",
+        "Move the selector from Park to Neutral.",
+        "Remove key from slot and replace cap."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "If power cannot be restored, use the shift lock slot above — Cap near console selector base."
       ],
       "notes": "4WD standard.",
       "warn": "4WD: transfer case to 2H before towing.",
       "drivetrain": "4WD (Quadra-Trac or Selec-Trac)",
-      "towMethod": "Selec-Trac: transfer case to 2H, then lift from front (rear/drive wheels roll on ground). Quadra-Trac full-time AWD: flatbed only. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "Selec-Trac: transfer case to 2H, then lift from rear — rear (drive) wheels in the air. Quadra-Trac full-time AWD: flatbed only. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
-        "type": "Electric push-button or manual lever \u2014 NV247 Quadra-Trac (full-time) or NV242 Selec-Trac (part-time)",
+        "type": "Electric push-button or manual lever — NV247 Quadra-Trac (full-time) or NV242 Selec-Trac (part-time)",
         "positions": [
-          "2WD \u2014 rear wheels only \u2014 SELEC-TRAC ONLY (Quadra-Trac has NO 2WD mode)",
-          "4WD Auto \u2014 automatic AWD",
-          "4WD Hi \u2014 part-time 4WD",
-          "N \u2014 neutral (Selec-Trac only)",
-          "4WD Lo \u2014 low range"
+          "2WD — rear wheels only — SELEC-TRAC ONLY (Quadra-Trac has NO 2WD mode)",
+          "4WD Auto — automatic AWD",
+          "4WD Hi — part-time 4WD",
+          "N — neutral (Selec-Trac only)",
+          "4WD Lo — low range"
         ],
         "steps": [
-          "FIRST: Identify which system is equipped \u2014 check door jamb sticker or owner's manual.",
+          "FIRST: Identify which system is equipped — check door jamb sticker or owner's manual.",
           "SELEC-TRAC (NV242): Slow under 3 MPH. Press 2WD or shift to 2H. Confirm indicator. Safe for rear wheel lift.",
-          "QUADRA-TRAC (NV247, full-time AWD, no 2WD mode): FLATBED ONLY \u2014 cannot disengage AWD.",
+          "QUADRA-TRAC (NV247, full-time AWD, no 2WD mode): FLATBED ONLY — cannot disengage AWD.",
           "Do NOT attempt wheel lift on Quadra-Trac equipped vehicles.",
           "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
         ]
@@ -200,35 +191,16 @@
       "towNotes": [
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
-        "warnings": "Quadra-Trac I: no 2WD mode \u2014 flatbed only."
-      },
-      "slug": "jeep-grand-cherokee-wj-wk-2000-2010",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": {
-        "equipped": true,
-        "description": "Quadra-Lift air suspension available on Overland/Summit/SRT trims.",
-        "towingNotes": [
-          "If Quadra-Lift equipped: restore 12V for height normalization.",
-          "Vehicle may be in Off-Road 2 position (raised). Confirm Normal Height for towing.",
-          "Not all Grand Cherokees have air suspension \u2014 check trim."
-        ]
-      },
-      "steeringLock": "Key-operated steering column lock."
+        "warnings": "Quadra-Trac I: no 2WD mode — flatbed only."
+      }
     },
     {
       "make": "Jeep",
@@ -238,31 +210,34 @@
       "trans": "5-speed or 8-speed automatic",
       "slot": "Cap near console selector base",
       "shift": [
-        "Find cap near selector base. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON.",
+        "Locate shift lock slot — Cap near console selector base.",
+        "Insert key or flathead into slot, press firmly.",
+        "Press brake pedal while holding.",
+        "Move selector to Neutral.",
+        "IMPORTANT: Check which 4WD system this vehicle has — Quadra-Trac I has NO 2WD mode (flatbed required). Quadra-Trac II and Selec-Terrain have 2WD."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once powered, shift normally.",
+        "Quadra-Trac I equipped WK2: FLATBED ONLY — no 2WD position exists."
       ],
       "notes": "AWD/4WD. HEMI, EcoDiesel: same.",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "RWD or 4WD (Quadra-Trac I, II, or Selec-Terrain)",
       "towMethod": "Quadra-Trac I: flatbed only. Quadra-Trac II and Selec-Terrain: transfer case to 2WD first.",
       "tc": {
         "type": "Electric push-button / Selec-Terrain rotary dial",
         "positions": [
-          "2WD \u2014 rear wheels only \u2014 QUADRA-TRAC II and SELEC-TERRAIN ONLY",
-          "4WD Auto \u2014 automatic AWD",
-          "4WD Hi \u2014 part-time 4WD",
-          "N \u2014 neutral (Selec-Terrain only on some models)",
-          "4WD Lo \u2014 low range"
+          "2WD — rear wheels only — QUADRA-TRAC II and SELEC-TERRAIN ONLY",
+          "4WD Auto — automatic AWD",
+          "4WD Hi — part-time 4WD",
+          "N — neutral (Selec-Terrain only on some models)",
+          "4WD Lo — low range"
         ],
         "steps": [
-          "FIRST: Identify transfer case system \u2014 see door jamb or owner's manual.",
+          "FIRST: Identify transfer case system — see door jamb or owner's manual.",
           "QUADRA-TRAC I (base system, full-time AWD, no 2WD mode): FLATBED ONLY.",
           "QUADRA-TRAC II or SELEC-TERRAIN: Stop or slow under 3 MPH. Turn dial to 2WD or press 2WD button. Confirm indicator.",
           "Safe for rear wheel lift once confirmed in 2WD.",
@@ -271,14 +246,14 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
-        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight \u2014 account for extra weight in equipment ratings.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight — account for extra weight in equipment ratings.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [
         {
           "title": "Quadra-Trac I Has No 2WD Mode",
-          "detail": "The base Quadra-Trac I system (standard on many non-Overland trims) is full-time AWD with NO 2WD position. These vehicles CANNOT be wheel-lifted without dollies on the opposite axle. Check which 4WD system is equipped \u2014 Quadra-Trac II and Selec-Terrain systems do have a 2WD mode."
+          "detail": "The base Quadra-Trac I system (standard on many non-Overland trims) is full-time AWD with NO 2WD position. These vehicles CANNOT be wheel-lifted without dollies on the opposite axle. Check which 4WD system is equipped — Quadra-Trac II and Selec-Terrain systems do have a 2WD mode."
         },
         {
           "title": "Air Suspension on Overland and Summit",
@@ -287,29 +262,10 @@
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
-        "warnings": "Quadra-Trac I: no 2WD mode \u2014 flatbed. Base Quadra-Trac II / Selec-Terrain: 2WD available."
-      },
-      "slug": "jeep-grand-cherokee-wk2-2011-2021",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": {
-        "equipped": true,
-        "description": "Quadra-Lift air suspension available on Overland/Summit/SRT trims.",
-        "towingNotes": [
-          "If Quadra-Lift equipped: restore 12V for height normalization.",
-          "Vehicle may be in Off-Road 2 position (raised). Confirm Normal Height for towing.",
-          "Not all Grand Cherokees have air suspension \u2014 check trim."
-        ]
-      },
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+        "warnings": "Quadra-Trac I: no 2WD mode — flatbed. Base Quadra-Trac II / Selec-Terrain: 2WD available."
+      }
     },
     {
       "make": "Jeep",
@@ -317,80 +273,60 @@
       "yearStart": 2022,
       "yearEnd": 2026,
       "trans": "8-speed automatic ZF 8HP",
-      "slot": "Electronic selector \u2014 slot near selector base",
+      "slot": "Electronic selector — slot near selector base",
       "shift": [
-        "Ignition to ON.",
-        "Find slot near electronic selector base.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "Locate the shift lock slot — Electronic selector — slot near selector base.",
+        "Insert a thin key or small flathead into the slot.",
+        "Press firmly and hold.",
+        "Press the brake pedal while holding the slot.",
+        "Move the ZF 8HP selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot.",
-        "4xe PHEV: 12V only."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "BMW/ZF 8HP: battery is typically NOT under the hood — under hood. Always use the hood jump terminals."
       ],
       "notes": "",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "RWD or 4WD (Quadra-Trac / Selec-Terrain)",
-      "towMethod": "4WD with 2WD mode: transfer case to 2WD first, then lift from front (rear/drive wheels roll on ground). Full-time 4WD: flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "4WD with 2WD mode: transfer case to 2WD first, then lift from rear — rear (drive) wheels in the air. Full-time 4WD: flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric rotary dial (Selec-Terrain)",
         "positions": [
-          "2WD \u2014 rear wheels only (if equipped \u2014 check your specific model)",
-          "Auto \u2014 automatic 4WD",
-          "4WD \u2014 part-time 4WD",
-          "4WD Low \u2014 low range \u2014 NEVER tow on pavement in this mode"
+          "2WD — rear wheels only (if equipped — check your specific model)",
+          "Auto — automatic 4WD",
+          "4WD — part-time 4WD",
+          "4WD Low — low range — NEVER tow on pavement in this mode"
         ],
         "steps": [
           "Stop or slow under 3 MPH.",
           "Turn the Selec-Terrain dial to 2WD (if equipped).",
           "Confirm 2WD indicator before lifting rear wheels.",
           "Full-time 4WD variants (no 2WD mode): FLATBED ONLY.",
-          "4xe PHEV: same TC procedure \u2014 also see PHEV 12V notes.",
+          "4xe PHEV: same TC procedure — also see PHEV 12V notes.",
           "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
         ]
       },
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [
         {
-          "title": "4xe PHEV \u2014 HV Battery Under Floor",
+          "title": "4xe PHEV — HV Battery Under Floor",
           "detail": "2022+ 4xe Grand Cherokee has a high-voltage battery under the floor. 12V auxiliary terminals only. Never access the HV pack."
         }
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals. 4xe PHEV: 12V auxiliary only.",
+        "jumpTerminals": "Under hood — standard terminals. 4xe PHEV: 12V auxiliary only.",
         "type": "standard-12v",
         "warnings": "4xe PHEV: 12V only."
-      },
-      "slug": "jeep-grand-cherokee-wl-2022-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": true,
-        "override": "Restore 12V. Hold EPB button to release.",
-        "steps": [
-          "Connect jump pack under hood.",
-          "Hold EPB button until brake releases."
-        ]
-      },
-      "airSuspension": {
-        "equipped": true,
-        "description": "Quadra-Lift air suspension available on Overland/Summit/SRT trims.",
-        "towingNotes": [
-          "If Quadra-Lift equipped: restore 12V for height normalization.",
-          "Vehicle may be in Off-Road 2 position (raised). Confirm Normal Height for towing.",
-          "Not all Grand Cherokees have air suspension \u2014 check trim."
-        ]
-      },
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Jeep",
@@ -400,42 +336,36 @@
       "trans": "9-speed auto ZF 9HP or 6-speed auto",
       "slot": "Cap near selector base on console",
       "shift": [
-        "Find cap near selector base. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N.",
-        "Replace cap."
+        "Turn ignition to ON.",
+        "ZF 9HP transmission: locate the shift lock slot — Cap near selector base on console.",
+        "Insert a thin key or dedicated ZF 9HP override tool (~$50 from dealer tool suppliers) into the slot.",
+        "Press firmly and hold.",
+        "While holding, press the brake pedal.",
+        "Move the selector to Neutral.",
+        "NOTE: The ZF 9HP solenoid requires more force than most vehicles — apply steady firm pressure."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot."
+        "ZF 9HP STRONGLY RECOMMENDED: Connect jump pack to battery — Under hood.",
+        "The ZF 9HP is very difficult to shift without 12V power — jumping the battery first is the most reliable method.",
+        "Once powered, press brake and shift normally.",
+        "If using mechanical slot: a dedicated ZF 9HP override tool (~$50 online) is more reliable than a key."
       ],
       "notes": "AWD optional.",
-      "warn": "AWD \u2014 flatbed preferred.",
+      "warn": "AWD — flatbed preferred.",
       "drivetrain": "FWD or AWD (Active Drive)",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
-      },
-      "slug": "jeep-cherokee-kl-2014-2023",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Electronic steering lock (push-button start models). Will engage without ignition \u2014 use flatbed or ensure steering is not locked during tow."
+      }
     },
     {
       "make": "Jeep",
@@ -445,43 +375,36 @@
       "trans": "CVT, 6-speed, or 9-speed automatic",
       "slot": "Cap near selector base",
       "shift": [
-        "Find cap near selector base. Remove.",
-        "Insert key, press down.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "This vehicle has a CVT — shift lock slot location: Cap near selector base.",
+        "Insert a thin key or small flathead into the slot.",
+        "Press firmly and hold.",
+        "Press the brake pedal while holding.",
+        "Move the selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (12V only for PHEV). Shift normally or use slot."
+        "Connect jump pack to battery — Under hood.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "CVT transmissions: do NOT exceed 35 mph or 50 miles with driven wheels on ground — flatbed strongly preferred."
       ],
       "notes": "",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from rear \u2014 front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
-        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals. PHEV: 12V only.",
+        "jumpTerminals": "Under hood — standard terminals. PHEV: 12V only.",
         "type": "standard-12v",
         "warnings": "PHEV: 12V only."
-      },
-      "slug": "jeep-compass-2007-2026",
-      "fuelType": "gasoline",
-      "curbWeight": "Varies \u2014 check door jamb label",
-      "gvwr": "Varies \u2014 check door jamb label",
-      "epb": {
-        "equipped": false,
-        "override": null,
-        "steps": []
-      },
-      "airSuspension": null,
-      "steeringLock": "Key-operated steering column lock."
+      }
     }
   ]
 }
