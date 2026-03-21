@@ -193,7 +193,7 @@ header::before {
 .chip { background:var(--dark3); border:1px solid var(--dark5); padding:14px 16px; border-radius:var(--radius); }
 .chip-label { font-family:var(--font-u); font-size:10px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:var(--gold); margin-bottom:6px; }
 .chip-val { font-family:var(--font-u); font-size:0.95rem; font-weight:600; color:var(--white); line-height:1.35; }
-.chip.trans .chip-val { color:var(--gray-light); font-family:var(--font-c); font-size:0.88rem; }
+.chip.trans .chip-val { color:var(--gray-light); font-family:var(--font-c); font-size:0.9rem; font-weight:500; }
 
 /* ═══════════════════════════════════════════════
    TOW METHOD BANNER
@@ -278,31 +278,85 @@ header::before {
 .tc-step-num { flex-shrink:0; width:20px; height:20px; background:#0a1020; border:1px solid #2a5070; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:var(--font-u); font-size:10px; font-weight:700; color:#4a80b0; margin-top:2px; }
 
 /* ═══════════════════════════════════════════════
-   MAIN PROCEDURE GRID
+   MAIN PROCEDURE GRID — PRIMARY CONTENT
 ═══════════════════════════════════════════════ */
-.proc-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:14px; }
+
+/* divider label above the procedure section */
+.proc-section-label {
+  display:flex; align-items:center; gap:12px;
+  margin-bottom:14px; margin-top:4px;
+}
+.proc-section-label span {
+  font-family:var(--font-d); font-size:1.4rem; font-weight:900;
+  text-transform:uppercase; letter-spacing:3px; color:var(--white);
+}
+.proc-section-label::before,
+.proc-section-label::after { content:''; flex:1; height:2px; background:linear-gradient(90deg, var(--gold), transparent); }
+.proc-section-label::before { background:linear-gradient(270deg, var(--gold), transparent); }
+
+.proc-grid {
+  display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;
+}
 @media(max-width:600px) { .proc-grid { grid-template-columns:1fr; } }
 
-.proc-box { background:var(--dark2); border:1px solid var(--dark5); border-radius:var(--radius); overflow:hidden; }
-.proc-head { padding:11px 16px; display:flex; align-items:center; gap:8px; font-family:var(--font-u); font-size:10px; font-weight:700; letter-spacing:3px; text-transform:uppercase; border-bottom:1px solid; }
-.proc-head .ph-dot { width:7px; height:7px; border-radius:50%; flex-shrink:0; }
-.proc-box.shift .proc-head  { background:#141f12; color:var(--green); border-color:#1f3018; }
-.proc-box.shift .ph-dot     { background:var(--green); }
-.proc-box.neutral .proc-head{ background:#1a1510; color:#d4a040; border-color:#302010; }
-.proc-box.neutral .ph-dot   { background:#d4a040; }
-.proc-body { padding:16px; }
-
-/* slot location strip */
-.slot-strip {
-  background:var(--dark4); border-left:2px solid var(--gold-dark);
-  padding:8px 10px; margin-bottom:12px;
-  font-family:var(--font-b); font-size:0.8rem; color:var(--gray); font-style:italic; line-height:1.45;
+.proc-box {
+  background:var(--dark2); border:1px solid var(--dark5);
+  border-radius:var(--radius); overflow:hidden;
+  box-shadow:0 4px 24px rgba(0,0,0,.4);
 }
-.slot-strip strong { display:block; font-style:normal; font-family:var(--font-u); font-size:8px; letter-spacing:2px; text-transform:uppercase; color:var(--gold-dark); margin-bottom:2px; }
 
-.steps-list { list-style:none; display:flex; flex-direction:column; gap:8px; }
-.steps-list li { display:flex; gap:10px; font-family:var(--font-b); font-size:0.85rem; color:#c8b898; line-height:1.5; align-items:flex-start; }
-.step-num { flex-shrink:0; width:21px; height:21px; background:var(--dark4); border:1px solid var(--gold-dark); border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:var(--font-u); font-size:10px; font-weight:700; color:var(--gold); margin-top:2px; }
+/* header bars — bigger and bolder */
+.proc-head {
+  padding:14px 18px; display:flex; align-items:center; gap:10px;
+  font-family:var(--font-d); font-size:1rem; font-weight:900;
+  letter-spacing:3px; text-transform:uppercase; border-bottom:2px solid;
+}
+.proc-head .ph-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+
+.proc-box.shift .proc-head  {
+  background:#0e1f0c; color:var(--green);
+  border-color:#1f4018;
+  text-shadow:0 0 20px rgba(93,184,90,.3);
+}
+.proc-box.shift .ph-dot { background:var(--green); box-shadow:0 0 6px var(--green); }
+
+.proc-box.neutral .proc-head {
+  background:#1f1408; color:#f0b840;
+  border-color:#402808;
+  text-shadow:0 0 20px rgba(240,184,64,.3);
+}
+.proc-box.neutral .ph-dot { background:#f0b840; box-shadow:0 0 6px #f0b840; }
+
+.proc-body { padding:18px; }
+
+/* slot location strip — more prominent */
+.slot-strip {
+  background:var(--dark4); border:1px solid var(--dark5);
+  border-left:3px solid var(--gold);
+  padding:10px 14px; margin-bottom:16px; border-radius:var(--radius);
+  font-family:var(--font-b); font-size:0.85rem; color:var(--gray-light);
+  font-style:italic; line-height:1.5;
+}
+.slot-strip strong {
+  display:block; font-style:normal; font-family:var(--font-u);
+  font-size:9px; letter-spacing:3px; text-transform:uppercase;
+  color:var(--gold); margin-bottom:4px;
+}
+
+/* steps — bigger, more readable */
+.steps-list { list-style:none; display:flex; flex-direction:column; gap:10px; }
+.steps-list li {
+  display:flex; gap:12px; font-family:var(--font-b);
+  font-size:0.92rem; color:#d8c8a8; line-height:1.55; align-items:flex-start;
+}
+.step-num {
+  flex-shrink:0; width:26px; height:26px;
+  background:var(--dark3); border:1.5px solid var(--gold-dark);
+  border-radius:50%; display:flex; align-items:center; justify-content:center;
+  font-family:var(--font-u); font-size:11px; font-weight:700;
+  color:var(--gold-bright); margin-top:2px;
+  box-shadow:0 0 8px rgba(200,144,10,.15);
+}
 
 /* ═══════════════════════════════════════════════
    NOTE / WARN BOXES
@@ -447,6 +501,7 @@ footer .copy { margin-top:8px; font-size:11px; color:#444; }
     </div>
 
     <!-- Shift lock + Neutral override -->
+    <div class="proc-section-label"><span>Procedures</span></div>
     <div class="proc-grid">
       <div class="proc-box shift">
         <div class="proc-head"><span class="ph-dot"></span>Shift Lock Release</div>
@@ -694,8 +749,8 @@ btn.addEventListener('click', function() {
   if (v.towNotes && v.towNotes.length > 0) {
     v.towNotes.forEach(n => {
       const li = document.createElement('li');
-      // Bold the ALL-CAPS keyword prefix (e.g. "FLATBED ONLY:" or "HYBRID/PHEV:")
-      const keyMatch = n.match(/^([A-Z][A-Z0-9\/\-\s]{1,30}?):\s*/);
+      // Bold the ALL-CAPS keyword prefix — handles both alpha-start and digit-start (e.g. "4WD DOLLY FALLBACK:")
+      const keyMatch = n.match(/^([A-Z0-9][A-Z0-9\/\-\s]{1,35}?):\s+/);
       if (keyMatch) {
         li.innerHTML = `<span class="note-key">${keyMatch[1]}:</span>${n.slice(keyMatch[0].length)}`;
       } else {
