@@ -1,0 +1,271 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Tesla",
+  "_count": 5,
+  "vehicles": [
+    {
+      "make": "Tesla",
+      "model": "Model 3",
+      "yearStart": 2017,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "slot": "2017-2023: column stalk. 2024+ (Highland): touchscreen or stalk",
+      "shift": [
+        "2017-2023: Push the COLUMN STALK downward to select N.",
+        "2024+ (Highland): Select N on the TOUCHSCREEN or use the stalk.",
+        "WITHOUT POWER: Find shift lock slot under center console trim near console base. Insert key/tool, press down, use override."
+      ],
+      "neutral": [
+        "PREFERRED METHOD: Tow Mode via touchscreen — Controls > Service > Tow Mode. This locks the car in N safely.",
+        "DEAD BATTERY: 12V battery is in the FRUNK (under hood in front storage area).",
+        "Connect jump pack to 12V frunk terminals ONLY. NEVER touch HV battery.",
+        "Once 12V is live, use stalk or touchscreen to select N."
+      ],
+      "notes": "TOW MODE is the preferred method — it safely locks in Neutral.",
+      "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
+      "drivetrain": "RWD or AWD (Dual Motor electric)",
+      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "Enable Tow Mode before loading if possible (Controls > Service > Tow Mode). Disables parking brake and allows free-rolling.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+      ],
+      "knownIssues": [
+        {
+          "title": "Tow Mode Is the Correct Neutral Method",
+          "detail": "The proper and safest method to put a Model 3 in neutral is via Tow Mode on the touchscreen: Controls > Service > Tow Mode. This safely locks the vehicle in neutral without risking the drive unit. Using the column stalk method without Tow Mode can cause the vehicle to re-engage drive."
+        },
+        {
+          "title": "12V Battery in Frunk",
+          "detail": "The 12V auxiliary battery is in the front trunk (frunk), not under a conventional hood. Open the front hood and the battery is in the front storage compartment. There is no engine bay."
+        },
+        {
+          "title": "FLATBED ONLY — Electric Drivetrain",
+          "detail": "Dual Motor AWD or single motor RWD. Towing with wheels on the ground will destroy the motor(s). No exceptions under any circumstances."
+        }
+      ],
+      "battery": {
+        "location": "FRUNK (front trunk) — open front hood, battery is in the front storage area NOT an engine bay",
+        "jumpTerminals": "Inside frunk: 12V auxiliary red (+) / black (−) terminals on battery",
+        "type": "auxiliary-12v-only",
+        "warnings": "NEVER touch HV battery. Tow Mode via touchscreen is the correct neutral method. Flatbed only."
+      }
+    },
+    {
+      "make": "Tesla",
+      "model": "Model S",
+      "yearStart": 2012,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "slot": "Pre-2021: column stalk. 2021+ Plaid: touchscreen",
+      "shift": [
+        "Pre-2021: Use gear selector stalk to select N.",
+        "2021+ Plaid: Select N on touchscreen.",
+        "WITHOUT POWER: Shift lock slot under console trim. Insert tool, press down, override."
+      ],
+      "neutral": [
+        "PREFERRED: Tow Mode via touchscreen — Controls > Service > Tow Mode.",
+        "DEAD BATTERY: 12V battery in FRUNK. Connect jump pack to 12V frunk terminals.",
+        "Once powered, use stalk or touchscreen to select N."
+      ],
+      "notes": "Tow Mode is preferred. Air suspension — check clearance. 12V in frunk.",
+      "warn": "FLATBED ONLY.",
+      "drivetrain": "RWD or AWD (Dual/Tri Motor electric)",
+      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "Enable Tow Mode before loading if possible (Controls > Service > Tow Mode). Disables parking brake and allows free-rolling.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+      ],
+      "knownIssues": [
+        {
+          "title": "Tow Mode Is the Correct Neutral Method",
+          "detail": "Use Tow Mode via touchscreen (Controls > Service > Tow Mode) to safely place the vehicle in neutral. Pre-2021 models use the column stalk but Tow Mode is still preferred."
+        },
+        {
+          "title": "Air Suspension — Check Clearance",
+          "detail": "Model S air suspension can lower unexpectedly when power is lost. If possible, restore 12V power and raise suspension to maximum height before loading on flatbed. Clearance is tight on lowered settings."
+        },
+        {
+          "title": "FLATBED ONLY",
+          "detail": "Electric drivetrain. Towing with wheels on ground will destroy the motors."
+        }
+      ],
+      "battery": {
+        "location": "FRUNK — open front hood, battery is in front storage area",
+        "jumpTerminals": "Inside frunk — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "NEVER touch HV battery. Air suspension may drop. Tow Mode preferred. Flatbed only."
+      }
+    },
+    {
+      "make": "Tesla",
+      "model": "Model X",
+      "yearStart": 2015,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric AWD",
+      "slot": "Pre-2021: column stalk. 2021+: touchscreen",
+      "shift": [
+        "Pre-2021: Use gear stalk to select N.",
+        "2021+: Select N on touchscreen.",
+        "WITHOUT POWER: Shift lock slot under console trim. Insert tool, press down, override."
+      ],
+      "neutral": [
+        "PREFERRED: Tow Mode via touchscreen — Controls > Service > Tow Mode.",
+        "DEAD BATTERY: 12V battery in FRUNK. Connect jump pack to 12V terminals only.",
+        "Once powered, select N via stalk or touchscreen."
+      ],
+      "notes": "Falcon Wing doors MUST be closed and secured before towing. Air suspension.",
+      "warn": "FLATBED ONLY. AWD. Falcon wing doors must be closed and secured.",
+      "drivetrain": "AWD (Dual/Tri Motor electric)",
+      "towMethod": "FLATBED ONLY — electric drivetrain. Falcon wing doors must be closed and secured.",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "Enable Tow Mode before loading if possible (Controls > Service > Tow Mode). Disables parking brake and allows free-rolling.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+      ],
+      "knownIssues": [
+        {
+          "title": "Falcon Wing Doors Must Be Secured Before Towing",
+          "detail": "The rear falcon wing doors on the Model X must be completely closed and latched before the vehicle is towed. If power is dead, the doors may not close fully. Manually close and verify latch engagement before any tow movement. An unsecured falcon wing door can open during transport causing massive damage."
+        },
+        {
+          "title": "Tow Mode Required — Touchscreen Method",
+          "detail": "Use Tow Mode via touchscreen to safely engage neutral. Pre-2021 uses column stalk but Tow Mode is strongly preferred on all years."
+        },
+        {
+          "title": "Air Suspension — Check Clearance",
+          "detail": "Model X air suspension will lower with power loss. Restore 12V power and raise suspension before loading on flatbed."
+        },
+        {
+          "title": "FLATBED ONLY — AWD Electric",
+          "detail": "All-wheel drive electric. Towing with wheels on ground will destroy both motors."
+        }
+      ],
+      "battery": {
+        "location": "FRUNK — open front hood, 12V battery in front storage area",
+        "jumpTerminals": "Inside frunk — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "Falcon wing doors MUST be secured before any tow movement. Air suspension. NEVER touch HV battery. Flatbed only."
+      }
+    },
+    {
+      "make": "Tesla",
+      "model": "Model Y",
+      "yearStart": 2020,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "slot": "Column stalk or touchscreen (2024+ refresh)",
+      "shift": [
+        "Use column stalk (older) or touchscreen (2024+) to select N.",
+        "WITHOUT POWER: Shift lock slot under center console trim. Insert key/tool, press down, override."
+      ],
+      "neutral": [
+        "PREFERRED: Tow Mode — Controls > Service > Tow Mode.",
+        "DEAD BATTERY: 12V battery in FRUNK. Connect jump pack to 12V terminals.",
+        "Once powered, select N."
+      ],
+      "notes": "Tow Mode is strongly preferred. 12V in frunk.",
+      "warn": "FLATBED ONLY.",
+      "drivetrain": "RWD or AWD (Dual Motor electric)",
+      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "Enable Tow Mode before loading if possible (Controls > Service > Tow Mode). Disables parking brake and allows free-rolling.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+      ],
+      "knownIssues": [
+        {
+          "title": "Tow Mode Is the Correct Neutral Method",
+          "detail": "Controls > Service > Tow Mode on the touchscreen. This is the safest neutral method on all Model Y variants."
+        },
+        {
+          "title": "12V Battery in Frunk",
+          "detail": "12V auxiliary battery is in the front trunk — no conventional engine bay."
+        },
+        {
+          "title": "FLATBED ONLY",
+          "detail": "Electric drivetrain. No wheel-lift towing under any circumstances."
+        }
+      ],
+      "battery": {
+        "location": "FRUNK — open front hood, 12V battery in front storage area",
+        "jumpTerminals": "Inside frunk — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "NEVER touch HV battery. Tow Mode preferred. Flatbed only."
+      }
+    },
+    {
+      "make": "Tesla",
+      "model": "Cybertruck",
+      "yearStart": 2024,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric (tri or dual motor)",
+      "slot": "Touchscreen-based selector",
+      "shift": [
+        "Primary method: TOUCHSCREEN — select N or use Tow Mode.",
+        "WITHOUT POWER: Access shift lock slot — consult owner's manual for exact location on this newer platform."
+      ],
+      "neutral": [
+        "PREFERRED: Tow Mode via touchscreen.",
+        "DEAD BATTERY: 12V battery accessible under hood. Connect jump pack.",
+        "Once powered, enable Tow Mode or select N via touchscreen."
+      ],
+      "notes": "New platform (2024). Tow Mode is the primary neutral method. Very large and heavy.",
+      "warn": "FLATBED ONLY. Very large — use appropriately rated flatbed.",
+      "drivetrain": "AWD or Tri-Motor AWD (electric)",
+      "towMethod": "FLATBED ONLY — electric drivetrain. Very heavy — use appropriately rated flatbed.",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "Enable Tow Mode before loading if possible (Controls > Service > Tow Mode). Disables parking brake and allows free-rolling.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers.",
+        "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift."
+      ],
+      "knownIssues": [
+        {
+          "title": "Very Heavy — Verify Flatbed Rating",
+          "detail": "The Cybertruck weighs approximately 6,600-6,800 lbs (AWD) to 6,900+ lbs (Cyberbeast). Many standard flatbeds are rated for 5,000-6,000 lbs and will be over capacity. Verify your equipment rating before attempting to load."
+        },
+        {
+          "title": "Stainless Steel Body — No Magnetic Dollies",
+          "detail": "The stainless steel exoskeleton is not magnetic. Any magnetic tow equipment or accessories will not attach to the body panels."
+        },
+        {
+          "title": "Tow Mode via Touchscreen",
+          "detail": "Neutral is accessed via Tow Mode on the touchscreen. With a dead 12V battery, locate and jump the 12V terminals under the hood area before attempting any touchscreen operations."
+        },
+        {
+          "title": "FLATBED ONLY",
+          "detail": "Tri or dual motor electric AWD. Towing with wheels on ground will destroy motors."
+        }
+      ],
+      "battery": {
+        "location": "Under hood area — 12V auxiliary battery accessible near front of vehicle",
+        "jumpTerminals": "Under hood / front area — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "Very heavy (~6,600-6,900 lbs). Stainless steel body — not magnetic. NEVER touch HV battery. Flatbed only."
+      }
+    }
+  ]
+}

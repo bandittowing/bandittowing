@@ -1,0 +1,306 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Lexus",
+  "_count": 7,
+  "vehicles": [
+    {
+      "make": "Lexus",
+      "model": "ES (All Generations)",
+      "yearStart": 2002,
+      "yearEnd": 2026,
+      "trans": "5-speed, 6-speed, or 8-speed auto; hybrid eCVT",
+      "slot": "Cap near selector base on console — Lexus may place release INSIDE center console storage bin",
+      "shift": [
+        "Turn ignition to ON.",
+        "Check INSIDE the center console storage bin first — Lexus often places the shift lock release inside the bin.",
+        "If not in bin: find slot near selector base.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
+      ],
+      "notes": "Shift lock may be inside console storage bin.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid: 12V only.",
+        "type": "standard-12v",
+        "warnings": "Hybrid: 12V auxiliary only."
+      }
+    },
+    {
+      "make": "Lexus",
+      "model": "RX (All Generations)",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "4-speed, 5-speed, 6-speed auto; hybrid eCVT",
+      "slot": "Cap near selector base — may be inside center console storage on some years",
+      "shift": [
+        "Turn ignition to ON.",
+        "Check inside center console storage if slot not visible at selector base.",
+        "Find cap/slot. Pry cap if present.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid: 12V only.",
+        "type": "standard-12v",
+        "warnings": "Hybrid: 12V only."
+      }
+    },
+    {
+      "make": "Lexus",
+      "model": "IS (All Generations)",
+      "yearStart": 2006,
+      "yearEnd": 2026,
+      "trans": "6-speed or 8-speed automatic; IS-F manual",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "IS-F: manual — clutch to N. AWD optional.",
+      "warn": "AWD — flatbed preferred.",
+      "drivetrain": "RWD or AWD",
+      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood or in trunk — varies by generation",
+        "jumpTerminals": "Under hood: fused terminal (+), ground bolt (−)",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Lexus",
+      "model": "GX (All Generations)",
+      "yearStart": 2003,
+      "yearEnd": 2026,
+      "trans": "5-speed auto (GX 470, 2003-2009), 6-speed auto (GX 460, 2010-2023), 10-speed auto (GX 550, 2024+)",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "4WD standard.",
+      "warn": "4WD: transfer case.",
+      "drivetrain": "4WD (Torsen limited-slip, standard)",
+      "towMethod": "Transfer case to H2 (2WD) first, then lift from front (rear/drive wheels roll on ground), or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric push-button on dash — H2 / H4 / L4",
+        "positions": [
+          "H2 — 2WD rear wheels only — REQUIRED for road towing",
+          "H4 — 4WD high range (standard driving mode)",
+          "L4 — 4WD low range — NEVER tow in this position on road"
+        ],
+        "steps": [
+          "Stop or slow under 25 MPH.",
+          "Press the H2 button on the dash.",
+          "Confirm the H2 indicator lamp illuminates.",
+          "Safe to lift rear wheels once confirmed in H2.",
+          "Shift back to H4 after towing is complete.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [
+        {
+          "title": "Kinetic Dynamic Suspension System (KDSS)",
+          "detail": "Some GX 460 trims have KDSS (hydraulic stabilizer bar disconnect). This system can behave unexpectedly when the vehicle is lifted. Be aware that suspension geometry may shift more than expected when lifting one end."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "KDSS equipped trims: suspension may shift when lifted."
+      }
+    },
+    {
+      "make": "Lexus",
+      "model": "LX (All Generations)",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "4-speed, 6-speed, or 10-speed automatic",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "4WD standard. Large luxury SUV.",
+      "warn": "4WD: transfer case.",
+      "drivetrain": "4WD (Torsen full-time, standard)",
+      "towMethod": "Transfer case to H2 (2WD) first, then lift from front (rear/drive wheels roll on ground), or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric push-button on dash — H2 / H4 / L4",
+        "positions": [
+          "H2 — 2WD rear wheels only — REQUIRED for road towing",
+          "H4 — 4WD high range (normal driving mode)",
+          "L4 — 4WD low range — NEVER tow in this position on road"
+        ],
+        "steps": [
+          "Stop or slow under 25 MPH.",
+          "Press the H2 button on the dash.",
+          "Confirm the H2 indicator illuminates.",
+          "Safe to lift rear wheels in H2.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [
+        {
+          "title": "Air Suspension May Drop Without Power",
+          "detail": "LX air suspension will lower to the bump stops when power is lost for extended periods. Restore 12V power before attempting flatbed load if possible. Otherwise check clearance carefully before approaching with ramp."
+        },
+        {
+          "title": "Very Heavy Vehicle",
+          "detail": "LX 570/600 curb weight is approximately 6,000 lbs. Verify all equipment weight ratings before attempting to lift or load."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Air suspension drops with dead battery. Very heavy vehicle (~6,000 lbs). Restore power before loading."
+      }
+    },
+    {
+      "make": "Lexus",
+      "model": "NX (All Generations)",
+      "yearStart": 2015,
+      "yearEnd": 2026,
+      "trans": "6-speed, 8-speed auto; hybrid or PHEV eCVT",
+      "slot": "Cap near selector base",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD/Hybrid/PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid/PHEV: 12V only.",
+        "type": "standard-12v",
+        "warnings": "Hybrid/PHEV: 12V only."
+      }
+    },
+    {
+      "make": "Lexus",
+      "model": "LS (All Generations)",
+      "yearStart": 2001,
+      "yearEnd": 2026,
+      "trans": "5-speed, 8-speed, or 10-speed auto; hybrid",
+      "slot": "Cap near selector base or inside center console storage",
+      "shift": [
+        "Turn ignition to ON.",
+        "Check inside console storage — Lexus may hide shift lock there.",
+        "Find cap/slot. Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
+      ],
+      "notes": "Air suspension — check clearance.",
+      "warn": "",
+      "drivetrain": "RWD or AWD",
+      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood or under rear seat — varies by generation",
+        "jumpTerminals": "Under hood: fused jump terminal (+), ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Air suspension drops with dead battery. Hybrid: 12V only. Use hood terminals."
+      }
+    }
+  ]
+}

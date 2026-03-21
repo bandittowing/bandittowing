@@ -1,0 +1,229 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Buick",
+  "_count": 6,
+  "vehicles": [
+    {
+      "make": "Buick",
+      "model": "Enclave (1st Gen)",
+      "yearStart": 2008,
+      "yearEnd": 2017,
+      "trans": "6-speed automatic (6L50)",
+      "slot": "Small slot near console shifter base, covered by a plastic cap",
+      "shift": [
+        "Ignition to ON.",
+        "Find cap near shifter base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "FWD and AWD variants.",
+      "warn": "AWD — flatbed preferred.",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [
+        {
+          "title": "Known Shift Interlock Failure",
+          "detail": "Some 2008-2012 Enclave units have known shift interlock solenoid failures where the vehicle becomes stuck in Park even with the car powered on and brake applied. The manual slot override is the primary solution. This is a documented TSB issue."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard red (+) / black (−)",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Buick",
+      "model": "Enclave (2nd Gen)",
+      "yearStart": 2018,
+      "yearEnd": 2026,
+      "trans": "9-speed automatic (9T65)",
+      "slot": "Electronic selector — slot near base",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot near electronic selector.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "AWD standard.",
+      "warn": "AWD — flatbed preferred.",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Buick",
+      "model": "Encore (1st Gen)",
+      "yearStart": 2013,
+      "yearEnd": 2022,
+      "trans": "6-speed automatic",
+      "slot": "Small slot near console shifter base, covered by a plastic cap",
+      "shift": [
+        "Ignition to ON.",
+        "Find cap near shifter base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Buick",
+      "model": "Encore GX",
+      "yearStart": 2020,
+      "yearEnd": 2026,
+      "trans": "CVT or 9-speed automatic",
+      "slot": "Electronic selector — slot near base",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot near electronic selector.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Buick",
+      "model": "LaCrosse",
+      "yearStart": 2005,
+      "yearEnd": 2019,
+      "trans": "4-speed, 6-speed, or 8-speed automatic",
+      "slot": "Small slot near gear selector base, covered by a plastic cap",
+      "shift": [
+        "Ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "eAssist mild hybrid available on some years: same procedure.",
+      "warn": "",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Buick",
+      "model": "Envision",
+      "yearStart": 2016,
+      "yearEnd": 2026,
+      "trans": "6-speed or 9-speed automatic",
+      "slot": "Slot near electronic selector base",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot near selector base.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "AWD available.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    }
+  ]
+}

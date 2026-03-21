@@ -1,0 +1,321 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Hyundai",
+  "_count": 8,
+  "vehicles": [
+    {
+      "make": "Hyundai",
+      "model": "Elantra",
+      "yearStart": 2001,
+      "yearEnd": 2026,
+      "trans": "4-speed, 6-speed, CVT, or DCT (varies by generation)",
+      "slot": "Cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Elantra N DCT (2022+): power preferred.",
+      "warn": "",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Sonata",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "4-speed, 6-speed, 8-speed auto, or hybrid CVT",
+      "slot": "Cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
+      ],
+      "notes": "",
+      "warn": "",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Hybrid: 12V only."
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Tucson",
+      "yearStart": 2005,
+      "yearEnd": 2026,
+      "trans": "4-speed, 6-speed, DCT, or hybrid CVT",
+      "slot": "Cap near gear selector base",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
+      ],
+      "notes": "",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Hybrid/PHEV: 12V only."
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "yearStart": 2001,
+      "yearEnd": 2026,
+      "trans": "4-speed, 6-speed, or 8-speed automatic",
+      "slot": "Cap near gear selector base",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Hybrid/PHEV: 12V only."
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Palisade",
+      "yearStart": 2020,
+      "yearEnd": 2026,
+      "trans": "8-speed automatic",
+      "slot": "Electronic selector — slot near selector base",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find slot near electronic selector base.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "AWD optional. 3-row SUV.",
+      "warn": "AWD — flatbed preferred. Block all wheels.",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 5",
+      "yearStart": 2022,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "slot": "Electronic selector — slot near selector base",
+      "shift": [
+        "WITH POWER: Press brake. Select N.",
+        "WITHOUT POWER: Find slot near selector base. Insert key, press down. Press brake. Select N."
+      ],
+      "neutral": [
+        "12V battery under hood.",
+        "Connect jump pack to 12V ONLY — NEVER touch 800V HV system.",
+        "Once powered, press brake and select N."
+      ],
+      "notes": "E-GMP platform. 800V system — NEVER touch HV components.",
+      "warn": "FLATBED ONLY.",
+      "drivetrain": "RWD or AWD (electric)",
+      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+      ],
+      "knownIssues": [
+        {
+          "title": "800V System — Extreme HV Hazard",
+          "detail": "The Ioniq 5 uses an 800V high-voltage system — twice the voltage of most EVs. This is NOT a 400V system. Never touch, probe, or attempt to access any orange HV cables or components. 12V auxiliary battery under hood only."
+        },
+        {
+          "title": "FLATBED ONLY",
+          "detail": "Electric AWD or RWD. Towing with wheels on the ground will damage the motors. No exceptions."
+        }
+      ],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary red (+) / black (−) terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "800V HV system — NEVER touch HV components. 12V auxiliary under hood ONLY. Flatbed only."
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 6",
+      "yearStart": 2023,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "slot": "COLUMN-MOUNTED electronic selector — slot near column base",
+      "shift": [
+        "WITH POWER: Press brake. Move column selector to N.",
+        "WITHOUT POWER: Find slot near column base. Insert key, press down. Press brake. Select N."
+      ],
+      "neutral": [
+        "12V battery under hood.",
+        "Connect jump pack to 12V ONLY.",
+        "Once powered, press brake and select N."
+      ],
+      "notes": "Unique column-mounted electronic shifter.",
+      "warn": "FLATBED ONLY.",
+      "drivetrain": "RWD or AWD (electric)",
+      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+      ],
+      "knownIssues": [
+        {
+          "title": "Column-Mounted Electronic Shifter",
+          "detail": "The Ioniq 6 uses a unique column-mounted electronic gear selector — there is no center console shifter. The shift lock slot is near the base of the steering column, not on the console. Operators unfamiliar with this layout will spend time looking in the wrong place."
+        },
+        {
+          "title": "800V System — Extreme HV Hazard",
+          "detail": "Same 800V platform as Ioniq 5. 12V battery under hood only. Never touch HV components."
+        }
+      ],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "800V HV system. 12V auxiliary only. Column-mounted electronic shifter. Flatbed only."
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Kona",
+      "yearStart": 2018,
+      "yearEnd": 2026,
+      "trans": "6-speed auto, DCT, CVT, or electric",
+      "slot": "Cap near selector base (ICE) or slot near electronic selector (EV)",
+      "shift": [
+        "Find cap/slot near selector. Remove cap if present.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for EV). Shift normally or use slot."
+      ],
+      "notes": "Kona EV: flatbed only.",
+      "warn": "Kona EV: FLATBED ONLY.",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD/EV: flatbed only. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers.",
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. EV: 12V auxiliary only.",
+        "type": "standard-12v",
+        "warnings": "EV: 12V only, flatbed only."
+      }
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Audi",
+  "_count": 11,
+  "vehicles": [
+    {
+      "make": "Audi",
+      "model": "A3 / S3 / RS3",
+      "yearStart": 2006,
+      "yearEnd": 2026,
+      "trans": "6-speed Tiptronic or 7-speed S-tronic DSG (varies by year)",
+      "slot": "Tiptronic: slot near shift lever base. S-tronic DSG: slot near electronic selector",
+      "shift": [
+        "TIPTRONIC: Ignition ON. Find slot near base of shift lever. Insert key, press down. Press brake. Move to N.",
+        "S-TRONIC DSG: Ignition ON. Press and hold the selector button. Move selector to N while holding. Release."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Tiptronic: connect jump pack (battery under hood), press brake, shift to N.",
+        "S-tronic: connect jump pack — battery often under rear seat. Once powered, press selector and move to N.",
+        "S-tronic WITHOUT POWER: most DSG models require power. Jump pack is mandatory."
+      ],
+      "notes": "Battery location varies: often under rear seat. A3 8P (2006-2013), 8V (2014-2020), 8Y (2021+).",
+      "warn": "S-tronic DSG: NEVER tow with wheels on ground. Flatbed only.",
+      "drivetrain": "FWD or Quattro AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [
+        {
+          "title": "DSG/S-tronic Requires Power to Shift",
+          "detail": "S-tronic dual-clutch transmission requires 12V power to shift to neutral. Battery is often located under the rear seat — not under the hood. Jump the 12V battery first, then shift."
+        },
+        {
+          "title": "Battery Not Under Hood",
+          "detail": "Battery location varies by generation — frequently under the rear seat or in the trunk. Do not waste time looking under the hood first."
+        }
+      ],
+      "battery": {
+        "location": "Under rear seat (most) or trunk — varies by generation",
+        "jumpTerminals": "Under hood: red fused jump terminal near firewall, black ground bolt on strut tower",
+        "type": "agm-12v",
+        "warnings": "Never jump directly at battery — use hood terminals only. AGM battery requires AGM-compatible charger."
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "A4 / S4 / RS4",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "5-speed auto (B6/B7), 8-speed Tiptronic (B8/B9)",
+      "slot": "B6/B7: slot near shift lever base. B8/B9 (2009+): slot at electronic selector base",
+      "shift": [
+        "B6/B7 (2000-2008): Ignition ON. Slot at shifter base. Key in, press down. Brake. Move to N.",
+        "B8/B9 (2009+): Ignition ON. Slot near selector base. Key in. Brake. Move to N or press N button."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery in trunk under panel.",
+        "Connect jump pack.",
+        "Press brake, shift to N.",
+        "Without power: slot method."
+      ],
+      "notes": "B9 (2017+) may use electronic rotary/selector shifter. Battery in trunk.",
+      "warn": "Quattro AWD — flatbed preferred.",
+      "drivetrain": "FWD or Quattro AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "In trunk under floor panel (B8/B9). Under hood (B6/B7).",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Always use hood jump terminals — jumping directly at the trunk battery can cause ECU damage. AGM rated jump pack required."
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "A5 / S5 / RS5",
+      "yearStart": 2008,
+      "yearEnd": 2026,
+      "trans": "7-speed S-tronic or 8-speed Tiptronic",
+      "slot": "Slot near electronic selector base on console",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot near electronic selector base.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery in trunk.",
+        "Connect jump pack.",
+        "Press brake, shift to N.",
+        "Without power: slot."
+      ],
+      "notes": "S-tronic DSG on most variants — power preferred.",
+      "warn": "Quattro AWD — flatbed preferred.",
+      "drivetrain": "FWD or Quattro AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "In trunk under panel",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals only. AGM jump pack required."
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "A6 / S6 / RS6",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "5-speed (C5), 6-speed Tiptronic (C6), 8-speed Tiptronic (C7/C8)",
+      "slot": "C5/C6: slot at shifter base. C7/C8 (2012+): slot at electronic selector base",
+      "shift": [
+        "C5/C6 (2000-2011): Ignition ON. Slot at shifter base. Key in. Brake. Move to N.",
+        "C7 (2012-2018): Slot at electronic selector base. Key in. Brake. Move to N.",
+        "C8 (2019+): Slot near electronic selector. Key in. Brake. Press N on selector."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood or trunk.",
+        "Shift normally or use slot."
+      ],
+      "notes": "C8 uses fully electronic selector with N button.",
+      "warn": "Quattro AWD — flatbed preferred.",
+      "drivetrain": "FWD or Quattro AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "In trunk under floor (C7/C8). Under hood (C5/C6).",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals only. AGM jump pack."
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "A7 / S7 / RS7",
+      "yearStart": 2012,
+      "yearEnd": 2026,
+      "trans": "7-speed S-tronic or 8-speed Tiptronic",
+      "slot": "1st gen (2012-2018): rotary selector base slot. 2nd gen (2019+): electronic selector slot",
+      "shift": [
+        "1st gen (2012-2018): Slot at rotary base. Key in. Brake. Rotate selector to N.",
+        "2nd gen (2019+): Slot near electronic selector. Key in. Brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery in trunk.",
+        "Connect jump pack.",
+        "Shift to N.",
+        "Without power: slot."
+      ],
+      "notes": "1st gen uses MMI rotary shifter — rotate counterclockwise toward N.",
+      "warn": "Quattro AWD — flatbed preferred.",
+      "drivetrain": "Quattro AWD",
+      "towMethod": "FLATBED ONLY — Quattro AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "In trunk under floor panel",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals only. AGM jump pack."
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "A8 / S8",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "5-speed to 8-speed auto depending on generation",
+      "slot": "D2/D3: slot at selector base. D4/D5 (2010+): slot under trim near electronic selector",
+      "shift": [
+        "D2/D3 (2000-2009): Slot at selector base. Key in. Brake. Move to N.",
+        "D4 (2010-2017): Electronic selector, slot at base. Key in. Brake. Move to N.",
+        "D5 (2018+): Remove trim near selector. Key in. Brake. Press N on selector."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery in trunk or under rear seat.",
+        "Connect jump pack.",
+        "Shift normally or use slot."
+      ],
+      "notes": "D5 (2018+): slot concealed under trim piece. Air suspension — check clearance before flatbed.",
+      "warn": "AWD. Air suspension: verify clearance before loading on flatbed.",
+      "drivetrain": "Quattro AWD",
+      "towMethod": "FLATBED ONLY — Quattro AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "In trunk or under rear seat — varies by generation",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals only. AGM jump pack. Air suspension may drop with dead battery."
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "Q3 / Q3 Sportback",
+      "yearStart": 2012,
+      "yearEnd": 2026,
+      "trans": "6 or 7-speed S-tronic",
+      "slot": "Small slot near selector base on console",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot near selector base.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood.",
+        "Shift normally or use slot. Power required for most DSG models."
+      ],
+      "notes": "S-tronic DSG — power required in most cases.",
+      "warn": "Quattro AWD — flatbed preferred.",
+      "drivetrain": "FWD or Quattro AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood or under rear seat — varies",
+        "jumpTerminals": "Under hood: red fused terminal, black ground bolt",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals only."
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "Q5 / SQ5 / Q5 Sportback",
+      "yearStart": 2009,
+      "yearEnd": 2026,
+      "trans": "7-speed S-tronic or 8-speed Tiptronic",
+      "slot": "Slot at selector base — small trim cap must be removed first",
+      "shift": [
+        "Ignition to ON.",
+        "Remove the small trim cap near the selector base.",
+        "Insert key into slot, press down.",
+        "Press brake. Move to Neutral.",
+        "Replace trim cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood (older) or trunk/rear seat (newer).",
+        "Connect jump pack.",
+        "Press brake, shift to N.",
+        "Without power: slot method."
+      ],
+      "notes": "2017+ Q5 uses 7-speed S-tronic. Earlier models use Tiptronic.",
+      "warn": "Quattro AWD — flatbed preferred.",
+      "drivetrain": "Quattro AWD",
+      "towMethod": "FLATBED ONLY — Quattro AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood or in trunk — varies by year",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals only. AGM jump pack."
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "Q7 / SQ7",
+      "yearStart": 2007,
+      "yearEnd": 2026,
+      "trans": "8-speed Tiptronic or 8-speed auto (PHEV)",
+      "slot": "Slot at selector base on center console",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot at selector base.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery in spare tire well under cargo floor.",
+        "Connect jump pack.",
+        "Shift normally or use slot.",
+        "PHEV: use ONLY 12V auxiliary battery."
+      ],
+      "notes": "Battery in spare tire well.",
+      "warn": "",
+      "drivetrain": "Quattro AWD",
+      "towMethod": "FLATBED ONLY — Quattro AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+      ],
+      "knownIssues": [
+        {
+          "title": "Air Suspension Clearance Risk",
+          "detail": "Air suspension can lower unexpectedly when power is lost or the vehicle sits for an extended period. Verify ride height is stable before attempting to load on flatbed. Some trims have a 'transport mode' — check if accessible."
+        },
+        {
+          "title": "Battery in Spare Tire Well",
+          "detail": "12V battery is located in the spare tire well under the cargo floor — not under the hood. Open the rear hatch and pull up the cargo floor to access jump terminals."
+        }
+      ],
+      "battery": {
+        "location": "In spare tire well under cargo floor — lift cargo panel, remove spare",
+        "jumpTerminals": "Terminals directly on battery in spare tire well",
+        "type": "agm-12v",
+        "warnings": "Must remove cargo floor panel and spare tire cover to access. AGM battery. Q7 PHEV: 12V auxiliary only — never touch HV battery."
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "Q8 / SQ8 / RS Q8",
+      "yearStart": 2019,
+      "yearEnd": 2026,
+      "trans": "8-speed Tiptronic",
+      "slot": "Electronic selector — slot under a trim piece on center console",
+      "shift": [
+        "Ignition to ON.",
+        "Gently pry trim piece near electronic selector to expose slot.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under cargo floor in trunk.",
+        "Connect jump pack.",
+        "Shift normally or use slot."
+      ],
+      "notes": "",
+      "warn": "Quattro AWD — flatbed preferred.",
+      "drivetrain": "Quattro AWD",
+      "towMethod": "FLATBED ONLY — Quattro AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under cargo floor in trunk",
+        "jumpTerminals": "Under trunk floor panel — direct battery access",
+        "type": "agm-12v",
+        "warnings": "AGM jump pack required."
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "e-tron / e-tron GT / Q4 e-tron / Q8 e-tron",
+      "yearStart": 2019,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "slot": "Electronic gear selector — shift lock slot near selector base",
+      "shift": [
+        "WITH 12V POWER: Press brake pedal. Select N on electronic gear selector.",
+        "WITHOUT 12V POWER: Find shift lock slot near selector base. Insert key, press down. Press brake. Select N."
+      ],
+      "neutral": [
+        "CRITICAL: Use ONLY 12V auxiliary battery — NEVER touch HV system.",
+        "Battery locations: e-tron under hood, e-tron GT in trunk, Q4 e-tron under floor, Q8 e-tron in cargo area.",
+        "Connect jump pack to 12V terminals only.",
+        "Once powered, press brake and select N.",
+        "Without power: slot method."
+      ],
+      "notes": "800V HV system — NEVER touch HV components.",
+      "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
+      "drivetrain": "AWD or RWD (electric)",
+      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "e-tron: under hood. e-tron GT: in trunk. Q4: under floor. Q8 e-tron: cargo area",
+        "jumpTerminals": "Varies by model — see location. 12V auxiliary terminals only.",
+        "type": "auxiliary-12v-only",
+        "warnings": "NEVER touch HV orange cables or connectors. 800V system on e-tron GT. Only 12V auxiliary battery for jumping."
+      }
+    }
+  ]
+}

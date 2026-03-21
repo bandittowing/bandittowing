@@ -1,0 +1,140 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_description": "Bandit Towing vehicle database manifest. Fetch each file in makes/ to load all vehicles.",
+  "makes": [
+    {
+      "make": "Acura",
+      "file": "acura.json",
+      "count": 17
+    },
+    {
+      "make": "Audi",
+      "file": "audi.json",
+      "count": 11
+    },
+    {
+      "make": "BMW",
+      "file": "bmw.json",
+      "count": 27
+    },
+    {
+      "make": "Buick",
+      "file": "buick.json",
+      "count": 6
+    },
+    {
+      "make": "Cadillac",
+      "file": "cadillac.json",
+      "count": 7
+    },
+    {
+      "make": "Chevrolet",
+      "file": "chevrolet.json",
+      "count": 22
+    },
+    {
+      "make": "Chrysler",
+      "file": "chrysler.json",
+      "count": 6
+    },
+    {
+      "make": "Dodge",
+      "file": "dodge.json",
+      "count": 8
+    },
+    {
+      "make": "Ford",
+      "file": "ford.json",
+      "count": 20
+    },
+    {
+      "make": "GMC",
+      "file": "gmc.json",
+      "count": 8
+    },
+    {
+      "make": "Honda",
+      "file": "honda.json",
+      "count": 10
+    },
+    {
+      "make": "Hyundai",
+      "file": "hyundai.json",
+      "count": 8
+    },
+    {
+      "make": "Infiniti",
+      "file": "infiniti.json",
+      "count": 7
+    },
+    {
+      "make": "Jeep",
+      "file": "jeep.json",
+      "count": 7
+    },
+    {
+      "make": "Kia",
+      "file": "kia.json",
+      "count": 6
+    },
+    {
+      "make": "Lexus",
+      "file": "lexus.json",
+      "count": 7
+    },
+    {
+      "make": "Mazda",
+      "file": "mazda.json",
+      "count": 5
+    },
+    {
+      "make": "Mercedes-Benz",
+      "file": "mercedes-benz.json",
+      "count": 6
+    },
+    {
+      "make": "Mitsubishi",
+      "file": "mitsubishi.json",
+      "count": 4
+    },
+    {
+      "make": "Nissan",
+      "file": "nissan.json",
+      "count": 11
+    },
+    {
+      "make": "Ram",
+      "file": "ram.json",
+      "count": 5
+    },
+    {
+      "make": "Subaru",
+      "file": "subaru.json",
+      "count": 6
+    },
+    {
+      "make": "Tesla",
+      "file": "tesla.json",
+      "count": 5
+    },
+    {
+      "make": "Toyota",
+      "file": "toyota.json",
+      "count": 16
+    },
+    {
+      "make": "Volkswagen",
+      "file": "volkswagen.json",
+      "count": 7
+    }
+  ]
+}

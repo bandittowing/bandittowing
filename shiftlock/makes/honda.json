@@ -1,0 +1,404 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Honda",
+  "_count": 10,
+  "vehicles": [
+    {
+      "make": "Honda",
+      "model": "Accord",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "4-speed, 5-speed, 6-speed, CVT, or 10-speed auto (varies by generation)",
+      "slot": "Cap or slot near gear selector base on console; 11th gen (2023+): slot near electronic selector",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap/slot near selector base. Pry cap off if present.",
+        "Insert ignition key, press down firmly.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot.",
+        "Hybrid: 12V only."
+      ],
+      "notes": "Manual trans: no shift lock — depress clutch.",
+      "warn": "",
+      "drivetrain": "FWD (most) or AWD (2023+ select trims)",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Hybrid: 12V auxiliary under hood only — never touch IMA/HV battery."
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "CR-V",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "4-speed or 5-speed auto, or CVT (varies by generation)",
+      "slot": "Cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot.",
+        "Hybrid: 12V only."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Hybrid: 12V only."
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "yearStart": 2001,
+      "yearEnd": 2026,
+      "trans": "4-speed or 5-speed auto, CVT, or DCT (varies by generation)",
+      "slot": "Cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot.",
+        "Hybrid: 12V only."
+      ],
+      "notes": "Type R: manual only — clutch to N.",
+      "warn": "",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Pilot",
+      "yearStart": 2003,
+      "yearEnd": 2015,
+      "trans": "5-speed automatic",
+      "slot": "Cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "AWD — flatbed preferred.",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Pilot (3rd Gen)",
+      "yearStart": 2016,
+      "yearEnd": 2022,
+      "trans": "6-speed or 9-speed auto (ZF 9HP)",
+      "slot": "Slot on right side or front of selector housing — use PHYSICAL KEY from key fob as the tool",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find slot on right side or front of the selector housing.",
+        "POP THE PHYSICAL KEY out of the key fob — this is your tool.",
+        "Insert the physical key into the slot. Press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally.",
+        "Without power: physical key from fob into slot method."
+      ],
+      "notes": "3rd gen Pilot key fob contains a hidden physical key — use this as the tool for the shift lock slot. ZF 9HP: jump pack preferred.",
+      "warn": "AWD — flatbed preferred.",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [
+        {
+          "title": "Physical Key from Fob Is the Override Tool",
+          "detail": "The 3rd gen Pilot (2016-2022) shift lock slot requires a thin key to actuate. The override tool is the PHYSICAL KEY hidden inside the key fob — pop it out using the release button on the fob. Operators without this key or who don't know about it cannot complete the override without improvising a thin tool."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Key fob physical key is the shift lock tool on this generation."
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Pilot (4th Gen)",
+      "yearStart": 2023,
+      "yearEnd": 2026,
+      "trans": "10-speed automatic",
+      "slot": "Slot near electronic gear selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find slot near electronic selector base.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "",
+      "warn": "AWD — flatbed preferred.",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Odyssey (5th Gen)",
+      "yearStart": 2018,
+      "yearEnd": 2026,
+      "trans": "9-speed automatic (ZF 9HP)",
+      "slot": "Cap near gear selector base on console; special ZF 9HP override tool also available",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap.",
+        "SPECIAL TOOL: Honda ZF 9HP override tool (~$50 online) is the most reliable option."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally.",
+        "Without power: slot method or ZF 9HP tool."
+      ],
+      "notes": "ZF 9HP: use jump pack or special tool. Do not force shift without power.",
+      "warn": "Do not force shift without power — ZF 9HP is sensitive to improper manual shifting.",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [
+        {
+          "title": "ZF 9HP Requires Power or Special Tool",
+          "detail": "The 5th gen Odyssey uses a ZF 9HP 9-speed transmission that requires 12V power to shift to neutral reliably. The manual override slot is difficult without power. A dedicated ZF 9HP override tool (~$50 from dealer tool suppliers) is the most reliable mechanical method."
+        },
+        {
+          "title": "Do Not Force the Shift Without Power",
+          "detail": "Forcing the ZF 9HP transmission to neutral without power risks damaging the transmission's park pawl and internal components. Jump the battery first whenever possible."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "ZF 9HP: must restore power before neutral shift. Use jump pack — ZF 9HP override tool is the most reliable manual method."
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Odyssey (3rd/4th Gen)",
+      "yearStart": 2005,
+      "yearEnd": 2017,
+      "trans": "5-speed or 6-speed automatic",
+      "slot": "Cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "FWD minivan.",
+      "warn": "Block all wheels.",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Insight (3rd Gen)",
+      "yearStart": 2019,
+      "yearEnd": 2022,
+      "trans": "e-CVT hybrid",
+      "slot": "Cap near gear selector base",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "POWER IS REQUIRED — Honda confirmed this model cannot be shifted to neutral without battery power on most units.",
+        "Connect a jump pack to the 12V battery under the hood — MANDATORY.",
+        "Once powered, press brake and shift to Neutral normally.",
+        "If no power source: use vehicle dollies instead of forcing the shifter."
+      ],
+      "notes": "Honda officially confirmed power is required. Slot method may not override on all units. Always jump pack first.",
+      "warn": "POWER REQUIRED on most units. Do not force — use dollies if no power is available.",
+      "drivetrain": "FWD (hybrid)",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [
+        {
+          "title": "Cannot Shift to Neutral Without 12V Power",
+          "detail": "Honda officially confirmed that the 3rd gen Insight e-CVT hybrid CANNOT be shifted to neutral without battery power on most units. The manual slot override does not function without power on this model. ALWAYS jump the 12V battery first. If no power source is available, use vehicle dollies rather than attempting to force the drivetrain."
+        }
+      ],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals only",
+        "type": "auxiliary-12v-only",
+        "warnings": "POWER REQUIRED to shift to neutral on most units. Jump first — do not attempt without power."
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Ridgeline",
+      "yearStart": 2006,
+      "yearEnd": 2026,
+      "trans": "5-speed or 6-speed automatic",
+      "slot": "Cap near gear selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "AWD standard on all Ridgeline.",
+      "warn": "AWD — flatbed preferred.",
+      "drivetrain": "AWD (i-VTM4, standard)",
+      "towMethod": "FLATBED ONLY — AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
+      ],
+      "knownIssues": [
+        {
+          "title": "AWD Cannot Be Disabled — Flatbed Only",
+          "detail": "All Ridgeline trims have full-time AWD (i-VTM4) that cannot be disabled. There is no 2WD mode or transfer case position. FLATBED ONLY on all Ridgelines. Do not attempt wheel-lift towing on any Ridgeline."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "AWD standard — flatbed only on all Ridgelines."
+      }
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Acura",
+  "_count": 17,
+  "vehicles": [
+    {
+      "make": "Acura",
+      "model": "CL",
+      "yearStart": 2001,
+      "yearEnd": 2003,
+      "trans": "5-speed automatic (6-speed manual on 2003 Type-S)",
+      "slot": "Small round cap on top-left corner of shifter console — pry off to access slot",
+      "shift": [
+        "Turn ignition to ON (do not start engine).",
+        "Locate the small round cap on the top-left corner of the gear selector console.",
+        "Pry the cap off with your ignition key or a small flathead.",
+        "Insert the key into the exposed slot and press down firmly.",
+        "While holding, press the brake pedal.",
+        "Move the shifter from Park to Neutral.",
+        "Replace the cap."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Battery is under the hood — connect a jump pack.",
+        "Once power is restored, press brake and shift to Neutral normally.",
+        "If no power: use shift lock slot method above."
+      ],
+      "notes": "Key interlock recall Service Bulletin 05-009 affects some units — verify recall was completed.",
+      "warn": "Always apply parking brake and chock wheels before releasing Park on any incline.",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard red (+) / black (−)",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "ILX",
+      "yearStart": 2013,
+      "yearEnd": 2022,
+      "trans": "5-speed auto (2013-2015 base), 8-speed DCT (2016-2022)",
+      "slot": "Small slot near the gear selector base on the center console, covered by a removable plastic cap",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate the plastic cap near the selector base.",
+        "Pry cap off.",
+        "Insert ignition key, press down firmly.",
+        "Press the brake pedal.",
+        "Move shifter to Neutral.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery under hood.",
+        "Shift to Neutral normally once powered.",
+        "If no power: use slot method above."
+      ],
+      "notes": "8-speed DCT: power strongly preferred. Flatbed tow only for DCT variants.",
+      "warn": "8-speed DCT: FLATBED ONLY. Do not tow with wheels on ground.",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard red (+) / black (−)",
+        "type": "standard-12v",
+        "warnings": "8-speed DCT: restore power before shifting"
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "MDX (1st Gen)",
+      "yearStart": 2001,
+      "yearEnd": 2006,
+      "trans": "5-speed automatic",
+      "slot": "Small slot near the gear selector base, covered by a plastic cap",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate plastic cap near selector base.",
+        "Pry cap off.",
+        "Insert key, press down firmly.",
+        "Press the brake pedal.",
+        "Move to Neutral.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood.",
+        "Shift normally once powered.",
+        "If no power: use slot."
+      ],
+      "notes": "Brake lights must be functioning for the normal shift interlock to work. If brake lights are out, use the manual slot.",
+      "warn": "",
+      "drivetrain": "AWD (VTM-4, standard)",
+      "towMethod": "FLATBED ONLY — AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "MDX (2nd Gen)",
+      "yearStart": 2007,
+      "yearEnd": 2013,
+      "trans": "6-speed automatic",
+      "slot": "Slot on front-right side of shifter base — snap-off plastic cover",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find the snap-off plastic cover on the front-right side of the shifter base.",
+        "Snap or pry cover off.",
+        "Insert key, press down firmly.",
+        "Press the brake pedal.",
+        "Move to Neutral.",
+        "Replace cover."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood.",
+        "Shift normally once powered.",
+        "If no power: use slot."
+      ],
+      "notes": "",
+      "warn": "",
+      "drivetrain": "AWD (VTM-4, standard)",
+      "towMethod": "FLATBED ONLY — AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "MDX (3rd Gen)",
+      "yearStart": 2014,
+      "yearEnd": 2020,
+      "trans": "9-speed automatic (ZF 9HP)",
+      "slot": "FRONT LIP of center console near the dashboard — silver rectangular slot. NOT near the shift handle.",
+      "shift": [
+        "Turn ignition to ON.",
+        "Look at the very front base of the center console, where it meets the dashboard — NOT at the shifter base.",
+        "Find the silver rectangular slot at the FRONT console lip.",
+        "Insert ignition key or small flathead into the slot.",
+        "Press inward and downward firmly.",
+        "Press the brake pedal.",
+        "Move the shifter from Park to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery under hood — ZF 9HP is very hard to shift without power.",
+        "Once powered, press brake and shift normally.",
+        "If no power: use front console lip slot. A Honda/Acura ZF 9HP override tool (~$50 online) is the most reliable option."
+      ],
+      "notes": "CRITICAL: The slot is at the FRONT of the console near the dashboard, NOT at the shifter base — this is a very common mistake. Always carry a jump pack with ZF 9HP-equipped vehicles.",
+      "warn": "ZF 9HP: jump pack strongly recommended. Forcing shift without power risks transmission damage.",
+      "drivetrain": "AWD (SH-AWD, standard)",
+      "towMethod": "FLATBED ONLY — SH-AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
+      ],
+      "knownIssues": [
+        {
+          "title": "ZF 9HP Shift Lock Requires Power",
+          "detail": "The ZF 9HP 9-speed transmission requires 12V power to shift. Without power the standard slot method is very difficult. Always carry a jump pack. A dedicated ZF 9HP override tool (~$50 online) is the most reliable mechanical option."
+        },
+        {
+          "title": "Shift Lock Slot Location Misidentified",
+          "detail": "The shift lock slot is at the FRONT lip of the center console near the dashboard — NOT near the shift handle base. Technicians and operators regularly probe the wrong location. Look at where the console meets the dash."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": "ZF 9HP: must restore power before TC shift. Use jump pack rated for AGM batteries."
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "MDX (4th Gen)",
+      "yearStart": 2022,
+      "yearEnd": 2026,
+      "trans": "10-speed automatic",
+      "slot": "Near base of electronic gear selector on center console",
+      "shift": [
+        "Press START button once without pressing brake (ON/electronics mode).",
+        "Locate shift lock slot near electronic selector base.",
+        "Insert key or flathead, press firmly.",
+        "Press the brake pedal.",
+        "Move electronic selector to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery under hood.",
+        "Press START without brake (ON mode), then press brake and shift to N.",
+        "Without power: use manual slot method."
+      ],
+      "notes": "Electronic selector design. Slot location may vary by trim — consult owner's manual.",
+      "warn": "",
+      "drivetrain": "AWD (SH-AWD, standard)",
+      "towMethod": "FLATBED ONLY — SH-AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "RDX (1st Gen)",
+      "yearStart": 2007,
+      "yearEnd": 2012,
+      "trans": "5-speed automatic",
+      "slot": "Small slot near the gear selector base, covered by a plastic cap",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find plastic cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to Neutral.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood.",
+        "Shift normally or use slot."
+      ],
+      "notes": "2007-2009: AWD (SH-AWD) standard on all models. 2010-2012: FWD option added.",
+      "warn": "AWD models (all 2007-2009, optional 2010-2012): flatbed preferred.",
+      "drivetrain": "AWD standard (2007-2009); FWD or AWD (2010-2012)",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "RDX (2nd Gen)",
+      "yearStart": 2013,
+      "yearEnd": 2018,
+      "trans": "6-speed automatic",
+      "slot": "Slot on side of gear selector base near console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find slot on side of selector base.",
+        "Insert key, press down.",
+        "Press brake. Move to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood.",
+        "Shift normally or use slot."
+      ],
+      "notes": "AWD available.",
+      "warn": "AWD — use flatbed tow truck preferred.",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "RDX (3rd Gen)",
+      "yearStart": 2019,
+      "yearEnd": 2026,
+      "trans": "10-speed automatic",
+      "slot": "Near base of the electronic push-button shifter on center console",
+      "shift": [
+        "Press START once without brake (ACC/ON mode).",
+        "Find shift lock slot near electronic shifter base.",
+        "Insert key or flathead, press firmly.",
+        "Press the brake pedal.",
+        "Press the N button on the electronic shifter — vehicle is now in Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood.",
+        "Press START without brake (ON mode), press brake, press N button.",
+        "Without power: shift lock slot method."
+      ],
+      "notes": "3rd gen uses electronic push-button shifter — no physical lever. N button must be activated electronically.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "RL",
+      "yearStart": 2005,
+      "yearEnd": 2012,
+      "trans": "5-speed automatic",
+      "slot": "Small slot near gear selector base, covered by a cap",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to Neutral.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood.",
+        "Shift normally or use slot."
+      ],
+      "notes": "SH-AWD: flatbed preferred.",
+      "warn": "SH-AWD — flatbed preferred.",
+      "drivetrain": "AWD (SH-AWD, standard)",
+      "towMethod": "FLATBED ONLY — SH-AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "RLX",
+      "yearStart": 2014,
+      "yearEnd": 2020,
+      "trans": "6-speed automatic",
+      "slot": "Small slot near gear selector base, covered by a cap",
+      "shift": [
+        "Turn ignition to ON.",
+        "Locate cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to Neutral.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood.",
+        "Shift normally or use slot."
+      ],
+      "notes": "SH-AWD: flatbed preferred.",
+      "warn": "SH-AWD — flatbed preferred.",
+      "drivetrain": "FWD or AWD (SH-AWD)",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "TL (3rd Gen)",
+      "yearStart": 2004,
+      "yearEnd": 2008,
+      "trans": "5-speed auto or 6-speed manual",
+      "slot": "Small round cap on upper-left of shifter base",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find the small round cap on the upper-left of the shifter base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to Neutral.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood.",
+        "Shift normally or use slot."
+      ],
+      "notes": "Manual transmission: no shift lock — depress clutch, select N. Key interlock recall SB 05-009.",
+      "warn": "",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "TL (4th Gen)",
+      "yearStart": 2009,
+      "yearEnd": 2014,
+      "trans": "5-speed auto (2009-2011), 6-speed auto (2012-2014), or 6-speed manual (SH-AWD 2010-2014)",
+      "slot": "Slot on right side of shifter base, snap-off plastic cover",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find snap-off cover on right side of shifter base. Remove.",
+        "Insert key, press down.",
+        "Press brake. Move to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood.",
+        "Shift normally or use slot."
+      ],
+      "notes": "SH-AWD available with 5-speed auto (2009-2011), 6-speed auto (2012-2014), or 6-speed manual (2010-2014). SH-AWD: flatbed only.",
+      "warn": "SH-AWD models: FLATBED ONLY.",
+      "drivetrain": "FWD or AWD (SH-AWD)",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. SH-AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "TLX (1st Gen)",
+      "yearStart": 2015,
+      "yearEnd": 2020,
+      "trans": "8-speed DCT (2015-17) or 9-speed auto (2018-20)",
+      "slot": "Slot at base of gear selector on console",
+      "shift": [
+        "POWER METHOD: Press START twice without pressing brake (1st = radio, 2nd = all electronics on).",
+        "Press brake pedal.",
+        "Move selector to Neutral.",
+        "--- OR DEAD BATTERY METHOD ---",
+        "Find slot at selector base. Insert key or flathead, press firmly.",
+        "Press brake. Move selector to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Press START once = ACC. Press START again = all electronics on.",
+        "Press brake and shift to Neutral.",
+        "If battery is dead: connect jump pack, then use power method above."
+      ],
+      "notes": "Power method preferred for 8-speed DCT. 9-speed (2018+): slot method works reliably.",
+      "warn": "8-speed DCT: FLATBED ONLY. Do not tow with all four wheels on ground.",
+      "drivetrain": "FWD or AWD (SH-AWD)",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. SH-AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
+      ],
+      "knownIssues": [
+        {
+          "title": "8-Speed DCT Cannot Be Towed on Wheels",
+          "detail": "2015-2017 TLX with 8-speed DCT must be flatbedded. Towing with driven wheels on the ground will destroy the dual-clutch transmission. Always verify which transmission is installed before attempting wheel-lift."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "8-speed DCT models: restore power before attempting shift"
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "TLX (2nd Gen)",
+      "yearStart": 2021,
+      "yearEnd": 2026,
+      "trans": "10-speed automatic",
+      "slot": "Near base of electronic gear selector on center console",
+      "shift": [
+        "Press START without brake (ON mode).",
+        "Press brake pedal.",
+        "Press N on selector to go to Neutral.",
+        "--- DEAD BATTERY ---",
+        "Find slot near electronic selector base. Insert key, press firmly.",
+        "Press brake. Press N on selector."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood.",
+        "Follow shift lock steps above once powered.",
+        "Without power: slot method."
+      ],
+      "notes": "",
+      "warn": "AWD — flatbed preferred.",
+      "drivetrain": "FWD or AWD (SH-AWD)",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "TSX",
+      "yearStart": 2004,
+      "yearEnd": 2014,
+      "trans": "5-speed auto or 6-speed manual",
+      "slot": "Slot on right side of shifter base, snap-off cover",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find snap-off cover on right side of shifter base. Remove.",
+        "Insert key, press down.",
+        "Press brake. Move to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood.",
+        "Shift normally or use slot."
+      ],
+      "notes": "Manual: no shift lock — depress clutch. Sport Wagon: same procedure.",
+      "warn": "",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Acura",
+      "model": "ZDX",
+      "yearStart": 2010,
+      "yearEnd": 2013,
+      "trans": "6-speed automatic",
+      "slot": "Small slot near gear selector base, covered by a cap",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to Neutral.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack under hood.",
+        "Shift normally or use slot."
+      ],
+      "notes": "SH-AWD standard on all ZDX.",
+      "warn": "AWD — use flatbed.",
+      "drivetrain": "AWD (SH-AWD, standard)",
+      "towMethod": "FLATBED ONLY — SH-AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    }
+  ]
+}

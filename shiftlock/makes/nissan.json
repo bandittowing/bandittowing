@@ -1,0 +1,480 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Nissan",
+  "_count": 11,
+  "vehicles": [
+    {
+      "make": "Nissan",
+      "model": "Altima",
+      "yearStart": 2002,
+      "yearEnd": 2026,
+      "trans": "4-speed auto, CVT, or 6-speed manual",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Manual: clutch to N. AWD available on newer gen.",
+      "warn": "",
+      "drivetrain": "FWD or AWD (2019+ select trims)",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "yearStart": 2008,
+      "yearEnd": 2026,
+      "trans": "CVT",
+      "slot": "Cap near selector base (older) or electronic selector slot (newer)",
+      "shift": [
+        "Find cap/slot near selector. Remove cap if present.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "Pathfinder",
+      "yearStart": 2005,
+      "yearEnd": 2026,
+      "trans": "5-speed auto, CVT, or 9-speed auto",
+      "slot": "Cap near selector base (older) or electronic selector slot (2022+)",
+      "shift": [
+        "Find cap/slot near selector. Remove cap if present.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or 4WD/AWD (varies by generation)",
+      "towMethod": "FWD/2WD: lift from rear — front (drive) wheels roll on ground. 4WD/AWD: transfer case to 2WD or flatbed. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric push-button (All-Mode 4WD) — 3rd gen and older",
+        "positions": [
+          "2WD — rear wheels only — REQUIRED for road towing",
+          "Auto — automatic AWD — NOT safe for towing",
+          "4H — part-time 4WD high",
+          "4L — low range — NEVER tow in this position"
+        ],
+        "steps": [
+          "Stop or slow under 3 MPH.",
+          "Press 2WD button on center console.",
+          "Confirm 2WD indicator before lifting.",
+          "4th gen (2022+) Pathfinder: FWD or AWD — FWD: rear lift OK. AWD: flatbed only.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "Murano",
+      "yearStart": 2003,
+      "yearEnd": 2026,
+      "trans": "CVT",
+      "slot": "Cap near selector base",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid: 12V only.",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "Maxima",
+      "yearStart": 2004,
+      "yearEnd": 2023,
+      "trans": "4-speed auto or CVT",
+      "slot": "Cap near selector base",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "FWD only.",
+      "warn": "",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "Frontier",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "4-speed, 5-speed, or 9-speed auto; manual available",
+      "slot": "Cap at side of console shifter base (older) or electronic selector slot (2022+)",
+      "shift": [
+        "Find cap/slot near shifter or selector. Remove cap if present.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "4WD optional. Manual: clutch to N.",
+      "warn": "4WD: transfer case.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Manual floor lever (1st/2nd gen) or electric push-button (3rd gen 2022+) — 2H / 4H / N / 4L",
+        "positions": [
+          "2H — rear wheels only — REQUIRED for all road towing",
+          "4H — part-time 4WD high range — NOT safe for dry-road towing",
+          "N — neutral (manual TC models)",
+          "4L — low range — NEVER tow in this position on pavement"
+        ],
+        "steps": [
+          "MANUAL: Stop completely. Shift TC floor lever firmly to 2H.",
+          "ELECTRIC (2022+ 3rd gen): Slow under 3 MPH. Press 2H button. Confirm indicator.",
+          "Safe to lift rear wheels once confirmed in 2H.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "Titan / Titan XD",
+      "yearStart": 2004,
+      "yearEnd": 2026,
+      "trans": "5-speed or 7-speed automatic",
+      "slot": "Cap at side of console shifter base",
+      "shift": [
+        "Find cap at side of shifter. Remove.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "4WD optional.",
+      "warn": "4WD: transfer case.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric push-button on center console",
+        "positions": [
+          "2WD — rear wheels only — REQUIRED for road towing",
+          "4WD Auto — automatic AWD (if equipped) — NOT safe for towing",
+          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
+          "4WD Lo — low range — NEVER tow in this position"
+        ],
+        "steps": [
+          "Slow under 3 MPH.",
+          "Press the 2WD button on the center console.",
+          "Confirm 2WD indicator before lifting rear wheels.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "Armada",
+      "yearStart": 2004,
+      "yearEnd": 2026,
+      "trans": "5-speed or 7-speed automatic",
+      "slot": "Cap near selector base",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "4WD standard.",
+      "warn": "4WD: transfer case.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric push-button on center console",
+        "positions": [
+          "2WD — rear wheels only — REQUIRED for road towing",
+          "4WD Auto — automatic AWD — NOT safe for towing",
+          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
+          "4WD Lo — low range — NEVER tow in this position"
+        ],
+        "steps": [
+          "Slow under 3 MPH.",
+          "Press 2WD on the center console.",
+          "Confirm indicator before lifting rear wheels.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "Leaf",
+      "yearStart": 2011,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "slot": "Electronic selector — slot near selector base",
+      "shift": [
+        "WITH POWER: Press brake. Select N.",
+        "WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."
+      ],
+      "neutral": [
+        "12V battery under hood.",
+        "Connect jump pack to 12V ONLY.",
+        "Once powered, select N."
+      ],
+      "notes": "FWD.",
+      "warn": "FLATBED ONLY.",
+      "drivetrain": "FWD (electric)",
+      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+      ],
+      "knownIssues": [
+        {
+          "title": "FLATBED ONLY — FWD Electric",
+          "detail": "The Leaf electric motor drives the front wheels. Towing with front wheels on the ground will damage the motor. FLATBED ONLY on all Leaf models. Never wheel-lift from the front."
+        }
+      ],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals only",
+        "type": "auxiliary-12v-only",
+        "warnings": "NEVER touch HV traction battery. 12V auxiliary only. Flatbed only — FWD electric."
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "GT-R R35",
+      "yearStart": 2009,
+      "yearEnd": 2024,
+      "trans": "6-speed dual-clutch DCT",
+      "slot": "Electronic selector — slot near selector base",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot near electronic selector.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. DCT REQUIRES POWER — restore 12V first, then shift."
+      ],
+      "notes": "DCT requires power for neutral shift. AWD standard.",
+      "warn": "AWD. DCT — do not tow with wheels on ground without power.",
+      "drivetrain": "AWD (ATTESA E-TS, standard)",
+      "towMethod": "FLATBED ONLY — AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
+      ],
+      "knownIssues": [
+        {
+          "title": "AWD Cannot Be Disabled — Flatbed Only",
+          "detail": "The GT-R's ATTESA E-TS AWD system is permanent and cannot be disabled. FLATBED ONLY on all GT-Rs. Attempting to wheel-lift will immediately damage the front differential."
+        },
+        {
+          "title": "DCT Requires Power to Shift",
+          "detail": "The GT-R's dual-clutch transmission requires 12V power to shift to neutral. The battery must be jumped first. Battery is located under the hood."
+        },
+        {
+          "title": "Extremely Valuable — Handle With Care",
+          "detail": "GT-Rs range from $60,000-$200,000+ in value. Any contact with the body panels, spoiler, or diffuser during towing can result in extremely costly damage claims. Use only designated tow points and padded equipment."
+        }
+      ],
+      "battery": {
+        "location": "In trunk, under panel",
+        "jumpTerminals": "In trunk — direct battery access under cargo panel",
+        "type": "agm-12v",
+        "warnings": "AWD — flatbed only. DCT requires power before neutral shift. Very valuable vehicle — use padded equipment only."
+      }
+    },
+    {
+      "make": "Nissan",
+      "model": "Sentra / Versa",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "4-speed auto, CVT, or manual",
+      "slot": "Cap near selector base",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Manual: clutch to N. FWD.",
+      "warn": "",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    }
+  ]
+}

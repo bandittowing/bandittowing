@@ -1,0 +1,901 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Ford",
+  "_count": 20,
+  "vehicles": [
+    {
+      "make": "Ford",
+      "model": "F-150 (2000-2020)",
+      "yearStart": 2000,
+      "yearEnd": 2020,
+      "trans": "4-speed, 6-speed, or 10-speed automatic",
+      "slot": "Cap at side of console shifter base, or column slot on bench-seat trims",
+      "shift": [
+        "CONSOLE: Find cap at side of shifter. Remove. Insert key, press down. Press brake. Move to N.",
+        "COLUMN: Find slot on steering column. Insert key, press down. Press brake. Move column shifter to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "4WD: transfer case MUST be in 2H before towing on road.",
+      "warn": "4WD: transfer case to 2H.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground), or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Manual floor lever (older) or Electric push-button on dash (newer) — labeled 2H / 4A / 4H / 4L",
+        "positions": [
+          "2H — rear wheels only — REQUIRED for all road towing",
+          "4A — automatic 4WD (if equipped) — NOT safe for towing",
+          "4H — part-time 4WD high range — NOT safe for dry-road towing",
+          "4L — low range — NEVER tow in this position"
+        ],
+        "steps": [
+          "MANUAL LEVER: Stop completely. Move TC floor lever firmly to 2H.",
+          "ELECTRIC PUSH-BUTTON: Slow to under 3 MPH. Press the 2H button on the dash.",
+          "Wait for the 2H indicator lamp to illuminate on the instrument cluster.",
+          "Confirm all 4WD indicator lights are OFF before lifting rear wheels.",
+          "NEVER tow in 4H or 4L — serious driveline damage will result.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard red (+) / black (−) terminals",
+        "type": "standard-12v",
+        "warnings": "Confirm TC in 2WD before wheel lift."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "F-150 (2021-2026)",
+      "yearStart": 2021,
+      "yearEnd": 2026,
+      "trans": "10-speed auto or eCVT (PowerBoost Hybrid)",
+      "slot": "Electronic selector — trim panel near selector, remove to expose slot",
+      "shift": [
+        "Ignition to ON.",
+        "Locate trim panel near electronic selector. Pry or remove.",
+        "Insert key into slot, press down.",
+        "Press brake. Move to N.",
+        "Replace panel."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot.",
+        "PowerBoost Hybrid: 12V only."
+      ],
+      "notes": "F-150 Lightning EV (2022+): flatbed only.",
+      "warn": "Lightning EV: FLATBED ONLY. 4WD: transfer case.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric rotary dial on center console",
+        "positions": [
+          "2H — rear wheels only — REQUIRED for all road towing",
+          "4A — automatic 4WD — NOT safe for towing",
+          "4H — part-time 4WD high — NOT safe for dry-road towing",
+          "4L — low range — NEVER tow in this position"
+        ],
+        "steps": [
+          "Slow to under 3 MPH.",
+          "Turn the rotary TC dial on the center console to 2H.",
+          "Confirm the 2H indicator lamp on the instrument cluster.",
+          "Verify all 4WD lights are OFF before lifting rear wheels.",
+          "PowerBoost Hybrid: same TC procedure. F-150 Lightning EV: FLATBED ONLY — no TC.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "PowerBoost Hybrid: 12V only for jumping. Silverado EV: 12V in frunk."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "F-150 Lightning",
+      "yearStart": 2022,
+      "yearEnd": 2026,
+      "trans": "Dual electric motors",
+      "slot": "Electronic selector — slot near selector base",
+      "shift": [
+        "WITH POWER: Press brake. Select N on electronic selector.",
+        "WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."
+      ],
+      "neutral": [
+        "CRITICAL: 12V battery is in the FRUNK (front trunk).",
+        "Connect jump pack to 12V frunk terminals ONLY.",
+        "NEVER touch the HV battery.",
+        "Once powered, press brake and select N."
+      ],
+      "notes": "HV battery in frame — never touch.",
+      "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
+      "drivetrain": "AWD (dual electric motors)",
+      "towMethod": "FLATBED ONLY — electric drivetrain, no transfer case",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+      ],
+      "knownIssues": [
+        {
+          "title": "12V Battery in Frunk — Not Under Hood",
+          "detail": "The F-150 Lightning has a front trunk (frunk) where the 12V auxiliary battery is located. The front hood opens but there is no conventional engine — the frunk IS the storage area. Pop the hood, and the battery is in the front storage compartment."
+        },
+        {
+          "title": "FLATBED ONLY — Electric Drivetrain",
+          "detail": "The Lightning has dual electric motors driving all four wheels. Towing with any wheels on the ground will damage the motors. No exceptions — flatbed only."
+        },
+        {
+          "title": "Very Heavy Vehicle",
+          "detail": "The F-150 Lightning weighs approximately 6,000-6,500 lbs depending on battery size. Verify your flatbed is rated for this weight. Many standard flatbeds are rated for 5,000 lbs and will be over capacity."
+        }
+      ],
+      "battery": {
+        "location": "FRUNK (front trunk) — open the hood, battery is in the front storage area",
+        "jumpTerminals": "Inside the frunk — red (+) / black (−) terminals on auxiliary 12V battery",
+        "type": "auxiliary-12v-only",
+        "warnings": "No engine bay — the frunk IS the front compartment when you open the hood. NEVER touch HV battery. Very heavy vehicle (~6,000-6,500 lbs)."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "F-250 / F-350 Super Duty (2000-2016)",
+      "yearStart": 2000,
+      "yearEnd": 2016,
+      "trans": "4-speed, 5-speed, or 6-speed automatic",
+      "slot": "Cap at side of console shifter base",
+      "shift": [
+        "Find cap at side of shifter. Remove.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Power Stroke diesel: same procedure. 4WD standard.",
+      "warn": "4WD: transfer case MUST be in 2H. Heavy-duty — heavy blocks required.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Heavy-duty — use rated equipment. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric push-button (TouchDrive) or manual floor lever depending on year",
+        "positions": [
+          "2H — rear wheels only — REQUIRED for all road towing",
+          "4H — part-time 4WD high range — NOT safe for dry-road towing",
+          "4L — low range — NEVER tow in this position"
+        ],
+        "steps": [
+          "ELECTRIC (TouchDrive): Slow under 3 MPH. Press 2H button on dash. Confirm 2H indicator.",
+          "MANUAL LEVER: Stop completely. Move TC lever to 2H.",
+          "Confirm 2H indicator before lifting rear wheels.",
+          "Heavy-duty truck — use properly rated chains, straps, and wheel blocks.",
+          "Do NOT tow in 4H or 4L on pavement.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
+        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight — account for extra weight in equipment ratings.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side. Diesel trims may have dual batteries.",
+        "jumpTerminals": "Under hood: red (+) on either battery, black (−) to engine block or frame",
+        "type": "standard-12v",
+        "warnings": "Diesel: two batteries in parallel. Jump to either positive terminal. Heavy vehicle."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "F-250 / F-350 Super Duty (2017-2026)",
+      "yearStart": 2017,
+      "yearEnd": 2026,
+      "trans": "6-speed or 10-speed TorqShift automatic",
+      "slot": "Electronic selector — slot near base under trim panel",
+      "shift": [
+        "Ignition to ON.",
+        "Find trim panel near electronic selector. Pry to remove.",
+        "Insert key into slot, press down.",
+        "Press brake. Move to N.",
+        "Replace panel."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Power Stroke diesel: same. Tremor: same.",
+      "warn": "4WD: transfer case. Heavy-duty — heavy blocks.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Heavy-duty — use rated equipment. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric rotary dial (electronic TC shift) on center console",
+        "positions": [
+          "2H — rear wheels only — REQUIRED for all road towing",
+          "4A — automatic 4WD (if equipped) — NOT safe for towing",
+          "4H — part-time 4WD high — NOT safe for dry-road towing",
+          "4L — low range — NEVER tow in this position"
+        ],
+        "steps": [
+          "Slow to under 3 MPH.",
+          "Turn rotary TC dial to 2H.",
+          "Confirm 2H indicator on instrument cluster.",
+          "Verify all 4WD indicator lights are OFF before lifting.",
+          "Do NOT tow in 4H or 4L on pavement.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
+        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight — account for extra weight in equipment ratings.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood. Diesel Power Stroke may have dual batteries.",
+        "jumpTerminals": "Under hood — standard terminals. Diesel: either positive terminal works.",
+        "type": "standard-12v",
+        "warnings": "Diesel dual battery: jump to either positive terminal. Very heavy."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Explorer (2002-2019)",
+      "yearStart": 2002,
+      "yearEnd": 2019,
+      "trans": "5-speed or 6-speed automatic",
+      "slot": "Cap at side of console shifter base",
+      "shift": [
+        "Find cap at side of shifter. Remove.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "4WD or AWD.",
+      "warn": "AWD — flatbed preferred.",
+      "drivetrain": "RWD or 4WD/AWD",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD/AWD: transfer case to 2H or flatbed. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric (Control-Trac) or manual lever depending on model and generation",
+        "positions": [
+          "2WD — rear wheels only — REQUIRED for road towing",
+          "4WD Auto — automatic AWD engagement — NOT safe for towing",
+          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
+          "4WD Lo — low range — NEVER tow in this position"
+        ],
+        "steps": [
+          "CONTROL-TRAC (electric): Slow under 3 MPH. Use 4WD switch to select 2WD. Confirm indicator.",
+          "MANUAL LEVER: Stop completely. Shift TC lever to 2WD.",
+          "Confirm 2WD indicator before lifting rear wheels.",
+          "AWD-only models (no 2WD mode): FLATBED ONLY.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Explorer (2020-2026)",
+      "yearStart": 2020,
+      "yearEnd": 2026,
+      "trans": "10-speed automatic (10R60)",
+      "slot": "Electronic selector — slot near base under trim panel",
+      "shift": [
+        "Ignition to ON.",
+        "Find trim panel near electronic selector. Pry or remove.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace panel."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "ST and Platinum: same.",
+      "warn": "AWD — flatbed preferred.",
+      "drivetrain": "RWD or AWD",
+      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
+        "AWD VARIANT: Use flatbed. If no flatbed, wheel-lift with dollies on free-rolling axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Expedition (2003-2017)",
+      "yearStart": 2003,
+      "yearEnd": 2017,
+      "trans": "4-speed or 6-speed automatic",
+      "slot": "Column shifter — slot on the steering column",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find shift lock slot on the steering column near the shifter.",
+        "Insert key, press down.",
+        "Press brake.",
+        "Move column shifter from Park to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Full-size SUV. 4WD standard.",
+      "warn": "4WD: transfer case MUST be in 2H.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric push-button (TouchDrive) on dash",
+        "positions": [
+          "2H — rear wheels only — REQUIRED for all road towing",
+          "4H — part-time 4WD high range",
+          "4L — low range — NEVER tow in this position"
+        ],
+        "steps": [
+          "Slow under 3 MPH.",
+          "Press the 2H button on the dash.",
+          "Confirm 2H indicator on instrument cluster.",
+          "Safe to lift rear wheels once confirmed.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [
+        {
+          "title": "Column Shifter — Slot on Steering Column",
+          "detail": "These Expeditions use a column-mounted shifter, not a console shifter. The shift lock slot is on the STEERING COLUMN, not on the center console. Operators looking on the floor console will not find it."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Column shifter — slot is on steering column, not console."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Expedition (2018-2026)",
+      "yearStart": 2018,
+      "yearEnd": 2026,
+      "trans": "10-speed automatic (10R80)",
+      "slot": "Electronic selector — slot near base under trim panel on console",
+      "shift": [
+        "Ignition to ON.",
+        "Locate trim panel near electronic selector. Pry to expose slot.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace panel."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "MAX (extended): same. 4WD standard.",
+      "warn": "4WD: transfer case. Large SUV — heavy blocks.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric rotary dial on center console",
+        "positions": [
+          "2H — rear wheels only — REQUIRED for all road towing",
+          "4A — automatic 4WD — NOT safe for towing",
+          "4H — part-time 4WD high",
+          "4L — low range — NEVER tow in this position"
+        ],
+        "steps": [
+          "Slow under 3 MPH.",
+          "Turn rotary dial to 2H.",
+          "Confirm 2H indicator.",
+          "Safe to lift rear wheels once in 2H.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Escape",
+      "yearStart": 2001,
+      "yearEnd": 2026,
+      "trans": "4-speed, 6-speed, or 8-speed auto; PHEV eCVT (2021+)",
+      "slot": "Cap near console shifter (older) or slot near electronic selector (2020+)",
+      "shift": [
+        "Find cap/slot near shifter or selector. Remove cap if present.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for PHEV). Shift normally or use slot."
+      ],
+      "notes": "",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. Escape PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid/PHEV: 12V only.",
+        "type": "standard-12v",
+        "warnings": "Escape PHEV: 12V only — never touch HV battery."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Edge",
+      "yearStart": 2007,
+      "yearEnd": 2023,
+      "trans": "6-speed or 8-speed automatic",
+      "slot": "Cap near console shifter (older) or slot near electronic selector (newer)",
+      "shift": [
+        "Find cap/slot near shifter or selector. Remove cap if present.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Bronco (2021-2026)",
+      "yearStart": 2021,
+      "yearEnd": 2026,
+      "trans": "7-speed manual, 10-speed auto, or 6-speed auto",
+      "slot": "Under the SHIFTER BOOT material — insert flathead between boot and trim ring, lift boot to expose lever",
+      "shift": [
+        "Insert flathead between the shifter boot material and the trim ring.",
+        "Lift the shifter boot UPWARD to expose the shift interlock release lever on the SIDE of the selector.",
+        "Push the release lever toward the FRONT of the transmission selector.",
+        "While holding lever forward, move selector out of Park into N.",
+        "Manual: depress clutch, select Neutral — no interlock needed."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use boot/lever method."
+      ],
+      "notes": "Ford Brake Shift Interlock (BSI) system. 2-door and 4-door: same.",
+      "warn": "4WD: transfer case in 2H or 4H (NOT 4LO) before towing.",
+      "drivetrain": "4WD (standard on all)",
+      "towMethod": "Transfer case to 2H first (if equipped), then lift from front (rear/drive wheels roll on ground). Base models may not have 2H — flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Manual floor lever — 2-speed Command-Trac (base/Black Diamond/Big Bend) or Rock-Trac (Badlands/Raptor/Wildtrak)",
+        "positions": [
+          "2H — rear wheels only — REQUIRED for road towing (Raptor and most non-base trims have 2H)",
+          "4H — part-time 4WD high range — under 55 MPH on loose surfaces only",
+          "4L — low range — NEVER tow in this position"
+        ],
+        "steps": [
+          "IMPORTANT: Some base Bronco trims do NOT have a 2H position — must use flatbed.",
+          "For 2H-equipped models: Stop completely or slow under 3 MPH.",
+          "Move the TC floor lever to the 2H position.",
+          "Confirm 2H indicator on the instrument cluster.",
+          "Safe to lift rear wheels once confirmed in 2H.",
+          "For flat towing a Bronco: see full procedure in owner's manual — requires specific TC and transmission positions.",
+          "NEVER tow in 4L."
+        ]
+      },
+      "towNotes": [
+        "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Some base trims have no 2H position — flatbed required if no 2WD mode."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang (5th/6th Gen)",
+      "yearStart": 2005,
+      "yearEnd": 2023,
+      "trans": "5-speed, 6-speed auto or manual",
+      "slot": "Cap near console shifter base",
+      "shift": [
+        "Find cap near shifter base. Remove.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Manual: clutch to N. RWD.",
+      "warn": "RWD — block rear wheels.",
+      "drivetrain": "RWD",
+      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side near firewall",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang (7th Gen S650)",
+      "yearStart": 2024,
+      "yearEnd": 2026,
+      "trans": "10-speed auto or 6-speed manual",
+      "slot": "Electronic selector — slot near base",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot near electronic selector.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Manual: clutch to N. RWD.",
+      "warn": "RWD — block rear wheels.",
+      "drivetrain": "RWD",
+      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang Mach-E",
+      "yearStart": 2021,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "slot": "Electronic selector — slot near selector base",
+      "shift": [
+        "WITH POWER: Press brake. Select N.",
+        "WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."
+      ],
+      "neutral": [
+        "12V battery is in the FRUNK (front trunk).",
+        "Access frunk via key hole, connect jump pack to 12V frunk terminals.",
+        "NEVER touch HV battery.",
+        "Once powered, press brake and select N."
+      ],
+      "notes": "RWD or AWD.",
+      "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
+      "drivetrain": "RWD or AWD (electric)",
+      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+      ],
+      "knownIssues": [
+        {
+          "title": "12V Battery in Frunk",
+          "detail": "The Mach-E 12V auxiliary battery is in the frunk (front trunk), not under the hood in a conventional sense. Open the hood — the battery is in the front storage compartment with accessible jump terminals."
+        },
+        {
+          "title": "FLATBED ONLY",
+          "detail": "Electric AWD or RWD drivetrain. Towing with wheels on the ground will damage the motors. Flatbed only with no exceptions."
+        }
+      ],
+      "battery": {
+        "location": "FRUNK — open front hood, battery is in the front storage compartment",
+        "jumpTerminals": "Inside the frunk — 12V auxiliary red (+) / black (−)",
+        "type": "auxiliary-12v-only",
+        "warnings": "NEVER touch HV battery. Flatbed only."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Ranger (2019-2026)",
+      "yearStart": 2019,
+      "yearEnd": 2026,
+      "trans": "10-speed automatic (10R80)",
+      "slot": "Electronic selector — slot under trim near selector",
+      "shift": [
+        "Ignition to ON.",
+        "Find trim near selector. Pry to expose slot.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace trim."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "4WD optional.",
+      "warn": "4WD: transfer case to 2H.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric push-button on center console",
+        "positions": [
+          "2H — rear wheels only — REQUIRED for all road towing",
+          "4H — part-time 4WD high range",
+          "4L — low range — NEVER tow in this position"
+        ],
+        "steps": [
+          "Slow under 3 MPH.",
+          "Press the 2H button on the center console.",
+          "Confirm the 2H indicator illuminates.",
+          "Safe to lift rear wheels once in 2H.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Fusion",
+      "yearStart": 2006,
+      "yearEnd": 2020,
+      "trans": "5-speed or 6-speed auto; CVT (Hybrid/PHEV)",
+      "slot": "Cap near console shifter (older) or slot near electronic shifter (newer)",
+      "shift": [
+        "Find cap/slot near shifter. Remove cap if present.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
+      ],
+      "notes": "",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD/PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid/PHEV: 12V only.",
+        "type": "standard-12v",
+        "warnings": "Fusion Hybrid/Energi: 12V only."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Focus",
+      "yearStart": 2008,
+      "yearEnd": 2018,
+      "trans": "4-speed, 6-speed auto, or PowerShift DCT",
+      "slot": "Cap near console shifter base",
+      "shift": [
+        "Find cap near shifter base. Remove.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Focus Electric: flatbed only. PowerShift DCT: restore power preferred.",
+      "warn": "Focus Electric: FLATBED ONLY.",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Focus Electric: 12V auxiliary only."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Transit (Full Size)",
+      "yearStart": 2015,
+      "yearEnd": 2026,
+      "trans": "6-speed or 10-speed automatic",
+      "slot": "COLUMN SHIFTER — slot on the steering column",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find shift lock slot on the steering column.",
+        "Insert key, press down.",
+        "Press brake.",
+        "Move column shifter to Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Large commercial van.",
+      "warn": "Large van — heavy wheel blocks required.",
+      "drivetrain": "RWD or AWD",
+      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Large van — heavy wheel blocks required."
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Maverick",
+      "yearStart": 2022,
+      "yearEnd": 2026,
+      "trans": "CVT (FWD) or 8-speed auto (AWD)",
+      "slot": "Electronic selector — slot near base",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot near electronic selector.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "FWD or AWD compact pickup.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    }
+  ]
+}

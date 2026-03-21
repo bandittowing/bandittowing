@@ -1,0 +1,248 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Mercedes-Benz",
+  "_count": 6,
+  "vehicles": [
+    {
+      "make": "Mercedes-Benz",
+      "model": "C-Class (All Generations)",
+      "yearStart": 2001,
+      "yearEnd": 2026,
+      "trans": "5-speed, 7-speed, or 9-speed automatic",
+      "slot": "Slot at base of gear selector housing or column selector — pry/slide cover to expose",
+      "shift": [
+        "Ignition to ON (position 2).",
+        "Find slot at base of selector housing. Pry or slide cover.",
+        "Insert key or flathead, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot.",
+        "PHEVs: 12V only."
+      ],
+      "notes": "4MATIC AWD: flatbed. AMG DCT: power preferred.",
+      "warn": "AWD (4MATIC) — flatbed preferred.",
+      "drivetrain": "RWD or 4MATIC AWD",
+      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. 4MATIC AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "In trunk (most generations) or under rear seat",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt on strut tower (−)",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals ONLY. Never jump directly at the trunk battery. AGM jump pack required."
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "E-Class (All Generations)",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "5-speed, 7-speed, or 9-speed automatic",
+      "slot": "Slot near console or column selector base",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot near selector base. Insert key or flathead, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for PHEVs). Shift normally or use slot."
+      ],
+      "notes": "4MATIC: flatbed.",
+      "warn": "AWD (4MATIC) — flatbed preferred.",
+      "drivetrain": "RWD or 4MATIC AWD",
+      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. 4MATIC AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "In trunk (most) or under rear seat",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals only. AGM jump pack."
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "S-Class (All Generations)",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "5-speed, 7-speed, or 9-speed automatic",
+      "slot": "Column selector (W220) or console selector (W221+) — slot at selector base",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot at base of column or console selector. Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood or under rear seat depending on year.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Air suspension — check clearance.",
+      "warn": "Air suspension: verify clearance. 4MATIC: flatbed.",
+      "drivetrain": "RWD or 4MATIC AWD",
+      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. 4MATIC AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+      ],
+      "knownIssues": [
+        {
+          "title": "Air Suspension Drops Without Power",
+          "detail": "Airmatic air suspension lowers to the bump stops when the vehicle loses power. This makes flatbed loading very difficult. Restore 12V power first if at all possible. On W220/W221, the suspension can be manually raised using a dealer tool if power cannot be restored."
+        },
+        {
+          "title": "Battery Location Varies",
+          "detail": "Battery is under the rear seat on some generations, in the trunk on others. Do not assume under-hood location."
+        }
+      ],
+      "battery": {
+        "location": "Under rear seat (W220/W221) or in trunk (W222/W223)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Air suspension drops with power loss. Use hood terminals only. AGM jump pack."
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLC / GLE / GLS (All Generations)",
+      "yearStart": 2016,
+      "yearEnd": 2026,
+      "trans": "7-speed or 9-speed automatic",
+      "slot": "Slot near console selector base",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot near console selector base. Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for PHEVs). Shift normally or use slot."
+      ],
+      "notes": "4MATIC standard.",
+      "warn": "4MATIC AWD — flatbed preferred.",
+      "drivetrain": "4MATIC AWD (standard)",
+      "towMethod": "FLATBED ONLY — 4MATIC AWD is full-time, cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+      ],
+      "knownIssues": [
+        {
+          "title": "Full-Time 4MATIC AWD — Flatbed Only",
+          "detail": "4MATIC AWD is full-time with no 2WD mode on most GLC/GLE/GLS trims. These vehicles CANNOT be wheel-lifted without dollies. FLATBED is the standard and correct method for all 4MATIC vehicles."
+        },
+        {
+          "title": "Air Suspension on E-Class and Above Trims",
+          "detail": "Higher trim GLE and GLS models may have AIRMATIC air suspension that drops without power. Check and restore power if possible before loading."
+        }
+      ],
+      "battery": {
+        "location": "Under hood or in cargo area — varies by model",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "4MATIC AWD — flatbed only. Use hood terminals. AGM jump pack."
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQC / EQE / EQS / EQA / EQB (Electric)",
+      "yearStart": 2020,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "slot": "Electronic selector — slot near selector base",
+      "shift": [
+        "WITH POWER: Press brake. Select N.",
+        "WITHOUT POWER: Find slot near selector base. Insert key, press down. Press brake. Select N."
+      ],
+      "neutral": [
+        "12V battery location varies — check owner's manual.",
+        "Connect jump pack to 12V ONLY. NEVER touch 400V/800V HV system.",
+        "Once powered, select N."
+      ],
+      "notes": "Do NOT touch the high-voltage system.",
+      "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
+      "drivetrain": "AWD or RWD (electric)",
+      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+      ],
+      "knownIssues": [
+        {
+          "title": "FLATBED ONLY — Electric Drivetrain",
+          "detail": "All EQ-series Mercedes are electric. Towing with wheels on ground will damage motors. No exceptions."
+        },
+        {
+          "title": "800V System on EQS/EQE",
+          "detail": "EQS and EQE use an 800V architecture. Extreme hazard — never probe or touch any HV components. 12V terminals only."
+        }
+      ],
+      "battery": {
+        "location": "Varies by model — check owner's manual for 12V auxiliary location",
+        "jumpTerminals": "12V auxiliary terminals only — location varies by model",
+        "type": "auxiliary-12v-only",
+        "warnings": "800V HV on EQS/EQE. NEVER touch HV components. 12V auxiliary only. Flatbed only."
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "Sprinter Van",
+      "yearStart": 2007,
+      "yearEnd": 2026,
+      "trans": "5-speed, 7-speed, or 9-speed automatic",
+      "slot": "Slot near selector or column shifter base",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot near selector or column base. Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Large commercial van. Gas and diesel: same.",
+      "warn": "Large van — heavy wheel blocks required.",
+      "drivetrain": "RWD or AWD",
+      "towMethod": "RWD: lift from front — rear (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
+        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight — account for extra weight in equipment ratings."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, passenger side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Large commercial van. Heavy wheel blocks required."
+      }
+    }
+  ]
+}

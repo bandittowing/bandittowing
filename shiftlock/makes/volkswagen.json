@@ -1,0 +1,274 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Volkswagen",
+  "_count": 7,
+  "vehicles": [
+    {
+      "make": "Volkswagen",
+      "model": "Jetta / Jetta SportWagen",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "5-speed, 6-speed auto, 6-speed DSG, or manual",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. DSG — power preferred. Shift normally or use slot."
+      ],
+      "notes": "Manual: clutch to N. DSG — restore power first.",
+      "warn": "DSG: restore power before shifting.",
+      "drivetrain": "FWD",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood or under rear seat — varies by generation",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals. AGM jump pack."
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Golf / GTI / Golf R",
+      "yearStart": 2005,
+      "yearEnd": 2026,
+      "trans": "6-speed manual, 6-speed DSG, or 8-speed automatic",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. DSG — power preferred. Shift normally or use slot."
+      ],
+      "notes": "Manual: clutch to N. DSG: restore power first. Golf R AWD: flatbed preferred.",
+      "warn": "Golf R AWD — flatbed preferred.",
+      "drivetrain": "FWD or 4MOTION AWD (Golf R)",
+      "towMethod": "FWD/GTI: lift from rear — front (drive) wheels roll on ground. Golf R 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+      ],
+      "knownIssues": [
+        {
+          "title": "Golf R AWD Cannot Be Disabled — Flatbed Only",
+          "detail": "The Golf R 4MOTION AWD system cannot be disabled. Golf R must always be flatbedded. Standard Golf and GTI are FWD and can be wheel-lifted normally from the rear."
+        },
+        {
+          "title": "DSG Requires Power to Shift — Battery Often Under Rear Seat",
+          "detail": "DSG dual-clutch transmission requires 12V power to shift to neutral. Battery is often under the rear seat on Golf variants — not always under the hood. Locate battery before attempting to jump."
+        }
+      ],
+      "battery": {
+        "location": "Under rear seat (most Golf generations)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals — NOT rear seat battery directly. AGM jump pack. Golf R: flatbed only (4MOTION AWD)."
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Passat",
+      "yearStart": 2000,
+      "yearEnd": 2022,
+      "trans": "5-speed, 6-speed auto, 6-speed DSG, or manual",
+      "slot": "Cap near selector base",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. DSG — power preferred. Shift normally or use slot."
+      ],
+      "notes": "Manual: clutch to N. DSG: restore power first. 4MOTION AWD: flatbed.",
+      "warn": "4MOTION AWD — flatbed preferred.",
+      "drivetrain": "FWD or 4MOTION AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under rear seat or in trunk — varies by generation",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals. AGM jump pack."
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Tiguan",
+      "yearStart": 2009,
+      "yearEnd": 2026,
+      "trans": "6-speed DSG or 8-speed automatic",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. DSG — power preferred. Shift normally or use slot."
+      ],
+      "notes": "4MOTION AWD optional.",
+      "warn": "AWD — flatbed preferred.",
+      "drivetrain": "FWD or 4MOTION AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood or under rear seat — varies",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals. AGM jump pack."
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Atlas / Atlas Cross Sport",
+      "yearStart": 2018,
+      "yearEnd": 2026,
+      "trans": "8-speed automatic",
+      "slot": "Electronic selector — slot near selector base on console",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot near electronic selector.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "4MOTION AWD optional.",
+      "warn": "AWD — flatbed preferred.",
+      "drivetrain": "FWD or 4MOTION AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "AWD: flatbed only."
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Taos",
+      "yearStart": 2022,
+      "yearEnd": 2026,
+      "trans": "6-speed DSG or 8-speed automatic",
+      "slot": "Cap near selector base",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. DSG — power preferred. Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or 4MOTION AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. 4MOTION AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood or under rear seat",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "Use hood terminals."
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "ID.4 / ID.Buzz",
+      "yearStart": 2021,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "slot": "Electronic selector — slot near selector base",
+      "shift": [
+        "WITH POWER: Press brake. Select N.",
+        "WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."
+      ],
+      "neutral": [
+        "12V battery under hood.",
+        "Connect jump pack to 12V ONLY.",
+        "Once powered, select N."
+      ],
+      "notes": "ID.Buzz (2024+): same procedure.",
+      "warn": "FLATBED ONLY.",
+      "drivetrain": "RWD or AWD (electric)",
+      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+      ],
+      "knownIssues": [
+        {
+          "title": "FLATBED ONLY — Electric Drivetrain",
+          "detail": "Electric RWD or AWD. Towing with wheels on ground will damage motors. Flatbed only with no exceptions."
+        },
+        {
+          "title": "12V Battery Under Hood",
+          "detail": "Unlike some EVs, the ID.4 and ID.Buzz 12V auxiliary battery is located under the conventional hood area. Standard jump procedure applies."
+        }
+      ],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "NEVER touch HV battery. Flatbed only."
+      }
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Mazda",
+  "_count": 5,
+  "vehicles": [
+    {
+      "make": "Mazda",
+      "model": "Mazda3 / Mazda6",
+      "yearStart": 2004,
+      "yearEnd": 2026,
+      "trans": "4-speed, 5-speed, 6-speed auto, or CVT; manual available",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Manual: clutch to N. AWD available on Mazda3 (2019+).",
+      "warn": "",
+      "drivetrain": "FWD or AWD (Mazda3 2019+)",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-5",
+      "yearStart": 2013,
+      "yearEnd": 2026,
+      "trans": "6-speed automatic",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-9 / CX-90",
+      "yearStart": 2007,
+      "yearEnd": 2026,
+      "trans": "6-speed or 8-speed automatic",
+      "slot": "Cap near selector base (older) or electronic selector slot (2024+)",
+      "shift": [
+        "Find cap/slot near selector. Remove cap if present.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for CX-90 PHEV). Shift normally or use slot."
+      ],
+      "notes": "AWD standard.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. CX-90 PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. CX-90 PHEV: 12V only.",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-3 / CX-30 / CX-50",
+      "yearStart": 2016,
+      "yearEnd": 2026,
+      "trans": "6-speed automatic",
+      "slot": "Cap near selector base",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "MX-5 Miata",
+      "yearStart": 2006,
+      "yearEnd": 2026,
+      "trans": "6-speed auto or 6-speed manual",
+      "slot": "Cap near selector base (auto only)",
+      "shift": [
+        "Auto: Find cap near selector base. Pry off. Insert key, press down. Press brake. Move to N.",
+        "Manual: Depress clutch, select Neutral."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (auto). Shift normally or use slot."
+      ],
+      "notes": "Manual: clutch to N. Very low clearance.",
+      "warn": "LOW CLEARANCE — flatbed preferred.",
+      "drivetrain": "RWD",
+      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed — low clearance, flatbed preferred. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
+        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+      ],
+      "knownIssues": [
+        {
+          "title": "Very Low Ground Clearance",
+          "detail": "Ground clearance on the Miata is approximately 4.5 inches. Use shallow approach ramps for flatbed loading. The front air dam and soft front lip are easily damaged by standard ramp angles."
+        },
+        {
+          "title": "Soft Top Convertible Damage Risk",
+          "detail": "Soft top models are easily damaged if straps or chains contact the roof. Use hood straps or wheel lift methods. Never run straps over the soft top."
+        }
+      ],
+      "battery": {
+        "location": "Under hood (driver side on ND gen), or passenger side on NC gen",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Very low clearance. Soft top: never run straps over the roof."
+      }
+    }
+  ]
+}

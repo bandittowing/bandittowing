@@ -1,0 +1,702 @@
+{
+  "_copyright": {
+    "owner": "Bandit Towing & Transport",
+    "contact": "Justin Farley",
+    "email": "justin@bandittowing.com",
+    "website": "bandittowing.com",
+    "location": "Cary, NC",
+    "year": 2025,
+    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
+    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+  },
+  "_make": "Toyota",
+  "_count": 16,
+  "vehicles": [
+    {
+      "make": "Toyota",
+      "model": "Camry",
+      "yearStart": 2002,
+      "yearEnd": 2026,
+      "trans": "4-speed, 5-speed, 6-speed, 8-speed auto, or hybrid eCVT (varies by generation)",
+      "slot": "Small square cover BEHIND the gear selector (toward rear of console) — NOT at the base. Insert key VERTICALLY.",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find the small square cover BEHIND (toward rear of) the gear selector — NOT at the base.",
+        "Remove the cover — it may have a lock icon.",
+        "Insert ignition key VERTICALLY into the slot to push the plunger.",
+        "Hold key down.",
+        "Press the brake pedal firmly.",
+        "Move gear selector from Park to Neutral.",
+        "Replace cover."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
+      ],
+      "notes": "SLOT IS BEHIND THE SELECTOR — insert key VERTICALLY. Very common mistake.",
+      "warn": "",
+      "drivetrain": "FWD or AWD (2020+ select trims)",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [
+        {
+          "title": "Shift Lock Slot Is BEHIND the Selector — Not at Base",
+          "detail": "This is one of the most commonly misidentified shift lock locations in the field. The override slot on the Camry is located BEHIND the gear selector (toward the rear of the car), NOT at the front or side of the selector base. The slot is vertical — insert the key vertically, not at an angle. Many operators probe the wrong area and conclude the override isn't working."
+        }
+      ],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid: 12V only.",
+        "type": "standard-12v",
+        "warnings": "SHIFT LOCK SLOT IS BEHIND THE SELECTOR — not at the base. This is the #1 misidentified slot location in the field."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Corolla",
+      "yearStart": 2003,
+      "yearEnd": 2026,
+      "trans": "4-speed, 5-speed, CVT, or manual (varies)",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
+      ],
+      "notes": "Manual: clutch to N.",
+      "warn": "",
+      "drivetrain": "FWD or AWD (Cross/Corolla Cross)",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+        "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid: 12V only.",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "RAV4",
+      "yearStart": 2006,
+      "yearEnd": 2026,
+      "trans": "4-speed, 6-speed, 8-speed, or hybrid eCVT",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD/Hybrid/PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid/PHEV: 12V only.",
+        "type": "standard-12v",
+        "warnings": "Hybrid/PHEV: 12V only."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Tacoma",
+      "yearStart": 2005,
+      "yearEnd": 2026,
+      "trans": "5-speed, 6-speed, or 8-speed auto; manual available",
+      "slot": "Cap at side of console shifter (older) or electronic selector slot (4th gen 2024+)",
+      "shift": [
+        "Find cap/slot near shifter or selector. Remove cap if present.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "4WD optional. Manual: clutch to N.",
+      "warn": "4WD: transfer case to 2H.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2WD first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric push-button on dash — 2WD / 4H / 4L",
+        "positions": [
+          "2WD — rear wheels only — REQUIRED for all road towing",
+          "4H — part-time 4WD high range — under 55 MPH on loose surfaces only",
+          "4L — low range — stop required to engage, NEVER tow on road in 4L"
+        ],
+        "steps": [
+          "Slow to under 3 MPH.",
+          "Press the 2WD button on the dash.",
+          "Confirm the 2WD indicator on the instrument cluster.",
+          "Safe to lift rear wheels once confirmed in 2WD.",
+          "To exit 4L: stop completely, shift transmission to Neutral, then press 2WD button.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Tundra",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "4-speed, 6-speed, or 10-speed auto; hybrid eCVT (3rd gen 2022+)",
+      "slot": "Cap near console shifter (older) or electronic selector slot (newer)",
+      "shift": [
+        "Find cap/slot near shifter or selector. Remove cap if present.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
+      ],
+      "notes": "4WD optional.",
+      "warn": "4WD: transfer case.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2WD first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric push-button on center console — 2WD / 4H / 4L",
+        "positions": [
+          "2WD — rear wheels only — REQUIRED for all road towing",
+          "4WD Hi (4H) — part-time 4WD high range",
+          "4WD Lo (4L) — low range — NEVER tow on road in this position"
+        ],
+        "steps": [
+          "Slow under 3 MPH.",
+          "Press the 2WD button on the console.",
+          "Confirm 2WD indicator on instrument cluster.",
+          "Safe to lift rear wheels once confirmed in 2WD.",
+          "3rd gen (2022+) Hybrid: same TC procedure — also 12V only for jumping.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid: 12V only.",
+        "type": "standard-12v",
+        "warnings": "3rd gen (2022+) hybrid: 12V only."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "4Runner",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "5-speed or 6-speed automatic",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Turn ignition to ON.",
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "4WD standard.",
+      "warn": "4WD: transfer case to 2H before towing.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2H first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Manual floor lever (traditional T-case lever — 4Runner is one of few modern trucks with manual TC lever)",
+        "positions": [
+          "2H — rear wheels only — REQUIRED for all road towing",
+          "4H — part-time 4WD high range — under 50 MPH on loose surfaces",
+          "N — neutral",
+          "4L — low range — stop required, NEVER tow on road in 4L"
+        ],
+        "steps": [
+          "Stop completely or slow under 3 MPH for 2H/4H shift.",
+          "Shift the transmission to Neutral.",
+          "Move the TC floor lever firmly to the 2H position.",
+          "Confirm the 2H indicator lamp on the dash before lifting rear wheels.",
+          "To shift to 4L: stop completely, transmission in Neutral, move lever to 4L.",
+          "NEVER tow in 4L on pavement."
+        ]
+      },
+      "towNotes": [
+        "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": "Manual TC floor lever — stop completely before shifting."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Highlander",
+      "yearStart": 2001,
+      "yearEnd": 2026,
+      "trans": "4-speed, 5-speed, 6-speed, 8-speed, or hybrid eCVT",
+      "slot": "Cap near selector base",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
+      ],
+      "notes": "AWD optional.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid: 12V only.",
+        "type": "standard-12v",
+        "warnings": "Hybrid: 12V only."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Sienna",
+      "yearStart": 2004,
+      "yearEnd": 2026,
+      "trans": "5-speed, 6-speed, or hybrid eCVT (4th gen)",
+      "slot": "Cap near selector base",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for Hybrid). Shift normally or use slot."
+      ],
+      "notes": "FWD or AWD.",
+      "warn": "",
+      "drivetrain": "FWD or AWD",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD: flatbed only. 4th gen Sienna is Hybrid only — 12V only for jumping. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. Hybrid: 12V only.",
+        "type": "standard-12v",
+        "warnings": "4th gen (2021+) hybrid only: 12V only."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Prius (2nd Gen)",
+      "yearStart": 2004,
+      "yearEnd": 2009,
+      "trans": "CVT hybrid eCVT",
+      "slot": "JOYSTICK-TYPE selector — cap near joystick base on console",
+      "shift": [
+        "IMPORTANT: Prius uses a JOYSTICK selector, not a traditional lever.",
+        "Turn ignition to ON.",
+        "Find cap near joystick base on console. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move joystick to N."
+      ],
+      "neutral": [
+        "CRITICAL: 12V battery is in the TRUNK (cargo area, right side) — NOT under the hood.",
+        "Connect jump pack to 12V TRUNK battery ONLY. NEVER touch HV battery under rear seat.",
+        "Once powered, move joystick to N."
+      ],
+      "notes": "12V battery IN TRUNK. HV battery under rear seat — NEVER touch. Joystick selector.",
+      "warn": "",
+      "drivetrain": "FWD (hybrid)",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [
+        {
+          "title": "12V Battery in Trunk — Not Under Hood",
+          "detail": "The Prius 12V auxiliary battery is in the TRUNK (cargo area, right side under the panel) — NOT under the hood. Operators who open the hood and find no conventional battery are in the right place but wrong end of the car. Open the rear hatch and lift the cargo floor."
+        },
+        {
+          "title": "Never Access HV Battery Under Rear Seat",
+          "detail": "The Prius high-voltage hybrid battery is located under the rear seat. It is bright orange-labeled and extremely dangerous. ONLY use the 12V battery in the trunk for any jumping operations."
+        },
+        {
+          "title": "Joystick Gear Selector — No Traditional Lever",
+          "detail": "The Prius uses a joystick-style selector, not a traditional gear lever. The shift lock release is near the joystick base. Operators expecting a conventional shifter will not recognize it immediately."
+        }
+      ],
+      "battery": {
+        "location": "TRUNK — right side of cargo area under panel. NOT under the hood.",
+        "jumpTerminals": "In the trunk: lift right cargo panel to expose 12V battery. Red (+) / Black (−) directly on battery.",
+        "type": "auxiliary-12v-only",
+        "warnings": "Operators who open the hood find no battery. It is IN THE TRUNK. NEVER touch HV battery under rear seat."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Prius (3rd Gen)",
+      "yearStart": 2010,
+      "yearEnd": 2015,
+      "trans": "CVT hybrid eCVT",
+      "slot": "JOYSTICK selector — cap near joystick base",
+      "shift": [
+        "Prius uses a JOYSTICK selector.",
+        "Find cap near joystick base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move joystick to N."
+      ],
+      "neutral": [
+        "12V battery IN TRUNK (cargo area, right side).",
+        "Connect jump pack to trunk 12V battery ONLY.",
+        "Once powered, move joystick to N."
+      ],
+      "notes": "12V battery IN TRUNK.",
+      "warn": "",
+      "drivetrain": "FWD (hybrid)",
+      "towMethod": "Lift from rear (front/drive wheels roll on ground) or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [
+        {
+          "title": "12V Battery in Trunk",
+          "detail": "Same as 2nd gen — 12V battery is in the trunk cargo area on the right side under a panel. Not under the hood."
+        },
+        {
+          "title": "Never Access HV Battery Under Rear Seat",
+          "detail": "HV battery under rear seat — never touch. Only the trunk 12V battery for jumping."
+        }
+      ],
+      "battery": {
+        "location": "TRUNK — right side of cargo area under panel. NOT under the hood.",
+        "jumpTerminals": "In trunk: lift right cargo panel. Red (+) / Black (−) on battery.",
+        "type": "auxiliary-12v-only",
+        "warnings": "Trunk battery. NEVER touch HV battery under rear seat."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Prius (4th Gen)",
+      "yearStart": 2016,
+      "yearEnd": 2023,
+      "trans": "CVT hybrid eCVT",
+      "slot": "JOYSTICK selector — cap near joystick base",
+      "shift": [
+        "Prius uses a JOYSTICK selector.",
+        "Find cap near joystick base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move joystick to N."
+      ],
+      "neutral": [
+        "12V battery IN TRUNK (right side under floor panel).",
+        "Connect jump pack to trunk 12V battery.",
+        "Once powered, move joystick to N."
+      ],
+      "notes": "Prius Prime PHEV: same trunk battery.",
+      "warn": "",
+      "drivetrain": "FWD or AWD-e (hybrid)",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD-e: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [
+        {
+          "title": "12V Battery in Trunk",
+          "detail": "12V battery is under the cargo floor in the trunk on the right side. Not under the hood. Prius Prime PHEV: same trunk battery location."
+        },
+        {
+          "title": "AWD-e Models — Flatbed Only",
+          "detail": "4th gen Prius with AWD-e has a rear electric motor that cannot be disabled. AWD-e variants are FLATBED ONLY."
+        }
+      ],
+      "battery": {
+        "location": "TRUNK — under cargo floor on right side. Prius Prime: same.",
+        "jumpTerminals": "In trunk: lift cargo floor panel. Red (+) / Black (−) on battery.",
+        "type": "auxiliary-12v-only",
+        "warnings": "Trunk battery. NEVER touch HV battery under rear seat. AWD-e models: flatbed only."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Prius (5th Gen)",
+      "yearStart": 2023,
+      "yearEnd": 2026,
+      "trans": "CVT hybrid eCVT",
+      "slot": "Electronic selector — cap near selector base",
+      "shift": [
+        "Find cap near electronic selector. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "12V battery IN TRUNK.",
+        "Connect jump pack to trunk battery.",
+        "Once powered, shift normally or use slot."
+      ],
+      "notes": "",
+      "warn": "",
+      "drivetrain": "FWD or AWD-e (hybrid)",
+      "towMethod": "FWD: lift from rear — front (drive) wheels roll on ground. AWD-e: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "FWD: Lift from REAR. Front (drive) wheels stay on the ground and roll freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "TRUNK — under cargo floor",
+        "jumpTerminals": "In trunk: lift cargo floor. Red (+) / Black (−) on battery.",
+        "type": "auxiliary-12v-only",
+        "warnings": "Trunk battery. Never touch HV battery."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Land Cruiser",
+      "yearStart": 2000,
+      "yearEnd": 2026,
+      "trans": "4-speed, 6-speed, or 10-speed automatic",
+      "slot": "Cap near selector base on console",
+      "shift": [
+        "Find cap near selector base. Pry off.",
+        "Insert key, press down.",
+        "Press brake. Move to N.",
+        "Replace cap."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "4WD standard. Large luxury 4WD.",
+      "warn": "4WD: transfer case.",
+      "drivetrain": "4WD (full-time with 2WD option, standard)",
+      "towMethod": "Transfer case to H2 (2WD) first, then lift from front (rear/drive wheels roll on ground), or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric push-button on dash — H2 / H4 / L4",
+        "positions": [
+          "H2 — 2WD rear wheels only — REQUIRED for road towing",
+          "H4 — 4WD high range (standard driving mode)",
+          "L4 — 4WD low range — NEVER tow on road in this position"
+        ],
+        "steps": [
+          "Stop or slow under 25 MPH.",
+          "Press the H2 button on the dash.",
+          "Confirm the H2 indicator lamp illuminates.",
+          "Safe to lift rear wheels once confirmed in H2.",
+          "Shift back to H4 after towing is complete.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpTerminals": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warnings": ""
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Sequoia",
+      "yearStart": 2001,
+      "yearEnd": 2026,
+      "trans": "4-speed, 6-speed, 10-speed, or hybrid eCVT",
+      "slot": "Cap near selector base (older) or electronic selector slot (newer)",
+      "shift": [
+        "Find cap/slot near selector. Remove cap if present.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack (12V only for 3rd gen Hybrid). Shift normally or use slot."
+      ],
+      "notes": "4WD optional.",
+      "warn": "4WD: transfer case.",
+      "drivetrain": "RWD or 4WD (part-time)",
+      "towMethod": "RWD/2WD: lift from front — rear (drive) wheels roll on ground. 4WD: transfer case to 2WD first, then lift from front (rear/drive wheels roll on ground). Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": {
+        "type": "Electric push-button on center console — 2WD / 4H / 4L",
+        "positions": [
+          "2WD — rear wheels only — REQUIRED for road towing",
+          "4WD Hi — part-time 4WD high range",
+          "4WD Lo — low range — NEVER tow on road"
+        ],
+        "steps": [
+          "Slow under 3 MPH.",
+          "Press the 2WD button on the console.",
+          "Confirm 2WD indicator.",
+          "Safe to lift rear wheels.",
+          "3rd gen (2023+) Hybrid: same TC procedure — 12V only for jumping.",
+          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
+        ]
+      },
+      "towNotes": [
+        "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
+        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood",
+        "jumpTerminals": "Under hood — standard terminals. 3rd gen Hybrid: 12V only.",
+        "type": "standard-12v",
+        "warnings": "3rd gen hybrid: 12V only."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Supra (A90)",
+      "yearStart": 2020,
+      "yearEnd": 2026,
+      "trans": "8-speed automatic ZF 8HP",
+      "slot": "Electronic selector — slot near selector base",
+      "shift": [
+        "Ignition to ON.",
+        "Find slot near electronic selector.",
+        "Insert key, press down.",
+        "Press brake. Move to N."
+      ],
+      "neutral": [
+        "Apply parking brake.",
+        "Battery under hood.",
+        "Connect jump pack. Shift normally or use slot."
+      ],
+      "notes": "Shared platform with BMW Z4. RWD.",
+      "warn": "Low clearance — flatbed preferred.",
+      "drivetrain": "RWD",
+      "towMethod": "Lift from front (rear/drive wheels roll on ground) or flatbed — low clearance, flatbed preferred. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "tc": null,
+      "towNotes": [
+        "RWD: Lift from FRONT. Rear (drive) wheels stay on the ground and roll freely. If front-lift is not possible, place wheel dollies under the FRONT wheels and tow rear-first.",
+        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood (shared BMW platform)",
+        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warnings": "BMW Z4 shared platform. Use hood terminals. Low clearance — flatbed preferred."
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "bZ4X",
+      "yearStart": 2023,
+      "yearEnd": 2026,
+      "trans": "Single-speed electric",
+      "slot": "Electronic selector — slot near selector base",
+      "shift": [
+        "WITH POWER: Press brake. Select N.",
+        "WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."
+      ],
+      "neutral": [
+        "12V battery under hood.",
+        "Connect jump pack to 12V ONLY.",
+        "Once powered, select N."
+      ],
+      "notes": "Shared platform with Subaru Solterra.",
+      "warn": "FLATBED ONLY.",
+      "drivetrain": "FWD or AWD (electric)",
+      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "tc": null,
+      "towNotes": [
+        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers.",
+        "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common."
+      ],
+      "knownIssues": [],
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warnings": "NEVER touch HV battery. Flatbed only."
+      }
+    }
+  ]
+}

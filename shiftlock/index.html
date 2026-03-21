@@ -945,10 +945,20 @@ const dbStatus = document.getElementById('db-status');
 
 async function loadDB() {
   try {
-    const res = await fetch('vehicles.json');
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const data = await res.json();
-    DB = data.vehicles || data;
+    // Load manifest first, then fetch all make files in parallel
+    const manifestRes = await fetch('makes/manifest.json');
+    if (!manifestRes.ok) throw new Error('HTTP ' + manifestRes.status);
+    const manifest = await manifestRes.json();
+
+    const results = await Promise.all(
+      manifest.makes.map(m =>
+        fetch('makes/' + m.file)
+          .then(r => r.ok ? r.json() : Promise.reject('Failed: ' + m.file))
+          .then(data => data.vehicles || [])
+      )
+    );
+
+    DB = results.flat();
     dbStatus.style.display = 'none';
     initYears();
   } catch(e) {
