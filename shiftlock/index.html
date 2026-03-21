@@ -947,7 +947,8 @@ async function loadDB() {
   try {
     const res = await fetch('vehicles.json');
     if (!res.ok) throw new Error('HTTP ' + res.status);
-    DB = await res.json();
+    const data = await res.json();
+    DB = data.vehicles || data;
     dbStatus.style.display = 'none';
     initYears();
   } catch(e) {
