@@ -21,9 +21,9 @@
       "fuelType": "gasoline",
       "trans": "6-speed or 10-speed SelectShift automatic",
       "drivetrain": "RWD or 4WD (part-time, Torque on Demand)",
-      "curbWeight": "5,685\u20136,056 lbs (varies by wheelbase/drivetrain)",
-      "gvwr": "7,300\u20137,600 lbs",
-      "slot": "Below media hub in center console storage bin \u2014 small access hole",
+      "curbWeight": "5,685–6,056 lbs (varies by wheelbase/drivetrain)",
+      "gvwr": "7,300–7,600 lbs",
+      "slot": "Below media hub in center console storage bin — small access hole",
       "shift": [
         "Open center console storage bin lid.",
         "Locate small override hole below the media hub/USB ports.",
@@ -34,7 +34,7 @@
       "neutral": [
         "Apply parking brake.",
         "12V battery is under hood on passenger side near windshield base.",
-        "Connect jump pack to under-hood terminals (red +, black \u2212).",
+        "Connect jump pack to under-hood terminals (red +, black −).",
         "Once power is restored, use override hole + N button procedure above.",
         "Confirm N before lifting."
       ],
@@ -44,10 +44,10 @@
       "tc": {
         "type": "Electronic Torque on Demand (part-time 4WD, push-button on dash)",
         "positions": [
-          "2WD \u2014 REQUIRED for all road towing",
-          "4WD Auto \u2014 NOT safe for towing",
-          "4WD High \u2014 NOT safe for dry road towing",
-          "4WD Low \u2014 NEVER tow in this position"
+          "2WD — REQUIRED for all road towing",
+          "4WD Auto — NOT safe for towing",
+          "4WD High — NOT safe for dry road towing",
+          "4WD Low — NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH.",
@@ -59,7 +59,7 @@
       "towNotes": [
         "ELECTRONIC TC requires 12V power. Jump battery first if dead.",
         "If TC cannot be confirmed in 2WD, USE FLATBED.",
-        "Very heavy vehicle \u2014 confirm tow truck capacity before lifting."
+        "Very heavy vehicle — confirm tow truck capacity before lifting."
       ],
       "epb": {
         "equipped": false,
@@ -70,15 +70,15 @@
         "equipped": true,
         "description": "Lincoln Air Glide suspension (optional on some trims). Self-leveling. Automatically adjusts under load.",
         "towingNotes": [
-          "Air suspension self-levels and maintains stance \u2014 no special towing procedure required.",
+          "Air suspension self-levels and maintains stance — no special towing procedure required.",
           "Do NOT disable air suspension before loading on flatbed.",
-          "If suspension is failed/deflated, notify flatbed operator \u2014 vehicle will be lower than normal."
+          "If suspension is failed/deflated, notify flatbed operator — vehicle will be lower than normal."
         ]
       },
-      "steeringLock": "Electronic steering lock. Releases with ignition ON. Will lock when ignition is removed \u2014 use tow dolly or flatbed to avoid binding.",
+      "steeringLock": "Electronic steering lock. Releases with ignition ON. Will lock when ignition is removed — use tow dolly or flatbed to avoid binding.",
       "battery": {
         "location": "Under hood, passenger side near windshield base",
-        "jumpTerminals": "Under hood \u2014 standard red (+) / black (\u2212) terminals",
+        "jumpTerminals": "Under hood — standard red (+) / black (−) terminals",
         "type": "standard-12v",
         "warnings": "4WD: confirm TC in 2WD before wheel-lift."
       },
@@ -98,9 +98,9 @@
       "fuelType": "gasoline",
       "trans": "10-speed SelectShift automatic (or Grand Touring PHEV)",
       "drivetrain": "RWD or AWD",
-      "curbWeight": "4,745\u20135,673 lbs (RWD to AWD Grand Touring PHEV)",
-      "gvwr": "Not published \u2014 check door jamb label",
-      "slot": "Below media hub in center console storage bin \u2014 small access hole",
+      "curbWeight": "4,745–5,673 lbs (RWD to AWD Grand Touring PHEV)",
+      "gvwr": "Not published — check door jamb label",
+      "slot": "Below media hub in center console storage bin — small access hole",
       "shift": [
         "Open center console storage bin lid.",
         "Find override hole below the media hub.",
@@ -113,16 +113,16 @@
         "12V battery under hood, passenger side.",
         "Connect jump pack. Restore power.",
         "Use override hole + N button above.",
-        "PHEV: use 12V auxiliary only \u2014 NEVER touch high-voltage system."
+        "PHEV: use 12V auxiliary only — NEVER touch high-voltage system."
       ],
-      "notes": "Grand Touring PHEV: orange HV cables present \u2014 12V auxiliary only for jump.",
+      "notes": "Grand Touring PHEV: orange HV cables present — 12V auxiliary only for jump.",
       "warn": "AWD: FLATBED ONLY. PHEV: never touch HV battery.",
       "towMethod": "AWD: FLATBED ONLY. RWD: lift from front (rear drive wheels roll). PHEV models: FLATBED ONLY regardless of drivetrain.",
       "tc": null,
       "towNotes": [
-        "AWD system does not have a neutral for the transfer case \u2014 flatbed mandatory.",
+        "AWD system does not have a neutral for the transfer case — flatbed mandatory.",
         "PHEV Grand Touring: orange HV wiring present. 12V auxiliary jump only.",
-        "PHEV is significantly heavier than gas model \u2014 verify flatbed capacity."
+        "PHEV is significantly heavier than gas model — verify flatbed capacity."
       ],
       "epb": {
         "equipped": false,
@@ -133,7 +133,7 @@
       "steeringLock": "Electronic steering lock. Will engage without ignition power.",
       "battery": {
         "location": "Under hood, passenger side",
-        "jumpTerminals": "Under hood \u2014 standard terminals. PHEV: 12V auxiliary only.",
+        "jumpTerminals": "Under hood — standard terminals. PHEV: 12V auxiliary only.",
         "type": "standard-12v",
         "warnings": "PHEV: NEVER touch HV battery. AWD: flatbed only."
       },
@@ -148,8 +148,8 @@
       "fuelType": "gasoline",
       "trans": "6-speed or 8-speed SelectShift automatic",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "4,007\u20134,350 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
+      "curbWeight": "4,007–4,350 lbs",
+      "gvwr": "Not published — check door jamb",
       "slot": "Small plastic cap near base of gear selector on center console",
       "shift": [
         "Turn ignition to ON.",
@@ -162,14 +162,14 @@
         "Apply parking brake.",
         "Battery under hood.",
         "Connect jump pack. Shift normally or use slot.",
-        "AWD: flatbed required \u2014 do not wheel-lift."
+        "AWD: flatbed required — do not wheel-lift."
       ],
       "notes": "Earlier MKX (2007-2015) uses traditional shift slot. 2016+ Nautilus has electronic selector.",
       "warn": "AWD: flatbed only.",
       "towMethod": "FWD: lift from rear (front drive wheels roll). AWD: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "AWD system has no TC neutral \u2014 flatbed required.",
+        "AWD system has no TC neutral — flatbed required.",
         "FWD: rear lift, front (drive) wheels roll freely."
       ],
       "epb": {
@@ -181,7 +181,7 @@
       "steeringLock": "Standard key or electronic steering lock.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "AWD: flatbed only."
       },
@@ -196,9 +196,9 @@
       "fuelType": "gasoline",
       "trans": "6-speed SelectShift automatic or hybrid eCVT",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "3,653\u20133,911 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "Below media hub in center console storage bin \u2014 same as Navigator",
+      "curbWeight": "3,653–3,911 lbs",
+      "gvwr": "Not published — check door jamb",
+      "slot": "Below media hub in center console storage bin — same as Navigator",
       "shift": [
         "Open center console bin.",
         "Find override hole below media hub.",
@@ -211,7 +211,7 @@
         "Battery under hood.",
         "Connect jump pack. Restore power.",
         "Use override procedure above.",
-        "Hybrid: 12V only \u2014 never touch IMA/HV battery."
+        "Hybrid: 12V only — never touch IMA/HV battery."
       ],
       "notes": "Hybrid eCVT equipped trims: 12V auxiliary jump only.",
       "warn": "AWD: flatbed only. Hybrid: 12V only.",
@@ -230,7 +230,7 @@
       "steeringLock": "Electronic steering lock on push-button start models.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "Hybrid: 12V auxiliary only."
       },
@@ -245,8 +245,8 @@
       "fuelType": "gasoline",
       "trans": "6-speed SelectShift automatic",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "4,044\u20134,253 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
+      "curbWeight": "4,044–4,253 lbs",
+      "gvwr": "Not published — check door jamb",
       "slot": "Small override hole below electronic shifter in center console",
       "shift": [
         "Open center console area.",
@@ -267,7 +267,7 @@
       "towMethod": "FWD: lift from rear. AWD: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "Secondary battery may be in trunk \u2014 always jump from under-hood terminals.",
+        "Secondary battery may be in trunk — always jump from under-hood terminals.",
         "AWD: flatbed mandatory."
       ],
       "epb": {
@@ -279,7 +279,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood (primary). Possible secondary in trunk right side.",
-        "jumpTerminals": "Under hood \u2014 use hood terminals, NOT trunk battery for jumping",
+        "jumpTerminals": "Under hood — use hood terminals, NOT trunk battery for jumping",
         "type": "standard-12v",
         "warnings": "Always jump from under-hood terminals. AWD: flatbed only."
       },
@@ -294,9 +294,9 @@
       "fuelType": "gasoline",
       "trans": "6-speed or 8-speed SelectShift automatic",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "3,665\u20134,033 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "Below media hub in center console \u2014 same override hole as other Lincoln models",
+      "curbWeight": "3,665–4,033 lbs",
+      "gvwr": "Not published — check door jamb",
+      "slot": "Below media hub in center console — same override hole as other Lincoln models",
       "shift": [
         "Open center console storage bin.",
         "Find override hole below USB/media hub area.",
@@ -312,13 +312,13 @@
         "Use override procedure above.",
         "AWD: flatbed required."
       ],
-      "notes": "Compact crossover. AWD has no TC neutral \u2014 flatbed only for AWD.",
+      "notes": "Compact crossover. AWD has no TC neutral — flatbed only for AWD.",
       "warn": "AWD: flatbed only.",
       "towMethod": "FWD: lift from rear (front drive wheels roll). AWD: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "AWD: no transfer case neutral \u2014 flatbed mandatory.",
-        "Compact vehicle \u2014 front access can be tight."
+        "AWD: no transfer case neutral — flatbed mandatory.",
+        "Compact vehicle — front access can be tight."
       ],
       "epb": {
         "equipped": false,
@@ -329,7 +329,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood (primary). Secondary battery access under spare tire in rear.",
-        "jumpTerminals": "Under hood \u2014 red rubber boot on positive terminal",
+        "jumpTerminals": "Under hood — red rubber boot on positive terminal",
         "type": "standard-12v",
         "warnings": "AWD: flatbed only."
       },

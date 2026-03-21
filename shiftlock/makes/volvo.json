@@ -21,14 +21,14 @@
       "fuelType": "gasoline",
       "trans": "4-speed or 6-speed automatic (Aisin)",
       "drivetrain": "AWD (Haldex angle gear)",
-      "curbWeight": "4,564\u20134,740 lbs",
+      "curbWeight": "4,564–4,740 lbs",
       "gvwr": "6,008 lbs",
-      "slot": "Lift rubber mat in storage compartment BEHIND center console \u2014 two access holes",
+      "slot": "Lift rubber mat in storage compartment BEHIND center console — two access holes",
       "shift": [
         "Lift the rubber mat in the storage tray BEHIND the center console shifter.",
         "Two holes are exposed. Insert a screwdriver into the correct hole.",
         "Pull the shifter trigger while pushing the selector toward Neutral.",
-        "Alternatively: remove the air cleaner box under hood and disconnect the cable from the transmission shift lever \u2014 two clicks equals Neutral.",
+        "Alternatively: remove the air cleaner box under hood and disconnect the cable from the transmission shift lever — two clicks equals Neutral.",
         "Confirm N before moving vehicle."
       ],
       "neutral": [
@@ -38,14 +38,14 @@
         "Use rubber mat / access hole method above.",
         "AWD: flatbed strongly recommended."
       ],
-      "notes": "Slot is BEHIND the shifter, under rubber mat in storage tray \u2014 not at the shifter base.",
-      "warn": "AWD Haldex angle gear \u2014 flatbed strongly preferred. Do not wheel-lift without flatbed.",
+      "notes": "Slot is BEHIND the shifter, under rubber mat in storage tray — not at the shifter base.",
+      "warn": "AWD Haldex angle gear — flatbed strongly preferred. Do not wheel-lift without flatbed.",
       "towMethod": "AWD: FLATBED STRONGLY PREFERRED. If wheel-lift required: rear lift only, short distance, slow speed. Haldex damage risk is high with prolonged wheel-lift.",
       "tc": null,
       "towNotes": [
         "Haldex AWD angle gear is easily damaged by improper towing. Flatbed always preferred.",
         "If wheel-lift must be used: rear lift, under 35 mph, under 35 miles.",
-        "Parking brake electronic issues reported \u2014 confirm brake functionality."
+        "Parking brake electronic issues reported — confirm brake functionality."
       ],
       "epb": {
         "equipped": false,
@@ -56,7 +56,7 @@
       "steeringLock": "Key-operated steering lock. Standard.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "AWD: flatbed strongly preferred."
       },
@@ -76,9 +76,9 @@
       "fuelType": "gasoline",
       "trans": "8-speed automatic (Aisin) or T8 PHEV",
       "drivetrain": "AWD (rear electric motor on T8)",
-      "curbWeight": "4,409\u20135,423 lbs (T8 PHEV heavier)",
+      "curbWeight": "4,409–5,423 lbs (T8 PHEV heavier)",
       "gvwr": "6,008 lbs",
-      "slot": "Console storage tray BEHIND shifter \u2014 two holes under rubber mat (same as 2003-2014)",
+      "slot": "Console storage tray BEHIND shifter — two holes under rubber mat (same as 2003-2014)",
       "shift": [
         "Lift rubber mat in storage tray BEHIND shifter.",
         "Insert screwdriver into override hole.",
@@ -90,16 +90,16 @@
         "12V battery under hood. 48V mild-hybrid: DO NOT touch 48V battery.",
         "Connect jump pack to 12V under-hood terminals ONLY.",
         "Restore power, then use override procedure above.",
-        "T8 PHEV: 12V only \u2014 never touch orange HV cables or HV battery."
+        "T8 PHEV: 12V only — never touch orange HV cables or HV battery."
       ],
       "notes": "48V mild-hybrid on some trims. T8 PHEV: orange HV system present.",
-      "warn": "48V: NEVER use 48V battery to jump \u2014 lethal voltage. T8 PHEV: HV system present.",
+      "warn": "48V: NEVER use 48V battery to jump — lethal voltage. T8 PHEV: HV system present.",
       "towMethod": "AWD: FLATBED ONLY for T8 PHEV and Recharge. Standard AWD: flatbed strongly preferred.",
       "tc": null,
       "towNotes": [
         "48V MILD-HYBRID: Never jump from the 48V support battery. 12V only.",
-        "T8 PHEV: FLATBED ONLY. Orange cables indicate HV system \u2014 do not touch.",
-        "AWD angle gear damage risk with wheel-lift \u2014 flatbed always preferred."
+        "T8 PHEV: FLATBED ONLY. Orange cables indicate HV system — do not touch.",
+        "AWD angle gear damage risk with wheel-lift — flatbed always preferred."
       ],
       "epb": {
         "equipped": true,
@@ -115,10 +115,10 @@
       "airSuspension": null,
       "steeringLock": "Electronic steering lock. Requires ignition power.",
       "battery": {
-        "location": "Under hood (12V). 48V support battery separate \u2014 never jump from 48V.",
-        "jumpTerminals": "Under hood \u2014 12V terminals only. NEVER use 48V system.",
+        "location": "Under hood (12V). 48V support battery separate — never jump from 48V.",
+        "jumpTerminals": "Under hood — 12V terminals only. NEVER use 48V system.",
         "type": "standard-12v",
-        "warnings": "48V mild-hybrid: lethal voltage \u2014 never jump from 48V. T8 PHEV: 12V auxiliary only, never touch HV."
+        "warnings": "48V mild-hybrid: lethal voltage — never jump from 48V. T8 PHEV: 12V auxiliary only, never touch HV."
       },
       "knownIssues": [
         {
@@ -136,9 +136,9 @@
       "fuelType": "gasoline",
       "trans": "6-speed automatic or 8-speed automatic (2018+); T8 PHEV available",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "3,901\u20134,662 lbs",
-      "gvwr": "5,511\u20135,732 lbs",
-      "slot": "Center console near shifter base \u2014 cap or access hole under rubber mat",
+      "curbWeight": "3,901–4,662 lbs",
+      "gvwr": "5,511–5,732 lbs",
+      "slot": "Center console near shifter base — cap or access hole under rubber mat",
       "shift": [
         "Locate cap or access point near selector base or under rubber mat behind shifter.",
         "Remove cap / lift mat.",
@@ -152,22 +152,22 @@
         "Use engine compartment charging terminals (marked + with cover) for jumping.",
         "Negative at right engine mount outer screw or grounding bolt.",
         "Restore power, shift normally or use override.",
-        "T8 PHEV: 12V only \u2014 never touch HV system."
+        "T8 PHEV: 12V only — never touch HV system."
       ],
-      "notes": "Battery often in trunk \u2014 ALWAYS use engine compartment jump terminals, not trunk battery directly.",
-      "warn": "AWD: flatbed preferred. Battery in trunk \u2014 use engine compartment terminals.",
+      "notes": "Battery often in trunk — ALWAYS use engine compartment jump terminals, not trunk battery directly.",
+      "warn": "AWD: flatbed preferred. Battery in trunk — use engine compartment terminals.",
       "towMethod": "FWD: lift from rear (front drive wheels roll). AWD: flatbed preferred. T8 PHEV AWD: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "Battery under cargo floor \u2014 never jump directly at trunk battery. Use engine compartment posts.",
+        "Battery under cargo floor — never jump directly at trunk battery. Use engine compartment posts.",
         "AWD Haldex: flatbed preferred to avoid angle gear damage.",
-        "T8 PHEV: flatbed only \u2014 regenerative braking and HV system."
+        "T8 PHEV: flatbed only — regenerative braking and HV system."
       ],
       "epb": {
         "equipped": true,
         "override": "Connect 12V to engine compartment terminals to restore power, then release EPB via button. Manual release requires T40 Torx at rear calipers.",
         "steps": [
-          "Connect jump pack to engine compartment charging terminals (+ marked, \u2212 at engine mount).",
+          "Connect jump pack to engine compartment charging terminals (+ marked, − at engine mount).",
           "Power up system.",
           "Press and hold EPB button to release.",
           "Manual: T40 Torx to retract rear caliper pistons if no power available."
@@ -179,11 +179,11 @@
         "location": "TRUNK under cargo floor panel (most models). Engine compartment has jump terminals.",
         "jumpTerminals": "Engine compartment: positive under plastic cover marked '+'; negative at right engine mount outer screw",
         "type": "standard-12v",
-        "warnings": "NEVER jump at trunk battery directly \u2014 use engine compartment terminals. T8 PHEV: 12V only."
+        "warnings": "NEVER jump at trunk battery directly — use engine compartment terminals. T8 PHEV: 12V only."
       },
       "knownIssues": [
         {
-          "title": "Battery Is in Trunk \u2014 Use Engine Compartment Terminals",
+          "title": "Battery Is in Trunk — Use Engine Compartment Terminals",
           "detail": "The main 12V battery on most XC60 models is under the cargo floor in the trunk. Do NOT attempt to jump directly at the trunk battery. Volvo provides dedicated jump-start terminals in the engine compartment (positive post with cover, negative at engine mount bolt). Always use these terminals."
         }
       ]
@@ -197,8 +197,8 @@
       "fuelType": "gasoline",
       "trans": "7-speed or 8-speed automatic; Recharge: single-speed electric",
       "drivetrain": "FWD or AWD; Recharge: AWD electric",
-      "curbWeight": "3,627\u20134,508 lbs (Recharge heavier)",
-      "gvwr": "Not published \u2014 check door jamb",
+      "curbWeight": "3,627–4,508 lbs (Recharge heavier)",
+      "gvwr": "Not published — check door jamb",
       "slot": "Electronic selector with mechanical override near console base",
       "shift": [
         "Locate mechanical override near selector base.",
@@ -211,15 +211,15 @@
         "Battery in engine compartment (gas) or frunk/under hood (Recharge).",
         "Connect 12V jump pack to engine compartment terminals.",
         "Restore power. Shift normally or use override.",
-        "Recharge: 12V auxiliary only \u2014 NEVER touch HV battery."
+        "Recharge: 12V auxiliary only — NEVER touch HV battery."
       ],
       "notes": "Recharge (EV): FLATBED ONLY. 12V auxiliary under hood.",
       "warn": "Recharge EV: FLATBED ONLY. Never tow with driven wheels on ground.",
       "towMethod": "Gas AWD: flatbed preferred. Gas FWD: rear lift. Recharge EV: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "Recharge EV: flatbed only \u2014 electric motors damaged by rolling on ground.",
-        "Gas AWD: Haldex system \u2014 flatbed preferred.",
+        "Recharge EV: flatbed only — electric motors damaged by rolling on ground.",
+        "Gas AWD: Haldex system — flatbed preferred.",
         "Use engine compartment jump terminals on all models."
       ],
       "epb": {
@@ -235,9 +235,9 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Engine compartment (gas). Under hood (Recharge EV).",
-        "jumpTerminals": "Engine compartment \u2014 marked + and \u2212",
+        "jumpTerminals": "Engine compartment — marked + and −",
         "type": "standard-12v",
-        "warnings": "Recharge EV: flatbed only. 12V auxiliary only \u2014 never touch HV."
+        "warnings": "Recharge EV: flatbed only. 12V auxiliary only — never touch HV."
       },
       "knownIssues": []
     },
@@ -250,9 +250,9 @@
       "fuelType": "gasoline",
       "trans": "6-speed or 8-speed automatic; T8 PHEV available",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "3,527\u20134,167 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "Center console \u2014 access point near shifter base or under rubber mat behind shifter",
+      "curbWeight": "3,527–4,167 lbs",
+      "gvwr": "Not published — check door jamb",
+      "slot": "Center console — access point near shifter base or under rubber mat behind shifter",
       "shift": [
         "Locate override slot at shifter base or lift rubber mat in tray behind shifter.",
         "Insert key, press plunger.",
@@ -262,24 +262,24 @@
       "neutral": [
         "Apply parking brake.",
         "Battery in TRUNK under floor panel (primary). Stop-start models may have second battery.",
-        "Use engine compartment jump terminals \u2014 positive under small black plastic cover marked '+'; negative at fuse box area.",
+        "Use engine compartment jump terminals — positive under small black plastic cover marked '+'; negative at fuse box area.",
         "Restore power. Shift normally or use slot.",
         "T8 PHEV: 12V only."
       ],
-      "notes": "Stop-start equipped models may have dual 12V batteries. Battery in trunk \u2014 use engine compartment terminals.",
-      "warn": "Battery in trunk \u2014 always use engine compartment jump terminals. AWD: flatbed preferred.",
+      "notes": "Stop-start equipped models may have dual 12V batteries. Battery in trunk — use engine compartment terminals.",
+      "warn": "Battery in trunk — always use engine compartment jump terminals. AWD: flatbed preferred.",
       "towMethod": "FWD: lift from rear (front drive wheels roll). AWD: flatbed preferred.",
       "tc": null,
       "towNotes": [
-        "Battery in trunk \u2014 never jump at trunk battery directly.",
-        "Dual battery on stop-start models \u2014 engine compartment terminals handle both.",
-        "AWD: Haldex \u2014 flatbed preferred."
+        "Battery in trunk — never jump at trunk battery directly.",
+        "Dual battery on stop-start models — engine compartment terminals handle both.",
+        "AWD: Haldex — flatbed preferred."
       ],
       "epb": {
         "equipped": true,
         "override": "Restore 12V via engine compartment terminals, then EPB button. Manual T40 Torx at rear calipers.",
         "steps": [
-          "Connect jump pack to engine compartment terminals (+/\u2212).",
+          "Connect jump pack to engine compartment terminals (+/−).",
           "Press and hold EPB button to release.",
           "Manual fallback: T40 Torx at rear EPB caliper actuators."
         ]
@@ -290,7 +290,7 @@
         "location": "TRUNK under floor panel. Engine compartment has jump terminals.",
         "jumpTerminals": "Engine compartment: small cover marked '+'; negative at fuse box area",
         "type": "standard-12v",
-        "warnings": "Always use engine compartment terminals \u2014 not trunk battery directly. T8 PHEV: 12V only."
+        "warnings": "Always use engine compartment terminals — not trunk battery directly. T8 PHEV: 12V only."
       },
       "knownIssues": []
     },
@@ -303,9 +303,9 @@
       "fuelType": "gasoline",
       "trans": "8-speed automatic (Aisin); T8 PHEV available",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "3,946\u20134,387 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "Modern electronic shifter \u2014 mechanical emergency release under console",
+      "curbWeight": "3,946–4,387 lbs",
+      "gvwr": "Not published — check door jamb",
+      "slot": "Modern electronic shifter — mechanical emergency release under console",
       "shift": [
         "Press brake pedal.",
         "Use electronic shifter to select N.",
@@ -317,14 +317,14 @@
         "Battery in TRUNK under floor (primary).",
         "Connect jump pack at engine compartment terminals (positive marked '+', negative at mount).",
         "Restore power. Shift normally.",
-        "T8 PHEV: 12V only \u2014 never touch HV system."
+        "T8 PHEV: 12V only — never touch HV system."
       ],
-      "notes": "Electronic systems require power for all functions. Battery in trunk \u2014 engine compartment terminals mandatory.",
-      "warn": "AWD: flatbed preferred. Battery in trunk \u2014 use engine compartment terminals.",
+      "notes": "Electronic systems require power for all functions. Battery in trunk — engine compartment terminals mandatory.",
+      "warn": "AWD: flatbed preferred. Battery in trunk — use engine compartment terminals.",
       "towMethod": "FWD: lift from rear. AWD: flatbed preferred. T8 AWD: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "Fully electronic steering and shifting \u2014 requires power for safe operation.",
+        "Fully electronic steering and shifting — requires power for safe operation.",
         "T8 PHEV AWD: flatbed only."
       ],
       "epb": {
@@ -337,10 +337,10 @@
         ]
       },
       "airSuspension": null,
-      "steeringLock": "Electronic steering lock \u2014 requires ignition power.",
+      "steeringLock": "Electronic steering lock — requires ignition power.",
       "battery": {
         "location": "TRUNK under floor panel (primary). Engine compartment has jump terminals.",
-        "jumpTerminals": "Engine compartment \u2014 positive under cover marked '+'; negative at engine mount",
+        "jumpTerminals": "Engine compartment — positive under cover marked '+'; negative at engine mount",
         "type": "standard-12v",
         "warnings": "Always use engine compartment terminals. T8 PHEV: 12V only."
       },

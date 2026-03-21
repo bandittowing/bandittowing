@@ -21,31 +21,30 @@
       "fuelType": "gasoline",
       "trans": "5-speed automatic or 6-speed manual",
       "drivetrain": "FWD",
-      "curbWeight": "2,363\u20132,513 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
+      "curbWeight": "2,363–2,513 lbs",
+      "gvwr": "Not published — check door jamb",
       "slot": "Small cap or slot near gear selector base on center console",
       "shift": [
-        "Turn ignition ON.",
-        "Locate small cap near selector base. Pry off.",
-        "Insert key, press plunger down.",
-        "Press brake. Move to N.",
-        "Replace cap.",
-        "MANUAL: depress clutch, select N."
+        "Turn ignition to ON.",
+        "AUTOMATIC: Locate the small plastic cap near the gear selector base on the center console. Pry off with a key or thin flathead.",
+        "Insert key into the exposed slot and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move the selector from Park to Neutral. Replace cap.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral. No shift lock exists on manual."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack.",
-        "Restore power. Shift normally or use slot.",
-        "FWD: rear lift \u2014 front wheels roll."
+        "12V battery under the hood — connect jump pack.",
+        "Once powered, press brake and shift to N normally.",
+        "FWD: lift from rear — front (drive) wheels roll on ground. Very light vehicle — watch approach angle on ramp."
       ],
-      "notes": "Small, light vehicle. FWD \u2014 rear lift. Manual trans: depress clutch, N.",
-      "warn": "Very small vehicle \u2014 watch clearance under tow truck.",
+      "notes": "Small, light vehicle. FWD — rear lift. Manual trans: depress clutch, N.",
+      "warn": "Very small vehicle — watch clearance under tow truck.",
       "towMethod": "Lift from rear (front FWD wheels roll). Flatbed optional.",
       "tc": null,
       "towNotes": [
-        "Very small and light \u2014 simple wheel-lift from rear.",
-        "Low clearance \u2014 check ramp angle."
+        "Very small and light — simple wheel-lift from rear.",
+        "Low clearance — check ramp angle."
       ],
       "epb": {
         "equipped": false,
@@ -56,9 +55,9 @@
       "steeringLock": "Key-operated or electronic.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
-        "warnings": "Small vehicle \u2014 watch clearance."
+        "warnings": "Small vehicle — watch clearance."
       },
       "knownIssues": []
     },
@@ -72,29 +71,29 @@
       "trans": "Single-speed electric",
       "drivetrain": "FWD electric",
       "curbWeight": "3,020 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "Electronic \u2014 touchscreen or selector override near base",
+      "gvwr": "Not published — check door jamb",
+      "slot": "Electronic — touchscreen or selector override near base",
       "shift": [
-        "Locate selector override near base.",
-        "Insert key, press.",
-        "Press brake. Move to N.",
-        "Preferred: restore 12V and use electronic selector."
+        "Turn the Fiat 500e to ON/Ready mode.",
+        "Locate the electronic selector override near the selector base — insert key or flathead and press firmly.",
+        "Press the brake pedal while holding the override.",
+        "Move to N. PREFERRED: restore 12V power first for a clean electronic shift.",
+        "FLATBED ONLY — electric FWD drivetrain. Never tow with front drive wheels on the ground."
       ],
       "neutral": [
         "Apply parking brake.",
-        "12V battery under hood or in accessible location.",
-        "Connect jump pack to 12V terminals only.",
-        "Restore power. Select N on selector.",
-        "FLATBED ONLY \u2014 electric drivetrain.",
-        "Never touch HV battery."
+        "12V auxiliary battery is under the hood — connect jump pack to 12V terminals ONLY.",
+        "NEVER touch the high-voltage traction battery or orange cables.",
+        "Once 12V power is restored, shift to N normally.",
+        "FLATBED ONLY."
       ],
       "notes": "FLATBED ONLY. Electric FWD. 12V only.",
-      "warn": "FLATBED ONLY. 12V only \u2014 never touch HV system.",
-      "towMethod": "FLATBED ONLY \u2014 electric drivetrain.",
+      "warn": "FLATBED ONLY. 12V only — never touch HV system.",
+      "towMethod": "FLATBED ONLY — electric drivetrain.",
       "tc": null,
       "towNotes": [
-        "Electric FWD \u2014 flatbed only.",
-        "Light vehicle \u2014 straightforward flatbed load."
+        "Electric FWD — flatbed only.",
+        "Light vehicle — straightforward flatbed load."
       ],
       "epb": {
         "equipped": true,
@@ -107,8 +106,8 @@
       "airSuspension": null,
       "steeringLock": "Electronic.",
       "battery": {
-        "location": "Under hood \u2014 12V auxiliary",
-        "jumpTerminals": "Under hood \u2014 12V only",
+        "location": "Under hood — 12V auxiliary",
+        "jumpTerminals": "Under hood — 12V only",
         "type": "auxiliary-12v-only",
         "warnings": "FLATBED ONLY. 12V only."
       },
@@ -123,28 +122,29 @@
       "fuelType": "gasoline",
       "trans": "6-speed or 9-speed automatic; mild hybrid (2021+)",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "3,075\u20133,515 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
+      "curbWeight": "3,075–3,515 lbs",
+      "gvwr": "Not published — check door jamb",
       "slot": "Override slot near selector base under console trim",
       "shift": [
-        "Locate override slot at selector base.",
-        "Insert key, press.",
-        "Press brake. Move to N. Confirm.",
-        "AWD: flatbed preferred."
+        "Turn ignition to ON.",
+        "Locate the override slot at the selector base under the console trim.",
+        "Insert key or flathead into the slot and press firmly.",
+        "Press the brake pedal while holding.",
+        "Move the selector to N. Confirm N on the display."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack.",
-        "Restore power. Shift normally or via override.",
-        "AWD: flatbed preferred."
+        "12V battery under the hood — connect jump pack.",
+        "Once powered, press brake and shift to N normally.",
+        "FWD: lift from rear — front (drive) wheels roll on ground.",
+        "AWD: FLATBED ONLY — 500X AWD has no transfer case neutral."
       ],
       "notes": "FWD: rear lift. AWD: flatbed preferred.",
       "warn": "AWD: flatbed preferred.",
       "towMethod": "FWD: lift from rear. AWD: flatbed preferred.",
       "tc": null,
       "towNotes": [
-        "AWD: no TC neutral \u2014 flatbed."
+        "AWD: no TC neutral — flatbed."
       ],
       "epb": {
         "equipped": true,
@@ -158,7 +158,7 @@
       "steeringLock": "Electronic.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard",
+        "jumpTerminals": "Under hood — standard",
         "type": "standard-12v",
         "warnings": "AWD: flatbed preferred."
       },
@@ -173,23 +173,25 @@
       "fuelType": "gasoline",
       "trans": "6-speed dual-clutch (DCT) or 6-speed manual",
       "drivetrain": "FWD",
-      "curbWeight": "3,196\u20133,307 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
+      "curbWeight": "3,196–3,307 lbs",
+      "gvwr": "Not published — check door jamb",
       "slot": "Override slot near selector base",
       "shift": [
-        "Locate override near selector base.",
-        "Insert key, press.",
-        "Press brake. Move to N.",
-        "Manual: depress clutch, select N."
+        "Turn ignition to ON.",
+        "The 500L has a 6-speed DUAL-CLUTCH TRANSMISSION (DCT) — DCT requires 12V power to shift reliably.",
+        "Locate the override slot near the selector base. Insert key and press firmly.",
+        "Press the brake pedal while holding.",
+        "Move the selector to N.",
+        "MANUAL TRANSMISSION variant: depress clutch fully and move gear lever to N. No shift lock exists."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack.",
-        "Shift normally.",
-        "FWD: rear lift."
+        "DCT REQUIRES POWER: 12V battery under the hood — connect jump pack.",
+        "Once powered, press brake and shift to N normally. DCT transmissions may resist without power.",
+        "FWD: lift from rear — front (drive) wheels roll on ground.",
+        "Do NOT flat-tow the 500L automatic (DCT) — no lubrication pump when engine not running."
       ],
-      "notes": "FWD \u2014 rear lift. DCT: rear lift only (not flat-tow).",
+      "notes": "FWD — rear lift. DCT: rear lift only (not flat-tow).",
       "warn": "DCT transmission: rear lift only, not flat-tow.",
       "towMethod": "Lift from rear (front FWD wheels roll). Do not flat-tow DCT.",
       "tc": null,
@@ -206,7 +208,7 @@
       "steeringLock": "Key or electronic.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard",
+        "jumpTerminals": "Under hood — standard",
         "type": "standard-12v",
         "warnings": "DCT: rear lift only."
       },

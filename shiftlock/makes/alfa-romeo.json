@@ -21,29 +21,31 @@
       "fuelType": "gasoline",
       "trans": "8-speed automatic (ZF)",
       "drivetrain": "RWD or AWD (Q4)",
-      "curbWeight": "3,256\u20133,570 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "DNA rotary selector \u2014 override button/slot under console near selector",
+      "curbWeight": "3,256–3,570 lbs",
+      "gvwr": "Not published — check door jamb",
+      "slot": "DNA rotary selector — override button/slot under console near selector",
       "shift": [
-        "Locate override slot at selector base under center console trim.",
-        "Insert key, press plunger.",
-        "Press brake. Move selector to N.",
-        "Confirm N on cluster."
+        "Turn ignition to ON.",
+        "The Giulia uses an 8-speed ZF automatic with a DNA rotary selector — locate the shift lock override slot at the base of the rotary selector under the center console trim.",
+        "Use a trim pry tool or fingernail to remove the console trim piece near the selector base.",
+        "Insert a thin key or flathead into the override slot and press firmly.",
+        "While holding the override, press the brake pedal.",
+        "Rotate the DNA dial to N. Confirm N on the instrument cluster."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack.",
-        "Restore power. Shift normally or use override.",
-        "AWD (Q4): flatbed preferred."
+        "12V battery is under the hood — connect jump pack.",
+        "Once 12V power is restored, press brake and rotate the DNA dial to N normally.",
+        "RWD: lift from front — rear (drive) wheels roll on ground. AWD (Q4): FLATBED ONLY.",
+        "EPB must be released before towing — hold EPB button with 12V power. Without power: EPB requires direct 12V to the actuator motor at the rear caliper."
       ],
       "notes": "RWD standard, AWD (Q4) optional. AWD: flatbed preferred.",
-      "warn": "AWD Q4: flatbed preferred. Italian vehicle \u2014 connector and trim may be less familiar.",
+      "warn": "AWD Q4: flatbed preferred. Italian vehicle — connector and trim may be less familiar.",
       "towMethod": "RWD: lift from front (rear drive wheels roll). AWD Q4: flatbed preferred.",
       "tc": null,
       "towNotes": [
         "AWD Q4: flatbed preferred.",
-        "ZF 8HP \u2014 same transmission as BMW/Land Rover. Well-proven."
+        "ZF 8HP — same transmission as BMW/Land Rover. Well-proven."
       ],
       "epb": {
         "equipped": true,
@@ -58,7 +60,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "AWD Q4: flatbed preferred. EPB manual release requires motor removal."
       },
@@ -78,21 +80,23 @@
       "fuelType": "gasoline",
       "trans": "8-speed automatic (ZF)",
       "drivetrain": "RWD or AWD (Q4)",
-      "curbWeight": "3,660\u20134,024 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "DNA rotary selector \u2014 override near selector base under console trim",
+      "curbWeight": "3,660–4,024 lbs",
+      "gvwr": "Not published — check door jamb",
+      "slot": "DNA rotary selector — override near selector base under console trim",
       "shift": [
-        "Find override at selector base.",
-        "Insert key, press.",
-        "Press brake. Move to N. Confirm.",
-        "AWD Q4: flatbed preferred."
+        "Turn ignition to ON.",
+        "The Stelvio uses an 8-speed ZF automatic — same DNA rotary selector as the Giulia.",
+        "Locate the shift lock override at the base of the rotary selector under the center console trim.",
+        "Insert key or flathead into the override slot and press firmly.",
+        "Press the brake pedal while holding the override.",
+        "Rotate the selector to N. Confirm N on the instrument cluster."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack.",
-        "Restore power. Shift via override or normally.",
-        "AWD: flatbed preferred."
+        "12V battery under the hood — connect jump pack.",
+        "Once powered, press brake and rotate DNA dial to N normally.",
+        "All Stelvio models are AWD (Q4) — FLATBED ONLY.",
+        "EPB must be released before loading — hold EPB button with 12V power. Manual EPB release requires access to the rear caliper EPB motor."
       ],
       "notes": "Crossover version of Giulia platform. Same drivetrain rules.",
       "warn": "AWD Q4: flatbed preferred.",
@@ -114,7 +118,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "AWD Q4: flatbed preferred."
       },
@@ -129,25 +133,26 @@
       "fuelType": "hybrid",
       "trans": "6-speed automatic (mild hybrid) or PHEV eCVT",
       "drivetrain": "FWD (MHEV) or AWD (PHEV)",
-      "curbWeight": "3,527\u20134,079 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "Electronic selector \u2014 override slot near base",
+      "curbWeight": "3,527–4,079 lbs",
+      "gvwr": "Not published — check door jamb",
+      "slot": "Electronic selector — override slot near base",
       "shift": [
-        "Locate override near selector base.",
-        "Insert key, press.",
-        "Press brake. Move to N.",
-        "PHEV: restore 12V first."
+        "Turn ignition to ON.",
+        "The Tonale has an electronic selector — locate the override slot near the selector base under the console trim.",
+        "Remove any trim cap. Insert key or flathead and press firmly.",
+        "Press the brake pedal while holding the override.",
+        "Move the selector to N. Confirm N on the display.",
+        "PHEV variant: restore 12V power first — the PHEV electronic system requires 12V to shift."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect 12V jump pack.",
-        "Restore power. Shift normally.",
-        "PHEV AWD: flatbed only, 12V only.",
-        "MHEV FWD: rear lift."
+        "12V battery under the hood — connect jump pack.",
+        "Once powered, shift to N normally.",
+        "PHEV AWD: FLATBED ONLY — 12V auxiliary only, never touch the high-voltage battery pack.",
+        "MHEV FWD: lift from rear — front (drive) wheels roll on ground."
       ],
       "notes": "PHEV AWD: flatbed only, 12V only. MHEV FWD: rear lift.",
-      "warn": "PHEV AWD: FLATBED ONLY. MHEV: 12V mild hybrid \u2014 no HV danger but note 48V system on some.",
+      "warn": "PHEV AWD: FLATBED ONLY. MHEV: 12V mild hybrid — no HV danger but note 48V system on some.",
       "towMethod": "MHEV FWD: lift from rear (front drive wheels roll). PHEV AWD: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
@@ -166,7 +171,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard",
+        "jumpTerminals": "Under hood — standard",
         "type": "standard-12v",
         "warnings": "PHEV: 12V only, flatbed only."
       },

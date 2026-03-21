@@ -21,32 +21,32 @@
       "fuelType": "gasoline",
       "trans": "CVT or 6-speed automatic (Aisin)",
       "drivetrain": "FWD",
-      "curbWeight": "2,524\u20132,855 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "Under air filter housing \u2014 short rod on transmission module with two flat sides",
+      "curbWeight": "2,524–2,855 lbs",
+      "gvwr": "Not published — check door jamb",
+      "slot": "Under air filter housing — short rod on transmission module with two flat sides",
       "shift": [
         "Open hood. Locate air filter housing.",
         "The shift override rod is on the transmission module near/under the air filter box.",
         "Rod has two flat sides. Use an open-ended wrench.",
         "Turn the rod clockwise approximately 30 degrees against resistance.",
         "Hold until the parking pawl releases (you will feel it disengage).",
-        "Vehicle will roll \u2014 confirm N and secure."
+        "Vehicle will roll — confirm N and secure."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood \u2014 driver side.",
+        "Battery under hood — driver side.",
         "Connect jump pack.",
         "Restore power. Manual shift to N, or use the rod method above.",
         "AUTOMATIC: do NOT flat-tow. Lift front wheels only."
       ],
-      "notes": "AUTOMATIC TRANSMISSION: cannot be flat-towed under any circumstances \u2014 will destroy transmission. MANUAL: depress clutch, select N.",
+      "notes": "AUTOMATIC TRANSMISSION: cannot be flat-towed under any circumstances — will destroy transmission. MANUAL: depress clutch, select N.",
       "warn": "AUTOMATIC: NEVER flat-tow. LIFT FRONT WHEELS ONLY. Automatic transmission not equipped with oil pump when not running.",
       "towMethod": "LIFT FRONT WHEELS (wheel-lift or flatbed). Rear wheels roll on ground. NEVER flat-tow automatic.",
       "tc": null,
       "towNotes": [
         "AUTOMATIC TRANSMISSION: has no pump for lubrication when engine is off. Flat-towing or towing with front wheels on ground destroys transmission.",
-        "MANUAL: can flat-tow or tow any direction \u2014 select Neutral, clutch in.",
-        "Small, light vehicle \u2014 watch clearance during loading."
+        "MANUAL: can flat-tow or tow any direction — select Neutral, clutch in.",
+        "Small, light vehicle — watch clearance during loading."
       ],
       "epb": {
         "equipped": false,
@@ -57,7 +57,7 @@
       "steeringLock": "Key-operated steering column lock. Standard.",
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "AUTOMATIC: never flat-tow. Front lift only."
       },
@@ -77,30 +77,30 @@
       "fuelType": "gasoline",
       "trans": "6-speed automatic (Aisin) or 6-speed manual",
       "drivetrain": "FWD",
-      "curbWeight": "2,712\u20132,921 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "Shift interlock solenoid \u2014 access via console near shifter base. Brake light switch controls system.",
+      "curbWeight": "2,712–2,921 lbs",
+      "gvwr": "Not published — check door jamb",
+      "slot": "Shift interlock solenoid — access via console near shifter base. Brake light switch controls system.",
       "shift": [
         "Turn ignition to ON (do not start).",
-        "Locate shift lock override slot near shifter base \u2014 small cap or access point.",
+        "Locate shift lock override slot near shifter base — small cap or access point.",
         "Remove cap. Insert key, press down.",
         "Press brake pedal. Move selector to N.",
         "Replace cap.",
-        "MANUAL: depress clutch, select N \u2014 no shift lock."
+        "MANUAL: depress clutch, select N — no shift lock."
       ],
       "neutral": [
         "Apply parking brake.",
         "Battery location varies: under hood or trunk depending on model.",
         "Connect jump pack to accessible terminals.",
         "Restore power. Use override method.",
-        "AUTOMATIC: front lift only \u2014 never flat-tow."
+        "AUTOMATIC: front lift only — never flat-tow."
       ],
       "notes": "AUTOMATIC: front lift only. MANUAL: any direction.",
       "warn": "AUTOMATIC: NEVER flat-tow. Front wheels must be lifted.",
       "towMethod": "AUTOMATIC: LIFT FRONT WHEELS ONLY. MANUAL: any tow method acceptable.",
       "tc": null,
       "towNotes": [
-        "Automatic transmission lacks lubrication when not running \u2014 front lift mandatory.",
+        "Automatic transmission lacks lubrication when not running — front lift mandatory.",
         "Manual: standard neutral selection, can tow any direction."
       ],
       "epb": {
@@ -112,7 +112,7 @@
       "steeringLock": "Key-operated or electronic steering lock (push-button start on some).",
       "battery": {
         "location": "Under hood (most). Convertible may have alternate location.",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "Automatic: front lift only. Never flat-tow automatic."
       },
@@ -127,15 +127,15 @@
       "fuelType": "gasoline",
       "trans": "7-speed dual-clutch (DCT) or 8-speed automatic; Cooper SE EV available",
       "drivetrain": "FWD; Cooper SE: FWD electric",
-      "curbWeight": "2,712\u20133,197 lbs (SE EV heavier)",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "Electronic shifter \u2014 mechanical release under console near selector base",
+      "curbWeight": "2,712–3,197 lbs (SE EV heavier)",
+      "gvwr": "Not published — check door jamb",
+      "slot": "Electronic shifter — mechanical release under console near selector base",
       "shift": [
         "Locate override slot under console trim near selector base.",
         "Remove trim panel if necessary.",
         "Insert key. Press override plunger.",
         "Press brake. Move selector to N.",
-        "Cooper SE EV: restore 12V power first \u2014 use frunk/hood 12V terminals."
+        "Cooper SE EV: restore 12V power first — use frunk/hood 12V terminals."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -146,12 +146,12 @@
         "AUTOMATIC/DCT: front lift only. SE EV: FLATBED ONLY."
       ],
       "notes": "Cooper SE EV: FLATBED ONLY. Automatic/DCT: front lift only, never flat-tow.",
-      "warn": "Cooper SE EV: FLATBED ONLY. Automatic: front lift only \u2014 never flat-tow.",
+      "warn": "Cooper SE EV: FLATBED ONLY. Automatic: front lift only — never flat-tow.",
       "towMethod": "Gas automatic/DCT: LIFT FRONT WHEELS ONLY. Cooper SE EV: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
         "Cooper SE EV: electric drivetrain, flatbed only, 12V auxiliary in engine area.",
-        "Automatic/DCT: no lubrication without engine running \u2014 front lift only.",
+        "Automatic/DCT: no lubrication without engine running — front lift only.",
         "Never flat-tow any automatic or DCT MINI."
       ],
       "epb": {
@@ -167,7 +167,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood / engine compartment",
-        "jumpTerminals": "Under hood \u2014 standard or frunk area (SE EV)",
+        "jumpTerminals": "Under hood — standard or frunk area (SE EV)",
         "type": "standard-12v",
         "warnings": "Automatic: front lift only. SE EV: flatbed only, 12V only."
       },
@@ -182,14 +182,14 @@
       "fuelType": "gasoline",
       "trans": "6-speed automatic or 8-speed automatic; PHEV available",
       "drivetrain": "FWD or ALL4 AWD",
-      "curbWeight": "3,295\u20134,233 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "Center console \u2014 mechanical override near selector base",
+      "curbWeight": "3,295–4,233 lbs",
+      "gvwr": "Not published — check door jamb",
+      "slot": "Center console — mechanical override near selector base",
       "shift": [
         "Locate override slot near selector base on center console.",
         "Remove cap. Insert key, press plunger.",
         "Press brake. Move to N.",
-        "ALL4 AWD: confirm tow method \u2014 flatbed required.",
+        "ALL4 AWD: confirm tow method — flatbed required.",
         "PHEV: restore 12V power first."
       ],
       "neutral": [
@@ -204,7 +204,7 @@
       "towMethod": "FWD automatic: lift front wheels only. ALL4 AWD: FLATBED ONLY. PHEV ALL4: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "ALL4 AWD: no transfer case neutral \u2014 flatbed mandatory.",
+        "ALL4 AWD: no transfer case neutral — flatbed mandatory.",
         "PHEV: HV system present, 12V auxiliary only, flatbed only.",
         "Automatic FWD: front lift only."
       ],
@@ -220,7 +220,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood or rear engine compartment (varies by gen/trim)",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "ALL4: flatbed only. PHEV: 12V only, flatbed only."
       },
@@ -235,9 +235,9 @@
       "fuelType": "gasoline",
       "trans": "6-speed or 8-speed automatic",
       "drivetrain": "FWD or ALL4 AWD",
-      "curbWeight": "3,009\u20133,594 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "Center console \u2014 mechanical override slot near selector base",
+      "curbWeight": "3,009–3,594 lbs",
+      "gvwr": "Not published — check door jamb",
+      "slot": "Center console — mechanical override slot near selector base",
       "shift": [
         "Find override slot near selector base.",
         "Remove cap. Insert key, press plunger.",
@@ -270,7 +270,7 @@
       "steeringLock": "Electronic steering lock (F54).",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "ALL4: flatbed only. Automatic: front lift only."
       },

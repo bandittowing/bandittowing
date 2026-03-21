@@ -21,11 +21,11 @@
       "fuelType": "electric",
       "trans": "Single-speed electric",
       "drivetrain": "FWD, RWD, or AWD electric",
-      "curbWeight": "4,464\u20134,824 lbs",
+      "curbWeight": "4,464–4,824 lbs",
       "gvwr": "5,556 lbs",
-      "slot": "Center display (touchscreen) \u2014 Car Status > Service > Tow Mode. Physical selector override near column stalk.",
+      "slot": "Center display (touchscreen) — Car Status > Service > Tow Mode. Physical selector override near column stalk.",
       "shift": [
-        "PREFERRED: Touchscreen \u2014 Car Status > Service > Tow Mode. This safely engages Neutral and disables parking brake.",
+        "PREFERRED: Touchscreen — Car Status > Service > Tow Mode. This safely engages Neutral and disables parking brake.",
         "MANUAL: locate column-mounted gear selector (stalk). Push or rotate to N.",
         "WITHOUT POWER: connect 12V jump pack to under-hood 12V terminals. Restore power, then use touchscreen or stalk."
       ],
@@ -35,16 +35,16 @@
         "Connect jump pack to 12V terminals.",
         "Restore power.",
         "Use touchscreen: Car Status > Service > Tow Mode.",
-        "FLATBED ONLY \u2014 electric drivetrain. NEVER touch orange HV cables."
+        "FLATBED ONLY — electric drivetrain. NEVER touch orange HV cables."
       ],
       "notes": "FLATBED ONLY. Tow Mode via touchscreen. 12V auxiliary under hood.",
-      "warn": "FLATBED ONLY. 12V only \u2014 NEVER touch orange HV battery cables.",
-      "towMethod": "FLATBED ONLY \u2014 electric drivetrain. FWD, RWD, or AWD depending on variant \u2014 all are flatbed only.",
+      "warn": "FLATBED ONLY. 12V only — NEVER touch orange HV battery cables.",
+      "towMethod": "FLATBED ONLY — electric drivetrain. FWD, RWD, or AWD depending on variant — all are flatbed only.",
       "tc": null,
       "towNotes": [
-        "Electric drivetrain \u2014 flatbed only on all variants.",
+        "Electric drivetrain — flatbed only on all variants.",
         "Tow Mode on touchscreen is the correct neutral method.",
-        "12V under-hood terminals accessible \u2014 standard procedure.",
+        "12V under-hood terminals accessible — standard procedure.",
         "Contact Polestar Customer Support if Tow Mode unavailable and vehicle cannot be powered."
       ],
       "epb": {
@@ -59,10 +59,10 @@
         ]
       },
       "airSuspension": null,
-      "steeringLock": "Electronic \u2014 Tow Mode disengages.",
+      "steeringLock": "Electronic — Tow Mode disengages.",
       "battery": {
-        "location": "Under hood \u2014 12V auxiliary jump terminal access points",
-        "jumpTerminals": "Under hood: positive under plastic cover (+), negative at chassis ground (\u2212)",
+        "location": "Under hood — 12V auxiliary jump terminal access points",
+        "jumpTerminals": "Under hood: positive under plastic cover (+), negative at chassis ground (−)",
         "type": "auxiliary-12v-only",
         "warnings": "FLATBED ONLY. 12V only. Never touch orange HV system."
       },
@@ -72,7 +72,7 @@
           "detail": "Polestar 2 requires Tow Mode to be activated via the center touchscreen (Car Status > Service > Tow Mode) for safe neutral and EPB release. Using the column stalk alone may allow the vehicle to re-engage drive. Always use Tow Mode."
         },
         {
-          "title": "FLATBED ONLY \u2014 All Variants",
+          "title": "FLATBED ONLY — All Variants",
           "detail": "All Polestar 2 variants (Standard Range FWD, Long Range Single Motor, Long Range Dual Motor AWD, Performance AWD) are electric drivetrains. Towing with any driven wheels on the ground risks motor damage. Flatbed is the only method."
         }
       ]
@@ -87,8 +87,8 @@
       "trans": "Single-speed electric",
       "drivetrain": "AWD electric",
       "curbWeight": "5,291 lbs (approx)",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "Center display touchscreen \u2014 same Tow Mode path as Polestar 2",
+      "gvwr": "Not published — check door jamb",
+      "slot": "Center display touchscreen — same Tow Mode path as Polestar 2",
       "shift": [
         "Touchscreen: Car Status > Service > Tow Mode.",
         "Physical selector or stalk for N if powered.",
@@ -100,15 +100,15 @@
         "12V under-hood terminals.",
         "Connect jump pack. Restore power.",
         "Activate Tow Mode via touchscreen.",
-        "FLATBED ONLY \u2014 AWD electric.",
+        "FLATBED ONLY — AWD electric.",
         "Never touch HV orange cables."
       ],
       "notes": "FLATBED ONLY. AWD electric. Same Tow Mode as Polestar 2.",
-      "warn": "FLATBED ONLY. 12V only. AWD electric \u2014 no exceptions.",
-      "towMethod": "FLATBED ONLY \u2014 AWD electric drivetrain.",
+      "warn": "FLATBED ONLY. 12V only. AWD electric — no exceptions.",
+      "towMethod": "FLATBED ONLY — AWD electric drivetrain.",
       "tc": null,
       "towNotes": [
-        "AWD EV \u2014 flatbed only.",
+        "AWD EV — flatbed only.",
         "Larger, heavier than Polestar 2.",
         "Verify flatbed capacity."
       ],
@@ -123,7 +123,7 @@
       "airSuspension": null,
       "steeringLock": "Electronic.",
       "battery": {
-        "location": "Under hood \u2014 12V auxiliary access",
+        "location": "Under hood — 12V auxiliary access",
         "jumpTerminals": "Under hood 12V terminals",
         "type": "auxiliary-12v-only",
         "warnings": "FLATBED ONLY. AWD EV. 12V only."

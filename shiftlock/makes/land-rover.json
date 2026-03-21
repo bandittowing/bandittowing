@@ -21,9 +21,9 @@
       "fuelType": "gasoline",
       "trans": "5-speed or 6-speed ZF automatic",
       "drivetrain": "4WD (permanent AWD with transfer case)",
-      "curbWeight": "5,115\u20135,291 lbs",
+      "curbWeight": "5,115–5,291 lbs",
       "gvwr": "6,614 lbs",
-      "slot": "Remove shifter gaiter/boot surround. Flat-bladed screwdriver \u2014 pry upward on horizontal dark gray metal hook on lower right of shifter lever to disengage interlock.",
+      "slot": "Remove shifter gaiter/boot surround. Flat-bladed screwdriver — pry upward on horizontal dark gray metal hook on lower right of shifter lever to disengage interlock.",
       "shift": [
         "Remove the trim surround / gaiter around the gear shifter.",
         "Locate the horizontal dark gray metal hook on the lower-right side of the shifter lever.",
@@ -33,33 +33,33 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery is under hood \u2014 standard location.",
+        "Battery is under hood — standard location.",
         "Connect jump pack.",
         "Once powered, shift normally or use gaiter/hook method above.",
         "TRANSFER CASE MUST BE IN NEUTRAL for flatbed, or 2H for wheel-lift."
       ],
-      "notes": "Permanent AWD \u2014 transfer case neutral required for flatbed. 4-wheel tow: strict 30 mph / 30 mile limit.",
-      "warn": "Transfer case MUST be in Neutral (flatbed) or 2H equivalent. Permanent AWD \u2014 cannot wheel-lift without TC neutral.",
-      "towMethod": "FLATBED PREFERRED. Flatbed with TC in neutral. Four-wheel-down: TC in neutral, max 30 mph / 30 miles. NEVER wheel-lift front or rear only \u2014 permanent AWD will destroy drivetrain.",
+      "notes": "Permanent AWD — transfer case neutral required for flatbed. 4-wheel tow: strict 30 mph / 30 mile limit.",
+      "warn": "Transfer case MUST be in Neutral (flatbed) or 2H equivalent. Permanent AWD — cannot wheel-lift without TC neutral.",
+      "towMethod": "FLATBED PREFERRED. Flatbed with TC in neutral. Four-wheel-down: TC in neutral, max 30 mph / 30 miles. NEVER wheel-lift front or rear only — permanent AWD will destroy drivetrain.",
       "tc": {
         "type": "Manual floor lever transfer case (2003-2005) or Electronic rotary dial (2006-2012)",
         "positions": [
-          "Neutral (N) \u2014 REQUIRED for flatbed towing",
-          "High Range \u2014 normal driving \u2014 NOT for towing",
-          "Low Range \u2014 off-road only \u2014 NEVER tow in low range"
+          "Neutral (N) — REQUIRED for flatbed towing",
+          "High Range — normal driving — NOT for towing",
+          "Low Range — off-road only — NEVER tow in low range"
         ],
         "steps": [
           "MANUAL LEVER (2003-2005): Stop completely. Move TC lever to Neutral position.",
           "ELECTRONIC DIAL (2006-2012): Turn dial to Neutral. Wait for N indicator on dash.",
           "Confirm TC Neutral lamp illuminated before loading on flatbed.",
           "IF BATTERY DEAD: Jump battery first. Electronic TC requires power to shift.",
-          "If TC cannot be confirmed in Neutral, DO NOT load on flatbed \u2014 call for assistance."
+          "If TC cannot be confirmed in Neutral, DO NOT load on flatbed — call for assistance."
         ]
       },
       "towNotes": [
-        "PERMANENT AWD: never wheel-lift front or rear only \u2014 drivetrain destruction guaranteed.",
+        "PERMANENT AWD: never wheel-lift front or rear only — drivetrain destruction guaranteed.",
         "TC must be in Neutral for flatbed loading. Electronic dial requires 12V power.",
-        "Air suspension: may have risen/lowered \u2014 vehicle height may be non-standard when found."
+        "Air suspension: may have risen/lowered — vehicle height may be non-standard when found."
       ],
       "epb": {
         "equipped": false,
@@ -68,24 +68,24 @@
       },
       "airSuspension": {
         "equipped": true,
-        "description": "Electronic Air Suspension (EAS) \u2014 4-corner air bags. Provides multiple ride height settings.",
+        "description": "Electronic Air Suspension (EAS) — 4-corner air bags. Provides multiple ride height settings.",
         "towingNotes": [
           "Air suspension may fail and leave vehicle at bump stops (very low) or in high position.",
           "If vehicle is in Extended height or failed low, note height for loading approach.",
-          "Do NOT attempt to activate air suspension on a dead battery \u2014 compressor requires significant power.",
-          "Battery jump will allow suspension to normalize \u2014 connect jump pack and allow system to stabilize before loading."
+          "Do NOT attempt to activate air suspension on a dead battery — compressor requires significant power.",
+          "Battery jump will allow suspension to normalize — connect jump pack and allow system to stabilize before loading."
         ]
       },
       "steeringLock": "Key-operated steering column lock. Standard.",
       "battery": {
-        "location": "Under hood \u2014 standard location",
-        "jumpTerminals": "Under hood \u2014 standard red (+) / black (\u2212) terminals",
+        "location": "Under hood — standard location",
+        "jumpTerminals": "Under hood — standard red (+) / black (−) terminals",
         "type": "standard-12v",
-        "warnings": "TC must be in Neutral for flatbed. Permanent AWD \u2014 no wheel-lift."
+        "warnings": "TC must be in Neutral for flatbed. Permanent AWD — no wheel-lift."
       },
       "knownIssues": [
         {
-          "title": "Permanent AWD \u2014 Wheel-Lift Will Destroy Drivetrain",
+          "title": "Permanent AWD — Wheel-Lift Will Destroy Drivetrain",
           "detail": "The L322 Range Rover has permanent 4WD. You CANNOT use a standard wheel-lift without putting the transfer case in Neutral first. Attempting to tow with only two wheels on the ground while TC is engaged will destroy the transfer case, transmission, and differentials."
         },
         {
@@ -103,46 +103,46 @@
       "fuelType": "gasoline",
       "trans": "8-speed ZF 8HP automatic",
       "drivetrain": "4WD (permanent AWD with electronic TC)",
-      "curbWeight": "5,369\u20135,765 lbs",
+      "curbWeight": "5,369–5,765 lbs",
       "gvwr": "6,920 lbs",
       "slot": "Remove cupholder inserts from center console. Red nylon release handle underneath. Turn safety lock to unlock position, then pull red handle firmly to engage TC neutral and shift override.",
       "shift": [
         "Remove cupholder inserts from center console.",
         "Locate red nylon pull handle underneath cupholders.",
         "Turn the safety lock collar to the UNLOCK position.",
-        "Pull the red handle FIRMLY \u2014 this disengages the shift interlock.",
+        "Pull the red handle FIRMLY — this disengages the shift interlock.",
         "Press brake. Move the rotary dial selector to N.",
         "Confirm N on instrument cluster."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood \u2014 standard location.",
+        "Battery under hood — standard location.",
         "Connect jump pack.",
         "Once powered, use rotary dial to select N normally.",
         "Transfer case: must be in Neutral for flatbed (see TC tab).",
         "Red handle method above works without power as emergency backup."
       ],
       "notes": "Rotary dial shifter. Red handle under cupholders is the manual override. TC must be in Neutral for flatbed.",
-      "warn": "PERMANENT AWD \u2014 no wheel-lift without TC neutral. Flatbed strongly preferred.",
+      "warn": "PERMANENT AWD — no wheel-lift without TC neutral. Flatbed strongly preferred.",
       "towMethod": "FLATBED STRONGLY PREFERRED with TC in Neutral. Four-wheel-down tow: TC in Neutral, max 30 mph / 30 miles ONLY. NEVER wheel-lift front or rear only.",
       "tc": {
-        "type": "Electronic rotary dial (Terrain Response) \u2014 electronic TC",
+        "type": "Electronic rotary dial (Terrain Response) — electronic TC",
         "positions": [
-          "Neutral (N) \u2014 REQUIRED for flatbed / four-wheel towing",
-          "High Range \u2014 NEVER tow in high range",
-          "Low Range \u2014 NEVER tow in low range"
+          "Neutral (N) — REQUIRED for flatbed / four-wheel towing",
+          "High Range — NEVER tow in high range",
+          "Low Range — NEVER tow in low range"
         ],
         "steps": [
           "Turn rotary dial to Neutral. Wait for N indicator.",
           "If battery dead: jump first, then shift TC to Neutral via dial.",
           "Confirm Neutral lamp on instrument cluster before loading.",
-          "If TC cannot be confirmed in Neutral: DO NOT tow \u2014 flatbed with all wheels off ground and TC unknown position will destroy drivetrain."
+          "If TC cannot be confirmed in Neutral: DO NOT tow — flatbed with all wheels off ground and TC unknown position will destroy drivetrain."
         ]
       },
       "towNotes": [
-        "Permanent AWD \u2014 no front or rear wheel-lift alone without TC in neutral.",
-        "TC electronic \u2014 requires 12V power to shift. Jump first if dead.",
-        "L405 is very heavy \u2014 verify flatbed weight capacity.",
+        "Permanent AWD — no front or rear wheel-lift alone without TC in neutral.",
+        "TC electronic — requires 12V power to shift. Jump first if dead.",
+        "L405 is very heavy — verify flatbed weight capacity.",
         "30 mph / 30 mile limit strictly enforced for four-wheel tow."
       ],
       "epb": {
@@ -157,7 +157,7 @@
       },
       "airSuspension": {
         "equipped": true,
-        "description": "Electronic Air Suspension (EAS) \u2014 4-corner. Multiple ride heights. Access Mode lowers vehicle for loading.",
+        "description": "Electronic Air Suspension (EAS) — 4-corner. Multiple ride heights. Access Mode lowers vehicle for loading.",
         "towingNotes": [
           "Access Mode: press and hold Suspension button with doors open to lower vehicle for easier loading.",
           "If air suspension has failed, vehicle may be at bump stops. Check clearance before loading.",
@@ -168,13 +168,13 @@
       "steeringLock": "Electronic steering lock. Requires ignition power.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "agm-12v",
         "warnings": "AGM rated jump pack required. TC must be in Neutral for flatbed. Permanent AWD."
       },
       "knownIssues": [
         {
-          "title": "Red Handle Is Under the Cupholders \u2014 Not at Shifter Base",
+          "title": "Red Handle Is Under the Cupholders — Not at Shifter Base",
           "detail": "The emergency shift release on the L405 is a red nylon pull handle UNDERNEATH the cupholder inserts in the center console. You must remove the cupholders to access it. It is not at the base of the rotary selector. Pull firmly after turning the safety lock to unlock."
         },
         {
@@ -192,9 +192,9 @@
       "fuelType": "gasoline",
       "trans": "6-speed ZF automatic",
       "drivetrain": "4WD (permanent AWD with TC)",
-      "curbWeight": "4,938\u20135,071 lbs",
+      "curbWeight": "4,938–5,071 lbs",
       "gvwr": "6,393 lbs",
-      "slot": "Red nylon handle under cupholder in center console \u2014 same as L405",
+      "slot": "Red nylon handle under cupholder in center console — same as L405",
       "shift": [
         "Remove cupholder from center console.",
         "Locate red nylon handle underneath.",
@@ -210,25 +210,25 @@
         "TC must be in Neutral for flatbed."
       ],
       "notes": "J-gate shifter. Same red handle override as full-size Range Rover.",
-      "warn": "Permanent AWD \u2014 no wheel-lift without TC in neutral.",
+      "warn": "Permanent AWD — no wheel-lift without TC in neutral.",
       "towMethod": "FLATBED with TC in Neutral. Four-wheel-down: TC neutral, max 30 mph / 30 miles.",
       "tc": {
-        "type": "High/Low transfer case with Neutral \u2014 electronic shift",
+        "type": "High/Low transfer case with Neutral — electronic shift",
         "positions": [
-          "Neutral \u2014 REQUIRED for flatbed/four-wheel towing",
-          "High \u2014 NOT for towing",
-          "Low \u2014 NEVER tow in low range"
+          "Neutral — REQUIRED for flatbed/four-wheel towing",
+          "High — NOT for towing",
+          "Low — NEVER tow in low range"
         ],
         "steps": [
           "Select Neutral on the transfer case switch/dial.",
           "Wait for indicator. Confirm neutral before loading.",
-          "Battery dead: jump first \u2014 TC requires power."
+          "Battery dead: jump first — TC requires power."
         ]
       },
       "towNotes": [
-        "Permanent AWD \u2014 flatbed with TC in neutral or four-wheel strictly limited.",
+        "Permanent AWD — flatbed with TC in neutral or four-wheel strictly limited.",
         "30 mph / 30 miles for four-wheel tow.",
-        "L320 body on frame platform \u2014 tow from frame, not body panels."
+        "L320 body on frame platform — tow from frame, not body panels."
       ],
       "epb": {
         "equipped": false,
@@ -237,7 +237,7 @@
       },
       "airSuspension": {
         "equipped": true,
-        "description": "EAS air suspension \u2014 same as full Range Rover. Common failure mode.",
+        "description": "EAS air suspension — same as full Range Rover. Common failure mode.",
         "towingNotes": [
           "Same air suspension failure issues as Range Rover L322.",
           "Battery jump to normalize suspension before loading.",
@@ -247,9 +247,9 @@
       "steeringLock": "Key-operated steering lock.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
-        "warnings": "Permanent AWD \u2014 no wheel-lift without TC neutral."
+        "warnings": "Permanent AWD — no wheel-lift without TC neutral."
       },
       "knownIssues": []
     },
@@ -262,7 +262,7 @@
       "fuelType": "gasoline",
       "trans": "8-speed ZF 8HP automatic",
       "drivetrain": "4WD (permanent AWD with electronic TC)",
-      "curbWeight": "4,629\u20135,071 lbs",
+      "curbWeight": "4,629–5,071 lbs",
       "gvwr": "6,393 lbs",
       "slot": "Red nylon handle under cupholder inserts in center console",
       "shift": [
@@ -280,26 +280,26 @@
         "Red handle as backup if electronics fail."
       ],
       "notes": "Rotary dial shifter. Shares red handle override with L405.",
-      "warn": "Permanent AWD \u2014 flatbed with TC neutral required. 30 mph / 30 miles for 4-wheel tow.",
+      "warn": "Permanent AWD — flatbed with TC neutral required. 30 mph / 30 miles for 4-wheel tow.",
       "towMethod": "FLATBED PREFERRED with TC Neutral. Four-wheel-down: TC Neutral, max 30 mph / 30 miles.",
       "tc": {
         "type": "Electronic Terrain Response transfer case",
         "positions": [
-          "Neutral \u2014 REQUIRED for flatbed or four-wheel towing",
-          "High Range \u2014 NOT for towing",
-          "Low Range \u2014 NEVER tow"
+          "Neutral — REQUIRED for flatbed or four-wheel towing",
+          "High Range — NOT for towing",
+          "Low Range — NEVER tow"
         ],
         "steps": [
           "Turn rotary dial to Neutral.",
           "Confirm N indicator on dash.",
-          "If battery dead: jump first \u2014 electronic TC requires power.",
+          "If battery dead: jump first — electronic TC requires power.",
           "No power = no TC shift = FLATBED ONLY."
         ]
       },
       "towNotes": [
-        "Electronic TC requires 12V power \u2014 jump first if dead.",
+        "Electronic TC requires 12V power — jump first if dead.",
         "30 mph / 30 mile strict limit for four-wheel tow.",
-        "Permanent AWD \u2014 wheel-lift alone will destroy drivetrain."
+        "Permanent AWD — wheel-lift alone will destroy drivetrain."
       ],
       "epb": {
         "equipped": true,
@@ -315,16 +315,16 @@
         "description": "Electronic Air Suspension. Access Mode available.",
         "towingNotes": [
           "Use Access Mode (hold suspension button with doors open) to lower for loading.",
-          "Failed suspension common \u2014 check vehicle height before approach.",
+          "Failed suspension common — check vehicle height before approach.",
           "Battery jump allows compressor to normalize."
         ]
       },
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 AGM rated",
+        "jumpTerminals": "Under hood — AGM rated",
         "type": "agm-12v",
-        "warnings": "AGM battery \u2014 use AGM-rated jump pack. TC neutral required for flatbed."
+        "warnings": "AGM battery — use AGM-rated jump pack. TC neutral required for flatbed."
       },
       "knownIssues": []
     },
@@ -337,20 +337,20 @@
       "fuelType": "gasoline",
       "trans": "6-speed or 9-speed automatic; PHEV available (2021+)",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "3,549\u20134,189 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
-      "slot": "Electronic rotary dial shifter \u2014 override slot near rotary dial base, or press/hold brake + start button sequence",
+      "curbWeight": "3,549–4,189 lbs",
+      "gvwr": "Not published — check door jamb",
+      "slot": "Electronic rotary dial shifter — override slot near rotary dial base, or press/hold brake + start button sequence",
       "shift": [
         "Press and hold brake pedal.",
         "Press start button (without foot on brake pedal first) to enter accessory mode.",
         "Then hold brake and press the + gear paddle or rotary to move to N.",
         "Alternative: locate override slot near rotary dial base. Insert key, engage, move to N.",
-        "Note: auxiliary battery under passenger glove box foot well \u2014 may need this for power."
+        "Note: auxiliary battery under passenger glove box foot well — may need this for power."
       ],
       "neutral": [
         "Apply parking brake.",
         "Main battery under hood OR auxiliary battery under passenger glove box foot well.",
-        "If main battery dead, auxiliary may still have power \u2014 check under glove box.",
+        "If main battery dead, auxiliary may still have power — check under glove box.",
         "Connect jump pack to under-hood terminals.",
         "Restore power. Use rotary dial to select N.",
         "AWD: flatbed preferred."
@@ -360,9 +360,9 @@
       "towMethod": "FWD: rear lift (front drive wheels roll). AWD: flatbed preferred.",
       "tc": null,
       "towNotes": [
-        "Auxiliary battery under glove box foot well \u2014 useful if main battery is dead.",
+        "Auxiliary battery under glove box foot well — useful if main battery is dead.",
         "AWD Haldex: flatbed preferred.",
-        "PHEV (2021+): 12V auxiliary only \u2014 never touch HV system."
+        "PHEV (2021+): 12V auxiliary only — never touch HV system."
       ],
       "epb": {
         "equipped": true,
@@ -378,7 +378,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood (main). Auxiliary battery possibly under passenger glove box foot well.",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": "Check for auxiliary battery under glove box. PHEV: 12V only."
       },
@@ -398,7 +398,7 @@
       "fuelType": "gasoline",
       "trans": "6-speed ZF automatic",
       "drivetrain": "4WD (permanent AWD with TC)",
-      "curbWeight": "5,401\u20135,622 lbs",
+      "curbWeight": "5,401–5,622 lbs",
       "gvwr": "6,875 lbs",
       "slot": "Red nylon handle under cupholder inserts in center console",
       "shift": [
@@ -416,24 +416,24 @@
         "TC must be in Neutral for flatbed."
       ],
       "notes": "LR4 name used in US market. Same J-gate/red handle system as Sport.",
-      "warn": "Permanent AWD \u2014 no wheel-lift without TC neutral. Heavy vehicle.",
+      "warn": "Permanent AWD — no wheel-lift without TC neutral. Heavy vehicle.",
       "towMethod": "FLATBED with TC in Neutral. Four-wheel-down: TC Neutral, max 30 mph / 30 miles.",
       "tc": {
         "type": "Electronic transfer case with High, Low, and Neutral",
         "positions": [
-          "Neutral \u2014 REQUIRED for flatbed / four-wheel towing",
-          "High Range \u2014 NOT for towing",
-          "Low Range \u2014 NEVER tow in low"
+          "Neutral — REQUIRED for flatbed / four-wheel towing",
+          "High Range — NOT for towing",
+          "Low Range — NEVER tow in low"
         ],
         "steps": [
           "Select Neutral on TC switch.",
           "Wait for N indicator. Confirm before loading.",
-          "Battery dead: jump first. TC electronic \u2014 requires power."
+          "Battery dead: jump first. TC electronic — requires power."
         ]
       },
       "towNotes": [
-        "Very heavy vehicle \u2014 confirm flatbed capacity.",
-        "Electronic TC requires power \u2014 jump first if dead.",
+        "Very heavy vehicle — confirm flatbed capacity.",
+        "Electronic TC requires power — jump first if dead.",
         "Shift lock solenoid problems reported on some year models."
       ],
       "epb": {
@@ -443,7 +443,7 @@
       },
       "airSuspension": {
         "equipped": true,
-        "description": "Electronic Air Suspension \u2014 4-corner. Common failure mode.",
+        "description": "Electronic Air Suspension — 4-corner. Common failure mode.",
         "towingNotes": [
           "EAS failure common. Vehicle may sit very low or unevenly.",
           "Jump battery to normalize suspension before loading.",
@@ -453,9 +453,9 @@
       "steeringLock": "Key-operated steering lock.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
-        "warnings": "Permanent AWD \u2014 TC neutral required. Heavy \u2014 check flatbed capacity."
+        "warnings": "Permanent AWD — TC neutral required. Heavy — check flatbed capacity."
       },
       "knownIssues": [
         {
@@ -473,9 +473,9 @@
       "fuelType": "gasoline",
       "trans": "8-speed ZF 8HP automatic; PHEV (P400e) available",
       "drivetrain": "4WD (permanent AWD, electronic TC)",
-      "curbWeight": "4,550\u20135,735 lbs (varies significantly by body/trim/PHEV)",
+      "curbWeight": "4,550–5,735 lbs (varies significantly by body/trim/PHEV)",
       "gvwr": "6,415 lbs",
-      "slot": "Electronic shifter with mechanical override \u2014 override slot near base of rotary/lever selector under console trim",
+      "slot": "Electronic shifter with mechanical override — override slot near base of rotary/lever selector under console trim",
       "shift": [
         "Locate mechanical override slot near selector base under console trim.",
         "Insert key or flat tool. Press override plunger.",
@@ -488,31 +488,31 @@
         "Battery under hood.",
         "Connect jump pack.",
         "Restore power. Use selector normally.",
-        "TC: must be in Neutral for flatbed \u2014 electronic TC requires power.",
-        "PHEV: 12V only \u2014 never touch HV system."
+        "TC: must be in Neutral for flatbed — electronic TC requires power.",
+        "PHEV: 12V only — never touch HV system."
       ],
-      "notes": "Modern fully electronic vehicle. PHEV (P400e) has HV system \u2014 orange cables.",
-      "warn": "Permanent AWD \u2014 TC neutral required. PHEV: never touch HV system. Flatbed strongly preferred.",
-      "towMethod": "FLATBED STRONGLY PREFERRED with TC in Neutral. Permanent AWD \u2014 no wheel-lift without TC neutral.",
+      "notes": "Modern fully electronic vehicle. PHEV (P400e) has HV system — orange cables.",
+      "warn": "Permanent AWD — TC neutral required. PHEV: never touch HV system. Flatbed strongly preferred.",
+      "towMethod": "FLATBED STRONGLY PREFERRED with TC in Neutral. Permanent AWD — no wheel-lift without TC neutral.",
       "tc": {
-        "type": "Electronic transfer case with Terrain Response 2 \u2014 Neutral selection via dial",
+        "type": "Electronic transfer case with Terrain Response 2 — Neutral selection via dial",
         "positions": [
-          "Neutral \u2014 REQUIRED for flatbed towing",
-          "High Range \u2014 NOT for towing",
-          "Low Range \u2014 NEVER tow in low"
+          "Neutral — REQUIRED for flatbed towing",
+          "High Range — NOT for towing",
+          "Low Range — NEVER tow in low"
         ],
         "steps": [
           "Select Neutral via TC rotary or Terrain Response dial.",
           "Confirm N indicator before loading.",
-          "Battery dead: jump 12V first \u2014 TC is fully electronic.",
+          "Battery dead: jump 12V first — TC is fully electronic.",
           "PHEV: 12V auxiliary only for jumping."
         ]
       },
       "towNotes": [
-        "Modern L663 is fully electronic \u2014 all systems require 12V power.",
-        "PHEV: HV system present \u2014 orange cables. 12V auxiliary jump only.",
-        "Very wide vehicle \u2014 measure before using narrow flatbeds.",
-        "Limited public documentation on emergency procedures \u2014 Land Rover assist recommended."
+        "Modern L663 is fully electronic — all systems require 12V power.",
+        "PHEV: HV system present — orange cables. 12V auxiliary jump only.",
+        "Very wide vehicle — measure before using narrow flatbeds.",
+        "Limited public documentation on emergency procedures — Land Rover assist recommended."
       ],
       "epb": {
         "equipped": true,
@@ -528,16 +528,16 @@
         "description": "Electronic Air Suspension standard or optional. Multiple ride height modes. Access Height available.",
         "towingNotes": [
           "Use Access Height (via terrain response controls) to lower vehicle for loading.",
-          "PHEV variant is heavier \u2014 factor in battery weight for loading.",
+          "PHEV variant is heavier — factor in battery weight for loading.",
           "If suspension failed: battery jump to normalize. Allow time for compressor."
         ]
       },
-      "steeringLock": "Electronic steering lock \u2014 requires ignition power.",
+      "steeringLock": "Electronic steering lock — requires ignition power.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 AGM rated",
+        "jumpTerminals": "Under hood — AGM rated",
         "type": "agm-12v",
-        "warnings": "AGM battery \u2014 use AGM-rated pack. Permanent AWD \u2014 TC neutral required. PHEV: 12V only."
+        "warnings": "AGM battery — use AGM-rated pack. Permanent AWD — TC neutral required. PHEV: 12V only."
       },
       "knownIssues": []
     }

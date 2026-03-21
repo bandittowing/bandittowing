@@ -25,31 +25,31 @@
       "gvwr": "8,532 lbs",
       "slot": "Software: touchscreen Service menu. No manual cable in passenger compartment.",
       "shift": [
-        "PREFERRED: Touchscreen \u2014 tap Gear icon or go to Service menu > Tow Mode to select N.",
-        "WITHOUT POWER: 12V battery is in the FRONT TRUNK (frunk) \u2014 open the front hood.",
-        "Connect jump pack to frunk 12V terminals (red+, black\u2212).",
+        "PREFERRED: Touchscreen — tap Gear icon or go to Service menu > Tow Mode to select N.",
+        "WITHOUT POWER: 12V battery is in the FRONT TRUNK (frunk) — open the front hood.",
+        "Connect jump pack to frunk 12V terminals (red+, black−).",
         "Restore 12V power. Use touchscreen to select Neutral or Tow Mode.",
-        "NO manual override cable exists for the parking brake \u2014 requires power."
+        "NO manual override cable exists for the parking brake — requires power."
       ],
       "neutral": [
         "Apply parking brake.",
-        "12V battery in FRUNK \u2014 open front hood.",
+        "12V battery in FRUNK — open front hood.",
         "Connect jump pack to frunk 12V terminals ONLY.",
         "Restore power. Use touchscreen Service menu to enable Tow Mode.",
         "Tow Mode disengages parking brake and locks vehicle in Neutral.",
         "NEVER touch the high-voltage battery. Orange cables = HV = LETHAL.",
-        "FLATBED ONLY \u2014 electric drivetrain."
+        "FLATBED ONLY — electric drivetrain."
       ],
       "notes": "FLATBED ONLY. Tow Mode via touchscreen. 12V battery in frunk. NO manual parking brake override.",
-      "warn": "FLATBED ONLY. NO manual parking brake override cable. 12V frunk only \u2014 NEVER touch orange HV cables.",
-      "towMethod": "FLATBED ONLY \u2014 quad motor or dual motor AWD electric drivetrain. Never tow with any wheels on ground.",
+      "warn": "FLATBED ONLY. NO manual parking brake override cable. 12V frunk only — NEVER touch orange HV cables.",
+      "towMethod": "FLATBED ONLY — quad motor or dual motor AWD electric drivetrain. Never tow with any wheels on ground.",
       "tc": null,
       "towNotes": [
-        "ELECTRIC VEHICLE \u2014 FLATBED ONLY without exception.",
-        "No manual parking brake cable \u2014 must have 12V power to release parking brake.",
+        "ELECTRIC VEHICLE — FLATBED ONLY without exception.",
+        "No manual parking brake cable — must have 12V power to release parking brake.",
         "If parking brake cannot be released: lift rear wheels with skates/dollies to move vehicle.",
-        "12V frunk battery \u2014 very accessible once front hood is open.",
-        "Heavy vehicle (Class 2b) \u2014 verify flatbed GVWR capacity."
+        "12V frunk battery — very accessible once front hood is open.",
+        "Heavy vehicle (Class 2b) — verify flatbed GVWR capacity."
       ],
       "epb": {
         "equipped": true,
@@ -68,15 +68,15 @@
         "towingNotes": [
           "Restore 12V to normalize suspension.",
           "Use standard ride height for flatbed loading.",
-          "Suspension can lower vehicle at Access Mode \u2014 useful for ramp approach."
+          "Suspension can lower vehicle at Access Mode — useful for ramp approach."
         ]
       },
-      "steeringLock": "Electronic steering lock \u2014 Tow Mode on touchscreen disengages it.",
+      "steeringLock": "Electronic steering lock — Tow Mode on touchscreen disengages it.",
       "battery": {
         "location": "FRUNK (front trunk, accessed by opening front hood)",
-        "jumpTerminals": "Frunk \u2014 12V auxiliary red (+) / black (\u2212) terminals",
+        "jumpTerminals": "Frunk — 12V auxiliary red (+) / black (−) terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "FLATBED ONLY. 12V frunk ONLY \u2014 never touch HV system. No manual parking brake override \u2014 must have power."
+        "warnings": "FLATBED ONLY. 12V frunk ONLY — never touch HV system. No manual parking brake override — must have power."
       },
       "knownIssues": [
         {
@@ -84,11 +84,11 @@
           "detail": "Unlike most vehicles, the Rivian R1T has NO manual parking brake release cable in the passenger compartment. The only way to release the parking brake is electronically via the touchscreen (with 12V power). If 12V is dead, restore from frunk terminals. If EPB still won't release, use wheel skates under rear wheels to move vehicle onto flatbed."
         },
         {
-          "title": "12V Battery in Frunk \u2014 Very Accessible",
-          "detail": "The 12V auxiliary battery is in the front trunk (frunk). Open the front hood \u2014 there is a storage compartment with the 12V battery and accessible jump terminals. This is straightforward to access but operators who haven't worked on Rivians may not know where to look."
+          "title": "12V Battery in Frunk — Very Accessible",
+          "detail": "The 12V auxiliary battery is in the front trunk (frunk). Open the front hood — there is a storage compartment with the 12V battery and accessible jump terminals. This is straightforward to access but operators who haven't worked on Rivians may not know where to look."
         },
         {
-          "title": "Very Heavy \u2014 Class 2B Vehicle",
+          "title": "Very Heavy — Class 2B Vehicle",
           "detail": "The R1T weighs approximately 7,148 lbs curb (GVWR 8,532 lbs), placing it in the same class as a Ford F-250/Ram 2500. Verify your flatbed's GVWR rating before attempting to load."
         }
       ]
@@ -102,11 +102,11 @@
       "fuelType": "electric",
       "trans": "Single-speed electric (quad or dual motor)",
       "drivetrain": "AWD electric",
-      "curbWeight": "7,000\u20137,148 lbs",
+      "curbWeight": "7,000–7,148 lbs",
       "gvwr": "8,532 lbs",
-      "slot": "Software only \u2014 touchscreen Service menu or Gear icon. No manual override cable.",
+      "slot": "Software only — touchscreen Service menu or Gear icon. No manual override cable.",
       "shift": [
-        "PREFERRED: Touchscreen \u2014 Service > Tow Mode, or Gear icon > N.",
+        "PREFERRED: Touchscreen — Service > Tow Mode, or Gear icon > N.",
         "WITHOUT POWER: Open front hood. Connect jump pack to frunk 12V terminals.",
         "Restore power. Use touchscreen to select Tow Mode / Neutral.",
         "No manual override cable in passenger compartment."
@@ -120,12 +120,12 @@
       ],
       "notes": "Identical to R1T for towing purposes. FLATBED ONLY. Tow Mode required.",
       "warn": "FLATBED ONLY. No manual EPB override. 12V frunk only.",
-      "towMethod": "FLATBED ONLY \u2014 electric AWD drivetrain.",
+      "towMethod": "FLATBED ONLY — electric AWD drivetrain.",
       "tc": null,
       "towNotes": [
         "Same towing rules as R1T.",
         "No manual parking brake override.",
-        "Very heavy \u2014 verify flatbed capacity.",
+        "Very heavy — verify flatbed capacity.",
         "Use skates on rear if EPB cannot be released."
       ],
       "epb": {
@@ -145,20 +145,20 @@
           "Standard ride height for loading."
         ]
       },
-      "steeringLock": "Electronic \u2014 Tow Mode disengages.",
+      "steeringLock": "Electronic — Tow Mode disengages.",
       "battery": {
         "location": "FRUNK (front hood storage)",
-        "jumpTerminals": "Frunk \u2014 12V red (+) / black (\u2212)",
+        "jumpTerminals": "Frunk — 12V red (+) / black (−)",
         "type": "auxiliary-12v-only",
         "warnings": "FLATBED ONLY. 12V frunk only. No manual EPB override."
       },
       "knownIssues": [
         {
           "title": "No Manual Parking Brake Override",
-          "detail": "Same as R1T \u2014 no manual release cable. Must have 12V power for Tow Mode. If stuck, use wheel skates."
+          "detail": "Same as R1T — no manual release cable. Must have 12V power for Tow Mode. If stuck, use wheel skates."
         },
         {
-          "title": "Very Heavy \u2014 Verify Flatbed Capacity",
+          "title": "Very Heavy — Verify Flatbed Capacity",
           "detail": "R1S weighs approximately 7,000-7,148 lbs. Verify flatbed deck weight capacity before loading."
         }
       ]

@@ -21,31 +21,31 @@
       "fuelType": "gasoline",
       "trans": "4-speed automatic or 5-speed manual",
       "drivetrain": "FWD",
-      "curbWeight": "2,524\u20132,712 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
+      "curbWeight": "2,524–2,712 lbs",
+      "gvwr": "Not published — check door jamb",
       "slot": "Cap near gear selector base on console",
       "shift": [
         "Turn ignition to ON.",
-        "Find cap near selector base. Pry off.",
-        "Insert key, press plunger.",
-        "Press brake. Move to N.",
-        "Replace cap.",
-        "Manual: depress clutch, select N."
+        "Locate the cap near the gear selector base on the center console. Pry off with a key.",
+        "Insert key into the slot and press firmly downward.",
+        "While holding, press the brake pedal.",
+        "Move the selector to Neutral. Replace cap.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack.",
-        "Shift normally or use slot.",
-        "FWD: rear lift."
+        "12V battery under the hood — connect jump pack.",
+        "Once powered, press brake and shift to N normally.",
+        "FWD: lift from rear — front (drive) wheels roll on ground.",
+        "IMPORTANT: Saturn has plastic body panels — do NOT hook or chain to any body panels. Use frame lift points or flatbed."
       ],
-      "notes": "Discontinued 2007. FWD \u2014 rear lift. Unique Saturn plastic body panels \u2014 do not hook body.",
-      "warn": "Saturn plastic body panels \u2014 do NOT hook or chain to body panels.",
+      "notes": "Discontinued 2007. FWD — rear lift. Unique Saturn plastic body panels — do not hook body.",
+      "warn": "Saturn plastic body panels — do NOT hook or chain to body panels.",
       "towMethod": "Lift from rear (front FWD wheels roll).",
       "tc": null,
       "towNotes": [
-        "Plastic body panels \u2014 no chains on body. Use proper lift points or flatbed.",
-        "Discontinued vehicle \u2014 parts availability limited."
+        "Plastic body panels — no chains on body. Use proper lift points or flatbed.",
+        "Discontinued vehicle — parts availability limited."
       ],
       "epb": {
         "equipped": false,
@@ -56,9 +56,9 @@
       "steeringLock": "Key-operated.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard",
+        "jumpTerminals": "Under hood — standard",
         "type": "standard-12v",
-        "warnings": "Plastic panels \u2014 no chains on body."
+        "warnings": "Plastic panels — no chains on body."
       },
       "knownIssues": [
         {
@@ -76,8 +76,8 @@
       "fuelType": "gasoline",
       "trans": "4-speed automatic or CVT (Honda) or 5-speed manual",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "3,042\u20133,439 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
+      "curbWeight": "3,042–3,439 lbs",
+      "gvwr": "Not published — check door jamb",
       "slot": "Cap near selector base on console",
       "shift": [
         "Find cap near selector base. Pry off.",
@@ -93,11 +93,11 @@
         "AWD: flatbed preferred."
       ],
       "notes": "Honda-sourced V6 and AWD on some models. Plastic body panels.",
-      "warn": "Plastic body panels \u2014 no chains on body. AWD: flatbed preferred.",
+      "warn": "Plastic body panels — no chains on body. AWD: flatbed preferred.",
       "towMethod": "FWD: rear lift. AWD: flatbed preferred.",
       "tc": null,
       "towNotes": [
-        "Plastic panels \u2014 wheel straps or proper lift points only.",
+        "Plastic panels — wheel straps or proper lift points only.",
         "Honda-sourced AWD: flatbed preferred."
       ],
       "epb": {
@@ -109,7 +109,7 @@
       "steeringLock": "Key-operated.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard",
+        "jumpTerminals": "Under hood — standard",
         "type": "standard-12v",
         "warnings": "Plastic panels. AWD: flatbed."
       },
@@ -124,8 +124,8 @@
       "fuelType": "gasoline",
       "trans": "6-speed automatic or hybrid eCVT",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "3,307\u20133,704 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
+      "curbWeight": "3,307–3,704 lbs",
+      "gvwr": "Not published — check door jamb",
       "slot": "Cap near selector base on console",
       "shift": [
         "Find cap near selector base. Pry off.",
@@ -145,7 +145,7 @@
       "towMethod": "FWD: rear lift. AWD: flatbed preferred.",
       "tc": null,
       "towNotes": [
-        "Plastic panels \u2014 no chains.",
+        "Plastic panels — no chains.",
         "Hybrid: 12V only."
       ],
       "epb": {
@@ -157,7 +157,7 @@
       "steeringLock": "Key-operated.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard",
+        "jumpTerminals": "Under hood — standard",
         "type": "standard-12v",
         "warnings": "Plastic panels. Hybrid: 12V only. AWD: flatbed."
       },
@@ -172,8 +172,8 @@
       "fuelType": "gasoline",
       "trans": "4-speed or 6-speed automatic",
       "drivetrain": "FWD",
-      "curbWeight": "3,439\u20133,571 lbs",
-      "gvwr": "Not published \u2014 check door jamb",
+      "curbWeight": "3,439–3,571 lbs",
+      "gvwr": "Not published — check door jamb",
       "slot": "Cap near selector base on center console",
       "shift": [
         "Find cap near selector base. Pry off.",
@@ -188,11 +188,11 @@
         "Shift normally."
       ],
       "notes": "Mid-size sedan. Plastic body panels.",
-      "warn": "Plastic body panels \u2014 do not chain to body.",
+      "warn": "Plastic body panels — do not chain to body.",
       "towMethod": "Lift from rear (front FWD drive wheels roll).",
       "tc": null,
       "towNotes": [
-        "Plastic panels \u2014 no hooks on body."
+        "Plastic panels — no hooks on body."
       ],
       "epb": {
         "equipped": false,
@@ -203,7 +203,7 @@
       "steeringLock": "Key-operated.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard",
+        "jumpTerminals": "Under hood — standard",
         "type": "standard-12v",
         "warnings": "Plastic body panels."
       },
@@ -218,28 +218,28 @@
       "fuelType": "gasoline",
       "trans": "6-speed automatic",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "4,619\u20134,763 lbs",
-      "gvwr": "5,864\u20136,008 lbs",
+      "curbWeight": "4,619–4,763 lbs",
+      "gvwr": "5,864–6,008 lbs",
       "slot": "Cap near selector base on console",
       "shift": [
-        "Find cap near selector base. Pry off.",
-        "Insert key, press plunger.",
-        "Press brake. Move to N."
+        "Turn ignition to ON.",
+        "Locate the shift lock slot near the gear selector base on the console.",
+        "Pry off cap. Insert key and press firmly.",
+        "Press brake while holding. Move to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack.",
-        "Shift normally.",
-        "AWD: flatbed preferred."
+        "12V battery under the hood — connect jump pack.",
+        "Once powered, shift normally.",
+        "FWD or AWD — AWD: flatbed preferred. FWD: lift from rear — front (drive) wheels roll."
       ],
       "notes": "Largest Saturn. Lambda platform (same as Traverse/Enclave). Plastic body panels.",
       "warn": "Plastic body panels. AWD: flatbed preferred. Heavy for a Saturn.",
       "towMethod": "FWD: rear lift. AWD: flatbed preferred.",
       "tc": null,
       "towNotes": [
-        "Plastic panels \u2014 no hooks on body.",
-        "Heavy crossover \u2014 verify lift capacity."
+        "Plastic panels — no hooks on body.",
+        "Heavy crossover — verify lift capacity."
       ],
       "epb": {
         "equipped": false,
@@ -250,7 +250,7 @@
       "steeringLock": "Key-operated.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard",
+        "jumpTerminals": "Under hood — standard",
         "type": "standard-12v",
         "warnings": "Plastic panels. AWD: flatbed. Heavy vehicle."
       },

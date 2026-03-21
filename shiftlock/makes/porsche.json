@@ -21,29 +21,30 @@
       "fuelType": "gasoline",
       "trans": "6-speed Tiptronic automatic",
       "drivetrain": "AWD (permanent, PTM)",
-      "curbWeight": "4,620\u20134,960 lbs",
-      "gvwr": "5,875\u20136,261 lbs",
+      "curbWeight": "4,620–4,960 lbs",
+      "gvwr": "5,875–6,261 lbs",
       "slot": "Slot at base of gear selector on center console or under console trim panel",
       "shift": [
         "Turn ignition to ON.",
-        "Locate shift lock override slot at selector base or under console trim.",
-        "Remove trim if needed. Insert key, press plunger.",
-        "Press brake. Move Tiptronic lever to N.",
-        "Confirm N on cluster."
+        "The Cayenne uses a 6-speed Tiptronic automatic with permanent PTM AWD — locate the shift lock override slot at the selector base or under the center console trim panel.",
+        "Remove the trim panel if needed. Insert a thin key or flathead into the slot and press firmly.",
+        "While holding, press the brake pedal.",
+        "Move the Tiptronic lever to N. Confirm N on the instrument cluster.",
+        "Jack Mode for air suspension (S/Turbo trims): hold suspension height switch forward 5-10 seconds until 'Regulation Switched Off' appears on display before loading on flatbed."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood \u2014 standard location.",
-        "Connect jump pack.",
-        "Restore power. Shift normally or use slot.",
-        "AWD: flatbed strongly preferred."
+        "12V battery under the hood — standard location. Connect jump pack.",
+        "Once 12V power is restored, press brake and shift to N normally.",
+        "FLATBED STRONGLY PREFERRED — permanent PTM AWD with no true transfer case neutral on most trims.",
+        "Air suspension: activate Jack Mode (hold suspension switch 5-10 sec) before loading on flatbed."
       ],
-      "notes": "Permanent AWD \u2014 no transfer case neutral. Flatbed strongly preferred.",
-      "warn": "Permanent AWD \u2014 flatbed strongly preferred. Do not wheel-lift without consulting manual.",
-      "towMethod": "FLATBED STRONGLY PREFERRED. PTM AWD \u2014 no true neutral for transfer case on most models.",
+      "notes": "Permanent AWD — no transfer case neutral. Flatbed strongly preferred.",
+      "warn": "Permanent AWD — flatbed strongly preferred. Do not wheel-lift without consulting manual.",
+      "towMethod": "FLATBED STRONGLY PREFERRED. PTM AWD — no true neutral for transfer case on most models.",
       "tc": null,
       "towNotes": [
-        "Permanent PTM AWD \u2014 wheel-lift risks binding.",
+        "Permanent PTM AWD — wheel-lift risks binding.",
         "Verify if transfer case neutral is available for specific trim.",
         "Flatbed always safest option."
       ],
@@ -59,15 +60,15 @@
           "Jack Mode: hold suspension height switch forward 5-10 seconds until 'Regulation Switched Off' message appears on display.",
           "Jack Mode deactivates suspension regulation for loading/lifting.",
           "Deactivate Jack Mode after loading is complete.",
-          "If suspension has failed, vehicle may be at lowest setting \u2014 check clearance."
+          "If suspension has failed, vehicle may be at lowest setting — check clearance."
         ]
       },
       "steeringLock": "Key-operated steering lock.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 standard terminals",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
-        "warnings": "AWD \u2014 flatbed preferred."
+        "warnings": "AWD — flatbed preferred."
       },
       "knownIssues": []
     },
@@ -80,38 +81,40 @@
       "fuelType": "gasoline",
       "trans": "8-speed Tiptronic S or PDK (S E-Hybrid)",
       "drivetrain": "AWD (permanent PTM)",
-      "curbWeight": "4,564\u20135,071 lbs",
-      "gvwr": "6,008\u20136,261 lbs",
+      "curbWeight": "4,564–5,071 lbs",
+      "gvwr": "6,008–6,261 lbs",
       "slot": "Slot at base of gear selector or under console panel",
       "shift": [
         "Turn ignition to ON.",
-        "Locate override slot at selector base.",
-        "Insert key, press plunger.",
-        "Press brake. Move to N.",
-        "S E-Hybrid: 12V only \u2014 never touch HV.",
-        "Confirm N."
+        "The 958 Cayenne uses an 8-speed Tiptronic S or PDK — locate the override slot at the selector base.",
+        "Insert a thin key or flathead into the slot and press firmly.",
+        "While holding, press the brake pedal.",
+        "Move the selector to N. Confirm N on the cluster.",
+        "S E-Hybrid PHEV: restore 12V power first. NEVER touch the orange HV cables.",
+        "Jack Mode for air suspension: hold suspension height switch 5-10 seconds until 'Regulation Switched Off' displays."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack (12V). Restore power.",
-        "Shift normally or use slot.",
-        "S E-Hybrid: orange HV cables present \u2014 12V only, flatbed only."
+        "12V battery under the hood (AGM) — use an AGM-compatible jump pack.",
+        "Once powered, press brake and shift to N normally.",
+        "FLATBED STRONGLY PREFERRED — permanent PTM AWD.",
+        "S E-Hybrid PHEV: 12V auxiliary only — NEVER touch the orange high-voltage cables. FLATBED ONLY.",
+        "EPB: restore 12V, hold EPB button to release. Manual: EPB actuator outer two pins — connect 12V, polarity controls direction."
       ],
       "notes": "S E-Hybrid PHEV: flatbed only, 12V auxiliary only.",
       "warn": "S E-Hybrid: FLATBED ONLY, HV system present. Standard AWD: flatbed strongly preferred.",
       "towMethod": "FLATBED STRONGLY PREFERRED. S E-Hybrid: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "PTM permanent AWD \u2014 flatbed always safest.",
-        "S E-Hybrid: orange HV cables \u2014 12V only, flatbed mandatory."
+        "PTM permanent AWD — flatbed always safest.",
+        "S E-Hybrid: orange HV cables — 12V only, flatbed mandatory."
       ],
       "epb": {
         "equipped": true,
         "override": "Connect 12V. Hold EPB button to release. Manual: Allen wrench to unscrew parking brake actuator from underneath.",
         "steps": [
           "Preferred: Connect 12V jump pack. Hold EPB button to release.",
-          "Manual: Four-pin EPB actuator connector under vehicle. Connect outer two pins to 12V \u2014 polarity selects direction (retract vs extend).",
+          "Manual: Four-pin EPB actuator connector under vehicle. Connect outer two pins to 12V — polarity selects direction (retract vs extend).",
           "Allen wrench method: unscrew parking brake actuator from caliper underneath vehicle."
         ]
       },
@@ -127,9 +130,9 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 AGM rated",
+        "jumpTerminals": "Under hood — AGM rated",
         "type": "agm-12v",
-        "warnings": "AGM battery \u2014 use AGM-rated pack. S E-Hybrid: 12V only, flatbed only."
+        "warnings": "AGM battery — use AGM-rated pack. S E-Hybrid: 12V only, flatbed only."
       },
       "knownIssues": [
         {
@@ -147,28 +150,32 @@
       "fuelType": "gasoline",
       "trans": "8-speed Tiptronic S or PDK; E-Hybrid PHEV available",
       "drivetrain": "AWD (permanent PTM)",
-      "curbWeight": "4,630\u20135,423 lbs",
-      "gvwr": "6,008\u20136,500 lbs",
-      "slot": "Electronic gear selector \u2014 override slot under console trim near selector",
+      "curbWeight": "4,630–5,423 lbs",
+      "gvwr": "6,008–6,500 lbs",
+      "slot": "Electronic gear selector — override slot under console trim near selector",
       "shift": [
-        "Locate override slot at selector base under console trim.",
-        "Insert key, press override plunger.",
-        "Press brake. Move to N. Confirm N.",
-        "E-Hybrid: 12V only first, then override."
+        "Turn ignition to ON.",
+        "The E3 Cayenne has an electronic gear selector — locate the override slot under the console trim near the selector base.",
+        "Remove trim if needed. Insert a thin key or flathead into the override slot and press firmly.",
+        "While holding, press the brake pedal.",
+        "Move the selector to N. Confirm N.",
+        "E-Hybrid PHEV: restore 12V power first. Never touch the orange HV cables.",
+        "Jack Mode for air suspension: hold height button 5-10 seconds until 'Regulation Switched Off' displays before loading on flatbed."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood (AGM).",
-        "Connect jump pack.",
-        "Restore power. Shift normally or use slot.",
-        "E-Hybrid: 12V only, flatbed only."
+        "12V battery under the hood (AGM) — use an AGM-compatible jump pack.",
+        "Once powered, press brake and shift to N normally.",
+        "FLATBED STRONGLY PREFERRED — permanent PTM AWD.",
+        "E-Hybrid PHEV: 12V auxiliary only — NEVER touch orange HV cables. FLATBED ONLY.",
+        "EPB: restore 12V and hold EPB button to release."
       ],
       "notes": "E-Hybrid PHEV: flatbed only, 12V auxiliary only, orange HV present.",
       "warn": "E-Hybrid: FLATBED ONLY. Standard: flatbed strongly preferred.",
       "towMethod": "FLATBED STRONGLY PREFERRED (all). E-Hybrid: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "PTM AWD \u2014 flatbed mandatory for safety.",
+        "PTM AWD — flatbed mandatory for safety.",
         "E-Hybrid: HV system, flatbed only, 12V auxiliary."
       ],
       "epb": {
@@ -192,7 +199,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 AGM terminals",
+        "jumpTerminals": "Under hood — AGM terminals",
         "type": "agm-12v",
         "warnings": "AGM battery. E-Hybrid: 12V only, flatbed only."
       },
@@ -207,29 +214,31 @@
       "fuelType": "gasoline",
       "trans": "7-speed PDK dual-clutch; Macan EV (2024+) single-speed electric",
       "drivetrain": "AWD (permanent PTM); Macan EV: AWD electric",
-      "curbWeight": "3,901\u20134,497 lbs",
+      "curbWeight": "3,901–4,497 lbs",
       "gvwr": "5,423+ lbs",
-      "slot": "Gear selector at center console \u2014 override slot or PDK lever slot",
+      "slot": "Gear selector at center console — override slot or PDK lever slot",
       "shift": [
-        "Locate override slot at selector base.",
-        "Insert key, press plunger.",
-        "Press brake. Move PDK lever to N. Confirm N.",
-        "Macan EV: restore 12V. Use Service menu on Porsche Communication Management (PCM) to select Tow Mode."
+        "Turn ignition to ON.",
+        "Gas Macan: locate the override slot at the selector base. Insert key and press firmly.",
+        "Press the brake pedal while holding.",
+        "Move the PDK lever or selector to N. Confirm N.",
+        "Macan EV (2024+): restore 12V power — battery in frunk area. Use the PCM touchscreen Service menu to select Tow Mode.",
+        "FLATBED STRONGLY PREFERRED on all Macan trims — PDK dual-clutch and permanent AWD."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Gas: battery under hood.",
-        "Macan EV: 12V auxiliary in frunk/under-hood area.",
-        "Connect jump pack. Restore power.",
-        "Gas: shift normally or use slot.",
-        "Macan EV: FLATBED ONLY \u2014 select Tow Mode on PCM."
+        "Gas: 12V battery under the hood (AGM). Macan EV: 12V battery in frunk/under-hood area — 12V auxiliary only.",
+        "Connect jump pack. Use AGM-compatible pack for gas trims.",
+        "Gas: once powered, press brake and shift normally.",
+        "Macan EV: restore 12V, then use PCM Tow Mode. FLATBED ONLY. Never touch orange HV cables.",
+        "EPB: restore 12V and hold EPB button to release."
       ],
       "notes": "Macan EV (2024+): FLATBED ONLY, electric drivetrain, Tow Mode via PCM.",
       "warn": "Macan EV: FLATBED ONLY. Gas AWD: flatbed strongly preferred.",
       "towMethod": "Gas: flatbed strongly preferred. Macan EV: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "PDK dual-clutch: no lubrication without engine \u2014 flatbed preferred.",
+        "PDK dual-clutch: no lubrication without engine — flatbed preferred.",
         "Macan EV: electric drivetrain, flatbed only, use Tow Mode."
       ],
       "epb": {
@@ -252,7 +261,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood (gas). Front storage area (Macan EV).",
-        "jumpTerminals": "Under hood \u2014 standard (gas) or frunk area (EV)",
+        "jumpTerminals": "Under hood — standard (gas) or frunk area (EV)",
         "type": "agm-12v",
         "warnings": "Macan EV: flatbed only, 12V only. Gas AWD: flatbed preferred."
       },
@@ -267,21 +276,25 @@
       "fuelType": "gasoline",
       "trans": "7-speed PDK or 8-speed PDK; E-Hybrid PHEV available",
       "drivetrain": "RWD or AWD (4/4S/Turbo)",
-      "curbWeight": "3,868\u20134,938 lbs",
+      "curbWeight": "3,868–4,938 lbs",
       "gvwr": "5,291+ lbs",
-      "slot": "PDK lever or electronic selector \u2014 override at selector base",
+      "slot": "PDK lever or electronic selector — override at selector base",
       "shift": [
-        "Find override slot at selector base.",
-        "Insert key, press plunger.",
-        "Press brake. Move PDK/selector to N.",
-        "E-Hybrid: 12V only first."
+        "Turn ignition to ON.",
+        "The Panamera uses a 7-speed or 8-speed PDK — locate the override slot at the selector base.",
+        "Insert a thin key or flathead into the slot and press firmly.",
+        "Press the brake pedal while holding.",
+        "Move the PDK selector to N. Confirm N on the display.",
+        "E-Hybrid PHEV: restore 12V power first. Never touch orange HV cables."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Restore power.",
-        "Shift normally or use override.",
-        "E-Hybrid: 12V only, orange HV cables \u2014 flatbed only."
+        "12V battery under the hood (AGM) — use an AGM-compatible jump pack.",
+        "Once powered, press brake and shift to N normally.",
+        "RWD Panamera: lift from front — rear (drive) wheels roll on ground.",
+        "AWD (4/4S/Turbo): FLATBED PREFERRED.",
+        "E-Hybrid PHEV: 12V auxiliary only — NEVER touch orange HV cables. FLATBED ONLY.",
+        "EPB: restore 12V and hold EPB button."
       ],
       "notes": "E-Hybrid PHEV: flatbed only. RWD models can be wheel-lifted from front.",
       "warn": "E-Hybrid: FLATBED ONLY. AWD: flatbed preferred.",
@@ -311,7 +324,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood \u2014 AGM",
+        "jumpTerminals": "Under hood — AGM",
         "type": "agm-12v",
         "warnings": "AGM battery. E-Hybrid: 12V only, flatbed only."
       },
@@ -326,30 +339,34 @@
       "fuelType": "gasoline",
       "trans": "7-speed PDK or 6/7-speed manual",
       "drivetrain": "RWD or AWD (4/4S/Turbo/Targa 4)",
-      "curbWeight": "2,976\u20133,671 lbs",
-      "gvwr": "3,638\u20134,409 lbs",
-      "slot": "PDK: selector base override slot. Manual: no shift lock \u2014 select N via clutch.",
+      "curbWeight": "2,976–3,671 lbs",
+      "gvwr": "3,638–4,409 lbs",
+      "slot": "PDK: selector base override slot. Manual: no shift lock — select N via clutch.",
       "shift": [
-        "PDK: locate override slot at selector base. Insert key, press. Press brake. Move to N.",
-        "MANUAL: depress clutch, select Neutral \u2014 no shift lock present.",
-        "Confirm N on cluster (PDK)."
+        "Turn ignition to ON.",
+        "PDK TRANSMISSION: locate the override slot at the PDK selector base. Insert key and press firmly. Press brake. Move to N.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral. No shift lock exists.",
+        "Confirm N on the instrument cluster (PDK).",
+        "IMPORTANT: 911 is RWD — lift from FRONT. Rear wheels roll on ground."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery in FRONT of vehicle (frunk area) \u2014 911 engine is in rear.",
-        "12V battery and jump terminals are UNDER the front hood (frunk), not rear engine area.",
-        "Connect jump pack to frunk battery terminals.",
-        "Restore power. Shift normally or use override."
+        "CRITICAL: 911 battery is in the FRUNK (front storage compartment under the front hood) — NOT at the rear engine.",
+        "Open the FRONT hood. Connect jump pack to the frunk battery terminals (red +, black −). Use an AGM-compatible jump pack.",
+        "Once powered, press brake and shift to N normally.",
+        "RWD: lift from FRONT — rear (drive) wheels roll on ground.",
+        "AWD (4/4S/Turbo): flatbed preferred.",
+        "Very low clearance — use flatbed with wheel grids, never hook body panels."
       ],
-      "notes": "BATTERY IS IN THE FRUNK (front storage) \u2014 not at the rear engine. This is a common mistake.",
+      "notes": "BATTERY IS IN THE FRUNK (front storage) — not at the rear engine. This is a common mistake.",
       "warn": "Battery is in the FRUNK, not at the rear engine bay. AWD (4S/Turbo): flatbed preferred.",
       "towMethod": "RWD: lift from front (rear engine/drive wheels roll) or flatbed. AWD: flatbed preferred.",
       "tc": null,
       "towNotes": [
-        "BATTERY IS IN FRUNK \u2014 many operators look at the rear engine and find no battery. Open the FRONT hood.",
-        "RWD: rear lift is incorrect \u2014 rear has engine, not drive axle for standard towing. Actually 911 is RWD \u2014 rear wheels drive. Lift from FRONT. Rear drive wheels roll.",
+        "BATTERY IS IN FRUNK — many operators look at the rear engine and find no battery. Open the FRONT hood.",
+        "RWD: rear lift is incorrect — rear has engine, not drive axle for standard towing. Actually 911 is RWD — rear wheels drive. Lift from FRONT. Rear drive wheels roll.",
         "AWD 4S/Turbo: flatbed preferred.",
-        "Low ground clearance \u2014 use flatbed with wheel grids, not hooks on body."
+        "Low ground clearance — use flatbed with wheel grids, not hooks on body."
       ],
       "epb": {
         "equipped": true,
@@ -363,16 +380,16 @@
         "equipped": true,
         "description": "PASM optional. Sport suspension or air suspension.",
         "towingNotes": [
-          "Check ride height \u2014 some 911s are very low stock.",
+          "Check ride height — some 911s are very low stock.",
           "Jack Mode if air suspension equipped: hold height button 5-10 sec."
         ]
       },
       "steeringLock": "Electronic steering lock (992). Key lock (997/991).",
       "battery": {
-        "location": "FRUNK (front hood / front storage compartment) \u2014 NOT at the rear engine",
-        "jumpTerminals": "Front hood (frunk) battery terminals \u2014 red (+) / black (\u2212)",
+        "location": "FRUNK (front hood / front storage compartment) — NOT at the rear engine",
+        "jumpTerminals": "Front hood (frunk) battery terminals — red (+) / black (−)",
         "type": "agm-12v",
-        "warnings": "BATTERY IS IN THE FRUNK \u2014 DO NOT look for it at the rear engine bay."
+        "warnings": "BATTERY IS IN THE FRUNK — DO NOT look for it at the rear engine bay."
       },
       "knownIssues": [
         {
@@ -394,31 +411,32 @@
       "fuelType": "electric",
       "trans": "Single-speed or 2-speed electric",
       "drivetrain": "RWD or AWD (4/4S/Turbo) electric",
-      "curbWeight": "4,541\u20135,423 lbs",
+      "curbWeight": "4,541–5,423 lbs",
       "gvwr": "5,732+ lbs",
-      "slot": "Touchscreen on PCM \u2014 Service > Tow Mode. Or override slot near selector.",
+      "slot": "Touchscreen on PCM — Service > Tow Mode. Or override slot near selector.",
       "shift": [
-        "PREFERRED: Use Porsche Communication Management (PCM) touchscreen \u2014 Menu > Service > Tow Mode. This enables Neutral and disables parking brake.",
-        "MANUAL OVERRIDE: locate slot near selector base. Insert key, press. Move to N.",
-        "Without power: frunk 12V terminal \u2014 connect jump pack, restore power, then use PCM."
+        "PREFERRED METHOD: Use the Porsche Communication Management (PCM) touchscreen — Menu > Service > Tow Mode. This safely engages Neutral AND releases the EPB automatically.",
+        "MANUAL OVERRIDE: locate the slot near the selector base. Insert key and press. Move to N.",
+        "WITHOUT POWER: open the front hood (frunk). Connect jump pack to the 12V auxiliary battery in the frunk. Restore power, then use PCM Tow Mode.",
+        "FLATBED ONLY — electric drivetrain. Regenerative braking will damage motors if wheels rotate while being towed."
       ],
       "neutral": [
         "Apply parking brake.",
-        "12V auxiliary battery in FRUNK (front hood).",
-        "Connect jump pack to frunk 12V terminals.",
-        "Restore power. Use PCM Tow Mode (Service menu).",
-        "NEVER touch HV battery \u2014 orange cables.",
-        "FLATBED ONLY \u2014 electric drivetrain."
+        "12V auxiliary battery is in the FRUNK (front storage compartment under the front hood) — NOT in the rear trunk.",
+        "Connect jump pack to frunk 12V terminals ONLY. NEVER touch the orange high-voltage cables.",
+        "Once 12V power is restored, use PCM Tow Mode: Menu > Service > Tow Mode.",
+        "Tow Mode releases the EPB and engages Neutral in one step.",
+        "FLATBED ONLY. Very heavy vehicle — verify flatbed weight rating."
       ],
       "notes": "FLATBED ONLY. Tow Mode via PCM. 12V battery in frunk.",
-      "warn": "FLATBED ONLY. Never tow with any driven wheels on ground. 12V auxiliary only \u2014 never touch HV system.",
-      "towMethod": "FLATBED ONLY \u2014 electric drivetrain. Regenerative braking will damage motors if wheels roll while being towed.",
+      "warn": "FLATBED ONLY. Never tow with any driven wheels on ground. 12V auxiliary only — never touch HV system.",
+      "towMethod": "FLATBED ONLY — electric drivetrain. Regenerative braking will damage motors if wheels roll while being towed.",
       "tc": null,
       "towNotes": [
-        "ELECTRIC VEHICLE \u2014 FLATBED ONLY. No exceptions.",
+        "ELECTRIC VEHICLE — FLATBED ONLY. No exceptions.",
         "PCM Tow Mode (Service menu) is the correct and safest Neutral method.",
-        "12V battery in frunk \u2014 NEVER touch orange HV cables/battery.",
-        "Very heavy vehicle \u2014 verify flatbed weight capacity."
+        "12V battery in frunk — NEVER touch orange HV cables/battery.",
+        "Very heavy vehicle — verify flatbed weight capacity."
       ],
       "epb": {
         "equipped": true,
@@ -435,20 +453,20 @@
         "description": "Air suspension standard on Taycan. PCM Tow Mode also adjusts suspension.",
         "towingNotes": [
           "Tow Mode normalizes suspension for loading.",
-          "If power not available, suspension may be in non-standard position \u2014 check clearance."
+          "If power not available, suspension may be in non-standard position — check clearance."
         ]
       },
-      "steeringLock": "Electronic steering lock \u2014 Tow Mode disengages it.",
+      "steeringLock": "Electronic steering lock — Tow Mode disengages it.",
       "battery": {
-        "location": "FRUNK (front hood / front storage) \u2014 NOT under rear trunk floor",
-        "jumpTerminals": "Frunk \u2014 12V auxiliary red (+) / black (\u2212) terminals",
+        "location": "FRUNK (front hood / front storage) — NOT under rear trunk floor",
+        "jumpTerminals": "Frunk — 12V auxiliary red (+) / black (−) terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "FLATBED ONLY. 12V auxiliary ONLY \u2014 NEVER touch orange HV battery cables. Tow Mode via PCM is required."
+        "warnings": "FLATBED ONLY. 12V auxiliary ONLY — NEVER touch orange HV battery cables. Tow Mode via PCM is required."
       },
       "knownIssues": [
         {
           "title": "Tow Mode via PCM Is the Only Correct Method",
-          "detail": "The correct and safest way to put a Taycan in Neutral is via Tow Mode on the PCM touchscreen (Menu > Service > Tow Mode). This safely engages neutral AND releases the EPB. Do not rely solely on the column selector for neutral \u2014 the vehicle can re-engage drive without Tow Mode active."
+          "detail": "The correct and safest way to put a Taycan in Neutral is via Tow Mode on the PCM touchscreen (Menu > Service > Tow Mode). This safely engages neutral AND releases the EPB. Do not rely solely on the column selector for neutral — the vehicle can re-engage drive without Tow Mode active."
         },
         {
           "title": "12V Battery in Frunk",
@@ -465,26 +483,30 @@
       "fuelType": "gasoline",
       "trans": "6-speed or 7-speed PDK; 6-speed manual available",
       "drivetrain": "RWD",
-      "curbWeight": "2,888\u20133,472 lbs",
-      "gvwr": "3,417\u20134,079 lbs",
+      "curbWeight": "2,888–3,472 lbs",
+      "gvwr": "3,417–4,079 lbs",
       "slot": "PDK: selector base override slot. Manual: no lock.",
       "shift": [
-        "PDK: find override slot at selector base. Insert key, press. Press brake. Move to N.",
-        "Manual: depress clutch, select N \u2014 no shift lock."
+        "Turn ignition to ON.",
+        "PDK TRANSMISSION: locate the override slot at the PDK selector base. Insert key and press firmly. Press brake. Move to N.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral. No shift lock exists.",
+        "IMPORTANT: Boxster/Cayman is mid-engine RWD — battery is in the FRUNK (front storage), not at the rear engine."
       ],
       "neutral": [
         "Apply parking brake.",
-        "BATTERY IS IN THE FRONT TRUNK (frunk) \u2014 mid-engine vehicle, no conventional trunk.",
-        "Connect jump pack to frunk battery terminals.",
-        "Restore power. Shift normally or use override."
+        "BATTERY IS IN THE FRUNK (front storage compartment) — the rear of the vehicle is the engine, not the trunk.",
+        "Open the FRONT hood. Connect jump pack to the frunk battery terminals. Use an AGM-compatible jump pack.",
+        "Once powered, press brake and shift to N normally.",
+        "RWD: lift from front — rear (drive) wheels roll on ground.",
+        "Very low ground clearance — use flatbed with care, minimal approach angle."
       ],
-      "notes": "Mid-engine. Battery in frunk (front storage). RWD \u2014 lift from front.",
+      "notes": "Mid-engine. Battery in frunk (front storage). RWD — lift from front.",
       "warn": "Battery is in the FRUNK (front storage area). Very low ground clearance.",
       "towMethod": "Lift from front (rear drive wheels roll) or flatbed. Flatbed preferred for low-clearance models.",
       "tc": null,
       "towNotes": [
-        "Battery in frunk \u2014 open front hood.",
-        "Very low clearance \u2014 use flatbed with care."
+        "Battery in frunk — open front hood.",
+        "Very low clearance — use flatbed with care."
       ],
       "epb": {
         "equipped": true,
@@ -501,10 +523,10 @@
       },
       "steeringLock": "Electronic or key steering lock depending on year.",
       "battery": {
-        "location": "FRUNK (front storage compartment) \u2014 mid-engine, battery is up front",
+        "location": "FRUNK (front storage compartment) — mid-engine, battery is up front",
         "jumpTerminals": "Frunk battery terminals",
         "type": "agm-12v",
-        "warnings": "Battery in FRUNK. Very low ground clearance \u2014 use flatbed carefully."
+        "warnings": "Battery in FRUNK. Very low ground clearance — use flatbed carefully."
       },
       "knownIssues": [
         {
