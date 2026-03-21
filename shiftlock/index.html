@@ -29,440 +29,293 @@
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Oswald:wght@400;500;600;700&family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --gold: #C8900A;
-    --gold-bright: #F0B429;
-    --gold-dark: #8A6008;
-    --orange: #C85A0A;
-    --black: #080808;
-    --dark1: #0E0E0E;
-    --dark2: #141410;
-    --dark3: #1C1C16;
-    --dark4: #242418;
-    --white: #F0E8D8;
-    --gray: #888070;
-    --font-display: 'Big Shoulders Display', sans-serif;
-    --font-ui: 'Oswald', sans-serif;
-    --font-body: 'Barlow', sans-serif;
-    --font-cond: 'Barlow Condensed', sans-serif;
+    --gold:       #C8900A;
+    --gold-bright:#F0B429;
+    --gold-dark:  #8A6008;
+    --orange:     #C85A0A;
+    --black:      #080808;
+    --dark1:      #0E0E0E;
+    --dark2:      #141410;
+    --dark3:      #1C1C16;
+    --dark4:      #242418;
+    --white:      #F0E8D8;
+    --gray:       #888070;
+    --green:      #7bc67a;
+    --blue:       #4a7ab5;
+    --font-display:'Big Shoulders Display', sans-serif;
+    --font-ui:    'Oswald', sans-serif;
+    --font-body:  'Barlow', sans-serif;
+    --font-cond:  'Barlow Condensed', sans-serif;
   }
 
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  * { margin:0; padding:0; box-sizing:border-box; }
 
   body {
     background: var(--black);
     color: var(--white);
     font-family: var(--font-body);
     min-height: 100vh;
-    background-image:
-      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
   }
 
-  /* ── HEADER ─────────────────────────────── */
+  /* ── HEADER ── */
   header {
     background: var(--dark1);
     border-bottom: 3px solid var(--gold);
-    padding: 0;
     position: relative;
   }
   header::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 3px;
+    content:'';
+    position:absolute; top:0; left:0; right:0; height:3px;
     background: linear-gradient(90deg, var(--gold-dark), var(--gold-bright), var(--gold-dark));
   }
   .header-inner {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 20px 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+    max-width:1100px; margin:0 auto; padding:20px 24px;
+    display:flex; align-items:center; justify-content:space-between; gap:20px;
   }
-  .logo-area {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    text-decoration: none;
-  }
-  .logo-area img {
-    display: block;
-  }
+  .logo-area img { display:block; height:56px; }
+  .logo-area { text-decoration:none; }
   .header-phone {
-    font-family: var(--font-ui);
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--gold-bright);
-    letter-spacing: 1px;
-    text-decoration: none;
-    border: 1px solid var(--gold-dark);
-    padding: 8px 16px;
-    transition: all .2s;
+    font-family:var(--font-ui); font-size:18px; font-weight:700;
+    color:var(--gold-bright); letter-spacing:1px; text-decoration:none;
+    border:1px solid var(--gold-dark); padding:8px 16px; transition:all .2s;
   }
-  .header-phone:hover {
-    background: var(--gold);
-    color: var(--black);
-    border-color: var(--gold);
-  }
+  .header-phone:hover { background:var(--gold); color:var(--black); border-color:var(--gold); }
 
-  /* ── HERO ─────────────────────────────── */
+  /* ── HERO ── */
   .hero {
     background: linear-gradient(180deg, var(--dark2) 0%, var(--dark3) 100%);
-    border-bottom: 2px solid var(--dark4);
-    padding: 52px 24px 44px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
+    border-bottom:2px solid var(--dark4);
+    padding:52px 24px 44px; text-align:center; position:relative; overflow:hidden;
   }
-  .hero::before {
-    content: '';
-    position: absolute;
-    bottom: 0; left: 0; right: 0;
-    height: 2px;
+  .hero::after {
+    content:''; position:absolute; bottom:0; left:0; right:0; height:2px;
     background: linear-gradient(90deg, transparent, var(--gold), transparent);
   }
   .hero-badge {
-    display: inline-block;
-    font-family: var(--font-ui);
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: var(--gold);
-    border: 1px solid var(--gold-dark);
-    padding: 5px 14px;
-    margin-bottom: 18px;
+    display:inline-block; font-family:var(--font-ui); font-size:11px;
+    font-weight:600; letter-spacing:4px; text-transform:uppercase;
+    color:var(--gold); border:1px solid var(--gold-dark); padding:5px 14px; margin-bottom:18px;
   }
   .hero h1 {
-    font-family: var(--font-display);
-    font-size: clamp(2.4rem, 6vw, 4.2rem);
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: var(--white);
-    -webkit-text-stroke: 1px var(--gold-dark);
-    line-height: 1;
-    margin-bottom: 10px;
+    font-family:var(--font-display); font-size:clamp(2.4rem,6vw,4.2rem);
+    font-weight:900; text-transform:uppercase; letter-spacing:2px;
+    color:var(--white); -webkit-text-stroke:1px var(--gold-dark); line-height:1; margin-bottom:10px;
   }
-  .hero h1 span { color: var(--gold-bright); -webkit-text-stroke: 1px var(--gold); }
+  .hero h1 span { color:var(--gold-bright); -webkit-text-stroke:1px var(--gold); }
   .hero-sub {
-    font-family: var(--font-cond);
-    font-size: 1.1rem;
-    font-weight: 400;
-    color: var(--gray);
-    letter-spacing: 1px;
-    max-width: 600px;
-    margin: 0 auto;
+    font-family:var(--font-cond); font-size:1.1rem; color:var(--gray);
+    letter-spacing:1px; max-width:600px; margin:0 auto;
   }
 
-  /* ── LOOKUP PANEL ─────────────────────────────── */
-  .container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px 20px 80px;
-  }
+  /* ── CONTAINER ── */
+  .container { max-width:900px; margin:0 auto; padding:40px 20px 80px; }
 
+  /* ── LOOKUP CARD ── */
   .lookup-card {
-    background: var(--dark2);
-    border: 1px solid #2a2820;
-    border-top: 3px solid var(--gold);
-    padding: 36px;
-    margin-bottom: 32px;
+    background:var(--dark2); border:1px solid #2a2820;
+    border-top:3px solid var(--gold); padding:36px; margin-bottom:32px;
+  }
+  .section-label {
+    font-family:var(--font-ui); font-size:13px; font-weight:600;
+    letter-spacing:3px; text-transform:uppercase; color:var(--gold);
+    margin-bottom:24px; display:flex; align-items:center; gap:10px;
+  }
+  .section-label::after { content:''; flex:1; height:1px; background:var(--dark4); }
+
+  .selects-row { display:grid; grid-template-columns:1fr 1fr 2fr; gap:14px; margin-bottom:20px; }
+  @media (max-width:600px) {
+    .selects-row { grid-template-columns:1fr; }
+    .lookup-card { padding:24px 18px; }
+    .result-grid { grid-template-columns:1fr; }
   }
 
-  .lookup-title {
-    font-family: var(--font-ui);
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 24px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .lookup-title::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: var(--dark4);
-  }
-
-  .selects-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    gap: 14px;
-    margin-bottom: 20px;
-  }
-  @media (max-width: 600px) {
-    .selects-row { grid-template-columns: 1fr; }
-    .lookup-card { padding: 24px 18px; }
-  }
-
-  .select-wrap { position: relative; }
+  .select-wrap { position:relative; }
   .select-wrap label {
-    display: block;
-    font-family: var(--font-ui);
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--gray);
-    margin-bottom: 7px;
+    display:block; font-family:var(--font-ui); font-size:10px; font-weight:600;
+    letter-spacing:2px; text-transform:uppercase; color:var(--gray); margin-bottom:7px;
   }
   .select-wrap select {
-    width: 100%;
-    background: var(--dark3);
-    border: 1px solid #333028;
-    color: var(--white);
-    font-family: var(--font-ui);
-    font-size: 15px;
-    font-weight: 500;
-    padding: 12px 36px 12px 14px;
-    appearance: none;
-    cursor: pointer;
-    outline: none;
-    transition: border-color .2s;
+    width:100%; background:var(--dark3); border:1px solid #333028; color:var(--white);
+    font-family:var(--font-ui); font-size:15px; font-weight:500;
+    padding:12px 36px 12px 14px; appearance:none; cursor:pointer; outline:none; transition:border-color .2s;
   }
-  .select-wrap select:focus,
-  .select-wrap select:hover {
-    border-color: var(--gold);
-  }
-  .select-wrap select:disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
-  }
-  .select-arrow {
-    position: absolute;
-    right: 12px;
-    bottom: 14px;
-    pointer-events: none;
-    color: var(--gold);
-    font-size: 12px;
-  }
+  .select-wrap select:focus, .select-wrap select:hover { border-color:var(--gold); }
+  .select-wrap select:disabled { opacity:0.4; cursor:not-allowed; }
+  .select-arrow { position:absolute; right:12px; bottom:14px; pointer-events:none; color:var(--gold); font-size:12px; }
 
   .lookup-btn {
-    width: 100%;
-    background: var(--gold);
-    border: none;
-    color: var(--black);
-    font-family: var(--font-display);
-    font-size: 1.15rem;
-    font-weight: 900;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    padding: 15px;
-    cursor: pointer;
-    transition: all .2s;
-    margin-top: 6px;
+    width:100%; background:var(--gold); border:none; color:var(--black);
+    font-family:var(--font-display); font-size:1.15rem; font-weight:900;
+    letter-spacing:3px; text-transform:uppercase; padding:15px;
+    cursor:pointer; transition:all .2s; margin-top:6px;
   }
-  .lookup-btn:hover {
-    background: var(--gold-bright);
-    transform: translateY(-1px);
-  }
-  .lookup-btn:disabled {
-    background: #333028;
-    color: var(--gray);
-    cursor: not-allowed;
-    transform: none;
-  }
+  .lookup-btn:hover { background:var(--gold-bright); transform:translateY(-1px); }
+  .lookup-btn:disabled { background:#333028; color:var(--gray); cursor:not-allowed; transform:none; }
 
-  /* ── RESULTS ─────────────────────────────── */
-  #results { display: none; }
-  #results.visible { display: block; }
+  /* ── RESULTS ── */
+  #results { display:none; }
+  #results.visible { display:block; animation:fadeUp .3s ease; }
+  @keyframes fadeUp { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
 
   .result-vehicle-name {
-    font-family: var(--font-display);
-    font-size: clamp(1.6rem, 4vw, 2.6rem);
-    font-weight: 900;
-    text-transform: uppercase;
-    color: var(--gold-bright);
-    letter-spacing: 2px;
-    -webkit-text-stroke: 1px var(--gold-dark);
-    margin-bottom: 4px;
+    font-family:var(--font-display); font-size:clamp(1.6rem,4vw,2.6rem);
+    font-weight:900; text-transform:uppercase; color:var(--gold-bright);
+    letter-spacing:2px; -webkit-text-stroke:1px var(--gold-dark); margin-bottom:4px;
   }
-  .result-years {
-    font-family: var(--font-cond);
-    font-size: 1rem;
-    color: var(--gray);
-    letter-spacing: 2px;
-    margin-bottom: 28px;
-  }
-  .result-trans {
-    font-family: var(--font-cond);
-    font-size: 0.95rem;
-    color: var(--white);
-    letter-spacing: 1px;
-    margin-bottom: 28px;
-    padding: 10px 14px;
-    background: var(--dark3);
-    border-left: 3px solid var(--gold-dark);
-  }
-  .result-trans span { color: var(--gray); margin-right: 8px; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; font-family: var(--font-ui); }
+  .result-years { font-family:var(--font-cond); font-size:1rem; color:var(--gray); letter-spacing:2px; margin-bottom:20px; }
 
-  .result-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin-bottom: 20px;
+  /* ── INFO STRIP ── */
+  .info-strip {
+    display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; margin-bottom:20px;
   }
-  @media (max-width: 680px) {
-    .result-grid { grid-template-columns: 1fr; }
+  @media (max-width:600px) { .info-strip { grid-template-columns:1fr; } }
+  .info-chip {
+    background:var(--dark3); border:1px solid #2a2820; padding:12px 14px;
+  }
+  .info-chip-label {
+    font-family:var(--font-ui); font-size:9px; font-weight:600;
+    letter-spacing:3px; text-transform:uppercase; color:var(--gray); margin-bottom:5px;
+  }
+  .info-chip-value {
+    font-family:var(--font-cond); font-size:0.95rem; font-weight:600;
+    color:var(--white); line-height:1.3;
+  }
+  .info-chip.drivetrain .info-chip-value { color:var(--gold-bright); }
+  .info-chip.tow .info-chip-value { color:#d4906a; }
+
+  /* ── TOW METHOD BANNER ── */
+  .tow-banner {
+    padding:12px 16px; margin-bottom:20px;
+    font-family:var(--font-cond); font-size:0.95rem; color:#d4906a;
+    line-height:1.5; border-left:4px solid var(--orange);
+    background:#1a1208;
+  }
+  .tow-banner.flatbed { border-left-color:#e84040; color:#f08080; background:#1a0808; }
+  .tow-banner span { font-family:var(--font-ui); font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--gray); display:block; margin-bottom:3px; }
+
+  /* ── TRANSFER CASE BOX ── */
+  .tc-box {
+    background:#0e1218; border:1px solid #1e2535;
+    border-top:3px solid var(--blue); margin-bottom:20px;
+  }
+  .tc-header {
+    background:#13161f; padding:13px 18px;
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    border-bottom:1px solid #1e2535;
+  }
+  .tc-header-title {
+    font-family:var(--font-ui); font-size:11px; font-weight:700;
+    letter-spacing:3px; text-transform:uppercase; color:#7ab0d4;
+  }
+  .tc-header-type {
+    font-family:var(--font-body); font-size:0.8rem; color:#5a8aaa; text-align:right;
+  }
+  .tc-body { padding:16px 18px; display:grid; grid-template-columns:1fr 1.5fr; gap:16px; }
+  @media (max-width:600px) { .tc-body { grid-template-columns:1fr; } }
+  .tc-positions-label, .tc-steps-label {
+    font-family:var(--font-ui); font-size:9px; font-weight:600;
+    letter-spacing:2px; text-transform:uppercase; color:#4a7ab5; margin-bottom:8px;
+  }
+  .tc-pos-list { list-style:none; }
+  .tc-pos-list li {
+    font-family:var(--font-body); font-size:0.82rem; color:#8aadcc;
+    padding:4px 0; border-bottom:1px solid #1a2030; display:flex; gap:8px; align-items:flex-start;
+  }
+  .tc-pos-list li:last-child { border-bottom:none; }
+  .tc-pos-list li::before { content:'◆'; color:#2a4a6a; font-size:8px; margin-top:3px; flex-shrink:0; }
+  .tc-steps-list { list-style:none; }
+  .tc-steps-list li {
+    display:flex; gap:10px; margin-bottom:8px;
+    font-family:var(--font-body); font-size:0.85rem; line-height:1.5; color:#8aadcc; align-items:flex-start;
+  }
+  .tc-steps-list li .num {
+    flex-shrink:0; width:20px; height:20px; background:#0a1020;
+    border:1px solid #2a4a6a; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--font-ui); font-size:10px; font-weight:700; color:#4a7ab5; margin-top:2px;
   }
 
-  .result-box {
-    background: var(--dark2);
-    border: 1px solid #2a2820;
-    padding: 0;
-    overflow: hidden;
-  }
+  /* ── SHIFT LOCK / NEUTRAL BOXES ── */
+  .result-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-bottom:20px; }
+  .result-box { background:var(--dark2); border:1px solid #2a2820; overflow:hidden; }
   .result-box-header {
-    padding: 13px 18px;
-    font-family: var(--font-ui);
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    padding:13px 18px; font-family:var(--font-ui); font-size:11px;
+    font-weight:700; letter-spacing:3px; text-transform:uppercase;
+    display:flex; align-items:center; gap:8px;
   }
-  .result-box-header .dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
-  .result-box.shift .result-box-header { background: #1a1f14; color: #7bc67a; border-bottom: 1px solid #253020; }
-  .result-box.shift .result-box-header .dot { background: #7bc67a; }
-  .result-box.neutral .result-box-header { background: #1a1714; color: #d4922a; border-bottom: 1px solid #302518; }
-  .result-box.neutral .result-box-header .dot { background: var(--gold); }
+  .result-box-header .dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+  .result-box.shift .result-box-header { background:#1a1f14; color:var(--green); border-bottom:1px solid #253020; }
+  .result-box.shift .dot { background:var(--green); }
+  .result-box.neutral .result-box-header { background:#1a1714; color:#d4922a; border-bottom:1px solid #302518; }
+  .result-box.neutral .dot { background:var(--gold); }
+  .result-box-body { padding:18px; }
 
-  .result-box-body { padding: 18px; }
   .slot-location {
-    font-family: var(--font-body);
-    font-size: 0.82rem;
-    color: var(--gray);
-    font-style: italic;
-    margin-bottom: 14px;
-    padding: 8px 10px;
-    background: var(--dark3);
-    border-left: 2px solid var(--gold-dark);
-    line-height: 1.5;
+    font-family:var(--font-body); font-size:0.82rem; color:var(--gray);
+    font-style:italic; margin-bottom:14px; padding:8px 10px;
+    background:var(--dark3); border-left:2px solid var(--gold-dark); line-height:1.5;
   }
-  .slot-location strong { color: var(--gold); font-style: normal; font-family: var(--font-ui); font-size: 9px; letter-spacing: 2px; text-transform: uppercase; display: block; margin-bottom: 3px; }
+  .slot-location strong {
+    color:var(--gold); font-style:normal; font-family:var(--font-ui);
+    font-size:9px; letter-spacing:2px; text-transform:uppercase; display:block; margin-bottom:3px;
+  }
 
-  .steps-list { list-style: none; padding: 0; }
+  .steps-list { list-style:none; }
   .steps-list li {
-    display: flex;
-    gap: 12px;
-    margin-bottom: 10px;
-    font-family: var(--font-body);
-    font-size: 0.88rem;
-    line-height: 1.5;
-    color: #ccc0aa;
-    align-items: flex-start;
+    display:flex; gap:12px; margin-bottom:10px;
+    font-family:var(--font-body); font-size:0.88rem; line-height:1.5;
+    color:#ccc0aa; align-items:flex-start;
   }
   .steps-list li .num {
-    flex-shrink: 0;
-    width: 22px;
-    height: 22px;
-    background: var(--dark4);
-    border: 1px solid var(--gold-dark);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-ui);
-    font-size: 11px;
-    font-weight: 700;
-    color: var(--gold);
-    margin-top: 1px;
+    flex-shrink:0; width:22px; height:22px; background:var(--dark4);
+    border:1px solid var(--gold-dark); border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--font-ui); font-size:11px; font-weight:700; color:var(--gold); margin-top:1px;
   }
-  .steps-list li:last-child { margin-bottom: 0; }
+  .steps-list li:last-child { margin-bottom:0; }
 
+  /* ── NOTE / WARN BOXES ── */
   .note-box {
-    background: #13161f;
-    border: 1px solid #1e2535;
-    border-left: 3px solid #4a7ab5;
-    padding: 12px 16px;
-    font-family: var(--font-body);
-    font-size: 0.83rem;
-    color: #8aadcc;
-    line-height: 1.55;
-    margin-top: 20px;
+    background:#13161f; border:1px solid #1e2535; border-left:3px solid var(--blue);
+    padding:12px 16px; font-family:var(--font-body); font-size:0.83rem;
+    color:#8aadcc; line-height:1.55; margin-bottom:12px;
   }
-  .note-box strong { color: #aad0f0; font-family: var(--font-ui); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; display: block; margin-bottom: 4px; }
-
+  .note-box strong { color:#aad0f0; font-family:var(--font-ui); font-size:10px; letter-spacing:2px; text-transform:uppercase; display:block; margin-bottom:4px; }
   .warn-box {
-    background: #1f1208;
-    border: 1px solid #3a2010;
-    border-left: 3px solid var(--orange);
-    padding: 12px 16px;
-    font-family: var(--font-body);
-    font-size: 0.83rem;
-    color: #d4906a;
-    line-height: 1.55;
-    margin-top: 12px;
+    background:#1f1208; border:1px solid #3a2010; border-left:3px solid var(--orange);
+    padding:12px 16px; font-family:var(--font-body); font-size:0.83rem;
+    color:#d4906a; line-height:1.55; margin-bottom:12px;
   }
-  .warn-box strong { color: #f0a060; font-family: var(--font-ui); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; display: block; margin-bottom: 4px; }
+  .warn-box strong { color:#f0a060; font-family:var(--font-ui); font-size:10px; letter-spacing:2px; text-transform:uppercase; display:block; margin-bottom:4px; }
 
-  /* ── FOOTER ─────────────────────────────── */
-  footer {
-    background: var(--dark1);
-    border-top: 2px solid var(--gold-dark);
-    padding: 24px;
-    text-align: center;
-  }
-  footer a { color: var(--gold); text-decoration: none; font-family: var(--font-ui); font-size: 14px; letter-spacing: 1px; }
-  footer p { font-family: var(--font-body); font-size: 12px; color: var(--gray); margin-top: 8px; }
-
-  /* ── TOWSPEC BUTTON ─────────────────────────────── */
-  .towspec-wrap { margin-top: 8px; }
-  .towspec-label {
-    font-family: var(--font-ui);
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    color: var(--gray);
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
+  /* ── TOWSPEC BUTTON ── */
+  .towspec-wrap { margin-top:8px; }
+  .towspec-label { font-family:var(--font-ui); font-size:10px; font-weight:600; letter-spacing:3px; color:var(--gray); text-transform:uppercase; margin-bottom:8px; }
   .towspec-btn {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    background: var(--dark2);
-    border: 1px solid #2a2820;
-    border-left: 4px solid var(--gold);
-    color: var(--white);
-    font-family: var(--font-display);
-    font-size: 1.1rem;
-    font-weight: 900;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 16px 20px;
-    text-decoration: none;
-    transition: all .2s;
+    display:flex; align-items:center; justify-content:space-between; width:100%;
+    background:var(--dark2); border:1px solid #2a2820; border-left:4px solid var(--gold);
+    color:var(--white); font-family:var(--font-display); font-size:1.1rem;
+    font-weight:900; letter-spacing:2px; text-transform:uppercase;
+    padding:16px 20px; text-decoration:none; transition:all .2s;
   }
-  .towspec-btn:hover {
-    background: var(--dark3);
-    border-left-color: var(--gold-bright);
-    color: var(--gold-bright);
-    transform: translateX(4px);
-  }
-  .towspec-btn .arrow { font-size: 1.3rem; transition: transform .2s; }
-  .towspec-btn:hover .arrow { transform: translateX(5px); }
+  .towspec-btn:hover { background:var(--dark3); border-left-color:var(--gold-bright); color:var(--gold-bright); transform:translateX(4px); }
+  .towspec-btn .arrow { font-size:1.3rem; transition:transform .2s; }
+  .towspec-btn:hover .arrow { transform:translateX(5px); }
 
-  /* fade in */
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(16px); }
-    to   { opacity: 1; transform: translateY(0); }
+  /* ── FOOTER ── */
+  footer { background:var(--dark1); border-top:2px solid var(--gold-dark); padding:24px; text-align:center; }
+  footer a { color:var(--gold); text-decoration:none; font-family:var(--font-ui); font-size:14px; letter-spacing:1px; }
+  footer p { font-family:var(--font-body); font-size:12px; color:var(--gray); margin-top:8px; }
+
+  /* ── LOADING STATE ── */
+  .loading-msg {
+    font-family:var(--font-ui); font-size:13px; letter-spacing:2px;
+    color:var(--gray); text-align:center; padding:20px 0;
   }
-  #results.visible { animation: fadeUp .3s ease; }
+  .error-msg {
+    font-family:var(--font-ui); font-size:13px; letter-spacing:2px;
+    color:#d4906a; text-align:center; padding:20px 0; border-left:3px solid var(--orange); padding:16px;
+  }
 </style>
 </head>
 <body>
@@ -471,7 +324,7 @@
 <header>
   <div class="header-inner">
     <a href="https://bandittowing.com" class="logo-area">
-      <img src="../images/logo-nobg.png" style="height:56px;" alt="Bandit Towing & Transport">
+      <img src="../images/logo-nobg.png" alt="Bandit Towing & Transport">
     </a>
     <a href="tel:9196569468" class="header-phone">(919) 656-9468</a>
   </div>
@@ -481,7 +334,7 @@
 <div class="hero">
   <div class="hero-badge">Professional Field Reference</div>
   <h1>Shift Lock <span>&amp;</span> Neutral Override</h1>
-  <p class="hero-sub">Select a vehicle to instantly pull up shift lock release and neutral override procedures — 2000 to 2026, every major make and model.</p>
+  <p class="hero-sub">Select a vehicle for shift lock release, neutral override, drivetrain, transfer case procedures, and tow method — 2000 to 2026, every major make and model.</p>
 </div>
 
 <!-- MAIN -->
@@ -489,27 +342,22 @@
 
   <!-- LOOKUP CARD -->
   <div class="lookup-card">
-    <div class="lookup-title">Vehicle Lookup</div>
+    <div class="section-label">Vehicle Lookup</div>
+    <div id="db-status" class="loading-msg">Loading vehicle database…</div>
     <div class="selects-row">
       <div class="select-wrap">
         <label>Year</label>
-        <select id="sel-year">
-          <option value="">— Year —</option>
-        </select>
+        <select id="sel-year" disabled><option value="">— Year —</option></select>
         <span class="select-arrow">▼</span>
       </div>
       <div class="select-wrap">
         <label>Make</label>
-        <select id="sel-make" disabled>
-          <option value="">— Make —</option>
-        </select>
+        <select id="sel-make" disabled><option value="">— Make —</option></select>
         <span class="select-arrow">▼</span>
       </div>
       <div class="select-wrap">
         <label>Model</label>
-        <select id="sel-model" disabled>
-          <option value="">— Model —</option>
-        </select>
+        <select id="sel-model" disabled><option value="">— Model —</option></select>
         <span class="select-arrow">▼</span>
       </div>
     </div>
@@ -518,10 +366,45 @@
 
   <!-- RESULTS -->
   <div id="results">
+
     <div class="result-vehicle-name" id="res-name"></div>
     <div class="result-years" id="res-years"></div>
-    <div class="result-trans" id="res-trans"></div>
 
+    <!-- Info strip: drivetrain / trans / tow method -->
+    <div class="info-strip">
+      <div class="info-chip drivetrain">
+        <div class="info-chip-label">Drivetrain</div>
+        <div class="info-chip-value" id="res-drivetrain"></div>
+      </div>
+      <div class="info-chip">
+        <div class="info-chip-label">Transmission</div>
+        <div class="info-chip-value" id="res-trans"></div>
+      </div>
+      <div class="info-chip tow">
+        <div class="info-chip-label">Recommended Tow Method</div>
+        <div class="info-chip-value" id="res-towmethod"></div>
+      </div>
+    </div>
+
+    <!-- Transfer case (shown only if vehicle has one) -->
+    <div class="tc-box" id="res-tc-box" style="display:none">
+      <div class="tc-header">
+        <span class="tc-header-title">⚙ Transfer Case — Shift to 2WD Before Towing</span>
+        <span class="tc-header-type" id="res-tc-type"></span>
+      </div>
+      <div class="tc-body">
+        <div>
+          <div class="tc-positions-label">Selector Positions</div>
+          <ul class="tc-pos-list" id="res-tc-positions"></ul>
+        </div>
+        <div>
+          <div class="tc-steps-label">Steps to Put in 2WD / 2H for Towing</div>
+          <ul class="tc-steps-list" id="res-tc-steps"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shift lock + Neutral override -->
     <div class="result-grid">
       <div class="result-box shift">
         <div class="result-box-header"><span class="dot"></span> Shift Lock Release</div>
@@ -548,1420 +431,179 @@
         <span class="arrow">→</span>
       </a>
     </div>
-  </div>
 
-</div>
+  </div><!-- /results -->
+
+</div><!-- /container -->
 
 <!-- FOOTER -->
 <footer>
   <a href="https://bandittowing.com">← Back to BanditTowing.com</a>
   <p>Bandit Towing &amp; Transport · 1804 Holt Road, Cary NC 27519 · (919) 656-9468</p>
-  <p style="margin-top:8px;font-size:11px;color:#555;">&copy; 2025 Bandit Towing &amp; Transport. All rights reserved. Unauthorized use prohibited.</p>
+  <p style="margin-top:8px;font-size:11px;color:#444;">&copy; 2025 Bandit Towing &amp; Transport. All rights reserved. Unauthorized use prohibited.</p>
 </footer>
 
 <script>
 // ══════════════════════════════════════════════════════════
-//  VEHICLE DATABASE
+//  STATE
 // ══════════════════════════════════════════════════════════
-const DB = [
-// ACURA
-{make:"Acura",model:"CL",yearStart:2001,yearEnd:2003,trans:"4-speed automatic",slot:"Small round cap on top-left corner of shifter console — pry off to access slot",
- shift:["Turn ignition to ON (do not start engine).","Locate the small round cap on the top-left corner of the gear selector console.","Pry the cap off with your ignition key or a small flathead.","Insert the key into the exposed slot and press down firmly.","While holding, press the brake pedal.","Move the shifter from Park to Neutral.","Replace the cap."],
- neutral:["Apply parking brake and chock wheels.","Battery is under the hood — connect a jump pack.","Once power is restored, press brake and shift to Neutral normally.","If no power: use shift lock slot method above."],
- notes:"Key interlock recall Service Bulletin 05-009 affects some units — verify recall was completed.",warn:"Always apply parking brake and chock wheels before releasing Park on any incline."},
+let DB = [];
 
-{make:"Acura",model:"ILX",yearStart:2013,yearEnd:2022,trans:"6-speed auto or 8-speed DCT",slot:"Small slot near the gear selector base on the center console, covered by a removable plastic cap",
- shift:["Turn ignition to ON.","Locate the plastic cap near the selector base.","Pry cap off.","Insert ignition key, press down firmly.","Press the brake pedal.","Move shifter to Neutral.","Replace cap."],
- neutral:["Apply parking brake.","Connect jump pack to battery under hood.","Shift to Neutral normally once powered.","If no power: use slot method above."],
- notes:"8-speed DCT: power strongly preferred. Flatbed tow only for DCT variants.",warn:"8-speed DCT: FLATBED ONLY. Do not tow with wheels on ground."},
-
-{make:"Acura",model:"MDX (1st Gen)",yearStart:2001,yearEnd:2006,trans:"5-speed automatic",slot:"Small slot near the gear selector base, covered by a plastic cap",
- shift:["Turn ignition to ON.","Locate plastic cap near selector base.","Pry cap off.","Insert key, press down firmly.","Press the brake pedal.","Move to Neutral.","Replace cap."],
- neutral:["Apply parking brake.","Connect jump pack under hood.","Shift normally once powered.","If no power: use slot."],
- notes:"Brake lights must be functioning for the normal shift interlock to work. If brake lights are out, use the manual slot.",warn:""},
-
-{make:"Acura",model:"MDX (2nd Gen)",yearStart:2007,yearEnd:2013,trans:"6-speed automatic",slot:"Slot on front-right side of shifter base — snap-off plastic cover",
- shift:["Turn ignition to ON.","Find the snap-off plastic cover on the front-right side of the shifter base.","Snap or pry cover off.","Insert key, press down firmly.","Press the brake pedal.","Move to Neutral.","Replace cover."],
- neutral:["Apply parking brake.","Connect jump pack under hood.","Shift normally once powered.","If no power: use slot."],
- notes:"",warn:""},
-
-{make:"Acura",model:"MDX (3rd Gen)",yearStart:2014,yearEnd:2020,trans:"9-speed automatic (ZF 9HP)",
- slot:"FRONT LIP of center console near the dashboard — silver rectangular slot. NOT near the shift handle.",
- shift:["Turn ignition to ON.","Look at the very front base of the center console, where it meets the dashboard — NOT at the shifter base.","Find the silver rectangular slot at the FRONT console lip.","Insert ignition key or small flathead into the slot.","Press inward and downward firmly.","Press the brake pedal.","Move the shifter from Park to Neutral."],
- neutral:["Apply parking brake and chock wheels.","Connect jump pack to battery under hood — ZF 9HP is very hard to shift without power.","Once powered, press brake and shift normally.","If no power: use front console lip slot. A Honda/Acura ZF 9HP override tool (~$50 online) is the most reliable option."],
- notes:"CRITICAL: The slot is at the FRONT of the console near the dashboard, NOT at the shifter base — this is a very common mistake. Always carry a jump pack with ZF 9HP-equipped vehicles.",
- warn:"ZF 9HP: jump pack strongly recommended. Forcing shift without power risks transmission damage."},
-
-{make:"Acura",model:"MDX (4th Gen)",yearStart:2022,yearEnd:2026,trans:"10-speed automatic",slot:"Near base of electronic gear selector on center console",
- shift:["Press START button once without pressing brake (ON/electronics mode).","Locate shift lock slot near electronic selector base.","Insert key or flathead, press firmly.","Press the brake pedal.","Move electronic selector to Neutral."],
- neutral:["Apply parking brake.","Connect jump pack to battery under hood.","Press START without brake (ON mode), then press brake and shift to N.","Without power: use manual slot method."],
- notes:"Electronic selector design. Slot location may vary by trim — consult owner's manual.",warn:""},
-
-{make:"Acura",model:"RDX (1st Gen)",yearStart:2007,yearEnd:2012,trans:"5-speed automatic",slot:"Small slot near the gear selector base, covered by a plastic cap",
- shift:["Turn ignition to ON.","Find plastic cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to Neutral.","Replace cap."],
- neutral:["Apply parking brake.","Connect jump pack under hood.","Shift normally or use slot."],notes:"",warn:""},
-
-{make:"Acura",model:"RDX (2nd Gen)",yearStart:2013,yearEnd:2018,trans:"6-speed automatic",slot:"Slot on side of gear selector base near console",
- shift:["Turn ignition to ON.","Find slot on side of selector base.","Insert key, press down.","Press brake. Move to Neutral."],
- neutral:["Apply parking brake.","Connect jump pack under hood.","Shift normally or use slot."],notes:"AWD available.",warn:"AWD — use flatbed tow truck preferred."},
-
-{make:"Acura",model:"RDX (3rd Gen)",yearStart:2019,yearEnd:2026,trans:"10-speed automatic",slot:"Near base of the electronic push-button shifter on center console",
- shift:["Press START once without brake (ACC/ON mode).","Find shift lock slot near electronic shifter base.","Insert key or flathead, press firmly.","Press the brake pedal.","Press the N button on the electronic shifter — vehicle is now in Neutral."],
- neutral:["Apply parking brake.","Connect jump pack under hood.","Press START without brake (ON mode), press brake, press N button.","Without power: shift lock slot method."],
- notes:"3rd gen uses electronic push-button shifter — no physical lever. N button must be activated electronically.",warn:"Electronic shifter requires 12V power. Always carry a jump pack."},
-
-{make:"Acura",model:"RL",yearStart:2005,yearEnd:2012,trans:"5-speed automatic",slot:"Small slot near gear selector base, covered by a cap",
- shift:["Turn ignition to ON.","Locate cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to Neutral.","Replace cap."],
- neutral:["Apply parking brake.","Connect jump pack under hood.","Shift normally or use slot."],notes:"SH-AWD: flatbed preferred.",warn:"SH-AWD — flatbed preferred."},
-
-{make:"Acura",model:"RLX",yearStart:2014,yearEnd:2020,trans:"6-speed automatic",slot:"Small slot near gear selector base, covered by a cap",
- shift:["Turn ignition to ON.","Locate cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to Neutral.","Replace cap."],
- neutral:["Apply parking brake.","Connect jump pack under hood.","Shift normally or use slot."],notes:"SH-AWD: flatbed preferred.",warn:"SH-AWD — flatbed preferred."},
-
-{make:"Acura",model:"TL (3rd Gen)",yearStart:2004,yearEnd:2008,trans:"5-speed auto or 6-speed manual",slot:"Small round cap on upper-left of shifter base",
- shift:["Turn ignition to ON.","Find the small round cap on the upper-left of the shifter base. Pry off.","Insert key, press down.","Press brake. Move to Neutral.","Replace cap."],
- neutral:["Apply parking brake.","Connect jump pack under hood.","Shift normally or use slot."],
- notes:"Manual transmission: no shift lock — depress clutch, select N. Key interlock recall SB 05-009.",warn:""},
-
-{make:"Acura",model:"TL (4th Gen)",yearStart:2009,yearEnd:2014,trans:"6-speed auto or 6-speed DCT (SH-AWD)",slot:"Slot on right side of shifter base, snap-off plastic cover",
- shift:["Turn ignition to ON.","Find snap-off cover on right side of shifter base. Remove.","Insert key, press down.","Press brake. Move to Neutral."],
- neutral:["Apply parking brake.","Connect jump pack under hood.","Shift normally or use slot."],
- notes:"6-speed DCT SH-AWD (2009-2010): consult dealer. SH-AWD: flatbed only.",warn:"DCT models: FLATBED ONLY. Do not tow with wheels on ground."},
-
-{make:"Acura",model:"TLX (1st Gen)",yearStart:2015,yearEnd:2020,trans:"8-speed DCT (2015-17) or 9-speed auto (2018-20)",slot:"Slot at base of gear selector on console",
- shift:["POWER METHOD: Press START twice without pressing brake (1st = radio, 2nd = all electronics on).","Press brake pedal.","Move selector to Neutral.","--- OR DEAD BATTERY METHOD ---","Find slot at selector base. Insert key or flathead, press firmly.","Press brake. Move selector to Neutral."],
- neutral:["Apply parking brake.","Press START once = ACC. Press START again = all electronics on.","Press brake and shift to Neutral.","If battery is dead: connect jump pack, then use power method above."],
- notes:"Power method preferred for 8-speed DCT. 9-speed (2018+): slot method works reliably.",warn:"8-speed DCT: FLATBED ONLY. Do not tow with all four wheels on ground."},
-
-{make:"Acura",model:"TLX (2nd Gen)",yearStart:2021,yearEnd:2026,trans:"10-speed automatic",slot:"Near base of electronic gear selector on center console",
- shift:["Press START without brake (ON mode).","Press brake pedal.","Press N on selector to go to Neutral.","--- DEAD BATTERY ---","Find slot near electronic selector base. Insert key, press firmly.","Press brake. Press N on selector."],
- neutral:["Apply parking brake.","Connect jump pack under hood.","Follow shift lock steps above once powered.","Without power: slot method."],notes:"",warn:"AWD — flatbed preferred."},
-
-{make:"Acura",model:"TSX",yearStart:2004,yearEnd:2014,trans:"5-speed auto or 6-speed manual",slot:"Slot on right side of shifter base, snap-off cover",
- shift:["Turn ignition to ON.","Find snap-off cover on right side of shifter base. Remove.","Insert key, press down.","Press brake. Move to Neutral."],
- neutral:["Apply parking brake.","Connect jump pack under hood.","Shift normally or use slot."],notes:"Manual: no shift lock — depress clutch. Sport Wagon: same procedure.",warn:""},
-
-{make:"Acura",model:"ZDX",yearStart:2010,yearEnd:2013,trans:"6-speed automatic",slot:"Small slot near gear selector base, covered by a cap",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to Neutral.","Replace cap."],
- neutral:["Apply parking brake.","Connect jump pack under hood.","Shift normally or use slot."],notes:"SH-AWD standard on all ZDX.",warn:"AWD — use flatbed."},
-
-// AUDI
-{make:"Audi",model:"A3 / S3 / RS3",yearStart:2006,yearEnd:2026,trans:"6-speed Tiptronic or 7-speed S-tronic DSG (varies by year)",
- slot:"Tiptronic: slot near shift lever base. S-tronic DSG: slot near electronic selector",
- shift:["TIPTRONIC: Ignition ON. Find slot near base of shift lever. Insert key, press down. Press brake. Move to N.",
-        "S-TRONIC DSG: Ignition ON. Press and hold the selector button. Move selector to N while holding. Release."],
- neutral:["Apply parking brake.","Tiptronic: connect jump pack (battery under hood), press brake, shift to N.",
-          "S-tronic: connect jump pack — battery often under rear seat. Once powered, press selector and move to N.",
-          "S-tronic WITHOUT POWER: most DSG models require power. Jump pack is mandatory."],
- notes:"Battery location varies: often under rear seat. A3 8P (2006-2013), 8V (2014-2020), 8Y (2021+).",
- warn:"S-tronic DSG: NEVER tow with wheels on ground. Flatbed only."},
-
-{make:"Audi",model:"A4 / S4 / RS4",yearStart:2000,yearEnd:2026,trans:"5-speed auto (B6/B7), 8-speed Tiptronic (B8/B9)",
- slot:"B6/B7: slot near shift lever base. B8/B9 (2009+): slot at electronic selector base",
- shift:["B6/B7 (2000-2008): Ignition ON. Slot at shifter base. Key in, press down. Brake. Move to N.",
-        "B8/B9 (2009+): Ignition ON. Slot near selector base. Key in. Brake. Move to N or press N button."],
- neutral:["Apply parking brake.","Battery in trunk under panel.","Connect jump pack.","Press brake, shift to N.","Without power: slot method."],
- notes:"B9 (2017+) may use electronic rotary/selector shifter. Battery in trunk.",warn:"Quattro AWD — flatbed preferred."},
-
-{make:"Audi",model:"A5 / S5 / RS5",yearStart:2008,yearEnd:2026,trans:"7-speed S-tronic or 8-speed Tiptronic",
- slot:"Slot near electronic selector base on console",
- shift:["Ignition to ON.","Find slot near electronic selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery in trunk.","Connect jump pack.","Press brake, shift to N.","Without power: slot."],
- notes:"S-tronic DSG on most variants — power preferred.",warn:"Quattro AWD — flatbed preferred."},
-
-{make:"Audi",model:"A6 / S6 / RS6",yearStart:2000,yearEnd:2026,trans:"5-speed (C5), 6-speed Tiptronic (C6), 8-speed Tiptronic (C7/C8)",
- slot:"C5/C6: slot at shifter base. C7/C8 (2012+): slot at electronic selector base",
- shift:["C5/C6 (2000-2011): Ignition ON. Slot at shifter base. Key in. Brake. Move to N.",
-        "C7 (2012-2018): Slot at electronic selector base. Key in. Brake. Move to N.",
-        "C8 (2019+): Slot near electronic selector. Key in. Brake. Press N on selector."],
- neutral:["Apply parking brake.","Connect jump pack under hood or trunk.","Shift normally or use slot."],
- notes:"C8 uses fully electronic selector with N button.",warn:"Quattro AWD — flatbed preferred."},
-
-{make:"Audi",model:"A7 / S7 / RS7",yearStart:2012,yearEnd:2026,trans:"7-speed S-tronic or 8-speed Tiptronic",
- slot:"1st gen (2012-2018): rotary selector base slot. 2nd gen (2019+): electronic selector slot",
- shift:["1st gen (2012-2018): Slot at rotary base. Key in. Brake. Rotate selector to N.",
-        "2nd gen (2019+): Slot near electronic selector. Key in. Brake. Move to N."],
- neutral:["Apply parking brake.","Battery in trunk.","Connect jump pack.","Shift to N.","Without power: slot."],
- notes:"1st gen uses MMI rotary shifter — rotate counterclockwise toward N.",warn:"Quattro AWD — flatbed preferred."},
-
-{make:"Audi",model:"A8 / S8",yearStart:2000,yearEnd:2026,trans:"5-speed to 8-speed auto depending on generation",
- slot:"D2/D3: slot at selector base. D4/D5 (2010+): slot under trim near electronic selector",
- shift:["D2/D3 (2000-2009): Slot at selector base. Key in. Brake. Move to N.",
-        "D4 (2010-2017): Electronic selector, slot at base. Key in. Brake. Move to N.",
-        "D5 (2018+): Remove trim near selector. Key in. Brake. Press N on selector."],
- neutral:["Apply parking brake.","Battery in trunk or under rear seat.","Connect jump pack.","Shift normally or use slot."],
- notes:"D5 (2018+): slot concealed under trim piece. Air suspension — check clearance before flatbed.",
- warn:"AWD. Air suspension: verify clearance before loading on flatbed."},
-
-{make:"Audi",model:"Q3 / Q3 Sportback",yearStart:2012,yearEnd:2026,trans:"6 or 7-speed S-tronic",
- slot:"Small slot near selector base on console",
- shift:["Ignition to ON.","Find slot near selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Connect jump pack under hood.","Shift normally or use slot. Power required for most DSG models."],
- notes:"S-tronic DSG — power required in most cases.",warn:"Quattro AWD — flatbed preferred."},
-
-{make:"Audi",model:"Q5 / SQ5 / Q5 Sportback",yearStart:2009,yearEnd:2026,trans:"7-speed S-tronic or 8-speed Tiptronic",
- slot:"Slot at selector base — small trim cap must be removed first",
- shift:["Ignition to ON.","Remove the small trim cap near the selector base.","Insert key into slot, press down.","Press brake. Move to Neutral.","Replace trim cap."],
- neutral:["Apply parking brake.","Battery under hood (older) or trunk/rear seat (newer).","Connect jump pack.","Press brake, shift to N.","Without power: slot method."],
- notes:"2017+ Q5 uses 7-speed S-tronic. Earlier models use Tiptronic.",warn:"Quattro AWD — flatbed preferred."},
-
-{make:"Audi",model:"Q7 / SQ7",yearStart:2007,yearEnd:2026,trans:"8-speed Tiptronic or 8-speed auto (PHEV)",
- slot:"Slot at selector base on center console",
- shift:["Ignition to ON.","Find slot at selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery in spare tire well under cargo floor.","Connect jump pack.","Shift normally or use slot.","PHEV: use ONLY 12V auxiliary battery."],
- notes:"Q7 e-tron PHEV: 12V auxiliary only. Battery in spare tire well.",
- warn:"PHEV: NEVER jump from HV battery. 12V auxiliary terminals only."},
-
-{make:"Audi",model:"Q8 / SQ8 / RS Q8",yearStart:2019,yearEnd:2026,trans:"8-speed Tiptronic",
- slot:"Electronic selector — slot under a trim piece on center console",
- shift:["Ignition to ON.","Gently pry trim piece near electronic selector to expose slot.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under cargo floor in trunk.","Connect jump pack.","Shift normally or use slot."],
- notes:"",warn:"Quattro AWD — flatbed preferred."},
-
-{make:"Audi",model:"e-tron / e-tron GT / Q4 e-tron / Q8 e-tron",yearStart:2019,yearEnd:2026,trans:"Single-speed electric",
- slot:"Electronic gear selector — shift lock slot near selector base",
- shift:["WITH 12V POWER: Press brake pedal. Select N on electronic gear selector.",
-        "WITHOUT 12V POWER: Find shift lock slot near selector base. Insert key, press down. Press brake. Select N."],
- neutral:["CRITICAL: Use ONLY 12V auxiliary battery — NEVER touch HV system.",
-          "Battery locations: e-tron under hood, e-tron GT in trunk, Q4 e-tron under floor, Q8 e-tron in cargo area.",
-          "Connect jump pack to 12V terminals only.","Once powered, press brake and select N.","Without power: slot method."],
- notes:"800V HV system — NEVER touch HV components.",warn:"FLATBED ONLY. Never tow with driven wheels on ground."},
-
-// BMW
-{make:"BMW",model:"1 Series (E81/E82/E87/E88)",yearStart:2004,yearEnd:2013,trans:"6-speed auto or 6-speed manual",slot:"Slot at base of gear selector on center console",
- shift:["Turn ignition to ON.","Find slot at base of selector.","Insert key or flathead, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Jump terminals UNDER HOOD (red near firewall, black at ground). Use hood terminals.","Connect jump pack.","Shift normally or use slot."],
- notes:"Manual: depress clutch, select N — no shift lock.",warn:""},
-
-{make:"BMW",model:"1 Series (F20/F21)",yearStart:2012,yearEnd:2019,trans:"8-speed auto ZF 8HP or 6-speed manual",slot:"Near base of gear selector on console — trim piece may need removal",
- shift:["Ignition to ON.","Remove trim piece at selector base if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery in trunk. Jump terminals under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"ZF 8HP is reliable. Manual: clutch to N.",warn:""},
-
-{make:"BMW",model:"2 Series (F22/F23/F44/G42)",yearStart:2014,yearEnd:2026,trans:"8-speed auto or 6-speed manual",slot:"Slot at base of gear selector near console",
- shift:["Ignition to ON.","Find slot at selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery in trunk or engine bay.","Connect jump pack. Shift normally or use slot."],
- notes:"Manual: clutch to N.",warn:""},
-
-{make:"BMW",model:"3 Series (E46)",yearStart:2000,yearEnd:2006,trans:"5-speed or 4-speed auto, or manual",slot:"Trim cap on console near selector — pry to expose slot",
- shift:["Ignition to ON.","Pry small trim cap near selector to expose slot.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Jump terminals UNDER HOOD (red near firewall, black at ground). No need to access trunk.","Connect jump pack. Shift normally or use slot."],
- notes:"Use hood jump terminals — no need to access trunk battery directly.",warn:""},
-
-{make:"BMW",model:"3 Series (E90/E91/E92/E93)",yearStart:2006,yearEnd:2013,trans:"6-speed auto or 6-speed manual",slot:"Under the gear selector BOOT — gently pull boot upward to expose slot underneath",
- shift:["Ignition to ON.","Gently pull the gear selector boot upward to expose the slot beneath.","Insert key, press down.","Press brake. Move to N.","Replace boot."],
- neutral:["Apply parking brake.","Jump terminals under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Manual: clutch to N.",warn:""},
-
-{make:"BMW",model:"3 Series (F30/F31/F34)",yearStart:2012,yearEnd:2019,trans:"8-speed auto ZF 8HP or 6-speed manual",slot:"Trim piece at base of gear selector — pry to expose slot",
- shift:["Ignition to ON.","Pry trim piece at selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery in trunk. Jump terminals under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"330e PHEV: 12V only.",warn:""},
-
-{make:"BMW",model:"3 Series (G20/G21)",yearStart:2019,yearEnd:2026,trans:"8-speed auto ZF 8HP or 6-speed manual",slot:"Electronic selector — slot under removable cover near selector base",
- shift:["Ignition to ON.","Remove cover near electronic selector base.","Insert key, press down.","Press brake. Move to N.","Replace cover."],
- neutral:["Apply parking brake.","Battery in trunk. Jump terminals under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"330e PHEV: 12V only.",warn:"AWD (xDrive) — flatbed preferred."},
-
-{make:"BMW",model:"4 Series (F32/F33/F36)",yearStart:2014,yearEnd:2021,trans:"8-speed auto or 6-speed manual",slot:"Trim piece near selector base — pry to expose slot",
- shift:["Ignition to ON.","Pry trim piece at selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery in trunk. Jump terminals under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"M4 DCT (F82): power required preferred.",warn:"M4 DCT: power required. Flatbed if no power."},
-
-{make:"BMW",model:"4 Series (G22/G23/G26)",yearStart:2021,yearEnd:2026,trans:"8-speed auto or 6-speed manual",slot:"Electronic selector — slot under trim near base",
- shift:["Ignition to ON.","Locate slot under trim near selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery in trunk. Jump terminals under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"",warn:""},
-
-{make:"BMW",model:"5 Series (E60/E61)",yearStart:2004,yearEnd:2010,trans:"6-speed auto or 6-speed manual",slot:"Under the gear selector console BOOT — pull boot upward to access slot",
- shift:["Ignition to ON.","Pull gear selector console boot upward to expose slot.","Insert key, press down.","Press brake. Move to N.","Replace boot."],
- neutral:["Apply parking brake.","Battery in trunk. Jump terminals under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"M5 E60 uses SMG — REQUIRES POWER to shift to neutral. Jump battery FIRST on M5.",warn:"M5 E60 SMG: jump battery first. No mechanical override on SMG."},
-
-{make:"BMW",model:"5 Series (F10/F11)",yearStart:2011,yearEnd:2017,trans:"8-speed auto ZF 8HP or 6-speed manual",slot:"Trim piece at side of gear selector base — pry to expose slot",
- shift:["Ignition to ON.","Pry trim at selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery in trunk. Jump terminals under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"530e PHEV: 12V only. M5 F10 M-DCT: power required.",warn:"M5 M-DCT: power required."},
-
-{make:"BMW",model:"5 Series (G30/G31)",yearStart:2017,yearEnd:2026,trans:"8-speed auto ZF 8HP or 6-speed manual",slot:"Electronic selector — slot under trim near base",
- shift:["Ignition to ON.","Find slot under trim near selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery in trunk. Jump terminals under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"545e xDrive PHEV: 12V only.",warn:""},
-
-{make:"BMW",model:"7 Series (E65/E66)",yearStart:2002,yearEnd:2008,trans:"6-speed automatic",slot:"Base of selector COLUMN — small slot under a cap (iDrive electronic selector)",
- shift:["Ignition to ON.","Find cap at base of selector column. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under rear seat or trunk. Jump terminals under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"iDrive selector — slot is at column base, not console. Air suspension — check clearance.",warn:"Air suspension: verify clearance before flatbed."},
-
-{make:"BMW",model:"7 Series (F01/F02)",yearStart:2009,yearEnd:2015,trans:"6 or 8-speed auto",slot:"Electronic selector — slot under trim piece near selector",
- shift:["Ignition to ON.","Find slot under trim near selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery in trunk. Jump terminals under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"740e PHEV: 12V only. Air suspension.",warn:""},
-
-{make:"BMW",model:"7 Series (G11/G12/G70)",yearStart:2016,yearEnd:2026,trans:"8-speed auto ZF 8HP",slot:"Electronic dial/rotary selector — slot at base of selector column under trim cover",
- shift:["Ignition to ON.","Remove trim cover at selector column base.","Insert key, press down.","Press brake.","Rotate or move selector to N."],
- neutral:["Apply parking brake.","Battery in trunk. Jump terminals under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"745e/750e PHEV: 12V only. Air suspension.",warn:"PHEV: 12V only."},
-
-{make:"BMW",model:"X3 (E83)",yearStart:2004,yearEnd:2010,trans:"5 or 6-speed auto",slot:"Slot near gear selector base on center console",
- shift:["Ignition to ON.","Find slot near selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery in engine bay.","Connect jump pack. Shift normally or use slot."],
- notes:"All E83 X3 are xDrive AWD.",warn:"AWD — flatbed."},
-
-{make:"BMW",model:"X3 (F25)",yearStart:2011,yearEnd:2017,trans:"8-speed auto ZF 8HP",slot:"Trim piece at selector base — pry to expose slot",
- shift:["Ignition to ON.","Pry trim at selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery in engine bay.","Connect jump pack. Shift normally or use slot."],
- notes:"xDrive standard.",warn:"AWD — flatbed."},
-
-{make:"BMW",model:"X3 (G01) / X3 M",yearStart:2018,yearEnd:2026,trans:"8-speed auto ZF 8HP",slot:"Electronic selector — slot under trim near base",
- shift:["Ignition to ON.","Find slot under trim near selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery in engine bay.","Connect jump pack. Shift normally or use slot."],
- notes:"X3 30e PHEV: 12V only.",warn:"AWD — flatbed."},
-
-{make:"BMW",model:"X5 (E53)",yearStart:2000,yearEnd:2006,trans:"5-speed auto",slot:"Slot at gear selector base on console — remove cap first",
- shift:["Ignition to ON.","Remove cap at selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"xDrive standard.",warn:"AWD — flatbed."},
-
-{make:"BMW",model:"X5 (E70)",yearStart:2007,yearEnd:2013,trans:"6-speed auto ZF GA6HP",slot:"Trim piece at selector base — pry to access slot",
- shift:["Ignition to ON.","Pry trim at selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"X5M E70: same procedure.",warn:"AWD — flatbed."},
-
-{make:"BMW",model:"X5 (F15) / X5 M (F85)",yearStart:2014,yearEnd:2018,trans:"8-speed auto ZF 8HP",slot:"Trim piece at electronic selector base",
- shift:["Ignition to ON.","Pry trim at selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"x40e PHEV: 12V only.",warn:"AWD — flatbed."},
-
-{make:"BMW",model:"X5 (G05) / X5 M (G05M)",yearStart:2019,yearEnd:2026,trans:"8-speed auto ZF 8HP",slot:"Electronic selector — slot under trim near selector",
- shift:["Ignition to ON.","Find slot under trim near selector.","Insert key, press down.","Press brake. Select N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Select N once powered.","Without power: slot."],
- notes:"xDrive50e PHEV (2023+): 12V only.",warn:"AWD — flatbed."},
-
-{make:"BMW",model:"X7 (G07)",yearStart:2019,yearEnd:2026,trans:"8-speed auto ZF 8HP",slot:"Electronic selector — slot under trim near selector base",
- shift:["Ignition to ON.","Find slot under trim near selector.","Insert key, press down.","Press brake. Select N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Select N once powered.","Without power: slot."],
- notes:"xDrive50e PHEV: 12V only. Large 3-row SUV.",warn:"AWD — flatbed."},
-
-{make:"BMW",model:"iX / i4 / i5 / i7",yearStart:2022,yearEnd:2026,trans:"Single-speed electric drive",slot:"Electronic selector — slot under trim at selector base",
- shift:["WITH 12V POWER: Press brake. Select N on electronic selector.",
-        "WITHOUT 12V POWER: Find slot under trim at selector base. Insert key, press down. Press brake. Select N."],
- neutral:["12V battery locations: iX under hood, i4/i5/i7 in trunk.","Connect jump pack to 12V ONLY — NEVER touch HV system.","Once powered, press brake and select N."],
- notes:"NEVER touch the high-voltage system.",warn:"FLATBED ONLY. Never tow with driven wheels on ground."},
-
-{make:"BMW",model:"Z4 (E85/E86)",yearStart:2003,yearEnd:2008,trans:"5-speed auto or 6-speed manual",slot:"Slot near gear selector base",
- shift:["Ignition to ON.","Find slot near selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Manual: clutch to N.",warn:""},
-
-{make:"BMW",model:"Z4 (E89)",yearStart:2009,yearEnd:2016,trans:"6-speed auto or 6-speed manual",slot:"Slot at selector base — trim piece may need removal",
- shift:["Ignition to ON.","Remove trim at selector base if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Manual: clutch to N.",warn:""},
-
-{make:"BMW",model:"Z4 (G29)",yearStart:2019,yearEnd:2026,trans:"8-speed auto or 6-speed manual",slot:"Electronic selector — slot under trim near base",
- shift:["Ignition to ON.","Find slot under trim near selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Shared platform with Toyota Supra.",warn:""},
-
-// BUICK (representative models)
-{make:"Buick",model:"Enclave (1st Gen)",yearStart:2008,yearEnd:2017,trans:"6-speed automatic (6L50)",slot:"Small slot near console shifter base, covered by a plastic cap",
- shift:["Ignition to ON.","Find cap near shifter base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"FWD and AWD variants.",warn:"AWD — flatbed preferred."},
-
-{make:"Buick",model:"Enclave (2nd Gen)",yearStart:2018,yearEnd:2026,trans:"9-speed automatic (9T65)",slot:"Electronic selector — slot near base",
- shift:["Ignition to ON.","Find slot near electronic selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD standard.",warn:"AWD — flatbed preferred."},
-
-{make:"Buick",model:"Encore (1st Gen)",yearStart:2013,yearEnd:2022,trans:"6-speed automatic",slot:"Small slot near console shifter base, covered by a plastic cap",
- shift:["Ignition to ON.","Find cap near shifter base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional.",warn:""},
-
-{make:"Buick",model:"Encore GX",yearStart:2020,yearEnd:2026,trans:"CVT or 9-speed automatic",slot:"Electronic selector — slot near base",
- shift:["Ignition to ON.","Find slot near electronic selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional.",warn:""},
-
-{make:"Buick",model:"LaCrosse",yearStart:2005,yearEnd:2019,trans:"4-speed, 6-speed, or 8-speed automatic",slot:"Small slot near gear selector base, covered by a plastic cap",
- shift:["Ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"eAssist mild hybrid available on some years: same procedure.",warn:""},
-
-{make:"Buick",model:"Envision",yearStart:2016,yearEnd:2026,trans:"6-speed or 9-speed automatic",slot:"Slot near electronic selector base",
- shift:["Ignition to ON.","Find slot near selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD available.",warn:""},
-
-// CADILLAC
-{make:"Cadillac",model:"Escalade (1st-3rd Gen)",yearStart:2000,yearEnd:2014,trans:"4-speed or 6-speed automatic",slot:"Column shifter (2000-2002): slot on steering column. Console shifter (2003+): slot at side of console shifter base",
- shift:["COLUMN SHIFT (2000-2002): Ignition ON. Find slot on column near shifter. Insert key, press down. Press brake. Move column shifter to N.",
-        "CONSOLE SHIFT (2003+): Find slot at side of console shifter. Remove cap. Insert key, press down. Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD: transfer case to 2H before towing on road.",warn:"4WD: transfer case MUST be in 2H before towing."},
-
-{make:"Cadillac",model:"Escalade (4th-5th Gen)",yearStart:2015,yearEnd:2026,trans:"6-speed (6L80) or 10-speed (10L80) automatic",slot:"Electronic selector on console — slot near base or under a trim panel",
- shift:["Ignition to ON.","Locate trim panel near electronic selector. Remove or pry.","Insert key into slot, press down.","Press brake. Move to N.","Replace panel."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Escalade IQ EV (2025+): 12V only — flatbed required.",warn:"Escalade IQ EV: FLATBED ONLY. 4WD: transfer case to 2H."},
-
-{make:"Cadillac",model:"XT4",yearStart:2019,yearEnd:2026,trans:"9-speed automatic",slot:"Electronic selector — slot near base",
- shift:["Ignition to ON.","Find slot near electronic selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],notes:"",warn:""},
-
-{make:"Cadillac",model:"XT5",yearStart:2017,yearEnd:2026,trans:"8-speed automatic",slot:"Electronic selector — slot near base",
- shift:["Ignition to ON.","Find slot near selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],notes:"AWD standard on most trims.",warn:""},
-
-{make:"Cadillac",model:"XT6",yearStart:2020,yearEnd:2026,trans:"9-speed automatic",slot:"Electronic selector — slot near base",
- shift:["Ignition to ON.","Find slot near selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],notes:"3-row SUV. AWD standard.",warn:""},
-
-{make:"Cadillac",model:"CT4 / CT5",yearStart:2020,yearEnd:2026,trans:"8-speed or 10-speed automatic",slot:"Electronic selector — slot near base",
- shift:["Ignition to ON.","Find slot near selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],notes:"Blackwing manual: clutch to N.",warn:""},
-
-{make:"Cadillac",model:"LYRIQ",yearStart:2023,yearEnd:2026,trans:"Single-speed electric",slot:"Electronic selector — slot near selector base",
- shift:["WITH POWER: Press brake. Select N.","WITHOUT POWER: Find slot near selector base. Insert key, press down. Press brake. Select N."],
- neutral:["12V battery under hood.","Connect jump pack to 12V ONLY.","Select N once powered."],
- notes:"Fully electric crossover.",warn:"FLATBED ONLY. Never tow with driven wheels on ground."},
-
-// CHEVROLET
-{make:"Chevrolet",model:"Silverado 1500 (2000-2018)",yearStart:2000,yearEnd:2018,trans:"4-speed, 6-speed, or 8-speed automatic",slot:"Cap at side of console shifter base (console shift) or slot on steering column (column shift)",
- shift:["CONSOLE SHIFT: Find cap at side of console shifter. Remove. Insert key, press down. Press brake. Move to N.",
-        "COLUMN SHIFT: Find slot on steering column near shifter. Insert key, press down. Press brake. Move column shifter to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD: transfer case MUST be in 2H before towing on paved road.",warn:"4WD: transfer case to 2H."},
-
-{make:"Chevrolet",model:"Silverado 1500 (2019-2026)",yearStart:2019,yearEnd:2026,trans:"6, 8, or 10-speed automatic",slot:"Electronic selector — trim panel near selector, remove to expose slot",
- shift:["Ignition to ON.","Locate trim panel near electronic selector. Pry or remove.","Insert key into slot, press down.","Press brake. Move to N.","Replace panel."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Silverado EV (2024+): flatbed only, 12V auxiliary.",warn:"Silverado EV: FLATBED ONLY. 4WD: transfer case."},
-
-{make:"Chevrolet",model:"Silverado 2500HD / 3500HD",yearStart:2001,yearEnd:2026,trans:"4-speed, 6-speed, or 10-speed automatic",slot:"Cap at console shifter base or electronic selector slot depending on year",
- shift:["Find cap/slot near shifter base.","Remove cap if present. Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Duramax diesel: same procedure. Heavy-duty — use heavy wheel blocks.",warn:"4WD: transfer case to 2H."},
-
-{make:"Chevrolet",model:"Suburban / Tahoe (2000-2020)",yearStart:2000,yearEnd:2020,trans:"4-speed or 6-speed automatic",slot:"Cap at side of console shifter base",
- shift:["Find cap at side of console shifter. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD standard. Transfer case to 2H.",warn:"4WD: transfer case. Large SUV — block all wheels."},
-
-{make:"Chevrolet",model:"Suburban / Tahoe (2021-2026)",yearStart:2021,yearEnd:2026,trans:"10-speed automatic (10L80)",slot:"Electronic selector — trim panel near selector, remove to expose slot",
- shift:["Ignition to ON.","Locate trim panel near electronic selector. Pry or remove.","Insert key, press down.","Press brake. Move to N.","Replace panel."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD and 4WD available.",warn:"4WD: transfer case to 2H. Block all wheels."},
-
-{make:"Chevrolet",model:"Equinox (2005-2017)",yearStart:2005,yearEnd:2017,trans:"5-speed or 6-speed automatic",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional.",warn:""},
-
-{make:"Chevrolet",model:"Equinox (2018-2026)",yearStart:2018,yearEnd:2026,trans:"6 or 9-speed automatic",slot:"Electronic selector — slot near base",
- shift:["Ignition to ON.","Find slot near electronic selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Equinox EV (2024+): flatbed only.",warn:"Equinox EV: FLATBED ONLY."},
-
-{make:"Chevrolet",model:"Traverse",yearStart:2009,yearEnd:2026,trans:"6-speed, 9-speed, or 8-speed automatic",slot:"Cap near shifter base (2009-2017) or electronic selector slot (2018+)",
- shift:["Find cap/slot near shifter or selector base. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional.",warn:""},
-
-{make:"Chevrolet",model:"Colorado (2004-2022)",yearStart:2004,yearEnd:2022,trans:"4-speed, 6-speed, or 8-speed automatic",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD optional. Transfer case to 2H.",warn:"4WD: transfer case."},
-
-{make:"Chevrolet",model:"Colorado (2023-2026)",yearStart:2023,yearEnd:2026,trans:"8-speed automatic",slot:"Electronic selector — slot near base",
- shift:["Ignition to ON.","Find slot near electronic selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD optional.",warn:"4WD: transfer case."},
-
-{make:"Chevrolet",model:"Corvette C5",yearStart:2000,yearEnd:2004,trans:"4-speed auto or 6-speed manual",slot:"Cap near center tunnel shifter — remove to access slot",
- shift:["Find cap near console shifter. Remove.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Manual: clutch to N. Z06: same.",warn:"EXTREMELY LOW CLEARANCE — flatbed ONLY."},
-
-{make:"Chevrolet",model:"Corvette C6",yearStart:2005,yearEnd:2013,trans:"6-speed auto or 6-speed manual",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Z06, ZR1: same.",warn:"EXTREMELY LOW CLEARANCE — flatbed ONLY."},
-
-{make:"Chevrolet",model:"Corvette C7",yearStart:2014,yearEnd:2019,trans:"8-speed auto or 7-speed manual",slot:"Removable panel near electronic selector on console — remove to expose slot",
- shift:["Remove panel near electronic selector on console.","Insert key, press down.","Press brake. Move to N.","Replace panel."],
- neutral:["Apply parking brake.","Battery is in the FRUNK (front trunk) — NOT under hood.","Connect jump pack to frunk battery terminals.","Shift normally or use slot."],
- notes:"Battery is in the FRUNK (front trunk). Z06, Grand Sport, ZR1: same.",warn:"FLATBED ONLY. Extremely low clearance. Load from REAR only."},
-
-{make:"Chevrolet",model:"Corvette C8",yearStart:2020,yearEnd:2026,trans:"8-speed DCT (auto)",slot:"Cover near electronic selector on center console — remove to expose slot",
- shift:["Press START without brake (ON mode).","Remove cover near electronic selector.","Insert key, press down.","Press brake. Move electronic selector to N.","Replace cover."],
- neutral:["Apply parking brake.","Battery: MID-ENGINE — access panel BEHIND passenger seat or in frunk.","Connect jump pack.","Shift normally or use slot.","E-Ray hybrid: 12V terminals only."],
- notes:"C8 is MID-ENGINE — battery location differs from all previous Corvettes.",warn:"FLATBED ONLY for all C8. Extremely low clearance. Do not winch from front or rear."},
-
-{make:"Chevrolet",model:"Malibu",yearStart:2004,yearEnd:2024,trans:"4-speed, 6-speed, or CVT automatic",slot:"Cap near shifter base (older) or slot near electronic selector (2016+)",
- shift:["Find cap/slot near shifter or selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Hybrid (2016-2019): 12V procedure only.",warn:""},
-
-{make:"Chevrolet",model:"Impala",yearStart:2000,yearEnd:2020,trans:"4-speed or 6-speed automatic",slot:"Cap near selector base on console",
- shift:["Find cap near selector base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"FWD. Police PPV variant: same.",warn:""},
-
-{make:"Chevrolet",model:"Camaro (5th Gen)",yearStart:2010,yearEnd:2015,trans:"6-speed auto or 6-speed manual",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Manual: clutch to N. RWD.",warn:"RWD — block rear wheels."},
-
-{make:"Chevrolet",model:"Camaro (6th Gen)",yearStart:2016,yearEnd:2024,trans:"8-speed auto or 6-speed manual",slot:"Slot near console shifter base — trim cover may need removal first",
- shift:["Remove trim cover near shifter base if present.","Find slot. Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"ZL1, 1LE: same. Manual: clutch to N.",warn:"RWD — block rear wheels."},
-
-{make:"Chevrolet",model:"Volt",yearStart:2011,yearEnd:2019,trans:"Electric drive / PHEV",slot:"Electronic selector — slot near shifter on console",
- shift:["WITH POWER: Press brake. Move selector to N.",
-        "WITHOUT POWER: Find slot near electronic shifter. Insert key, press down. Press brake. Move to N."],
- neutral:["12V auxiliary battery under hood — connect jump pack to 12V ONLY.","NEVER touch the HV floor battery.","Once powered, shift normally or use slot."],
- notes:"PHEV. 12V battery under hood. HV battery runs down floor tunnel.",warn:"FLATBED ONLY. Never tow with driven wheels on ground."},
-
-{make:"Chevrolet",model:"Express Van",yearStart:2000,yearEnd:2026,trans:"4-speed or 6-speed automatic",slot:"Column shifter: slot on steering column. Console shift: cap at shifter base",
- shift:["COLUMN: Find slot on steering column. Insert key, press down. Press brake. Move to N.",
-        "CONSOLE: Find cap at shifter base. Remove. Insert key, press down. Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Large commercial van.",warn:"Large van — use heavy wheel blocks before releasing Park."},
-
-{make:"Chevrolet",model:"Trax",yearStart:2015,yearEnd:2026,trans:"6-speed auto or CVT",slot:"Cap near shifter base or electronic selector slot depending on year",
- shift:["Find cap/slot near shifter. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],notes:"",warn:""},
-
-{make:"Chevrolet",model:"Blazer",yearStart:2019,yearEnd:2026,trans:"9-speed automatic",slot:"Electronic selector — slot near base",
- shift:["Ignition to ON.","Find slot near electronic selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Blazer EV (2024+): flatbed only.",warn:"Blazer EV: FLATBED ONLY."},
-
-// CHRYSLER
-{make:"Chrysler",model:"200 (1st Gen / Sebring)",yearStart:2011,yearEnd:2014,trans:"4 or 6-speed automatic",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],notes:"",warn:""},
-
-{make:"Chrysler",model:"200 (2nd Gen)",yearStart:2015,yearEnd:2017,trans:"9-speed automatic ZF 9HP",
- slot:"ROTARY DIAL selector — slot near BASE of dial on console. No traditional lever.",
- shift:["IMPORTANT: This car has a ROTARY DIAL selector, not a lever.","Turn ignition to ON.","Find the slot near the BASE of the rotary dial on the console.","Insert key, press down.","Press brake.","ROTATE the dial to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack.","Rotate dial to N normally once powered.","Without power: dial base slot method."],
- notes:"ROTARY DIAL only — no shifter lever. Familiarize with the dial before attempting.",warn:""},
-
-{make:"Chrysler",model:"300",yearStart:2005,yearEnd:2023,trans:"5-speed, 8-speed auto",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD available.",warn:"AWD — flatbed preferred."},
-
-{make:"Chrysler",model:"Pacifica",yearStart:2017,yearEnd:2026,trans:"9-speed auto or PHEV eCVT",
- slot:"ROTARY DIAL selector — slot near BASE of dial on console",
- shift:["IMPORTANT: Rotary dial selector — no lever.","Find slot near base of the rotary dial.","Insert key, press down.","Press brake.","ROTATE dial to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for PHEV).","Rotate to N once powered or use slot."],
- notes:"Pacifica Hybrid PHEV: 12V auxiliary ONLY. Never access HV battery.",warn:"PHEV: 12V battery ONLY."},
-
-{make:"Chrysler",model:"Town & Country",yearStart:2000,yearEnd:2016,trans:"4-speed or 6-speed automatic",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"FWD minivan.",warn:"Block all wheels."},
-
-{make:"Chrysler",model:"PT Cruiser",yearStart:2001,yearEnd:2010,trans:"4-speed auto or 5-speed manual",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],notes:"Manual: clutch to N.",warn:""},
-
-// DODGE
-{make:"Dodge",model:"Challenger (3rd Gen)",yearStart:2008,yearEnd:2023,trans:"5-speed or 8-speed auto or 6-speed manual",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Manual: clutch to N. RWD. High-perf models have strong parking pawl — apply firm pressure on slot.",warn:"RWD — block rear wheels."},
-
-{make:"Dodge",model:"Charger (2006-2023)",yearStart:2006,yearEnd:2023,trans:"5-speed or 8-speed automatic",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD (Daytona/Pursuit) variants: flatbed preferred.",warn:"AWD — flatbed preferred."},
-
-{make:"Dodge",model:"Charger Daytona EV",yearStart:2024,yearEnd:2026,trans:"Single-speed electric",slot:"Electronic selector — slot near selector base",
- shift:["WITH POWER: Press brake. Select N.","WITHOUT POWER: Find slot near selector base. Insert key, press down. Press brake. Select N."],
- neutral:["12V battery under hood.","Connect jump pack to 12V ONLY.","Select N once powered."],
- notes:"AWD standard.",warn:"FLATBED ONLY."},
-
-{make:"Dodge",model:"Durango",yearStart:2000,yearEnd:2026,trans:"4-speed, 5-speed, or 8-speed automatic",slot:"Cap at console shifter (older) or slot near electronic selector (newer)",
- shift:["Find cap/slot near shifter or selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD/4WD. 3-row SUV (2011+).",warn:"AWD — flatbed preferred."},
-
-{make:"Dodge",model:"Grand Caravan",yearStart:2000,yearEnd:2020,trans:"4-speed or 6-speed automatic",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"FWD only. Very common van.",warn:"Block all wheels."},
-
-{make:"Dodge",model:"Journey",yearStart:2009,yearEnd:2020,trans:"4-speed or 6-speed automatic",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"FWD or AWD.",warn:""},
-
-{make:"Dodge",model:"Dakota",yearStart:2000,yearEnd:2011,trans:"4-speed auto or 5-speed manual",slot:"Cap at side of console shifter base",
- shift:["Find cap at side of console shifter. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD: transfer case. Manual: clutch to N.",warn:"4WD: transfer case."},
-
-{make:"Dodge",model:"Viper",yearStart:2003,yearEnd:2017,trans:"6-speed manual (most) or rare auto",slot:"Manual: no shift lock. Auto: slot near selector",
- shift:["MANUAL (most Vipers): No shift lock — depress clutch, select Neutral.",
-        "AUTO (rare): Find slot near selector. Insert key, press down. Press brake. Move to N."],
- neutral:["Manual: clutch to N.","Auto: connect jump pack, shift normally or use slot."],
- notes:"Most Vipers are manual. SRT/ACR: manual only.",warn:"EXTREMELY LOW CLEARANCE — flatbed ONLY. Side lift recommended."},
-
-// FORD
-{make:"Ford",model:"F-150 (2000-2020)",yearStart:2000,yearEnd:2020,trans:"4-speed, 6-speed, or 10-speed automatic",slot:"Cap at side of console shifter base, or column slot on bench-seat trims",
- shift:["CONSOLE: Find cap at side of shifter. Remove. Insert key, press down. Press brake. Move to N.",
-        "COLUMN: Find slot on steering column. Insert key, press down. Press brake. Move column shifter to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD: transfer case MUST be in 2H before towing on road.",warn:"4WD: transfer case to 2H."},
-
-{make:"Ford",model:"F-150 (2021-2026)",yearStart:2021,yearEnd:2026,trans:"10-speed auto or eCVT (PowerBoost Hybrid)",slot:"Electronic selector — trim panel near selector, remove to expose slot",
- shift:["Ignition to ON.","Locate trim panel near electronic selector. Pry or remove.","Insert key into slot, press down.","Press brake. Move to N.","Replace panel."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot.","PowerBoost Hybrid: 12V only."],
- notes:"F-150 Lightning EV (2022+): flatbed only. 12V battery in frunk.",warn:"Lightning EV: FLATBED ONLY. 4WD: transfer case."},
-
-{make:"Ford",model:"F-150 Lightning",yearStart:2022,yearEnd:2026,trans:"Dual electric motors",slot:"Electronic selector — slot near selector base",
- shift:["WITH POWER: Press brake. Select N on electronic selector.",
-        "WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."],
- neutral:["CRITICAL: 12V battery is in the FRUNK (front trunk).","Connect jump pack to 12V frunk terminals ONLY.","NEVER touch the HV battery.","Once powered, press brake and select N."],
- notes:"12V battery is in the FRUNK, not under the hood. HV battery in frame — never touch.",warn:"FLATBED ONLY. Never tow with driven wheels on ground."},
-
-{make:"Ford",model:"F-250 / F-350 Super Duty (2000-2016)",yearStart:2000,yearEnd:2016,trans:"4-speed, 5-speed, or 6-speed automatic",slot:"Cap at side of console shifter base",
- shift:["Find cap at side of shifter. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Power Stroke diesel: same procedure. 4WD standard.",warn:"4WD: transfer case MUST be in 2H. Heavy-duty — heavy blocks required."},
-
-{make:"Ford",model:"F-250 / F-350 Super Duty (2017-2026)",yearStart:2017,yearEnd:2026,trans:"6-speed or 10-speed TorqShift automatic",slot:"Electronic selector — slot near base under trim panel",
- shift:["Ignition to ON.","Find trim panel near electronic selector. Pry to remove.","Insert key into slot, press down.","Press brake. Move to N.","Replace panel."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Power Stroke diesel: same. Tremor: same.",warn:"4WD: transfer case. Heavy-duty — heavy blocks."},
-
-{make:"Ford",model:"Explorer (2002-2019)",yearStart:2002,yearEnd:2019,trans:"5-speed or 6-speed automatic",slot:"Cap at side of console shifter base",
- shift:["Find cap at side of shifter. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD or AWD.",warn:"AWD — flatbed preferred."},
-
-{make:"Ford",model:"Explorer (2020-2026)",yearStart:2020,yearEnd:2026,trans:"10-speed automatic (10R60)",slot:"Electronic selector — slot near base under trim panel",
- shift:["Ignition to ON.","Find trim panel near electronic selector. Pry or remove.","Insert key, press down.","Press brake. Move to N.","Replace panel."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"ST and Platinum: same.",warn:"AWD — flatbed preferred."},
-
-{make:"Ford",model:"Expedition (2003-2017)",yearStart:2003,yearEnd:2017,trans:"4-speed or 6-speed automatic",slot:"Column shifter — slot on the steering column",
- shift:["Turn ignition to ON.","Find shift lock slot on the steering column near the shifter.","Insert key, press down.","Press brake.","Move column shifter from Park to Neutral."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Full-size SUV. 4WD standard.",warn:"4WD: transfer case MUST be in 2H."},
-
-{make:"Ford",model:"Expedition (2018-2026)",yearStart:2018,yearEnd:2026,trans:"10-speed automatic (10R80)",slot:"Electronic selector — slot near base under trim panel on console",
- shift:["Ignition to ON.","Locate trim panel near electronic selector. Pry to expose slot.","Insert key, press down.","Press brake. Move to N.","Replace panel."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"MAX (extended): same. 4WD standard.",warn:"4WD: transfer case. Large SUV — heavy blocks."},
-
-{make:"Ford",model:"Escape",yearStart:2001,yearEnd:2026,trans:"4-speed, 6-speed, or 8-speed auto; PHEV eCVT (2021+)",slot:"Cap near console shifter (older) or slot near electronic selector (2020+)",
- shift:["Find cap/slot near shifter or selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for PHEV). Shift normally or use slot."],
- notes:"Escape PHEV (2021+): 12V only.",warn:"PHEV: 12V only."},
-
-{make:"Ford",model:"Edge",yearStart:2007,yearEnd:2023,trans:"6-speed or 8-speed automatic",slot:"Cap near console shifter (older) or slot near electronic selector (newer)",
- shift:["Find cap/slot near shifter or selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional.",warn:""},
-
-{make:"Ford",model:"Bronco (2021-2026)",yearStart:2021,yearEnd:2026,trans:"7-speed manual, 10-speed auto, or 6-speed auto",
- slot:"Under the SHIFTER BOOT material — insert flathead between boot and trim ring, lift boot to expose lever",
- shift:["Insert flathead between the shifter boot material and the trim ring.","Lift the shifter boot UPWARD to expose the shift interlock release lever on the SIDE of the selector.","Push the release lever toward the FRONT of the transmission selector.","While holding lever forward, move selector out of Park into N.",
-        "Manual: depress clutch, select Neutral — no interlock needed."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use boot/lever method."],
- notes:"Ford Brake Shift Interlock (BSI) system. 2-door and 4-door: same.",warn:"4WD: transfer case in 2H or 4H (NOT 4LO) before towing."},
-
-{make:"Ford",model:"Mustang (5th/6th Gen)",yearStart:2005,yearEnd:2023,trans:"5-speed, 6-speed auto or manual",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Manual: clutch to N. RWD.",warn:"RWD — block rear wheels."},
-
-{make:"Ford",model:"Mustang (7th Gen S650)",yearStart:2024,yearEnd:2026,trans:"10-speed auto or 6-speed manual",slot:"Electronic selector — slot near base",
- shift:["Ignition to ON.","Find slot near electronic selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Manual: clutch to N. RWD.",warn:"RWD — block rear wheels."},
-
-{make:"Ford",model:"Mustang Mach-E",yearStart:2021,yearEnd:2026,trans:"Single-speed electric",slot:"Electronic selector — slot near selector base",
- shift:["WITH POWER: Press brake. Select N.","WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."],
- neutral:["12V battery is in the FRUNK (front trunk).","Access frunk via key hole, connect jump pack to 12V frunk terminals.","NEVER touch HV battery.","Once powered, press brake and select N."],
- notes:"12V battery in FRUNK. RWD or AWD.",warn:"FLATBED ONLY. Never tow with driven wheels on ground."},
-
-{make:"Ford",model:"Ranger (2019-2026)",yearStart:2019,yearEnd:2026,trans:"10-speed automatic (10R80)",slot:"Electronic selector — slot under trim near selector",
- shift:["Ignition to ON.","Find trim near selector. Pry to expose slot.","Insert key, press down.","Press brake. Move to N.","Replace trim."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD optional.",warn:"4WD: transfer case to 2H."},
-
-{make:"Ford",model:"Fusion",yearStart:2006,yearEnd:2020,trans:"5-speed or 6-speed auto; CVT (Hybrid/PHEV)",slot:"Cap near console shifter (older) or slot near electronic shifter (newer)",
- shift:["Find cap/slot near shifter. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."],
- notes:"Fusion Hybrid/Energi PHEV: 12V only.",warn:"PHEV/Hybrid: 12V only."},
-
-{make:"Ford",model:"Focus",yearStart:2008,yearEnd:2018,trans:"4-speed, 6-speed auto, or PowerShift DCT",slot:"Cap near console shifter base",
- shift:["Find cap near shifter base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Focus Electric: flatbed only. PowerShift DCT: restore power preferred.",warn:"Focus Electric: FLATBED ONLY."},
-
-{make:"Ford",model:"Transit (Full Size)",yearStart:2015,yearEnd:2026,trans:"6-speed or 10-speed automatic",slot:"COLUMN SHIFTER — slot on the steering column",
- shift:["Turn ignition to ON.","Find shift lock slot on the steering column.","Insert key, press down.","Press brake.","Move column shifter to Neutral."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Large commercial van.",warn:"Large van — heavy wheel blocks required."},
-
-{make:"Ford",model:"Maverick",yearStart:2022,yearEnd:2026,trans:"CVT (FWD) or 8-speed auto (AWD)",slot:"Electronic selector — slot near base",
- shift:["Ignition to ON.","Find slot near electronic selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"FWD or AWD compact pickup.",warn:""},
-
-// GMC
-{make:"GMC",model:"Sierra 1500 (2000-2018)",yearStart:2000,yearEnd:2018,trans:"4-speed, 6-speed, or 8-speed automatic",slot:"Cap at side of console shifter (or column slot on bench-seat trims)",
- shift:["CONSOLE: Find cap at side of shifter. Remove. Insert key, press down. Press brake. Move to N.",
-        "COLUMN: Find slot on column. Insert key, press down. Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Same platform as Silverado. 4WD: transfer case to 2H.",warn:"4WD: transfer case to 2H."},
-
-{make:"GMC",model:"Sierra 1500 (2019-2026)",yearStart:2019,yearEnd:2026,trans:"6, 8, or 10-speed automatic",slot:"Electronic selector — trim panel near selector, remove to expose slot",
- shift:["Ignition to ON.","Locate trim panel near electronic selector. Pry or remove.","Insert key into slot, press down.","Press brake. Move to N.","Replace panel."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Sierra EV (2024+): flatbed only.",warn:"Sierra EV: FLATBED ONLY. 4WD: transfer case."},
-
-{make:"GMC",model:"Sierra 2500HD / 3500HD",yearStart:2001,yearEnd:2026,trans:"4-speed, 6-speed, or 10-speed automatic",slot:"Cap at console shifter or electronic selector slot depending on year",
- shift:["Find cap/slot near shifter or selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Duramax diesel: same. Heavy-duty — heavy blocks.",warn:"4WD: transfer case. Heavy blocks required."},
-
-{make:"GMC",model:"Yukon / Yukon XL (2000-2020)",yearStart:2000,yearEnd:2020,trans:"4-speed or 6-speed automatic",slot:"Cap at side of console shifter base",
- shift:["Find cap at side of console shifter. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD standard.",warn:"4WD: transfer case. Large — block all wheels."},
-
-{make:"GMC",model:"Yukon / Yukon XL (2021-2026)",yearStart:2021,yearEnd:2026,trans:"10-speed automatic (10L80)",slot:"Electronic selector — trim panel near selector, remove to expose slot",
- shift:["Ignition to ON.","Locate trim panel near electronic selector. Pry or remove.","Insert key, press down.","Press brake. Move to N.","Replace panel."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD and 4WD available.",warn:"4WD: transfer case. Block all wheels."},
-
-{make:"GMC",model:"Terrain",yearStart:2010,yearEnd:2026,trans:"6-speed or 9-speed automatic",slot:"Cap near shifter base (2010-2017) or electronic selector slot (2018+)",
- shift:["Find cap/slot near shifter or selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional.",warn:""},
-
-{make:"GMC",model:"Acadia",yearStart:2007,yearEnd:2026,trans:"6-speed or 9-speed automatic",slot:"Cap near shifter base (2007-2016) or electronic selector slot (2017+)",
- shift:["Find cap/slot near shifter or selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"FWD or AWD.",warn:""},
-
-{make:"GMC",model:"Canyon",yearStart:2004,yearEnd:2026,trans:"4-speed, 6-speed, or 8-speed automatic",slot:"Cap near console shifter (older) or electronic selector slot (2023+)",
- shift:["Find cap/slot near shifter or selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD optional.",warn:"4WD: transfer case."},
-
-// HONDA
-{make:"Honda",model:"Accord",yearStart:2000,yearEnd:2026,trans:"4-speed, 5-speed, 6-speed, CVT, or 10-speed auto (varies by generation)",slot:"Cap or slot near gear selector base on console; 11th gen (2023+): slot near electronic selector",
- shift:["Turn ignition to ON.","Find cap/slot near selector base. Pry cap off if present.","Insert ignition key, press down firmly.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot.","Hybrid: 12V only."],
- notes:"Manual trans: no shift lock — depress clutch. All Hybrid years: 12V only.",warn:"Hybrid: 12V only. Do not access IMA/HV battery."},
-
-{make:"Honda",model:"CR-V",yearStart:2000,yearEnd:2026,trans:"4-speed or 5-speed auto, or CVT (varies by generation)",slot:"Cap near gear selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot.","Hybrid: 12V only."],
- notes:"AWD optional. CR-V Hybrid (2020+): 12V only.",warn:"Hybrid: 12V only."},
-
-{make:"Honda",model:"Civic",yearStart:2001,yearEnd:2026,trans:"4-speed or 5-speed auto, CVT, or DCT (varies by generation)",slot:"Cap near gear selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot.","Hybrid: 12V only."],
- notes:"Type R: manual only — clutch to N. Hybrid: 12V only.",warn:""},
-
-{make:"Honda",model:"Pilot",yearStart:2003,yearEnd:2015,trans:"5-speed automatic",slot:"Cap near gear selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional.",warn:"AWD — flatbed preferred."},
-
-{make:"Honda",model:"Pilot (3rd Gen)",yearStart:2016,yearEnd:2022,trans:"6-speed or 9-speed auto (ZF 9HP)",slot:"Slot on right side or front of selector housing — use PHYSICAL KEY from key fob as the tool",
- shift:["Turn ignition to ON.","Find slot on right side or front of the selector housing.","POP THE PHYSICAL KEY out of the key fob — this is your tool.","Insert the physical key into the slot. Press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally.","Without power: physical key from fob into slot method."],
- notes:"3rd gen Pilot key fob contains a hidden physical key — use this as the tool for the shift lock slot. ZF 9HP: jump pack preferred.",warn:"AWD — flatbed preferred."},
-
-{make:"Honda",model:"Pilot (4th Gen)",yearStart:2023,yearEnd:2026,trans:"10-speed automatic",slot:"Slot near electronic gear selector base on console",
- shift:["Turn ignition to ON.","Find slot near electronic selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"",warn:"AWD — flatbed preferred."},
-
-{make:"Honda",model:"Odyssey (5th Gen)",yearStart:2018,yearEnd:2026,trans:"9-speed automatic (ZF 9HP)",slot:"Cap near gear selector base on console; special ZF 9HP override tool also available",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap.","SPECIAL TOOL: Honda ZF 9HP override tool (~$50 online) is the most reliable option."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally.","Without power: slot method or ZF 9HP tool."],
- notes:"ZF 9HP: use jump pack or special tool. Do not force shift without power.",warn:"Do not force shift without power — ZF 9HP is sensitive to improper manual shifting."},
-
-{make:"Honda",model:"Odyssey (3rd/4th Gen)",yearStart:2005,yearEnd:2017,trans:"5-speed or 6-speed automatic",slot:"Cap near gear selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"FWD minivan.",warn:"Block all wheels."},
-
-{make:"Honda",model:"Insight (3rd Gen)",yearStart:2019,yearEnd:2022,trans:"e-CVT hybrid",slot:"Cap near gear selector base",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["POWER IS REQUIRED — Honda confirmed this model cannot be shifted to neutral without battery power on most units.",
-          "Connect a jump pack to the 12V battery under the hood — MANDATORY.",
-          "Once powered, press brake and shift to Neutral normally.",
-          "If no power source: use vehicle dollies instead of forcing the shifter."],
- notes:"Honda officially confirmed power is required. Slot method may not override on all units. Always jump pack first.",warn:"POWER REQUIRED on most units. Do not force — use dollies if no power is available."},
-
-{make:"Honda",model:"Ridgeline",yearStart:2006,yearEnd:2026,trans:"5-speed or 6-speed automatic",slot:"Cap near gear selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD standard on all Ridgeline.",warn:"AWD — flatbed preferred."},
-
-// HYUNDAI
-{make:"Hyundai",model:"Elantra",yearStart:2001,yearEnd:2026,trans:"4-speed, 6-speed, CVT, or DCT (varies by generation)",slot:"Cap near gear selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Elantra N DCT (2022+): power preferred.",warn:""},
-
-{make:"Hyundai",model:"Sonata",yearStart:2000,yearEnd:2026,trans:"4-speed, 6-speed, 8-speed auto, or hybrid CVT",slot:"Cap near gear selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."],
- notes:"Hybrid/PHEV: 12V only.",warn:""},
-
-{make:"Hyundai",model:"Tucson",yearStart:2005,yearEnd:2026,trans:"4-speed, 6-speed, DCT, or hybrid CVT",slot:"Cap near gear selector base",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."],
- notes:"Hybrid/PHEV (2022+): 12V only.",warn:""},
-
-{make:"Hyundai",model:"Santa Fe",yearStart:2001,yearEnd:2026,trans:"4-speed, 6-speed, or 8-speed automatic",slot:"Cap near gear selector base",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."],
- notes:"Hybrid/PHEV: 12V only. AWD optional.",warn:""},
-
-{make:"Hyundai",model:"Palisade",yearStart:2020,yearEnd:2026,trans:"8-speed automatic",slot:"Electronic selector — slot near selector base",
- shift:["Turn ignition to ON.","Find slot near electronic selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional. 3-row SUV.",warn:"AWD — flatbed preferred. Block all wheels."},
-
-{make:"Hyundai",model:"Ioniq 5",yearStart:2022,yearEnd:2026,trans:"Single-speed electric",slot:"Electronic selector — slot near selector base",
- shift:["WITH POWER: Press brake. Select N.","WITHOUT POWER: Find slot near selector base. Insert key, press down. Press brake. Select N."],
- neutral:["12V battery under hood.","Connect jump pack to 12V ONLY — NEVER touch 800V HV system.","Once powered, press brake and select N."],
- notes:"E-GMP platform. 800V system — NEVER touch HV components.",warn:"FLATBED ONLY."},
-
-{make:"Hyundai",model:"Ioniq 6",yearStart:2023,yearEnd:2026,trans:"Single-speed electric",slot:"COLUMN-MOUNTED electronic selector — slot near column base",
- shift:["WITH POWER: Press brake. Move column selector to N.",
-        "WITHOUT POWER: Find slot near column base. Insert key, press down. Press brake. Select N."],
- neutral:["12V battery under hood.","Connect jump pack to 12V ONLY.","Once powered, press brake and select N."],
- notes:"Unique column-mounted electronic shifter.",warn:"FLATBED ONLY."},
-
-{make:"Hyundai",model:"Kona",yearStart:2018,yearEnd:2026,trans:"6-speed auto, DCT, CVT, or electric",slot:"Cap near selector base (ICE) or slot near electronic selector (EV)",
- shift:["Find cap/slot near selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for EV). Shift normally or use slot."],
- notes:"Kona EV: flatbed only.",warn:"Kona EV: FLATBED ONLY."},
-
-// INFINITI
-{make:"Infiniti",model:"G35 / G37 / Q40",yearStart:2003,yearEnd:2015,trans:"5 or 7-speed automatic or 6-speed manual",slot:"Cap near gear selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Manual: clutch to N. RWD or AWD.",warn:"AWD — flatbed preferred."},
-
-{make:"Infiniti",model:"Q50",yearStart:2014,yearEnd:2026,trans:"7-speed automatic",slot:"Cap near gear selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Q50 Hybrid). Shift normally or use slot."],
- notes:"Q50 Hybrid: 12V only. AWD optional.",warn:""},
-
-{make:"Infiniti",model:"Q60",yearStart:2017,yearEnd:2022,trans:"7-speed automatic",slot:"Cap near gear selector base",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"RWD or AWD.",warn:"AWD — flatbed preferred."},
-
-{make:"Infiniti",model:"QX50 / EX35 / EX37",yearStart:2008,yearEnd:2026,trans:"7-speed automatic",slot:"Cap near gear selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD standard.",warn:"AWD — flatbed preferred."},
-
-{make:"Infiniti",model:"QX60 / JX35",yearStart:2013,yearEnd:2026,trans:"CVT or 9-speed automatic",slot:"Cap near gear selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional.",warn:""},
-
-{make:"Infiniti",model:"QX80 / QX56",yearStart:2004,yearEnd:2026,trans:"5-speed, 7-speed, or 8-speed automatic",slot:"Cap near gear selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD standard. Large luxury SUV.",warn:"AWD — flatbed preferred."},
-
-// JEEP
-{make:"Jeep",model:"Wrangler JK",yearStart:2007,yearEnd:2018,trans:"4-speed automatic or 6-speed manual",slot:"Cap near gear selector base on console (auto)",
- shift:["Auto: Find cap near selector base. Remove. Insert key, press down. Press brake. Move to N.",
-        "Manual: Depress clutch, select Neutral — no shift lock."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (auto). Shift normally or use slot.","Manual: clutch to N."],
- notes:"Flat tow capable when transfer case in neutral.",warn:"Transfer case must be in neutral for flat towing behind another vehicle."},
-
-{make:"Jeep",model:"Wrangler JL",yearStart:2018,yearEnd:2026,trans:"8-speed automatic or 6-speed manual",slot:"Slot near gear selector base or electronic selector area",
- shift:["Auto: Find slot near selector base. Insert key, press down. Press brake. Move to N.",
-        "Manual: Depress clutch, select Neutral."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (auto). Shift normally or use slot.","4xe PHEV: 12V only."],
- notes:"4xe PHEV: 12V only. Flat tow: transfer case in neutral.",warn:"4xe PHEV: 12V only."},
-
-{make:"Jeep",model:"Grand Cherokee (WJ/WK)",yearStart:2000,yearEnd:2010,trans:"4-speed or 5-speed automatic",slot:"Cap near console selector base",
- shift:["Find cap near selector base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD standard.",warn:"4WD: transfer case to 2H before towing."},
-
-{make:"Jeep",model:"Grand Cherokee (WK2)",yearStart:2011,yearEnd:2021,trans:"5-speed or 8-speed automatic",slot:"Cap near console selector base",
- shift:["Find cap near selector base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD/4WD. HEMI, EcoDiesel: same.",warn:"AWD — flatbed preferred."},
-
-{make:"Jeep",model:"Grand Cherokee (WL)",yearStart:2022,yearEnd:2026,trans:"8-speed automatic ZF 8HP",slot:"Electronic selector — slot near selector base",
- shift:["Ignition to ON.","Find slot near electronic selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot.","4xe PHEV: 12V only."],
- notes:"4xe PHEV: 12V only.",warn:"AWD — flatbed preferred."},
-
-{make:"Jeep",model:"Cherokee KL",yearStart:2014,yearEnd:2023,trans:"9-speed auto ZF 9HP or 6-speed auto",slot:"Cap near selector base on console",
- shift:["Find cap near selector base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional.",warn:"AWD — flatbed preferred."},
-
-{make:"Jeep",model:"Compass",yearStart:2007,yearEnd:2026,trans:"CVT, 6-speed, or 9-speed automatic",slot:"Cap near selector base",
- shift:["Find cap near selector base. Remove.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for PHEV). Shift normally or use slot."],
- notes:"PHEV (2021+): 12V only.",warn:""},
-
-// KIA
-{make:"Kia",model:"Sorento",yearStart:2003,yearEnd:2026,trans:"4-speed, 6-speed, 8-speed, or hybrid automatic",slot:"Cap near selector base",
- shift:["Find cap near selector base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."],
- notes:"Hybrid/PHEV: 12V only. AWD optional.",warn:""},
-
-{make:"Kia",model:"Sportage",yearStart:2005,yearEnd:2026,trans:"4-speed, 6-speed, 7-speed DCT, or hybrid",slot:"Cap near selector base",
- shift:["Find cap near selector base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."],
- notes:"Hybrid/PHEV: 12V only.",warn:""},
-
-{make:"Kia",model:"Telluride",yearStart:2020,yearEnd:2026,trans:"8-speed automatic",slot:"Electronic selector — slot near selector base",
- shift:["Ignition to ON.","Find slot near electronic selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional. 3-row SUV.",warn:"AWD — flatbed preferred."},
-
-{make:"Kia",model:"EV6",yearStart:2022,yearEnd:2026,trans:"Single-speed electric",slot:"Electronic selector — slot near selector base",
- shift:["WITH POWER: Press brake. Select N.","WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."],
- neutral:["12V battery under hood.","Connect jump pack to 12V ONLY.","Once powered, select N."],
- notes:"E-GMP platform shared with Hyundai Ioniq 5.",warn:"FLATBED ONLY."},
-
-{make:"Kia",model:"Stinger",yearStart:2018,yearEnd:2023,trans:"8-speed automatic",slot:"Cap near selector base",
- shift:["Find cap near selector base. Remove.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"RWD or AWD.",warn:"AWD — flatbed preferred."},
-
-{make:"Kia",model:"K5 / Optima",yearStart:2001,yearEnd:2026,trans:"4-speed, 6-speed, 8-speed auto, or DCT",slot:"Cap near selector base",
- shift:["Find cap near selector base. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Hybrid: 12V only.",warn:""},
-
-// LEXUS
-{make:"Lexus",model:"ES (All Generations)",yearStart:2002,yearEnd:2026,trans:"5-speed, 6-speed, or 8-speed auto; hybrid eCVT",slot:"Cap near selector base on console — Lexus may place release INSIDE center console storage bin",
- shift:["Turn ignition to ON.","Check INSIDE the center console storage bin first — Lexus often places the shift lock release inside the bin.","If not in bin: find slot near selector base.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid). Shift normally or use slot."],
- notes:"ES 300h Hybrid (all years): 12V only. Shift lock may be inside console storage bin.",warn:"Hybrid: 12V only."},
-
-{make:"Lexus",model:"RX (All Generations)",yearStart:2000,yearEnd:2026,trans:"4-speed, 5-speed, 6-speed auto; hybrid eCVT",slot:"Cap near selector base — may be inside center console storage on some years",
- shift:["Turn ignition to ON.","Check inside center console storage if slot not visible at selector base.","Find cap/slot. Pry cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid). Shift normally or use slot."],
- notes:"RX 400h/450h Hybrid: 12V only. AWD optional.",warn:"Hybrid: 12V only."},
-
-{make:"Lexus",model:"IS (All Generations)",yearStart:2006,yearEnd:2026,trans:"6-speed or 8-speed automatic; IS-F manual",slot:"Cap near selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"IS-F: manual — clutch to N. AWD optional.",warn:"AWD — flatbed preferred."},
-
-{make:"Lexus",model:"GX (All Generations)",yearStart:2010,yearEnd:2026,trans:"6-speed or 8-speed automatic",slot:"Cap near selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD standard.",warn:"4WD: transfer case."},
-
-{make:"Lexus",model:"LX (All Generations)",yearStart:2000,yearEnd:2026,trans:"4-speed, 6-speed, or 10-speed automatic",slot:"Cap near selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD standard. Large luxury SUV.",warn:"4WD: transfer case."},
-
-{make:"Lexus",model:"NX (All Generations)",yearStart:2015,yearEnd:2026,trans:"6-speed, 8-speed auto; hybrid or PHEV eCVT",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."],
- notes:"Hybrid/PHEV: 12V only. AWD optional.",warn:""},
-
-{make:"Lexus",model:"LS (All Generations)",yearStart:2001,yearEnd:2026,trans:"5-speed, 8-speed, or 10-speed auto; hybrid",slot:"Cap near selector base or inside center console storage",
- shift:["Turn ignition to ON.","Check inside console storage — Lexus may hide shift lock there.","Find cap/slot. Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid). Shift normally or use slot."],
- notes:"LS 600h Hybrid: 12V only. Air suspension — check clearance.",warn:"Air suspension: check clearance. Hybrid: 12V only."},
-
-// MAZDA
-{make:"Mazda",model:"Mazda3 / Mazda6",yearStart:2004,yearEnd:2026,trans:"4-speed, 5-speed, 6-speed auto, or CVT; manual available",slot:"Cap near selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Manual: clutch to N. AWD available on Mazda3 (2019+).",warn:""},
-
-{make:"Mazda",model:"CX-5",yearStart:2013,yearEnd:2026,trans:"6-speed automatic",slot:"Cap near selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional.",warn:""},
-
-{make:"Mazda",model:"CX-9 / CX-90",yearStart:2007,yearEnd:2026,trans:"6-speed or 8-speed automatic",slot:"Cap near selector base (older) or electronic selector slot (2024+)",
- shift:["Find cap/slot near selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for CX-90 PHEV). Shift normally or use slot."],
- notes:"CX-90 PHEV: 12V only. AWD standard.",warn:""},
-
-{make:"Mazda",model:"CX-3 / CX-30 / CX-50",yearStart:2016,yearEnd:2026,trans:"6-speed automatic",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional.",warn:""},
-
-{make:"Mazda",model:"MX-5 Miata",yearStart:2006,yearEnd:2026,trans:"6-speed auto or 6-speed manual",slot:"Cap near selector base (auto only)",
- shift:["Auto: Find cap near selector base. Pry off. Insert key, press down. Press brake. Move to N.",
-        "Manual: Depress clutch, select Neutral."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (auto). Shift normally or use slot."],
- notes:"Manual: clutch to N. Very low clearance.",warn:"LOW CLEARANCE — flatbed preferred."},
-
-// MERCEDES-BENZ
-{make:"Mercedes-Benz",model:"C-Class (All Generations)",yearStart:2001,yearEnd:2026,trans:"5-speed, 7-speed, or 9-speed automatic",slot:"Slot at base of gear selector housing or column selector — pry/slide cover to expose",
- shift:["Ignition to ON (position 2).","Find slot at base of selector housing. Pry or slide cover.","Insert key or flathead, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot.","PHEVs: 12V only."],
- notes:"PHEVs (C350e, C63e): 12V only. 4MATIC AWD: flatbed. AMG DCT: power preferred.",warn:"AWD (4MATIC) — flatbed preferred."},
-
-{make:"Mercedes-Benz",model:"E-Class (All Generations)",yearStart:2000,yearEnd:2026,trans:"5-speed, 7-speed, or 9-speed automatic",slot:"Slot near console or column selector base",
- shift:["Ignition to ON.","Find slot near selector base. Insert key or flathead, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for PHEVs). Shift normally or use slot."],
- notes:"PHEVs: 12V only. 4MATIC: flatbed.",warn:"AWD (4MATIC) — flatbed preferred."},
-
-{make:"Mercedes-Benz",model:"S-Class (All Generations)",yearStart:2000,yearEnd:2026,trans:"5-speed, 7-speed, or 9-speed automatic",slot:"Column selector (W220) or console selector (W221+) — slot at selector base",
- shift:["Ignition to ON.","Find slot at base of column or console selector. Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood or under rear seat depending on year.","Connect jump pack. Shift normally or use slot."],
- notes:"Air suspension — check clearance. PHEVs: 12V only.",warn:"Air suspension: verify clearance. 4MATIC: flatbed."},
-
-{make:"Mercedes-Benz",model:"GLC / GLE / GLS (All Generations)",yearStart:2016,yearEnd:2026,trans:"7-speed or 9-speed automatic",slot:"Slot near console selector base",
- shift:["Ignition to ON.","Find slot near console selector base. Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for PHEVs). Shift normally or use slot."],
- notes:"PHEVs (350e, 450e): 12V only. 4MATIC standard.",warn:"4MATIC AWD — flatbed preferred."},
-
-{make:"Mercedes-Benz",model:"EQC / EQE / EQS / EQA / EQB (Electric)",yearStart:2020,yearEnd:2026,trans:"Single-speed electric",slot:"Electronic selector — slot near selector base",
- shift:["WITH POWER: Press brake. Select N.","WITHOUT POWER: Find slot near selector base. Insert key, press down. Press brake. Select N."],
- neutral:["12V battery location varies — check owner's manual.","Connect jump pack to 12V ONLY. NEVER touch 400V/800V HV system.","Once powered, select N."],
- notes:"Do NOT touch the high-voltage system.",warn:"FLATBED ONLY. Never tow with driven wheels on ground."},
-
-{make:"Mercedes-Benz",model:"Sprinter Van",yearStart:2007,yearEnd:2026,trans:"5-speed, 7-speed, or 9-speed automatic",slot:"Slot near selector or column shifter base",
- shift:["Ignition to ON.","Find slot near selector or column base. Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Large commercial van. Gas and diesel: same.",warn:"Large van — heavy wheel blocks required."},
-
-// MITSUBISHI
-{make:"Mitsubishi",model:"Outlander / Outlander Sport",yearStart:2003,yearEnd:2026,trans:"4-speed, 5-speed auto, CVT, or PHEV eCVT",slot:"Cap near selector base on console",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for PHEV). Shift normally or use slot."],
- notes:"Outlander PHEV: 12V only. AWD optional.",warn:"PHEV: 12V only."},
-
-{make:"Mitsubishi",model:"Lancer / Lancer Evolution",yearStart:2002,yearEnd:2017,trans:"4-speed, 5-speed auto, or CVT; manual available",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Evo X SST DCT: restore power first. Manual: clutch to N. AWD standard on Evo.",warn:""},
-
-{make:"Mitsubishi",model:"Eclipse Cross",yearStart:2018,yearEnd:2026,trans:"CVT",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional.",warn:""},
-
-{make:"Mitsubishi",model:"Galant",yearStart:2004,yearEnd:2012,trans:"4-speed automatic",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"FWD only.",warn:""},
-
-// NISSAN
-{make:"Nissan",model:"Altima",yearStart:2002,yearEnd:2026,trans:"4-speed auto, CVT, or 6-speed manual",slot:"Cap near selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Manual: clutch to N. AWD available on newer gen.",warn:""},
-
-{make:"Nissan",model:"Rogue",yearStart:2008,yearEnd:2026,trans:"CVT",slot:"Cap near selector base (older) or electronic selector slot (newer)",
- shift:["Find cap/slot near selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional. e-POWER hybrid: 12V only.",warn:""},
-
-{make:"Nissan",model:"Pathfinder",yearStart:2005,yearEnd:2026,trans:"5-speed auto, CVT, or 9-speed auto",slot:"Cap near selector base (older) or electronic selector slot (2022+)",
- shift:["Find cap/slot near selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD optional.",warn:""},
-
-{make:"Nissan",model:"Murano",yearStart:2003,yearEnd:2026,trans:"CVT",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid). Shift normally or use slot."],
- notes:"AWD optional. Hybrid: 12V only.",warn:""},
-
-{make:"Nissan",model:"Maxima",yearStart:2004,yearEnd:2023,trans:"4-speed auto or CVT",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"FWD only.",warn:""},
-
-{make:"Nissan",model:"Frontier",yearStart:2000,yearEnd:2026,trans:"4-speed, 5-speed, or 9-speed auto; manual available",slot:"Cap at side of console shifter base (older) or electronic selector slot (2022+)",
- shift:["Find cap/slot near shifter or selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD optional. Manual: clutch to N.",warn:"4WD: transfer case."},
-
-{make:"Nissan",model:"Titan / Titan XD",yearStart:2004,yearEnd:2026,trans:"5-speed or 7-speed automatic",slot:"Cap at side of console shifter base",
- shift:["Find cap at side of shifter. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD optional.",warn:"4WD: transfer case."},
-
-{make:"Nissan",model:"Armada",yearStart:2004,yearEnd:2026,trans:"5-speed or 7-speed automatic",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD standard.",warn:"4WD: transfer case."},
-
-{make:"Nissan",model:"Leaf",yearStart:2011,yearEnd:2026,trans:"Single-speed electric",slot:"Electronic selector — slot near selector base",
- shift:["WITH POWER: Press brake. Select N.","WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."],
- neutral:["12V battery under hood.","Connect jump pack to 12V ONLY.","Once powered, select N."],
- notes:"FWD. 12V battery under hood.",warn:"FLATBED ONLY."},
-
-{make:"Nissan",model:"GT-R R35",yearStart:2009,yearEnd:2023,trans:"6-speed dual-clutch DCT",slot:"Electronic selector — slot near selector base",
- shift:["Ignition to ON.","Find slot near electronic selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. DCT REQUIRES POWER — restore 12V first, then shift."],
- notes:"DCT requires power for neutral shift. AWD standard.",warn:"AWD. DCT — do not tow with wheels on ground without power."},
-
-{make:"Nissan",model:"Sentra / Versa",yearStart:2000,yearEnd:2026,trans:"4-speed auto, CVT, or manual",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Manual: clutch to N. FWD.",warn:""},
-
-// RAM
-{make:"Ram",model:"1500 Classic (DS)",yearStart:2009,yearEnd:2021,trans:"5-speed or 8-speed TorqueFlite",slot:"Cap at side of console shifter base",
- shift:["Find cap at side of console shifter. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD: transfer case MUST be in 2H before towing on road.",warn:"4WD: transfer case to 2H."},
-
-{make:"Ram",model:"1500 (DT)",yearStart:2019,yearEnd:2026,trans:"8-speed TorqueFlite or eTorque mild hybrid",slot:"Electronic selector — trim panel near selector, remove to expose slot",
- shift:["Ignition to ON.","Locate trim panel near electronic selector. Remove or pry.","Insert key into slot, press down.","Press brake. Move to N.","Replace panel."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"eTorque mild hybrid: same 12V procedure.",warn:"4WD: transfer case to 2H."},
-
-{make:"Ram",model:"1500 TRX",yearStart:2021,yearEnd:2024,trans:"8-speed TorqueFlite (8HP95)",slot:"Electronic selector — slot near base",
- shift:["Ignition to ON.","Find slot near electronic selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"High-performance off-road trim. Same as DT 1500 procedure.",warn:"4WD: transfer case."},
-
-{make:"Ram",model:"2500 / 3500",yearStart:2010,yearEnd:2026,trans:"6-speed or 8-speed TorqueFlite",slot:"Cap at side of console shifter base",
- shift:["Find cap at side of console shifter. Remove.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Cummins diesel: same procedure. 4WD standard. Heavy-duty.",warn:"4WD: transfer case. Heavy-duty — use heavy wheel blocks."},
-
-{make:"Ram",model:"ProMaster / ProMaster City",yearStart:2014,yearEnd:2026,trans:"6-speed automatic",slot:"Column shifter — slot on steering column; OR console slot on some trims",
- shift:["COLUMN: Find slot on steering column. Insert key, press down. Press brake. Move to N.",
-        "CONSOLE: Find slot at console shifter base. Insert key, press down. Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Commercial van. Based on Fiat Ducato platform.",warn:"Large van — heavy wheel blocks."},
-
-// SUBARU
-{make:"Subaru",model:"Outback / Legacy",yearStart:2000,yearEnd:2026,trans:"4-speed auto, CVT, or 5/6-speed manual",slot:"Cap near selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for XT PHEV). Shift normally or use slot."],
- notes:"AWD standard (Symmetrical). Manual: clutch to N. XT PHEV: 12V only.",warn:"AWD — flatbed preferred."},
-
-{make:"Subaru",model:"Forester",yearStart:2003,yearEnd:2026,trans:"4-speed auto, CVT, or manual",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"AWD standard. Manual: clutch to N.",warn:"AWD — flatbed preferred."},
-
-{make:"Subaru",model:"Crosstrek",yearStart:2013,yearEnd:2026,trans:"CVT, 6-speed auto, manual, or PHEV eCVT",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for PHEV). Shift normally or use slot."],
- notes:"AWD standard. PHEV: 12V only.",warn:"PHEV: 12V only."},
-
-{make:"Subaru",model:"Impreza / WRX / STI",yearStart:2000,yearEnd:2026,trans:"4-speed auto, CVT, or manual",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"STI: manual only — clutch to N. AWD standard.",warn:"AWD — flatbed preferred."},
-
-{make:"Subaru",model:"BRZ",yearStart:2013,yearEnd:2026,trans:"6-speed auto or 6-speed manual",slot:"Cap near selector base on console (auto only)",
- shift:["Auto: Find cap near selector base. Pry off. Insert key, press down. Press brake. Move to N.",
-        "Manual: Depress clutch, select Neutral."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (auto). Shift normally or use slot."],
- notes:"Manual: clutch to N. RWD. Shared platform with Toyota GR86.",warn:"RWD — block rear wheels."},
-
-{make:"Subaru",model:"Solterra",yearStart:2023,yearEnd:2026,trans:"Single-speed electric",slot:"Electronic selector — slot near selector base",
- shift:["WITH POWER: Press brake. Select N.","WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."],
- neutral:["12V battery under hood.","Connect jump pack to 12V ONLY.","Once powered, select N."],
- notes:"Shared platform with Toyota bZ4X.",warn:"FLATBED ONLY."},
-
-// TESLA
-{make:"Tesla",model:"Model 3",yearStart:2017,yearEnd:2026,trans:"Single-speed electric",slot:"2017-2023: column stalk. 2024+ (Highland): touchscreen or stalk",
- shift:["2017-2023: Push the COLUMN STALK downward to select N.",
-        "2024+ (Highland): Select N on the TOUCHSCREEN or use the stalk.",
-        "WITHOUT POWER: Find shift lock slot under center console trim near console base. Insert key/tool, press down, use override."],
- neutral:["PREFERRED METHOD: Tow Mode via touchscreen — Controls > Service > Tow Mode. This locks the car in N safely.",
-          "DEAD BATTERY: 12V battery is in the FRUNK (under hood in front storage area).",
-          "Connect jump pack to 12V frunk terminals ONLY. NEVER touch HV battery.",
-          "Once 12V is live, use stalk or touchscreen to select N."],
- notes:"TOW MODE is the preferred method — it safely locks in Neutral. 12V battery in frunk.",
- warn:"FLATBED ONLY. Never tow with driven wheels on ground."},
-
-{make:"Tesla",model:"Model S",yearStart:2012,yearEnd:2026,trans:"Single-speed electric",slot:"Pre-2021: column stalk. 2021+ Plaid: touchscreen",
- shift:["Pre-2021: Use gear selector stalk to select N.",
-        "2021+ Plaid: Select N on touchscreen.",
-        "WITHOUT POWER: Shift lock slot under console trim. Insert tool, press down, override."],
- neutral:["PREFERRED: Tow Mode via touchscreen — Controls > Service > Tow Mode.",
-          "DEAD BATTERY: 12V battery in FRUNK. Connect jump pack to 12V frunk terminals.",
-          "Once powered, use stalk or touchscreen to select N."],
- notes:"Tow Mode is preferred. Air suspension — check clearance. 12V in frunk.",warn:"FLATBED ONLY."},
-
-{make:"Tesla",model:"Model X",yearStart:2015,yearEnd:2026,trans:"Single-speed electric AWD",slot:"Pre-2021: column stalk. 2021+: touchscreen",
- shift:["Pre-2021: Use gear stalk to select N.",
-        "2021+: Select N on touchscreen.",
-        "WITHOUT POWER: Shift lock slot under console trim. Insert tool, press down, override."],
- neutral:["PREFERRED: Tow Mode via touchscreen — Controls > Service > Tow Mode.",
-          "DEAD BATTERY: 12V battery in FRUNK. Connect jump pack to 12V terminals only.",
-          "Once powered, select N via stalk or touchscreen."],
- notes:"Falcon Wing doors MUST be closed and secured before towing. Air suspension.",
- warn:"FLATBED ONLY. AWD. Falcon wing doors must be closed and secured."},
-
-{make:"Tesla",model:"Model Y",yearStart:2020,yearEnd:2026,trans:"Single-speed electric",slot:"Column stalk or touchscreen (2024+ refresh)",
- shift:["Use column stalk (older) or touchscreen (2024+) to select N.",
-        "WITHOUT POWER: Shift lock slot under center console trim. Insert key/tool, press down, override."],
- neutral:["PREFERRED: Tow Mode — Controls > Service > Tow Mode.",
-          "DEAD BATTERY: 12V battery in FRUNK. Connect jump pack to 12V terminals.",
-          "Once powered, select N."],
- notes:"Tow Mode is strongly preferred. 12V in frunk.",warn:"FLATBED ONLY."},
-
-{make:"Tesla",model:"Cybertruck",yearStart:2024,yearEnd:2026,trans:"Single-speed electric (tri or dual motor)",slot:"Touchscreen-based selector",
- shift:["Primary method: TOUCHSCREEN — select N or use Tow Mode.",
-        "WITHOUT POWER: Access shift lock slot — consult owner's manual for exact location on this newer platform."],
- neutral:["PREFERRED: Tow Mode via touchscreen.",
-          "DEAD BATTERY: 12V battery accessible under hood. Connect jump pack.",
-          "Once powered, enable Tow Mode or select N via touchscreen."],
- notes:"New platform (2024). Tow Mode is the primary neutral method. Very large and heavy.",warn:"FLATBED ONLY. Very large — use appropriately rated flatbed."},
-
-// TOYOTA
-{make:"Toyota",model:"Camry",yearStart:2002,yearEnd:2026,trans:"4-speed, 5-speed, 6-speed, 8-speed auto, or hybrid eCVT (varies by generation)",
- slot:"Small square cover BEHIND the gear selector (toward rear of console) — NOT at the base. Insert key VERTICALLY.",
- shift:["Turn ignition to ON.","Find the small square cover BEHIND (toward rear of) the gear selector — NOT at the base.","Remove the cover — it may have a lock icon.","Insert ignition key VERTICALLY into the slot to push the plunger.","Hold key down.","Press the brake pedal firmly.","Move gear selector from Park to Neutral.","Replace cover."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid). Shift normally or use slot."],
- notes:"SLOT IS BEHIND THE SELECTOR — insert key VERTICALLY. Very common mistake. Hybrid (2007+): 12V only.",
- warn:"Hybrid: 12V only. Do not access HV battery."},
-
-{make:"Toyota",model:"Corolla",yearStart:2003,yearEnd:2026,trans:"4-speed, 5-speed, CVT, or manual (varies)",slot:"Cap near selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid). Shift normally or use slot."],
- notes:"Manual: clutch to N. Hybrid (2020+): 12V only.",warn:""},
-
-{make:"Toyota",model:"RAV4",yearStart:2006,yearEnd:2026,trans:"4-speed, 6-speed, 8-speed, or hybrid eCVT",slot:"Cap near selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid/PHEV). Shift normally or use slot."],
- notes:"RAV4 Hybrid/Prime PHEV: 12V only. AWD optional.",warn:"Hybrid/PHEV: 12V only."},
-
-{make:"Toyota",model:"Tacoma",yearStart:2005,yearEnd:2026,trans:"5-speed, 6-speed, or 8-speed auto; manual available",slot:"Cap at side of console shifter (older) or electronic selector slot (4th gen 2024+)",
- shift:["Find cap/slot near shifter or selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD optional. Manual: clutch to N.",warn:"4WD: transfer case to 2H."},
-
-{make:"Toyota",model:"Tundra",yearStart:2000,yearEnd:2026,trans:"4-speed, 6-speed, or 10-speed auto; hybrid eCVT (3rd gen 2022+)",slot:"Cap near console shifter (older) or electronic selector slot (newer)",
- shift:["Find cap/slot near shifter or selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid). Shift normally or use slot."],
- notes:"4WD optional. 3rd gen (2022+) Hybrid: 12V only.",warn:"4WD: transfer case."},
-
-{make:"Toyota",model:"4Runner",yearStart:2000,yearEnd:2026,trans:"5-speed or 6-speed automatic",slot:"Cap near selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD standard.",warn:"4WD: transfer case to 2H before towing."},
-
-{make:"Toyota",model:"Highlander",yearStart:2001,yearEnd:2026,trans:"4-speed, 5-speed, 6-speed, 8-speed, or hybrid eCVT",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid). Shift normally or use slot."],
- notes:"Hybrid: 12V only. AWD optional.",warn:""},
-
-{make:"Toyota",model:"Sienna",yearStart:2004,yearEnd:2026,trans:"5-speed, 6-speed, or hybrid eCVT (4th gen)",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for Hybrid). Shift normally or use slot."],
- notes:"4th gen (2021+) is hybrid only — 12V only. FWD or AWD.",warn:"Hybrid: 12V only."},
-
-{make:"Toyota",model:"Prius (2nd Gen)",yearStart:2004,yearEnd:2009,trans:"CVT hybrid eCVT",
- slot:"JOYSTICK-TYPE selector — cap near joystick base on console",
- shift:["IMPORTANT: Prius uses a JOYSTICK selector, not a traditional lever.",
-        "Turn ignition to ON.","Find cap near joystick base on console. Pry off.","Insert key, press down.","Press brake. Move joystick to N."],
- neutral:["CRITICAL: 12V battery is in the TRUNK (cargo area, right side) — NOT under the hood.",
-          "Connect jump pack to 12V TRUNK battery ONLY. NEVER touch HV battery under rear seat.",
-          "Once powered, move joystick to N."],
- notes:"12V battery IN TRUNK. HV battery under rear seat — NEVER touch. Joystick selector.",
- warn:"12V battery is IN TRUNK. Do NOT access HV battery under rear seat."},
-
-{make:"Toyota",model:"Prius (3rd Gen)",yearStart:2010,yearEnd:2015,trans:"CVT hybrid eCVT",slot:"JOYSTICK selector — cap near joystick base",
- shift:["Prius uses a JOYSTICK selector.","Find cap near joystick base. Pry off.","Insert key, press down.","Press brake. Move joystick to N."],
- neutral:["12V battery IN TRUNK (cargo area, right side).","Connect jump pack to trunk 12V battery ONLY.","Once powered, move joystick to N."],
- notes:"12V battery IN TRUNK.",warn:"12V battery is IN TRUNK."},
-
-{make:"Toyota",model:"Prius (4th Gen)",yearStart:2016,yearEnd:2023,trans:"CVT hybrid eCVT",slot:"JOYSTICK selector — cap near joystick base",
- shift:["Prius uses a JOYSTICK selector.","Find cap near joystick base. Pry off.","Insert key, press down.","Press brake. Move joystick to N."],
- neutral:["12V battery IN TRUNK (right side under floor panel).","Connect jump pack to trunk 12V battery.","Once powered, move joystick to N."],
- notes:"12V IN TRUNK. Prius Prime PHEV: same trunk battery.",warn:"12V battery is IN TRUNK."},
-
-{make:"Toyota",model:"Prius (5th Gen)",yearStart:2023,yearEnd:2026,trans:"CVT hybrid eCVT",slot:"Electronic selector — cap near selector base",
- shift:["Find cap near electronic selector. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["12V battery IN TRUNK.","Connect jump pack to trunk battery.","Once powered, shift normally or use slot."],
- notes:"12V IN TRUNK.",warn:"12V battery is IN TRUNK."},
-
-{make:"Toyota",model:"Land Cruiser",yearStart:2000,yearEnd:2026,trans:"4-speed, 6-speed, or 10-speed automatic",slot:"Cap near selector base on console",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4WD standard. Large luxury 4WD.",warn:"4WD: transfer case."},
-
-{make:"Toyota",model:"Sequoia",yearStart:2001,yearEnd:2026,trans:"4-speed, 6-speed, 10-speed, or hybrid eCVT",slot:"Cap near selector base (older) or electronic selector slot (newer)",
- shift:["Find cap/slot near selector. Remove cap if present.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack (12V only for 3rd gen Hybrid). Shift normally or use slot."],
- notes:"3rd gen (2023+) is hybrid — 12V only. 4WD optional.",warn:"4WD: transfer case."},
-
-{make:"Toyota",model:"Supra (A90)",yearStart:2020,yearEnd:2026,trans:"8-speed automatic ZF 8HP",slot:"Electronic selector — slot near selector base",
- shift:["Ignition to ON.","Find slot near electronic selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"Shared platform with BMW Z4. RWD.",warn:"Low clearance — flatbed preferred."},
-
-{make:"Toyota",model:"bZ4X",yearStart:2023,yearEnd:2026,trans:"Single-speed electric",slot:"Electronic selector — slot near selector base",
- shift:["WITH POWER: Press brake. Select N.","WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."],
- neutral:["12V battery under hood.","Connect jump pack to 12V ONLY.","Once powered, select N."],
- notes:"Shared platform with Subaru Solterra.",warn:"FLATBED ONLY."},
-
-// VOLKSWAGEN
-{make:"Volkswagen",model:"Jetta / Jetta SportWagen",yearStart:2000,yearEnd:2026,trans:"5-speed, 6-speed auto, 6-speed DSG, or manual",slot:"Cap near selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. DSG — power preferred. Shift normally or use slot."],
- notes:"Manual: clutch to N. DSG — restore power first.",warn:"DSG: restore power before shifting."},
-
-{make:"Volkswagen",model:"Golf / GTI / Golf R",yearStart:2005,yearEnd:2026,trans:"6-speed manual, 6-speed DSG, or 8-speed automatic",slot:"Cap near selector base on console",
- shift:["Turn ignition to ON.","Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N.","Replace cap."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. DSG — power preferred. Shift normally or use slot."],
- notes:"Manual: clutch to N. DSG: restore power first. Golf R AWD: flatbed preferred.",warn:"Golf R AWD — flatbed preferred."},
-
-{make:"Volkswagen",model:"Passat",yearStart:2000,yearEnd:2022,trans:"5-speed, 6-speed auto, 6-speed DSG, or manual",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. DSG — power preferred. Shift normally or use slot."],
- notes:"Manual: clutch to N. DSG: restore power first. 4MOTION AWD: flatbed.",warn:"4MOTION AWD — flatbed preferred."},
-
-{make:"Volkswagen",model:"Tiguan",yearStart:2009,yearEnd:2026,trans:"6-speed DSG or 8-speed automatic",slot:"Cap near selector base on console",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. DSG — power preferred. Shift normally or use slot."],
- notes:"4MOTION AWD optional.",warn:"AWD — flatbed preferred."},
-
-{make:"Volkswagen",model:"Atlas / Atlas Cross Sport",yearStart:2018,yearEnd:2026,trans:"8-speed automatic",slot:"Electronic selector — slot near selector base on console",
- shift:["Ignition to ON.","Find slot near electronic selector.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. Shift normally or use slot."],
- notes:"4MOTION AWD optional.",warn:"AWD — flatbed preferred."},
-
-{make:"Volkswagen",model:"Taos",yearStart:2022,yearEnd:2026,trans:"6-speed DSG or 8-speed automatic",slot:"Cap near selector base",
- shift:["Find cap near selector base. Pry off.","Insert key, press down.","Press brake. Move to N."],
- neutral:["Apply parking brake.","Battery under hood.","Connect jump pack. DSG — power preferred. Shift normally or use slot."],
- notes:"AWD optional.",warn:""},
-
-{make:"Volkswagen",model:"ID.4 / ID.Buzz",yearStart:2021,yearEnd:2026,trans:"Single-speed electric",slot:"Electronic selector — slot near selector base",
- shift:["WITH POWER: Press brake. Select N.","WITHOUT POWER: Find slot near selector. Insert key, press down. Press brake. Select N."],
- neutral:["12V battery under hood.","Connect jump pack to 12V ONLY.","Once powered, select N."],
- notes:"ID.Buzz (2024+): same procedure.",warn:"FLATBED ONLY."},
-];
-
-// ══════════════════════════════════════════════════════════
-//  BUILD DROPDOWNS
-// ══════════════════════════════════════════════════════════
-const selYear = document.getElementById('sel-year');
-const selMake = document.getElementById('sel-make');
+const selYear  = document.getElementById('sel-year');
+const selMake  = document.getElementById('sel-make');
 const selModel = document.getElementById('sel-model');
-const btn = document.getElementById('lookup-btn');
+const btn      = document.getElementById('lookup-btn');
+const status   = document.getElementById('db-status');
 
-// populate years 2000-2026
-for(let y=2026;y>=2000;y--){
-  selYear.add(new Option(y,y));
+// ══════════════════════════════════════════════════════════
+//  LOAD DATABASE
+// ══════════════════════════════════════════════════════════
+async function loadDB() {
+  try {
+    const res = await fetch('vehicles.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    DB = await res.json();
+    status.style.display = 'none';
+    initYear();
+  } catch(e) {
+    status.className = 'error-msg';
+    status.textContent = '⚠ Could not load vehicle database. Check your connection and refresh.';
+    console.error(e);
+  }
 }
 
-selYear.addEventListener('change', function(){
+// ══════════════════════════════════════════════════════════
+//  DROPDOWNS
+// ══════════════════════════════════════════════════════════
+function initYear() {
+  for (let y = 2026; y >= 2000; y--) selYear.add(new Option(y, y));
+  selYear.disabled = false;
+}
+
+selYear.addEventListener('change', function() {
   const yr = parseInt(this.value);
-  selMake.innerHTML = '<option value="">— Make —</option>';
+  selMake.innerHTML  = '<option value="">— Make —</option>';
   selModel.innerHTML = '<option value="">— Model —</option>';
-  selMake.disabled = !yr;
-  selModel.disabled = true;
-  btn.disabled = true;
-  if(!yr) return;
+  selMake.disabled   = !yr;
+  selModel.disabled  = true;
+  btn.disabled       = true;
+  if (!yr) return;
   const makes = [...new Set(
-    DB.filter(v => yr >= v.yearStart && yr <= v.yearEnd).map(v=>v.make)
+    DB.filter(v => yr >= v.yearStart && yr <= v.yearEnd).map(v => v.make)
   )].sort();
-  makes.forEach(m => selMake.add(new Option(m,m)));
+  makes.forEach(m => selMake.add(new Option(m, m)));
   selMake.disabled = false;
 });
 
-selMake.addEventListener('change', function(){
-  const yr = parseInt(selYear.value);
+selMake.addEventListener('change', function() {
+  const yr   = parseInt(selYear.value);
   const make = this.value;
   selModel.innerHTML = '<option value="">— Model —</option>';
-  selModel.disabled = !make;
-  btn.disabled = true;
-  if(!make) return;
-  const models = DB.filter(v => v.make===make && yr>=v.yearStart && yr<=v.yearEnd)
-                   .sort((a,b)=>a.model.localeCompare(b.model));
+  selModel.disabled  = !make;
+  btn.disabled       = true;
+  if (!make) return;
+  const models = DB
+    .filter(v => v.make === make && yr >= v.yearStart && yr <= v.yearEnd)
+    .sort((a, b) => a.model.localeCompare(b.model));
   models.forEach(v => selModel.add(new Option(v.model, v.model)));
   selModel.disabled = false;
 });
 
-selModel.addEventListener('change', function(){
+selModel.addEventListener('change', function() {
   btn.disabled = !this.value;
 });
 
-btn.addEventListener('click', function(){
-  const yr = parseInt(selYear.value);
-  const make = selMake.value;
+// ══════════════════════════════════════════════════════════
+//  RESULTS
+// ══════════════════════════════════════════════════════════
+function makeSteps(items, listId) {
+  const ul = document.getElementById(listId);
+  ul.innerHTML = '';
+  items.forEach((s, i) => {
+    const li = document.createElement('li');
+    li.innerHTML = `<span class="num">${i + 1}</span><span>${s}</span>`;
+    ul.appendChild(li);
+  });
+}
+
+function makeTCSteps(items, listId) {
+  const ul = document.getElementById(listId);
+  ul.innerHTML = '';
+  items.forEach((s, i) => {
+    const li = document.createElement('li');
+    li.innerHTML = `<span class="num">${i + 1}</span><span>${s}</span>`;
+    ul.appendChild(li);
+  });
+}
+
+btn.addEventListener('click', function() {
+  const yr    = parseInt(selYear.value);
+  const make  = selMake.value;
   const model = selModel.value;
-  const v = DB.find(v => v.make===make && v.model===model && yr>=v.yearStart && yr<=v.yearEnd);
-  if(!v) return;
+  const v     = DB.find(v => v.make === make && v.model === model && yr >= v.yearStart && yr <= v.yearEnd);
+  if (!v) return;
 
-  document.getElementById('res-name').textContent = make + ' ' + model;
+  // Header
+  document.getElementById('res-name').textContent  = make + ' ' + model;
   document.getElementById('res-years').textContent = v.yearStart + ' – ' + v.yearEnd;
-  document.getElementById('res-trans').innerHTML = '<span>Transmission</span>' + v.trans;
 
-  const slotEl = document.getElementById('res-slot');
-  slotEl.innerHTML = '<strong>Slot / Release Location</strong>' + v.slot;
+  // Info strip
+  document.getElementById('res-drivetrain').textContent = v.drivetrain || 'See owner\'s manual';
+  document.getElementById('res-trans').textContent      = v.trans || '—';
+  document.getElementById('res-towmethod').textContent  = v.towMethod || 'See owner\'s manual';
 
-  const shiftList = document.getElementById('res-shift-steps');
-  shiftList.innerHTML = '';
-  v.shift.forEach((s,i) => {
-    const li = document.createElement('li');
-    li.innerHTML = '<span class="num">'+(i+1)+'</span><span>'+s+'</span>';
-    shiftList.appendChild(li);
-  });
-
-  const neutralList = document.getElementById('res-neutral-steps');
-  neutralList.innerHTML = '';
-  v.neutral.forEach((s,i) => {
-    const li = document.createElement('li');
-    li.innerHTML = '<span class="num">'+(i+1)+'</span><span>'+s+'</span>';
-    neutralList.appendChild(li);
-  });
-
-  const noteEl = document.getElementById('res-note');
-  if(v.notes){
-    noteEl.innerHTML = '<strong>Note</strong>' + v.notes;
-    noteEl.style.display='block';
+  // Transfer case
+  const tcBox = document.getElementById('res-tc-box');
+  if (v.tc) {
+    document.getElementById('res-tc-type').textContent = v.tc.type;
+    const posList = document.getElementById('res-tc-positions');
+    posList.innerHTML = '';
+    v.tc.positions.forEach(p => {
+      const li = document.createElement('li');
+      li.textContent = p;
+      posList.appendChild(li);
+    });
+    makeTCSteps(v.tc.steps, 'res-tc-steps');
+    tcBox.style.display = 'block';
   } else {
-    noteEl.style.display='none';
+    tcBox.style.display = 'none';
   }
+
+  // Slot
+  const slotEl = document.getElementById('res-slot');
+  slotEl.innerHTML = '<strong>Slot / Release Location</strong>' + (v.slot || '—');
+
+  // Steps
+  makeSteps(v.shift,   'res-shift-steps');
+  makeSteps(v.neutral, 'res-neutral-steps');
+
+  // Notes & warnings
+  const noteEl = document.getElementById('res-note');
+  if (v.notes) { noteEl.innerHTML = '<strong>Note</strong>' + v.notes; noteEl.style.display = 'block'; }
+  else { noteEl.style.display = 'none'; }
 
   const warnEl = document.getElementById('res-warn');
-  if(v.warn){
-    warnEl.innerHTML = '<strong>⚠ Warning</strong>' + v.warn;
-    warnEl.style.display='block';
-  } else {
-    warnEl.style.display='none';
-  }
+  if (v.warn) { warnEl.innerHTML = '<strong>⚠ Warning</strong>' + v.warn; warnEl.style.display = 'block'; }
+  else { warnEl.style.display = 'none'; }
 
+  // TowSpec link
+  const cleanModel = v.model.replace(/\s*\(.*?\)/g, '').trim();
+  document.getElementById('towspec-btn').href =
+    'https://towspec.com/Vehicles/specificsearch?make=' +
+    encodeURIComponent(make) + '&model=' + encodeURIComponent(cleanModel);
+
+  // Show results
   const results = document.getElementById('results');
   results.classList.remove('visible');
   void results.offsetWidth;
   results.classList.add('visible');
-  results.scrollIntoView({behavior:'smooth', block:'start'});
-
-  // Build TowSpec link — strip generation labels like "(3rd Gen)" for cleaner search
-  const cleanModel = v.model.replace(/\s*\(.*?\)/g, '').trim();
-  const towspecUrl = 'https://towspec.com/Vehicles/specificsearch?make=' +
-    encodeURIComponent(make) + '&model=' + encodeURIComponent(cleanModel);
-  document.getElementById('towspec-btn').href = towspecUrl;
+  results.scrollIntoView({ behavior: 'smooth', block: 'start' });
 });
+
+// ══════════════════════════════════════════════════════════
+//  INIT
+// ══════════════════════════════════════════════════════════
+loadDB();
 </script>
 </body>
 </html>
