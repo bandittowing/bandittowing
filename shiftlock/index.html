@@ -634,6 +634,43 @@ footer a:hover { color:var(--gold); }
 footer p { font-family:var(--font-b); font-size:11px; color:var(--gray); margin-top:8px; }
 footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
 
+/* ── NHTSA PANEL ── */
+.nhtsa-panel {
+  margin-bottom:var(--gap-md);
+  background:var(--dark2);
+  border-left:3px solid rgba(74,133,192,.5);
+  overflow:hidden;
+}
+.nhtsa-head {
+  display:flex; align-items:center; gap:10px;
+  padding:14px 20px 10px; border-bottom:1px solid var(--dark5);
+}
+.nhtsa-head-icon { font-size:1rem; flex-shrink:0; opacity:.8; }
+.nhtsa-head-title {
+  font-family:var(--font-u); font-size:10px; font-weight:700;
+  letter-spacing:4px; text-transform:uppercase; color:var(--blue); flex:1;
+}
+.nhtsa-head-sub {
+  font-family:var(--font-u); font-size:9px; letter-spacing:2px;
+  color:var(--gray); text-transform:uppercase;
+}
+.nhtsa-body { padding:4px 0 8px; }
+.nhtsa-row {
+  display:flex; align-items:baseline; gap:12px;
+  padding:8px 20px; border-bottom:1px solid var(--dark4);
+  flex-wrap:wrap;
+}
+.nhtsa-row:last-child { border-bottom:none; }
+.nhtsa-label {
+  font-family:var(--font-u); font-size:9px; font-weight:600;
+  letter-spacing:3px; text-transform:uppercase; color:var(--gold-dark);
+  flex-shrink:0; min-width:110px;
+}
+.nhtsa-val {
+  font-family:var(--font-b); font-size:0.88rem;
+  color:var(--off-white); line-height:1.5; word-break:break-all;
+}
+
 /* ── VIN SCANNER ── */
 .vin-btn {
   width:100%; background:transparent; border:1px solid var(--gold-dark);
@@ -952,6 +989,16 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
         <span class="issues-header-count" id="res-issues-count"></span>
       </div>
       <ul class="issues-list" id="res-issues-list"></ul>
+    </div>
+
+    <!-- NHTSA Vehicle Data Panel — shown after VIN scan -->
+    <div id="nhtsa-panel" class="nhtsa-panel" style="display:none">
+      <div class="nhtsa-head">
+        <span class="nhtsa-head-icon">🔍</span>
+        <span class="nhtsa-head-title">NHTSA Vehicle Data</span>
+        <span class="nhtsa-head-sub">Official decoded VIN specs</span>
+      </div>
+      <div class="nhtsa-body" id="nhtsa-body"></div>
     </div>
 
     <!-- TowSpec link -->
@@ -1483,9 +1530,10 @@ function renderVehicle(v) {
 
 /* ═══════════════════════════════════════════════════════════
    VIN SCANNER
-   Uses BarcodeDetector API (Chrome/Safari iOS 16+) for camera
-   Falls back to manual VIN entry if unavailable
-   Decodes via NHTSA free public API — no key required
+   Camera: BarcodeDetector with getSupportedFormats() check
+           setInterval at 250ms (not rAF) + isProcessing flag
+   Decode: NHTSA free public API — no key required
+   Display: identity + towing-relevant NHTSA specs panel
 ═══════════════════════════════════════════════════════════ */
 const vinOverlay     = document.getElementById('vin-overlay');
 const vinVideo       = document.getElementById('vin-video');
@@ -1497,26 +1545,49 @@ const vinDecodedEl   = document.getElementById('vin-decoded');
 const vinDecodedText = document.getElementById('vin-decoded-text');
 const vinScanBtn     = document.getElementById('vin-scan-btn');
 
-let vinStream    = null;
-let vinDetector  = null;
-let vinScanLoop  = null;
-let vinLastVin   = null;
+let vinStream       = null;
+let vinDetector     = null;
+let vinScanTimer    = null;
+let vinIsProcessing = false;
+let vinLastVin      = null;
+let vinNhtsaData    = null;
 
+/* ── NHTSA decode — returns full towing-relevant fields ── */
 async function nhtsaDecode(vin) {
   const res  = await fetch(`https://vpic.nhtsa.dot.gov/api/vehicles/decodevin/${vin}?format=json`);
   const data = await res.json();
   const get  = (variable) => {
     const r = data.Results.find(x => x.Variable === variable);
-    return r && r.Value && r.Value !== 'Not Applicable' ? r.Value : null;
+    const v = r && r.Value;
+    return (v && v !== 'Not Applicable' && v !== 'null' && v.trim() !== '') ? v.trim() : null;
   };
-  return { year: get('Model Year'), make: get('Make'), model: get('Model'), vin };
+  return {
+    vin,
+    year:        get('Model Year'),
+    make:        get('Make'),
+    model:       get('Model'),
+    trim:        get('Trim'),
+    bodyClass:   get('Body Class'),
+    driveType:   get('Drive Type'),
+    fuelType:    get('Fuel Type - Primary'),
+    fuelTypeAlt: get('Fuel Type - Secondary'),
+    engineL:     get('Displacement (L)'),
+    engineCyl:   get('Engine Number of Cylinders'),
+    gvwr:        get('Gross Vehicle Weight Rating From'),
+    gvwrTo:      get('Gross Vehicle Weight Rating To'),
+    trans:       get('Transmission Style'),
+    transSpeed:  get('Transmission Speeds'),
+    evType:      get('Electrification Level'),
+    plantCountry:get('Plant Country'),
+  };
 }
 
+/* ── Fuzzy match NHTSA result to DB ── */
 function fuzzyMatch(nhtsa) {
   if (!nhtsa.year || !nhtsa.make || !nhtsa.model) return null;
-  const yr   = parseInt(nhtsa.year);
-  const make = nhtsa.make.toLowerCase().trim();
-  const model= nhtsa.model.toLowerCase().trim();
+  const yr    = parseInt(nhtsa.year);
+  const make  = nhtsa.make.toLowerCase().trim();
+  const model = nhtsa.model.toLowerCase().trim();
   let best = null, bestScore = 0;
   DB.forEach(v => {
     if (yr < v.yearStart || yr > v.yearEnd) return;
@@ -1535,34 +1606,65 @@ function fuzzyMatch(nhtsa) {
   return bestScore >= 30 ? best : null;
 }
 
+/* ── Render NHTSA panel in results ── */
+function renderNhtsaPanel(nhtsa) {
+  const panel = document.getElementById('nhtsa-panel');
+  const body  = document.getElementById('nhtsa-body');
+  if (!panel || !body || !nhtsa) return;
+  const identity = [nhtsa.year, nhtsa.make, nhtsa.model, nhtsa.trim].filter(Boolean).join(' ');
+  const rows = [];
+  if (nhtsa.vin)         rows.push(['VIN', nhtsa.vin]);
+  if (identity)          rows.push(['Vehicle', identity]);
+  if (nhtsa.bodyClass)   rows.push(['Body Class', nhtsa.bodyClass]);
+  if (nhtsa.driveType)   rows.push(['Drive Type', nhtsa.driveType]);
+  const fuel = [nhtsa.fuelType, nhtsa.fuelTypeAlt].filter(Boolean).join(' / ');
+  if (fuel)              rows.push(['Fuel Type', fuel]);
+  if (nhtsa.evType)      rows.push(['Electrification', nhtsa.evType]);
+  const eng = [nhtsa.engineL ? nhtsa.engineL+'L' : null, nhtsa.engineCyl ? nhtsa.engineCyl+'-cyl' : null].filter(Boolean).join(' ');
+  if (eng)               rows.push(['Engine', eng]);
+  const tr = [nhtsa.trans, nhtsa.transSpeed ? nhtsa.transSpeed+'-speed' : null].filter(Boolean).join(' ');
+  if (tr)                rows.push(['Transmission', tr]);
+  if (nhtsa.gvwr) {
+    const g = (nhtsa.gvwrTo && nhtsa.gvwrTo !== nhtsa.gvwr) ? nhtsa.gvwr+' – '+nhtsa.gvwrTo : nhtsa.gvwr;
+    rows.push(['GVWR', g]);
+  }
+  if (nhtsa.plantCountry) rows.push(['Manufactured In', nhtsa.plantCountry]);
+  body.innerHTML = rows.map(([l,v]) => `<div class="nhtsa-row"><span class="nhtsa-label">${l}</span><span class="nhtsa-val">${v}</span></div>`).join('');
+  panel.style.display = 'block';
+  setTimeout(() => panel.scrollIntoView({behavior:'smooth', block:'nearest'}), 400);
+}
+
+/* ── Status helper ── */
 function vinSetStatus(msg, state) {
   vinStatusText.textContent = msg;
   vinDot.className = 'vin-status-dot' + (state ? ' '+state : '');
 }
 
+/* ── Handle a decoded VIN ── */
 async function handleVin(vin) {
   vin = vin.toUpperCase().replace(/[^A-Z0-9]/g,'');
   if (vin.length !== 17) { vinSetStatus('VIN must be 17 characters — try again.', 'error'); return; }
   if (vin === vinLastVin) return;
   vinLastVin = vin;
-  vinSetStatus('VIN detected — looking up vehicle…', 'scanning');
+  vinSetStatus('VIN detected — querying NHTSA…', 'scanning');
   try {
     const nhtsa = await nhtsaDecode(vin);
+    vinNhtsaData = nhtsa;
     if (!nhtsa.make || !nhtsa.model) {
-      vinSetStatus('Could not decode VIN. Try manual entry below.', 'error');
+      vinSetStatus('Could not decode VIN — enter manually below.', 'error');
       vinManualWrap.classList.add('show');
       return;
     }
     const match = fuzzyMatch(nhtsa);
-    const label = (nhtsa.year||'') + ' ' + (nhtsa.make||'') + ' ' + (nhtsa.model||'');
-    vinDecodedText.textContent = 'VIN: ' + vin.slice(0,8) + '… → ' + label.trim();
+    const label = [nhtsa.year, nhtsa.make, nhtsa.model, nhtsa.trim].filter(Boolean).join(' ');
+    vinDecodedText.textContent = label;
     vinDecodedEl.classList.add('show');
     if (match) {
       vinSetStatus('✓ Match found — loading procedure…', 'found');
-      setTimeout(() => { closeVinOverlay(); renderVehicle(match); }, 800);
+      setTimeout(() => { closeVinOverlay(); renderVehicle(match); renderNhtsaPanel(nhtsa); }, 800);
     } else {
-      vinSetStatus('Decoded ' + label.trim() + ' — select model below.', 'found');
-      setTimeout(() => { closeVinOverlay(); prefillDropdowns(nhtsa); }, 800);
+      vinSetStatus('Decoded: '+label+' — select model below.', 'found');
+      setTimeout(() => { closeVinOverlay(); prefillDropdowns(nhtsa); renderNhtsaPanel(nhtsa); }, 800);
     }
   } catch(e) {
     vinSetStatus('Network error — check connection or enter VIN manually.', 'error');
@@ -1570,6 +1672,7 @@ async function handleVin(vin) {
   }
 }
 
+/* ── Pre-fill dropdowns when no exact DB match ── */
 function prefillDropdowns(nhtsa) {
   const yr = parseInt(nhtsa.year);
   if (!yr) return;
@@ -1582,12 +1685,14 @@ function prefillDropdowns(nhtsa) {
       return v === nhMake || v.includes(nhMake) || nhMake.includes(v);
     });
     if (opt) { selMake.value = opt.value; selMake.dispatchEvent(new Event('change')); }
-    document.querySelector('.lookup-card').scrollIntoView({behavior:'smooth',block:'start'});
+    document.querySelector('.lookup-card').scrollIntoView({behavior:'smooth', block:'start'});
   }, 200);
 }
 
+/* ── Open camera overlay ── */
 async function openVinOverlay() {
-  vinLastVin = null;
+  vinLastVin      = null;
+  vinIsProcessing = false;
   vinManualWrap.classList.remove('show');
   vinManualInput.value = '';
   vinOverlay.classList.add('open');
@@ -1600,11 +1705,20 @@ async function openVinOverlay() {
     vinVideo.srcObject = vinStream;
     await vinVideo.play();
     if ('BarcodeDetector' in window) {
-      vinDetector = new BarcodeDetector({ formats: ['code_39','code_128','qr_code','data_matrix'] });
+      let supported = [];
+      try { supported = await BarcodeDetector.getSupportedFormats(); } catch {}
+      const prefer = ['code_39','code_93','code_128','codabar','itf'];
+      const formats = prefer.filter(f => supported.length === 0 || supported.includes(f));
+      const useFormats = formats.length > 0 ? formats : (supported.length > 0 ? supported : ['code_39','code_128']);
+      try {
+        vinDetector = new BarcodeDetector({ formats: useFormats });
+      } catch {
+        vinDetector = new BarcodeDetector();
+      }
       vinSetStatus('Scanning for VIN barcode…', 'scanning');
-      startScanLoop();
+      startScanInterval();
     } else {
-      vinSetStatus('Camera ready — enter VIN manually or type it above.', '');
+      vinSetStatus('Camera ready — barcode scanning not supported on this browser. Enter VIN manually below.', '');
       vinManualWrap.classList.add('show');
     }
   } catch(err) {
@@ -1613,28 +1727,36 @@ async function openVinOverlay() {
   }
 }
 
-function startScanLoop() {
-  if (vinScanLoop) cancelAnimationFrame(vinScanLoop);
-  const scan = async () => {
-    if (!vinDetector || !vinVideo.readyState || vinVideo.readyState < 2) {
-      vinScanLoop = requestAnimationFrame(scan); return;
-    }
+/* ── 250ms scan interval with single concurrent call guard ── */
+function startScanInterval() {
+  if (vinScanTimer) clearInterval(vinScanTimer);
+  vinScanTimer = setInterval(async () => {
+    if (vinIsProcessing || !vinDetector) return;
+    if (!vinVideo.readyState || vinVideo.readyState < 2) return;
+    vinIsProcessing = true;
     try {
       const codes = await vinDetector.detect(vinVideo);
       for (const bc of codes) {
         const raw = (bc.rawValue||'').toUpperCase().replace(/[^A-Z0-9]/g,'');
-        if (raw.length === 17) { await handleVin(raw); return; }
+        if (raw.length === 17) {
+          clearInterval(vinScanTimer);
+          vinScanTimer = null;
+          vinIsProcessing = false;
+          await handleVin(raw);
+          return;
+        }
       }
     } catch {}
-    vinScanLoop = requestAnimationFrame(scan);
-  };
-  vinScanLoop = requestAnimationFrame(scan);
+    vinIsProcessing = false;
+  }, 250);
 }
 
+/* ── Close overlay ── */
 function closeVinOverlay() {
-  if (vinScanLoop) { cancelAnimationFrame(vinScanLoop); vinScanLoop = null; }
-  if (vinStream)   { vinStream.getTracks().forEach(t => t.stop()); vinStream = null; }
-  vinDetector = null;
+  if (vinScanTimer) { clearInterval(vinScanTimer); vinScanTimer = null; }
+  if (vinStream)    { vinStream.getTracks().forEach(t => t.stop()); vinStream = null; }
+  vinDetector     = null;
+  vinIsProcessing = false;
   vinVideo.srcObject = null;
   vinOverlay.classList.remove('open');
   document.body.style.overflow = '';
@@ -1645,8 +1767,13 @@ document.getElementById('vin-close').addEventListener('click', closeVinOverlay);
 document.getElementById('vin-manual-submit').addEventListener('click', () => handleVin(vinManualInput.value.trim()));
 vinManualInput.addEventListener('keydown', e => { if (e.key === 'Enter') handleVin(vinManualInput.value.trim()); });
 document.getElementById('vin-decoded-clear').addEventListener('click', () => {
-  vinDecodedEl.classList.remove('show'); vinLastVin = null;
+  vinDecodedEl.classList.remove('show');
+  vinLastVin = null;
+  const panel = document.getElementById('nhtsa-panel');
+  if (panel) panel.style.display = 'none';
 });
+
+
 
 /* ═══════════════════════════════════════════════════════════
    BOOT
