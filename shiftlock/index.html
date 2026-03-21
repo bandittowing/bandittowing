@@ -671,6 +671,39 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
   color:var(--off-white); line-height:1.5; word-break:break-all;
 }
 
+.vin-capture-wrap {
+  position:absolute; bottom:24px; left:0; right:0;
+  display:flex; flex-direction:column; align-items:center; gap:8px;
+  pointer-events:none;
+}
+.vin-capture-btn {
+  width:72px; height:72px; border-radius:50%;
+  background:rgba(255,255,255,.15); border:3px solid rgba(255,255,255,.8);
+  cursor:pointer; position:relative; pointer-events:all;
+  display:flex; align-items:center; justify-content:center;
+  transition:transform .1s, background .2s;
+  -webkit-tap-highlight-color:transparent;
+}
+.vin-capture-btn:active { transform:scale(.92); background:rgba(255,255,255,.3); }
+.vin-capture-ring {
+  position:absolute; inset:-6px; border-radius:50%;
+  border:3px solid var(--gold); animation:captureRing 2s ease-in-out infinite;
+}
+@keyframes captureRing { 0%,100%{opacity:.4;transform:scale(1);} 50%{opacity:1;transform:scale(1.05);} }
+.vin-capture-dot {
+  width:52px; height:52px; border-radius:50%;
+  background:rgba(255,255,255,.9);
+}
+.vin-capture-btn:active .vin-capture-dot { background:var(--gold-bright); }
+.vin-capture-hint {
+  font-family:var(--font-u); font-size:11px; font-weight:600;
+  letter-spacing:3px; text-transform:uppercase;
+  color:rgba(255,255,255,.7); text-shadow:0 1px 4px rgba(0,0,0,.8);
+  pointer-events:none;
+}
+.vin-capture-btn:disabled { opacity:.4; cursor:not-allowed; }
+.vin-capture-btn:disabled .vin-capture-ring { animation:none; }
+
 /* ── VIN SCANNER ── */
 .vin-btn {
   width:100%; background:transparent; border:1px solid var(--gold-dark);
@@ -1034,16 +1067,25 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
   </div>
   <div class="vin-camera-wrap">
     <video id="vin-video" autoplay playsinline muted></video>
+    <canvas id="vin-canvas" style="display:none"></canvas>
     <div class="vin-aim">
       <div class="vin-aim-box">
         <div class="vin-scan-line"></div>
       </div>
-      <div class="vin-aim-label">Point at VIN barcode on door jamb or windshield</div>
+      <div class="vin-aim-label">Align the VIN barcode inside the box</div>
+    </div>
+    <!-- Capture button sits over the camera view -->
+    <div class="vin-capture-wrap">
+      <button class="vin-capture-btn" id="vin-capture-btn" title="Take photo to scan VIN">
+        <div class="vin-capture-ring"></div>
+        <div class="vin-capture-dot"></div>
+      </button>
+      <div class="vin-capture-hint">Tap to capture</div>
     </div>
   </div>
   <div class="vin-status">
     <div class="vin-status-dot scanning" id="vin-dot"></div>
-    <div class="vin-status-text" id="vin-status-text">Scanning for VIN barcode…</div>
+    <div class="vin-status-text" id="vin-status-text">Position VIN barcode in frame, then tap capture</div>
   </div>
   <div class="vin-manual-wrap" id="vin-manual-wrap">
     <label class="vin-manual-label">Enter VIN Manually</label>
@@ -1695,6 +1737,8 @@ async function openVinOverlay() {
   vinIsProcessing = false;
   vinManualWrap.classList.remove('show');
   vinManualInput.value = '';
+  const captureBtn = document.getElementById('vin-capture-btn');
+  captureBtn.disabled = true;
   vinOverlay.classList.add('open');
   document.body.style.overflow = 'hidden';
   vinSetStatus('Starting camera…', 'scanning');
@@ -1704,25 +1748,30 @@ async function openVinOverlay() {
     });
     vinVideo.srcObject = vinStream;
     await vinVideo.play();
+
+    // Set up BarcodeDetector if available
     if ('BarcodeDetector' in window) {
       let supported = [];
       try { supported = await BarcodeDetector.getSupportedFormats(); } catch {}
       const prefer = ['code_39','code_93','code_128','codabar','itf'];
       const formats = prefer.filter(f => supported.length === 0 || supported.includes(f));
       const useFormats = formats.length > 0 ? formats : (supported.length > 0 ? supported : ['code_39','code_128']);
-      try {
-        vinDetector = new BarcodeDetector({ formats: useFormats });
-      } catch {
-        vinDetector = new BarcodeDetector();
-      }
-      vinSetStatus('Scanning for VIN barcode…', 'scanning');
-      startScanInterval();
+      try { vinDetector = new BarcodeDetector({ formats: useFormats }); }
+      catch { vinDetector = new BarcodeDetector(); }
+      vinSetStatus('Camera ready — position VIN barcode in frame, then tap capture.', '');
     } else {
-      vinSetStatus('Camera ready — barcode scanning not supported on this browser. Enter VIN manually below.', '');
+      vinDetector = null;
+      vinSetStatus('Camera ready — barcode auto-detect not available on this browser. Enter VIN manually below.', '');
       vinManualWrap.classList.add('show');
     }
+
+    captureBtn.disabled = false;
+
   } catch(err) {
-    vinSetStatus(err.name === 'NotAllowedError' ? 'Camera permission denied — enter VIN manually.' : 'Camera unavailable — enter VIN manually below.', 'error');
+    const msg = err.name === 'NotAllowedError'
+      ? 'Camera permission denied — enter VIN manually below.'
+      : 'Camera unavailable — enter VIN manually below.';
+    vinSetStatus(msg, 'error');
     vinManualWrap.classList.add('show');
   }
 }
@@ -1751,6 +1800,60 @@ function startScanInterval() {
   }, 250);
 }
 
+/* ── Capture still frame and scan it ── */
+async function captureAndScan() {
+  const captureBtn = document.getElementById('vin-capture-btn');
+  if (!vinVideo || !vinVideo.readyState || vinVideo.readyState < 2) {
+    vinSetStatus('Camera not ready — try again.', 'error');
+    return;
+  }
+  if (vinIsProcessing) return;
+
+  // Flash effect
+  captureBtn.disabled = true;
+  vinSetStatus('Processing image…', 'scanning');
+
+  // Draw current video frame to canvas
+  const canvas = document.getElementById('vin-canvas');
+  canvas.width  = vinVideo.videoWidth  || 1280;
+  canvas.height = vinVideo.videoHeight || 720;
+  const ctx = canvas.getContext('2d');
+  ctx.drawImage(vinVideo, 0, 0, canvas.width, canvas.height);
+
+  vinIsProcessing = true;
+  let found = false;
+
+  try {
+    if (vinDetector) {
+      // Try BarcodeDetector on the canvas image (ImageBitmap is more reliable than video)
+      const bitmap = await createImageBitmap(canvas);
+      const codes  = await vinDetector.detect(bitmap);
+      bitmap.close();
+      for (const bc of codes) {
+        const raw = (bc.rawValue||'').toUpperCase().replace(/[^A-Z0-9]/g,'');
+        if (raw.length === 17) {
+          found = true;
+          vinIsProcessing = false;
+          await handleVin(raw);
+          break;
+        }
+      }
+    }
+
+    if (!found) {
+      // BarcodeDetector missed it or unavailable — show manual entry
+      vinSetStatus('No VIN barcode detected. Try getting closer, better lighting, or enter manually below.', 'error');
+      vinManualWrap.classList.add('show');
+    }
+  } catch(e) {
+    vinSetStatus('Scan failed — try again or enter VIN manually below.', 'error');
+    vinManualWrap.classList.add('show');
+  }
+
+  vinIsProcessing = false;
+  captureBtn.disabled = false;
+}
+
 /* ── Close overlay ── */
 function closeVinOverlay() {
   if (vinScanTimer) { clearInterval(vinScanTimer); vinScanTimer = null; }
@@ -1763,6 +1866,7 @@ function closeVinOverlay() {
 }
 
 vinScanBtn.addEventListener('click', openVinOverlay);
+document.getElementById('vin-capture-btn').addEventListener('click', captureAndScan);
 document.getElementById('vin-close').addEventListener('click', closeVinOverlay);
 document.getElementById('vin-manual-submit').addEventListener('click', () => handleVin(vinManualInput.value.trim()));
 vinManualInput.addEventListener('keydown', e => { if (e.key === 'Enter') handleVin(vinManualInput.value.trim()); });
