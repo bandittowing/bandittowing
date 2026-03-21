@@ -190,33 +190,64 @@ header::before {
 ═══════════════════════════════════════════════ */
 .info-strip { display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; margin-bottom:16px; }
 @media(max-width:580px) { .info-strip { grid-template-columns:1fr 1fr; } }
-.chip { background:var(--dark3); border:1px solid var(--dark5); padding:12px 14px; border-radius:var(--radius); }
-.chip-label { font-family:var(--font-u); font-size:9px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:var(--gray); margin-bottom:5px; }
-.chip-val { font-family:var(--font-c); font-size:0.9rem; font-weight:600; color:var(--white); line-height:1.35; }
-.chip.trans .chip-val { color:var(--gray-light); }
+.chip { background:var(--dark3); border:1px solid var(--dark5); padding:14px 16px; border-radius:var(--radius); }
+.chip-label { font-family:var(--font-u); font-size:10px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:var(--gold); margin-bottom:6px; }
+.chip-val { font-family:var(--font-u); font-size:0.95rem; font-weight:600; color:var(--white); line-height:1.35; }
+.chip.trans .chip-val { color:var(--gray-light); font-family:var(--font-c); font-size:0.88rem; }
 
 /* ═══════════════════════════════════════════════
    TOW METHOD BANNER
 ═══════════════════════════════════════════════ */
 .tow-banner {
-  display:flex; align-items:flex-start; gap:12px;
+  display:flex; align-items:center; gap:14px;
   background:var(--dark3); border:1px solid var(--dark5);
-  border-left:4px solid var(--gold); padding:14px 16px;
+  border-left:5px solid var(--gold); padding:16px 20px;
   margin-bottom:16px; border-radius:var(--radius);
 }
-.tow-banner.flatbed-only { border-left-color:var(--red); background:#160808; border-color:#3a1010; }
+.tow-banner.flatbed-only { border-left-color:var(--red); background:#180808; border-color:#3a1010; }
 .tow-banner.flatbed-only .tow-icon { color:var(--red); }
-.tow-icon { font-size:1.4rem; flex-shrink:0; margin-top:1px; }
-.tow-inner {}
-.tow-inner-label { font-family:var(--font-u); font-size:9px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:var(--gray); margin-bottom:4px; }
-.tow-inner-val { font-family:var(--font-c); font-size:0.95rem; font-weight:600; color:var(--white); line-height:1.4; }
+.tow-icon { font-size:1.8rem; flex-shrink:0; line-height:1; }
+.tow-inner { flex:1; }
+.tow-inner-label {
+  font-family:var(--font-u); font-size:10px; font-weight:700;
+  letter-spacing:4px; text-transform:uppercase;
+  color:var(--gold); margin-bottom:6px;
+}
+.tow-banner.flatbed-only .tow-inner-label { color:#e05050; }
+.tow-inner-val {
+  font-family:var(--font-u); font-size:1.05rem; font-weight:600;
+  color:var(--white); line-height:1.5; letter-spacing:0.3px;
+}
 
 /* tow notes list */
-.tow-notes { margin-top:14px; padding:14px 16px; background:var(--dark2); border:1px solid var(--dark5); border-left:3px solid var(--gold-dark); border-radius:var(--radius); }
-.tow-notes-label { font-family:var(--font-u); font-size:9px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:var(--gold-dark); margin-bottom:8px; }
-.tow-notes ul { list-style:none; display:flex; flex-direction:column; gap:6px; }
-.tow-notes ul li { font-family:var(--font-b); font-size:0.82rem; color:#aaa090; line-height:1.5; padding-left:16px; position:relative; }
-.tow-notes ul li::before { content:'›'; position:absolute; left:2px; color:var(--gold-dark); }
+.tow-notes {
+  margin-bottom:16px; background:var(--dark2);
+  border:1px solid var(--dark5); border-left:3px solid var(--gold-dark);
+  border-radius:var(--radius); overflow:hidden;
+}
+.tow-notes-label {
+  font-family:var(--font-u); font-size:10px; font-weight:700;
+  letter-spacing:4px; text-transform:uppercase; color:var(--gold);
+  background:var(--dark3); border-bottom:1px solid var(--dark5);
+  padding:10px 16px;
+}
+.tow-notes ul { list-style:none; display:flex; flex-direction:column; gap:0; }
+.tow-notes ul li {
+  font-family:var(--font-b); font-size:0.88rem; color:#c0b090;
+  line-height:1.55; padding:10px 16px 10px 40px; position:relative;
+  border-bottom:1px solid var(--dark4);
+}
+.tow-notes ul li:last-child { border-bottom:none; }
+.tow-notes ul li::before {
+  content:''; position:absolute; left:16px; top:17px;
+  width:6px; height:6px; border-radius:50%;
+  background:var(--gold-dark);
+}
+/* bold the ALL-CAPS keyword at the start of each note */
+.tow-notes ul li .note-key {
+  font-family:var(--font-u); font-size:0.82rem; font-weight:700;
+  color:var(--gold-bright); letter-spacing:0.5px; margin-right:4px;
+}
 
 /* ═══════════════════════════════════════════════
    TRANSFER CASE BOX
@@ -663,7 +694,13 @@ btn.addEventListener('click', function() {
   if (v.towNotes && v.towNotes.length > 0) {
     v.towNotes.forEach(n => {
       const li = document.createElement('li');
-      li.textContent = n;
+      // Bold the ALL-CAPS keyword prefix (e.g. "FLATBED ONLY:" or "HYBRID/PHEV:")
+      const keyMatch = n.match(/^([A-Z][A-Z0-9\/\-\s]{1,30}?):\s*/);
+      if (keyMatch) {
+        li.innerHTML = `<span class="note-key">${keyMatch[1]}:</span>${n.slice(keyMatch[0].length)}`;
+      } else {
+        li.textContent = n;
+      }
       tnList.appendChild(li);
     });
     showHide('res-tow-notes', true);
