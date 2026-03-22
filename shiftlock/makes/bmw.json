@@ -134,13 +134,12 @@
       "trans": "5-speed or 4-speed auto, or manual",
       "slot": "Trim cap on console near selector — pry to expose slot",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Trim cap on console near selector — pry to expose slot.",
-        "Pry off the cap or cover if present using your ignition key or a small flathead.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "Turn ignition to ON (position 2).",
+        "Locate override at the gear selector base — trim cap or snap-off cover on console.",
+        "Pry off trim cap with small flathead.",
+        "Insert thin flathead or key into slot. Press firmly and hold.",
+        "Press brake pedal firmly.",
+        "Move selector to N. Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -158,10 +157,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood, driver side (no trunk battery on E46)",
-        "jumpTerminals": "Under hood — standard terminals, easy access",
+        "location": "TRUNK — driver side, under the cargo floor panel",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side engine bay (red cover). Chassis ground anywhere on engine block. OR trunk battery directly.",
         "type": "standard-12v",
-        "warnings": "E46 is one of the few BMWs with a conventional under-hood battery."
+        "warnings": "Battery in trunk. Remote post under hood is the correct jump method."
       }
     },
     {
@@ -170,15 +169,14 @@
       "yearStart": 2006,
       "yearEnd": 2013,
       "trans": "6-speed auto or 6-speed manual",
-      "slot": "Under the gear selector BOOT — gently pull boot upward to expose slot underneath",
+      "slot": "Under the gear selector BOOT — gently pull the leather/rubber boot UPWARD to expose the slot at the base. The slot or button is at the very bottom of the selector housing.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Under the gear selector BOOT — gently pull boot upward to expose slot underneath.",
-        "Pry off the cap or cover if present using your ignition key or a small flathead.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "Turn ignition to ON (position 2).",
+        "Grip the base of the gear selector rubber/leather boot — gently pull it UPWARD.",
+        "Expose the override slot or button at the very base of the selector housing.",
+        "Insert thin flathead or key, press firmly and hold.",
+        "Press brake pedal firmly.",
+        "Move selector to N. Release tool and reseat the boot."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -196,10 +194,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "In trunk (right side under panel)",
-        "jumpTerminals": "Under hood: red fused terminal near firewall (+), black ground bolt on strut tower (−)",
+        "location": "UNDER THE REAR SEAT (most sedans/wagons) — lift rear seat bottom cushion to access. Some E92 coupes: TRUNK. Remote jump post under hood.",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side (red cover). Chassis ground. This is the PREFERRED jump method — do not remove rear seat to jump.",
         "type": "agm-12v",
-        "warnings": "Use hood terminals — NOT trunk battery directly. AGM jump pack. Register new battery with IBS sensor if replacing."
+        "warnings": "Battery under rear seat or trunk. Always use remote under-hood terminal for jumping."
       }
     },
     {
@@ -234,10 +232,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "In trunk right side under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "location": "TRUNK — under cargo floor. Remote positive (+) terminal under hood (driver side).",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side engine bay (red plastic cover). Engine block or chassis ground. Use remote terminal — do NOT open trunk to jump.",
         "type": "agm-12v",
-        "warnings": "Use hood terminals only. AGM jump pack."
+        "warnings": "AGM battery in trunk. ALWAYS use under-hood remote terminal for jumping. Use AGM-compatible jump pack (minimum 400A peak recommended)."
       }
     },
     {
@@ -272,10 +270,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "In trunk right side under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "location": "TRUNK — under cargo floor. Remote positive (+) terminal under hood (driver side).",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side engine bay (red cover). Chassis ground. Use this for all jumping — AGM battery in trunk.",
         "type": "agm-12v",
-        "warnings": "Use hood terminals only. AGM jump pack."
+        "warnings": "AGM battery. Use AGM-compatible jump pack. Always use under-hood remote terminal — do not access trunk battery for jumping."
       }
     },
     {
@@ -429,10 +427,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "In trunk right side under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "location": "TRUNK — under cargo floor. Remote positive (+) terminal under hood (driver side).",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side engine bay (red plastic cover). Engine block or chassis ground. Use remote terminal — do NOT open trunk to jump.",
         "type": "agm-12v",
-        "warnings": "Use hood terminals only. AGM jump pack."
+        "warnings": "AGM battery in trunk. ALWAYS use under-hood remote terminal for jumping. Use AGM-compatible jump pack (minimum 400A peak recommended)."
       }
     },
     {
@@ -467,10 +465,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "In trunk right side under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "location": "TRUNK — under cargo floor. Remote positive (+) terminal under hood (driver side).",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side engine bay (red cover). Chassis ground. Use this for all jumping — AGM battery in trunk.",
         "type": "agm-12v",
-        "warnings": "Use hood terminals only. AGM jump pack."
+        "warnings": "AGM battery. Use AGM-compatible jump pack. Always use under-hood remote terminal — do not access trunk battery for jumping."
       }
     },
     {
@@ -551,10 +549,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "In trunk under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "location": "TRUNK — under cargo floor. Remote positive (+) terminal under hood (driver side).",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side engine bay (red plastic cover). Engine block or chassis ground. Use remote terminal — do NOT open trunk to jump.",
         "type": "agm-12v",
-        "warnings": "Use hood terminals. AGM jump pack."
+        "warnings": "AGM battery in trunk. ALWAYS use under-hood remote terminal for jumping. Use AGM-compatible jump pack (minimum 400A peak recommended)."
       }
     },
     {
@@ -589,10 +587,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "In trunk under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "location": "TRUNK — under cargo floor. Remote positive (+) terminal under hood (driver side).",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side engine bay (red cover). Chassis ground. Use this for all jumping — AGM battery in trunk.",
         "type": "agm-12v",
-        "warnings": "Use hood terminals. AGM jump pack. PHEV: 12V auxiliary only."
+        "warnings": "AGM battery. Use AGM-compatible jump pack. Always use under-hood remote terminal — do not access trunk battery for jumping."
       }
     },
     {
@@ -664,10 +662,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "location": "TRUNK — under cargo floor. Remote positive (+) terminal under hood (driver side).",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side engine bay (red plastic cover). Engine block or chassis ground. Use remote terminal — do NOT open trunk to jump.",
         "type": "agm-12v",
-        "warnings": "AGM jump pack recommended."
+        "warnings": "AGM battery in trunk. ALWAYS use under-hood remote terminal for jumping. Use AGM-compatible jump pack (minimum 400A peak recommended)."
       }
     },
     {
@@ -702,10 +700,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "location": "TRUNK — under cargo floor. Remote positive (+) terminal under hood (driver side).",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side engine bay (red cover). Chassis ground. Use this for all jumping — AGM battery in trunk.",
         "type": "agm-12v",
-        "warnings": "AGM jump pack."
+        "warnings": "AGM battery. Use AGM-compatible jump pack. Always use under-hood remote terminal — do not access trunk battery for jumping."
       }
     },
     {
@@ -740,8 +738,8 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "location": "Under hood, right side (passenger side) — or trunk on some builds",
+        "jumpTerminals": "Under hood — verify location, may have remote post",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -818,10 +816,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "location": "TRUNK — under cargo floor. Remote positive (+) terminal under hood (driver side).",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side engine bay (red plastic cover). Engine block or chassis ground. Use remote terminal — do NOT open trunk to jump.",
         "type": "agm-12v",
-        "warnings": "AGM jump pack. PHEV: 12V only."
+        "warnings": "AGM battery in trunk. ALWAYS use under-hood remote terminal for jumping. Use AGM-compatible jump pack (minimum 400A peak recommended)."
       }
     },
     {
@@ -857,10 +855,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "location": "TRUNK — under cargo floor. Remote positive (+) terminal under hood (driver side).",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side engine bay (red cover). Chassis ground. Use this for all jumping — AGM battery in trunk.",
         "type": "agm-12v",
-        "warnings": "AGM jump pack. PHEV: 12V only."
+        "warnings": "AGM battery. Use AGM-compatible jump pack. Always use under-hood remote terminal — do not access trunk battery for jumping."
       }
     },
     {
@@ -896,10 +894,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "location": "TRUNK — under cargo floor. Remote positive (+) terminal under hood (driver side).",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side engine bay (red cover). Chassis ground. Use this for all jumping — AGM battery in trunk.",
         "type": "agm-12v",
-        "warnings": "AGM jump pack. PHEV: 12V only."
+        "warnings": "AGM battery. Use AGM-compatible jump pack. Always use under-hood remote terminal — do not access trunk battery for jumping."
       }
     },
     {
@@ -910,18 +908,18 @@
       "trans": "Single-speed electric drive",
       "slot": "Electronic selector — slot under trim at selector base",
       "shift": [
-        "Turn the BMW iX / i4 / i5 / i7 to ON/Ready mode.",
-        "Shift lock slot: Electronic selector — slot under trim at selector base.",
-        "Insert a thin key or flathead into the slot and press firmly.",
-        "Press the brake pedal while holding the slot.",
-        "Move selector to N.",
-        "FLATBED ONLY — do not tow with driven wheels on the ground."
+        "Turn vehicle to ON/Ready mode.",
+        "Electronic gear selector or touchscreen — select N.",
+        "iX/i4: push electronic selector or use touchscreen Drive menu to select N.",
+        "i7: touchscreen selector — N is available in the drive mode menu.",
+        "If power is lost: connect jump pack to 12V auxiliary terminal under hood.",
+        "Once powered, shift to N electronically."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Open the trunk — battery is ix: under hood. i4/i5/i7: in trunk. Connect jump pack. 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack.",
-        "Once 12V power is restored, press brake and shift to N normally.",
-        "FLATBED ONLY."
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary battery/terminals are under the hood on driver side.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery (orange cables).",
+        "Once 12V is restored, shift to N using the electronic selector."
       ],
       "notes": "NEVER touch the high-voltage system.",
       "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
@@ -944,10 +942,10 @@
         }
       ],
       "battery": {
-        "location": "iX: under hood. i4/i5/i7: in trunk",
-        "jumpTerminals": "See location. 12V auxiliary terminals only.",
+        "location": "Under hood (12V auxiliary). HV battery is under the floor — never touch.",
+        "jumpTerminals": "Under hood — 12V auxiliary terminal (red cover, driver side)",
         "type": "auxiliary-12v-only",
-        "warnings": "NEVER touch HV orange cables. 12V auxiliary only for all jump operations."
+        "warnings": "FLATBED ONLY. Never touch HV battery. Use under-hood 12V auxiliary only."
       }
     },
     {
@@ -984,10 +982,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "In trunk, right side under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
-        "type": "standard-12v",
-        "warnings": "Use hood terminals."
+        "location": "TRUNK — under cargo floor",
+        "jumpTerminals": "Under hood: remote positive (+) terminal driver side. OR trunk battery directly.",
+        "type": "agm-12v",
+        "warnings": "AGM battery. Battery in trunk. Use under-hood remote terminal for jumping."
       }
     },
     {
@@ -1024,10 +1022,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "In trunk, right side under panel",
-        "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "location": "TRUNK — under cargo floor",
+        "jumpTerminals": "Under hood: remote positive (+) terminal driver side. OR trunk battery directly.",
         "type": "agm-12v",
-        "warnings": "Use hood terminals."
+        "warnings": "AGM battery. Battery in trunk. Use under-hood remote terminal for jumping."
       }
     },
     {
@@ -1077,13 +1075,15 @@
       "yearEnd": 1999,
       "trans": "4-speed or 5-speed automatic, or 5/6-speed manual",
       "drivetrain": "RWD",
-      "slot": "Slot at base of gear selector, under small cover or accessed by lifting shift boot surround",
+      "slot": "Slot at base of gear selector on center console — covered by a snap-off trim piece or boot.",
       "shift": [
-        "Turn ignition to ON.",
-        "AUTOMATIC: lift the shift boot surround or locate the small slot cover at the selector base.",
-        "Insert a thin key or flathead into the slot and press the cam or lever to release.",
-        "While holding, press brake. Move to Neutral.",
-        "MANUAL: depress clutch fully and move gear lever to Neutral."
+        "Turn ignition to ON (key to position 2 — do not start).",
+        "Locate the shift lock override: at the BASE of the gear selector, under the rubber/leather boot OR a small trim cover.",
+        "On E36: gently pry up the rubber boot surrounding the gear lever — the override slot or button is at the base.",
+        "Insert thin flathead or key, press firmly and hold.",
+        "Press brake pedal firmly.",
+        "Move selector from Park to Neutral.",
+        "Release tool, reseat the boot."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -1100,10 +1100,10 @@
         "Battery under hood on E36."
       ],
       "battery": {
-        "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "location": "TRUNK — driver side under cargo area",
+        "jumpTerminals": "Under hood: remote positive (+) terminal on driver side engine bay (red cover). Use this + terminal with a chassis ground. OR connect directly to trunk battery.",
         "type": "standard-12v",
-        "warnings": "E36 has battery under hood, unlike later BMWs."
+        "warnings": "Battery in trunk. Use under-hood remote post for most convenient jump access."
       },
       "knownIssues": []
     },
@@ -1193,19 +1193,19 @@
       "drivetrain": "RWD or xDrive AWD",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "Turn ignition to ON (position 2 — do not start).",
+        "Locate the shift lock override at the base of the gear selector.",
+        "Pry off trim cap or gently pull up the selector boot/gaiter to expose the slot.",
+        "Insert thin flathead or key. Press firmly and hold.",
+        "Press brake pedal firmly.",
         "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Release tool and reseat the boot/trim."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, shift to Neutral normally.",
-        "xDrive AWD: flatbed preferred."
+        "Connect jump pack to remote (+) terminal under hood (driver side) + chassis ground.",
+        "Once powered, shift to N normally.",
+        "xDrive AWD: FLATBED PREFERRED."
       ],
       "notes": "xDrive AWD: flatbed preferred. F48/U11 uses ZF 8HP.",
       "warn": "xDrive AWD: flatbed preferred.",
@@ -1217,10 +1217,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood or trunk (varies by generation — E84: trunk; F48/U11: under hood or trunk)",
-        "jumpTerminals": "Under hood — remote jump terminals; or trunk battery directly",
+        "location": "E84 (2010-2015): TRUNK. F48/U11 (2016+): under hood or trunk — verify. Remote positive (+) terminal under hood driver side.",
+        "jumpTerminals": "Under hood remote (+) terminal (driver side, red cover) + chassis ground. OR trunk battery directly.",
         "type": "agm-12v",
-        "warnings": "AGM battery — use AGM-compatible jump pack. Verify battery location."
+        "warnings": "AGM battery. Battery may be in trunk — use under-hood remote post for jumping."
       }
     },
     {
@@ -1234,9 +1234,9 @@
       "shift": [
         "Turn ignition to ON.",
         "DCT: REQUIRES 12V power — restore battery first.",
-        "Locate the shift lock slot near the selector base.",
-        "Insert key or thin flathead, press firmly, hold, press brake, move to Neutral.",
-        "DCT without power will not release — always jump first."
+        "Locate slot near selector base on console.",
+        "Insert thin flathead. Press firmly. Hold. Press brake. Move to N.",
+        "8-speed auto: standard resistance."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -1256,8 +1256,8 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood or trunk — verify before jumping",
-        "jumpTerminals": "Under hood remote terminals or trunk",
+        "location": "Under hood or trunk — verify. Remote (+) terminal under hood driver side.",
+        "jumpTerminals": "Under hood remote (+) terminal + chassis ground.",
         "type": "agm-12v",
         "warnings": "AGM. DCT: must restore power before shifting."
       }
@@ -1271,18 +1271,19 @@
       "drivetrain": "xDrive AWD (standard)",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "Turn ignition to ON (position 2 — do not start).",
+        "Locate the shift lock override at the base of the gear selector.",
+        "Pry off trim cap or gently pull up the selector boot/gaiter to expose the slot.",
+        "Insert thin flathead or key. Press firmly and hold.",
+        "Press brake pedal firmly.",
         "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Release tool and reseat the boot/trim."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood or trunk (verify location).",
-        "Once 12V power is restored, shift to Neutral normally."
+        "Connect jump pack to remote (+) under hood (driver side red cover) + chassis ground.",
+        "Once powered, shift to N.",
+        "Permanent xDrive AWD: FLATBED PREFERRED."
       ],
       "notes": "Always xDrive AWD — flatbed preferred.",
       "warn": "xDrive AWD — flatbed preferred.",
@@ -1294,10 +1295,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Trunk (most X4) — verify before jumping",
-        "jumpTerminals": "Under hood remote positive terminal + chassis ground; or trunk battery directly",
+        "location": "TRUNK — under cargo floor. Remote (+) terminal under hood driver side.",
+        "jumpTerminals": "Under hood remote (+) terminal + chassis ground. OR trunk battery directly.",
         "type": "agm-12v",
-        "warnings": "Battery typically in trunk on X4. Use under-hood remote jump posts if available. AGM — use AGM-compatible jump pack."
+        "warnings": "Battery in TRUNK. AGM — use AGM-compatible jump pack. xDrive AWD: flatbed preferred."
       }
     },
     {
@@ -1309,20 +1310,19 @@
       "drivetrain": "xDrive AWD (standard)",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "Turn ignition to ON (position 2 — do not start).",
+        "Locate the shift lock override at the base of the gear selector.",
+        "Pry off trim cap or gently pull up the selector boot/gaiter to expose the slot.",
+        "Insert thin flathead or key. Press firmly and hold.",
+        "Press brake pedal firmly.",
         "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Release tool and reseat the boot/trim."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — TRUNK on most X6 generations.",
-        "X6 battery is typically in the trunk — check under the rear cargo floor.",
-        "Under-hood remote positive jump post is available on the driver side of the engine bay.",
-        "Once powered, shift to Neutral normally."
+        "Use under-hood remote (+) terminal (driver side engine bay) + chassis ground.",
+        "Once powered, shift to N.",
+        "Permanent xDrive AWD: FLATBED PREFERRED."
       ],
       "notes": "Battery in TRUNK on most X6. Remote jump post under hood on driver side. Permanent xDrive — flatbed preferred.",
       "warn": "Battery in TRUNK — check under cargo floor. Remote jump post under hood. xDrive AWD — flatbed preferred.",
@@ -1337,13 +1337,17 @@
         {
           "title": "Battery in Trunk — Remote Jump Post Under Hood",
           "detail": "The X6 battery is in the trunk under the cargo floor. BMW provides a remote positive (+) jump post in the engine bay on the driver side. Use the remote post and a good chassis ground rather than opening the trunk. The trunk battery can also be accessed directly."
+        },
+        {
+          "title": "Battery in Trunk — Remote Jump Post Under Hood",
+          "detail": "X6 battery is in the trunk. BMW provides a remote positive jump post in the driver-side engine bay (red cover). Use the remote post + chassis ground — no need to open the trunk to jump."
         }
       ],
       "battery": {
-        "location": "TRUNK — under cargo floor. Remote jump post under hood (driver side engine bay).",
-        "jumpTerminals": "Under hood remote post (+) + chassis ground, OR trunk battery directly",
+        "location": "TRUNK — under cargo floor. Remote (+) terminal under hood driver side.",
+        "jumpTerminals": "Under hood remote (+) terminal + chassis ground (preferred). OR trunk battery directly.",
         "type": "agm-12v",
-        "warnings": "Battery in trunk. AGM — use AGM-compatible jump pack."
+        "warnings": "Battery in TRUNK. Use under-hood remote post. AGM — use AGM-compatible jump pack."
       }
     },
     {
@@ -1355,20 +1359,19 @@
       "drivetrain": "RWD",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "Turn ignition to ON (position 2 — do not start).",
+        "Locate the shift lock override at the base of the gear selector.",
+        "Pry off trim cap or gently pull up the selector boot/gaiter to expose the slot.",
+        "Insert thin flathead or key. Press firmly and hold.",
+        "Press brake pedal firmly.",
         "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Release tool and reseat the boot/trim."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — TRUNK (driver side, under cargo area).",
-        "Z3 battery is in the trunk — do NOT look under the hood.",
-        "Once powered, shift to Neutral normally.",
-        "Manual: depress clutch, select Neutral."
+        "BATTERY IS IN THE TRUNK — open trunk, connect jump pack to battery on driver side.",
+        "Once powered, shift to N.",
+        "Manual: depress clutch, select Neutral. High-value — flatbed preferred."
       ],
       "notes": "Battery in TRUNK. Manual: depress clutch. High-value collectible — flatbed preferred.",
       "warn": "Battery in TRUNK. High-value vehicle — flatbed preferred.",
@@ -1387,9 +1390,9 @@
       ],
       "battery": {
         "location": "TRUNK — driver side under cargo area",
-        "jumpTerminals": "Trunk — 12V battery terminals",
+        "jumpTerminals": "Trunk — 12V battery terminals directly",
         "type": "standard-12v",
-        "warnings": "Battery in trunk."
+        "warnings": "Battery in TRUNK. Must open trunk to access. No remote under-hood terminal on Z3."
       }
     },
     {
@@ -1402,19 +1405,19 @@
       "slot": "Electronic selector — joystick-style on center console",
       "shift": [
         "Turn vehicle to ON/Ready mode.",
-        "The i3 uses a joystick-style electronic selector on the center console.",
-        "Push the joystick TOWARD YOU (rearward) to select Neutral.",
-        "Hold for 2-3 seconds. Confirm N on the instrument cluster.",
-        "If 12V power is lost: restore 12V auxiliary power first (battery under hood in frunk area).",
-        "Once powered, use the joystick to select N."
+        "The i3 has a JOYSTICK-style gear selector on the center console.",
+        "Push the joystick REARWARD (toward the driver) to select Neutral.",
+        "Hold 2-3 seconds until N appears on the instrument cluster.",
+        "If power is lost: open the FRONT HOOD — battery is in the frunk (front storage), NOT the rear.",
+        "Connect jump pack to 12V battery in the frunk.",
+        "Once powered, push joystick rearward to select N."
       ],
       "neutral": [
-        "Apply parking brake.",
         "FLATBED ONLY — electric drivetrain.",
-        "Connect jump pack to 12V auxiliary battery — under the front hood (small frunk area).",
-        "12V AUXILIARY ONLY — NEVER touch the high-voltage battery pack.",
-        "Once 12V is restored, push joystick rearward to select Neutral.",
-        "Enable Tow mode via iDrive if available: Vehicle Settings > Service > Tow."
+        "12V battery is in the FRONT HOOD (frunk) — open front hood, NOT the rear engine lid.",
+        "Connect jump pack. 12V AUXILIARY ONLY — NEVER touch HV battery (orange components under floor).",
+        "Once powered, push joystick rearward to select N.",
+        "CARBON FIBER body — use padded flatbed ramps and soft tie-down straps ONLY — no metal hooks or chains on body."
       ],
       "notes": "Carbon fiber body (CFRP) — very light. 12V auxiliary in frunk. HV battery under floor. Flatbed only. REx models have small 2-cylinder range extender but it does NOT drive the wheels.",
       "warn": "FLATBED ONLY. Carbon fiber body — use padded equipment only. 12V in frunk.",
@@ -1437,10 +1440,10 @@
         }
       ],
       "battery": {
-        "location": "FRUNK (front hood area) — small 12V auxiliary battery",
-        "jumpTerminals": "Frunk — 12V auxiliary terminals",
+        "location": "FRONT HOOD (frunk) — small 12V auxiliary battery in front storage area",
+        "jumpTerminals": "Frunk — 12V auxiliary battery terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "NEVER touch HV battery. Carbon body — padded equipment only. Flatbed only."
+        "warnings": "NEVER touch HV battery. Carbon fiber (CFRP) body — padded equipment only. Flatbed only."
       }
     },
     {
@@ -1452,20 +1455,20 @@
       "drivetrain": "RWD or xDrive AWD (some trims)",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "Turn ignition to ON (position 2 — do not start).",
+        "Locate the shift lock override at the base of the gear selector.",
+        "Pry off trim cap or gently pull up the selector boot/gaiter to expose the slot.",
+        "Insert thin flathead or key. Press firmly and hold.",
+        "Press brake pedal firmly.",
         "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Release tool and reseat the boot/trim."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery location varies: E63/E64 battery is in the TRUNK. F12/F13 battery in trunk.",
-        "Open trunk, access battery directly OR use under-hood remote jump post if present.",
-        "Once powered, shift to Neutral.",
-        "xDrive AWD: flatbed preferred."
+        "Battery in TRUNK — use under-hood remote (+) post + chassis ground if available.",
+        "Otherwise open trunk and connect directly to battery.",
+        "Once powered, shift to N.",
+        "xDrive AWD: FLATBED PREFERRED. RWD: lift from rear. High-value — flatbed preferred for all."
       ],
       "notes": "Battery typically in TRUNK on most 6 Series. Remote jump post may be under hood. High value.",
       "warn": "Battery in TRUNK. xDrive AWD: flatbed preferred.",
@@ -1484,9 +1487,9 @@
       ],
       "battery": {
         "location": "TRUNK — under cargo floor or cargo area",
-        "jumpTerminals": "Trunk battery directly OR under-hood remote post (+) + chassis ground",
+        "jumpTerminals": "Under hood remote (+) terminal (driver side, if present) OR trunk battery directly",
         "type": "agm-12v",
-        "warnings": "Battery in trunk. AGM — use AGM-compatible jump pack."
+        "warnings": "Battery in TRUNK. AGM — use AGM-compatible jump pack. High-value vehicle."
       }
     },
     {
@@ -1498,20 +1501,19 @@
       "drivetrain": "RWD or xDrive AWD",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "Turn ignition to ON (position 2 — do not start).",
+        "Locate the shift lock override at the base of the gear selector.",
+        "Pry off trim cap or gently pull up the selector boot/gaiter to expose the slot.",
+        "Insert thin flathead or key. Press firmly and hold.",
+        "Press brake pedal firmly.",
         "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Release tool and reseat the boot/trim."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — battery is in the TRUNK.",
-        "Use under-hood remote positive jump post (driver side engine bay) + chassis ground.",
-        "Or open trunk and connect directly to battery.",
-        "xDrive AWD: flatbed preferred."
+        "Use under-hood remote (+) terminal (driver side engine bay) + chassis ground.",
+        "Once powered, shift to N.",
+        "Very high-value — FLATBED STRONGLY PREFERRED."
       ],
       "notes": "Very high-value grand touring car. Battery in trunk. Remote post under hood. xDrive: flatbed preferred.",
       "warn": "Battery in TRUNK. Very high-value — flatbed preferred.",
@@ -1529,10 +1531,10 @@
         }
       ],
       "battery": {
-        "location": "TRUNK. Remote jump post under hood (driver side engine bay).",
-        "jumpTerminals": "Under hood remote post (+) + chassis ground, OR trunk battery directly",
+        "location": "TRUNK — under cargo floor. Remote (+) terminal in driver-side engine bay.",
+        "jumpTerminals": "Under hood remote (+) terminal + chassis ground (preferred). OR trunk battery directly.",
         "type": "agm-12v",
-        "warnings": "Battery in trunk. AGM. Very high-value vehicle."
+        "warnings": "Battery in TRUNK. AGM. Very high-value vehicle — flatbed strongly preferred."
       }
     }
   ]

@@ -90,7 +90,7 @@
         "Once 12V power is restored, press brake and select N normally on the electronic selector.",
         "Electronic selectors require power — mechanical override is a last resort only."
       ],
-      "notes": "eTorque mild hybrid: same 12V procedure.",
+      "notes": "eTorque mild hybrid: same 12V procedure. eTorque mild hybrid (2019+): 12V auxiliary under hood. Same jump procedure as standard.",
       "warn": "4WD: transfer case to 2H.",
       "drivetrain": "RWD or 4WD (part-time)",
       "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear — rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -254,21 +254,23 @@
       "yearStart": 2014,
       "yearEnd": 2026,
       "trans": "6-speed automatic",
-      "slot": "Column shifter — slot on steering column; OR console slot on some trims",
+      "slot": "ZF 9HP ROTARY dial located to the LEFT of the steering column — small override slot near dial base.",
       "shift": [
         "Turn ignition to ON.",
-        "This vehicle uses a COLUMN-MOUNTED shifter — the shift lock slot is on the STEERING COLUMN, not the floor console.",
-        "Locate the slot on the steering column — Column shifter — slot on steering column; OR console slot on some trims.",
-        "Insert a thin key or flathead into the slot on the column.",
-        "Press firmly while pressing the brake pedal.",
-        "Move the column shifter to Neutral."
+        "ZF 9HP rotary selector: RESTORE 12V POWER FIRST — strongly recommended.",
+        "Connect jump pack — under hood.",
+        "Once powered, press brake and rotate dial to N.",
+        "WITHOUT POWER: override slot near BASE of rotary dial.",
+        "Insert thin flathead. Apply FIRM sustained pressure for 5-10 seconds.",
+        "While holding, press brake and rotate to N.",
+        "Rotary selector on LEFT side of steering column (not center console)."
       ],
       "neutral": [
         "Apply parking brake.",
         "Connect jump pack to battery — Under hood.",
         "Once 12V power is restored, press brake and move column shifter to N normally."
       ],
-      "notes": "Commercial van. Based on Fiat Ducato platform.",
+      "notes": "Commercial van. Based on Fiat Ducato platform. ProMaster City uses ZF 9HP rotary selector — restore 12V power before shifting. ZF 9HP requires more force than standard if shifted without power.",
       "warn": "Large van — heavy wheel blocks.",
       "drivetrain": "FWD",
       "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -277,12 +279,21 @@
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "ZF 9HP Rotary Requires 12V Power",
+          "detail": "The ProMaster City uses a ZF 9HP rotary dial selector. This transmission requires 12V power to shift reliably. Always jump the battery first."
+        },
+        {
+          "title": "ZF 9HP Rotary Selector — Left of Steering Column",
+          "detail": "The ProMaster City's rotary gear selector is NOT on the center console — it is to the LEFT of the steering column. The ZF 9HP requires 12V power for reliable shifting. Mechanical override requires significant force."
+        }
+      ],
       "battery": {
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
-        "type": "standard-12v",
-        "warnings": ""
+        "type": "agm-12v",
+        "warnings": "AGM battery. ZF 9HP rotary: must restore power before shifting for reliable operation."
       }
     },
     {
@@ -295,18 +306,19 @@
       "slot": "Small slot near gear selector base on floor console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on floor console.",
-        "Pry off cap with small flathead.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "Transfer case: shift to 2WD before road towing."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "TC: manual floor lever — shift to 2H before road towing.",
+        "IF BATTERY DEAD: jump first, shift to 2H, then disconnect."
       ],
       "notes": "Dodge Ram rebadged as Ram post-2010 but same platform. TC may be electronic or floor lever depending on trim.",
       "warn": "Shift TC to 2WD before road towing.",
@@ -319,10 +331,10 @@
           "4WD Lo — NEVER tow on road"
         ],
         "steps": [
-          "Slow to under 3 MPH.",
-          "Shift TC to 2WD using button or lever.",
-          "Confirm 2WD indicator on cluster.",
-          "IF BATTERY IS DEAD: Jump battery first, shift to 2WD, then disconnect."
+          "Stop completely.",
+          "Manual TC floor lever: move to 2H (2WD).",
+          "Confirm 2H before road towing.",
+          "NEVER tow in 4H or 4L on dry pavement."
         ]
       },
       "towNotes": [
@@ -347,17 +359,17 @@
       "slot": "Electronic selector — N button or touchscreen",
       "shift": [
         "Turn vehicle to ON/Ready mode.",
-        "Use the electronic gear selector or touchscreen to select N (Neutral).",
-        "Press and hold the N button for 3 seconds while pressing the brake pedal.",
-        "Confirm N on the instrument cluster.",
-        "If power is lost: connect jump pack to 12V auxiliary battery — under the hood."
+        "Electronic gear selector — press and hold N while pressing brake pedal.",
+        "Confirm N on instrument cluster.",
+        "If power lost: connect jump pack to 12V auxiliary — under hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery."
       ],
       "neutral": [
-        "Apply parking brake.",
         "FLATBED ONLY — electric drivetrain.",
-        "Connect jump pack to 12V auxiliary battery — under the hood.",
-        "12V AUXILIARY ONLY — NEVER touch HV battery.",
-        "Once 12V is restored, select Neutral."
+        "12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — never touch HV battery.",
+        "Once powered, select N electronically.",
+        "Very heavy vehicle — confirm tow truck capacity."
       ],
       "notes": "Electric pickup truck. Very heavy — confirm tow capacity. Flatbed only.",
       "warn": "FLATBED ONLY. Very heavy — confirm tow capacity. 12V auxiliary ONLY.",
@@ -373,7 +385,7 @@
         "location": "Under hood (12V auxiliary)",
         "jumpTerminals": "Under hood — 12V auxiliary terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "FLATBED ONLY. Very heavy. Never touch HV battery."
+        "warnings": "FLATBED ONLY. Very heavy. 12V auxiliary only — never touch HV system."
       }
     },
     {
@@ -383,14 +395,16 @@
       "yearEnd": 2022,
       "trans": "9-speed automatic (ZF 9HP)",
       "drivetrain": "FWD",
-      "slot": "ZF 9HP rotary dial selector — override slot near base of rotary dial",
+      "slot": "ZF 9HP ROTARY dial located to the LEFT of the steering column — small override slot near dial base.",
       "shift": [
         "Turn ignition to ON.",
-        "ZF 9HP rotary selector: locate override slot near base of rotary dial on console.",
-        "Insert key or thin flathead and press firmly.",
-        "While holding, press the brake pedal.",
-        "Rotate or move dial to Neutral.",
-        "ZF 9HP requires 12V power — restore battery first for best results."
+        "ZF 9HP rotary selector: RESTORE 12V POWER FIRST — strongly recommended.",
+        "Connect jump pack — under hood.",
+        "Once powered, press brake and rotate dial to N.",
+        "WITHOUT POWER: override slot near BASE of rotary dial.",
+        "Insert thin flathead. Apply FIRM sustained pressure for 5-10 seconds.",
+        "While holding, press brake and rotate to N.",
+        "Rotary selector on LEFT side of steering column (not center console)."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -409,13 +423,21 @@
         {
           "title": "ZF 9HP Requires Power to Shift",
           "detail": "The ZF 9HP rotary transmission cannot reliably shift without 12V power. Always restore the battery before attempting to select Neutral."
+        },
+        {
+          "title": "ZF 9HP Rotary Requires 12V Power",
+          "detail": "The ProMaster City uses a ZF 9HP rotary dial selector. This transmission requires 12V power to shift reliably. Always jump the battery first."
+        },
+        {
+          "title": "ZF 9HP Rotary Selector — Left of Steering Column",
+          "detail": "The ProMaster City's rotary gear selector is NOT on the center console — it is to the LEFT of the steering column. The ZF 9HP requires 12V power for reliable shifting. Mechanical override requires significant force."
         }
       ],
       "battery": {
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
-        "type": "standard-12v",
-        "warnings": "ZF 9HP: restore power before shifting."
+        "type": "agm-12v",
+        "warnings": "AGM battery. ZF 9HP rotary: must restore power before shifting for reliable operation."
       }
     }
   ]

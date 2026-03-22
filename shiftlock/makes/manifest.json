@@ -204,5 +204,6 @@
   ],
   "totalVehicles": 550,
   "lastUpdated": "2026-03-21",
-  "version": "2.0"
+  "version": "2.1",
+  "notes": "v2.1: All 550 vehicles procedure-verified. Shift lock, neutral override, battery locations, ZF/DSG power requirements, EPR procedures, trunk batteries, EV tow modes all researched and updated."
 }

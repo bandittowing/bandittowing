@@ -23,20 +23,24 @@
       "drivetrain": "AWD (Haldex angle gear)",
       "curbWeight": "4,564–4,740 lbs",
       "gvwr": "6,008 lbs",
-      "slot": "Lift rubber mat in storage compartment BEHIND center console — two access holes",
+      "slot": "Inside the COIN TRAY / storage compartment in FRONT of the gear selector. Lift the rubber mat in the bottom of the coin tray to expose a small hole.",
       "shift": [
-        "Lift the rubber mat in the storage tray BEHIND the center console shifter.",
-        "Two holes are exposed. Insert a screwdriver into the correct hole.",
-        "Pull the shifter trigger while pushing the selector toward Neutral.",
-        "Alternatively: remove the air cleaner box under hood and disconnect the cable from the transmission shift lever — two clicks equals Neutral.",
-        "Confirm N before moving vehicle."
+        "Turn ignition to ON (or Mode II — key on without engine).",
+        "Open the coin tray located in FRONT of the gear selector.",
+        "Lift away the rubber mat from the bottom of the coin tray.",
+        "Locate the small hole (with a spring-loaded button inside) in the bottom of the compartment.",
+        "Press a small screwdriver, thin flathead, or key blade firmly into the hole and HOLD.",
+        "While holding, press the button on the FRONT SIDE of the gear selector.",
+        "Move the selector to N.",
+        "Release the button and remove the tool.",
+        "Replace rubber mat."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery is under hood.",
-        "Connect jump pack. Restore power.",
-        "Use rubber mat / access hole method above.",
-        "AWD: flatbed strongly recommended."
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, use the coin tray hole method above OR shift normally.",
+        "NOTE: If battery is completely dead and vehicle cannot be started, the rubber mat/hole method works WITHOUT power.",
+        "FLATBED preferred — Haldex AWD cannot be easily disengaged."
       ],
       "notes": "Slot is BEHIND the shifter, under rubber mat in storage tray — not at the shifter base.",
       "warn": "AWD Haldex angle gear — flatbed strongly preferred. Do not wheel-lift without flatbed.",
@@ -78,19 +82,23 @@
       "drivetrain": "AWD (rear electric motor on T8)",
       "curbWeight": "4,409–5,423 lbs (T8 PHEV heavier)",
       "gvwr": "6,008 lbs",
-      "slot": "Console storage tray BEHIND shifter — two holes under rubber mat (same as 2003-2014)",
+      "slot": "Console storage tray IN FRONT of the gear selector — same as first gen: lift rubber mat, expose small hole.",
       "shift": [
-        "Lift rubber mat in storage tray BEHIND shifter.",
-        "Insert screwdriver into override hole.",
-        "Pull the shifter tab while moving selector to Neutral.",
-        "Confirm N on display."
+        "Open the console storage tray in FRONT of the gear selector.",
+        "Lift away the rubber mat in the bottom of the tray.",
+        "Locate the small hole with the spring-loaded button.",
+        "Insert a small screwdriver or key blade and press firmly DOWN — hold it.",
+        "Press the button on the FRONT of the gear selector.",
+        "Move the selector to N.",
+        "Release and remove tool.",
+        "Replace rubber mat.",
+        "NOTE: The gear selector locks again if N is held for more than 3 seconds without the brake pedal depressed."
       ],
       "neutral": [
         "Apply parking brake.",
-        "12V battery under hood. 48V mild-hybrid: DO NOT touch 48V battery.",
-        "Connect jump pack to 12V under-hood terminals ONLY.",
-        "Restore power, then use override procedure above.",
-        "T8 PHEV: 12V only — never touch orange HV cables or HV battery."
+        "Connect jump pack to battery — under the hood, passenger side on some trims.",
+        "Once 12V restored, shift normally OR use hole method above.",
+        "FLATBED preferred — AWD (Haldex on some, rear electric motor on T8)."
       ],
       "notes": "48V mild-hybrid on some trims. T8 PHEV: orange HV system present.",
       "warn": "48V: NEVER use 48V battery to jump — lethal voltage. T8 PHEV: HV system present.",
@@ -138,13 +146,14 @@
       "drivetrain": "FWD or AWD",
       "curbWeight": "3,901–4,662 lbs",
       "gvwr": "5,511–5,732 lbs",
-      "slot": "Center console near shifter base — cap or access hole under rubber mat",
+      "slot": "Storage compartment BEHIND the center console (between shifter and rear seat area). Lift the rubber mat in the floor of the storage compartment to expose a small opening.",
       "shift": [
-        "Locate cap or access point near selector base or under rubber mat behind shifter.",
-        "Remove cap / lift mat.",
-        "Insert key, press plunger while pressing brake.",
-        "Move selector to N.",
-        "Confirm N on display."
+        "Locate the storage compartment BEHIND the center console (toward the rear of the vehicle).",
+        "Lift away the rubber mat from the floor of the storage compartment.",
+        "Insert the key blade (detachable from key fob) or a small screwdriver into the small opening.",
+        "Press the key blade/tool DOWN as far as possible and HOLD.",
+        "While holding, move the gear selector out of Park.",
+        "Remove tool, replace rubber mat."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -252,12 +261,14 @@
       "drivetrain": "FWD or AWD",
       "curbWeight": "3,527–4,167 lbs",
       "gvwr": "Not published — check door jamb",
-      "slot": "Center console — access point near shifter base or under rubber mat behind shifter",
+      "slot": "Storage compartment BEHIND the center console (between shifter and rear seat area). Lift the rubber mat in the floor of the storage compartment to expose a small opening.",
       "shift": [
-        "Locate override slot at shifter base or lift rubber mat in tray behind shifter.",
-        "Insert key, press plunger.",
-        "Press brake. Move to N.",
-        "Some models: press brake pedal first, then use override, then move shifter."
+        "Locate the storage compartment BEHIND the center console (toward the rear of the vehicle).",
+        "Lift away the rubber mat from the floor of the storage compartment.",
+        "Insert the key blade (detachable from key fob) or a small screwdriver into the small opening.",
+        "Press the key blade/tool DOWN as far as possible and HOLD.",
+        "While holding, move the gear selector out of Park.",
+        "Remove tool, replace rubber mat."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -305,12 +316,15 @@
       "drivetrain": "FWD or AWD",
       "curbWeight": "3,946–4,387 lbs",
       "gvwr": "Not published — check door jamb",
-      "slot": "Modern electronic shifter — mechanical emergency release under console",
+      "slot": "Modern electronic gear selector. Emergency release under console near shifter base. Consult owner manual for exact location on this generation — access may require partial console disassembly.",
       "shift": [
-        "Press brake pedal.",
-        "Use electronic shifter to select N.",
-        "If no power: locate mechanical override in center console (under console trim near shifter base).",
-        "Insert key, engage override plunger, press brake, move to N."
+        "PREFERRED: Turn ignition to ON. Electronic selector — shift to N normally.",
+        "WITHOUT POWER:",
+        "Connect jump pack to battery — under the hood.",
+        "Once powered, shift normally.",
+        "Mechanical override: locate access point under console near shifter base.",
+        "Insert thin flathead or key blade — press firmly to override solenoid.",
+        "While holding, move selector to N."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -353,21 +367,21 @@
       "yearEnd": 2000,
       "trans": "4-speed automatic (AW50-42 or AW72-40) or 5-speed manual (M56/M57)",
       "drivetrain": "FWD",
-      "slot": "Small cap near gear selector base on center console",
+      "slot": "Storage compartment BEHIND the center console — lift rubber mat, insert key blade into small hole.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON (do not start).",
+        "Locate the storage compartment BEHIND the center console (between shifter and rear seat).",
+        "Lift away the rubber mat from the floor of the storage compartment.",
+        "Insert the detachable key blade (from key fob) or a small screwdriver into the small opening/hole.",
+        "Press the key blade/tool DOWN as far as possible and HOLD.",
+        "While holding, press the brake pedal and move the gear selector to N.",
+        "Remove tool and replace rubber mat."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once powered, press brake and shift to Neutral.",
-        "Manual: depress clutch, select Neutral."
+        "Connect jump pack — under hood.",
+        "Once powered, shift normally OR use the behind-console rubber mat method.",
+        "AWD variants: FLATBED PREFERRED."
       ],
       "notes": "Manual: depress clutch. FWD. AWD (AWD models): flatbed preferred.",
       "warn": "",
@@ -391,21 +405,21 @@
       "yearEnd": 2012,
       "trans": "4-speed automatic or 5-speed automatic (AW55-51SN) or 5-speed manual",
       "drivetrain": "FWD or AWD (select trims)",
-      "slot": "Small cap or slot near gear selector base on center console",
+      "slot": "Storage compartment BEHIND the center console — lift rubber mat, insert key blade into small hole.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap or slot near gear selector base on center console.",
-        "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON (do not start).",
+        "Locate the storage compartment BEHIND the center console (between shifter and rear seat).",
+        "Lift away the rubber mat from the floor of the storage compartment.",
+        "Insert the detachable key blade (from key fob) or a small screwdriver into the small opening/hole.",
+        "Press the key blade/tool DOWN as far as possible and HOLD.",
+        "While holding, press the brake pedal and move the gear selector to N.",
+        "Remove tool and replace rubber mat."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once powered, press brake and shift to Neutral.",
-        "Manual: depress clutch. AWD: flatbed preferred."
+        "Connect jump pack — under hood.",
+        "Once powered, shift normally OR use the behind-console rubber mat method.",
+        "AWD variants: FLATBED PREFERRED."
       ],
       "notes": "Manual: depress clutch. AWD (select trims): flatbed preferred.",
       "warn": "AWD: flatbed preferred.",
@@ -429,21 +443,21 @@
       "yearEnd": 2009,
       "trans": "5-speed automatic (AW55-51SN or TF-80SC) or 6-speed manual",
       "drivetrain": "FWD or AWD",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Storage compartment BEHIND the center console — lift rubber mat, insert key blade into small hole.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON (do not start).",
+        "Locate the storage compartment BEHIND the center console (between shifter and rear seat).",
+        "Lift away the rubber mat from the floor of the storage compartment.",
+        "Insert the detachable key blade (from key fob) or a small screwdriver into the small opening/hole.",
+        "Press the key blade/tool DOWN as far as possible and HOLD.",
+        "While holding, press the brake pedal and move the gear selector to N.",
+        "Remove tool and replace rubber mat."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once powered, shift to Neutral.",
-        "Manual: depress clutch. AWD: flatbed preferred."
+        "Connect jump pack — under hood.",
+        "Once powered, shift normally OR use the behind-console rubber mat method.",
+        "AWD variants: FLATBED PREFERRED."
       ],
       "notes": "Manual: depress clutch. AWD (Haldex): flatbed preferred.",
       "warn": "AWD: flatbed preferred.",
@@ -467,21 +481,21 @@
       "yearEnd": 2016,
       "trans": "5-speed automatic (AW55-51SN or TF-80SC) or 6-speed automatic (TF-80SC, 2008+)",
       "drivetrain": "AWD (Haldex, standard)",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Storage compartment BEHIND the center console — lift rubber mat, insert key blade into small hole.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON (do not start).",
+        "Locate the storage compartment BEHIND the center console (between shifter and rear seat).",
+        "Lift away the rubber mat from the floor of the storage compartment.",
+        "Insert the detachable key blade (from key fob) or a small screwdriver into the small opening/hole.",
+        "Press the key blade/tool DOWN as far as possible and HOLD.",
+        "While holding, press the brake pedal and move the gear selector to N.",
+        "Remove tool and replace rubber mat."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once powered, shift to Neutral.",
-        "FLATBED PREFERRED — permanent Haldex AWD."
+        "Connect jump pack — under hood.",
+        "Once powered, shift normally OR use the behind-console rubber mat method.",
+        "AWD variants: FLATBED PREFERRED."
       ],
       "notes": "Permanent Haldex AWD — flatbed preferred.",
       "warn": "Permanent AWD — flatbed preferred.",
@@ -506,21 +520,21 @@
       "yearEnd": 2013,
       "trans": "5-speed automatic (AW55-51SN) or 6-speed manual",
       "drivetrain": "FWD",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Storage compartment BEHIND the center console — lift rubber mat, insert key blade into small hole.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON (do not start).",
+        "Locate the storage compartment BEHIND the center console (between shifter and rear seat).",
+        "Lift away the rubber mat from the floor of the storage compartment.",
+        "Insert the detachable key blade (from key fob) or a small screwdriver into the small opening/hole.",
+        "Press the key blade/tool DOWN as far as possible and HOLD.",
+        "While holding, press the brake pedal and move the gear selector to N.",
+        "Remove tool and replace rubber mat."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once powered, shift to Neutral.",
-        "Manual: depress clutch, select Neutral."
+        "Connect jump pack — under hood.",
+        "Once powered, shift normally OR use the behind-console rubber mat method.",
+        "AWD variants: FLATBED PREFERRED."
       ],
       "notes": "Manual: depress clutch. FWD compact. C70 is convertible — high value.",
       "warn": "C70 convertible: high value — flatbed preferred.",

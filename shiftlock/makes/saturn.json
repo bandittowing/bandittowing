@@ -352,16 +352,17 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "FWD: lift from front."
       ],
       "notes": "Opel Vectra platform. Manual: depress clutch, select Neutral.",
       "warn": "",

@@ -176,14 +176,18 @@
       "yearStart": 2016,
       "yearEnd": 2022,
       "trans": "6-speed or 9-speed auto (ZF 9HP)",
-      "slot": "Slot on right side or front of selector housing — use PHYSICAL KEY from key fob as the tool",
+      "slot": "ZF 9HP: slot on the RIGHT SIDE or FRONT-RIGHT of the selector housing — use a PHYSICAL KEY (not a flathead) or dedicated ZF override tool. The slot is small and recessed — requires more force than typical overrides.",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the shift lock slot — Slot on right side or front of selector housing.",
-        "OVERRIDE TOOL: Pop out the PHYSICAL KEY from inside the key fob (press the release button on the fob to eject it) — this is the override tool for this vehicle.",
-        "Insert the physical key into the slot and press firmly down.",
-        "While holding, press the brake pedal.",
-        "Move the selector from Park to Neutral."
+        "ZF 9HP TRANSMISSION: RESTORE 12V POWER FIRST — jump pack strongly recommended.",
+        "Connect jump pack to battery under the hood. Use AGM-compatible pack.",
+        "Once powered, press brake and shift to N normally.",
+        "WITHOUT POWER — mechanical override:",
+        "Locate the override slot on the RIGHT SIDE or FRONT-RIGHT of the selector housing.",
+        "Insert your physical IGNITION KEY (not a flathead) into the slot.",
+        "Apply FIRM, steady downward pressure — ZF 9HP requires more force than typical.",
+        "While maintaining pressure, press brake and move selector to N.",
+        "Hold pressure for up to 10 seconds if initial attempt fails."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -208,8 +212,8 @@
       "battery": {
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
-        "type": "standard-12v",
-        "warnings": "Key fob physical key is the shift lock tool on this generation."
+        "type": "agm-12v",
+        "warnings": "AGM battery. ZF 9HP: must restore power before shifting for reliable operation."
       }
     },
     {
@@ -256,15 +260,17 @@
       "yearStart": 2018,
       "yearEnd": 2026,
       "trans": "9-speed automatic (ZF 9HP)",
-      "slot": "Cap near gear selector base on console; special ZF 9HP override tool also available",
+      "slot": "ZF 9HP: override cap near the gear selector base on console. This is the Honda-specific implementation — slot is at the BASE front area of the selector.",
       "shift": [
         "Turn ignition to ON.",
-        "ZF 9HP transmission: locate the shift lock slot — Cap near gear selector base on console; special ZF 9HP override tool also available.",
-        "Insert a thin key or dedicated ZF 9HP override tool (~$50 from dealer tool suppliers) into the slot.",
-        "Press firmly and hold.",
-        "While holding, press the brake pedal.",
-        "Move the selector to Neutral.",
-        "NOTE: The ZF 9HP solenoid requires more force than most vehicles — apply steady firm pressure."
+        "ZF 9HP: RESTORE 12V POWER FIRST — jump pack strongly recommended.",
+        "Connect jump pack to battery under the hood.",
+        "Once powered, press brake and shift normally.",
+        "WITHOUT POWER:",
+        "Locate the override slot near the BASE of the selector on console.",
+        "Insert key or flathead. Press firmly and hold.",
+        "Press brake and move to N.",
+        "ZF 9HP may require firm sustained pressure."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -294,8 +300,8 @@
       "battery": {
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
-        "type": "standard-12v",
-        "warnings": "ZF 9HP: must restore power before neutral shift. Use jump pack — ZF 9HP override tool is the most reliable manual method."
+        "type": "agm-12v",
+        "warnings": "AGM battery. ZF 9HP: restore power for most reliable shift."
       }
     },
     {
@@ -609,16 +615,17 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "Manual: depress clutch. FWD: lift from front."
       ],
       "notes": "Manual: depress clutch, select Neutral. ATTS system on some — FWD only.",
       "warn": "",
@@ -642,12 +649,13 @@
       "yearEnd": 2009,
       "trans": "6-speed manual only",
       "drivetrain": "RWD",
-      "slot": "Manual transmission only — no shift lock slot",
+      "slot": "MANUAL ONLY — no shift lock slot exists on this vehicle.",
       "shift": [
-        "Manual transmission only — no automatic shift lock.",
+        "MANUAL TRANSMISSION ONLY — no automatic shift lock on this vehicle.",
         "Depress the clutch pedal fully.",
         "Move the gear lever to Neutral.",
-        "Do not attempt to use a shift lock slot — there is none."
+        "If the clutch is seized/broken: the gear lever can usually be moved to N without clutch pressure when stationary.",
+        "High-value sports car — use extreme care with any equipment."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -682,16 +690,17 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "AWD (Real Time 4WD): flatbed preferred — no traditional TC."
       ],
       "notes": "AWD uses Honda Real Time 4WD (on-demand rear coupling) — no traditional TC. AWD: flatbed preferred.",
       "warn": "AWD: flatbed preferred.",
@@ -720,16 +729,17 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "CVT (2015+): flatbed preferred. Manual: depress clutch."
       ],
       "notes": "CVT (2015+): flatbed preferred. Manual: depress clutch, select Neutral.",
       "warn": "CVT: flatbed preferred.",
@@ -757,17 +767,18 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "CVT: flatbed preferred. AWD: flatbed preferred. Manual: depress clutch."
       ],
       "notes": "CVT on most trims: flatbed preferred. Manual (2016-2021 FWD): depress clutch, select Neutral. AWD: flatbed preferred.",
       "warn": "CVT: flatbed preferred. AWD: flatbed preferred.",
@@ -796,17 +807,18 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "AWD (i-VTM4): flatbed preferred — no traditional TC."
       ],
       "notes": "AWD uses Honda i-VTM4 torque-vectoring AWD — no traditional TC. AWD: flatbed preferred.",
       "warn": "AWD: flatbed preferred.",
@@ -834,17 +846,17 @@
       "slot": "Electronic selector — no traditional shift lock slot",
       "shift": [
         "Turn ignition/power to ON.",
-        "PHEV/EV: press the N button on the electronic gear selector.",
-        "Hold N button for 2 seconds while pressing the brake pedal.",
-        "Verify N is shown on the instrument display.",
-        "If power is lost: restore 12V auxiliary power first."
+        "Press the N button on the electronic gear selector.",
+        "Hold for approximately 2 seconds while pressing the brake pedal.",
+        "Verify N on the instrument display.",
+        "If power lost: connect jump pack to 12V auxiliary under hood, driver side.",
+        "12V AUXILIARY ONLY — NEVER touch the HV battery."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to 12V auxiliary battery — under the hood, driver side.",
-        "PHEV/EV: 12V auxiliary battery ONLY — NEVER touch the high-voltage battery.",
-        "Once 12V is restored, press N button to select Neutral.",
-        "PHEV: lift from front (FWD). EV and FCV: flatbed preferred."
+        "Connect jump pack to 12V auxiliary — under hood, driver side.",
+        "12V AUXILIARY ONLY — never touch HV battery.",
+        "EV/FCV variants: FLATBED ONLY. PHEV: FWD, lift from front."
       ],
       "notes": "Three variants: PHEV (most common), EV, and FCV (fuel cell). All are FWD. High-voltage battery under floor. 12V auxiliary under hood.",
       "warn": "PHEV/EV/FCV: NEVER touch HV battery. 12V auxiliary ONLY for jumping.",
@@ -860,7 +872,7 @@
         "location": "Under hood, driver side (12V auxiliary)",
         "jumpTerminals": "Under hood — 12V auxiliary terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "NEVER touch HV battery. 12V auxiliary only."
+        "warnings": "12V auxiliary only — never touch HV battery. EV/FCV: flatbed only."
       }
     },
     {
@@ -874,18 +886,18 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to 12V battery — under the hood.",
-        "12V battery ONLY — never touch the IMA hybrid battery under the rear.",
-        "Once powered, press brake and shift to Neutral normally.",
-        "Manual: depress clutch, select Neutral."
+        "Connect jump pack to 12V — under hood.",
+        "IMA hybrid: 12V AUXILIARY ONLY — never touch IMA battery (under rear cargo area).",
+        "Manual: depress clutch, select N.",
+        "CVT: flatbed preferred."
       ],
       "notes": "IMA mild hybrid. 12V under hood. IMA battery under rear cargo area. Manual: depress clutch. CVT: flatbed preferred.",
       "warn": "CVT: flatbed preferred. HYBRID: 12V under hood ONLY — never touch IMA battery.",
@@ -901,7 +913,7 @@
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard 12V terminals",
         "type": "standard-12v",
-        "warnings": "IMA hybrid: 12V under hood ONLY. Never touch IMA battery under cargo area."
+        "warnings": "IMA hybrid: 12V under hood only. Never touch IMA battery under cargo area."
       }
     }
   ]

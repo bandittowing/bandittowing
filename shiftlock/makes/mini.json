@@ -25,12 +25,12 @@
       "gvwr": "Not published — check door jamb",
       "slot": "Under air filter housing — short rod on transmission module with two flat sides",
       "shift": [
-        "Open hood. Locate air filter housing.",
-        "The shift override rod is on the transmission module near/under the air filter box.",
-        "Rod has two flat sides. Use an open-ended wrench.",
-        "Turn the rod clockwise approximately 30 degrees against resistance.",
-        "Hold until the parking pawl releases (you will feel it disengage).",
-        "Vehicle will roll — confirm N and secure."
+        "Turn ignition to ON.",
+        "UNUSUAL LOCATION: The shift interlock on R50/R52/R53 MINI is accessed under the air filter housing in the engine bay.",
+        "There is a short rod on the transmission module with two flat-blade slots.",
+        "Using a flat screwdriver, rotate one slot 90 degrees to release the shift lock.",
+        "With lock released, press brake and move selector to N.",
+        "NOTE: This is the factory method — no console slot exists on this generation."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -63,8 +63,8 @@
       },
       "knownIssues": [
         {
-          "title": "Automatic Transmission Destroyed by Flat-Towing",
-          "detail": "The R50/R53 automatic MINI Cooper uses a CVT or Aisin 6-speed that has no internal lubrication pump when the engine is not running. Flat-towing or towing with driven (front) wheels on the ground will destroy the transmission in minutes. ALWAYS lift the front (drive) wheels."
+          "title": "Shift Lock Override Under Air Filter — NOT on Console",
+          "detail": "The 2002-2006 MINI Cooper (R50/R52/R53) shift lock override is NOT on the center console. It is in the ENGINE BAY under the air filter housing. There is a transmission solenoid rod with flat-blade slots — rotate one slot 90 degrees with a flathead screwdriver to release. Many operators waste time looking for a console slot that does not exist on this generation."
         }
       ]
     },
@@ -285,20 +285,16 @@
       "drivetrain": "FWD or ALL4 AWD (Paceman)",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON.",
+        "Locate the override slot near the gear selector base on the center console.",
+        "Insert thin flathead. Press firmly. Hold. Press brake. Move to N.",
+        "R61 Paceman ALL4 AWD: FLATBED PREFERRED."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, shift to Neutral.",
-        "Manual: depress clutch, select Neutral.",
-        "ALL4 AWD: flatbed preferred."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "ALL4 AWD: FLATBED PREFERRED. Manual: depress clutch."
       ],
       "notes": "Paceman R61: FWD or ALL4 AWD. Roadster R59: RWD roadster. Manual: depress clutch.",
       "warn": "ALL4 AWD: flatbed preferred.",
@@ -325,18 +321,15 @@
       "slot": "Electronic toggle selector — no mechanical shift lock slot",
       "shift": [
         "Turn vehicle to ON/Ready mode.",
-        "The Cooper SE uses a toggle-style electronic selector.",
-        "Press and hold the N (Neutral) position on the toggle for 3 seconds while pressing the brake.",
-        "Confirm N on the instrument cluster.",
-        "If power is lost: restore 12V auxiliary battery first — battery is under the hood."
+        "Electronic gear selector — use selector lever or button to choose N.",
+        "If power lost: connect jump pack to 12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery."
       ],
       "neutral": [
-        "Apply parking brake.",
         "FLATBED ONLY — electric drivetrain.",
-        "Connect jump pack to 12V auxiliary battery — under the hood.",
-        "12V AUXILIARY ONLY — NEVER touch the HV battery.",
-        "Once 12V is restored, toggle selector to N.",
-        "FLATBED ONLY."
+        "12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — never touch HV battery.",
+        "Once powered, select N electronically."
       ],
       "notes": "Electric FWD only. 12V auxiliary under hood. HV battery under floor. Flatbed only.",
       "warn": "FLATBED ONLY. 12V auxiliary ONLY — never touch HV battery.",
@@ -351,7 +344,7 @@
         "location": "Under hood (12V auxiliary)",
         "jumpTerminals": "Under hood — 12V auxiliary terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "FLATBED ONLY. Never touch HV battery."
+        "warnings": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
       }
     }
   ]

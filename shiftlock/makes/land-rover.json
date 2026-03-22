@@ -23,20 +23,23 @@
       "drivetrain": "4WD (permanent AWD with transfer case)",
       "curbWeight": "5,115–5,291 lbs",
       "gvwr": "6,614 lbs",
-      "slot": "Remove shifter gaiter/boot surround. Flat-bladed screwdriver — pry upward on horizontal dark gray metal hook on lower right of shifter lever to disengage interlock.",
+      "slot": "Red nylon release handle under the CUPHOLDER in the center console. Lift and pull the cupholder insert UP to expose the handle. Pull to engage Neutral.",
       "shift": [
-        "Remove the trim surround / gaiter around the gear shifter.",
-        "Locate the horizontal dark gray metal hook on the lower-right side of the shifter lever.",
-        "Insert flat-bladed screwdriver. Pry upward on the hook to disengage the shift interlock.",
-        "While holding the hook up, press brake and move selector to N.",
-        "Confirm N. Replace trim."
+        "PREFERRED (with power): Turn ignition to ON. Shift to N using the traditional floor shifter.",
+        "WITHOUT POWER — red handle method:",
+        "Pull the cupholder insert UPWARD firmly — it pops off its clips.",
+        "Locate the red nylon handle in the console cavity.",
+        "Press the brake pedal firmly.",
+        "Pull the red handle toward you (or push, depending on early vs late build) to release Park.",
+        "Confirm vehicle can roll before loading onto flatbed.",
+        "Vehicle must be on FLATBED — permanent 4WD, cannot disable AWD."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery is under hood — standard location.",
-        "Connect jump pack.",
-        "Once powered, shift normally or use gaiter/hook method above.",
-        "TRANSFER CASE MUST BE IN NEUTRAL for flatbed, or 2H for wheel-lift."
+        "Battery is under the hood — connect jump pack.",
+        "Attempt to restore 12V power first to confirm N selector position.",
+        "Use red cupholder handle method if power unavailable.",
+        "FLATBED ONLY — permanent full-time 4WD."
       ],
       "notes": "Permanent AWD — transfer case neutral required for flatbed. 4-wheel tow: strict 30 mph / 30 mile limit.",
       "warn": "Transfer case MUST be in Neutral (flatbed) or 2H equivalent. Permanent AWD — cannot wheel-lift without TC neutral.",
@@ -105,22 +108,26 @@
       "drivetrain": "4WD (permanent AWD with electronic TC)",
       "curbWeight": "5,369–5,765 lbs",
       "gvwr": "6,920 lbs",
-      "slot": "Remove cupholder inserts from center console. Red nylon release handle underneath. Turn safety lock to unlock position, then pull red handle firmly to engage TC neutral and shift override.",
+      "slot": "Emergency Park Release (EPR): red nylon handle under CUPHOLDER insert in center console. Remove cupholder inserts. Locate the EPR handle. Turn locking mechanism to UNLOCK. Pull handle up. NOTE: The rotary drive selector will show P but gear display flashes N — this is correct.",
       "shift": [
-        "Remove cupholder inserts from center console.",
-        "Locate red nylon pull handle underneath cupholders.",
-        "Turn the safety lock collar to the UNLOCK position.",
-        "Pull the red handle FIRMLY — this disengages the shift interlock.",
-        "Press brake. Move the rotary dial selector to N.",
-        "Confirm N on instrument cluster."
+        "PREFERRED (with power): Turn ignition to ON. Rotary selector rises — rotate to N.",
+        "WITHOUT POWER — EPR procedure:",
+        "Remove the cupholder inserts from the center console.",
+        "Locate the EPR handle (red/orange nylon strap).",
+        "Turn the locking mechanism (small lever or twist) to the UNLOCK position.",
+        "Press the brake pedal firmly.",
+        "Pull the EPR handle UPWARD until it latches in the vertical position.",
+        "The rotary selector will remain showing P but the display flashes N — the vehicle IS in Neutral.",
+        "CRITICAL: The recovery agent MUST activate the EPR before towing. Do not use rotary P for recovery.",
+        "FLATBED ONLY — permanent electronic 4WD."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery under hood — standard location.",
-        "Connect jump pack.",
-        "Once powered, use rotary dial to select N normally.",
-        "Transfer case: must be in Neutral for flatbed (see TC tab).",
-        "Red handle method above works without power as emergency backup."
+        "Apply parking brake and chock wheels.",
+        "CRITICAL per Land Rover owner manual: Recovery agent must activate EPR before towing begins.",
+        "Attempting to load without EPR activation can seriously damage the transmission.",
+        "Activate EPR using cupholder method above.",
+        "Confirm display shows flashing N before loading.",
+        "FLATBED ONLY."
       ],
       "notes": "Rotary dial shifter. Red handle under cupholders is the manual override. TC must be in Neutral for flatbed.",
       "warn": "PERMANENT AWD — no wheel-lift without TC neutral. Flatbed strongly preferred.",
@@ -174,12 +181,8 @@
       },
       "knownIssues": [
         {
-          "title": "Red Handle Is Under the Cupholders — Not at Shifter Base",
-          "detail": "The emergency shift release on the L405 is a red nylon pull handle UNDERNEATH the cupholder inserts in the center console. You must remove the cupholders to access it. It is not at the base of the rotary selector. Pull firmly after turning the safety lock to unlock."
-        },
-        {
-          "title": "Air Suspension Failure",
-          "detail": "EAS failures are common on high-mileage L405s. Vehicle may be sitting at bump stops or unevenly when found. This creates unusual loading geometry. A battery jump typically allows the compressor to normalize heights."
+          "title": "EPR MUST Be Activated Before Towing — Owner Manual Warning",
+          "detail": "Land Rover's owner manual explicitly states: 'The recovery agent MUST activate the Emergency Park Release before towing commences. The procedure is covered in a separate publication for service personnel.' Failure to activate EPR can result in serious transmission damage. The rotary selector will show P even after EPR is activated — the flashing N on the gear display confirms EPR is active."
         }
       ]
     },
@@ -194,13 +197,14 @@
       "drivetrain": "4WD (permanent AWD with TC)",
       "curbWeight": "4,938–5,071 lbs",
       "gvwr": "6,393 lbs",
-      "slot": "Red nylon handle under cupholder in center console — same as L405",
+      "slot": "Red nylon handle under CUPHOLDER in center console — same procedure as L322. Remove cupholder insert, locate handle, press brake, pull handle to engage Neutral.",
       "shift": [
-        "Remove cupholder from center console.",
-        "Locate red nylon handle underneath.",
-        "Turn safety lock to UNLOCK. Pull handle firmly.",
-        "Press brake. Move J-gate shifter to N.",
-        "Confirm N on cluster."
+        "PREFERRED (with power): Turn ignition to ON. Shift to N using floor shifter.",
+        "WITHOUT POWER:",
+        "Remove cupholder insert from center console.",
+        "Press brake pedal firmly.",
+        "Pull the red nylon handle to release Park lock.",
+        "Confirm vehicle rolls before loading. FLATBED ONLY."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -264,13 +268,16 @@
       "drivetrain": "4WD (permanent AWD with electronic TC)",
       "curbWeight": "4,629–5,071 lbs",
       "gvwr": "6,393 lbs",
-      "slot": "Red nylon handle under cupholder inserts in center console",
+      "slot": "Red nylon EPR handle under CUPHOLDER inserts in center console. Remove cupholder inserts, turn locking mechanism to unlock, press brake, pull handle upward to vertical.",
       "shift": [
-        "Remove cupholder inserts.",
-        "Turn safety lock collar to UNLOCK.",
-        "Pull red handle firmly.",
-        "Press brake. Use rotary dial to select N.",
-        "Confirm N on cluster."
+        "PREFERRED (with power): Turn ignition to ON. Electronic rotary selector rises. Rotate to N.",
+        "WITHOUT POWER — EPR procedure (same as L405):",
+        "Remove the cupholder inserts.",
+        "Locate the EPR handle and locking mechanism.",
+        "Turn locking mechanism to UNLOCK position.",
+        "Press the brake pedal firmly.",
+        "Pull the EPR handle UPWARD until it latches vertically.",
+        "Display will flash N to confirm activation."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -339,13 +346,14 @@
       "drivetrain": "FWD or AWD",
       "curbWeight": "3,549–4,189 lbs",
       "gvwr": "Not published — check door jamb",
-      "slot": "Electronic rotary dial shifter — override slot near rotary dial base, or press/hold brake + start button sequence",
+      "slot": "Electronic rotary dial shifter. Override slot near base of rotary dial — small trim cap. ZF 9HP transmission: requires 12V power to shift reliably. Restore battery first.",
       "shift": [
-        "Press and hold brake pedal.",
-        "Press start button (without foot on brake pedal first) to enter accessory mode.",
-        "Then hold brake and press the + gear paddle or rotary to move to N.",
-        "Alternative: locate override slot near rotary dial base. Insert key, engage, move to N.",
-        "Note: auxiliary battery under passenger glove box foot well — may need this for power."
+        "ZF 9HP: RESTORE 12V POWER FIRST — this transmission is very difficult to shift without power.",
+        "Connect jump pack to battery under the hood.",
+        "Turn ignition to ON — rotary selector rises.",
+        "Rotate dial to N normally.",
+        "Without power — override slot at base of rotary dial: insert thin flathead, press firmly, rotate dial to N.",
+        "Significant force may be required without power — ZF 9HP resists mechanical override."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -400,13 +408,16 @@
       "drivetrain": "4WD (permanent AWD with TC)",
       "curbWeight": "5,401–5,622 lbs",
       "gvwr": "6,875 lbs",
-      "slot": "Red nylon handle under cupholder inserts in center console",
+      "slot": "Red nylon EPR handle under CUPHOLDER inserts in center console. Same EPR procedure as Range Rover L405/L494.",
       "shift": [
+        "PREFERRED (with power): Key to ON (accessory mode — do NOT press start with foot on brake). Press brake. Select N.",
+        "ACCESSORY MODE TIP: Press start button WITHOUT foot on brake — this gives accessory power. Then press brake and shift to N.",
+        "WITHOUT POWER — EPR:",
         "Remove cupholder inserts from center console.",
-        "Locate red nylon handle underneath.",
-        "Turn safety lock to UNLOCK. Pull handle firmly.",
-        "Press brake. Move J-gate shifter to N.",
-        "Confirm N on instrument cluster."
+        "Turn EPR locking mechanism to UNLOCK.",
+        "Press brake firmly.",
+        "Pull red EPR handle upward to vertical — latches in place.",
+        "Display flashes N to confirm."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -477,11 +488,13 @@
       "gvwr": "6,415 lbs",
       "slot": "Electronic shifter with mechanical override — override slot near base of rotary/lever selector under console trim",
       "shift": [
-        "Locate mechanical override slot near selector base under console trim.",
-        "Insert key or flat tool. Press override plunger.",
-        "Press brake. Move selector to N.",
-        "Electronic override: rotary dial to N if power available.",
-        "PHEV: select N on selector or touchscreen if available."
+        "PREFERRED (with power): Turn ignition to ON. Electronic gear selector — select N.",
+        "WITHOUT POWER:",
+        "Connect jump pack to battery under hood first — strongly preferred.",
+        "Mechanical override slot near selector base — insert thin flathead.",
+        "ZF 8HP: apply firm steady pressure for several seconds.",
+        "While holding, press brake and move selector to N.",
+        "FLATBED ONLY — permanent AWD."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -696,20 +709,21 @@
       "yearEnd": 2015,
       "trans": "6-speed automatic (Aisin TF-80SC)",
       "drivetrain": "AWD (Haldex, permanent)",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Slot near selector base on center console — small trim cover.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "Haldex AWD (permanent): FLATBED PREFERRED — AWD cannot be easily disengaged."
       ],
       "notes": "Permanent Haldex AWD. No traditional transfer case lever. Flatbed preferred.",
       "warn": "AWD — flatbed preferred. No transfer case to disengage.",
@@ -734,21 +748,22 @@
       "yearEnd": 2009,
       "trans": "6-speed automatic (ZF 6HP26)",
       "drivetrain": "4WD (permanent, electronic TC)",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Red nylon EPR handle under CUPHOLDER inserts in center console — same as Range Rover L405.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "PREFERRED (with power): Turn key to ON — press start WITHOUT foot on brake for accessory mode. Then press brake and shift to N.",
+        "WITHOUT POWER — EPR:",
+        "Remove cupholder inserts from center console.",
+        "Turn EPR locking mechanism to UNLOCK.",
+        "Press the brake pedal firmly.",
+        "Pull the red EPR handle UPWARD until it latches vertically.",
+        "Display flashes N to confirm."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "Transfer case must be in High mode for road towing — do NOT leave in Low."
+        "Attempt to restore 12V power — battery under hood.",
+        "If power available: accessory mode (start without brake), then brake + shift to N.",
+        "If no power: use EPR cupholder method above.",
+        "FLATBED ONLY — permanent electronic 4WD."
       ],
       "notes": "Full-time 4WD with electronic TC. Must shift TC to high range before road towing.",
       "warn": "Permanent 4WD — flatbed preferred. If wheel-lift, must use dollies on free-rolling axle.",
@@ -787,20 +802,21 @@
       "yearEnd": 2026,
       "trans": "8-speed automatic (ZF 8HP)",
       "drivetrain": "4WD (permanent, electronic TC)",
-      "slot": "Electronic selector — touch-sensitive panel on center console",
+      "slot": "Fully electronic touch panel selector — NO physical gear lever. Gear select is via the touchscreen panel on the center console. REQUIRES 12V POWER to operate — no mechanical override.",
       "shift": [
-        "Turn ignition to ON.",
-        "The Velar uses a touch-sensitive electronic gear selector (Touch Pro Duo) — no physical lever.",
-        "With power on, press N on the touch panel to select Neutral.",
-        "If power is lost: connect jump pack to 12V battery. Battery is under the hood.",
-        "Once powered, use the touch panel to select N.",
-        "Electronic selectors require power — no mechanical override slot."
+        "Turn ignition to ON — touch panel selector activates.",
+        "Touch the N on the gear select panel on the center console.",
+        "WITHOUT POWER: this selector CANNOT be operated without 12V power — no mechanical override exists.",
+        "Connect jump pack to battery under hood.",
+        "Once 12V is restored, the touch panel activates and N can be selected."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, use the touch panel to select N.",
-        "FLATBED preferred — permanent AWD."
+        "CRITICAL: Velar uses a fully electronic touch panel selector — NO mechanical override.",
+        "MUST restore 12V power before any gear selection is possible.",
+        "Connect jump pack to battery under hood.",
+        "Once powered, touch N on the selector panel.",
+        "FLATBED ONLY — permanent electronic 4WD."
       ],
       "notes": "Fully electronic touch panel selector — no physical gear lever. Permanent AWD. Flatbed preferred.",
       "warn": "Permanent AWD — flatbed preferred. Electronic selector requires power.",
@@ -824,15 +840,19 @@
       ],
       "knownIssues": [
         {
-          "title": "Fully Electronic Touch Panel — No Physical Selector",
-          "detail": "The Velar has a Touch Pro Duo glass-panel selector system. There is no physical gear lever or traditional shift lock slot. Without 12V power, the selector cannot be operated. Always restore 12V power before attempting to select Neutral."
+          "title": "No Physical Gear Lever — Touch Panel Requires 12V Power",
+          "detail": "The Range Rover Velar uses a fully electronic touch-panel gear selector. There is no physical lever to move. Without 12V power, the panel is dead and cannot select any gear. The EPR (red handle under cupholder) is the only mechanical option when power is lost. Always jump the battery first if at all possible — this is far easier than the EPR procedure."
+        },
+        {
+          "title": "Touch Panel Has No Mechanical Override — Power Required",
+          "detail": "The Range Rover Velar (L560) uses a fully electronic touch-capacitive gear selector panel. Unlike rotary selectors (which have a red EPR handle), the Velar touch panel has NO mechanical cable or lever backup. Without 12V power the gear cannot be changed at all. Always restore battery power before attempting to shift. If power cannot be restored, the rear wheels must be lifted to load onto a flatbed."
         }
       ],
       "battery": {
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
         "type": "agm-12v",
-        "warnings": "AGM battery — use AGM-compatible jump pack. Electronic selector requires 12V power."
+        "warnings": "Touch panel requires 12V power — NO mechanical override. Must restore power to shift."
       }
     },
     {
@@ -842,19 +862,21 @@
       "yearEnd": 2026,
       "trans": "8-speed automatic (ZF 8HP)",
       "drivetrain": "4WD (permanent, electronic TC)",
-      "slot": "Electronic rotary selector rises from console — slot near selector base",
+      "slot": "Red nylon EPR handle under cupholder inserts — same procedure as Range Rover L405/L494.",
       "shift": [
-        "Turn ignition to ON.",
-        "The Discovery 5 uses an electronic rotary 'rising' selector on the center console.",
-        "With power on, rotate selector to N (Neutral).",
-        "If power is lost: connect jump pack to 12V battery under the hood.",
-        "Once powered, rotate the selector to N."
+        "PREFERRED (with power): Turn ignition to ON. Electronic selector activates. Select N.",
+        "WITHOUT POWER — EPR:",
+        "Remove cupholder inserts from center console.",
+        "Turn EPR locking mechanism to UNLOCK.",
+        "Press brake firmly.",
+        "Pull EPR handle UPWARD until latched vertically.",
+        "Display flashes N to confirm."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, rotate the electronic selector to N.",
-        "FLATBED preferred — permanent AWD."
+        "Restore 12V if possible — battery under hood.",
+        "EPR method works without power if needed.",
+        "FLATBED ONLY — permanent electronic 4WD."
       ],
       "notes": "Electronic rotary selector. Permanent AWD. Must have power for selector. Flatbed preferred.",
       "warn": "Permanent AWD — flatbed preferred. Electronic rotary requires power.",

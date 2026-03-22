@@ -43,7 +43,12 @@
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "DSG Cannot Shift Without 12V Power",
+          "detail": "Volkswagen DSG (Direct Shift Gearbox) dual-clutch transmissions are electro-hydraulic and cannot shift out of Park without 12V power. Always restore battery power before attempting any shift override."
+        }
+      ],
       "battery": {
         "location": "Under hood or under rear seat — varies by generation",
         "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
@@ -130,7 +135,12 @@
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "DSG Cannot Shift Without 12V Power",
+          "detail": "Volkswagen DSG (Direct Shift Gearbox) dual-clutch transmissions are electro-hydraulic and cannot shift out of Park without 12V power. Always restore battery power before attempting any shift override."
+        }
+      ],
       "battery": {
         "location": "Under rear seat or in trunk — varies by generation",
         "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
@@ -168,7 +178,12 @@
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "DSG Cannot Shift Without 12V Power",
+          "detail": "Volkswagen DSG (Direct Shift Gearbox) dual-clutch transmissions are electro-hydraulic and cannot shift out of Park without 12V power. Always restore battery power before attempting any shift override."
+        }
+      ],
       "battery": {
         "location": "Under hood or under rear seat — varies",
         "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
@@ -244,7 +259,12 @@
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "DSG Cannot Shift Without 12V Power",
+          "detail": "Volkswagen DSG (Direct Shift Gearbox) dual-clutch transmissions are electro-hydraulic and cannot shift out of Park without 12V power. Always restore battery power before attempting any shift override."
+        }
+      ],
       "battery": {
         "location": "Under hood or under rear seat",
         "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
@@ -260,18 +280,17 @@
       "trans": "Single-speed electric",
       "slot": "Electronic selector — slot near selector base",
       "shift": [
-        "Turn the Volkswagen ID.4 / ID.Buzz to ON/Ready mode.",
-        "Shift lock slot: Electronic selector — slot near selector base.",
-        "Insert a thin key or flathead into the slot and press firmly.",
-        "Press the brake pedal while holding the slot.",
-        "Move selector to N.",
-        "FLATBED ONLY — do not tow with driven wheels on the ground."
+        "Turn vehicle to ON/Ready mode.",
+        "Electronic gear selector — press N on the selector while pressing the brake pedal.",
+        "ID.Buzz: selector button labeled N on the console or shift-by-wire.",
+        "If power is lost: connect jump pack to 12V auxiliary battery under the hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV components."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Connect jump pack to battery — Under hood (12V auxiliary). 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack.",
-        "Once 12V power is restored, press brake and shift to N normally.",
-        "FLATBED ONLY."
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — never touch HV battery.",
+        "Once powered, press N while pressing brake."
       ],
       "notes": "ID.Buzz (2024+): same procedure.",
       "warn": "FLATBED ONLY.",
@@ -297,7 +316,7 @@
         "location": "Under hood (12V auxiliary)",
         "jumpTerminals": "Under hood — 12V auxiliary terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "NEVER touch HV battery. Flatbed only."
+        "warnings": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
       }
     },
     {
@@ -345,19 +364,16 @@
       "slot": "Cap near selector base on center console",
       "shift": [
         "Turn ignition to ON.",
-        "Locate cap near selector base. Pry off.",
-        "Insert key or flathead into slot and press firmly.",
-        "While holding, press brake. Move to Neutral.",
-        "DSG: requires 12V power — connect jump pack first.",
-        "MANUAL: depress clutch, move to Neutral."
+        "DSG (if equipped): REQUIRES 12V power — restore battery first.",
+        "Locate shift lock slot near selector base on console. Pry cap. Insert thin flathead. Press firmly. Hold. Press brake. Move to N.",
+        "Manual: depress clutch, select N."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery is under the REAR SEAT on Mk4 — NOT under the hood.",
-        "Use hood jump terminals: red fused terminal (+), black ground bolt (−). Use these, not the rear seat battery directly.",
-        "Use AGM-compatible jump pack.",
-        "Once powered, press brake and shift normally.",
-        "FWD: lift from front — front (drive) wheels in the air."
+        "Connect jump pack — under hood.",
+        "DSG: must restore power before shifting.",
+        "Once powered, shift to N.",
+        "Manual: depress clutch. 4MOTION: flatbed preferred."
       ],
       "notes": "Battery under rear seat — use hood jump terminals. DSG: requires power.",
       "warn": "",
@@ -373,7 +389,12 @@
         "type": "agm-12v",
         "warnings": "Always use hood terminals — never jump directly at rear seat battery. AGM jump pack."
       },
-      "knownIssues": []
+      "knownIssues": [
+        {
+          "title": "DSG Cannot Shift Without 12V Power",
+          "detail": "Volkswagen DSG (Direct Shift Gearbox) dual-clutch transmissions are electro-hydraulic and cannot shift out of Park without 12V power. Always restore battery power before attempting any shift override."
+        }
+      ]
     },
     {
       "make": "Volkswagen",
@@ -386,18 +407,17 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "DSG: must restore 12V power before shifting — strongly preferred.",
-        "Once powered, press brake and shift to Neutral.",
-        "Manual: depress clutch, select Neutral."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "Manual: depress clutch, select N. FWD: lift from front."
       ],
       "notes": "New Beetle (1998-2010), Beetle A5 (2012-2019). DSG: power required. Manual: depress clutch.",
       "warn": "DSG: restore power before shifting.",
@@ -425,16 +445,16 @@
       "shift": [
         "Turn ignition to ON.",
         "DSG: REQUIRES 12V power — restore battery first.",
-        "Locate the shift lock slot near selector base or on selector housing.",
-        "Insert key or thin flathead, press firmly, hold, press brake, move to Neutral.",
-        "DSG without power will not release — always jump first."
+        "Locate slot near selector base on console.",
+        "Insert thin flathead. Press firmly. Hold. Press brake. Move to N.",
+        "Manual: depress clutch, select N."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "DSG: must restore 12V power before shifting.",
-        "Once powered, shift to Neutral.",
-        "4MOTION AWD: flatbed preferred."
+        "Connect jump pack — under hood.",
+        "DSG: must restore power before shifting.",
+        "Once powered, shift to N.",
+        "4MOTION AWD: FLATBED PREFERRED."
       ],
       "notes": "DSG: power required. 4MOTION AWD: flatbed preferred.",
       "warn": "DSG: restore power before shifting. 4MOTION AWD: flatbed preferred.",
@@ -445,7 +465,16 @@
         "4MOTION AWD: flatbed preferred.",
         "DSG: cannot shift without 12V power — jump battery first."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "DSG Cannot Shift Without Power",
+          "detail": "VW DSG transmission is electro-hydraulic. Always jump the battery before attempting any shift override."
+        },
+        {
+          "title": "DSG Cannot Shift Without 12V Power",
+          "detail": "CC/Arteon DSG dual-clutch transmissions are electro-hydraulic and cannot shift without power. Always restore battery first."
+        }
+      ],
       "battery": {
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
@@ -463,19 +492,19 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, shift to Neutral.",
-        "Transfer case must be in high range before road towing.",
-        "PHEV models: 12V auxiliary ONLY — never touch HV battery."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "Permanent 4MOTION AWD: FLATBED PREFERRED.",
+        "PHEV (eHybrid): 12V AUXILIARY ONLY — never touch HV battery."
       ],
       "notes": "Permanent 4MOTION AWD with electronic TC. Must be in high range for road towing. PHEV (eHybrid) available on 3G — 12V only for jumping.",
       "warn": "Permanent AWD — flatbed preferred. TC must be in high range. PHEV: 12V auxiliary ONLY.",
@@ -487,10 +516,9 @@
           "Low range — off-road only — NEVER tow on road in low range"
         ],
         "steps": [
-          "Confirm TC is in high range (not low range) before road towing.",
-          "Permanent AWD — cannot disengage to 2WD.",
-          "FLATBED is safest option.",
-          "If wheel-lift: dollies REQUIRED on free-rolling axle.",
+          "Touareg has permanent 4MOTION AWD — cannot disengage to 2WD.",
+          "FLATBED is the safest option for all Touareg.",
+          "If wheel-lift must be used: dollies REQUIRED on the free-rolling axle.",
           "PHEV: 12V auxiliary only — never touch HV battery."
         ]
       },
@@ -517,19 +545,20 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "FWD: lift from front."
       ],
-      "notes": "Chrysler Town & Country / Grand Caravan rebadge. Same as Chrysler procedure.",
+      "notes": "Built on Chrysler Grand Caravan platform. Same towing procedures as Chrysler/Dodge minivans.",
       "warn": "",
       "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
       "tc": null,
@@ -553,20 +582,17 @@
       "drivetrain": "FWD or 4MOTION AWD (Golf 4Motion)",
       "slot": "Small cap near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON.",
+        "DSG (if equipped): REQUIRES 12V power — restore battery first.",
+        "Locate shift lock slot near selector base on console. Pry cap. Insert thin flathead. Press firmly. Hold. Press brake. Move to N.",
+        "Manual: depress clutch, select N."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "DSG (Mk5): must restore 12V power before shifting.",
-        "Once powered, shift to Neutral.",
-        "Manual: depress clutch, select Neutral."
+        "Connect jump pack — under hood.",
+        "DSG: must restore power before shifting.",
+        "Once powered, shift to N.",
+        "Manual: depress clutch. 4MOTION: flatbed preferred."
       ],
       "notes": "DSG (Mk5+): power required. Manual: depress clutch. 4MOTION AWD (Golf 4Motion): flatbed preferred.",
       "warn": "DSG: restore power before shifting. 4MOTION AWD: flatbed preferred.",
@@ -575,7 +601,12 @@
       "towNotes": [
         "FWD: lift from front. 4MOTION AWD: flatbed preferred."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "DSG Cannot Shift Without Power (if equipped)",
+          "detail": "Mk4/Mk5 Golf/GTI with DSG dual-clutch cannot shift without 12V power. Always restore battery first."
+        }
+      ],
       "battery": {
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",

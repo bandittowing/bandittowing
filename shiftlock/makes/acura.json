@@ -840,9 +840,9 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off the plastic cap with a small flathead or ignition key.",
+        "Pry off cap with ignition key or small flathead screwdriver.",
         "Insert key or thin flathead into the slot and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding the slot, press the brake pedal firmly.",
         "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
@@ -850,7 +850,7 @@
         "Apply parking brake and chock wheels.",
         "Connect jump pack to battery — under the hood, driver side.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above."
+        "Manual trans: depress clutch fully, select Neutral — no shift lock slot needed."
       ],
       "notes": "Manual transmission: depress clutch fully, select Neutral — no shift lock.",
       "warn": "",
@@ -879,17 +879,17 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off the plastic cap with a small flathead or ignition key.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead into the slot and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
+        "While holding, press the brake pedal firmly.",
+        "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
         "Connect jump pack to battery — under the hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above."
+        "Manual transmission (Type-S or 6-speed): depress clutch, select Neutral — no slot needed."
       ],
       "notes": "Manual transmission (Type-S and base 6-speed): depress clutch, select Neutral — no shift lock.",
       "warn": "",
@@ -918,10 +918,10 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with a small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
+        "Pry off cap with small flathead.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding, press the brake pedal firmly.",
+        "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
@@ -956,16 +956,16 @@
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
         "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding, press the brake pedal firmly.",
+        "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
         "Connect jump pack to battery — under the hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "Transfer case: shift to 2H before towing on road."
+        "Transfer case: shift to 2H (2WD) before road towing — manual floor lever."
       ],
       "notes": "Isuzu Trooper platform. Transfer case must be in 2H for road towing. Avoid towing in 4H or 4L on dry pavement.",
       "warn": "Shift transfer case to 2H before road towing. 4WD modes will damage drivetrain on pavement.",
@@ -979,9 +979,9 @@
         ],
         "steps": [
           "Stop completely.",
-          "Move the transfer case floor lever to 2H.",
-          "Confirm 2H operation before lifting rear wheels.",
-          "NEVER tow in 4H or 4L on pavement."
+          "Move the transfer case FLOOR LEVER to 2H (2WD).",
+          "Confirm 2H before lifting rear wheels.",
+          "NEVER tow in 4H or 4L on dry pavement — driveline damage."
         ]
       },
       "towNotes": [
@@ -1006,18 +1006,19 @@
       "slot": "Near base of electronic gear selector on center console",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the electronic selector override: near base of electronic gear selector on center console.",
-        "Remove trim cover if present using a trim pry tool.",
-        "Insert a thin key or flathead into the slot.",
+        "Locate the electronic selector override near base of electronic gear selector on center console.",
+        "Remove trim cover if present using a plastic pry tool.",
+        "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
         "While holding, press the brake pedal.",
-        "Press the N button or move the selector to Neutral."
+        "Press the N button or move selector to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under hood. AGM battery — use AGM-compatible jump pack.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is last resort only."
+        "Connect jump pack to battery — under hood. Use AGM-compatible jump pack.",
+        "Once 12V power is restored, press brake and select N on electronic selector.",
+        "Electronic selectors require power — mechanical override is last resort only.",
+        "SH-AWD: FLATBED PREFERRED."
       ],
       "notes": "2021 MDX is the first year of the 4th Gen body but mechanically shares features with late 3rd Gen. Treat as 4th Gen.",
       "warn": "AWD — flatbed preferred.",
@@ -1031,7 +1032,7 @@
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
         "type": "agm-12v",
-        "warnings": "Use AGM-compatible jump pack."
+        "warnings": "AGM battery — use AGM-compatible jump pack. SH-AWD flatbed preferred."
       }
     }
   ]

@@ -26,11 +26,10 @@
       "slot": "Slot at base of gear selector on center console or under console trim panel",
       "shift": [
         "Turn ignition to ON.",
-        "The Cayenne uses a 6-speed Tiptronic automatic with permanent PTM AWD — locate the shift lock override slot at the selector base or under the center console trim panel.",
-        "Remove the trim panel if needed. Insert a thin key or flathead into the slot and press firmly.",
-        "While holding, press the brake pedal.",
-        "Move the Tiptronic lever to N. Confirm N on the instrument cluster.",
-        "Jack Mode for air suspension (S/Turbo trims): hold suspension height switch forward 5-10 seconds until 'Regulation Switched Off' appears on display before loading on flatbed."
+        "Tiptronic automatic: locate slot at base of gear selector on center console.",
+        "Pry off trim cover if present.",
+        "Insert thin flathead. Press firmly. Hold while pressing brake. Move to N.",
+        "Tiptronic does not require as much force as PDK — standard slot method applies."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -85,13 +84,15 @@
       "gvwr": "6,008–6,261 lbs",
       "slot": "Slot at base of gear selector or under console panel",
       "shift": [
-        "Turn ignition to ON.",
-        "The 958 Cayenne uses an 8-speed Tiptronic S or PDK — locate the override slot at the selector base.",
-        "Insert a thin key or flathead into the slot and press firmly.",
-        "While holding, press the brake pedal.",
-        "Move the selector to N. Confirm N on the cluster.",
-        "S E-Hybrid PHEV: restore 12V power first. NEVER touch the orange HV cables.",
-        "Jack Mode for air suspension: hold suspension height switch 5-10 seconds until 'Regulation Switched Off' displays."
+        "PREFERRED: Turn ignition to ON. PDK/Tiptronic selector — move to N normally.",
+        "PDK (Porsche Doppelkupplung) is ELECTRO-HYDRAULIC — it REQUIRES 12V power to shift.",
+        "WITHOUT POWER: connect jump pack to battery first.",
+        "Battery location: under hood for Cayenne, Macan. Under hood or trunk for Panamera/911 (verify by model).",
+        "Once powered, press brake and move PDK lever or press N button to select N.",
+        "MECHANICAL OVERRIDE (last resort): locate override slot at base of PDK lever/selector.",
+        "Insert thin flathead. Press firmly. Apply sustained pressure for up to 15 seconds.",
+        "While holding, press brake and move selector to N.",
+        "Very high value — FLATBED ONLY for all Porsche models."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -102,7 +103,7 @@
         "EPB: restore 12V, hold EPB button to release. Manual: EPB actuator outer two pins — connect 12V, polarity controls direction."
       ],
       "notes": "S E-Hybrid PHEV: flatbed only, 12V auxiliary only.",
-      "warn": "S E-Hybrid: FLATBED ONLY, HV system present. Standard AWD: flatbed strongly preferred.",
+      "warn": "PDK REQUIRES POWER. Very high-value — FLATBED ONLY. AWD: flatbed required.",
       "towMethod": "FLATBED STRONGLY PREFERRED. S E-Hybrid: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
@@ -138,6 +139,10 @@
         {
           "title": "Jack Mode Required for Air Suspension Loading",
           "detail": "When loading a Cayenne with air suspension on a flatbed, activate Jack Mode by holding the suspension height switch forward 5-10 seconds until the dash display shows 'Regulation Switched Off'. Without this, the suspension will actively fight the loading process and may be damaged."
+        },
+        {
+          "title": "PDK Requires 12V Power to Shift — Mechanical Override Requires Significant Force",
+          "detail": "Porsche's PDK dual-clutch transmission is electro-hydraulic. Without 12V power it will NOT shift reliably. The mechanical override requires very firm sustained pressure — much more than a standard shift interlock. Always restore 12V power before attempting any shift. All Porsche vehicles are high-value — FLATBED ONLY."
         }
       ]
     },
@@ -154,13 +159,15 @@
       "gvwr": "6,008–6,500 lbs",
       "slot": "Electronic gear selector — override slot under console trim near selector",
       "shift": [
-        "Turn ignition to ON.",
-        "The E3 Cayenne has an electronic gear selector — locate the override slot under the console trim near the selector base.",
-        "Remove trim if needed. Insert a thin key or flathead into the override slot and press firmly.",
-        "While holding, press the brake pedal.",
-        "Move the selector to N. Confirm N.",
-        "E-Hybrid PHEV: restore 12V power first. Never touch the orange HV cables.",
-        "Jack Mode for air suspension: hold height button 5-10 seconds until 'Regulation Switched Off' displays before loading on flatbed."
+        "PREFERRED: Turn ignition to ON. PDK/Tiptronic selector — move to N normally.",
+        "PDK (Porsche Doppelkupplung) is ELECTRO-HYDRAULIC — it REQUIRES 12V power to shift.",
+        "WITHOUT POWER: connect jump pack to battery first.",
+        "Battery location: under hood for Cayenne, Macan. Under hood or trunk for Panamera/911 (verify by model).",
+        "Once powered, press brake and move PDK lever or press N button to select N.",
+        "MECHANICAL OVERRIDE (last resort): locate override slot at base of PDK lever/selector.",
+        "Insert thin flathead. Press firmly. Apply sustained pressure for up to 15 seconds.",
+        "While holding, press brake and move selector to N.",
+        "Very high value — FLATBED ONLY for all Porsche models."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -171,7 +178,7 @@
         "EPB: restore 12V and hold EPB button to release."
       ],
       "notes": "E-Hybrid PHEV: flatbed only, 12V auxiliary only, orange HV present.",
-      "warn": "E-Hybrid: FLATBED ONLY. Standard: flatbed strongly preferred.",
+      "warn": "PDK REQUIRES POWER. Very high-value — FLATBED ONLY. AWD: flatbed required.",
       "towMethod": "FLATBED STRONGLY PREFERRED (all). E-Hybrid: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
@@ -203,7 +210,12 @@
         "type": "agm-12v",
         "warnings": "AGM battery. E-Hybrid: 12V only, flatbed only."
       },
-      "knownIssues": []
+      "knownIssues": [
+        {
+          "title": "PDK Requires 12V Power to Shift — Mechanical Override Requires Significant Force",
+          "detail": "Porsche's PDK dual-clutch transmission is electro-hydraulic. Without 12V power it will NOT shift reliably. The mechanical override requires very firm sustained pressure — much more than a standard shift interlock. Always restore 12V power before attempting any shift. All Porsche vehicles are high-value — FLATBED ONLY."
+        }
+      ]
     },
     {
       "make": "Porsche",
@@ -218,12 +230,15 @@
       "gvwr": "5,423+ lbs",
       "slot": "Gear selector at center console — override slot or PDK lever slot",
       "shift": [
-        "Turn ignition to ON.",
-        "Gas Macan: locate the override slot at the selector base. Insert key and press firmly.",
-        "Press the brake pedal while holding.",
-        "Move the PDK lever or selector to N. Confirm N.",
-        "Macan EV (2024+): restore 12V power — battery in frunk area. Use the PCM touchscreen Service menu to select Tow Mode.",
-        "FLATBED STRONGLY PREFERRED on all Macan trims — PDK dual-clutch and permanent AWD."
+        "PREFERRED: Turn ignition to ON. PDK/Tiptronic selector — move to N normally.",
+        "PDK (Porsche Doppelkupplung) is ELECTRO-HYDRAULIC — it REQUIRES 12V power to shift.",
+        "WITHOUT POWER: connect jump pack to battery first.",
+        "Battery location: under hood for Cayenne, Macan. Under hood or trunk for Panamera/911 (verify by model).",
+        "Once powered, press brake and move PDK lever or press N button to select N.",
+        "MECHANICAL OVERRIDE (last resort): locate override slot at base of PDK lever/selector.",
+        "Insert thin flathead. Press firmly. Apply sustained pressure for up to 15 seconds.",
+        "While holding, press brake and move selector to N.",
+        "Very high value — FLATBED ONLY for all Porsche models."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -234,7 +249,7 @@
         "EPB: restore 12V and hold EPB button to release."
       ],
       "notes": "Macan EV (2024+): FLATBED ONLY, electric drivetrain, Tow Mode via PCM.",
-      "warn": "Macan EV: FLATBED ONLY. Gas AWD: flatbed strongly preferred.",
+      "warn": "PDK REQUIRES POWER. Very high-value — FLATBED ONLY. AWD: flatbed required.",
       "towMethod": "Gas: flatbed strongly preferred. Macan EV: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
@@ -265,7 +280,12 @@
         "type": "agm-12v",
         "warnings": "Macan EV: flatbed only, 12V only. Gas AWD: flatbed preferred."
       },
-      "knownIssues": []
+      "knownIssues": [
+        {
+          "title": "PDK Requires 12V Power to Shift — Mechanical Override Requires Significant Force",
+          "detail": "Porsche's PDK dual-clutch transmission is electro-hydraulic. Without 12V power it will NOT shift reliably. The mechanical override requires very firm sustained pressure — much more than a standard shift interlock. Always restore 12V power before attempting any shift. All Porsche vehicles are high-value — FLATBED ONLY."
+        }
+      ]
     },
     {
       "make": "Porsche",
@@ -280,12 +300,15 @@
       "gvwr": "5,291+ lbs",
       "slot": "PDK lever or electronic selector — override at selector base",
       "shift": [
-        "Turn ignition to ON.",
-        "The Panamera uses a 7-speed or 8-speed PDK — locate the override slot at the selector base.",
-        "Insert a thin key or flathead into the slot and press firmly.",
-        "Press the brake pedal while holding.",
-        "Move the PDK selector to N. Confirm N on the display.",
-        "E-Hybrid PHEV: restore 12V power first. Never touch orange HV cables."
+        "PREFERRED: Turn ignition to ON. PDK/Tiptronic selector — move to N normally.",
+        "PDK (Porsche Doppelkupplung) is ELECTRO-HYDRAULIC — it REQUIRES 12V power to shift.",
+        "WITHOUT POWER: connect jump pack to battery first.",
+        "Battery location: under hood for Cayenne, Macan. Under hood or trunk for Panamera/911 (verify by model).",
+        "Once powered, press brake and move PDK lever or press N button to select N.",
+        "MECHANICAL OVERRIDE (last resort): locate override slot at base of PDK lever/selector.",
+        "Insert thin flathead. Press firmly. Apply sustained pressure for up to 15 seconds.",
+        "While holding, press brake and move selector to N.",
+        "Very high value — FLATBED ONLY for all Porsche models."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -297,7 +320,7 @@
         "EPB: restore 12V and hold EPB button."
       ],
       "notes": "E-Hybrid PHEV: flatbed only. RWD models can be wheel-lifted from front.",
-      "warn": "E-Hybrid: FLATBED ONLY. AWD: flatbed preferred.",
+      "warn": "PDK REQUIRES POWER. Very high-value — FLATBED ONLY. AWD: flatbed required.",
       "towMethod": "RWD: lift from front. AWD: flatbed preferred. E-Hybrid: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
@@ -328,7 +351,12 @@
         "type": "agm-12v",
         "warnings": "AGM battery. E-Hybrid: 12V only, flatbed only."
       },
-      "knownIssues": []
+      "knownIssues": [
+        {
+          "title": "PDK Requires 12V Power to Shift — Mechanical Override Requires Significant Force",
+          "detail": "Porsche's PDK dual-clutch transmission is electro-hydraulic. Without 12V power it will NOT shift reliably. The mechanical override requires very firm sustained pressure — much more than a standard shift interlock. Always restore 12V power before attempting any shift. All Porsche vehicles are high-value — FLATBED ONLY."
+        }
+      ]
     },
     {
       "make": "Porsche",
@@ -343,11 +371,9 @@
       "gvwr": "3,638–4,409 lbs",
       "slot": "PDK: selector base override slot. Manual: no shift lock — select N via clutch.",
       "shift": [
-        "Turn ignition to ON.",
-        "PDK TRANSMISSION: locate the override slot at the PDK selector base. Insert key and press firmly. Press brake. Move to N.",
-        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral. No shift lock exists.",
-        "Confirm N on the instrument cluster (PDK).",
-        "IMPORTANT: 911 is RWD — lift from FRONT. Rear wheels roll on ground."
+        "MANUAL TRANSMISSION: depress clutch fully, move gear lever to N. No shift lock.",
+        "PDK (optional): see PDK procedure above — requires 12V power.",
+        "High-value — FLATBED ONLY with padded equipment."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -359,7 +385,7 @@
         "Very low clearance — use flatbed with wheel grids, never hook body panels."
       ],
       "notes": "BATTERY IS IN THE FRUNK (front storage) — not at the rear engine. This is a common mistake.",
-      "warn": "Battery is in the FRUNK, not at the rear engine bay. AWD (4S/Turbo): flatbed preferred.",
+      "warn": "PDK REQUIRES POWER. Very high-value — FLATBED ONLY. AWD: flatbed required.",
       "towMethod": "RWD: lift from front (rear engine/drive wheels roll) or flatbed. AWD: flatbed preferred.",
       "tc": null,
       "towNotes": [
@@ -399,6 +425,10 @@
         {
           "title": "Very Low Ground Clearance",
           "detail": "Many 911 variants have very low ground clearance, especially with PASM sport suspension lowered. Use caution during flatbed approach angle. Lowered 911s may need blocks or minimal ramp angle."
+        },
+        {
+          "title": "PDK Requires 12V Power to Shift — Mechanical Override Requires Significant Force",
+          "detail": "Porsche's PDK dual-clutch transmission is electro-hydraulic. Without 12V power it will NOT shift reliably. The mechanical override requires very firm sustained pressure — much more than a standard shift interlock. Always restore 12V power before attempting any shift. All Porsche vehicles are high-value — FLATBED ONLY."
         }
       ]
     },
@@ -415,18 +445,21 @@
       "gvwr": "5,732+ lbs",
       "slot": "Touchscreen on PCM — Service > Tow Mode. Or override slot near selector.",
       "shift": [
-        "PREFERRED METHOD: Use the Porsche Communication Management (PCM) touchscreen — Menu > Service > Tow Mode. This safely engages Neutral AND releases the EPB automatically.",
-        "MANUAL OVERRIDE: locate the slot near the selector base. Insert key and press. Move to N.",
-        "WITHOUT POWER: open the front hood (frunk). Connect jump pack to the 12V auxiliary battery in the frunk. Restore power, then use PCM Tow Mode.",
-        "FLATBED ONLY — electric drivetrain. Regenerative braking will damage motors if wheels rotate while being towed."
+        "Turn vehicle to ON/Ready mode.",
+        "PREFERRED: use PCM (Porsche Communication Management) touchscreen.",
+        "Navigate to: Vehicle > Service > Tow mode. Activate Tow Mode.",
+        "This locks the vehicle in N for safe flatbed loading.",
+        "WITHOUT POWER: connect jump pack to 12V auxiliary battery under the hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV components.",
+        "Once powered, use PCM Tow Mode.",
+        "Mechanical override slot near selector base exists but requires power for best results."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "12V auxiliary battery is in the FRUNK (front storage compartment under the front hood) — NOT in the rear trunk.",
-        "Connect jump pack to frunk 12V terminals ONLY. NEVER touch the orange high-voltage cables.",
-        "Once 12V power is restored, use PCM Tow Mode: Menu > Service > Tow Mode.",
-        "Tow Mode releases the EPB and engages Neutral in one step.",
-        "FLATBED ONLY. Very heavy vehicle — verify flatbed weight rating."
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary battery under the hood.",
+        "12V AUXILIARY ONLY — never touch HV battery (orange cables).",
+        "Activate Tow Mode via PCM before loading.",
+        "VERY HIGH VALUE — use padded flatbed equipment only."
       ],
       "notes": "FLATBED ONLY. Tow Mode via PCM. 12V battery in frunk.",
       "warn": "FLATBED ONLY. Never tow with any driven wheels on ground. 12V auxiliary only — never touch HV system.",
@@ -461,7 +494,7 @@
         "location": "FRUNK (front hood / front storage) — NOT under rear trunk floor",
         "jumpTerminals": "Frunk — 12V auxiliary red (+) / black (−) terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "FLATBED ONLY. 12V auxiliary ONLY — NEVER touch orange HV battery cables. Tow Mode via PCM is required."
+        "warnings": "FLATBED ONLY. Never touch HV system. PCM Tow Mode is correct procedure. Very high value."
       },
       "knownIssues": [
         {
@@ -487,10 +520,15 @@
       "gvwr": "3,417–4,079 lbs",
       "slot": "PDK: selector base override slot. Manual: no lock.",
       "shift": [
-        "Turn ignition to ON.",
-        "PDK TRANSMISSION: locate the override slot at the PDK selector base. Insert key and press firmly. Press brake. Move to N.",
-        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral. No shift lock exists.",
-        "IMPORTANT: Boxster/Cayman is mid-engine RWD — battery is in the FRUNK (front storage), not at the rear engine."
+        "PREFERRED: Turn ignition to ON. PDK/Tiptronic selector — move to N normally.",
+        "PDK (Porsche Doppelkupplung) is ELECTRO-HYDRAULIC — it REQUIRES 12V power to shift.",
+        "WITHOUT POWER: connect jump pack to battery first.",
+        "Battery location: under hood for Cayenne, Macan. Under hood or trunk for Panamera/911 (verify by model).",
+        "Once powered, press brake and move PDK lever or press N button to select N.",
+        "MECHANICAL OVERRIDE (last resort): locate override slot at base of PDK lever/selector.",
+        "Insert thin flathead. Press firmly. Apply sustained pressure for up to 15 seconds.",
+        "While holding, press brake and move selector to N.",
+        "Very high value — FLATBED ONLY for all Porsche models."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -501,7 +539,7 @@
         "Very low ground clearance — use flatbed with care, minimal approach angle."
       ],
       "notes": "Mid-engine. Battery in frunk (front storage). RWD — lift from front.",
-      "warn": "Battery is in the FRUNK (front storage area). Very low ground clearance.",
+      "warn": "PDK REQUIRES POWER. Very high-value — FLATBED ONLY. AWD: flatbed required.",
       "towMethod": "Lift from front (rear drive wheels roll) or flatbed. Flatbed preferred for low-clearance models.",
       "tc": null,
       "towNotes": [
@@ -532,6 +570,10 @@
         {
           "title": "Battery in Frunk, Not Under Rear Trunk",
           "detail": "Mid-engine layout means the rear has the engine, the front has the storage area (frunk) where the battery lives. The rear 'trunk' is actually the engine compartment. Do not confuse the two."
+        },
+        {
+          "title": "PDK Requires 12V Power to Shift — Mechanical Override Requires Significant Force",
+          "detail": "Porsche's PDK dual-clutch transmission is electro-hydraulic. Without 12V power it will NOT shift reliably. The mechanical override requires very firm sustained pressure — much more than a standard shift interlock. Always restore 12V power before attempting any shift. All Porsche vehicles are high-value — FLATBED ONLY."
         }
       ]
     },
@@ -544,21 +586,20 @@
       "drivetrain": "RWD",
       "slot": "Small cap near gear selector base on center console (auto only)",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "AUTOMATIC: Locate shift lock cap near selector base on center console.",
-        "Pry off cap with small flathead. Insert key or thin flathead, press firmly.",
-        "While holding, press brake. Move selector to Neutral.",
-        "MANUAL TRANSMISSION: depress clutch fully, move gear lever to Neutral."
+        "Turn ignition to ON.",
+        "MANUAL TRANSMISSION (most common): depress clutch fully, move lever to Neutral.",
+        "AUTOMATIC (Tiptronic, some 944 S2/Turbo): locate slot near selector base on console.",
+        "Pry off cap. Insert thin flathead. Press firmly. Hold. Press brake. Move to N.",
+        "VERY HIGH VALUE — FLATBED ONLY with padded equipment."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood (944/968 front engine).",
-        "Once powered, shift to Neutral.",
-        "Manual: depress clutch, select Neutral.",
-        "High-value vehicle — flatbed preferred."
+        "Manual: depress clutch, select N.",
+        "Auto: connect jump pack — under hood. Once powered, shift to N.",
+        "RWD: lift from rear. FLATBED PREFERRED — high value, low clearance."
       ],
-      "notes": "Front-engine, RWD. Manual is most common. High-value collectible. Flatbed preferred.",
-      "warn": "High-value collectible — flatbed preferred.",
+      "notes": "Manual is most common. Auto: 4-speed traditional. Both: high value — flatbed preferred.",
+      "warn": "High-value collectible — FLATBED ONLY. Padded equipment.",
       "towMethod": "RWD: lift from rear. Flatbed preferred.",
       "tc": null,
       "towNotes": [
@@ -582,20 +623,20 @@
       "drivetrain": "RWD",
       "slot": "Small cap near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "AUTOMATIC: Locate shift lock cap near selector base on center console.",
-        "Pry off cap, insert flathead, press firmly, hold, press brake, move to Neutral.",
-        "MANUAL: depress clutch, move to Neutral."
+        "Turn ignition to ON.",
+        "AUTOMATIC (most US-market 928): locate slot near selector base on center console.",
+        "Pry off cap. Insert thin flathead. Press firmly. Hold. Press brake. Move to N.",
+        "MANUAL TRANSMISSION (rare US): depress clutch fully, move lever to Neutral.",
+        "VERY HIGH VALUE — FLATBED ONLY with padded equipment."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — battery is in the REAR of the engine compartment (front-engine, rear-mounted transaxle).",
-        "Battery may be under the rear cargo floor.",
-        "Once powered, shift to Neutral.",
-        "High-value — flatbed preferred."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "RWD: lift from rear. FLATBED PREFERRED — very high value."
       ],
-      "notes": "Front-engine, RWD, rear transaxle. Very high-value collectible. Battery location: verify — may be rear.",
-      "warn": "High-value collectible — flatbed ONLY. Verify battery location.",
+      "notes": "Front-engine, RWD. Battery under hood (front). Very high-value collectible.",
+      "warn": "High-value collectible — FLATBED ONLY. Padded equipment.",
       "towMethod": "RWD: lift from rear. Flatbed strongly preferred.",
       "tc": null,
       "towNotes": [

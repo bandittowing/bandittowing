@@ -23,19 +23,31 @@
       "drivetrain": "RWD or AWD",
       "curbWeight": "3,671–4,101 lbs",
       "gvwr": "5,181–5,401 lbs",
-      "slot": "JaguarDrive rotary dial — override near rotary base or under console trim",
+      "slot": "Pre-2016 XF: Emergency Park Release (EPR) lever hidden behind REAR of center console. Remove the narrow trim piece in front of the center storage compartment (no screws — pry gently with plastic tool). 2016+ XF: shift interlock override lever is in the ENGINE COMPARTMENT on the DRIVER-SIDE intake manifold — remove black plastic cover on intake manifold by lifting upward.",
       "shift": [
-        "Locate override slot near rotary dial base under console trim.",
-        "Insert key, press plunger.",
-        "Press brake. Rotate dial to N (or press N on newer electronic selector).",
-        "Confirm N on cluster."
+        "PREFERRED (with power): Turn ignition to ON. Use JaguarDrive rotary selector — it rises from the console. Rotate to N.",
+        "WITHOUT POWER — Pre-2016 XF (EPR in console):",
+        "Remove the narrow trim piece at the REAR of the center console (in front of the storage compartment).",
+        "Use a flat-bladed screwdriver to rotate the locking device 90 degrees COUNTERCLOCKWISE.",
+        "Press the brake pedal firmly.",
+        "Pull the EPR lever UPWARD using the strap — pull until it latches in the vertical position.",
+        "The JaguarDrive selector will remain showing P, but the gear display will flash N — this is correct.",
+        "WITHOUT POWER — 2016+ XF (EPR under intake manifold):",
+        "Open the hood. Locate the driver-side intake manifold.",
+        "Remove the black plastic cover on the intake manifold by lifting upward.",
+        "Lift the black lever on the shift interlock override to the VERTICAL position.",
+        "Engage the securing latch to hold the lever in position.",
+        "Transmission stays in Neutral until the override is released."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood (standard).",
-        "Connect jump pack.",
-        "Restore power. Shift via dial or override.",
-        "AWD: flatbed preferred."
+        "CRITICAL: The EPB (electronic parking brake) may also be engaged.",
+        "Activating the EPR releases the transmission Park lock — it may NOT automatically release the EPB.",
+        "If EPB remains engaged: in some cases connecting a jump pack and using the EPB service procedure may be needed.",
+        "For towing: confirm vehicle rolls freely before loading onto flatbed.",
+        "FLATBED preferred for all Jaguar XF models — AWD and FWD variants exist.",
+        "Battery is in the TRUNK on most XF generations. Jump terminals: some XF have a remote jump post under the hood.",
+        "Connect jump pack to battery in trunk, or use remote under-hood terminal if present."
       ],
       "notes": "Rotary 'JaguarDrive' selector. AWD: flatbed preferred.",
       "warn": "AWD: flatbed preferred.",
@@ -64,8 +76,12 @@
       },
       "knownIssues": [
         {
-          "title": "EPB Manual Release Requires Wiring Access",
-          "detail": "The manual release for the XF's electronic parking brake requires accessing the EPB motor connector in the trunk and connecting directly to the motor pins with spade connectors. Without power and without this method, the EPB cannot be released. A jump start is strongly preferred over the manual method."
+          "title": "EPR Procedure Differs Between Pre-2016 and 2016+ XF",
+          "detail": "Pre-2016 XF: EPR lever is behind the center console trim. 2016+ XF: shift interlock override is on the ENGINE COMPARTMENT driver-side intake manifold. Many operators and even some owners do not know the 2016+ location. Always confirm the model year before attempting console access."
+        },
+        {
+          "title": "EPR Does NOT Release the Electronic Parking Brake",
+          "detail": "The EPR releases only the transmission Park lock. The Electronic Park Brake (EPB) is a separate system and may remain engaged. If the vehicle does not roll freely after activating EPR, the EPB is still applied. Restoring 12V power is required to release the EPB using the normal EPB service procedure."
         }
       ]
     },
@@ -82,9 +98,13 @@
       "gvwr": "Not published — check door jamb",
       "slot": "Electronic selector override near selector base under console trim",
       "shift": [
-        "Locate override near selector base.",
-        "Insert key, press.",
-        "Press brake. Move to N. Confirm."
+        "PREFERRED (with power): Turn ignition to ON. Use the JaguarDrive rotary/electronic selector to select N.",
+        "WITHOUT POWER:",
+        "Remove the narrow trim piece at the REAR of center console (pry gently with plastic tool — no screws).",
+        "Rotate the locking device 90 degrees COUNTERCLOCKWISE with a flat screwdriver.",
+        "Press the brake pedal.",
+        "Pull the EPR strap/lever UPWARD until it latches in the vertical position.",
+        "The gear display will flash N. Vehicle is now in Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -132,11 +152,13 @@
       "gvwr": "5,423 lbs",
       "slot": "JaguarDrive rotary dial — override under console trim near dial base",
       "shift": [
-        "Locate override under rotary dial base in console.",
-        "Insert key, press plunger.",
-        "Press brake. Rotate dial or use button to select N.",
-        "Confirm N.",
-        "PHEV: restore 12V first."
+        "PREFERRED (with power): Turn ignition to ON. Use the JaguarDrive rotary/electronic selector to select N.",
+        "WITHOUT POWER:",
+        "Remove the narrow trim piece at the REAR of center console (pry gently with plastic tool — no screws).",
+        "Rotate the locking device 90 degrees COUNTERCLOCKWISE with a flat screwdriver.",
+        "Press the brake pedal.",
+        "Pull the EPR strap/lever UPWARD until it latches in the vertical position.",
+        "The gear display will flash N. Vehicle is now in Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -242,16 +264,20 @@
       "gvwr": "5,954 lbs",
       "slot": "Electronic touchscreen — Service menu for Tow Mode / Neutral. Override near selector base.",
       "shift": [
-        "PREFERRED: Use touchscreen Service menu to select Tow Mode / Neutral.",
-        "Override: locate slot near selector base. Insert key, press. Press brake. Move to N.",
-        "Without power: connect 12V jump pack to under-hood or accessible terminals first."
+        "I-Pace EV: FLATBED ONLY.",
+        "PREFERRED (with power): Touch the touchscreen to access the Service menu — put vehicle in Neutral/Tow mode.",
+        "WITHOUT POWER:",
+        "Attempt to restore 12V auxiliary power first — jump terminals under the hood (front).",
+        "Once powered, use touchscreen Service menu.",
+        "Emergency mechanical release: similar to XF EPR — remove rear console trim, rotate locking device, pull strap.",
+        "NEVER touch orange high-voltage cables or components."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "12V battery accessible under hood or in dedicated access point.",
-        "Connect jump pack to 12V terminals.",
-        "Restore power. Use Service menu for Tow Mode.",
-        "FLATBED ONLY. NEVER touch HV battery (orange cables)."
+        "FLATBED ONLY — electric drivetrain.",
+        "Connect jump pack to 12V auxiliary battery under the hood.",
+        "12V AUXILIARY ONLY — never touch HV battery.",
+        "Once powered, use touchscreen to select Neutral.",
+        "Emergency console EPR is a last resort (same procedure as XF)."
       ],
       "notes": "FLATBED ONLY. Electric drivetrain. Tow Mode via touchscreen.",
       "warn": "FLATBED ONLY. 12V only — never touch HV orange cables/battery.",
@@ -353,19 +379,24 @@
       "drivetrain": "RWD or AWD",
       "curbWeight": "3,902–4,409 lbs",
       "gvwr": "5,181–5,512 lbs",
-      "slot": "JaguarDrive rotary dial — override under console trim near dial base",
+      "slot": "Emergency Park Release (EPR): remove rear center console trim piece (narrow piece in front of storage compartment — pry with plastic tool, no screws). Locking device and pull strap are behind this trim.",
       "shift": [
-        "Override under rotary dial base.",
-        "Insert key, press plunger.",
-        "Press brake. Rotate dial to N.",
-        "Confirm N."
+        "PREFERRED (with power): Turn ignition to ON. JaguarDrive rotary selector rises. Rotate to N.",
+        "WITHOUT POWER — EPR procedure:",
+        "Remove the narrow trim piece at the REAR of the center console (no screws — pry gently).",
+        "Use a flat-bladed screwdriver to rotate the locking device 90 degrees COUNTERCLOCKWISE.",
+        "Press the brake pedal firmly.",
+        "Pull the EPR strap/lever UPWARD until it latches vertically.",
+        "The selector display will flash N to confirm EPR is active.",
+        "Battery is in the TRUNK — jump pack to trunk battery before attempting EPR if possible."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack.",
-        "Restore power. Shift via dial.",
-        "AWD: flatbed preferred."
+        "Battery is in the TRUNK — open the trunk to access battery for jumping.",
+        "Attempt to restore 12V power before EPR if possible (EPR works without power, but 12V helps confirm N).",
+        "Activate EPR as described in shift steps.",
+        "Confirm vehicle rolls freely — EPB may still be engaged separately.",
+        "FLATBED preferred — permanent AWD on most XJ variants."
       ],
       "notes": "Flagship luxury sedan. Aluminum body — do NOT use standard chain/hook on body.",
       "warn": "Aluminum body — do NOT hook or chain to body panels. AWD: flatbed preferred.",
@@ -499,21 +530,24 @@
       "yearEnd": 2008,
       "trans": "5-speed automatic (ZF 5HP24) or 6-speed automatic (ZF 6HP26)",
       "drivetrain": "RWD or AWD",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Emergency Park Release (EPR): remove rear center console trim (pry the narrow trim panel behind the gear selector — no screws). Locking device and pull strap are behind this trim.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "PREFERRED (with power): Turn ignition to ON. JaguarDrive rotary or J-gate lever rises/activates. Select N.",
+        "WITHOUT POWER — EPR in center console:",
+        "Remove the narrow trim piece at the REAR of the center console (pry gently — no screws).",
+        "Using a flat-bladed screwdriver, rotate the locking device 90 degrees COUNTERCLOCKWISE.",
+        "Press the brake pedal firmly.",
+        "Pull the EPR strap/lever UPWARD until it latches vertically.",
+        "Gear display will flash N to confirm EPR is active."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — in the TRUNK (boot), passenger side.",
-        "S-Type battery is in the trunk — do NOT look under the hood.",
-        "Once powered, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "BATTERY IS IN THE TRUNK — open trunk to access battery.",
+        "Connect jump pack to 12V battery in trunk. Restore power if possible.",
+        "Once powered, shift to N via selector.",
+        "EPR method above works without power if jump is not possible.",
+        "IMPORTANT: EPR does NOT release the Electronic Park Brake — EPB is a separate system.",
+        "FLATBED PREFERRED — RWD or AWD variants."
       ],
       "notes": "Battery in TRUNK. AWD: flatbed preferred.",
       "warn": "Battery is in the TRUNK — not under the hood.",
@@ -528,13 +562,21 @@
         {
           "title": "Battery in Trunk (Boot)",
           "detail": "The S-Type 12V battery is in the trunk (boot) on the passenger side. There is no battery under the hood. Always open the trunk to access jump terminals."
+        },
+        {
+          "title": "Battery in Trunk — Not Under Hood",
+          "detail": "The S-Type 12V battery is in the trunk. Opening the hood will not find the battery. Open the trunk and look under the cargo floor."
+        },
+        {
+          "title": "Battery in Trunk — Not Under Hood",
+          "detail": "The S-Type battery is in the trunk. Connect jump pack to trunk battery. The EPR (Emergency Park Release) in the center console is the mechanical backup for getting into Neutral."
         }
       ],
       "battery": {
-        "location": "TRUNK (boot) — passenger side",
-        "jumpTerminals": "Trunk — 12V battery terminals",
+        "location": "TRUNK — under cargo floor on driver side",
+        "jumpTerminals": "Trunk — 12V battery terminals, driver side",
         "type": "standard-12v",
-        "warnings": "Battery in trunk — not under the hood."
+        "warnings": "Battery in TRUNK — not under hood. EPR in center console for emergency neutral."
       }
     },
     {
@@ -544,20 +586,18 @@
       "yearEnd": 2008,
       "trans": "5-speed automatic (Ford 5R55N) or 5-speed manual",
       "drivetrain": "AWD (standard) or FWD (rare)",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Shift lever — standard slot near selector base under small trim cover.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON.",
+        "Locate shift lock override: small slot or cap near the selector base on center console.",
+        "Pry off cap if present. Insert thin flathead. Press firmly. Hold. Press brake. Move to N.",
+        "AWD standard — FLATBED PREFERRED."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "Permanent AWD: FLATBED PREFERRED."
       ],
       "notes": "Ford Mondeo-based platform. AWD is standard on most US models — flatbed preferred. Manual: depress clutch, select Neutral.",
       "warn": "AWD standard on US models: flatbed preferred.",
@@ -582,23 +622,19 @@
       "yearEnd": 2015,
       "trans": "5-speed automatic (ZF 5HP24) or 6-speed automatic (ZF 6HP26, X150)",
       "drivetrain": "RWD",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "X100 (1997-2006): EPR lever in TRUNK — small access panel near battery on driver side. X150 (2006-2015): standard under-hood shift interlock override near selector base.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON.",
+        "X100 (1997-2006): J-gate selector — locate cap or override near selector base. Pry, insert key, press, hold, press brake, move to N.",
+        "X150 (2007-2014): JaguarDrive rotary — rotary rises on ignition. Without power: EPR under console trim.",
+        "EPR without power: remove rear console trim, rotate lock 90° CCW, press brake, pull strap upward."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — battery location varies: X100 has battery in boot (trunk); X150 has a remote terminal under the hood.",
-        "X100 (1997-2006): BATTERY IN TRUNK (boot) — passenger side.",
-        "X150 (2007-2015): Jump terminals are under the hood — battery itself may be in the trunk.",
-        "Once powered, press brake and shift to Neutral.",
-        "High-value vehicle — flatbed preferred."
+        "X100: battery under hood — connect jump pack.",
+        "X150: battery may be in TRUNK — verify by opening both hoods.",
+        "Once powered, shift to N.",
+        "Very high value — FLATBED ONLY with padded equipment."
       ],
       "notes": "X100 (1997-2006): battery in TRUNK. X150 (2007-2015): jump terminals under hood. High-value sports car.",
       "warn": "Battery location varies by generation — see notes. High value — flatbed preferred.",
@@ -616,10 +652,10 @@
         }
       ],
       "battery": {
-        "location": "X100: TRUNK (boot). X150: jump terminals under hood (battery in trunk on some trims).",
-        "jumpTerminals": "X100: trunk. X150: under hood remote terminals",
+        "location": "X100 (1997-2006): under hood. X150 (2007-2014): TRUNK — verify by generation.",
+        "jumpTerminals": "X100: under hood terminals. X150: may be trunk — check before jumping.",
         "type": "standard-12v",
-        "warnings": "Battery or remote terminals location varies by generation."
+        "warnings": "High-value vehicle — flatbed only with padded equipment. X150 may have trunk battery."
       }
     },
     {
@@ -629,21 +665,24 @@
       "yearEnd": 2009,
       "trans": "6-speed automatic (ZF 6HP26)",
       "drivetrain": "RWD or AWD",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Emergency Park Release (EPR): remove rear center console trim (pry narrow trim panel behind gear selector). Rotate locking device 90° CCW, pull strap upward to vertical.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON.",
+        "JaguarDrive rotary selector rises on ignition. Select N.",
+        "WITHOUT POWER — EPR:",
+        "Remove narrow trim piece at REAR of center console (no screws — pry gently).",
+        "Rotate locking device 90° COUNTERCLOCKWISE with flat screwdriver.",
+        "Press brake firmly.",
+        "Pull EPR strap/lever UPWARD until latched vertically.",
+        "Gear display flashes N to confirm."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — BATTERY IS IN THE TRUNK (boot).",
-        "Open the trunk and access the battery directly.",
-        "Once powered, press brake and shift to Neutral."
+        "BATTERY IS IN THE TRUNK — open trunk to access.",
+        "Connect jump pack to trunk battery.",
+        "Restore power if possible before EPR.",
+        "FLATBED PREFERRED — RWD or AWD variants.",
+        "NOTE: EPR does NOT release the Electronic Park Brake."
       ],
       "notes": "Battery in TRUNK. Aluminum body — do NOT use magnetic attachments or standard rubber-pad wheel restraints on exposed aluminum.",
       "warn": "Battery in TRUNK. Aluminum body — avoid magnetic equipment.",
@@ -661,10 +700,10 @@
         }
       ],
       "battery": {
-        "location": "TRUNK (boot)",
+        "location": "TRUNK — under cargo floor",
         "jumpTerminals": "Trunk — 12V battery terminals",
         "type": "standard-12v",
-        "warnings": "Battery in trunk. Aluminum body — use appropriate equipment."
+        "warnings": "Battery in TRUNK — not under hood. FLATBED preferred."
       }
     }
   ]

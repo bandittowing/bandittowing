@@ -250,13 +250,9 @@
       "trans": "5-speed, 7-speed, or 8-speed automatic",
       "slot": "Cap near gear selector base on console",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Cap near gear selector base on console.",
-        "Pry off the cap or cover if present using your ignition key or a small flathead.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "Turn ignition to ON (do not start).",
+        "Locate shift lock cap near gear selector base on console.",
+        "Pry off cap. Insert key or thin flathead. Press firmly. Hold while pressing brake. Move to N."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -309,16 +305,17 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "FWD: lift from front."
       ],
       "notes": "Nissan Maxima-based platform. FWD.",
       "warn": "",
@@ -345,17 +342,18 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "AWD: flatbed preferred. RWD: lift from rear."
       ],
       "notes": "M35/M45 (2003-2010), Q70 (2014-2019). AWD: flatbed preferred.",
       "warn": "AWD: flatbed preferred.",
@@ -383,17 +381,18 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "AWD: flatbed preferred."
       ],
       "notes": "AWD: flatbed preferred. High-performance AWD system — do not tow AWD variants with wheels on ground.",
       "warn": "AWD: flatbed preferred.",
@@ -422,17 +421,17 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "Transfer case: shift to 2WD/2H before road towing."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "TC: manual floor lever — shift to 2H before road towing."
       ],
       "notes": "Nissan Pathfinder R50-based. Manual TC floor lever. Must be in 2H for road towing.",
       "warn": "Shift TC to 2H before road towing.",
@@ -446,8 +445,9 @@
         ],
         "steps": [
           "Stop completely.",
-          "Move TC floor lever to 2WD.",
-          "Confirm 2WD before lifting rear wheels."
+          "Move the TC floor lever to 2H (2WD).",
+          "Confirm 2H before lifting rear wheels.",
+          "NEVER tow in 4H or 4L on dry pavement."
         ]
       },
       "towNotes": [

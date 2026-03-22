@@ -92,12 +92,12 @@
       "trans": "5-speed, 7-speed, or 9-speed automatic",
       "slot": "Column selector (W220) or console selector (W221+) — slot at selector base",
       "shift": [
-        "Turn ignition to ON.",
-        "This vehicle uses a COLUMN-MOUNTED shifter — the shift lock slot is on the STEERING COLUMN, not the floor console.",
-        "Locate the slot on the steering column — Column selector (W220) or console selector (W221+) — slot at selector base.",
-        "Insert a thin key or flathead into the slot on the column.",
-        "Press firmly while pressing the brake pedal.",
-        "Move the column shifter to Neutral."
+        "W220 (2000-2006): COLUMN SHIFTER — slot at base of the column selector on steering column.",
+        "Insert thin flathead into column slot. Press firmly. Press brake. Move column lever to N.",
+        "W221 (2007-2013): console-mounted selector — slot at base of selector housing.",
+        "Pry trim cover at selector base. Insert flathead. Press firmly. Hold. Press brake. Move to N.",
+        "W222/W223 (2014+): electronic selector — same console slot method. 7G/9G-Tronic: power preferred.",
+        "AGM battery: restore 12V before shifting for best results."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -187,18 +187,17 @@
       "trans": "Single-speed electric",
       "slot": "Electronic selector — slot near selector base",
       "shift": [
-        "Turn the Mercedes-Benz EQC / EQE / EQS / EQA / EQB (Electric) to ON/Ready mode.",
-        "Shift lock slot: Electronic selector — slot near selector base.",
-        "Insert a thin key or flathead into the slot and press firmly.",
-        "Press the brake pedal while holding the slot.",
-        "Move selector to N.",
-        "FLATBED ONLY — do not tow with driven wheels on the ground."
+        "Turn vehicle to ON/Ready mode.",
+        "Electronic selector — use touchscreen or physical selector button to choose N.",
+        "EQS: touchscreen on MBUX Hyperscreen — navigate to drive mode, select N.",
+        "If power is lost: connect jump pack to 12V auxiliary terminal under hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV components."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Connect jump pack to battery — Varies by model — check owner's manual for 12V auxiliary location. 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack.",
-        "Once 12V power is restored, press brake and shift to N normally.",
-        "FLATBED ONLY."
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — never touch HV system (orange cables).",
+        "Once powered, select N electronically."
       ],
       "notes": "Do NOT touch the high-voltage system.",
       "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
@@ -353,20 +352,16 @@
       "drivetrain": "AWD (4MATIC, standard)",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON (do not start).",
+        "Locate shift lock slot at base of gear selector housing on center console.",
+        "Pry off trim cover or slide open cover. Insert thin flathead. Press firmly. Hold. Press brake. Move to N.",
+        "7G-Tronic (W164/W166): restore 12V power first for best results."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood (W163/W164) or in the TRUNK (some W166).",
-        "W163/W164: battery under hood, driver side.",
-        "W166 (2012-2019): battery may be in the trunk — check both locations.",
-        "Once powered, shift to Neutral normally."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "Permanent 4MATIC AWD: FLATBED PREFERRED."
       ],
       "notes": "W166 battery location: some models have battery in trunk. Always verify. Flatbed preferred — full-time 4MATIC.",
       "warn": "Permanent 4MATIC AWD — flatbed preferred. W166: battery may be in trunk.",
@@ -394,19 +389,18 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — BATTERY IS IN THE TRUNK.",
-        "CLK battery is in the trunk — do NOT look under the hood.",
-        "Open the trunk and connect jump pack directly to battery.",
-        "Once powered, shift to Neutral."
+        "BATTERY IS IN THE TRUNK — open trunk, connect jump pack to battery on passenger side.",
+        "Once powered, shift to N.",
+        "RWD: lift from rear. Flatbed preferred."
       ],
       "notes": "Battery in TRUNK on most CLK variants. RWD coupe/convertible.",
       "warn": "Battery in TRUNK — not under the hood.",
@@ -423,10 +417,10 @@
         }
       ],
       "battery": {
-        "location": "TRUNK",
-        "jumpTerminals": "Trunk — 12V battery terminals",
+        "location": "TRUNK — passenger side",
+        "jumpTerminals": "Trunk — 12V battery terminals, passenger side",
         "type": "standard-12v",
-        "warnings": "Battery in trunk."
+        "warnings": "Battery in TRUNK — not under hood."
       }
     },
     {
@@ -439,19 +433,20 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "R129: battery under hood.",
-        "R230/R231: battery in the TRUNK — open trunk for access.",
-        "Connect jump pack. Once powered, shift to Neutral.",
-        "Very high-value vehicle — flatbed strongly preferred."
+        "R129 (1990-2002): battery under hood — connect jump pack normally.",
+        "R230 (2003-2012): BATTERY IN TRUNK — open trunk.",
+        "R231 (2013-2022): BATTERY IN TRUNK — open trunk.",
+        "Once powered, shift to N.",
+        "Very high value — FLATBED ONLY with padded equipment."
       ],
       "notes": "Battery location: R129 (1990-2002) under hood. R230/R231: in TRUNK. Very high-value.",
       "warn": "R230/R231: battery in TRUNK. Very high-value — flatbed ONLY.",
@@ -485,19 +480,20 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — battery location varies.",
-        "R170 (1997-2004): battery under hood.",
-        "R171/R172 (2005-2020): battery in the TRUNK.",
-        "Once powered, shift to Neutral normally."
+        "R170 (1997-2004): battery under hood — connect jump pack normally.",
+        "R171 (2005-2011): BATTERY IN TRUNK — open trunk.",
+        "R172 (2012-2020): BATTERY IN TRUNK — open trunk.",
+        "Once powered, shift to N.",
+        "Low clearance — FLATBED preferred."
       ],
       "notes": "Battery location varies: R170 under hood; R171/R172 in TRUNK. Low clearance — flatbed preferred.",
       "warn": "R171/R172: battery in TRUNK. Low clearance — flatbed preferred.",
@@ -555,11 +551,13 @@
           "Low — low range — NEVER tow on road in low range"
         ],
         "steps": [
-          "Ensure all THREE differential locks are disengaged (center, front, rear locks all OFF).",
-          "TC floor lever must be in High range.",
-          "FLATBED is strongly preferred.",
-          "If wheel-lift: dollies REQUIRED on free-rolling axle.",
-          "IF BATTERY IS DEAD: Jump battery first. VERIFY diff locks are off before moving vehicle."
+          "FIRST: Verify all THREE differential lock indicator lights are OFF on the dashboard.",
+          "Front diff lock, center diff lock, and rear diff lock each have a separate indicator and button.",
+          "If any diff lock light is on: with engine running, press that diff lock button to disengage.",
+          "ALL three lights must be off before road towing.",
+          "G-Class has permanent 4WD — FLATBED is the safest option.",
+          "If wheel-lift must be used: dollies REQUIRED on the free-rolling axle.",
+          "NEVER tow with any differential lock engaged on dry pavement."
         ]
       },
       "towNotes": [
@@ -590,18 +588,17 @@
       "slot": "Small slot near gear selector base on center console or stalk-style selector",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the shift lock release: small slot near gear selector base or stalk selector.",
-        "Insert key or thin flathead and press firmly.",
-        "While holding, press the brake pedal.",
-        "Move selector to Neutral.",
-        "DCT models: power preferred — restore 12V first if possible."
+        "DCT/S-tronic: REQUIRES 12V power — restore battery first.",
+        "Locate override slot near selector base on console.",
+        "Insert thin flathead. Press firmly. Hold. Press brake. Move to N.",
+        "Manual: depress clutch, select N."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "DCT: restore 12V power before shifting — strongly preferred.",
-        "Once powered, shift to Neutral normally.",
-        "AWD: flatbed preferred."
+        "Connect jump pack — under hood.",
+        "DCT: must restore power first.",
+        "Once powered, shift to N.",
+        "4MATIC AWD: FLATBED PREFERRED. Manual: depress clutch."
       ],
       "notes": "DCT on most trims: power preferred. AWD (4MATIC): flatbed preferred.",
       "warn": "DCT: restore power before shifting. AWD: flatbed preferred.",
@@ -612,12 +609,17 @@
         "AWD (4MATIC): flatbed preferred.",
         "DCT: restore 12V power before attempting shift."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "DCT Cannot Shift Without Power",
+          "detail": "A-Class/CLA/GLA DCT (dual-clutch) transmissions are electro-hydraulic. Without 12V power they cannot shift. Always restore battery first."
+        }
+      ],
       "battery": {
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
         "type": "agm-12v",
-        "warnings": "AGM battery — use AGM-compatible jump pack. DCT: restore power before shifting."
+        "warnings": "AGM battery. DCT: must restore power before shifting."
       }
     },
     {
@@ -629,17 +631,15 @@
       "drivetrain": "RWD",
       "slot": "Small slot near gear selector base or stalk-type selector on column",
       "shift": [
-        "Turn ignition to ON.",
-        "Column/stalk-style selector: rotate the stalk or use the slot near the selector base.",
-        "Locate the shift lock release slot.",
-        "Insert key or thin flathead and press firmly.",
-        "While holding, press the brake pedal.",
-        "Move to Neutral."
+        "Turn ignition to ON (do not start).",
+        "Locate shift lock slot near selector base or on console near shifter.",
+        "Insert thin flathead. Press firmly. Hold. Press brake. Move to N."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, shift to Neutral normally."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "RWD: lift from rear. FWD available on some commercial trims: lift from front."
       ],
       "notes": "Cargo/passenger van. Common commercial vehicle. RWD.",
       "warn": "",

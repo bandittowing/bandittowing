@@ -23,20 +23,24 @@
       "drivetrain": "RWD or 4WD (part-time, Torque on Demand)",
       "curbWeight": "5,685–6,056 lbs (varies by wheelbase/drivetrain)",
       "gvwr": "7,300–7,600 lbs",
-      "slot": "Below media hub in center console storage bin — small access hole",
+      "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
       "shift": [
-        "Open center console storage bin lid.",
-        "Locate small override hole below the media hub/USB ports.",
-        "Press and hold the brake shift interlock override button in that hole with a key or flathead.",
-        "While holding, press the N (Neutral) button on the electronic shifter.",
-        "Confirm N is displayed. Release override button."
+        "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
+        "Open the center console storage lid.",
+        "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
+        "Insert a thin flathead screwdriver or key into the hole.",
+        "Press and HOLD the brake-shift interlock switch inside the hole.",
+        "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+        "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
+        "Release the override button.",
+        "Vehicle is now in Neutral for towing."
       ],
       "neutral": [
         "Apply parking brake.",
-        "12V battery is under hood on passenger side near windshield base.",
-        "Connect jump pack to under-hood terminals (red +, black −).",
-        "Once power is restored, use override hole + N button procedure above.",
-        "Confirm N before lifting."
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, use the console hole override method OR shift normally.",
+        "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+        "AWD models: flatbed preferred."
       ],
       "notes": "4WD Torque on Demand: transfer case must be in 2H before wheel-lift tow.",
       "warn": "Transfer case to 2H before towing. Flatbed strongly preferred.",
@@ -86,6 +90,10 @@
         {
           "title": "Override Button Hidden Below Media Hub",
           "detail": "The shift interlock override is NOT at the base of the shifter. It is a small hole BELOW the USB/media hub in the console storage bin. Many operators look at the shifter base and cannot find it. Look inside the bin, below the ports."
+        },
+        {
+          "title": "2023+ Navigator: Console Override Method May Not Work",
+          "detail": "Verified by tow operators in the field: the 2023+ Navigator L does NOT have a functioning console override hole. The manual is reportedly incorrect. Emergency method: crawl under the vehicle to the left side of the transmission. Remove the bolt holding a spring-loaded lever. Use a bungee cord or strap to pull the lever toward the REAR of the vehicle and hold tension. This releases the park pawl. Source: Lincoln Forums (2024), confirmed by tow operators."
         }
       ]
     },
@@ -100,20 +108,24 @@
       "drivetrain": "RWD or AWD",
       "curbWeight": "4,745–5,673 lbs (RWD to AWD Grand Touring PHEV)",
       "gvwr": "Not published — check door jamb label",
-      "slot": "Below media hub in center console storage bin — small access hole",
+      "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
       "shift": [
-        "Open center console storage bin lid.",
-        "Find override hole below the media hub.",
-        "Insert key or flathead, press and hold override button.",
-        "While holding, press N on the electronic shifter.",
-        "Confirm N is displayed."
+        "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
+        "Open the center console storage lid.",
+        "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
+        "Insert a thin flathead screwdriver or key into the hole.",
+        "Press and HOLD the brake-shift interlock switch inside the hole.",
+        "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+        "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
+        "Release the override button.",
+        "Vehicle is now in Neutral for towing."
       ],
       "neutral": [
         "Apply parking brake.",
-        "12V battery under hood, passenger side.",
-        "Connect jump pack. Restore power.",
-        "Use override hole + N button above.",
-        "PHEV: use 12V auxiliary only — NEVER touch high-voltage system."
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, use the console hole override method OR shift normally.",
+        "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+        "AWD models: flatbed preferred."
       ],
       "notes": "Grand Touring PHEV: orange HV cables present — 12V auxiliary only for jump.",
       "warn": "AWD: FLATBED ONLY. PHEV: never touch HV battery.",
@@ -150,19 +162,24 @@
       "drivetrain": "FWD or AWD",
       "curbWeight": "4,007–4,350 lbs",
       "gvwr": "Not published — check door jamb",
-      "slot": "Small plastic cap near base of gear selector on center console",
+      "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate small cap near shifter base. Pry off with flathead.",
-        "Insert key, press down on plunger.",
-        "Press brake. Move selector to N.",
-        "Replace cap."
+        "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
+        "Open the center console storage lid.",
+        "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
+        "Insert a thin flathead screwdriver or key into the hole.",
+        "Press and HOLD the brake-shift interlock switch inside the hole.",
+        "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+        "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
+        "Release the override button.",
+        "Vehicle is now in Neutral for towing."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Shift normally or use slot.",
-        "AWD: flatbed required — do not wheel-lift."
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, use the console hole override method OR shift normally.",
+        "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+        "AWD models: flatbed preferred."
       ],
       "notes": "Earlier MKX (2007-2015) uses traditional shift slot. 2016+ Nautilus has electronic selector.",
       "warn": "AWD: flatbed only.",
@@ -198,20 +215,24 @@
       "drivetrain": "FWD or AWD",
       "curbWeight": "3,653–3,911 lbs",
       "gvwr": "Not published — check door jamb",
-      "slot": "Below media hub in center console storage bin — same as Navigator",
+      "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
       "shift": [
-        "Open center console bin.",
-        "Find override hole below media hub.",
-        "Press and hold with key/flathead.",
-        "Press N button on electronic shifter.",
-        "Confirm N displayed."
+        "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
+        "Open the center console storage lid.",
+        "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
+        "Insert a thin flathead screwdriver or key into the hole.",
+        "Press and HOLD the brake-shift interlock switch inside the hole.",
+        "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+        "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
+        "Release the override button.",
+        "Vehicle is now in Neutral for towing."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood.",
-        "Connect jump pack. Restore power.",
-        "Use override procedure above.",
-        "Hybrid: 12V only — never touch IMA/HV battery."
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, use the console hole override method OR shift normally.",
+        "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+        "AWD models: flatbed preferred."
       ],
       "notes": "Hybrid eCVT equipped trims: 12V auxiliary jump only.",
       "warn": "AWD: flatbed only. Hybrid: 12V only.",
@@ -296,21 +317,24 @@
       "drivetrain": "FWD or AWD",
       "curbWeight": "3,665–4,033 lbs",
       "gvwr": "Not published — check door jamb",
-      "slot": "Below media hub in center console — same override hole as other Lincoln models",
+      "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
       "shift": [
-        "Open center console storage bin.",
-        "Find override hole below USB/media hub area.",
-        "Insert key or flathead, press and hold.",
-        "Press N on electronic shifter.",
-        "Confirm N displayed."
+        "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
+        "Open the center console storage lid.",
+        "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
+        "Insert a thin flathead screwdriver or key into the hole.",
+        "Press and HOLD the brake-shift interlock switch inside the hole.",
+        "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+        "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
+        "Release the override button.",
+        "Vehicle is now in Neutral for towing."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood (cover snaps off). Secondary access under spare tire in rear.",
-        "Pull back red rubber boot on positive terminal to access.",
-        "Connect jump pack. Restore power.",
-        "Use override procedure above.",
-        "AWD: flatbed required."
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, use the console hole override method OR shift normally.",
+        "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+        "AWD models: flatbed preferred."
       ],
       "notes": "Compact crossover. AWD has no TC neutral — flatbed only for AWD.",
       "warn": "AWD: flatbed only.",
@@ -342,14 +366,15 @@
       "yearEnd": 2011,
       "trans": "4-speed automatic (AOD/4R70W)",
       "drivetrain": "RWD",
-      "slot": "Column-mounted shifter — slot on STEERING COLUMN",
+      "slot": "Column-mounted shifter — slot on the STEERING COLUMN, typically at the base of the column lever housing.",
       "shift": [
-        "Turn ignition to ON.",
-        "The Town Car uses a COLUMN-MOUNTED gear selector — shift lock slot is on the STEERING COLUMN.",
-        "Locate the slot on the column near the selector lever base.",
-        "Insert a thin key or flathead into the column slot and press firmly.",
-        "While holding, press the brake pedal.",
-        "Move the column shifter to Neutral."
+        "Turn ignition to ON (key to Run position).",
+        "Column shifter: locate the shift lock override slot at the BASE of the column shifter housing.",
+        "Insert a thin flathead screwdriver into the slot.",
+        "Press firmly and hold.",
+        "Press the brake pedal firmly.",
+        "Move the column lever from Park to Neutral.",
+        "Remove tool."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -379,15 +404,15 @@
       "yearEnd": 2002,
       "trans": "4-speed automatic (4R70W)",
       "drivetrain": "FWD",
-      "slot": "Small cap near selector base on center console",
+      "slot": "Small plastic cap near the gear selector base on the center console.",
       "shift": [
-        "Turn ignition to ON (key to Run position — do not start).",
-        "Locate the shift lock override: small cap near selector base on center console.",
-        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "Turn ignition to ON (key to Run — do not start).",
+        "Locate shift lock cap near selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding, press the brake pedal firmly.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -468,15 +493,15 @@
       "yearEnd": 1998,
       "trans": "4-speed automatic (4R70W)",
       "drivetrain": "RWD",
-      "slot": "Small cap near selector base on center console",
+      "slot": "Small plastic cap near the gear selector base on the center console.",
       "shift": [
-        "Turn ignition to ON (key to Run position — do not start).",
-        "Locate the shift lock override: small cap near selector base on center console.",
-        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "Turn ignition to ON (key to Run — do not start).",
+        "Locate shift lock cap near selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding, press the brake pedal firmly.",
+        "Move selector from Park to Neutral.",
+        "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -506,20 +531,21 @@
       "yearEnd": 2016,
       "trans": "6-speed SelectShift automatic (6F55)",
       "drivetrain": "FWD or AWD (EcoBoost)",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Center console storage bin — small access HOLE just below the media hub connections. Open console lid, locate hole in front wall below USB/media ports.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON.",
+        "Open the center console storage lid.",
+        "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
+        "Insert thin flathead into the hole and press the brake-shift interlock switch.",
+        "The instrument panel shift buttons will FLASH — override is active.",
+        "While holding, press the N button on the instrument panel.",
+        "Release the override tool."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N via push-button selector or console hole method.",
+        "AWD: flatbed preferred. FWD: lift from front."
       ],
       "notes": "EcoBoost AWD: flatbed preferred.",
       "warn": "AWD: flatbed preferred.",
@@ -544,20 +570,21 @@
       "yearEnd": 2019,
       "trans": "6-speed automatic (6F55)",
       "drivetrain": "FWD or AWD (EcoBoost)",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Center console storage bin — small access HOLE below the media hub. Same procedure as Navigator/MKZ.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON.",
+        "Open center console storage lid.",
+        "Locate access hole below the media hub in the storage bin front wall.",
+        "Insert thin flathead. Press the interlock switch inside.",
+        "Instrument panel shift buttons FLASH.",
+        "While holding, press N on the instrument panel.",
+        "Release tool."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "AWD (EcoBoost): flatbed preferred. FWD: lift from front."
       ],
       "notes": "Flex platform. AWD: flatbed preferred. Common as a livery/funeral vehicle.",
       "warn": "AWD: flatbed preferred.",
@@ -582,22 +609,22 @@
       "yearEnd": 2006,
       "trans": "5-speed automatic (5R55N) or 6-speed manual (Getrag)",
       "drivetrain": "RWD",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Small cap near gear selector base on center console — ALSO: battery is in the TRUNK.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — BATTERY IS IN THE TRUNK.",
-        "LS has a trunk-mounted battery — do NOT look under the hood for jump terminals.",
-        "Open the trunk, access the battery, connect jump pack.",
-        "Once powered, press brake and shift to Neutral."
+        "BATTERY IS IN THE TRUNK — open trunk to access.",
+        "Connect jump pack to trunk battery.",
+        "Once powered, press brake and shift to N.",
+        "RWD: lift from rear. Flatbed preferred."
       ],
       "notes": "Battery in TRUNK. Manual: depress clutch, select Neutral.",
       "warn": "Battery in TRUNK — not under the hood.",
@@ -611,13 +638,21 @@
         {
           "title": "Battery in Trunk",
           "detail": "The LS 12V battery is in the trunk. There is no battery under the hood. Always open the trunk to access jump terminals."
+        },
+        {
+          "title": "Battery in Trunk — Not Under Hood",
+          "detail": "The Lincoln LS 12V battery is in the trunk. Opening the hood will not find the battery. Open the trunk and lift the cargo floor liner."
+        },
+        {
+          "title": "Battery in Trunk — Not Under Hood",
+          "detail": "The Lincoln LS battery is in the trunk. There is no battery under the hood. Open the trunk to access the 12V battery for jumping."
         }
       ],
       "battery": {
-        "location": "TRUNK",
+        "location": "TRUNK — under cargo floor",
         "jumpTerminals": "Trunk — 12V battery terminals",
         "type": "standard-12v",
-        "warnings": "Battery in trunk."
+        "warnings": "Battery in TRUNK — not under hood."
       }
     }
   ]

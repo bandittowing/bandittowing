@@ -56,15 +56,17 @@
       "yearStart": 2015,
       "yearEnd": 2017,
       "trans": "9-speed automatic ZF 9HP",
-      "slot": "ROTARY DIAL selector — slot near BASE of dial on console. No traditional lever.",
+      "slot": "ROTARY DIAL selector — shift lock override slot near the BASE of the rotary dial on the center console. Small access port below or beside the rotary dial — no cap to remove, direct slot access.",
       "shift": [
-        "Turn ignition to ON.",
-        "ZF 9HP transmission: locate the shift lock slot — ROTARY DIAL selector — slot near BASE of dial on console. No traditional lever.",
-        "Insert a thin key or dedicated ZF 9HP override tool (~$50 from dealer tool suppliers) into the slot.",
-        "Press firmly and hold.",
-        "While holding, press the brake pedal.",
-        "Move the selector to Neutral.",
-        "NOTE: The ZF 9HP solenoid requires more force than most vehicles — apply steady firm pressure."
+        "ZF 9HP ROTARY DIAL — restore 12V power FIRST for best results.",
+        "Connect jump pack to battery under the hood (standard-12v under hood).",
+        "Once powered, press brake and rotate dial to N normally.",
+        "WITHOUT POWER — mechanical override:",
+        "Locate the small override slot near the BASE of the rotary dial (not the dial itself).",
+        "Insert a thin flathead screwdriver into the slot.",
+        "Press firmly and hold — ZF 9HP requires more force than a standard interlock.",
+        "While holding, press the brake pedal and rotate the dial to N.",
+        "This may require very firm steady pressure for 5-10 seconds."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -93,6 +95,10 @@
         {
           "title": "Door Handles Require Power",
           "detail": "The interior door handles are electronic and require 12V power to operate. With a dead battery, occupants can be temporarily unable to exit using the door handles. Be aware of this if the vehicle is occupied."
+        },
+        {
+          "title": "ZF 9HP Rotary Requires 12V Power — Mechanical Override Is Difficult",
+          "detail": "The ZF 9HP 9-speed transmission used in the Chrysler 200 (2nd gen) and Pacifica has a rotary dial selector that requires 12V power to shift reliably. The mechanical override is stiff and may require significant force. Always attempt to restore 12V power before using the mechanical override. A dedicated ZF 9HP override tool (~$30-50 online) provides more leverage than a key."
         }
       ],
       "battery": {
@@ -147,13 +153,17 @@
       "yearStart": 2017,
       "yearEnd": 2026,
       "trans": "9-speed auto or PHEV eCVT",
-      "slot": "ROTARY DIAL selector — slot near BASE of dial on console",
+      "slot": "ROTARY DIAL selector — shift lock override slot near the BASE of the rotary dial on the center console. Small access port below or beside the rotary dial — no cap to remove, direct slot access.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the shift lock slot: ROTARY DIAL selector — slot near BASE of dial on console.",
-        "Insert a thin key or flathead into the slot and press firmly down.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector to Neutral."
+        "ZF 9HP ROTARY DIAL — restore 12V power FIRST for best results.",
+        "Connect jump pack to battery under the hood (standard-12v under hood).",
+        "Once powered, press brake and rotate dial to N normally.",
+        "WITHOUT POWER — mechanical override:",
+        "Locate the small override slot near the BASE of the rotary dial (not the dial itself).",
+        "Insert a thin flathead screwdriver into the slot.",
+        "Press firmly and hold — ZF 9HP requires more force than a standard interlock.",
+        "While holding, press the brake pedal and rotate the dial to N.",
+        "This may require very firm steady pressure for 5-10 seconds."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -179,6 +189,10 @@
         {
           "title": "Hybrid PHEV — 12V Only for Jumping",
           "detail": "Pacifica Hybrid has a high-voltage battery pack under the floor. ONLY use the 12V auxiliary battery under the hood for jumping. Never attempt to access or jump from the HV pack."
+        },
+        {
+          "title": "ZF 9HP Rotary Requires 12V Power — Mechanical Override Is Difficult",
+          "detail": "The ZF 9HP 9-speed transmission used in the Chrysler 200 (2nd gen) and Pacifica has a rotary dial selector that requires 12V power to shift reliably. The mechanical override is stiff and may require significant force. Always attempt to restore 12V power before using the mechanical override. A dedicated ZF 9HP override tool (~$30-50 online) provides more leverage than a key."
         }
       ],
       "battery": {
@@ -276,16 +290,17 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
+        "Pry off cap with ignition key or small flathead screwdriver.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood, driver side.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood, driver side.",
+        "Once powered, press brake and shift to N.",
+        "FWD: lift from front."
       ],
       "notes": "",
       "warn": "",
@@ -313,16 +328,17 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
+        "Pry off cap with ignition key or small flathead screwdriver.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood, driver side.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, press brake and shift to N.",
+        "CVT (2007-2010): flatbed preferred — do not exceed 35 mph / 50 miles with drive wheels on ground."
       ],
       "notes": "CVT (2007-2010): do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred.",
       "warn": "CVT models: flatbed preferred — CVT damage risk if towed with front wheels on ground.",
@@ -351,18 +367,18 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
+        "Pry off cap with ignition key or small flathead screwdriver.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — BATTERY IS IN THE TRUNK.",
-        "Crossfire has a trunk-mounted battery — do NOT look under the hood for jump terminals.",
-        "Open the trunk, locate the battery on the right side, connect jump pack.",
-        "Once powered, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "BATTERY IS IN THE TRUNK (passenger side) — do NOT look under the hood.",
+        "Open trunk, connect jump pack to battery on passenger side of trunk floor.",
+        "Once powered, press brake and shift to N.",
+        "Manual trans: depress clutch, select Neutral."
       ],
       "notes": "Mercedes SLK-based platform. Battery is in the TRUNK — not under the hood. Manual: depress clutch, select Neutral.",
       "warn": "Battery is in the TRUNK — not under the hood.",
@@ -377,13 +393,17 @@
         {
           "title": "Battery in Trunk",
           "detail": "The Crossfire is Mercedes SLK-based. The 12V battery is in the TRUNK on the right side. There is no battery under the hood. Many operators waste time looking under the hood — go directly to the trunk."
+        },
+        {
+          "title": "Battery in Trunk — Not Under Hood",
+          "detail": "The Crossfire is built on the Mercedes SLK platform. The 12V battery is in the trunk on the passenger side. There is no battery under the hood — open the trunk to jump."
         }
       ],
       "battery": {
-        "location": "TRUNK — right side when looking in from the rear",
-        "jumpTerminals": "Trunk — standard 12V battery terminals",
+        "location": "TRUNK — passenger side (right when looking in from the rear)",
+        "jumpTerminals": "Trunk — 12V battery terminals, passenger side",
         "type": "standard-12v",
-        "warnings": "Battery is in the TRUNK — not under the hood."
+        "warnings": "Battery in TRUNK — not under the hood. Mercedes SLK-based platform."
       }
     },
     {
@@ -396,18 +416,19 @@
       "slot": "Small slot near gear selector base on floor console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on floor console.",
-        "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead screwdriver.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "Transfer case: shift to 2WD before road towing."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, press brake and shift to N.",
+        "TC: electronic or floor lever. Shift to 2WD before road towing.",
+        "IF BATTERY DEAD: jump first, shift TC to 2WD, then disconnect. If unable: FLATBED ONLY."
       ],
       "notes": "Dodge Durango-based platform. Transfer case must be in 2H/2WD for road towing.",
       "warn": "Transfer case must be in 2H for road towing — 4WD on dry pavement damages driveline.",
@@ -449,19 +470,15 @@
       "drivetrain": "FWD or AWD (select years)",
       "slot": "Small cap near gear selector base on console or dash-mounted column shifter",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "COLUMN SHIFTER (some trims): key to ON, press brake, move column lever to N.",
-        "FLOOR SHIFTER: Locate shift lock cap near selector base.",
-        "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly.",
-        "While holding, press the brake pedal.",
-        "Move selector to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON.",
+        "COLUMN SHIFTER (early/base trims): key to ON, press brake, move column lever to N.",
+        "FLOOR SHIFTER: locate cap near selector base. Pry off. Insert key. Press firmly. Hold. Press brake. Move to N."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "AWD: FLATBED PREFERRED."
       ],
       "notes": "Early models (1991-1995) may have column shifter. AWD: flatbed preferred.",
       "warn": "AWD models: flatbed preferred.",

@@ -179,12 +179,10 @@
       "slot": "Electronic selector — slot near selector base",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — slot near selector base.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "Electronic rotary gear selector on center console.",
+        "Locate the override slot near the base of the rotary selector.",
+        "Insert thin flathead. Press firmly. Hold while pressing brake. Rotate selector to N.",
+        "Restoring 12V power first is strongly preferred."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -216,18 +214,18 @@
       "trans": "Single-speed electric",
       "slot": "Electronic selector — slot near selector base",
       "shift": [
-        "Turn the Hyundai Ioniq 5 to ON/Ready mode.",
-        "Shift lock slot: Electronic selector — slot near selector base.",
-        "Insert a thin key or flathead into the slot and press firmly.",
-        "Press the brake pedal while holding the slot.",
-        "Move selector to N.",
-        "FLATBED ONLY — do not tow with driven wheels on the ground."
+        "Turn vehicle to ON/Ready mode.",
+        "Ioniq 5 uses an electronic gear selector (rotary/dial type on center console).",
+        "Rotate or press the selector to N position.",
+        "If power is lost: connect jump pack to 12V auxiliary battery under the hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery.",
+        "Once powered, select N using the rotary selector."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Connect jump pack to battery — Under hood (12V auxiliary). 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack.",
-        "Once 12V power is restored, press brake and shift to N normally.",
-        "FLATBED ONLY."
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — never touch HV components.",
+        "Once powered, rotate selector to N."
       ],
       "notes": "E-GMP platform. 800V system — NEVER touch HV components.",
       "warn": "FLATBED ONLY.",
@@ -253,7 +251,7 @@
         "location": "Under hood (12V auxiliary)",
         "jumpTerminals": "Under hood — 12V auxiliary red (+) / black (−) terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "800V HV system — NEVER touch HV components. 12V auxiliary under hood ONLY. Flatbed only."
+        "warnings": "FLATBED ONLY. 12V auxiliary only — never touch HV battery."
       }
     },
     {
@@ -262,20 +260,20 @@
       "yearStart": 2023,
       "yearEnd": 2026,
       "trans": "Single-speed electric",
-      "slot": "COLUMN-MOUNTED electronic selector — slot near column base",
+      "slot": "COLUMN-MOUNTED electronic selector — override slot near column selector base or steering column.",
       "shift": [
-        "Turn the Hyundai Ioniq 6 to ON/Ready mode.",
-        "Shift lock slot: COLUMN-MOUNTED electronic selector — slot near column base.",
-        "Insert a thin key or flathead into the slot and press firmly.",
-        "Press the brake pedal while holding the slot.",
-        "Move selector to N.",
-        "FLATBED ONLY — do not tow with driven wheels on the ground."
+        "Turn vehicle to ON/Ready mode.",
+        "Ioniq 6 has a COLUMN-MOUNTED electronic gear selector.",
+        "Use the column selector to move to N.",
+        "If power is lost: connect jump pack to 12V auxiliary battery under the hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery.",
+        "Once powered, use column selector to choose N."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Connect jump pack to battery — Under hood (12V auxiliary). 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack.",
-        "Once 12V power is restored, press brake and shift to N normally.",
-        "FLATBED ONLY."
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — never touch HV components.",
+        "Column selector: move to N once powered."
       ],
       "notes": "Unique column-mounted electronic shifter.",
       "warn": "FLATBED ONLY.",
@@ -301,7 +299,7 @@
         "location": "Under hood (12V auxiliary)",
         "jumpTerminals": "Under hood — 12V auxiliary terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "800V HV system. 12V auxiliary only. Column-mounted electronic shifter. Flatbed only."
+        "warnings": "FLATBED ONLY. 12V auxiliary only — never touch HV battery."
       }
     },
     {
@@ -462,16 +460,17 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "Manual: depress clutch. FWD: lift from front."
       ],
       "notes": "Manual: depress clutch, select Neutral. CVT (certain years): flatbed preferred.",
       "warn": "CVT: flatbed preferred.",
@@ -497,20 +496,17 @@
       "drivetrain": "RWD",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON (do not start).",
+        "AUTOMATIC: slot near selector base on console. Pry cap. Insert key. Press firmly. Hold. Press brake. Move to N.",
+        "MANUAL TRANSMISSION: depress clutch fully, move gear lever to Neutral."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "Manual: depress clutch. RWD: lift from rear."
       ],
-      "notes": "Manual: depress clutch, select Neutral. RWD platform. Not to be confused with Genesis luxury brand.",
+      "notes": "Manual trans: depress clutch, select N. NOT to be confused with the Genesis luxury brand.",
       "warn": "",
       "towMethod": "RWD: lift from rear — rear (drive) wheels in the air.",
       "tc": null,
@@ -535,17 +531,18 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "Manual: depress clutch. DCT: restore power preferred. FWD: lift from front."
       ],
       "notes": "Manual: depress clutch, select Neutral. DCT models: power strongly preferred.",
       "warn": "DCT: restore power before shifting.",
@@ -610,16 +607,14 @@
       "slot": "Electronic selector — small slot near base of electronic gear selector",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the electronic selector override: small slot near base of electronic gear selector.",
+        "Electronic selector — locate override slot near base.",
         "Remove trim cover if present.",
-        "Insert a thin key or flathead and press firmly inward.",
-        "While holding, press the brake pedal.",
-        "Move or press the selector to Neutral."
+        "Insert thin flathead. Press firmly. Hold. Press brake. Move to N."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, shift to Neutral normally.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
         "AWD: flatbed preferred."
       ],
       "notes": "Compact pickup/crossover. AWD: flatbed preferred.",
@@ -635,7 +630,7 @@
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
         "type": "agm-12v",
-        "warnings": "2022+ with stop-start: AGM battery — use AGM-compatible jump pack."
+        "warnings": "AGM battery (2022+ with stop-start) — use AGM-compatible jump pack."
       }
     },
     {
@@ -648,17 +643,18 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "CVT: flatbed preferred. Manual: depress clutch."
       ],
       "notes": "CVT: flatbed preferred. Manual: depress clutch. DCT: restore power preferred.",
       "warn": "CVT: flatbed preferred.",

@@ -20,15 +20,20 @@
       "trans": "Single-speed electric",
       "slot": "2017-2023: column stalk. 2024+ (Highland): touchscreen or stalk",
       "shift": [
-        "2017–2023 Model 3/Y: Push the RIGHT COLUMN STALK downward (toward floor) to select N.",
-        "2024+ Model 3 Highland / Model Y Juniper: Use TOUCHSCREEN — tap the N on the drive mode bar, or go to Controls > Neutral.",
-        "Verify N is displayed on the instrument cluster before releasing the brake."
+        "2017-2023 Model 3 (pre-Highland): push the RIGHT column stalk DOWNWARD (toward floor) to select N.",
+        "Confirm N is displayed on the instrument cluster before releasing the brake.",
+        "2024+ Model 3 Highland: touch the N on the TOUCHSCREEN drive mode bar, or go to Controls > Tow Mode.",
+        "PREFERRED for all: use TOW MODE — Controls > Service > Tow Mode. This locks the car in N safely.",
+        "Tow Mode prevents re-engagement of Drive — safer than stalk method alone."
       ],
       "neutral": [
-        "PREFERRED METHOD: With 12V power available, use TOW MODE — Controls > Service > Tow Mode. This locks the car in N and prevents re-engagement.",
-        "DEAD 12V BATTERY: Open the front hood — the 12V auxiliary battery is in the frunk (front storage area). 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack. Connect jump pack to the 12V terminals.",
-        "Once 12V power is restored, activate Tow Mode via touchscreen before any tow movement.",
-        "FLATBED ONLY — never tow with any wheels on the ground."
+        "FLATBED ONLY — never tow with any wheels on the ground.",
+        "PREFERRED: With 12V power, activate TOW MODE via touchscreen — Controls > Service > Tow Mode.",
+        "DEAD 12V BATTERY: 12V battery is in the FRUNK (front trunk — open the front hood).",
+        "Open front hood. Battery is in the front storage area — NOT an engine bay.",
+        "Connect jump pack to 12V terminals in the frunk.",
+        "12V AUXILIARY ONLY — NEVER touch the HV battery (orange cables).",
+        "Once 12V is restored, activate Tow Mode before any vehicle movement."
       ],
       "notes": "TOW MODE is the preferred method — it safely locks in Neutral.",
       "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
@@ -70,15 +75,16 @@
       "trans": "Single-speed electric",
       "slot": "Pre-2021: column stalk. 2021+ Plaid: touchscreen",
       "shift": [
-        "Pre-2021 Model S: Push the RIGHT COLUMN STALK downward to select N.",
-        "2021+ Model S Plaid/Refresh: Select N on the TOUCHSCREEN drive mode bar.",
-        "Verify N is confirmed on the display before moving the vehicle."
+        "Pre-2021 Model S: push the RIGHT column stalk DOWNWARD to select N.",
+        "2021+ Model S Plaid (yoke steering): N is on the TOUCHSCREEN — tap the drive mode bar or Controls > Tow Mode.",
+        "PREFERRED: Activate TOW MODE — Controls > Service > Tow Mode."
       ],
       "neutral": [
-        "PREFERRED: Use TOW MODE — Controls > Service > Tow Mode. Safely locks in N.",
-        "DEAD 12V BATTERY: Open the front hood — the 12V auxiliary battery is in the frunk (front storage area). 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack. Connect jump pack to the 12V terminals.",
-        "Once powered, use Tow Mode. Air suspension may have lowered — restore power and raise suspension before loading on flatbed if possible.",
-        "FLATBED ONLY."
+        "FLATBED ONLY.",
+        "12V auxiliary battery location: Pre-2021: FRONT HOOD (frunk). 2021+: under front hood in frunk area.",
+        "Open the front hood. 12V battery is in the front storage frunk.",
+        "Connect jump pack to 12V. 12V AUXILIARY ONLY — never touch HV system.",
+        "Activate Tow Mode before any movement."
       ],
       "notes": "Tow Mode is preferred. Air suspension — check clearance. 12V in frunk.",
       "warn": "FLATBED ONLY.",
@@ -121,16 +127,15 @@
       "trans": "Single-speed electric AWD",
       "slot": "Pre-2021: column stalk. 2021+: touchscreen",
       "shift": [
-        "Pre-2021 Model X: Push the RIGHT COLUMN STALK downward to select N.",
-        "2021+ Model X Refresh: Select N on the TOUCHSCREEN drive mode bar.",
-        "CRITICAL: Verify all FALCON WING DOORS are fully closed and latched before any tow movement."
+        "Pre-2021 Model X: RIGHT column stalk DOWNWARD for N.",
+        "2021+ Model X: touchscreen — drive mode bar N or Controls > Tow Mode.",
+        "PREFERRED: Tow Mode — Controls > Service > Tow Mode."
       ],
       "neutral": [
-        "PREFERRED: Use TOW MODE — Controls > Service > Tow Mode.",
-        "DEAD 12V BATTERY: Open the front hood — the 12V auxiliary battery is in the frunk (front storage area). 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack. Connect jump pack to the 12V terminals.",
-        "Once powered, activate Tow Mode. Check that all falcon wing doors are secured.",
-        "Air suspension may have dropped — restore power and raise to max height before flatbed load.",
-        "FLATBED ONLY."
+        "FLATBED ONLY.",
+        "12V battery in FRUNK (front storage area, open the front hood).",
+        "Connect jump pack. 12V AUXILIARY ONLY — never touch HV.",
+        "Activate Tow Mode before loading."
       ],
       "notes": "Falcon Wing doors MUST be closed and secured before towing. Air suspension.",
       "warn": "FLATBED ONLY. AWD. Falcon wing doors must be closed and secured.",
@@ -177,15 +182,15 @@
       "trans": "Single-speed electric",
       "slot": "Column stalk or touchscreen (2024+ refresh)",
       "shift": [
-        "2017–2023 Model 3/Y: Push the RIGHT COLUMN STALK downward (toward floor) to select N.",
-        "2024+ Model 3 Highland / Model Y Juniper: Use TOUCHSCREEN — tap the N on the drive mode bar, or go to Controls > Neutral.",
-        "Verify N is displayed on the instrument cluster before releasing the brake."
+        "2020-2023 Model Y: RIGHT column stalk DOWNWARD to select N.",
+        "2024+ Model Y Juniper: touchscreen N or Controls > Tow Mode.",
+        "PREFERRED: Tow Mode — Controls > Service > Tow Mode."
       ],
       "neutral": [
-        "PREFERRED METHOD: With 12V power available, use TOW MODE — Controls > Service > Tow Mode. This locks the car in N and prevents re-engagement.",
-        "DEAD 12V BATTERY: Open the front hood — the 12V auxiliary battery is in the frunk (front storage area). 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack. Connect jump pack to the 12V terminals.",
-        "Once 12V power is restored, activate Tow Mode via touchscreen before any tow movement.",
-        "FLATBED ONLY — never tow with any wheels on the ground."
+        "FLATBED ONLY.",
+        "12V battery in FRUNK (front trunk, open the front hood).",
+        "Connect jump pack. 12V AUXILIARY ONLY — never touch HV.",
+        "Activate Tow Mode before any movement."
       ],
       "notes": "Tow Mode is strongly preferred. 12V in frunk.",
       "warn": "FLATBED ONLY.",
@@ -225,18 +230,22 @@
       "yearStart": 2024,
       "yearEnd": 2026,
       "trans": "Single-speed electric (tri or dual motor)",
-      "slot": "Touchscreen-based selector",
+      "slot": "Touchscreen selector on center console — N is selectable via touchscreen drive mode.",
       "shift": [
-        "Select N on the TOUCHSCREEN — the Cybertruck has no physical gear selector.",
-        "Verify N is confirmed on the touchscreen display before releasing the brake."
+        "Turn vehicle to ON/Ready mode.",
+        "Cybertruck uses a TOUCHSCREEN gear selector — tap N on the drive mode bar.",
+        "PREFERRED: Activate TOW MODE — go to Controls > Service > Tow Mode.",
+        "Tow Mode disables the parking brake and allows free rolling.",
+        "If power is lost: connect jump pack to 12V auxiliary — location under the front hood.",
+        "12V AUXILIARY ONLY — never touch HV components."
       ],
       "neutral": [
-        "PREFERRED: Use TOW MODE via touchscreen — Controls > Service > Tow Mode.",
-        "DEAD 12V BATTERY: Connect jump pack to battery — Under hood area — 12V auxiliary battery accessible near front of vehicle. 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack.",
-        "Once 12V power is restored, use Tow Mode before any tow movement.",
-        "HEAVY VEHICLE (~6,600–6,900 lbs) — verify flatbed is rated for this weight.",
-        "Stainless steel body: magnetic tools/accessories will NOT attach to body panels.",
-        "FLATBED ONLY."
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary battery under the front hood.",
+        "Connect jump pack. 12V AUXILIARY ONLY.",
+        "Activate Tow Mode before loading onto flatbed.",
+        "Very heavy (6,000-7,000+ lbs) — confirm tow truck capacity before approach.",
+        "Air suspension: may need to raise or lower for loading — use touchscreen suspension controls."
       ],
       "notes": "New platform (2024). Tow Mode is the primary neutral method. Very large and heavy.",
       "warn": "FLATBED ONLY. Very large — use appropriately rated flatbed.",
@@ -266,6 +275,14 @@
         {
           "title": "FLATBED ONLY",
           "detail": "Tri or dual motor electric AWD. Towing with wheels on ground will destroy motors."
+        },
+        {
+          "title": "Extremely Heavy — Confirm Tow Capacity",
+          "detail": "The Cybertruck weighs 6,000-7,000+ lbs depending on configuration. Many standard flatbeds are rated at 7,000-10,000 lbs but the Cybertruck's weight combined with the flatbed's own weight can push limits. Always confirm your equipment rating before approaching this vehicle."
+        },
+        {
+          "title": "Stainless Steel Body — No Magnetic Equipment",
+          "detail": "The Cybertruck has a stainless steel exoskeleton. Standard magnetic hold-down points or magnetic dollies will NOT work on the body panels. Use frame contact points only. The tonneau cover is also powered and will not open manually without power."
         }
       ],
       "battery": {

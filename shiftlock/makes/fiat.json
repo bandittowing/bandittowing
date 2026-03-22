@@ -74,18 +74,16 @@
       "gvwr": "Not published — check door jamb",
       "slot": "Electronic — touchscreen or selector override near base",
       "shift": [
-        "Turn the Fiat 500e to ON/Ready mode.",
-        "Locate the electronic selector override near the selector base — insert key or flathead and press firmly.",
-        "Press the brake pedal while holding the override.",
-        "Move to N. PREFERRED: restore 12V power first for a clean electronic shift.",
-        "FLATBED ONLY — electric FWD drivetrain. Never tow with front drive wheels on the ground."
+        "Turn vehicle to ON/Ready mode.",
+        "Electronic selector or touchscreen — select N.",
+        "If power is lost: connect jump pack to 12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "12V auxiliary battery is under the hood — connect jump pack to 12V terminals ONLY.",
-        "NEVER touch the high-voltage traction battery or orange cables.",
-        "Once 12V power is restored, shift to N normally.",
-        "FLATBED ONLY."
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — never touch HV battery.",
+        "Once powered, select N electronically."
       ],
       "notes": "FLATBED ONLY. Electric FWD. 12V only.",
       "warn": "FLATBED ONLY. 12V only — never touch HV system.",
@@ -109,7 +107,7 @@
         "location": "Under hood — 12V auxiliary",
         "jumpTerminals": "Under hood — 12V only",
         "type": "auxiliary-12v-only",
-        "warnings": "FLATBED ONLY. 12V only."
+        "warnings": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
       },
       "knownIssues": []
     },
@@ -224,18 +222,19 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead screwdriver.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, shift to Neutral normally.",
-        "Manual: depress clutch, select Neutral."
+        "Connect jump pack — under hood, driver side.",
+        "Once powered, press brake and shift to N.",
+        "Manual: depress clutch, select Neutral.",
+        "RWD: lift from rear. High-value — flatbed preferred."
       ],
       "notes": "Mazda MX-5 (ND) platform. Manual: depress clutch. High-value roadster — flatbed preferred.",
       "warn": "High-value vehicle — flatbed preferred.",

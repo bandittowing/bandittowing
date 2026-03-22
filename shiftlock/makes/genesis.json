@@ -301,18 +301,17 @@
       "drivetrain": "AWD electric",
       "slot": "Electronic selector — use touchscreen or selector button to access N",
       "shift": [
-        "Turn the vehicle to ON/Ready mode.",
-        "The Electrified G80 uses an electronic gear selector — no mechanical shift lock slot.",
-        "Press and hold the N button on the shift selector for 3 seconds while pressing the brake.",
-        "Confirm N is displayed on the instrument cluster.",
-        "If all power is lost: attempt to restore 12V power via jump pack before any other action."
+        "Turn vehicle to ON/Ready mode.",
+        "Electronic gear selector — press and hold N button while pressing brake pedal.",
+        "Hold 3 seconds. Confirm N on instrument cluster.",
+        "If power lost: connect jump pack to 12V auxiliary in TRUNK.",
+        "12V AUXILIARY ONLY — NEVER touch HV components."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "FLATBED ONLY — electric drivetrain. Do NOT tow with driven wheels on ground.",
-        "Connect jump pack to 12V auxiliary battery — in the trunk under the cargo floor.",
-        "Once 12V power is restored, use the N selector to engage Neutral.",
-        "NEVER touch the high-voltage orange-cabled components."
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary battery is in the TRUNK under cargo floor.",
+        "12V AUXILIARY ONLY — never touch HV battery.",
+        "Once powered, select N electronically."
       ],
       "notes": "EV platform. 12V auxiliary battery in trunk. Flatbed only.",
       "warn": "FLATBED ONLY. 12V auxiliary battery in TRUNK. Never touch HV system.",
@@ -333,7 +332,7 @@
         "location": "TRUNK — under cargo floor panel",
         "jumpTerminals": "Trunk — 12V auxiliary battery terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "Battery in trunk. Never access HV system. Flatbed only."
+        "warnings": "Battery in TRUNK. FLATBED ONLY. Never touch HV system."
       }
     },
     {
@@ -345,17 +344,17 @@
       "drivetrain": "AWD electric",
       "slot": "Electronic selector — N button on console",
       "shift": [
-        "Turn the vehicle to ON/Ready mode.",
-        "Press and hold the N button on the gear selector while pressing the brake pedal.",
-        "Hold for approximately 3 seconds until N is displayed on the instrument cluster.",
-        "If power is lost: restore 12V via jump pack first."
+        "Turn vehicle to ON/Ready mode.",
+        "Press and hold N button on gear selector while pressing brake pedal.",
+        "Hold 3 seconds. Confirm N.",
+        "If power lost: connect jump pack to 12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV components."
       ],
       "neutral": [
-        "Apply parking brake.",
         "FLATBED ONLY — electric drivetrain.",
-        "Connect jump pack to 12V auxiliary battery — under the hood (driver side, in the engine compartment).",
-        "Once 12V power is restored, engage N using the selector button.",
-        "NEVER touch the high-voltage components (orange cables)."
+        "12V auxiliary under hood, driver side.",
+        "12V AUXILIARY ONLY — never touch HV battery.",
+        "Once powered, select N electronically."
       ],
       "notes": "EV. 12V battery under hood. Flatbed only.",
       "warn": "FLATBED ONLY. Never touch HV system.",
@@ -371,7 +370,7 @@
         "location": "Under hood, driver side",
         "jumpTerminals": "Under hood — standard 12V auxiliary terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "EV — never touch HV system. Flatbed only."
+        "warnings": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
       }
     }
   ]

@@ -16,7 +16,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shift Lock Release & Neutral Override Guide | Tow Operator Field Reference | Bandit Towing</title>
-<meta name="description" content="Professional tow operator field reference — shift lock release and neutral override procedures for 550 vehicles, 38 makes, 1990–2026. Battery terminal locations, transfer case procedures, tow method, known issues. Bandit Towing & Transport, Cary NC.">
+<meta name="description" content="Professional tow operator field reference — shift lock release and neutral override procedures for 550 vehicles, 38 makes, 1990–2026. Covers EPR procedures, trunk/frunk battery locations, EV tow modes, transfer case steps, ZF 9HP/DSG power requirements, carbon fiber handling warnings. Bandit Towing & Transport, Cary NC.">
 <meta name="keywords" content="shift lock release, neutral override dead battery, how to put car in neutral dead battery, shift interlock override, tow truck neutral override, towing procedures by vehicle, battery jump terminal location, transfer case towing, flatbed towing guide, tow operator reference, ZF 9HP neutral override, Tesla tow mode, Prius neutral dead battery, battery in trunk, Jaguar S-Type battery location, BMW trunk battery, Land Rover transfer case, Rivian tow mode, shift lock slot location, 1990s towing procedures, Bandit Towing Cary NC">
 <meta name="author" content="Bandit Towing & Transport">
 <meta name="robots" content="index, follow">
@@ -855,6 +855,108 @@ footer p { font-family:var(--font-b); font-size:11px; color:var(--gray); margin-
 footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
 
 /* ══════════════════════════════════════
+   NO MECHANICAL OVERRIDE ALERT (new)
+══════════════════════════════════════ */
+.no-override-alert {
+  display:none;
+  margin-bottom:var(--gap-sm);
+  padding:16px 18px;
+  background:rgba(192,57,43,.12);
+  border:1px solid rgba(192,57,43,.4);
+  border-left:4px solid var(--red);
+}
+.no-override-alert.show { display:flex; align-items:flex-start; gap:12px; }
+.no-override-icon { font-size:1.3rem; flex-shrink:0; }
+.no-override-body { flex:1; }
+.no-override-title {
+  font-family:var(--font-u); font-size:10px; font-weight:700;
+  letter-spacing:4px; text-transform:uppercase; color:#e06060;
+  margin-bottom:5px;
+}
+.no-override-text { font-family:var(--font-b); font-size:0.88rem; color:#f0c8c8; line-height:1.6; }
+
+/* ══════════════════════════════════════
+   EPR PANEL (Jaguar / Land Rover emergency park release)
+══════════════════════════════════════ */
+.epr-panel {
+  display:none;
+  margin-bottom:var(--gap-sm);
+  background:rgba(74,133,192,.06);
+  border:1px solid rgba(74,133,192,.3);
+  border-left:4px solid var(--blue);
+}
+.epr-panel.show { display:block; }
+.epr-head {
+  padding:11px 18px 8px;
+  display:flex; align-items:center; gap:10px;
+  border-bottom:1px solid rgba(74,133,192,.2);
+}
+.epr-head-title {
+  font-family:var(--font-u); font-size:10px; font-weight:700;
+  letter-spacing:4px; text-transform:uppercase; color:var(--blue); flex:1;
+}
+.epr-body {
+  padding:12px 18px 14px;
+  font-family:var(--font-b); font-size:0.86rem; color:#c8dff0; line-height:1.65;
+}
+.epr-body strong { color:var(--white); }
+
+/* ══════════════════════════════════════
+   CARBON FIBER / SPECIAL BODY ALERT
+══════════════════════════════════════ */
+.special-body-alert {
+  display:none;
+  padding:12px 16px;
+  background:rgba(40,168,168,.07);
+  border:1px solid rgba(40,168,168,.3);
+  border-left:4px solid var(--ev-color);
+  margin-bottom:var(--gap-sm);
+}
+.special-body-alert.show { display:flex; align-items:flex-start; gap:10px; }
+.special-body-icon { font-size:1rem; flex-shrink:0; margin-top:1px; }
+.special-body-text {
+  font-family:var(--font-b); font-size:0.85rem; color:#b0eee8; line-height:1.55;
+}
+.special-body-text strong { color:var(--white); }
+
+/* ══════════════════════════════════════
+   SHIFT STEP TYPES — highlight CRITICAL steps
+══════════════════════════════════════ */
+.steps-list li.step-critical {
+  background:rgba(200,90,10,.06);
+  border-left:2px solid var(--orange);
+  padding-left:8px;
+  margin-left:-10px;
+}
+.steps-list li.step-critical .step-num {
+  border-color:rgba(200,90,10,.4);
+  color:var(--orange);
+  background:rgba(200,90,10,.07);
+}
+.steps-list li.step-section-header {
+  font-family:var(--font-u); font-size:0.75rem; font-weight:700;
+  letter-spacing:2px; text-transform:uppercase; color:var(--gold-dark);
+  border-bottom:1px solid var(--dark5);
+  padding-top:12px; padding-bottom:6px;
+  margin-top:4px;
+}
+.steps-list li.step-section-header .step-num { display:none; }
+
+/* ══════════════════════════════════════
+   EV TOW MODE NOTICE (inside procedures)
+══════════════════════════════════════ */
+.ev-tow-mode {
+  display:none;
+  background:rgba(40,168,168,.08);
+  border-left:3px solid var(--ev-color);
+  padding:10px 14px;
+  margin-bottom:14px;
+  font-family:var(--font-b); font-size:0.83rem; color:#a0e8e8; line-height:1.55;
+}
+.ev-tow-mode.show { display:block; }
+.ev-tow-mode strong { display:block; font-family:var(--font-u); font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--ev-color); margin-bottom:4px; }
+
+/* ══════════════════════════════════════
    PRINT
 ══════════════════════════════════════ */
 @media print {
@@ -995,6 +1097,22 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
 
     <!-- ══ PROCEDURES ══ -->
     <div class="proc-section sec-procedures">
+
+      <!-- No mechanical override alert -->
+      <div class="no-override-alert sec-procedures" id="res-no-override">
+        <span class="no-override-icon">🚫</span>
+        <div class="no-override-body">
+          <div class="no-override-title">No Mechanical Shift Lock Override</div>
+          <div class="no-override-text" id="res-no-override-text"></div>
+        </div>
+      </div>
+
+      <!-- EV Tow Mode notice -->
+      <div class="ev-tow-mode sec-procedures" id="res-ev-tow-mode">
+        <strong>⚡ EV / Hybrid — Touchscreen Tow Mode</strong>
+        <span id="res-ev-tow-mode-text"></span>
+      </div>
+
       <div class="proc-eyebrow">Procedures</div>
       <div class="proc-grid">
         <div class="proc-box shift">
@@ -1016,6 +1134,21 @@ footer .copy { margin-top:10px; font-size:10px; color:var(--dark6); }
     <!-- Notes / Warnings -->
     <div class="note-box sec-procedures" id="res-note" style="display:none"></div>
     <div class="warn-box sec-procedures" id="res-warn" style="display:none"></div>
+
+    <!-- EPR / Emergency Park Release info panel -->
+    <div class="epr-panel sec-procedures" id="res-epr-panel">
+      <div class="epr-head">
+        <span style="font-size:0.9rem;opacity:.7">🔑</span>
+        <span class="epr-head-title">Emergency Park Release (EPR)</span>
+      </div>
+      <div class="epr-body" id="res-epr-body"></div>
+    </div>
+
+    <!-- Carbon fiber / special body alert -->
+    <div class="special-body-alert sec-procedures" id="res-special-body">
+      <span class="special-body-icon">⚠️</span>
+      <span class="special-body-text" id="res-special-body-text"></span>
+    </div>
 
     <!-- ══ TOW METHOD ══ -->
     <div class="tow-block sec-towing">
@@ -1289,10 +1422,29 @@ function fillSteps(listId, steps, isTc) {
   const ul = document.getElementById(listId);
   if (!ul) return;
   ul.innerHTML = '';
+  let stepNum = 0;
   (steps || []).forEach((s, i) => {
     const li = document.createElement('li');
+    const sUp = s.toUpperCase();
     const numCls = isTc ? 'tc-step-num' : 'step-num';
-    li.innerHTML = `<span class="${numCls}">${i+1}</span><span>${s}</span>`;
+
+    // Section header detection: line ends with ":" or is all-caps label
+    const isSectionHeader = /^[A-Z][A-Z0-9\s\/\-\(\)]{3,50}:$/.test(s.trim()) ||
+      (s.toUpperCase() === s && s.trim().endsWith(':') && s.length < 60);
+
+    // Critical step detection
+    const isCritical = sUp.includes('CRITICAL') || sUp.includes('NEVER ') ||
+      sUp.includes('DO NOT ') || sUp.includes('WARNING') ||
+      (sUp.startsWith('FLATBED ONLY') && !isTc);
+
+    if (isSectionHeader) {
+      li.className = 'step-section-header';
+      li.innerHTML = `<span></span><span style="font-family:var(--font-u);font-size:0.75rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold-dark)">${s}</span>`;
+    } else {
+      stepNum++;
+      if (isCritical) li.className = 'step-critical';
+      li.innerHTML = `<span class="${numCls}">${stepNum}</span><span>${s}</span>`;
+    }
     ul.appendChild(li);
   });
 }
@@ -1378,11 +1530,24 @@ function doSearch(q) {
       div.className = 'search-result-item';
       div.dataset.idx = i;
       const label = v.make + ' ' + v.model;
-      // Add battery non-standard indicator in search results
-      const batFlag = isNonStandardBattery(v.battery?.location) ? ' <span style="color:var(--orange);font-size:0.7rem;">⚡ BAT</span>' : '';
+      const bat = v.battery || {};
+      const batLoc = (bat.location || '').toUpperCase();
+      const batType = bat.type || '';
+
+      // Build flag badges
+      let flags = '';
+      if (batType === 'auxiliary-12v-only') {
+        flags += ' <span style="color:var(--ev-color);font-size:0.7rem;font-weight:700">⚡EV</span>';
+      } else if (batType === 'agm-12v') {
+        flags += ' <span style="color:var(--blue);font-size:0.7rem;font-weight:700">AGM</span>';
+      }
+      if (batLoc.includes('TRUNK') || batLoc.includes('FRUNK') || batLoc.includes('UNDER') && (batLoc.includes('SEAT') || batLoc.includes('CAB')) || batLoc.includes('TRAILER HITCH')) {
+        flags += ' <span style="color:var(--orange);font-size:0.7rem;">⚡BAT</span>';
+      }
+
       div.innerHTML = `
         <div class="sri-left">
-          <span class="sri-name">${highlightText(label, q)}${batFlag}</span>
+          <span class="sri-name">${highlightText(label, q)}${flags}</span>
           <span class="sri-dt">${v.drivetrain||''}</span>
         </div>
         <span class="sri-years">${v.yearStart}–${v.yearEnd}</span>`;
@@ -1447,7 +1612,7 @@ document.querySelectorAll('.sf-btn').forEach(sfBtn => {
 });
 
 /* ════════════════════════════════════════════════════════════════
-   BATTERY RENDER
+   BATTERY RENDER — expanded for all 550 battery patterns
 ════════════════════════════════════════════════════════════════ */
 function renderBattery(bat) {
   if (!bat) return;
@@ -1464,24 +1629,40 @@ function renderBattery(bat) {
   badge.textContent = info.label;
   badge.className = 'battery-type-badge ' + info.cls;
 
-  // Non-standard location alert
+  // Non-standard location detection — expanded
   const nsEl  = document.getElementById('res-bat-nonstandard');
   const nsTxt = document.getElementById('res-bat-nonstandard-text');
   const loc   = (bat.location || '').toUpperCase();
   let nsMsg   = '';
+  let nsIcon  = '⚠';
 
-  if (loc.includes('TRUNK') || loc.includes('BOOT')) {
-    nsMsg = 'Battery is in the TRUNK — do not look under the hood.';
-  } else if (loc.includes('FRUNK') || loc.includes('FRONT TRUNK')) {
-    nsMsg = 'Battery is in the FRUNK (front storage area) — not in the engine bay.';
-  } else if (loc.includes('UNDER') && (loc.includes('SEAT') || loc.includes('CAB'))) {
-    nsMsg = 'Battery is under the seat in the cab — not under the hood.';
-  } else if (loc.includes('REAR') && !loc.includes('UNDER HOOD')) {
-    nsMsg = 'Battery is in the REAR compartment — verify location before jumping.';
+  // Check primary access method first (first 60 chars = primary location)
+  const locPrimary = loc.slice(0, 70);
+  if (locPrimary.startsWith('JUMP ACCESS') || locPrimary.includes('TRAILER HITCH') || locPrimary.includes('HITCH HARNESS')) {
+    nsIcon  = '🔌';
+    nsMsg   = 'Jump access is via the TRAILER HITCH harness — remove hitch cover to access jump leads. No terminal under the hood.';
+  } else if (locPrimary.includes('PASSENGER SEAT') || (locPrimary.includes('UNDER') && locPrimary.includes('SEAT'))) {
+    nsIcon  = '🔋';
+    nsMsg   = 'Battery is under the PASSENGER SEAT — move seat back and lift seat cushion to access.';
+  } else if (loc.includes('TRUNK') || loc.includes('BOOT')) {
+    nsIcon  = '🔋';
+    nsMsg   = 'Battery is in the TRUNK — do not look under the hood. Open the trunk to find the battery.';
+  } else if (loc.includes('FRUNK') || loc.includes('FRONT TRUNK') || loc.includes('FRONT HOOD')) {
+    nsIcon  = '🔋';
+    nsMsg   = 'Battery is in the FRUNK (front storage) — open the FRONT hood, not the engine lid.';
+  } else if (loc.includes('REAR ENGINE') && !loc.includes('UNDER HOOD')) {
+    nsIcon  = '🔋';
+    nsMsg   = 'Battery is in the REAR engine compartment — open the REAR access panel.';
+  } else if (loc.includes('REMOTE') || loc.includes('UNDER-HOOD REMOTE')) {
+    nsIcon  = '⚡';
+    nsMsg   = 'Battery in trunk — use the REMOTE positive (+) terminal under the hood (driver side, red cover).';
   }
 
   if (nsMsg) {
-    nsTxt.textContent = nsMsg;
+    const iconEl = nsEl.querySelector('.battery-nonstandard-icon');
+    const txtEl  = document.getElementById('res-bat-nonstandard-text');
+    if (iconEl) iconEl.textContent = nsIcon;
+    if (txtEl)  txtEl.textContent  = nsMsg;
     nsEl.classList.add('show');
   } else {
     nsEl.classList.remove('show');
@@ -1493,8 +1674,7 @@ function renderBattery(bat) {
 }
 
 /* ════════════════════════════════════════════════════════════════
-   QUICK TIPS BUILDER
-   Assembles key at-a-glance reminders based on vehicle data
+   QUICK TIPS BUILDER — expanded for 550 vehicles
 ════════════════════════════════════════════════════════════════ */
 function buildQuickTips(v) {
   const tips = [];
@@ -1502,71 +1682,109 @@ function buildQuickTips(v) {
   const tow = (v.towMethod || '').toUpperCase();
   const bat = (v.battery?.location || '').toUpperCase();
   const batType = v.battery?.type || '';
+  const slot = (v.slot || '').toUpperCase();
   const hasTc = !!v.tc;
   const isEv = batType === 'auxiliary-12v-only';
   const isAgm = batType === 'agm-12v';
+  const transUp = (v.trans || '').toUpperCase();
+  const shiftText = (v.shift || []).join(' ').toUpperCase();
 
-  // EV tip
+  // EV / Hybrid
   if (isEv) {
     tips.push({ label:'EV / Hybrid', val:'<strong>Flatbed only.</strong> Use 12V auxiliary battery only — never touch the high-voltage (HV) pack.' });
   }
 
-  // Battery location
+  // No mechanical override
+  if (slot.includes('NO MECHANICAL') || slot.includes('NO PHYSICAL') || slot.includes('NO SHIFT LOCK') || slot.includes('MANUAL ONLY')) {
+    tips.push({ label:'No Mechanical Override', val:'<strong>This vehicle has NO mechanical shift lock slot.</strong> Must have 12V power to shift. If power cannot be restored, use the procedure steps for the alternative method.' });
+  }
+
+  // Battery location — all non-standard types
   if (bat.includes('TRUNK') || bat.includes('BOOT')) {
-    tips.push({ label:'Battery Location', val:'<strong>Battery is in the trunk.</strong> Do not look under the hood for jump terminals — open the trunk.' });
-  } else if (bat.includes('FRUNK')) {
-    tips.push({ label:'Battery Location', val:'<strong>Battery is in the frunk</strong> (front storage area). The engine bay is at the rear or mid.' });
+    tips.push({ label:'Battery Location', val:'<strong>Battery is in the TRUNK.</strong> Do not look under the hood — open the trunk.' });
+  } else if (bat.includes('FRUNK') || bat.includes('FRONT TRUNK') || bat.includes('FRONT HOOD')) {
+    tips.push({ label:'Battery Location', val:'<strong>Battery is in the FRUNK</strong> (front storage). The engine is at the rear or mid — open the FRONT hood.' });
   } else if (bat.includes('UNDER') && (bat.includes('SEAT') || bat.includes('CAB'))) {
-    tips.push({ label:'Battery Location', val:'<strong>Battery under cab seat.</strong> Lift the seat cushion to access — not under the hood.' });
+    tips.push({ label:'Battery Location', val:'<strong>Battery under the seat.</strong> Lift the seat cushion to access — not under the hood.' });
+  } else if (bat.includes('PASSENGER SEAT')) {
+    tips.push({ label:'Battery Location', val:'<strong>Battery under the passenger seat.</strong> Move seat back, lift cushion to access terminals.' });
+  } else if (bat.includes('REAR ENGINE') || (bat.includes('REAR') && !bat.includes('UNDER HOOD'))) {
+    tips.push({ label:'Battery Location', val:'<strong>Battery in REAR compartment.</strong> Verify location — open the rear access panel.' });
+  } else if (bat.includes('TRAILER HITCH') || bat.includes('HITCH HARNESS')) {
+    tips.push({ label:'Jump Access', val:'<strong>Jump via trailer hitch harness.</strong> Remove hitch cover to access jump leads — no jump terminals under the hood.' });
   }
 
   // AGM battery
   if (isAgm && !isEv) {
-    tips.push({ label:'AGM Battery', val:'This vehicle uses an <strong>AGM battery.</strong> Use an AGM-compatible jump pack — standard lead-acid jump packs may not work correctly.' });
+    tips.push({ label:'AGM Battery', val:'Uses an <strong>AGM battery.</strong> Must use an AGM-compatible jump pack — standard lead-acid packs may not charge it correctly.' });
   }
 
-  // Flatbed-only
+  // Tow method
   if (tow.includes('FLATBED ONLY')) {
     tips.push({ label:'Tow Method', val:'<strong>Flatbed ONLY.</strong> Never tow with driven wheels on the ground.' });
-  }
-  // Flatbed preferred
-  else if (tow.includes('FLATBED PREFERRED') || tow.includes('FLATBED STRONGLY')) {
+  } else if (tow.includes('FLATBED STRONGLY PREFERRED') || tow.includes('FLATBED PREFERRED')) {
     tips.push({ label:'Tow Method', val:'<strong>Flatbed preferred.</strong> If wheel-lift is used, dollies must be under the free-rolling axle.' });
-  }
-  // FWD lift direction
-  else if (dt.startsWith('FWD') && !dt.includes('OR AWD') && !dt.includes('OR 4WD')) {
-    tips.push({ label:'Lift Direction', val:'<strong>FWD — lift from front.</strong> Front (drive) wheels must be in the air.' });
-  }
-  // RWD lift direction
-  else if (dt.includes('RWD') && !dt.includes('AWD') && !dt.includes('FWD')) {
-    tips.push({ label:'Lift Direction', val:'<strong>RWD — lift from rear.</strong> Rear (drive) wheels must be in the air.' });
+  } else if (dt.startsWith('FWD') && !dt.includes('OR AWD') && !dt.includes('OR 4WD')) {
+    tips.push({ label:'Lift Direction', val:'<strong>FWD — lift from front.</strong> Front (drive) wheels must be off the ground.' });
+  } else if (dt.includes('RWD') && !dt.includes('AWD') && !dt.includes('FWD')) {
+    tips.push({ label:'Lift Direction', val:'<strong>RWD — lift from rear.</strong> Rear (drive) wheels must be off the ground.' });
   }
 
   // Transfer case
   if (hasTc) {
-    tips.push({ label:'Transfer Case', val:'<strong>Must shift to 2WD before towing.</strong> Towing in 4WD on dry pavement will destroy the drivetrain. See TC section below.' });
-    tips.push({ label:'Dead Battery + TC', val:'If battery is dead: <strong>jump the battery first</strong>, shift TC to 2WD, then disconnect. If unable to shift, use flatbed.' });
+    tips.push({ label:'Transfer Case', val:'<strong>Must shift to 2WD before towing.</strong> Towing in 4WD on dry pavement destroys the drivetrain. See TC section.' });
+    tips.push({ label:'Dead Battery + TC', val:'If battery is dead: <strong>jump first</strong>, shift TC to 2WD, then disconnect. If unable to shift: FLATBED ONLY.' });
   }
 
-  // CVT warning
-  if ((v.trans || '').toUpperCase().includes('CVT')) {
+  // EPR (Jaguar / Land Rover)
+  if (/\bEPR\b/.test(shiftText) || shiftText.includes('EMERGENCY PARK RELEASE') || /\bEPR\b/.test(slot)) {
+    tips.push({ label:'EPR Required', val:'This vehicle uses an <strong>Emergency Park Release (EPR)</strong> — a mechanical lever in the console or engine bay. See the shift procedure for exact location. <strong>The rotary selector will still show P</strong> after activation — the flashing N on the display confirms it worked.' });
+  }
+
+  // ZF 9HP / ZF 8HP
+  if (transUp.includes('ZF 9HP') || transUp.includes('9HP') || shiftText.includes('ZF 9HP')) {
+    tips.push({ label:'ZF 9HP Rotary', val:'The ZF 9HP rotary selector <strong>requires 12V power</strong> to operate reliably. Always restore battery before shifting — mechanical override requires significant force without power.' });
+  }
+  if (transUp.includes('ZF 8HP') || transUp.includes('8HP')) {
+    tips.push({ label:'ZF 8HP Trans', val:'ZF 8HP transmission <strong>requires 12V power</strong> for reliable shifting. Restore battery before attempting shift override.' });
+  }
+
+  // DSG / S-tronic / DCT
+  if (transUp.includes('DSG') || transUp.includes('S-TRONIC') || transUp.includes('DCT') || shiftText.includes('DSG') || shiftText.includes('DUAL-CLUTCH')) {
+    tips.push({ label:'Dual-Clutch Trans', val:'DSG/S-tronic/DCT transmissions are <strong>electro-hydraulic — require 12V power to shift.</strong> Always restore battery before attempting Neutral.' });
+  }
+
+  // PDK (Porsche)
+  if (transUp.includes('PDK') || shiftText.includes('PDK')) {
+    tips.push({ label:'Porsche PDK', val:'PDK is electro-hydraulic — <strong>requires 12V power to shift.</strong> Mechanical override requires very firm sustained pressure. Restore battery first.' });
+  }
+
+  // CVT
+  if (transUp.includes('CVT')) {
     tips.push({ label:'CVT Transmission', val:'Do <strong>not</strong> exceed 35 mph or 50 miles with drive wheels on the ground. Flatbed strongly preferred.' });
   }
 
-  // DSG / S-tronic / ZF 9HP
-  const transUp = (v.trans || '').toUpperCase();
-  if (transUp.includes('DSG') || transUp.includes('S-TRONIC') || transUp.includes('DCT')) {
-    tips.push({ label:'Dual-Clutch Trans', val:'DCT/DSG/S-tronic transmissions require <strong>12V power to shift.</strong> Always restore battery before attempting Neutral.' });
+  // Carbon fiber
+  const cfText = (v.knownIssues || []).map(ki => ki.title + ' ' + ki.detail).join(' ').toUpperCase();
+  if (cfText.includes('CARBON FIBER') || cfText.includes('CFRP') || (v.battery?.warnings || '').toUpperCase().includes('CARBON')) {
+    tips.push({ label:'Carbon Fiber Body', val:'<strong>Carbon fiber (CFRP) body.</strong> Never use metal chains, hooks, or hard straps on body panels — will crack. Use padded ramps and rubber-lined soft straps only.' });
   }
-  if (transUp.includes('ZF 9HP') || transUp.includes('9HP')) {
-    tips.push({ label:'ZF 9HP Rotary', val:'The rotary ZF 9HP selector <strong>requires 12V power</strong> to operate reliably. Restore battery power before shifting.' });
+
+  // Diff locks (G-Class)
+  if (shiftText.includes('DIFFERENTIAL LOCK') || shiftText.includes('DIFF LOCK')) {
+    tips.push({ label:'Differential Locks', val:'<strong>ALL THREE differential locks must be OFF</strong> before road towing. Each has a separate dash indicator. Towing with any lock engaged on dry pavement causes immediate drivetrain damage.' });
+  }
+
+  // Stainless steel (Cybertruck)
+  if ((v.knownIssues || []).some(ki => (ki.title || '').toUpperCase().includes('STAINLESS'))) {
+    tips.push({ label:'Stainless Body', val:'<strong>Stainless steel exoskeleton.</strong> Standard magnetic equipment will not work on body panels. Use frame contact points only.' });
   }
 
   return tips;
 }
 
 /* ════════════════════════════════════════════════════════════════
-   RENDER VEHICLE
+   RENDER VEHICLE — v2.1 — 550 vehicles
 ════════════════════════════════════════════════════════════════ */
 function renderVehicle(v) {
   // Reset filter to "All"
@@ -1581,7 +1799,92 @@ function renderVehicle(v) {
   setEl('res-drivetrain', v.drivetrain || '—', true);
   setEl('res-trans',      v.trans      || '—', true);
 
-  // Tow method banner — color-coded
+  // ── No mechanical override alert ──
+  const slot = (v.slot || '').toUpperCase();
+  const noMech = slot.includes('NO MECHANICAL') || slot.includes('NO PHYSICAL') ||
+                 slot.includes('MANUAL ONLY') || slot.includes('NO SHIFT LOCK SLOT');
+  const noOverrideEl  = document.getElementById('res-no-override');
+  const noOverrideTxt = document.getElementById('res-no-override-text');
+  if (noMech) {
+    // Determine reason
+    let noMsg = 'This vehicle has no mechanical shift lock override slot. ';
+    const sl = v.slot || '';
+    if (sl.toUpperCase().includes('MANUAL ONLY') || sl.toUpperCase().includes('MANUAL TRANSMISSION')) {
+      noMsg = 'Manual transmission — no shift lock solenoid exists. Depress the clutch and move the gear lever to Neutral.';
+    } else if (sl.toUpperCase().includes('TOUCH') || sl.toUpperCase().includes('TOUCHSCREEN')) {
+      noMsg = 'Fully electronic/touchscreen selector with no mechanical cable backup. Must restore 12V power to shift.';
+    } else {
+      noMsg += 'Must restore 12V power to the 12V auxiliary battery before any gear selection is possible.';
+    }
+    noOverrideTxt.textContent = noMsg;
+    noOverrideEl.classList.add('show');
+  } else {
+    noOverrideEl.classList.remove('show');
+  }
+
+  // ── EV tow mode notice ──
+  const isEv = v.battery?.type === 'auxiliary-12v-only';
+  const evTowEl   = document.getElementById('res-ev-tow-mode');
+  const evTowTxt  = document.getElementById('res-ev-tow-mode-text');
+  if (isEv) {
+    const shiftJoined = (v.shift || []).join(' ');
+    // Extract tow mode path from shift steps if present
+    const towModeMatch = shiftJoined.match(/(Settings|Controls|PCM|Car Status)[^.]+Tow Mode[^.]+\./i);
+    evTowTxt.textContent = towModeMatch
+      ? towModeMatch[0]
+      : 'Use the vehicle touchscreen to activate Tow Mode before loading onto flatbed.';
+    evTowEl.classList.add('show');
+  } else {
+    evTowEl.classList.remove('show');
+  }
+
+  // ── EPR panel (Jaguar / Land Rover) ──
+  const eprPanel = document.getElementById('res-epr-panel');
+  const eprBody  = document.getElementById('res-epr-body');
+  const shiftJoined = (v.shift || []).join(' ');
+  const hasEpr = /\bEPR\b/.test(shiftJoined.toUpperCase()) ||
+                 shiftJoined.toUpperCase().includes('EMERGENCY PARK RELEASE') ||
+                 /\bEPR\b/.test((v.slot || '').toUpperCase());
+  if (hasEpr) {
+    // Find the EPR steps to summarize
+    const eprSteps = (v.shift || []).filter(s =>
+      /\bEPR\b/.test(s.toUpperCase()) ||
+      s.toUpperCase().includes('EMERGENCY PARK') ||
+      s.toUpperCase().includes('LOCKING DEVICE') ||
+      s.toUpperCase().includes('RED NYLON') ||
+      s.toUpperCase().includes('CUPHOLDER') ||
+      s.toUpperCase().includes('PULL THE EPR') ||
+      s.toUpperCase().includes('INTAKE MANIFOLD')
+    );
+    if (eprSteps.length > 0) {
+      eprBody.innerHTML = '<strong>Key EPR steps:</strong> ' + eprSteps.slice(0,3).join(' → ') +
+        '<br><br><em>Note: The EPR does NOT release the Electronic Park Brake — that is a separate system. Confirm the vehicle rolls freely before loading.</em>';
+    } else {
+      eprBody.innerHTML = 'See shift procedure above for Emergency Park Release location and steps. <em>The EPR does NOT release the Electronic Park Brake.</em>';
+    }
+    eprPanel.classList.add('show');
+  } else {
+    eprPanel.classList.remove('show');
+  }
+
+  // ── Carbon fiber / special body alert ──
+  const specialBodyEl  = document.getElementById('res-special-body');
+  const specialBodyTxt = document.getElementById('res-special-body-text');
+  const cfText = (v.knownIssues || []).map(ki => ki.title + ' ' + ki.detail).join(' ').toUpperCase();
+  const batWarnUp = (v.battery?.warnings || '').toUpperCase();
+  const isCf = cfText.includes('CARBON FIBER') || cfText.includes('CFRP') || batWarnUp.includes('CARBON');
+  const isSS = (v.knownIssues || []).some(ki => (ki.title || '').toUpperCase().includes('STAINLESS'));
+  if (isCf) {
+    specialBodyTxt.innerHTML = '<strong>Carbon fiber (CFRP) body:</strong> Never use metal chains, hooks, or hard straps directly on body panels — will crack. Use padded ramps, soft loop straps, and rubber-lined tie-downs only.';
+    specialBodyEl.classList.add('show');
+  } else if (isSS) {
+    specialBodyTxt.innerHTML = '<strong>Stainless steel body:</strong> Standard magnetic equipment will not attach. Use frame contact points only — do not place anything magnetic against the panels.';
+    specialBodyEl.classList.add('show');
+  } else {
+    specialBodyEl.classList.remove('show');
+  }
+
+  // ── Tow method banner ──
   const towUp = (v.towMethod || '').toUpperCase();
   const banner = document.getElementById('res-tow-banner');
   const lbl = document.getElementById('res-tow-banner-label');

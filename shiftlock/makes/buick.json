@@ -256,17 +256,18 @@
       "slot": "Small cap on the right side of the shift indicator on the console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap on the right side of the shift indicator on the console.",
-        "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead screwdriver.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood, driver side.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "FWD: lift from front — front (drive) wheels in the air."
       ],
       "notes": "",
       "warn": "",
@@ -293,17 +294,18 @@
       "slot": "Small cap near gear selector base on console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on console.",
-        "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead screwdriver.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood, driver side.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "FWD: lift from front — front (drive) wheels in the air."
       ],
       "notes": "",
       "warn": "",
@@ -330,17 +332,18 @@
       "slot": "Small cap near gear selector base on console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on console.",
-        "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead screwdriver.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood, driver side.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Connect jump pack to battery — under the hood.",
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "FWD: lift from front — front (drive) wheels in the air."
       ],
       "notes": "Century discontinued 2005. Regal (Mk3) was sedan. Both FWD.",
       "warn": "",
@@ -367,17 +370,18 @@
       "slot": "Small cap near gear selector base on console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on console.",
-        "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead screwdriver.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
         "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "AWD (Versatrak): no traditional TC — FLATBED PREFERRED for AWD variants."
       ],
       "notes": "AWD uses Versatrak on-demand system — not a traditional transfer case.",
       "warn": "AWD models: flatbed preferred.",
@@ -405,18 +409,19 @@
       "slot": "Floor shift — small cap near shifter base on console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near shifter base on console.",
-        "Pry off cap with small flathead.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead screwdriver.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
         "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "Transfer case: shift to 2WD/2H before road towing."
+        "Once 12V restored, press brake and shift to Neutral normally.",
+        "Transfer case: electronic push-button. Shift to 2WD before road towing.",
+        "IF BATTERY DEAD: jump first, shift TC to 2WD, then disconnect. If unable: FLATBED ONLY."
       ],
       "notes": "Trailblazer-based platform. Electric push-button transfer case on most. Must shift TC to 2WD before road towing.",
       "warn": "Transfer case must be in 2H/2WD for road towing. 4WD on dry pavement will damage drivetrain.",
@@ -459,19 +464,20 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead screwdriver.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
         "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Once 12V power is restored, press brake and shift to Neutral normally.",
+        "FWD: lift from front — front (drive) wheels in the air."
       ],
-      "notes": "Manual: depress clutch, select Neutral.",
+      "notes": "Manual transmission: depress clutch, select Neutral.",
       "warn": "",
       "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
       "tc": null,
@@ -496,17 +502,18 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead screwdriver.",
+        "Insert key or thin flathead into the slot and press firmly downward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
         "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Once 12V restored, press brake and shift to Neutral.",
+        "eAWD (TourX/Sportback): electric rear motor — FLATBED PREFERRED."
       ],
       "notes": "eAWD (TourX/Sportback): electric rear motor AWD — flatbed preferred for AWD trims.",
       "warn": "AWD TourX/Sportback: flatbed preferred.",

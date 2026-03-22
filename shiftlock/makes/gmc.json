@@ -433,11 +433,10 @@
       "drivetrain": "RWD or 4WD (part-time)",
       "slot": "Cap near selector base on center console",
       "shift": [
-        "Turn ignition to ON.",
-        "AUTOMATIC: Locate shift lock slot — cap near selector base on center console.",
-        "Pry off cap. Insert key and press firmly.",
-        "While holding, press brake. Move selector to Neutral.",
-        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+        "Turn ignition to ON (do not start).",
+        "Locate shift lock cap near selector base on center console.",
+        "Pry off cap. Insert key or thin flathead. Press firmly. Hold while pressing brake. Move to N.",
+        "4WD: manual floor TC lever — shift to 2WD before road towing."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -482,17 +481,18 @@
       "slot": "Small cap near gear selector base on floor console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on floor console.",
-        "Pry off cap with small flathead.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "AWD: flatbed preferred."
       ],
       "notes": "AWD uses Borg-Warner AWD system — no traditional TC. AWD: flatbed preferred.",
       "warn": "AWD: flatbed preferred.",
@@ -519,18 +519,19 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "Transfer case: shift to 2WD before road towing."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "TC: electronic push-button. Shift to 2WD before road towing.",
+        "IF BATTERY DEAD: jump first, shift to 2WD, then disconnect. If unable: FLATBED ONLY."
       ],
       "notes": "Shares Trailblazer platform. Electronic TC push-button. Must be in 2WD for road towing.",
       "warn": "Shift TC to 2WD before road towing. 4WD on dry pavement damages driveline.",
@@ -573,18 +574,19 @@
       "slot": "Small cap near gear selector base on floor console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on floor console.",
-        "Pry off cap with small flathead.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "Transfer case: shift to 2WD/2H before road towing."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "TC: manual floor lever — shift to 2H before road towing.",
+        "Manual trans: depress clutch, select N."
       ],
       "notes": "S-10 Blazer/S-Series platform. Manual TC floor lever on most. Manual: depress clutch, select Neutral.",
       "warn": "Shift TC to 2H before road towing.",

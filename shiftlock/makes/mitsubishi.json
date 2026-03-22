@@ -176,18 +176,18 @@
       "slot": "Small cap near gear selector base on floor console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on floor console.",
-        "Pry off cap with small flathead.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, shift to Neutral.",
-        "Transfer case: shift to 2WD before road towing. Manual floor TC lever."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "TC: Mitsubishi Super Select 4WD — floor lever to 2WD before road towing."
       ],
       "notes": "Manual TC floor lever on most. Must be in 2H for road towing. Manual: depress clutch.",
       "warn": "Shift TC to 2H before road towing.",
@@ -201,9 +201,10 @@
         ],
         "steps": [
           "Stop completely.",
-          "Move TC floor lever to 2WD.",
-          "Confirm 2WD before lifting rear wheels.",
-          "MANUAL TRANSMISSION: depress clutch, select Neutral."
+          "Move the TC floor lever to 2WD (leftmost position on the Super Select 4WD lever gate).",
+          "Super Select positions: 2WD — 4WD-H — 4WD-HLc — 4WD-L.",
+          "Confirm 2WD indicator on the dash.",
+          "NEVER tow in 4WD-HLc (locked) or 4WD-L on dry pavement."
         ]
       },
       "towNotes": [
@@ -229,16 +230,17 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "FWD: lift from front."
       ],
       "notes": "",
       "warn": "",
@@ -266,18 +268,18 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, shift to Neutral.",
-        "Manual: depress clutch, select Neutral.",
-        "AWD (VR-4): flatbed preferred."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "VR-4 / Stealth R/T Turbo: permanent AWD — FLATBED ONLY.",
+        "Base/SL (FWD): lift from front. Manual: depress clutch."
       ],
       "notes": "Manual: depress clutch. AWD VR-4: flatbed preferred. Very low clearance — flatbed preferred for all.",
       "warn": "AWD (VR-4): flatbed preferred. Very low clearance — flatbed preferred.",
@@ -286,7 +288,8 @@
       "towNotes": [
         "FWD: lift from front.",
         "AWD (VR-4): flatbed preferred.",
-        "Very low ground clearance — flatbed preferred for all variants."
+        "Very low ground clearance — flatbed preferred for all variants.",
+        "VR-4 and Stealth R/T Turbo: permanent AWD, FLATBED ONLY. Base/SL: FWD standard."
       ],
       "knownIssues": [],
       "battery": {
@@ -306,17 +309,17 @@
       "slot": "Electronic selector — no mechanical shift lock slot",
       "shift": [
         "Turn vehicle to ON/Ready mode.",
-        "Electronic gear selector: press N on the selector while pressing the brake pedal.",
-        "If power is lost: restore 12V auxiliary battery under the hood.",
-        "Once powered, press N to select Neutral."
+        "Gear selector on console — press and hold N while pressing brake pedal.",
+        "Confirm N on instrument cluster.",
+        "If power lost: connect jump pack to 12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery."
       ],
       "neutral": [
-        "Apply parking brake.",
         "FLATBED ONLY — electric drivetrain.",
-        "Connect jump pack to 12V auxiliary battery — under the hood.",
-        "12V AUXILIARY ONLY — NEVER touch HV battery.",
-        "Once powered, select Neutral.",
-        "FLATBED ONLY."
+        "12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — never touch HV battery.",
+        "Rear motor — rear wheels must be free when loading onto flatbed.",
+        "Very small/light vehicle — low ground clearance."
       ],
       "notes": "Electric city car. RWD (rear motor). Very small. 12V under hood. Flatbed only.",
       "warn": "FLATBED ONLY. 12V auxiliary ONLY — never touch HV battery.",
@@ -331,7 +334,7 @@
         "location": "Under hood (12V auxiliary)",
         "jumpTerminals": "Under hood — 12V auxiliary terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "FLATBED ONLY. Never touch HV battery."
+        "warnings": "FLATBED ONLY. 12V auxiliary only — never touch HV battery."
       }
     }
   ]

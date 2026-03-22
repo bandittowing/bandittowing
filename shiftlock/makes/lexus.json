@@ -47,7 +47,7 @@
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals. Hybrid: 12V only.",
         "type": "standard-12v",
-        "warnings": "Hybrid: 12V auxiliary only."
+        "warnings": "Hybrid: 12V auxiliary only. Hybrid: 12V auxiliary only — never touch the HV battery."
       }
     },
     {
@@ -85,7 +85,7 @@
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals. Hybrid: 12V only.",
         "type": "standard-12v",
-        "warnings": "Hybrid: 12V only."
+        "warnings": "Hybrid: 12V only. Hybrid: 12V auxiliary only — never touch the HV battery."
       }
     },
     {
@@ -284,7 +284,7 @@
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals. Hybrid/PHEV: 12V only.",
         "type": "standard-12v",
-        "warnings": "Hybrid/PHEV: 12V only."
+        "warnings": "Hybrid/PHEV: 12V only. Hybrid: 12V auxiliary only — never touch the HV battery."
       }
     },
     {
@@ -323,7 +323,7 @@
         "location": "Under hood or under rear seat — varies by generation",
         "jumpTerminals": "Under hood: fused jump terminal (+), ground bolt (−)",
         "type": "agm-12v",
-        "warnings": "Air suspension drops with dead battery. Hybrid: 12V only. Use hood terminals."
+        "warnings": "Air suspension drops with dead battery. Hybrid: 12V only. Use hood terminals. Hybrid: 12V auxiliary only — never touch the HV battery."
       }
     },
     {
@@ -335,19 +335,17 @@
       "drivetrain": "RWD",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON (do not start).",
+        "Locate the shift lock release: small cap near selector base on console.",
+        "Pry off cap. Insert key or thin flathead. Press firmly. Hold. Press brake. Move to N.",
+        "BATTERY IS IN THE TRUNK (driver side) — must access trunk for jumping."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — in the TRUNK, driver side.",
-        "SC 430 battery is in the trunk — do NOT look under the hood.",
-        "Once powered, press brake and shift to Neutral normally."
+        "BATTERY IS IN THE TRUNK — open trunk, battery on DRIVER SIDE.",
+        "Connect jump pack to trunk battery.",
+        "Once powered, press brake and shift to N.",
+        "RWD: lift from rear. High-value collectible — FLATBED PREFERRED."
       ],
       "notes": "Battery is in the TRUNK. High-value convertible — flatbed preferred.",
       "warn": "Battery in TRUNK. High-value vehicle — flatbed preferred.",
@@ -362,13 +360,17 @@
         {
           "title": "Battery in Trunk",
           "detail": "The SC 430 12V battery is in the trunk on the driver side. There is no battery under the hood."
+        },
+        {
+          "title": "Battery in Trunk — Driver Side",
+          "detail": "SC 430 battery is in the trunk on the driver side. Open the trunk and lift the cargo floor to access. No battery under the hood."
         }
       ],
       "battery": {
         "location": "TRUNK — driver side",
-        "jumpTerminals": "Trunk — 12V battery terminals",
+        "jumpTerminals": "Trunk — 12V battery terminals, driver side",
         "type": "standard-12v",
-        "warnings": "Battery in trunk. High-value vehicle."
+        "warnings": "Battery in TRUNK (driver side). High-value — flatbed preferred."
       }
     },
     {
@@ -380,21 +382,18 @@
       "drivetrain": "RWD or AWD",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON (do not start).",
+        "Locate shift lock slot near selector base on console — inside or beside console armrest on some gens.",
+        "Pry off cap. Insert key or thin flathead. Press firmly. Hold. Press brake. Move to N.",
+        "NOTE: Some GS gens have the slot INSIDE the center console storage bin — open the armrest lid first."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "GS Hybrid: 12V auxiliary under hood ONLY — never touch HV battery."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "AWD variants: FLATBED PREFERRED. RWD: lift from rear."
       ],
-      "notes": "GS 300/400/430/460/350/450h. AWD: flatbed preferred. GS Hybrid: 12V only.",
+      "notes": "Hybrid variants: 12V auxiliary only. AWD: flatbed preferred.",
       "warn": "AWD: flatbed preferred. Hybrid: 12V auxiliary ONLY.",
       "towMethod": "RWD: lift from rear. AWD: flatbed preferred.",
       "tc": null,
@@ -421,21 +420,21 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "LC 500h Hybrid: 12V auxiliary ONLY — never touch HV battery."
+        "Connect jump pack — under hood. AGM battery — use AGM-compatible pack.",
+        "Once powered, shift to N.",
+        "VERY HIGH VALUE — FLATBED ONLY with padded equipment."
       ],
       "notes": "High-value grand touring car. LC 500h hybrid: 12V auxiliary only. Flatbed strongly preferred.",
-      "warn": "High-value vehicle — flatbed preferred. Hybrid: 12V ONLY.",
+      "warn": "Very high value — FLATBED ONLY. AGM battery.",
       "towMethod": "RWD: lift from rear. Flatbed strongly preferred.",
       "tc": null,
       "towNotes": [
@@ -448,7 +447,7 @@
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
         "type": "agm-12v",
-        "warnings": "High-value vehicle — flatbed preferred. Hybrid: 12V auxiliary only."
+        "warnings": "AGM battery. Very high-value — flatbed only."
       }
     },
     {
@@ -461,19 +460,19 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to 12V battery — under the hood.",
-        "12V auxiliary ONLY — never touch HV battery.",
-        "Once powered, press brake and shift to Neutral normally.",
-        "CVT: flatbed preferred."
+        "Connect jump pack to 12V auxiliary — under hood.",
+        "12V AUXILIARY ONLY for hybrid/EV — NEVER touch HV battery.",
+        "UX 250h hybrid: FWD or AWD. AWD: flatbed preferred.",
+        "CVT/e-CVT: flatbed preferred for towing."
       ],
       "notes": "CVT: flatbed preferred. UX 250h hybrid: 12V auxiliary only. AWD: flatbed preferred.",
       "warn": "CVT and AWD: flatbed preferred. Hybrid: 12V auxiliary ONLY.",
@@ -489,7 +488,7 @@
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "Hybrid: 12V auxiliary only. Never touch HV battery."
+        "warnings": "12V auxiliary only — never touch HV battery. AWD: flatbed preferred."
       }
     }
   ]

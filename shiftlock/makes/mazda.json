@@ -188,7 +188,7 @@
         "Once 12V power is restored, press brake and shift to Neutral normally.",
         "If power cannot be restored, use the shift lock slot above — Cap near selector base (auto only)."
       ],
-      "notes": "Manual: clutch to N. Very low clearance.",
+      "notes": "Manual transmission is most common on all generations. Manual: depress clutch fully, select Neutral — no shift lock slot needed. Automatic (rare): slot near selector base on console.",
       "warn": "LOW CLEARANCE — flatbed preferred.",
       "drivetrain": "RWD",
       "towMethod": "Lift from rear — rear (drive) wheels in the air or flatbed — low clearance, flatbed preferred. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -222,21 +222,19 @@
       "yearEnd": 2005,
       "trans": "4-speed automatic (NA) or 5-speed manual",
       "drivetrain": "RWD",
-      "slot": "Small cap near gear selector base on center console (auto only)",
+      "slot": "Manual: no shift lock. Auto (rare): small cap near selector base on console.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "AUTOMATIC: Locate the shift lock cap near selector base on center console.",
-        "Pry off cap with small flathead. Insert key and press firmly.",
-        "While holding, press brake. Move selector to Neutral.",
-        "MANUAL TRANSMISSION (most common): depress clutch fully, move gear lever to Neutral."
+        "MANUAL TRANSMISSION (standard on NA/NB): depress clutch fully, move lever to Neutral.",
+        "AUTOMATIC (rare, available on some NA/NB trims): locate slot near selector base on console.",
+        "Pry off cap. Insert key. Press firmly. Hold. Press brake. Move to N."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Manual trans: depress clutch, select Neutral.",
-        "Automatic: shift lock release as above."
+        "Manual: depress clutch, select N.",
+        "Auto: connect jump pack — under hood. Once powered, shift to N.",
+        "RWD: lift from rear. High-value — flatbed preferred."
       ],
-      "notes": "Manual transmission is the most common variant. Lightweight sports car — high value. Flatbed preferred.",
+      "notes": "Manual is the most common configuration. Auto was available but rare.",
       "warn": "High-value vehicle — flatbed preferred.",
       "towMethod": "RWD: lift from rear. Flatbed strongly preferred to avoid body damage.",
       "tc": null,
@@ -263,18 +261,19 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral.",
-        "IMPORTANT: The Renesis rotary engine must be warm before restarting — a cold rotary tow call is common after flooding. Do not attempt a restart without warming procedure."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "RWD: lift from rear.",
+        "CRITICAL: Rotary engine floods very easily — see Known Issues before attempting roadside restart."
       ],
       "notes": "Renesis rotary engine. Very common flood/no-start tow. Battery under hood. Manual: depress clutch.",
       "warn": "Rotary engine: very prone to flooding (over-choking on cold starts). Extremely common tow call.",
@@ -308,17 +307,18 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "Transfer case: shift to 2WD before road towing."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "4WD: TC push-button or floor lever. Shift to 2WD before road towing.",
+        "IF BATTERY DEAD: jump first, shift to 2WD, then disconnect."
       ],
       "notes": "Ford Escape platform. 4WD: must shift to 2WD before road towing. Manual: depress clutch, select Neutral.",
       "warn": "4WD: shift to 2WD before road towing.",
@@ -359,17 +359,18 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "AWD (torque-on-demand): FLATBED PREFERRED — no traditional TC."
       ],
       "notes": "AWD: flatbed preferred.",
       "warn": "AWD: flatbed preferred.",
@@ -397,18 +398,19 @@
       "slot": "Small cap near gear selector base on floor console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on floor console.",
-        "Pry off cap with small flathead.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, shift to Neutral.",
-        "Transfer case: shift to 2WD before road towing. Manual TC floor lever on most."
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "4WD: manual floor TC lever — shift to 2H before road towing.",
+        "Manual trans: depress clutch, select N."
       ],
       "notes": "Ford Ranger-based. Manual TC floor lever. Manual: depress clutch, select Neutral.",
       "warn": "Shift TC to 2H before road towing.",
@@ -422,9 +424,9 @@
         ],
         "steps": [
           "Stop completely.",
-          "Move TC floor lever to 2WD.",
-          "Confirm 2WD before lifting rear wheels.",
-          "MANUAL TRANSMISSION: depress clutch, select Neutral."
+          "Manual TC floor lever: move to 2H (2WD).",
+          "Confirm 2H before road towing.",
+          "Manual trans: depress clutch, select Neutral."
         ]
       },
       "towNotes": [

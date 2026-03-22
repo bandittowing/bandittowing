@@ -243,18 +243,16 @@
       "trans": "Single-speed electric",
       "slot": "Electronic selector — slot near selector base",
       "shift": [
-        "Turn the Subaru Solterra to ON/Ready mode.",
-        "Shift lock slot: Electronic selector — slot near selector base.",
-        "Insert a thin key or flathead into the slot and press firmly.",
-        "Press the brake pedal while holding the slot.",
-        "Move selector to N.",
-        "FLATBED ONLY — do not tow with driven wheels on the ground."
+        "Turn vehicle to ON/Ready mode.",
+        "Electronic gear selector — press N while pressing brake pedal.",
+        "If power is lost: connect jump pack to 12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV battery."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Connect jump pack to battery — Under hood (12V auxiliary). 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack.",
-        "Once 12V power is restored, press brake and shift to N normally.",
-        "FLATBED ONLY."
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — never touch HV battery.",
+        "Once powered, press N while pressing brake."
       ],
       "notes": "Shared platform with Toyota bZ4X.",
       "warn": "FLATBED ONLY.",
@@ -271,7 +269,7 @@
         "location": "Under hood (12V auxiliary)",
         "jumpTerminals": "Under hood — 12V auxiliary terminals only",
         "type": "auxiliary-12v-only",
-        "warnings": "NEVER touch HV battery. Flatbed only."
+        "warnings": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
       }
     },
     {
@@ -357,21 +355,21 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral.",
-        "FLATBED PREFERRED — permanent Symmetrical AWD."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "Permanent Symmetrical AWD: FLATBED ONLY — cannot disable AWD."
       ],
       "notes": "Permanent Symmetrical AWD — cannot be disengaged. Flatbed preferred. Very rare collectible.",
       "warn": "Permanent AWD — flatbed preferred. Rare vehicle — handle with care.",
-      "towMethod": "FLATBED PREFERRED — permanent AWD. Wheel-lift with dollies on free-rolling axle if no flatbed.",
+      "towMethod": "FLATBED ONLY — permanent AWD. If no flatbed, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "Permanent Symmetrical AWD — cannot disengage. Flatbed preferred.",
@@ -396,18 +394,17 @@
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with small flathead.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral.",
-        "Manual: depress clutch, select Neutral.",
-        "FLATBED PREFERRED — permanent AWD."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "Permanent Symmetrical AWD: FLATBED PREFERRED."
       ],
       "notes": "Outback-based pickup/car hybrid. Permanent Symmetrical AWD. Manual: depress clutch.",
       "warn": "Permanent AWD — flatbed preferred.",
@@ -434,18 +431,18 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral.",
-        "FLATBED PREFERRED — permanent Symmetrical AWD."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "Permanent Symmetrical AWD: FLATBED PREFERRED."
       ],
       "notes": "Permanent Symmetrical AWD — flatbed preferred. Three-row SUV.",
       "warn": "Permanent AWD — flatbed preferred.",
@@ -472,18 +469,18 @@
       "slot": "Small slot near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
+        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
+        "While holding, press the brake pedal firmly.",
         "Move selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, press brake and shift to Neutral.",
-        "FLATBED PREFERRED — permanent AWD and CVT."
+        "Connect jump pack — under hood.",
+        "Once powered, shift to N.",
+        "Permanent Symmetrical AWD: FLATBED PREFERRED."
       ],
       "notes": "Permanent Symmetrical AWD with CVT — flatbed strongly preferred.",
       "warn": "Permanent AWD + CVT — flatbed strongly preferred.",
@@ -498,7 +495,7 @@
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
         "type": "agm-12v",
-        "warnings": "2019+ uses AGM battery — use AGM-compatible jump pack. Permanent AWD + CVT — flatbed preferred."
+        "warnings": "AGM battery (2019+) — use AGM-compatible jump pack."
       }
     }
   ]

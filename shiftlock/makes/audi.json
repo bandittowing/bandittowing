@@ -34,7 +34,7 @@
         "Once 12V power is restored, press brake and select N normally on the electronic selector.",
         "Electronic selectors require power — mechanical override is a last resort only."
       ],
-      "notes": "Battery location varies: often under rear seat. A3 8P (2006-2013), 8V (2014-2020), 8Y (2021+).",
+      "notes": "Battery location varies: often under rear seat. A3 8P (2006-2013), 8V (2014-2020), 8Y (2021+). DSG/S-tronic REQUIRES 12V power to shift — electro-hydraulic clutch packs will not release without power. Always restore battery before attempting any shift.",
       "warn": "S-tronic DSG: NEVER tow with wheels on ground. Flatbed only.",
       "drivetrain": "FWD or Quattro AWD",
       "towMethod": "FWD: lift from front — front (drive) wheels in the air. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -119,7 +119,7 @@
         "Once 12V power is restored, press brake and select N normally on the electronic selector.",
         "Electronic selectors require power — mechanical override is a last resort only."
       ],
-      "notes": "S-tronic DSG on most variants — power preferred.",
+      "notes": "S-tronic DSG on most variants — power preferred. DSG/S-tronic REQUIRES 12V power to shift — electro-hydraulic clutch packs will not release without power. Always restore battery before attempting any shift.",
       "warn": "Quattro AWD — flatbed preferred.",
       "drivetrain": "FWD or Quattro AWD",
       "towMethod": "FWD: lift from front — front (drive) wheels in the air. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -127,7 +127,12 @@
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "DSG/S-tronic Cannot Shift Without Power",
+          "detail": "Audi DSG and S-tronic dual-clutch transmissions are controlled by electro-hydraulic actuators. Without 12V power they cannot shift out of Park. Always jump the 12V battery before attempting any shift override. This applies to all Audi models with DSG or S-tronic (most 2005+ models)."
+        }
+      ],
       "battery": {
         "location": "In trunk under panel",
         "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
@@ -193,7 +198,7 @@
         "Connect jump pack to battery — In trunk under floor panel. Use an AGM-compatible jump pack — this vehicle has an AGM battery.",
         "Once powered, press brake and rotate dial to N normally."
       ],
-      "notes": "1st gen uses MMI rotary shifter — rotate counterclockwise toward N.",
+      "notes": "1st gen uses MMI rotary shifter — rotate counterclockwise toward N. DSG/S-tronic REQUIRES 12V power to shift — electro-hydraulic clutch packs will not release without power. Always restore battery before attempting any shift.",
       "warn": "Quattro AWD — flatbed preferred.",
       "drivetrain": "Quattro AWD",
       "towMethod": "FLATBED ONLY — Quattro AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
@@ -201,7 +206,12 @@
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "DSG/S-tronic Cannot Shift Without Power",
+          "detail": "Audi DSG and S-tronic dual-clutch transmissions are controlled by electro-hydraulic actuators. Without 12V power they cannot shift out of Park. Always jump the 12V battery before attempting any shift override. This applies to all Audi models with DSG or S-tronic (most 2005+ models)."
+        }
+      ],
       "battery": {
         "location": "In trunk under floor panel",
         "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
@@ -270,7 +280,7 @@
         "Once 12V power is restored, press brake and shift to N normally.",
         "If mechanical slot is used without power: S-tronic transmissions may resist — apply steady firm pressure and hold for several seconds."
       ],
-      "notes": "S-tronic DSG — power required in most cases.",
+      "notes": "S-tronic DSG — power required in most cases. DSG/S-tronic REQUIRES 12V power to shift — electro-hydraulic clutch packs will not release without power. Always restore battery before attempting any shift.",
       "warn": "Quattro AWD — flatbed preferred.",
       "drivetrain": "FWD or Quattro AWD",
       "towMethod": "FWD: lift from front — front (drive) wheels in the air. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -278,7 +288,12 @@
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "DSG/S-tronic Cannot Shift Without Power",
+          "detail": "Audi DSG and S-tronic dual-clutch transmissions are controlled by electro-hydraulic actuators. Without 12V power they cannot shift out of Park. Always jump the 12V battery before attempting any shift override. This applies to all Audi models with DSG or S-tronic (most 2005+ models)."
+        }
+      ],
       "battery": {
         "location": "Under hood or under rear seat — varies",
         "jumpTerminals": "Under hood: red fused terminal, black ground bolt",
@@ -308,7 +323,7 @@
         "Once 12V power is restored, press brake and shift to N normally.",
         "If mechanical slot is used without power: S-tronic transmissions may resist — apply steady firm pressure and hold for several seconds."
       ],
-      "notes": "2017+ Q5 uses 7-speed S-tronic. Earlier models use Tiptronic.",
+      "notes": "2017+ Q5 uses 7-speed S-tronic. Earlier models use Tiptronic. DSG/S-tronic REQUIRES 12V power to shift — electro-hydraulic clutch packs will not release without power. Always restore battery before attempting any shift.",
       "warn": "Quattro AWD — flatbed preferred.",
       "drivetrain": "Quattro AWD",
       "towMethod": "FLATBED ONLY — Quattro AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
@@ -316,7 +331,12 @@
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "DSG/S-tronic Cannot Shift Without Power",
+          "detail": "Audi DSG and S-tronic dual-clutch transmissions are controlled by electro-hydraulic actuators. Without 12V power they cannot shift out of Park. Always jump the 12V battery before attempting any shift override. This applies to all Audi models with DSG or S-tronic (most 2005+ models)."
+        }
+      ],
       "battery": {
         "location": "Under hood or in trunk — varies by year",
         "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
@@ -420,18 +440,18 @@
       "trans": "Single-speed electric",
       "slot": "Electronic gear selector — shift lock slot near selector base",
       "shift": [
-        "Turn the Audi e-tron / e-tron GT / Q4 e-tron / Q8 e-tron to ON/Ready mode.",
-        "Shift lock slot: Electronic gear selector — shift lock slot near selector base.",
-        "Insert a thin key or flathead into the slot and press firmly.",
-        "Press the brake pedal while holding the slot.",
-        "Move selector to N.",
-        "FLATBED ONLY — do not tow with driven wheels on the ground."
+        "Turn vehicle to ON/Ready mode.",
+        "Electronic gear selector — select N using selector button or touchscreen.",
+        "If power is lost: connect jump pack to 12V auxiliary battery under the hood.",
+        "12V AUXILIARY ONLY — NEVER touch HV components.",
+        "Once powered, shift to N electronically."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Open the trunk — battery is e-tron: under hood. e-tron gt: in trunk. q4: under floor. q8 e-tron: cargo area. Connect jump pack. 12V AUXILIARY BATTERY ONLY — never touch the high-voltage battery pack.",
-        "Once 12V power is restored, press brake and shift to N normally.",
-        "FLATBED ONLY."
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary under hood.",
+        "12V AUXILIARY ONLY — never touch HV battery.",
+        "Once powered, select N electronically.",
+        "Permanent Quattro AWD — flatbed is the only safe option."
       ],
       "notes": "800V HV system — NEVER touch HV components.",
       "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
@@ -449,7 +469,7 @@
         "location": "e-tron: under hood. e-tron GT: in trunk. Q4: under floor. Q8 e-tron: cargo area",
         "jumpTerminals": "Varies by model — see location. 12V auxiliary terminals only.",
         "type": "auxiliary-12v-only",
-        "warnings": "NEVER touch HV orange cables or connectors. 800V system on e-tron GT. Only 12V auxiliary battery for jumping."
+        "warnings": "FLATBED ONLY. 12V auxiliary only. Never touch HV system."
       }
     },
     {
@@ -461,19 +481,18 @@
       "drivetrain": "FWD or Quattro AWD",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON.",
+        "Tiptronic automatic: locate slot near shift lever base on console.",
+        "Pry off cap. Insert thin flathead. Press firmly. Hold while pressing brake. Move to N.",
+        "S-tronic DSG (if equipped): REQUIRES 12V power — restore battery first.",
+        "Manual: depress clutch, select Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
         "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, shift to Neutral normally.",
-        "Quattro AWD: flatbed preferred."
+        "DSG: must restore power before shifting.",
+        "Once powered, shift normally. Manual: depress clutch.",
+        "Quattro AWD: FLATBED PREFERRED."
       ],
       "notes": "Manual: depress clutch, select Neutral. DSG/S-tronic: power strongly preferred. Quattro: flatbed preferred.",
       "warn": "Quattro AWD: flatbed preferred. DSG: restore power before shifting.",
@@ -502,19 +521,21 @@
       "slot": "Small slot near gear selector base on center console; DSG: slot on side of selector housing",
       "shift": [
         "Turn ignition to ON.",
-        "DSG/S-tronic: REQUIRES 12V POWER to shift — restore battery first.",
-        "Locate the shift lock slot near the gear selector base or on the side of the selector housing.",
-        "Insert a thin flathead and press firmly.",
-        "While holding, press the brake pedal.",
-        "Move or push the selector to Neutral.",
-        "Manual: depress clutch fully, move to Neutral."
+        "DSG/S-tronic: REQUIRES 12V POWER — restore battery first.",
+        "Connect jump pack to battery under hood.",
+        "Once powered, press brake and shift to N normally.",
+        "WITHOUT POWER — mechanical override:",
+        "Locate slot near selector base or on side of selector housing.",
+        "Insert thin flathead. Press firmly and hold.",
+        "Press brake and move selector to N.",
+        "Manual: depress clutch, select Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
         "Connect jump pack to battery — under the hood.",
-        "DSG/S-tronic: MUST restore 12V power — cannot shift without it.",
-        "Once powered, shift to Neutral normally.",
-        "Quattro: flatbed preferred."
+        "DSG/S-tronic: must restore 12V power — will not shift without it.",
+        "Once powered, shift to N.",
+        "Quattro AWD: FLATBED PREFERRED."
       ],
       "notes": "DSG/S-tronic: always restore power. Manual: depress clutch. Quattro: flatbed preferred. Low clearance on all generations.",
       "warn": "DSG: MUST restore power before shifting. Quattro: flatbed preferred.",
@@ -547,18 +568,15 @@
       "drivetrain": "Quattro AWD (standard)",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small slot near gear selector base on center console.",
-        "Pry off cap if present.",
-        "Insert key or thin flathead and press firmly downward.",
-        "While holding, press the brake pedal.",
-        "Move selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition to ON.",
+        "Locate slot near gear selector base on center console.",
+        "Pry off trim cover. Insert thin flathead. Press firmly. Hold while pressing brake. Move to N.",
+        "Tiptronic: standard resistance. DSG/S-tronic: restore 12V power first."
       ],
       "neutral": [
         "Apply parking brake.",
         "Connect jump pack to battery — under the hood.",
-        "Once 12V power is restored, shift to Neutral normally.",
+        "Once powered, shift to N.",
         "FLATBED PREFERRED — permanent Quattro AWD."
       ],
       "notes": "All Allroad variants are full-time Quattro AWD — flatbed preferred.",
@@ -574,7 +592,7 @@
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
         "type": "agm-12v",
-        "warnings": "2008+ uses AGM battery — use AGM-compatible jump pack. Permanent AWD — flatbed preferred."
+        "warnings": "AGM battery on 2008+ models. Permanent Quattro AWD — flatbed preferred."
       }
     },
     {
@@ -594,12 +612,11 @@
         "Without power, these transmissions will strongly resist and may not release — always jump first."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Battery is under hood in the REAR ENGINE compartment or frunk depending on generation — see notes.",
-        "Gen 1 (2008-2015): battery in the FRONT storage area (frunk-like compartment behind front axle).",
-        "Gen 2 (2016+): battery under hood at front or rear — verify location.",
-        "Restore 12V power, then shift to Neutral.",
-        "FLATBED ONLY — very low clearance, mid/rear-engine, high value."
+        "FLATBED ONLY — very high value, low clearance.",
+        "BATTERY IS IN THE FRONT STORAGE COMPARTMENT — open the front access panel.",
+        "R-tronic/S-tronic: requires 12V power to shift.",
+        "Connect jump pack to front battery. Once powered, use paddles/selector to select N.",
+        "Permanent Quattro AWD — flatbed only."
       ],
       "notes": "Mid-engine (V10) or rear-engine. Battery location: Gen 1 in front storage compartment. ALWAYS verify battery location before jumping. Very high value — FLATBED ONLY.",
       "warn": "FLATBED ONLY. Battery NOT under conventional hood. Very high-value vehicle.",
@@ -621,10 +638,10 @@
         }
       ],
       "battery": {
-        "location": "Gen 1: FRONT storage compartment (not engine bay). Gen 2: verify location — typically front compartment or under hood.",
-        "jumpTerminals": "Front storage compartment or under hood — verify before connecting",
+        "location": "Gen 1 R8 (2008-2015): FRONT storage compartment — NOT the rear engine bay. Gen 2 R8 (2016+): verify location.",
+        "jumpTerminals": "Front storage compartment — 12V battery terminals",
         "type": "agm-12v",
-        "warnings": "Battery NOT in engine bay on Gen 1. FLATBED ONLY. Very high value."
+        "warnings": "Battery NOT in engine bay. Open front storage panel. Transmission requires power to shift. FLATBED ONLY — very high value."
       }
     },
     {
@@ -638,15 +655,16 @@
       "shift": [
         "Turn ignition to ON.",
         "DSG/S-tronic: REQUIRES 12V power — restore battery first.",
-        "Locate the shift lock slot near the selector base.",
-        "Insert key or thin flathead, press firmly, hold, press brake, move to Neutral.",
+        "Locate slot near selector base on console.",
+        "Insert thin flathead. Press firmly. Hold while pressing brake. Move to N.",
         "Manual: depress clutch, select Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
         "Connect jump pack to battery — under the hood.",
-        "DSG: must restore 12V power — cannot shift without it.",
-        "Once powered, shift to Neutral normally."
+        "DSG: must restore 12V before shifting.",
+        "Once powered, shift to N.",
+        "Quattro AWD: FLATBED PREFERRED."
       ],
       "notes": "Small crossover. DSG: power required. Manual: depress clutch. Quattro: flatbed preferred.",
       "warn": "DSG: restore power before shifting. Quattro: flatbed preferred.",
