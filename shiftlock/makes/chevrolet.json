@@ -10,68 +10,65 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "Chevrolet",
-  "_count": 35,
+  "_count": 49,
   "vehicles": [
     {
-      "make": "Chevrolet",
-      "model": "Silverado 1500 (2000-2018)",
-      "yearStart": 2000,
-      "yearEnd": 2018,
-      "trans": "4-speed, 6-speed, or 8-speed automatic",
-      "slot": "Cap at side of console shifter base (console shift) or slot on steering column (column shift)",
-      "shift": [
-        "Turn ignition to ON.",
-        "This vehicle uses a COLUMN-MOUNTED shifter — the shift lock slot is on the STEERING COLUMN, not the floor console.",
-        "Locate the slot on the steering column — Cap at side of console shifter base (console shift) or slot on steering column (column shift).",
-        "Insert a thin key or flathead into the slot on the column.",
-        "Press firmly while pressing the brake pedal.",
-        "Move the column shifter to Neutral."
-      ],
+      "model": "Silverado 1500 (1999-2006, GMT800)",
+      "yearStart": 1999,
+      "yearEnd": 2006,
+      "drivetrain": "RWD or 4WD (part-time)",
+      "trans": "4-speed automatic 4L60-E (V6/small V8); 4-speed auto 4L80-E (heavy duty/diesel option); 5-speed manual NV3500/NV4500 (early)",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "COLUMN SHIFTER (most trims): shift interlock slot on the STEERING COLUMN housing — small access slot on the lower-left face of the column, just below the shift lever. Turn key to ON/ACC, insert flathead screwdriver, press interlock, press brake, move lever to N. FLOOR CONSOLE SHIFT (some extended cab sport trims): small plastic cap on RIGHT side of shifter console base — pry off, insert screwdriver, press interlock, press brake, shift to N.",
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood, driver side.",
-        "Once 12V power is restored, press brake and move column shifter to N normally."
+        "Connect jump pack to battery — under hood, driver side.",
+        "Column shift: turn key to ON, insert flathead into column slot, press brake, move lever to N.",
+        "Floor shift: pry cap on right side of console base, insert screwdriver, press brake, shift to N.",
+        "TRANSFER CASE: must be in 2WD/2H before wheel-lift towing. Manual TC: floor lever to 2H. Electric TC: with engine running, button to 2H.",
+        "4WD: FLATBED preferred. 2WD RWD: can lift from rear."
       ],
-      "notes": "4WD: transfer case MUST be in 2H before towing on paved road.",
-      "warn": "4WD: transfer case to 2H.",
+      "notes": "GMT800 platform. 4.3L V6, 4.8L, 5.3L, 6.0L V8 options. No 8-speed — max 4-speed auto."
+    },
+    {
+      "model": "Silverado 1500 (2007-2013, GMT900)",
+      "yearStart": 2007,
+      "yearEnd": 2013,
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear — rear (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
-      "tc": {
-        "type": "Electric push-button (Autotrac) on most; manual floor lever on some older bench-seat trims",
-        "positions": [
-          "2WD (2H) — rear wheels only — REQUIRED for all road towing",
-          "4WD Auto — automatic AWD — NOT safe for towing",
-          "4WD Hi (4H) — part-time 4WD high — NOT safe for dry-road towing",
-          "4WD Lo (4L) — low range — NEVER tow in this position"
-        ],
-        "steps": [
-          "Slow to under 3 MPH (electric TC) or stop completely (manual lever).",
-          "ELECTRIC (push-button on dash/console): Press the 2WD button. Wait for the 2WD indicator lamp to illuminate.",
-          "MANUAL LEVER: Stop the vehicle completely. Move the floor-mounted TC lever firmly to the 2H position.",
-          "Confirm the 2WD indicator lamp is ON on the instrument cluster.",
-          "Verify NO 4WD indicator lights are illuminated before lifting rear wheels.",
-          "NEVER tow in 4H, 4WD Auto, or 4L on pavement — will damage axles and transfer case.",
-          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
-        ]
-      },
-      "towNotes": [
-        "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
-        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
-        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
-      ],
-      "knownIssues": [
-        {
-          "title": "Transfer Case in 4H/4L Will Destroy Driveline",
-          "detail": "Towing a 4WD Silverado with the transfer case in 4H or 4L on dry pavement — even for short distances — will cause severe transfer case and differential damage. Always confirm 2WD indicator is illuminated before lifting. This is the single most common towing damage claim on these trucks."
-        }
-      ],
+      "trans": "4-speed automatic 4L60-E or 4L80-E (early); 6-speed automatic 6L80-E or 6L90-E (2007+); no 8-speed on this generation",
       "battery": {
-        "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard red (+) / black (−)",
-        "type": "standard-12v",
-        "warnings": "Confirm TC in 2WD before wheel lift. Most common towing damage on this platform is from towing in 4H."
-      }
+        "location": "Under hood, driver side"
+      },
+      "slot": "COLUMN SHIFTER: shift interlock slot on the STEERING COLUMN housing — lower-left face of the column, below the shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under hood, driver side.",
+        "Turn key to ON, insert flathead into column shift interlock slot (lower-left column face), press brake, move lever to N.",
+        "TRANSFER CASE: must be in 2WD/2H before wheel-lift towing. Electronic TC: with engine running, press 2WD button. Manual TC floor lever to 2H.",
+        "4WD: FLATBED preferred. 2WD: can lift from rear."
+      ],
+      "notes": "GMT900 platform. 4.3L V6, 4.8L, 5.3L, 6.0L, 6.2L V8. 6-speed auto introduced. No 8-speed on this generation."
+    },
+    {
+      "model": "Silverado 1500 (2014-2018, K2XX)",
+      "yearStart": 2014,
+      "yearEnd": 2018,
+      "drivetrain": "RWD or 4WD (part-time)",
+      "trans": "6-speed automatic 6L80-E (4.3L V6 and 5.3L V8, standard); 8-speed automatic 8L90-E (6.2L V8 ONLY, available 2015+); no 8-speed available before 2015",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "COLUMN SHIFTER: shift interlock slot on the STEERING COLUMN housing — lower-left face of the column. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under hood, driver side.",
+        "Turn key to ON, insert flathead into column shift interlock slot (lower-left column face), press brake, move lever to N.",
+        "TRANSFER CASE: must be in 2WD/2H before wheel-lift towing. Electronic TC: with engine running, press 2WD button.",
+        "4WD: FLATBED preferred. 2WD: can lift from rear."
+      ],
+      "notes": "K2XX platform. First gen to offer 8-speed (8L90-E) but ONLY with 6.2L V8 and only from 2015 MY. All other engines use 6-speed 6L80."
     },
     {
       "make": "Chevrolet",
@@ -79,21 +76,22 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "6, 8, or 10-speed automatic",
-      "slot": "Electronic selector — trim panel near selector, remove to expose slot",
+      "slot": "NO CABIN OVERRIDE. Electronic column/button shifter with hydraulically-controlled park pawl. GM owner's manual explicitly states: cannot shift to neutral with dead or low battery. Restore 12V power first. GM special tool DT-52910 required for workshop manual park release.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — trim panel near selector, remove to expose slot.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — this is the only practical field option.",
+        "Connect jump pack to battery under hood.",
+        "Start engine or reach at least accessory mode, press brake, shift to N.",
+        "WITHOUT POWER: there is NO cabin shift lock override on the 2019+ Silverado.",
+        "GM owner's manual page 411 confirms: parking brake and gear shift cannot be released with dead battery.",
+        "GM special tool DT-52910 (Manual Park Release Tool) is required — dealer/shop use only, needs lift.",
+        "FIELD SOLUTION: Flatbed with wheel dollies. Do not attempt to drag."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Restore 12V power via jump pack — battery under hood.",
+        "Start engine or accessory mode, press brake, shift to N on column/button selector.",
+        "If power cannot be restored: FLATBED ONLY with front wheel dollies.",
+        "4WD/AWD: FLATBED REQUIRED — never tow by front wheels only."
       ],
       "notes": "Silverado EV (2024+): flatbed only, 12V auxiliary.",
       "warn": "Silverado EV: FLATBED ONLY. 4WD: transfer case.",
@@ -121,7 +119,12 @@
         "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "No Cabin Neutral Override (2019+) — Power Required",
+          "detail": "The 2019+ Silverado 1500 uses an electronic shifter with a hydraulically controlled park pawl. There is no shift lock release accessible from the cabin. GM's owner's manual (p.411) explicitly states it cannot be released with a low/dead battery. GM shop tool DT-52910 is required for manual park release and must be used on a lift. Always restore 12V power first. Flatbed with dollies is the field solution."
+        }
+      ],
       "battery": {
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
@@ -135,21 +138,20 @@
       "yearStart": 2001,
       "yearEnd": 2026,
       "trans": "4-speed, 6-speed, or 10-speed automatic",
-      "slot": "Cap at console shifter base or electronic selector slot depending on year",
+      "slot": "Pre-2020 (column shift): shift interlock slot on the STEERING COLUMN housing — lower-left face. 2020+ (electronic selector): NO CABIN OVERRIDE — restore 12V power first. Dead battery: FLATBED with wheel dollies.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Cap at console shifter base or electronic selector slot depending on year.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "IDENTIFY YEAR AND SHIFTER TYPE FIRST.",
+        "PRE-2020 (column shift): Turn ignition to ON. Locate shift lock slot on lower-left face of steering column. Insert flathead, press firmly. Press brake. Move lever to N. Requires at least 9V — jump pack if battery is low.",
+        "2020+ (electronic selector): RESTORE 12V POWER FIRST. Connect jump pack. Start engine or accessory mode. Press brake. Shift to N.",
+        "2020+ WITHOUT POWER: NO cabin override. FLATBED with wheel dollies only.",
+        "GM special tool DT-52910 required for workshop park release on 2020+ models."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood — may have dual batteries on diesel trims.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Pre-2020 column shift: key to ON, flathead in column slot, press brake, move to N.",
+        "2020+ electronic: restore power, shift to N normally.",
+        "2020+ no power: FLATBED ONLY.",
+        "HD trucks: ALWAYS FLATBED — do not tow by wheels."
       ],
       "notes": "Duramax diesel: same procedure. Heavy-duty — use heavy wheel blocks.",
       "warn": "4WD: transfer case to 2H.",
@@ -182,7 +184,7 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood — may have dual batteries on diesel trims",
+        "location": "Under hood, driver side. Duramax diesel trims (2001+ LB7, LLY, LBZ, LMM, LML, L5P): DUAL BATTERIES — both under hood, both on driver side. Connect jump pack to the POSITIVE post closest to the firewall on the primary (driver-side front) battery.",
         "jumpTerminals": "Under hood: jump to positive (+) terminal on either battery. Ground (−) to engine block or frame.",
         "type": "standard-12v",
         "warnings": "Diesel trims may have two 12V batteries in parallel. Jump to either positive terminal. Heavy vehicle — verify equipment ratings."
@@ -194,21 +196,21 @@
       "yearStart": 2000,
       "yearEnd": 2020,
       "trans": "4-speed or 6-speed automatic",
-      "slot": "Cap at side of console shifter base",
+      "slot": "COLUMN SHIFTER (all 2000-2020 Suburban/Tahoe): shift interlock slot on the STEERING COLUMN housing — lower-left face of the column, below the shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move lever to N. NOTE: These vehicles use column shifters only — there is NO console shifter cap on these models.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Cap at side of console shifter base.",
-        "Pry off the cap or cover if present using your ignition key or a small flathead.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "Turn ignition key to ON (do not start).",
+        "COLUMN SHIFTER: locate the shift lock release slot on the lower-left face of the steering column.",
+        "Insert a thin flathead into the slot and press firmly inward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the column lever from Park to Neutral.",
+        "DEAD BATTERY: shift interlock requires ~9V minimum. Connect jump pack first."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
         "Connect jump pack to battery — Under hood, driver side.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Cap at side of console shifter base."
+        "If power cannot be restored, use the shift lock slot above — Cap at side of console shifter base.",
+        "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
       ],
       "notes": "4WD standard. Transfer case to 2H.",
       "warn": "4WD: transfer case. Large SUV — block all wheels.",
@@ -251,21 +253,22 @@
       "yearStart": 2021,
       "yearEnd": 2026,
       "trans": "10-speed automatic (10L80)",
-      "slot": "Electronic selector — trim panel near selector, remove to expose slot",
+      "slot": "NO CABIN OVERRIDE. 2021+ Suburban/Tahoe uses electronic button shifting with hydraulic park pawl. Cannot shift to neutral with dead or low battery. Restore 12V power first. FLATBED with wheel dollies if power cannot be restored.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — trim panel near selector, remove to expose slot.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — only practical field option.",
+        "Connect jump pack to battery under hood.",
+        "Once powered, press brake and select N on electronic selector.",
+        "WITHOUT POWER: NO cabin override on 2021+ Suburban/Tahoe.",
+        "Owner's manual confirms: parking brake and gear shift cannot be released with dead battery.",
+        "Note: Even with power, the electric parking brake WILL auto-engage if you try to release Park — disconnect rear caliper connectors or pull EPB fuse before using manual park release tool.",
+        "FIELD SOLUTION: Flatbed with wheel dollies only."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Apply chocks — electric parking brake may auto-engage when shifting out of Park.",
+        "Restore 12V power via jump pack.",
+        "Once powered, press brake, select N on button selector.",
+        "If power cannot be restored: FLATBED ONLY with wheel dollies.",
+        "AWD: FLATBED REQUIRED — never tow by front wheels only."
       ],
       "notes": "AWD and 4WD available.",
       "warn": "4WD: transfer case to 2H. Block all wheels.",
@@ -295,7 +298,12 @@
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "No Cabin Neutral Override (2021+) — Electric Parking Brake Complication",
+          "detail": "The 2021+ Suburban/Tahoe has no cabin shift lock release. With a hydraulic park pawl and electronic button shifting, it cannot be moved without power. Additionally, if the manual park release is used while powered, the electric parking brake will automatically engage as a safety feature — requiring caliper connectors to be unplugged or the EPB fuse to be pulled before the vehicle will roll. Flatbed with wheel dollies is the safest field solution."
+        }
+      ],
       "battery": {
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
@@ -309,21 +317,21 @@
       "yearStart": 2005,
       "yearEnd": 2017,
       "trans": "5-speed or 6-speed automatic",
-      "slot": "Cap near console shifter base",
+      "slot": "Small plastic cap on the RIGHT side of the shifter console, adjacent to the selector lever — pry off with ignition key or flathead to expose shift lock button underneath.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Cap near console shifter base.",
-        "Pry off the cap or cover if present using your ignition key or a small flathead.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "Locate the small plastic cap on the RIGHT side of the shifter console, beside the selector lever.",
+        "Pry off the cap with the ignition key or a small flathead.",
+        "Insert the key or flathead into the slot and press firmly downward.",
+        "While holding the override, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
         "Connect jump pack to battery — Under hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Cap near console shifter base."
+        "If power cannot be restored, use the shift lock slot above — Cap near console shifter base.",
+        "FWD models: lift from front (drive wheels). AWD: FLATBED preferred."
       ],
       "notes": "AWD optional.",
       "warn": "",
@@ -347,21 +355,23 @@
       "yearStart": 2018,
       "yearEnd": 2026,
       "trans": "6 or 9-speed automatic",
-      "slot": "Electronic selector — slot near base",
+      "slot": "NO accessible cabin override without power. 2018+ Equinox uses BTSI solenoid — no traditional shift lock cap. Requires removing shifter leather trim to reach solenoid. Restore 12V power — battery under hood. Then shift normally.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — slot near base.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — strongly preferred.",
+        "Connect jump pack to battery under hood.",
+        "Once powered, turn ignition to ON, press brake, move selector to N.",
+        "WITHOUT POWER — solenoid access procedure:",
+        "Remove the shifter leather/trim surround (pull straight up, unclips).",
+        "Insert a small flathead into the exposed BTSI solenoid mechanism and push to release.",
+        "Press brake. Move selector to N.",
+        "This is a console-disassembly procedure — restore power is strongly preferred."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Restore 12V power via jump pack under hood.",
+        "Once powered, key to ON, press brake, move selector to N.",
+        "If power cannot be restored: FLATBED with wheel dollies is the easiest field solution.",
+        "AWD: FLATBED PREFERRED."
       ],
       "notes": "Equinox EV (2024+): flatbed only.",
       "warn": "Equinox EV: FLATBED ONLY.",
@@ -385,21 +395,22 @@
       "yearStart": 2009,
       "yearEnd": 2026,
       "trans": "6-speed, 9-speed, or 8-speed automatic",
-      "slot": "Cap near shifter base (2009-2017) or electronic selector slot (2018+)",
+      "slot": "Gen1 (2009-2017): small plastic cap on RIGHT side of console shifter base — pry off, insert key/screwdriver into override slot, press brake, move to N. Gen2 (2018+): NO accessible cabin shift lock cap. Restore 12V power via under-hood jump terminals first, then press brake and select N normally on electronic selector.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Cap near shifter base (2009-2017) or electronic selector slot (2018+).",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "IDENTIFY YEAR FIRST.",
+        "BATTERY NOTE: battery is under the PASSENGER SIDE FLOOR MAT, NOT under the hood. Jump terminals ARE under the hood — use positive jumper block (left side of engine bay) and firewall ground for jump starting.",
+        "2009-2017 (floor lever): Turn ignition to ON. Locate small plastic cap on RIGHT side of shifter console. Pry off with key or flathead. Insert key into slot, press firmly. Hold, press brake, move selector to N.",
+        "2018+ (electronic selector): RESTORE POWER FIRST via jump terminals under hood. Once powered, press brake and move selector to N.",
+        "2018+ WITHOUT POWER: remove shifter leather trim surround (pulls up off clips), insert small flathead into BTSI solenoid slot and push to release. Press brake. Move to N.",
+        "FLATBED with wheel dollies is the easiest alternative for 2018+ without power."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Battery is INSIDE CABIN under passenger-side floor mat — DO NOT remove cabin battery to jump; use under-hood jump terminal block (fuse box area, driver side).",
+        "Connect jump pack to under-hood positive terminal block (+) and chassis ground near firewall.",
+        "Gen1 (2009-2017): once powered, pry cap on right side of console, insert screwdriver into slot, press brake, move selector to N.",
+        "Gen2 (2018+): once powered, press brake and select N on electronic selector.",
+        "AWD: FLATBED preferred."
       ],
       "notes": "AWD optional.",
       "warn": "",
@@ -411,7 +422,7 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood",
+        "location": "INSIDE CABIN under floor mat, passenger side — NOT under hood. Gen1 (2009-2017): under floor panel in front of second-row passenger seat — remove floor mat, unscrew Torx cover. Gen2 (2018+): under floor panel below front passenger seat — move seat forward, remove carpet and Torx cover. JUMP TERMINALS under hood (fuse block area, driver side) — use these for jump starting; do not connect directly to cabin battery for jumping.",
         "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
@@ -423,24 +434,25 @@
       "yearStart": 2004,
       "yearEnd": 2022,
       "trans": "4-speed, 6-speed, or 8-speed automatic",
-      "slot": "Cap near console shifter base",
+      "slot": "No traditional shift lock cap. With at least partial battery power, turning the ignition key to ON (do not start) releases the shift interlock — press brake and move selector. Completely dead battery: restore power via jump pack. Emergency (no power): disconnect shift cable at transmission and manually lever to N.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Cap near console shifter base.",
-        "Pry off the cap or cover if present using your ignition key or a small flathead.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "Turn ignition key to ON (do not start engine) — this powers the interlock solenoid.",
+        "Press the brake pedal firmly.",
+        "Move the floor selector from Park to Neutral.",
+        "If that fails (very low battery): connect jump pack — battery under hood.",
+        "Once powered, key to ON, press brake, shift to N.",
+        "COMPLETELY DEAD / NO POWER — emergency only: Crawl underneath and disconnect the shift cable from the transmission selector lever. Manually push the lever two clicks toward the front of the truck to reach Neutral.",
+        "NOTE: There is no accessible cabin shift lock override slot on the 2004-2022 Colorado."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Cap near console shifter base."
+        "Apply parking brake.",
+        "Key to ON, press brake, move selector to N — works with partial battery.",
+        "Dead battery: connect jump pack first.",
+        "Emergency no-power: transmission cable disconnect underneath (see shift steps).",
+        "4WD: FLATBED preferred."
       ],
       "notes": "4WD optional. Transfer case to 2H.",
-      "warn": "4WD: transfer case.",
+      "warn": "Must shift transfer case to 2H/2WD before road towing. Never tow in 4H or 4L on dry pavement — drivetrain damage.",
       "drivetrain": "RWD or 4WD (part-time)",
       "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
@@ -477,24 +489,22 @@
       "yearStart": 2023,
       "yearEnd": 2026,
       "trans": "8-speed automatic",
-      "slot": "Electronic selector — slot near base",
+      "slot": "NO CABIN OVERRIDE. 2023+ Colorado uses electronic selector with hydraulic park pawl. Restore 12V power first. FLATBED with wheel dollies if power cannot be restored.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — slot near base.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST.",
+        "Connect jump pack — battery under hood.",
+        "Once powered, press brake and select N on electronic selector.",
+        "WITHOUT POWER: NO cabin override. FLATBED with wheel dollies."
       ],
       "neutral": [
         "Apply parking brake.",
         "Connect jump pack to battery — Under hood.",
         "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Electronic selectors require power — mechanical override is a last resort only.",
+        "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
       ],
       "notes": "4WD optional.",
-      "warn": "4WD: transfer case.",
+      "warn": "Must shift transfer case to 2H/2WD before road towing. Never tow in 4H or 4L on dry pavement — drivetrain damage.",
       "drivetrain": "RWD or 4WD (part-time)",
       "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
@@ -530,15 +540,14 @@
       "yearStart": 2000,
       "yearEnd": 2004,
       "trans": "4-speed auto or 6-speed manual",
-      "slot": "Cap near center tunnel shifter — remove to access slot",
+      "slot": "Small round plastic cap on the RIGHT side of the shifter base on the center tunnel — pry off to expose shift lock override button underneath.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Cap near center tunnel shifter — remove to access slot.",
-        "Pry off the cap or cover if present using your ignition key or a small flathead.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "Locate the small round plastic cap on the RIGHT side of the shifter base, center tunnel console.",
+        "Pry off the cap with the ignition key or small flathead.",
+        "Insert the key or flathead into the slot and press firmly downward.",
+        "While holding the override, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -570,15 +579,14 @@
       "yearStart": 2005,
       "yearEnd": 2013,
       "trans": "6-speed auto or 6-speed manual",
-      "slot": "Cap near console shifter base",
+      "slot": "Small plastic cap on the RIGHT side of the shifter base on the center console — pry off to expose shift lock override button.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Cap near console shifter base.",
-        "Pry off the cap or cover if present using your ignition key or a small flathead.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "Locate the small plastic cap on the RIGHT side of the shifter base on the console.",
+        "Pry off the cap with the ignition key or small flathead.",
+        "Insert the key or flathead into the slot and press firmly downward.",
+        "While holding the override, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -610,21 +618,29 @@
       "yearStart": 2014,
       "yearEnd": 2019,
       "trans": "8-speed auto or 7-speed manual",
-      "slot": "Removable panel near electronic selector on console — remove to expose slot",
+      "slot": "NO simple accessible slot. Requires console disassembly: remove LEFT-side leather console trim panel (pull off retaining clips), remove console storage lid, pry up the shifter console surround — then insert long flathead behind the BTSI solenoid lock rod and push rearward ~½ inch. ALTERNATIVE: underbody — remove 10mm nut from shift lever on side of transmission, push lever two clicks forward to reach Neutral.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Removable panel near electronic selector on console — remove to expose slot.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — strongly preferred. Connect jump pack to battery in rear cargo area.",
+        "Once powered, press brake and move selector to N normally.",
+        "WITH PARTIAL POWER — service mode method: Foot OFF brake, press and HOLD Start button for ~8-10 seconds until lights/chimes activate. This enters service/accessory mode (equivalent to key-in-ignition ON position). Release Start button. Now press brake and shift selector to N normally. When done, move back to Park and press Start (no brake) to exit service mode.",
+        "WITHOUT POWER — console disassembly method:",
+        "Pull off the LEFT-side leather trim panel on the center console (retaining clips only — no tools).",
+        "Remove the console storage lid/bin.",
+        "Pry up the shifter console surround carefully to expose the BTSI solenoid assembly.",
+        "Insert a long-blade flathead (4-6 inch) behind the solenoid lock rod.",
+        "Push the lock rod rearward approximately ½ inch to release — takes very little force.",
+        "Press brake. Move selector to N.",
+        "WITHOUT POWER — underbody method (easier if vehicle is accessible):",
+        "Crawl under the rear of the vehicle. Locate the 10mm nut on the shift lever on the side of the transmission.",
+        "Remove the nut. Push the lever two clicks toward the front of the vehicle to reach Neutral.",
+        "BATTERY LOCATION: rear cargo area under the floor panel (not under hood)."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Open the front hood — the 12V auxiliary battery is in the frunk (front storage area).  Connect jump pack to the 12V terminals.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Jump pack connects to rear trunk battery — open hatch, pull carpet from passenger side wall, lift foam cover, access (+) and (-) terminals.",
+        "Once powered, press brake and select N.",
+        "No power: console disassembly or underbody transmission lever method.",
+        "CARBON FIBER body panels — use soft straps only. No hooks on body."
       ],
       "notes": "Battery is in the REAR TRUNK (right rear under carpet). Z06, Grand Sport, ZR1: same.",
       "warn": "FLATBED ONLY. Extremely low clearance. Load from REAR only.",
@@ -648,10 +664,14 @@
         {
           "title": "Carbon Ceramic Brakes — No Metal-to-Metal Contact",
           "detail": "Many C7 Z06 and Grand Sport trims have carbon ceramic brake rotors. These are extremely expensive ($15,000+). Never use metal wheel chocks directly against the rotors. Use rubber-padded chocks only."
+        },
+        {
+          "title": "No Accessible Cabin Shift Lock Slot — Console Disassembly Required",
+          "detail": "The C7 Corvette has no simple shift lock override slot accessible from the cabin. To shift without power, either: (1) Remove the left console leather trim, storage lid, and pry up the shifter surround to access the BTSI solenoid rod — push rearward ~½ inch with a long flathead screwdriver. Or (2) remove the 10mm nut from the shift lever on the transmission underbody and push the lever two clicks forward. Battery is in the rear cargo area — not under the hood."
         }
       ],
       "battery": {
-        "location": "FRUNK (front trunk) — NOT in the engine bay. Open hood and look in front storage compartment.",
+        "location": "REAR TRUNK — right (passenger) side of rear cargo area under carpet and foam cover. NOT in the frunk. Open hatch, pull carpet away from right wall, lift foam cover to access battery terminals.",
         "jumpTerminals": "Inside the frunk — standard red (+) / black (−) terminals on battery",
         "type": "standard-12v",
         "warnings": "Many operators waste time looking for the battery in the engine bay. It is NOT there. Open the hood — the frunk IS the storage area. Very low clearance — flatbed only."
@@ -663,24 +683,22 @@
       "yearStart": 2020,
       "yearEnd": 2026,
       "trans": "8-speed DCT (auto)",
-      "slot": "Cover near electronic selector on center console — remove to expose slot",
+      "slot": "NO MECHANICAL OVERRIDE. C8 uses an 8-speed DCT — requires 12V power to shift. Battery access: front trunk (frunk) — lift floor mat. Connect jump pack to frunk battery terminals. Once powered, press brake and select N.",
       "shift": [
-        "Turn ignition to ON.",
-        "C8 Corvette uses an 8-speed DCT (dual-clutch) — requires 12V power to shift reliably.",
-        "Locate the electronic selector override on the center console.",
-        "Remove the small cover near the selector base.",
-        "Insert thin flathead. Press firmly and hold.",
-        "While holding, press brake. Move selector to N.",
-        "DCT without power will resist — restore 12V first if possible."
+        "C8 uses an 8-speed DCT (dual-clutch transmission) — REQUIRES 12V POWER to shift. No mechanical override.",
+        "RESTORE 12V POWER: open the front trunk (frunk). Lift the floor mat to expose the battery.",
+        "Connect jump pack to the battery terminals in the frunk.",
+        "Once powered, press brake and select N on the electronic selector.",
+        "WITHOUT POWER: there is no mechanical park release accessible from the cabin or underbody.",
+        "FLATBED with wheel dollies is the only field option if power cannot be restored.",
+        "CAUTION: C8 has carbon fiber body panels — use soft straps only. No hooks on body."
       ],
       "neutral": [
         "Apply parking brake.",
-        "MID-ENGINE layout: battery is under the hood (front of vehicle — conventional layout despite mid-engine).",
-        "Connect jump pack to battery under the hood.",
-        "DCT: restore 12V before shifting — strongly preferred.",
-        "Once powered, shift to N.",
-        "RWD (standard) or AWD (E-Ray): flatbed preferred.",
-        "VERY LOW CLEARANCE — use flatbed with ramps."
+        "Jump pack connects to frunk battery — open front hood, remove side cowl shields and battery cover to expose (+) and (-) terminals.",
+        "Once powered, press brake and select N.",
+        "No power: FLATBED ONLY with wheel dollies.",
+        "Carbon fiber body — soft straps only for securing on flatbed."
       ],
       "notes": "C8 is MID-ENGINE — battery location differs from all previous Corvettes.",
       "warn": "FLATBED ONLY for all C8. Extremely low clearance. Do not winch from front or rear.",
@@ -714,7 +732,7 @@
         }
       ],
       "battery": {
-        "location": "Behind passenger seat OR in front storage — depends on trim. NOT in engine bay (mid-engine vehicle).",
+        "location": "FRUNK (front trunk) only — under covers in front cargo area. Remove left and right side shields at cowl, then remove battery cowl cover to access terminals. NOT in rear cargo area, NOT behind passenger seat.",
         "jumpTerminals": "Behind passenger seat: pull seat forward panel to access. OR front storage compartment on some trims.",
         "type": "standard-12v",
         "warnings": "Mid-engine — no conventional engine bay battery. E-Ray hybrid: 12V only, never touch HV front motor. Flatbed only."
@@ -725,16 +743,14 @@
       "model": "Malibu",
       "yearStart": 2004,
       "yearEnd": 2024,
-      "trans": "4-speed, 6-speed, or CVT automatic",
-      "slot": "Cap near shifter base (older) or slot near electronic selector (2016+)",
+      "trans": "4-speed automatic (2004-2007); 6-speed automatic (2008-2015); CVT (2016-2024, Hybrid and some base trims); 6-speed automatic (2016-2024, most non-hybrid trims)",
+      "slot": "Pre-2013 (floor lever): small plastic cap on the RIGHT side of the shifter console — pry off, insert key, press down. 2013+ (electronic selector): no traditional cap — remove shifter leather trim surround to access BTSI solenoid, or restore 12V power.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Cap near shifter base (older) or slot near electronic selector (2016+).",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "IDENTIFY GENERATION FIRST.",
+        "PRE-2013 (floor lever): Turn ignition to ON. Locate small plastic cap on right side of shifter console beside the lever. Pry off cap. Insert key into slot, press firmly. Press brake. Move to N.",
+        "2013+ (ELECTRONIC SELECTOR): RESTORE 12V POWER FIRST. Connect jump pack — battery under hood. Once powered, press brake, select N.",
+        "2013+ WITHOUT POWER: remove leather/trim shifter surround (pulls up off clips). Insert small flathead into BTSI solenoid slot. Push to release. Press brake. Move to N.",
+        "FLATBED with wheel dollies is the easiest alternative for 2013+."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -766,15 +782,15 @@
       "yearStart": 2000,
       "yearEnd": 2020,
       "trans": "4-speed or 6-speed automatic",
-      "slot": "Cap near selector base on console",
+      "slot": "2000-2005 (bench seat / column shift): COLUMN SHIFTER — interlock on steering column, key to ON releases it. 2006-2016 (floor console): solenoid INSIDE the console at the shifter base. No external cap. Key to ON + brake works normally. Solenoid access requires removing shift bezel.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Cap near selector base on console.",
-        "Pry off the cap or cover if present using your ignition key or a small flathead.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "IDENTIFY YEAR FIRST.",
+        "2000-2005 (COLUMN SHIFT): Turn key to ON. Press brake. Move column lever to N.",
+        "DEAD BATTERY (2000-2005): restore power via jump pack first.",
+        "2006-2016 (FLOOR CONSOLE): Turn key to ON. Press brake firmly. Move floor selector to N.",
+        "DEAD BATTERY (2006-2016): restore power via jump pack first.",
+        "2006-2016 WITHOUT POWER — solenoid method: pry up the shift bezel/surround (plastic trim tool). Press the BTSI solenoid actuator manually while pressing brake and moving selector to N.",
+        "NOTE: 2006-2016 floor console Impala has NO external shift lock cap — solenoid is inside the bezel."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -804,15 +820,14 @@
       "yearStart": 2010,
       "yearEnd": 2015,
       "trans": "6-speed auto or 6-speed manual",
-      "slot": "Cap near console shifter base",
+      "slot": "Small plastic cap on the RIGHT side of the console shifter base — pry off with key or flathead to expose shift lock override slot underneath.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Cap near console shifter base.",
-        "Pry off the cap or cover if present using your ignition key or a small flathead.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "Locate the small plastic cap on the RIGHT side of the console shifter base.",
+        "Pry off the cap with the ignition key or a small flathead.",
+        "Insert the key or flathead into the slot and press firmly downward.",
+        "While holding the override, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -842,16 +857,15 @@
       "model": "Camaro (6th Gen)",
       "yearStart": 2016,
       "yearEnd": 2024,
-      "trans": "8-speed auto or 6-speed manual",
-      "slot": "Slot near console shifter base — trim cover may need removal first",
+      "trans": "8-speed automatic 8L90-E (2016-2024, V8 SS/ZL1); 10-speed automatic 10L80-E (2019-2024, V8 SS and ZL1 1LE); 6-speed manual TR6060 (V8 models); 6-speed automatic (V6 models)",
+      "slot": "Small plastic cap on the RIGHT side of the shifter base on the center console — pry off to expose shift lock override slot underneath. No trim panel removal required.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Slot near console shifter base — trim cover may need removal first.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "Turn ignition to ON (do not start engine).",
+        "Locate the small plastic cap on the RIGHT side of the shifter base on the console.",
+        "Pry off the cap with the ignition key or small flathead.",
+        "Insert the key or flathead into the slot and press firmly downward.",
+        "While holding the override, press the brake pedal firmly.",
+        "Move the selector from Park to Neutral."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -882,20 +896,28 @@
       "yearStart": 2011,
       "yearEnd": 2019,
       "trans": "Electric drive / PHEV",
-      "slot": "Electronic selector — slot near shifter on console",
+      "slot": "Gen1 (2011-2015): Remove the RIGHT-side console access panel (pull straight toward you — 6 clips). Inside, locate the BTSI solenoid lock rod. Push rod ~½ inch rearward with long flathead screwdriver. Gen2 (2016-2019): Two panels — upper then lower (lower must slide rearward before outward). Same solenoid rod method once panels removed.",
       "shift": [
-        "Turn ignition to ON.",
-        "Electronic gear selector — locate override slot near the selector on console.",
-        "Insert thin flathead. Press firmly. Hold while pressing brake. Move to N.",
-        "Once power is restored, shift normally via electronic selector."
+        "RESTORE 12V POWER FIRST — strongly preferred for both generations.",
+        "Connect jump pack to 12V auxiliary battery under hood (separate from HV traction pack).",
+        "Once powered, press brake and move selector to N.",
+        "GEN1 (2011-2015) WITHOUT POWER — solenoid method:",
+        "Move the passenger seat fully rearward.",
+        "Remove the RIGHT-side console access panel — pull it straight toward you. 6 retaining clips.",
+        "Locate the BTSI solenoid lock rod — it fits into an eyelet on a small lever with rubber bushing.",
+        "Insert a long-blade flathead (4-6 inch) behind the rod. Push rearward ~½ inch. Very little force needed.",
+        "Press brake. Move selector to N.",
+        "GEN2 (2016-2019) WITHOUT POWER — two-panel method:",
+        "Remove upper console panel first (trim tool). Then lower panel — slide rearward before pulling outward.",
+        "Once panels removed, same long flathead behind solenoid rod, push rearward ~½ inch.",
+        "CAUTION: J1772 charge plug connected while charging also triggers this lock — same procedure applies."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Connect jump pack to 12V auxiliary battery — under the hood, driver side.",
-        "HYBRID: 12V AUXILIARY ONLY — NEVER touch the HV battery pack (under the floor).",
-        "Once 12V restored, shift to N normally or use slot method.",
-        "FWD: lift from front after getting into N.",
-        "CVT: do not exceed 35 mph or 50 miles with drive wheels on ground."
+        "Apply parking brake. Chock wheels.",
+        "Connect jump pack to 12V aux battery under hood.",
+        "Once powered, press brake and move selector to N.",
+        "No power: right-side console panel removal + solenoid rod method (see shift steps).",
+        "PHEV: high-voltage system — do not touch orange HV cables."
       ],
       "notes": "PHEV. HV battery runs down floor tunnel.",
       "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
@@ -929,8 +951,8 @@
       "model": "Express Van",
       "yearStart": 2000,
       "yearEnd": 2026,
-      "trans": "4-speed or 6-speed automatic",
-      "slot": "Column shifter: slot on steering column. Console shift: cap at shifter base",
+      "trans": "4-speed automatic 4L60-E (V6/V8, 2000-2006); 4-speed automatic 4L80-E (HD V8/6.0L, some years); 6-speed automatic 6L80-E (V8, 2009+); 8-speed automatic 8L90-E (6.0L/6.6L, 2017+)",
+      "slot": "COLUMN SHIFTER (most Express Vans, all years): shift interlock slot on the STEERING COLUMN housing — lower-left face of column, below shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N. FLOOR CONSOLE SHIFT (some cargo configurations): small plastic cap on right side of console shifter base — pry off, insert screwdriver, press brake, shift to N.",
       "shift": [
         "Turn ignition to ON (key to Run).",
         "COLUMN SHIFTER (standard on Express Van): override slot on the STEERING COLUMN.",
@@ -940,8 +962,11 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood, driver side.",
-        "Once 12V power is restored, press brake and move column shifter to N normally."
+        "Connect jump pack to battery — under hood, driver side.",
+        "Once 12V power restored, turn key to ON.",
+        "COLUMN SHIFT: insert flathead into column interlock slot (lower-left face), press brake, move lever to N.",
+        "FLOOR SHIFT: pry cap on right side of console, insert screwdriver, press brake, move to N.",
+        "RWD: lift from rear. AWD: FLATBED REQUIRED."
       ],
       "notes": "Large commercial van.",
       "warn": "Large van — use heavy wheel blocks before releasing Park.",
@@ -962,18 +987,15 @@
     {
       "make": "Chevrolet",
       "model": "Trax",
-      "yearStart": 2015,
+      "yearStart": 2013,
       "yearEnd": 2026,
-      "trans": "6-speed auto or CVT",
-      "slot": "Cap near shifter base or electronic selector slot depending on year",
+      "trans": "Gen1 (2013-2022): 6-speed automatic (6T30/6T40 family); Gen2 (2023+): CVT (continuously variable transmission)",
+      "slot": "Gen1 (2013-2022, floor lever): small plastic cap on RIGHT side of console shifter base — pry off, insert key/screwdriver into override slot, press brake, move to N. Gen2 (2023+, electronic): NO cabin override. Restore 12V power first (battery under hood). Press brake and select N on electronic selector.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Cap near shifter base or electronic selector slot depending on year.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "IDENTIFY GENERATION FIRST.",
+        "GEN1 (2013-2022, floor lever): Turn ignition to ON. Locate small plastic cap near selector base on console. Pry off cap. Insert key, press firmly. Press brake. Move to N.",
+        "GEN2 (2023+, ELECTRONIC): RESTORE 12V POWER FIRST. Connect jump pack — battery under hood. Once powered, press brake, select N.",
+        "GEN2 WITHOUT POWER: No cabin override. FLATBED with wheel dollies."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -1004,15 +1026,13 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "9-speed automatic",
-      "slot": "Electronic selector — slot near base",
+      "slot": "Electronic selector — no traditional shift lock cap. Restore 12V power first (battery under hood). No accessible cabin override without power — FLATBED with wheel dollies.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — slot near base.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST.",
+        "Connect jump pack — battery under hood.",
+        "Once powered, turn ignition to ON, press brake, select N on electronic selector.",
+        "WITHOUT POWER: no accessible cabin override. FLATBED with wheel dollies.",
+        "AWD: FLATBED REQUIRED."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -1043,12 +1063,17 @@
       "yearEnd": 2005,
       "trans": "3-speed or 4-speed automatic, or 5-speed manual",
       "drivetrain": "FWD",
-      "slot": "Small cap near selector base on center console",
+      "slot": "Floor console shifter. NO external shift lock cap on the Cavalier. The shift interlock solenoid is INSIDE the console at the shifter base — requires console removal to access manually. PRACTICAL FIELD METHOD: turn key to ON (do not start), press brake firmly, shift out of Park normally. Dead battery: restore power via jump pack first.",
       "shift": [
-        "Turn ignition to ON.",
-        "AUTOMATIC: Locate shift lock slot — small cap near selector base on center console.",
-        "Pry off cap. Insert key and press firmly.",
-        "While holding, press brake. Move selector to Neutral.",
+        "Turn ignition key to ON (do not start). This powers the BTSI solenoid.",
+        "Press the brake pedal firmly.",
+        "Move the floor selector from Park to Neutral.",
+        "DEAD BATTERY: restore power via jump pack — battery under hood.",
+        "Once powered, key to ON, press brake, shift to N.",
+        "WITHOUT POWER / SOLENOID FAILED — console access method:",
+        "Remove the center console trim to expose the solenoid at the shifter base.",
+        "Press the solenoid actuator manually while pressing brake and moving selector to N.",
+        "NOTE: There is no external shift lock cap visible on the outside of the console.",
         "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
       ],
       "neutral": [
@@ -1078,15 +1103,15 @@
       "yearEnd": 2001,
       "trans": "4-speed automatic",
       "drivetrain": "FWD",
-      "slot": "Small cap near selector base on center console",
+      "slot": "Floor console shifter. Solenoid located INSIDE the console at the shifter base — no external shift lock cap. FIELD METHOD: key to ON, press brake, shift normally. Dead battery: restore power first.",
       "shift": [
-        "Turn ignition to ON (key to Run position — do not start).",
-        "Locate the shift lock override: small cap near selector base on center console.",
-        "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "Turn ignition to ON (do not start engine).",
+        "Press the brake pedal firmly.",
+        "Move the floor selector from Park to Neutral.",
+        "DEAD BATTERY: restore power via jump pack — battery under hood.",
+        "Once powered, key to ON, press brake, shift to N.",
+        "WITHOUT POWER — solenoid is inside the console and requires console removal to access manually.",
+        "NOTE: No external shift lock cap exists on the console exterior of the Lumina/Monte Carlo."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -1115,12 +1140,15 @@
       "yearEnd": 2005,
       "trans": "4-speed automatic or 5-speed manual",
       "drivetrain": "RWD or 4WD (part-time)",
-      "slot": "Small cap or slot near console selector base or column if column shift",
+      "slot": "COLUMN SHIFT: no external slot — key to ON releases interlock normally. FLOOR SHIFT: BTSI override lever inside the shift lever BOOT — remove boot, push lever on RIGHT side of assembly to the LEFT to override. No external cap on the console.",
       "shift": [
-        "Turn ignition to ON.",
-        "CONSOLE SHIFT: locate cap near selector base. Pry off. Insert key and press firmly. Press brake. Move to Neutral.",
-        "COLUMN SHIFT: slot is on the STEERING COLUMN. Insert key into column slot, press, press brake, move column lever to Neutral.",
-        "MANUAL: depress clutch and move lever to Neutral."
+        "IDENTIFY SHIFTER TYPE: column or floor.",
+        "COLUMN SHIFT: Turn ignition to ON. Press brake. Move column lever to Neutral.",
+        "FLOOR SHIFT: Turn ignition to ON. Press brake. Move selector to Neutral.",
+        "FLOOR SHIFT BTSI OVERRIDE: remove rubber shift boot (pull up from base). Push override lever on RIGHT side of shifter assembly to the LEFT. Press brake. Move to N.",
+        "DEAD BATTERY (any): restore power via jump pack — battery under hood.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral.",
+        "4WD: FLATBED preferred."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -1163,11 +1191,11 @@
       "yearEnd": 2002,
       "trans": "4-speed automatic or 6-speed manual",
       "drivetrain": "RWD",
-      "slot": "Cap near console selector base",
+      "slot": "Small cap on the RIGHT side of the console selector base — pry off, insert key, press down to release.",
       "shift": [
         "Turn ignition to ON.",
-        "AUTOMATIC: Locate shift lock slot — cap near console selector base.",
-        "Pry off cap. Insert key and press firmly.",
+        "AUTOMATIC: Locate shift lock cap on the RIGHT side of the console selector base.",
+        "Pry off cap. Insert key or flathead and press firmly downward.",
         "While holding, press brake. Move selector to Neutral.",
         "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
       ],
@@ -1198,15 +1226,19 @@
       "yearEnd": 2004,
       "trans": "4-speed automatic (4L60-E) or 5-speed manual",
       "drivetrain": "RWD or 4WD (part-time)",
-      "slot": "Small cap near gear selector base on floor console",
+      "slot": "COLUMN SHIFT: no external slot — key to ON (Run) releases interlock normally. FLOOR SHIFT: BTSI override lever is INSIDE the shift lever rubber boot. Remove the boot (pull up from base) to expose the lever on the RIGHT side of the shifter assembly. Push that lever to the LEFT to override. There is no external cap on the console.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with ignition key or small flathead screwdriver.",
-        "Insert key or thin flathead into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal firmly.",
-        "Move the selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "IDENTIFY SHIFTER TYPE: column or floor.",
+        "COLUMN SHIFT: Turn ignition to ON (Run). Press brake firmly. Move column lever to Neutral.",
+        "COLUMN SHIFT DEAD BATTERY: restore power via jump pack — battery under hood.",
+        "FLOOR SHIFT: Turn ignition to ON. Press brake. Move floor selector to Neutral.",
+        "FLOOR SHIFT — BTSI OVERRIDE (solenoid failed or dead battery):",
+        "Remove the rubber shift lever boot — pull straight up from the base of the shifter.",
+        "Locate the BTSI override lever on the RIGHT side of the shifter assembly.",
+        "Push the override lever to the LEFT while pressing the brake and moving the selector to N.",
+        "NOTE: There is NO external shift lock cap on the S-10 console — access requires removing the shift boot.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral.",
+        "4WD: FLATBED preferred — do not tow by two wheels only."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -1289,7 +1321,7 @@
       "slot": "Small cap near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Locate the shift lock override slot — Small cap near gear selector base on center console.",
         "Pry off cap with ignition key or small flathead screwdriver.",
         "Insert key or thin flathead into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal firmly.",
@@ -1298,7 +1330,7 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
+        "Battery is in the TRUNK under the floor mat — use under-hood remote jump terminal block (driver side fuse box area) to jump.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
         "FWD: lift from front — front (drive) wheels in the air."
       ],
@@ -1311,7 +1343,7 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood",
+        "location": "TRUNK — under floor mat in rear cargo area. NOT under hood. Remote jump terminals available under the hood at the fuse block on the driver side.",
         "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
@@ -1324,7 +1356,7 @@
       "yearEnd": 2019,
       "trans": "6-speed automatic or 6-speed manual; diesel: 6-speed manual or 6-speed auto",
       "drivetrain": "FWD",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "AUTOMATIC: small plastic cap near the gear selector base on the center console — pry off with key or flathead, insert into slot and press down. MANUAL TRANSMISSION: no shift lock — depress clutch and move lever to Neutral.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
@@ -1362,7 +1394,7 @@
       "yearEnd": 2020,
       "trans": "6-speed automatic or 5/6-speed manual",
       "drivetrain": "FWD",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "AUTOMATIC: small plastic cap near the gear selector base on the center console — pry off, insert key, press down. MANUAL TRANSMISSION / CVT: no shift lock — depress clutch and move lever to Neutral.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
@@ -1400,15 +1432,14 @@
       "yearEnd": 2022,
       "trans": "CVT or 5-speed manual",
       "drivetrain": "FWD",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "AUTOMATIC (CVT): the Spark uses a CVT — shift interlock solenoid near selector base. Key to ON + press brake shifts normally. A small cap may be present on some trims. Dead battery: restore power via jump pack first. MANUAL: no shift lock — depress clutch and move to Neutral.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with ignition key or small flathead screwdriver.",
-        "Insert key or thin flathead into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal firmly.",
-        "Move the selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "CVT AUTOMATIC: press the brake pedal firmly and move selector from Park to Neutral.",
+        "DEAD BATTERY: restore power via jump pack — battery under hood.",
+        "Once powered, key to ON, press brake, move to N.",
+        "A small shift lock cap may be present near the selector base on some model years/trims — pry off and insert key to press override if normal method fails.",
+        "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -1439,15 +1470,15 @@
       "yearEnd": 2013,
       "trans": "4-speed automatic (4L60-E or 4L65-E) or 6-speed automatic (6L80, 2007+)",
       "drivetrain": "RWD or 4WD (part-time, Autotrac)",
-      "slot": "Small slot near gear selector base on floor console",
+      "slot": "COLUMN SHIFTER — same as Silverado/Suburban of same era. Shift interlock slot on the STEERING COLUMN housing, lower-left face of the column. Requires ~9V minimum. Completely dead battery: restore power first.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with ignition key or small flathead screwdriver.",
-        "Insert key or thin flathead into the slot and press firmly downward.",
+        "Turn ignition key to ON (do not start).",
+        "COLUMN SHIFTER: locate the shift lock release slot on the lower-left face of the steering column.",
+        "Insert a thin flathead into the slot and press firmly inward.",
         "While holding the slot, press the brake pedal firmly.",
-        "Move the selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Move the column lever from Park to Neutral.",
+        "DEAD BATTERY: shift interlock requires ~9V minimum — connect jump pack first.",
+        "NOTE: Avalanche uses a column-mounted shifter, NOT a floor console selector."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -1494,15 +1525,14 @@
       "yearEnd": 2008,
       "trans": "4-speed automatic (4T65-E)",
       "drivetrain": "FWD or AWD",
-      "slot": "Small cap near gear selector base on console",
+      "slot": "COLUMN SHIFTER — the Venture and Uplander use a steering column-mounted gear selector. Shift interlock is on the STEERING COLUMN. Key to ON releases it normally. Dead battery: restore power via jump pack. NOTE: There is NO floor console gear selector on the Venture/Uplander.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with ignition key or small flathead screwdriver.",
-        "Insert key or thin flathead into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal firmly.",
-        "Move the selector from Park to Neutral.",
-        "Remove tool and replace cap."
+        "Turn ignition key to ON (key to Run position — do not start).",
+        "COLUMN SHIFTER: press the brake pedal firmly.",
+        "Move the column lever from Park to Neutral.",
+        "DEAD BATTERY: the column shift interlock requires battery power. Connect jump pack first.",
+        "Once powered, key to ON, press brake, move lever to N.",
+        "NOTE: Venture/Uplander uses a column-mounted shifter — there is no floor console shift lock slot."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -1564,6 +1594,235 @@
         "type": "auxiliary-12v-only",
         "warnings": "FLATBED ONLY. Very heavy. 12V auxiliary only — never touch HV system."
       }
+    },
+    {
+      "model": "C/K 1500 / 2500 / 3500 (1990-1999, GMT400)",
+      "yearStart": 1990,
+      "yearEnd": 1999,
+      "drivetrain": "RWD (C-series) or 4WD (K-series, part-time)",
+      "trans": "4-speed automatic 4L60-E (gas V6/V8, EFI 1993+); 3-speed automatic 3L80/TH400 (heavy duty, pre-1993 C/K 2500/3500); 4-speed manual NV3500 (gas, base option); 5-speed manual NV4500 (diesel and HD option)",
+      "battery": {
+        "location": "Under hood, driver side. Diesel (6.5L): may have dual batteries under hood."
+      },
+      "slot": "COLUMN SHIFTER (standard on most 1990-1999 C/K trucks): BTSI solenoid on steering column. Turn key to ON/RUN position to release solenoid, press brake, move column lever to N. If battery is dead and key won't turn: connect jump pack first. Early 1990-1992 models may have minimal or no BTSI — column lever may move to N with key in ACC and brake pressed.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under hood, driver side.",
+        "Turn key to ON/RUN position. Press brake. Move column shift lever to N.",
+        "DEAD BATTERY with no jump available: 1990-1992 models — insert key to ACC, column lever may release with brake pressed. 1993+ BTSI: must restore 12V first.",
+        "TRANSFER CASE (K-series 4WD): manual floor lever — shift to 2WD/2H BEFORE road towing.",
+        "2WD (C-series): lift from rear axle. 4WD: FLATBED preferred."
+      ],
+      "notes": "GMT400 platform (predecessor to GMT800/Silverado). C=2WD, K=4WD. 4.3L V6, 5.0L, 5.7L, 7.4L V8 gas options. 6.5L diesel option on 2500/3500."
+    },
+    {
+      "model": "Suburban (1992-1999, GMT400)",
+      "yearStart": 1992,
+      "yearEnd": 1999,
+      "drivetrain": "RWD or 4WD (part-time)",
+      "trans": "4-speed automatic 4L60-E (1992+, V6/V8); 4-speed automatic 4L80-E (HD/diesel)",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "COLUMN SHIFTER: BTSI solenoid on steering column. Turn key to ON/RUN, press brake, move column lever to N. Dead battery: connect jump pack first.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack — under hood, driver side.",
+        "Turn key to ON, press brake, move column lever to N.",
+        "TRANSFER CASE: manual floor lever (NP241/NV243) — shift to 2WD/2H before road towing.",
+        "4WD: FLATBED preferred. 2WD: can lift from rear."
+      ],
+      "notes": "GMT400 platform. Shares mechanical components with C/K pickups of same era. 5.7L and 7.4L V8 gas; 6.5L diesel option."
+    },
+    {
+      "model": "Blazer Full-Size / Tahoe (1992-2000, GMT400)",
+      "yearStart": 1992,
+      "yearEnd": 2000,
+      "drivetrain": "RWD or 4WD (part-time)",
+      "trans": "4-speed automatic 4L60-E (1992+); 4-speed automatic 4L80-E (HD option)",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "COLUMN SHIFTER: BTSI on steering column. Turn key to ON/RUN, press brake, move column lever to N. Dead battery: connect jump pack first.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack — under hood, driver side.",
+        "Turn key to ON, press brake, move column lever to N.",
+        "TRANSFER CASE: NP241 mechanical floor lever — shift to 2WD before road towing.",
+        "4WD: FLATBED preferred. 2WD: can lift from rear."
+      ],
+      "notes": "GMT400 full-size 2-door. Became Tahoe nameplate 1995+. 4WD models are part-time only — must be in 2WD for road towing."
+    },
+    {
+      "model": "TrailBlazer (2002-2009)",
+      "yearStart": 2002,
+      "yearEnd": 2009,
+      "drivetrain": "RWD or 4WD (part-time, Autotrac on some trims)",
+      "trans": "4-speed automatic 4L60-E (I6 4.2L); 4-speed automatic 4L65-E (V8 5.3L)",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "FLOOR CONSOLE SHIFTER: small plastic cap on the RIGHT side of the console shifter base. Pry off with flathead screwdriver or ignition key. Insert screwdriver into override slot to press shift interlock solenoid. Press brake pedal and move shifter to N.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under hood, driver side.",
+        "Once 12V restored, pry cap on right side of console, insert screwdriver, press brake, move to N.",
+        "Dead battery shortcut: key to ON/ACC + brake often releases 4L60-E interlock without jump on earlier years.",
+        "TRANSFER CASE (4WD): electronic Autotrac — must have power. Jump battery first, then shift TC to 2WD via dash button or floor lever before road towing.",
+        "4WD: FLATBED preferred. 2WD: can lift from rear."
+      ],
+      "notes": "Mid-size SUV built on GMT360 platform. 4.2L inline-6 is the most common engine. TrailBlazer SS used 6.0L V8 (2006-2009) — same shift procedure."
+    },
+    {
+      "model": "Captiva Sport (2012-2015)",
+      "yearStart": 2012,
+      "yearEnd": 2015,
+      "drivetrain": "FWD or AWD",
+      "trans": "6-speed automatic (6T70/6T75)",
+      "battery": {
+        "location": "Under hood"
+      },
+      "slot": "FLOOR CONSOLE SHIFTER: small plastic cap on the RIGHT side of console shifter base. Pry off, insert screwdriver into slot, press brake, move to N.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under hood.",
+        "Once 12V restored, pry cap on right side of console, insert screwdriver, press brake, move to N.",
+        "FWD: lift from front. AWD: FLATBED preferred."
+      ],
+      "notes": "Rebadged Equinox/Saturn Vue platform. Sold primarily to fleet/rental customers. Discontinued 2015."
+    },
+    {
+      "model": "SSR (2003-2006)",
+      "yearStart": 2003,
+      "yearEnd": 2006,
+      "drivetrain": "RWD",
+      "trans": "4-speed automatic 4L65-E (2003-2004, 5.3L V8); 6-speed automatic 6L80-E (2005-2006, 6.0L LS2 V8); 6-speed manual (2005-2006 option)",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "FLOOR CONSOLE SHIFTER: small plastic cap on the RIGHT side of the console shifter base. Pry off with flathead screwdriver, insert into slot, press brake, move shifter to N.",
+      "neutral": [
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under hood, driver side.",
+        "Once 12V restored, pry cap on right side of console, insert screwdriver, press brake, move to N.",
+        "RWD — lift from rear axle. Retractable soft top: ensure top is fully up or down before towing to prevent damage.",
+        "Carbon steel frame but aluminum body panels — use soft straps over painted surfaces."
+      ],
+      "notes": "Retro-styled sport truck. Short production run. Heavy vehicle (~4,750 lbs). Manual trans option from 2005 — depress clutch, select N."
+    },
+    {
+      "model": "Bolt EV / Bolt EUV (2017-2026)",
+      "yearStart": 2017,
+      "yearEnd": 2026,
+      "drivetrain": "FWD electric (single motor)",
+      "trans": "Single-speed electric drive",
+      "battery": {
+        "location": "12V auxiliary battery is UNDER THE HOOD on the driver side. HV traction battery under the floor — NEVER touch orange HV cables."
+      },
+      "slot": "Electronic gear selector (small toggle lever on center console). Requires 12V power to shift out of Park. NO traditional shift lock cap. Car Wash / neutral mode: enter vehicle, shift to N, open driver door — car may auto-shift back to P when door opens; override by shifting N again with door open.",
+      "neutral": [
+        "FLATBED STRONGLY PREFERRED — electric drivetrain, regen braking risks if towed.",
+        "12V auxiliary battery is under hood — connect jump pack here for 12V systems only.",
+        "NEVER touch HV traction battery under floor or orange/yellow HV cables.",
+        "Once 12V restored: enter cabin, shift selector to N, open driver door (car may revert to P), shift back to N while door open if needed.",
+        "FWD — if flatbed not available, lift from front (drive wheels off ground) only after confirming neutral is engaged.",
+        "Bolt EUV (2022+): same procedure — identical drivetrain and 12V location."
+      ],
+      "notes": "Gen1 (2017-2021): subject to battery fire recall — many replaced. Gen2 (2022+): redesigned battery. Both: 12V aux under hood; HV under floor."
+    },
+    {
+      "model": "Equinox EV (2024-2026)",
+      "yearStart": 2024,
+      "yearEnd": 2026,
+      "drivetrain": "FWD or AWD electric",
+      "trans": "Single-speed electric drive",
+      "battery": {
+        "location": "12V auxiliary battery under hood. HV traction battery under floor — NEVER touch orange HV cables."
+      },
+      "slot": "Electronic selector — no traditional shift lock cap. Restore 12V power first. No cabin mechanical override.",
+      "neutral": [
+        "FLATBED ONLY — electric AWD drivetrain.",
+        "12V auxiliary battery under hood — connect jump pack here.",
+        "NEVER touch HV battery under floor or orange/yellow HV cables.",
+        "Once 12V restored, press brake and select N on electronic selector.",
+        "Both FWD and AWD variants: FLATBED required for AWD. FWD: may use front dollies if N is confirmed."
+      ],
+      "notes": "Built on Ultium platform. Shares architecture with Blazer EV. AWD = dual motor; FWD = single motor. Weight ~4,300 lbs."
+    },
+    {
+      "model": "Blazer EV (2024-2026)",
+      "yearStart": 2024,
+      "yearEnd": 2026,
+      "drivetrain": "FWD or AWD electric (RS/SS = AWD; LT/2LT = FWD)",
+      "trans": "Single-speed electric drive",
+      "battery": {
+        "location": "12V auxiliary battery under hood. HV Ultium traction battery under floor — NEVER touch orange HV cables."
+      },
+      "slot": "Electronic selector — no traditional shift lock cap. Restore 12V power first. No mechanical cabin override.",
+      "neutral": [
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary battery under hood — connect jump pack here.",
+        "NEVER touch HV battery under floor or orange/yellow HV cables.",
+        "Once 12V restored, press brake and select N on electronic selector.",
+        "AWD (RS/SS) models: FLATBED required. FWD models: can use front dollies if N confirmed."
+      ],
+      "notes": "Built on Ultium platform alongside Equinox EV. SS = 557 hp dual motor AWD. ~4,900 lbs AWD. Do not confuse with gas-powered Blazer (2019-2026) which is a separate model."
+    },
+    {
+      "model": "TrailBlazer (2021-2026, compact SUV)",
+      "yearStart": 2021,
+      "yearEnd": 2026,
+      "drivetrain": "FWD or AWD",
+      "trans": "CVT (FWD); 9-speed automatic 9T50-E (AWD / RS trim)",
+      "battery": {
+        "location": "Under hood"
+      },
+      "slot": "Electronic selector — no traditional shift lock cap. Restore 12V power first. Key to ON, press brake, select N on electronic selector.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under hood.",
+        "Once 12V restored, press brake and select N on electronic selector.",
+        "FWD: lift from front. AWD: FLATBED preferred.",
+        "Do NOT confuse with 2002-2009 TrailBlazer (mid-size, body-on-frame). This is a smaller unibody compact SUV."
+      ],
+      "notes": "New-generation compact crossover. Not related to 2002-2009 TrailBlazer. 1.2L or 1.3L turbocharged 3-cylinder engine."
+    },
+    {
+      "model": "Monte Carlo (2000-2007, 6th Gen)",
+      "yearStart": 2000,
+      "yearEnd": 2007,
+      "drivetrain": "FWD",
+      "trans": "4-speed automatic (4T65-E)",
+      "battery": {
+        "location": "Under hood"
+      },
+      "slot": "FLOOR CONSOLE SHIFTER: small plastic cap on the RIGHT side of the console shifter base. Pry off with key or flathead, insert into override slot, press brake, move to N.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under hood.",
+        "Once 12V restored, pry cap on right side of console, press brake, move to N.",
+        "FWD — lift from front (drive wheels)."
+      ],
+      "notes": "2-door coupe, FWD on W-body platform. SS trim used supercharged 3.8L V6. Tow from front only."
+    },
+    {
+      "model": "Spark EV (2014-2016)",
+      "yearStart": 2014,
+      "yearEnd": 2016,
+      "drivetrain": "FWD electric",
+      "trans": "Single-speed electric",
+      "battery": {
+        "location": "12V auxiliary under hood. HV battery under floor — never touch orange cables."
+      },
+      "slot": "Electronic selector — no traditional shift lock cap. Restore 12V first.",
+      "neutral": [
+        "FLATBED ONLY — electric drivetrain.",
+        "12V auxiliary under hood — jump here for 12V systems.",
+        "NEVER touch HV battery under floor or orange cables.",
+        "Once 12V restored, press brake and select N on electronic selector.",
+        "FWD — if flatbed unavailable, lift from front after confirming N."
+      ],
+      "notes": "Sold only in select markets (CA, OR, MD, KOR). Very limited production. Do not confuse with gas Spark (2013-2022)."
     }
   ]
 }

@@ -24,12 +24,12 @@
     {
       "make": "Audi",
       "file": "audi.json",
-      "count": 16
+      "count": 25
     },
     {
       "make": "Bmw",
       "file": "bmw.json",
-      "count": 38
+      "count": 58
     },
     {
       "make": "Buick",
@@ -44,7 +44,7 @@
     {
       "make": "Chevrolet",
       "file": "chevrolet.json",
-      "count": 35
+      "count": 49
     },
     {
       "make": "Chrysler",
@@ -54,7 +54,7 @@
     {
       "make": "Dodge",
       "file": "dodge.json",
-      "count": 17
+      "count": 27
     },
     {
       "make": "Fiat",
@@ -74,12 +74,12 @@
     {
       "make": "Gmc",
       "file": "gmc.json",
-      "count": 12
+      "count": 24
     },
     {
       "make": "Honda",
       "file": "honda.json",
-      "count": 23
+      "count": 30
     },
     {
       "make": "Hyundai",
@@ -99,7 +99,7 @@
     {
       "make": "Jeep",
       "file": "jeep.json",
-      "count": 15
+      "count": 22
     },
     {
       "make": "Kia",
@@ -129,7 +129,7 @@
     {
       "make": "Mercedes-Benz",
       "file": "mercedes-benz.json",
-      "count": 15
+      "count": 54
     },
     {
       "make": "Mini",
@@ -144,7 +144,7 @@
     {
       "make": "Nissan",
       "file": "nissan.json",
-      "count": 22
+      "count": 48
     },
     {
       "make": "Polestar",
@@ -164,12 +164,12 @@
     {
       "make": "Ram",
       "file": "ram.json",
-      "count": 8
+      "count": 14
     },
     {
       "make": "Rivian",
       "file": "rivian.json",
-      "count": 3
+      "count": 6
     },
     {
       "make": "Saturn",
@@ -184,7 +184,7 @@
     {
       "make": "Tesla",
       "file": "tesla.json",
-      "count": 5
+      "count": 7
     },
     {
       "make": "Toyota",
@@ -202,8 +202,8 @@
       "count": 11
     }
   ],
-  "totalVehicles": 550,
-  "lastUpdated": "2026-03-21",
-  "version": "2.1",
-  "notes": "v2.1: All 550 vehicles procedure-verified. Shift lock, neutral override, battery locations, ZF/DSG power requirements, EPR procedures, trunk batteries, EV tow modes all researched and updated."
+  "totalVehicles": 705,
+  "lastUpdated": "2026-03-23",
+  "version": "2.2",
+  "notes": "v2.2: Updated counts — 705 vehicles across 38 makes, 1990–2026."
 }

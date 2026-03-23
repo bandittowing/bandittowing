@@ -18,19 +18,22 @@
       "yearStart": 2000,
       "yearEnd": 2014,
       "trans": "4-speed or 6-speed automatic",
-      "slot": "Column shifter (2000-2002): slot on steering column. Console shifter (2003+): slot at side of console shifter base",
+      "slot": "ALL 1st through 3rd Gen (1999-2014) use COLUMN SHIFT — shift lock on STEERING COLUMN. Key to ON + brake releases interlock normally. Dead battery (below 9V): restore power via jump pack first. NOTE: 2003-2006 and some 2007+ also had optional console shift — console variant has a small cap at the side of the console shifter base.",
       "shift": [
-        "Turn ignition to ON.",
-        "This vehicle uses a COLUMN-MOUNTED shifter — the shift lock slot is on the STEERING COLUMN, not the floor console.",
-        "Locate the slot on the steering column — Column shifter (2000-2002): slot on steering column. Console shifter (2003+): slot at side of console shifter base.",
-        "Insert a thin key or flathead into the slot on the column.",
-        "Press firmly while pressing the brake pedal.",
-        "Move the column shifter to Neutral."
+        "Turn ignition key to ON (do not start). This energizes the shift interlock.",
+        "COLUMN SHIFT (standard): locate the shift lock release slot on the STEERING COLUMN — lower face of the column below the shift lever.",
+        "Insert a thin flathead into the slot and press firmly inward.",
+        "While holding the slot, press the brake pedal firmly.",
+        "Move the column lever from Park to Neutral.",
+        "DEAD BATTERY: interlock requires ~9V minimum. Connect jump pack — battery under hood.",
+        "CONSOLE SHIFT (some trims): small cap at the side of the console shifter base — pry off, insert key, press down while pressing brake."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood, driver side.",
-        "Once 12V power is restored, press brake and move column shifter to N normally."
+        "Battery under hood — connect jump pack.",
+        "Column shift: key to ON, slot on column, press brake, move to N.",
+        "Console shift (some trims): side cap on console shifter base.",
+        "TRANSFER CASE: must be in 2WD/2H before towing. Jump battery first if needed."
       ],
       "notes": "4WD: transfer case to 2H before towing on road.",
       "warn": "4WD: transfer case MUST be in 2H before towing.",
@@ -81,25 +84,30 @@
     },
     {
       "make": "Cadillac",
-      "model": "Escalade (4th-5th Gen)",
+      "model": "Escalade (4th Gen 2015-2020 / 5th Gen 2021+)",
       "yearStart": 2015,
       "yearEnd": 2026,
       "trans": "6-speed (6L80) or 10-speed (10L80) automatic",
-      "slot": "Electronic selector on console — slot near base or under a trim panel",
+      "slot": "4th Gen (2015-2020): COLUMN SHIFT — same as Silverado/Suburban of same era. Shift lock slot on the STEERING COLUMN. Key to ON + brake releases interlock. Dead battery: restore power via jump pack. 5th Gen (2021-2023): PUSH-BUTTON EPS — NO CABIN OVERRIDE. Owner's manual states: cannot shift to neutral with dead battery. Restore 12V power first. FLATBED with wheel dollies if power cannot be restored. 2024+ (facelift): COLUMN SHIFT again — same as 4th gen procedure.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector on console — slot near base or under a trim panel.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "IDENTIFY GENERATION FIRST.",
+        "4TH GEN (2015-2020) — COLUMN SHIFT:",
+        "Turn ignition key to ON. Locate shift lock slot on lower face of STEERING COLUMN.",
+        "Insert thin flathead into slot, press firmly. Press brake. Move column lever to N.",
+        "4TH GEN DEAD BATTERY: restore power via jump pack — battery under hood.",
+        "5TH GEN (2021-2023) — EPS PUSH-BUTTON (NO CABIN OVERRIDE):",
+        "RESTORE 12V POWER FIRST — connect jump pack to underhood battery.",
+        "Once powered, press brake and use push-button row (left of infotainment screen) to select N.",
+        "5TH GEN WITHOUT POWER: owner's manual explicit — cannot shift or release EPB with dead battery.",
+        "FLATBED with wheel dollies only if power cannot be restored.",
+        "2024+ REFRESH: COLUMN SHIFT returned — use same procedure as 4th gen above."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Apply parking brake and chock wheels.",
+        "4th gen: key to ON, column slot, press brake, move to N.",
+        "5th gen: restore power, then push-button N selector.",
+        "5th gen no power: FLATBED ONLY with wheel dollies.",
+        "TRANSFER CASE: must be in 2WD/2H before towing. Jump battery first if needed."
       ],
       "notes": "Escalade IQ EV (2025+): 12V only — flatbed required.",
       "warn": "Escalade IQ EV: FLATBED ONLY. 4WD: transfer case to 2H.",
@@ -137,6 +145,10 @@
         {
           "title": "Escalade IQ EV (2025+) — Flatbed Only",
           "detail": "The 2025 Escalade IQ is a full EV. FLATBED ONLY. No transfer case. 12V auxiliary battery only for electronics. Never touch the HV propulsion battery."
+        },
+        {
+          "title": "5th Gen (2021-2023) — No Cabin Neutral Override, EPB Auto-Engages",
+          "detail": "The 5th-gen Escalade has push-button EPS and a hydraulic park pawl. Owner's manual states: with dead 12V battery, electric parking brake cannot be released and vehicle cannot be shifted to Neutral. Flatbed with tire skates/dollies required. The EPB will also auto-engage if manual park release is used while powered. The 4th gen (2015-2020) used a traditional column shift and does NOT have this issue."
         }
       ],
       "battery": {
@@ -152,21 +164,27 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "9-speed automatic",
-      "slot": "Electronic selector — slot near base",
+      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: behind small cover in driver's kick panel, just to the RIGHT of the gas pedal. Pull the manual release handle to disengage the park lock. Owner's manual: Driving and Operating → Manual Park Release. SERVICE MODE (with partial power): hold Start button (no brake) ~5 sec until lights/chimes, then press brake and move selector to N. RESTORE 12V POWER FIRST whenever possible.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — slot near base.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — strongly preferred. Battery under hood.",
+        "Once powered: press Start without brake to enter accessory/service mode, press brake, press EPS selector button and move lever to N.",
+        "WITHOUT POWER — MANUAL PARK RELEASE (2016-2020 models):",
+        "Locate the small cover in the driver's kick panel, just to the RIGHT of the gas pedal.",
+        "Open the cover to access the manual park release handle.",
+        "Pull the handle firmly upward/outward to release the park lock.",
+        "Vehicle will roll — ensure parking brake is chocked first.",
+        "SERVICE MODE (with partial power, older 8-speed models only):",
+        "Hold Start button (no brake) for ~5 seconds until all electronics activate.",
+        "Release Start, then press brake, press EPS side button, move lever to N.",
+        "NOTE: Service mode may show 'conditions not met' on newer 9-speed models — use manual release.",
+        "2021+ models: some may not have kick-panel lever — restore power or flatbed."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Battery under hood — connect jump pack.",
+        "Restore power, then shift to N via EPS selector.",
+        "No power: kick-panel manual park release (see shift steps).",
+        "AWD: FLATBED PREFERRED."
       ],
       "notes": "",
       "warn": "",
@@ -190,21 +208,27 @@
       "yearStart": 2017,
       "yearEnd": 2026,
       "trans": "8-speed automatic",
-      "slot": "Electronic selector — slot near base",
+      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: behind small cover in driver's kick panel, just to the RIGHT of the gas pedal. Pull the manual release handle to disengage the park lock. Owner's manual: Driving and Operating → Manual Park Release. SERVICE MODE (with partial power): hold Start button (no brake) ~5 sec until lights/chimes, then press brake and move selector to N. RESTORE 12V POWER FIRST whenever possible.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — slot near base.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — strongly preferred. Battery under hood.",
+        "Once powered: press Start without brake to enter accessory/service mode, press brake, press EPS selector button and move lever to N.",
+        "WITHOUT POWER — MANUAL PARK RELEASE (2016-2020 models):",
+        "Locate the small cover in the driver's kick panel, just to the RIGHT of the gas pedal.",
+        "Open the cover to access the manual park release handle.",
+        "Pull the handle firmly upward/outward to release the park lock.",
+        "Vehicle will roll — ensure parking brake is chocked first.",
+        "SERVICE MODE (with partial power, older 8-speed models only):",
+        "Hold Start button (no brake) for ~5 seconds until all electronics activate.",
+        "Release Start, then press brake, press EPS side button, move lever to N.",
+        "NOTE: Service mode may show 'conditions not met' on newer 9-speed models — use manual release.",
+        "2021+ models: some may not have kick-panel lever — restore power or flatbed."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Battery under hood — connect jump pack.",
+        "Restore power, then shift to N via EPS selector.",
+        "No power: kick-panel manual park release (see shift steps).",
+        "AWD: FLATBED PREFERRED."
       ],
       "notes": "AWD standard on most trims.",
       "warn": "",
@@ -228,21 +252,27 @@
       "yearStart": 2020,
       "yearEnd": 2026,
       "trans": "9-speed automatic",
-      "slot": "Electronic selector — slot near base",
+      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: behind small cover in driver's kick panel, just to the RIGHT of the gas pedal. Pull the manual release handle to disengage the park lock. Owner's manual: Driving and Operating → Manual Park Release. SERVICE MODE (with partial power): hold Start button (no brake) ~5 sec until lights/chimes, then press brake and move selector to N. RESTORE 12V POWER FIRST whenever possible.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — slot near base.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — strongly preferred. Battery under hood.",
+        "Once powered: press Start without brake to enter accessory/service mode, press brake, press EPS selector button and move lever to N.",
+        "WITHOUT POWER — MANUAL PARK RELEASE (2016-2020 models):",
+        "Locate the small cover in the driver's kick panel, just to the RIGHT of the gas pedal.",
+        "Open the cover to access the manual park release handle.",
+        "Pull the handle firmly upward/outward to release the park lock.",
+        "Vehicle will roll — ensure parking brake is chocked first.",
+        "SERVICE MODE (with partial power, older 8-speed models only):",
+        "Hold Start button (no brake) for ~5 seconds until all electronics activate.",
+        "Release Start, then press brake, press EPS side button, move lever to N.",
+        "NOTE: Service mode may show 'conditions not met' on newer 9-speed models — use manual release.",
+        "2021+ models: some may not have kick-panel lever — restore power or flatbed."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Battery under hood — connect jump pack.",
+        "Restore power, then shift to N via EPS selector.",
+        "No power: kick-panel manual park release (see shift steps).",
+        "AWD: FLATBED PREFERRED."
       ],
       "notes": "3-row SUV. AWD standard.",
       "warn": "",
@@ -266,21 +296,27 @@
       "yearStart": 2020,
       "yearEnd": 2026,
       "trans": "8-speed or 10-speed automatic",
-      "slot": "Electronic selector — slot near base",
+      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: behind small cover in driver's kick panel, just to the RIGHT of the gas pedal. Pull the manual release handle to disengage the park lock. Owner's manual: Driving and Operating → Manual Park Release. SERVICE MODE (with partial power): hold Start button (no brake) ~5 sec until lights/chimes, then press brake and move selector to N. RESTORE 12V POWER FIRST whenever possible.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — slot near base.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — strongly preferred. Battery under hood.",
+        "Once powered: press Start without brake to enter accessory/service mode, press brake, press EPS selector button and move lever to N.",
+        "WITHOUT POWER — MANUAL PARK RELEASE (2016-2020 models):",
+        "Locate the small cover in the driver's kick panel, just to the RIGHT of the gas pedal.",
+        "Open the cover to access the manual park release handle.",
+        "Pull the handle firmly upward/outward to release the park lock.",
+        "Vehicle will roll — ensure parking brake is chocked first.",
+        "SERVICE MODE (with partial power, older 8-speed models only):",
+        "Hold Start button (no brake) for ~5 seconds until all electronics activate.",
+        "Release Start, then press brake, press EPS side button, move lever to N.",
+        "NOTE: Service mode may show 'conditions not met' on newer 9-speed models — use manual release.",
+        "2021+ models: some may not have kick-panel lever — restore power or flatbed."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Battery under hood — connect jump pack.",
+        "Restore power, shift to N via EPS selector.",
+        "No power: kick-panel manual park release (see shift steps).",
+        "RWD: front dollies or flatbed. AWD: FLATBED PREFERRED. Manual: depress clutch."
       ],
       "notes": "Blackwing manual: clutch to N.",
       "warn": "",
@@ -344,13 +380,13 @@
       "yearEnd": 2011,
       "trans": "4-speed automatic (4T80-E)",
       "drivetrain": "FWD",
-      "slot": "Small cap on right side of shift indicator on the console",
+      "slot": "Small plastic cap on the TOP LEFT of the shifter trim cover, on the console beside the selector. Pry off cap, insert flathead into the hole, press DOWN to release shift lock. FWD — lift from front.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
-        "Pry off cap with ignition key or small flathead screwdriver.",
-        "Insert key or thin flathead into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal firmly.",
+        "Locate the small plastic cap on the TOP LEFT of the shifter trim cover on the console.",
+        "Pry off the cap with the ignition key or a small flathead.",
+        "Insert a flathead screwdriver into the hole and press firmly DOWNWARD.",
+        "While holding the release, press the brake pedal firmly.",
         "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
       ],
@@ -616,18 +652,24 @@
       "yearEnd": 2020,
       "trans": "8-speed or 10-speed automatic; PHEV eCVT available",
       "drivetrain": "RWD or AWD; PHEV is AWD",
-      "slot": "Near base of electronic gear selector on center console",
+      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: driver's kick panel, right of gas pedal — small cover, pull handle. PHEV: 12V auxiliary battery under hood — separate from HV pack. NEVER touch orange HV cables.",
       "shift": [
-        "Turn ignition to ON.",
-        "Electronic gear selector — locate override slot near base.",
-        "Remove trim cover if present.",
-        "Insert thin flathead. Press firmly. Hold. Press brake. Move to N."
+        "RESTORE 12V POWER FIRST — connect jump pack to 12V auxiliary under hood.",
+        "Once powered, press brake and move EPS selector to N.",
+        "WITHOUT POWER — MANUAL PARK RELEASE:",
+        "Locate small cover in driver's kick panel, right of gas pedal.",
+        "Open cover, pull manual park release handle to disengage park lock.",
+        "SERVICE MODE (partial power): hold Start (no brake) ~5 sec, then brake, shift to N.",
+        "PHEV CAUTION: 12V AUXILIARY ONLY — NEVER touch HV orange cables or HV battery.",
+        "PHEV: FLATBED ONLY — do not tow by wheels."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood. Use AGM-compatible pack.",
-        "PHEV: 12V AUXILIARY ONLY — never touch HV battery.",
-        "Once powered, shift to N via electronic selector."
+        "12V auxiliary under hood — use AGM-compatible jump pack.",
+        "PHEV: 12V ONLY, never HV.",
+        "Once powered, shift to N via EPS selector.",
+        "No power: kick-panel manual release.",
+        "PHEV: FLATBED ONLY."
       ],
       "notes": "Electronic shift selector. PHEV models have both 12V and high-voltage battery systems.",
       "warn": "PHEV: 12V auxiliary ONLY — never touch HV system. AWD: flatbed preferred.",

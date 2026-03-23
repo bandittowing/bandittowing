@@ -10,77 +10,75 @@
     "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
   },
   "_make": "GMC",
-  "_count": 12,
+  "_count": 24,
   "vehicles": [
     {
-      "make": "GMC",
-      "model": "Sierra 1500 (2000-2018)",
-      "yearStart": 2000,
-      "yearEnd": 2018,
-      "trans": "4-speed, 6-speed, or 8-speed automatic",
-      "slot": "Cap at side of console shifter (or column slot on bench-seat trims)",
-      "shift": [
-        "Turn ignition to ON.",
-        "This vehicle uses a COLUMN-MOUNTED shifter — the shift lock slot is on the STEERING COLUMN, not the floor console.",
-        "Locate the slot on the steering column — Cap at side of console shifter (or column slot on bench-seat trims).",
-        "Insert a thin key or flathead into the slot on the column.",
-        "Press firmly while pressing the brake pedal.",
-        "Move the column shifter to Neutral."
-      ],
+      "model": "Sierra 1500 (1999-2006, GMT800)",
+      "yearStart": 1999,
+      "yearEnd": 2006,
+      "drivetrain": "RWD or 4WD (part-time)",
+      "trans": "4-speed automatic 4L60-E (4.3L V6, 4.8L, 5.3L V8 standard); 4-speed automatic 4L65-E (6.0L V8 option); 5-speed manual NV3500/NV4500 (early base option)",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "COLUMN SHIFTER — all GMT800 Sierra 1500 trucks use a steering column-mounted gear selector. Shift interlock slot on the STEERING COLUMN housing — small access slot on the lower-left face of the column, below the shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood, driver side.",
-        "Once 12V power is restored, press brake and move column shifter to N normally."
+        "Connect jump pack to battery — under hood, driver side.",
+        "Turn key to ON, insert flathead into column shift interlock slot (lower-left face), press brake, move column lever to N.",
+        "TRANSFER CASE: must be in 2WD/2H before wheel-lift towing. Manual lever TC: shift to 2H on floor. Electronic TC (AutoTrac): with engine running, press 2WD button.",
+        "4WD: FLATBED preferred. 2WD RWD: can lift from rear."
       ],
-      "notes": "Same platform as Silverado. 4WD: transfer case to 2H.",
-      "warn": "4WD: transfer case to 2H.",
+      "notes": "GMT800 platform. Column shifter on ALL trims — no console shift option on full-size Sierra. 4.3L V6, 4.8L, 5.3L, 6.0L V8 options."
+    },
+    {
+      "model": "Sierra 1500 (2007-2013, GMT900)",
+      "yearStart": 2007,
+      "yearEnd": 2013,
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear — rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
-      "tc": {
-        "type": "Electric push-button (Autotrac) or manual floor lever depending on year and trim",
-        "positions": [
-          "2WD (2H) — rear wheels only — REQUIRED for all road towing",
-          "4WD Auto — automatic AWD — NOT safe for towing",
-          "4WD Hi (4H) — part-time 4WD — NOT safe for dry-road towing",
-          "4WD Lo (4L) — low range — NEVER tow in this position"
-        ],
-        "steps": [
-          "ELECTRIC: Slow under 3 MPH. Press 2WD button. Confirm 2WD indicator.",
-          "MANUAL: Stop completely. Shift TC lever to 2H.",
-          "Confirm 2WD indicator before lifting rear wheels.",
-          "NEVER tow in 4H, 4WD Auto, or 4L on dry pavement.",
-          "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
-        ]
-      },
-      "towNotes": [
-        "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
-        "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
-        "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
-      ],
-      "knownIssues": [
-        {
-          "title": "Transfer Case in 4H/4L Will Destroy Driveline",
-          "detail": "Same platform as Silverado 1500. Towing in 4H or 4L on dry pavement causes severe transfer case and differential damage. Confirm 2WD indicator is ON before lifting. The most common towing damage claim on this platform."
-        }
-      ],
+      "trans": "4-speed automatic 4L60-E (4.3L V6, 4.8L V8 through 2013); 6-speed automatic 6L80-E (5.3L, 6.0L, 6.2L V8, available 2009+); no 8-speed on this generation",
       "battery": {
-        "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
-        "type": "standard-12v",
-        "warnings": "Confirm TC in 2WD before wheel lift — most common towing damage on this platform."
-      }
+        "location": "Under hood, driver side"
+      },
+      "slot": "COLUMN SHIFTER — all GMT900 Sierra 1500 trucks use a steering column-mounted gear selector. Shift interlock slot on the STEERING COLUMN housing — lower-left face of column, below shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under hood, driver side.",
+        "Turn key to ON, insert flathead into column interlock slot (lower-left face), press brake, move column lever to N.",
+        "TRANSFER CASE: must be in 2WD/2H before towing. Electronic AutoTrac TC: with engine running, press 2WD button.",
+        "4WD: FLATBED preferred. 2WD: can lift from rear."
+      ],
+      "notes": "GMT900 platform. 6-speed 6L80-E available on V8 models from 2009 MY. NO 8-speed on any 2007-2013 Sierra 1500. Column shift on ALL trims."
+    },
+    {
+      "model": "Sierra 1500 (2014-2018, K2XX)",
+      "yearStart": 2014,
+      "yearEnd": 2018,
+      "drivetrain": "RWD or 4WD (part-time)",
+      "trans": "6-speed automatic 6L80-E (4.3L V6 and 5.3L V8, standard on all trims); 8-speed automatic 8L90-E (6.2L V8 ONLY, available from 2015 MY — NOT available before 2015 and NOT available with any other engine)",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "COLUMN SHIFTER — all K2XX Sierra 1500 trucks use a steering column-mounted gear selector. Shift interlock slot on the STEERING COLUMN housing — lower-left face of column, below shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under hood, driver side.",
+        "Turn key to ON, insert flathead into column interlock slot (lower-left face), press brake, move column lever to N.",
+        "TRANSFER CASE: must be in 2WD/2H before towing. Electronic TC: with engine running, press 2WD button.",
+        "4WD: FLATBED preferred. 2WD: can lift from rear."
+      ],
+      "notes": "K2XX platform (2014-2018). 8-speed ONLY on 6.2L V8 from 2015 MY onward — all V6 and 5.3L V8 trucks remain 6-speed 6L80. Column shift on ALL trims."
     },
     {
       "make": "GMC",
       "model": "Sierra 1500 (2019-2026)",
       "yearStart": 2019,
       "yearEnd": 2026,
-      "trans": "6, 8, or 10-speed automatic",
-      "slot": "Electronic selector — trim panel near selector, remove to expose slot",
+      "trans": "8-speed automatic 8L90-E (2.7L TurboMax 4-cyl ALL years including 2026; 5.3L V8 some base trims); 10-speed automatic 10L80-E (5.3L V8 most trims, 6.2L V8 all trims, 3.0L Duramax diesel 2020+)",
+      "slot": "ELECTRONIC PRECISION SHIFT — column-mounted shift-by-wire lever (NOT a rotary dial or console selector). The lever is on the steering column. To shift to N with power: press and hold the side interlock button on the lever, push lever forward to first bump and release — 'N' illuminates red. DEAD BATTERY / NO POWER: restore 12V via jump pack (battery under hood). No mechanical cabin override exists — must have 12V to shift electronically.",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — trim panel near selector, remove to expose slot.",
+        "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
         "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
         "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
@@ -89,9 +87,11 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Connect jump pack to battery — under hood.",
+        "Once 12V restored: press and hold the side interlock button on the column-mounted shift lever, push lever forward to first bump, release — 'N' lights up.",
+        "No mechanical override exists — power MUST be restored before shifting.",
+        "TRANSFER CASE: must be in 2WD/2H before towing. With engine running, press 2WD button on dash or TC controls.",
+        "4WD: FLATBED preferred. 2WD: can lift from rear after confirming N."
       ],
       "notes": "Sierra EV (2024+): flatbed only.",
       "warn": "Sierra EV: FLATBED ONLY. 4WD: transfer case.",
@@ -131,11 +131,11 @@
       "model": "Sierra 2500HD / 3500HD",
       "yearStart": 2001,
       "yearEnd": 2026,
-      "trans": "4-speed, 6-speed, or 10-speed automatic",
-      "slot": "Cap at console shifter or electronic selector slot depending on year",
+      "trans": "6-speed automatic 6L90-E (gas V8 2001-2023: 6.0L LY6 2001-2019, 6.6L L8T 2020-2023); Allison 1000 5-speed auto (Duramax 6.6L diesel 2001-2005); Allison 1000 6-speed auto (Duramax 6.6L diesel 2006-2019); Allison 10L1000 10-speed auto (Duramax 6.6L diesel 2020+; gas L8T 6.6L V8 2024+)",
+      "slot": "Pre-2020 (column shifter, gas and diesel): STEERING COLUMN shift interlock slot — lower-left face of column, below shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N. 2020+ (electronic column shift on gas; electronic selector on some diesel): restore 12V power first, then shift normally. G56 MANUAL (rare option, pre-2019 diesel only): depress clutch and shift to N — no electrical requirement.",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the electronic selector override: Cap at console shifter or electronic selector slot depending on year.",
+        "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
         "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
         "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
@@ -143,12 +143,15 @@
         "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Connect jump pack to battery — Under hood. Duramax diesel may have dual batteries.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Apply parking brake and chock wheels — heavy vehicle.",
+        "Connect jump pack — under hood, driver side. Diesel: connect to positive terminal closest to firewall.",
+        "Pre-2020 column shift: turn key to ON, insert flathead into column interlock slot, press brake, move lever to N.",
+        "2020+ electronic shift: restore 12V power, press brake, shift to N normally on electronic selector.",
+        "G56 MANUAL: depress clutch, shift to N — no electrical requirement.",
+        "TRANSFER CASE: must be in 2WD/2H before road towing. Requires power for electronic TC.",
+        "FLATBED STRONGLY PREFERRED for all HD trucks — very heavy and high-value vehicle."
       ],
-      "notes": "Duramax diesel: same. Heavy-duty — heavy blocks.",
+      "notes": "Duramax diesel trucks used true Allison 1000 (5-speed 2001-2005, 6-speed 2006-2019). From 2020 diesel and 2024 gas: Allison 10L1000 (GM-built, Allison-validated). Gas HD trucks 2020-2023 retained the 6L90-E 6-speed. Dual batteries on all Duramax diesel trims.",
       "warn": "4WD: transfer case. Heavy blocks required.",
       "drivetrain": "RWD or 4WD (part-time)",
       "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first. Heavy-duty — use rated equipment. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
@@ -177,7 +180,7 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood. Duramax diesel may have dual batteries.",
+        "location": "Under hood, driver side. Duramax diesel trims: DUAL BATTERIES — both under hood on driver side. Connect jump pack to the POSITIVE post closest to the firewall on the primary battery.",
         "jumpTerminals": "Under hood: red (+) on either battery, black (−) to engine block",
         "type": "standard-12v",
         "warnings": "Diesel dual batteries. Very heavy — verify equipment ratings."
@@ -188,11 +191,11 @@
       "model": "Yukon / Yukon XL (2000-2020)",
       "yearStart": 2000,
       "yearEnd": 2020,
-      "trans": "4-speed or 6-speed automatic",
-      "slot": "Cap at side of console shifter base",
+      "trans": "4-speed automatic 4L60-E (4.8L, 5.3L V8 2000-2008); 4-speed automatic 4L65-E (6.0L V8, Yukon Denali 2000-2008); 6-speed automatic 6L80-E (5.3L V8 2009+); 6-speed automatic 6L90-E (6.2L V8, Yukon Denali 2009+)",
+      "slot": "COLUMN SHIFTER — all 2000-2020 Yukon / Yukon XL use a steering column-mounted gear selector. Shift interlock slot on the STEERING COLUMN housing — lower-left face of column, below the shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N. NOTE: There is NO console shifter on these vehicles — the slot is on the column only.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Cap at side of console shifter base.",
+        "Locate the shift lock override slot — Cap at side of console shifter base.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -201,9 +204,10 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood, driver side.",
-        "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Cap at side of console shifter base."
+        "Connect jump pack to battery — under hood, driver side.",
+        "Turn key to ON, insert flathead into column shift interlock slot (lower-left face), press brake, move column lever to N.",
+        "TRANSFER CASE: must be in 2WD/2H before road towing. Electronic AutoTrac: with engine running, press 2WD button.",
+        "4WD: FLATBED preferred. 2WD: can lift from rear."
       ],
       "notes": "4WD standard.",
       "warn": "4WD: transfer case. Large — block all wheels.",
@@ -245,10 +249,10 @@
       "yearStart": 2021,
       "yearEnd": 2026,
       "trans": "10-speed automatic (10L80)",
-      "slot": "Electronic selector — trim panel near selector, remove to expose slot",
+      "slot": "ELECTRONIC PRECISION SHIFT (push-button/lever selector on center console, NOT a traditional column or console lever). 2021+ Yukon/XL uses a fully electronic shift-by-wire system. There is NO mechanical cabin override. Must restore 12V power first (battery under hood). Once powered: press brake and use the electronic selector to choose N.",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — trim panel near selector, remove to expose slot.",
+        "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
         "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
         "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
@@ -256,10 +260,12 @@
         "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Apply parking brake — electric parking brake auto-engages on some trims when shifted to P.",
+        "Connect jump pack to battery — under hood.",
+        "Once 12V restored, press brake, select N on the electronic precision shift selector.",
+        "No mechanical override exists — 12V MUST be restored before shifting.",
+        "TRANSFER CASE: with engine running, shift TC to 2WD before road towing.",
+        "4WD: FLATBED preferred. 2WD: can lift from rear after confirming N."
       ],
       "notes": "AWD and 4WD available.",
       "warn": "4WD: transfer case. Block all wheels.",
@@ -300,11 +306,11 @@
       "model": "Terrain",
       "yearStart": 2010,
       "yearEnd": 2026,
-      "trans": "6-speed or 9-speed automatic",
+      "trans": "Gen1 (2010-2017): 6-speed automatic (6T70/6T75, FWD/AWD); Gen2 (2018-2026): 9-speed automatic (9T50-E, all powertrains including diesel)",
       "slot": "Cap near shifter base (2010-2017) or electronic selector slot (2018+)",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the electronic selector override: Cap near shifter base (2010-2017) or electronic selector slot (2018+).",
+        "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
         "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
         "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
@@ -339,10 +345,10 @@
       "yearStart": 2007,
       "yearEnd": 2026,
       "trans": "6-speed or 9-speed automatic",
-      "slot": "Cap near shifter base (2007-2016) or electronic selector slot (2017+)",
+      "slot": "Gen1 (2007-2016, floor console shift lever): small plastic cap on RIGHT side of console shifter base. Pry off with key or flathead screwdriver, insert into override slot, press brake, move shifter to N. Gen2 (2017-2026, electronic selector): NO cabin override. Restore 12V power first (battery under hood). Press brake and select N on electronic selector.",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the electronic selector override: Cap near shifter base (2007-2016) or electronic selector slot (2017+).",
+        "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
         "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
         "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
@@ -351,9 +357,11 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Gen1 (2007-2016): Battery is INSIDE CABIN under passenger-side floor mat — use under-hood remote positive jump terminal (fuse block area) to jump.",
+        "Gen2 (2017-2026): Battery under hood, driver side — connect jump pack directly.",
+        "Gen1 once powered: pry cap on right side of console, insert screwdriver, press brake, move to N.",
+        "Gen2 once powered: press brake and select N on electronic selector.",
+        "AWD: FLATBED preferred."
       ],
       "notes": "FWD or AWD.",
       "warn": "",
@@ -365,7 +373,7 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood",
+        "location": "Gen1 (2007-2016): INSIDE CABIN — under floor mat/panel behind the front passenger seat (floor pan area, second row). Slide front passenger seat fully forward, lift floor mat, unscrew Torx access panel cover to reach battery. Remote positive jump terminal available under hood at fuse block — use this for jumping. Gen2 (2017-2026): Under hood, driver side (standard location).",
         "jumpTerminals": "Under hood — standard terminals",
         "type": "standard-12v",
         "warnings": ""
@@ -376,11 +384,11 @@
       "model": "Canyon",
       "yearStart": 2004,
       "yearEnd": 2026,
-      "trans": "4-speed, 6-speed, or 8-speed automatic",
-      "slot": "Cap near console shifter (older) or electronic selector slot (2023+)",
+      "trans": "Gen1 (2004-2012): 4-speed auto 4L60-E (4-cyl/V6); 5-speed manual NV3500 (4-cyl); Gen2 (2015-2022): 6-speed auto 6L80-E (V6 3.6L); 8-speed auto 8L45-E (Diesel 2.8L, 2016+); Gen3 (2023-2026): 8-speed auto 8L80 (2.7L Turbo standard)",
+      "slot": "Gen1 (2004-2012): small plastic cap on right or front side of center console shifter base — pry off, insert screwdriver, press brake, move to N. Gen2 (2015-2022): key to ON position + press brake — usually releases normally. No console cap; shift cable accessible under console side panel if needed. Gen3 (2023-2026): electronic selector, no mechanical override — restore 12V first.",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the electronic selector override: Cap near console shifter (older) or electronic selector slot (2023+).",
+        "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
         "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
         "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
@@ -391,10 +399,11 @@
         "Apply parking brake.",
         "Connect jump pack to battery — Under hood.",
         "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Electronic selectors require power — mechanical override is a last resort only.",
+        "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
       ],
       "notes": "4WD optional.",
-      "warn": "4WD: transfer case.",
+      "warn": "Must shift transfer case to 2H/2WD before road towing. Never tow in 4H or 4L on dry pavement — drivetrain damage.",
       "drivetrain": "RWD or 4WD (part-time)",
       "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
@@ -429,12 +438,12 @@
       "model": "Jimmy (1991-2001)",
       "yearStart": 1991,
       "yearEnd": 2001,
-      "trans": "4-speed automatic or 5-speed manual",
+      "trans": "4-speed automatic 4L60-E (V6 4.3L, 1993+); 3-speed automatic 700-R4/4L60 (V6 4.3L, 1991-1992); 5-speed manual NV3500 (base option)",
       "drivetrain": "RWD or 4WD (part-time)",
       "slot": "Cap near selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start).",
-        "Locate shift lock cap near selector base on center console.",
+        "Locate the shift lock override slot — Cap near selector base on center console.",
         "Pry off cap. Insert key or thin flathead. Press firmly. Hold while pressing brake. Move to N.",
         "4WD: manual floor TC lever — shift to 2WD before road towing."
       ],
@@ -478,7 +487,7 @@
       "yearEnd": 2005,
       "trans": "4-speed automatic (4L60-E)",
       "drivetrain": "RWD or AWD",
-      "slot": "Small cap near gear selector base on floor console",
+      "slot": "COLUMN SHIFTER — GMC Safari uses a steering column-mounted gear selector. Shift interlock on the STEERING COLUMN; turn key to ON/ACC, press brake, move column lever to N. Dead battery: connect jump pack first, then turn key to ON to release interlock.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
@@ -491,7 +500,7 @@
       "neutral": [
         "Apply parking brake.",
         "Connect jump pack — under hood.",
-        "Once powered, shift to N.",
+        "Once powered, turn key to ON, press brake, move column lever to N.",
         "AWD: flatbed preferred."
       ],
       "notes": "AWD uses Borg-Warner AWD system — no traditional TC. AWD: flatbed preferred.",
@@ -514,7 +523,7 @@
       "model": "Envoy / Envoy XL / Envoy XUV",
       "yearStart": 2002,
       "yearEnd": 2009,
-      "trans": "4-speed automatic (4L60-E) or 5-speed automatic (5L40-E for I6 inline-6)",
+      "trans": "4-speed automatic 4L60-E (4.2L inline-6, all model years 2002-2009); 4-speed automatic 4L65-E (5.3L V8, Envoy Denali/XL V8 option)",
       "drivetrain": "RWD or 4WD (part-time)",
       "slot": "Small slot near gear selector base on center console",
       "shift": [
@@ -569,7 +578,7 @@
       "model": "Sonoma",
       "yearStart": 1991,
       "yearEnd": 2004,
-      "trans": "3-speed automatic (3L30) or 4-speed automatic (4L60-E) or 5-speed manual",
+      "trans": "3-speed automatic (3L30/TH700, 4-cyl base, pre-1993); 4-speed automatic 4L60-E (V6, 1993+); 5-speed manual NV1500 (4-cyl) or NV3500 (V6)",
       "drivetrain": "RWD or 4WD (part-time)",
       "slot": "Small cap near gear selector base on floor console",
       "shift": [
@@ -616,6 +625,193 @@
         "type": "standard-12v",
         "warnings": ""
       }
+    },
+    {
+      "model": "C/K 1500 / 2500 / 3500 (1990-1999, GMT400)",
+      "yearStart": 1990,
+      "yearEnd": 1999,
+      "drivetrain": "RWD (C-series) or 4WD (K-series, part-time)",
+      "trans": "4-speed automatic 4L60-E (gas V6/V8, EFI 1992+); 3-speed automatic 3L80/TH400 (heavy duty, pre-1993 2500/3500); 5-speed manual NV3500 (gas 1500/2500); 5-speed manual NV4500 (diesel and heavy-duty option)",
+      "battery": {
+        "location": "Under hood, driver side. 6.5L diesel trims may have dual batteries."
+      },
+      "slot": "COLUMN SHIFTER — all 1990-1999 C/K trucks use a steering column-mounted gear selector. BTSI solenoid on steering column. Turn key to ON/RUN position to release solenoid, press brake, move column lever to N. Early 1990-1991 models may have minimal BTSI — key to ACC + brake may release interlock.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under hood, driver side.",
+        "Turn key to ON/RUN, press brake, move column lever to N.",
+        "TRANSFER CASE (K-series): manual floor lever — shift to 2WD/2H BEFORE road towing.",
+        "2WD (C-series): lift from rear. 4WD: FLATBED preferred."
+      ],
+      "notes": "GMT400 platform (predecessor to GMT800/Sierra). C=2WD, K=4WD. 4.3L V6, 5.0L, 5.7L, 7.4L V8. 6.5L diesel on 2500/3500. Column shift on ALL trims."
+    },
+    {
+      "model": "Suburban C/K (1990-1999, GMT400)",
+      "yearStart": 1990,
+      "yearEnd": 1999,
+      "drivetrain": "RWD or 4WD (part-time)",
+      "trans": "4-speed automatic 4L60-E (1992+); 3-speed automatic 3L80/TH400 (pre-1992 heavy duty); 5-speed manual NV4500 (diesel option)",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "COLUMN SHIFTER: BTSI solenoid on steering column. Turn key to ON/RUN, press brake, move column lever to N. Dead battery: connect jump pack first.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack — under hood, driver side.",
+        "Turn key to ON, press brake, move column lever to N.",
+        "TRANSFER CASE: manual floor lever — shift to 2WD/2H before road towing.",
+        "4WD: FLATBED preferred. 2WD: can lift from rear."
+      ],
+      "notes": "GMT400 Suburban. Shares C/K pickup components. 5.7L and 7.4L V8 gas options; 6.5L diesel. Column shift on ALL trims."
+    },
+    {
+      "model": "Jimmy Full-Size / Yukon (1990-1994, GMT400)",
+      "yearStart": 1990,
+      "yearEnd": 1994,
+      "drivetrain": "RWD or 4WD (part-time)",
+      "trans": "4-speed automatic 4L60-E (1992+); 3-speed automatic 700-R4/4L60 (1990-1991); 5-speed manual NV3500",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "COLUMN SHIFTER: BTSI on steering column. Turn key to ON/ACC, press brake, move column lever to N.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack — under hood, driver side.",
+        "Turn key to ON, press brake, move column lever to N.",
+        "TRANSFER CASE: manual floor lever — shift to 2WD before road towing.",
+        "4WD: FLATBED preferred. 2WD: lift from rear."
+      ],
+      "notes": "2-door full-size SUV. Became Yukon nameplate in 1992. GMT400 platform. Column shift on all trims."
+    },
+    {
+      "model": "Syclone (1991)",
+      "yearStart": 1991,
+      "yearEnd": 1991,
+      "drivetrain": "AWD",
+      "trans": "4-speed automatic 700-R4/4L60 (pre-EFI; 4L60-E designation not used until 1993)",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "FLOOR CONSOLE SHIFTER (sport console): small cap or lever near shifter base. Insert key or flathead into override slot, press brake, move to N.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Insert key/screwdriver into shift lock override near shifter, press brake, move to N.",
+        "AWD drivetrain — FLATBED preferred. Never tow with only two wheels on ground."
+      ],
+      "notes": "Very rare — only 2,995 produced. Turbocharged 4.3L V6, 0-60 in 4.3s. AWD — flatbed strongly recommended for towing."
+    },
+    {
+      "model": "Typhoon (1992-1993)",
+      "yearStart": 1992,
+      "yearEnd": 1993,
+      "drivetrain": "AWD",
+      "trans": "4-speed automatic 700-R4/4L60 (1992); 4-speed automatic 4L60-E (1993)",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "FLOOR CONSOLE SHIFTER: shift lock override near shifter base. Insert key or flathead into override slot, press brake, move to N.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack — under hood.",
+        "Insert screwdriver into shift lock override, press brake, move to N.",
+        "AWD drivetrain — FLATBED preferred."
+      ],
+      "notes": "Performance SUV based on S-10 Blazer chassis. Only 4,697 produced (1992-1993). AWD — flatbed required for all towing."
+    },
+    {
+      "model": "Savana Van (1996-2026)",
+      "yearStart": 1996,
+      "yearEnd": 2026,
+      "drivetrain": "RWD (standard) or AWD (some cargo trims)",
+      "trans": "4-speed automatic 4L60-E (V6/light V8 1996-2009); 4-speed automatic 4L80-E (HD V8 6.0L 1996-2009, heavy-duty 2500/3500); 6-speed automatic 6L90-E (V8 2010-2023); 8-speed automatic 8L90 (gas V8 6.0L/6.6L 2024+); 8-speed automatic 8L45 (2.8L Duramax diesel 2017-2022)",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "COLUMN SHIFTER (all Savana years): shift interlock slot on the STEERING COLUMN housing — lower-left face, below the shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack to battery — under hood, driver side.",
+        "Turn key to ON, insert flathead into column interlock slot (lower-left face), press brake, move lever to N.",
+        "RWD: lift from rear axle. AWD: FLATBED required."
+      ],
+      "notes": "Full-size van on GMT610 platform. Column shift on ALL Savana trims. Sold alongside Chevrolet Express (mechanically identical except badging)."
+    },
+    {
+      "model": "Hummer EV Pickup / Hummer EV SUV (2022-2026)",
+      "yearStart": 2022,
+      "yearEnd": 2026,
+      "drivetrain": "AWD electric (tri-motor or dual-motor)",
+      "trans": "Single-speed electric drive (Ultium platform)",
+      "battery": {
+        "location": "12V auxiliary battery under hood. HV Ultium traction battery under floor (~212 kWh) — NEVER touch orange/yellow HV cables. Extreme caution: HV system is extremely high voltage and high capacity."
+      },
+      "slot": "Electronic selector — no mechanical cabin override. Restore 12V power first.",
+      "neutral": [
+        "FLATBED ONLY — AWD electric drivetrain. NEVER tow with wheels on ground.",
+        "12V auxiliary battery under hood — connect jump pack here for 12V systems only.",
+        "NEVER touch HV traction battery under floor or orange/yellow HV cables.",
+        "Once 12V restored, press brake, select N on electronic selector.",
+        "Extremely heavy (~9,000+ lbs) — CONFIRM tow truck rated for this weight before loading.",
+        "Crab Walk / 4-wheel steer: ensure feature is off and wheels are straight before loading on flatbed."
+      ],
+      "notes": "Built on Ultium EV platform. Tri-motor = 1,000 hp. Air suspension — set to Extract (raised) mode for flatbed loading if possible. Weight exceeds most flatbed capacity — confirm before dispatch."
+    },
+    {
+      "model": "Sierra EV (2024-2026)",
+      "yearStart": 2024,
+      "yearEnd": 2026,
+      "drivetrain": "AWD electric (dual motor)",
+      "trans": "Single-speed electric drive (Ultium platform)",
+      "battery": {
+        "location": "12V auxiliary battery under hood. HV Ultium traction battery under floor — NEVER touch orange HV cables."
+      },
+      "slot": "Electronic selector — no mechanical override. Restore 12V power first.",
+      "neutral": [
+        "FLATBED ONLY — AWD electric drivetrain.",
+        "12V auxiliary battery under hood — connect jump pack here.",
+        "NEVER touch HV traction battery under floor or orange/yellow cables.",
+        "Once 12V restored, press brake and select N on electronic selector.",
+        "Very heavy (~7,200 lbs) — confirm tow truck capacity before loading."
+      ],
+      "notes": "Ultium platform EV truck. 754 hp Denali Edition, 400+ hp base. Shares architecture with Chevrolet Silverado EV."
+    },
+    {
+      "model": "Yukon / Yukon XL (1995-1999, GMT400)",
+      "yearStart": 1995,
+      "yearEnd": 1999,
+      "drivetrain": "RWD or 4WD (part-time)",
+      "trans": "4-speed automatic 4L60-E (5.7L V8) or 4L65-E (Denali 5.7L/6.5L diesel option)",
+      "battery": {
+        "location": "Under hood, driver side"
+      },
+      "slot": "COLUMN SHIFTER: shift interlock slot on the STEERING COLUMN housing. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
+      "neutral": [
+        "Apply parking brake.",
+        "Connect jump pack — under hood, driver side.",
+        "Turn key to ON, insert flathead into column slot, press brake, move lever to N.",
+        "TRANSFER CASE: manual floor lever — shift to 2WD/2H before road towing.",
+        "4WD: FLATBED preferred. 2WD: can lift from rear."
+      ],
+      "notes": "GMT400 platform Yukon. 2-door 1992-1994, 4-door 1995+. Renamed from Jimmy Full-Size to Yukon in 1992. Column shift all trims."
+    },
+    {
+      "model": "Terrain EV (2024-2026)",
+      "yearStart": 2024,
+      "yearEnd": 2026,
+      "drivetrain": "FWD or AWD electric",
+      "trans": "Single-speed electric (Ultium-derived)",
+      "battery": {
+        "location": "12V auxiliary battery under hood. HV traction battery under floor — never touch orange cables."
+      },
+      "slot": "Electronic selector — no mechanical override. Restore 12V first.",
+      "neutral": [
+        "FLATBED ONLY for AWD. FWD may use front dollies if N confirmed.",
+        "12V auxiliary under hood — jump here.",
+        "Never touch HV battery under floor or orange cables.",
+        "Once 12V restored, press brake, select N."
+      ],
+      "notes": "All-electric compact SUV. Canadian market launch first; US market expanding. Smaller than Equinox EV."
     }
   ]
 }

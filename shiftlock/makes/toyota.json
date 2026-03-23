@@ -21,7 +21,7 @@
       "slot": "Small square plastic cover located BEHIND the gear selector (toward the REAR of the center console, NOT at the front base). Look at the console surface just behind where the shifter sits.",
       "shift": [
         "Turn ignition to ON (do not start the engine).",
-        "Locate the shift lock release: small square plastic cover located BEHIND the gear selector (toward rear of console — NOT at the shifter base).",
+        "Locate the shift lock release in the storage compartment behind the center console — lift the rubber mat to expose the slot.",
         "Insert the ignition key VERTICALLY into the slot beside the cover and pry it upward, OR use a small flathead.",
         "Insert key or thin flathead into the exposed slot and press FIRMLY DOWNWARD.",
         "While holding the slot, press the brake pedal firmly.",
@@ -61,18 +61,21 @@
       "yearStart": 2003,
       "yearEnd": 2026,
       "trans": "4-speed, 5-speed, CVT, or manual (varies)",
-      "slot": "Cap near selector base on console",
+      "slot": "AUTOMATIC: small cap near selector base on center console — pry off, insert flathead, press down. MANUAL TRANSMISSION: no shift lock — depress clutch, move lever to Neutral.",
       "shift": [
-        "This vehicle has a MANUAL TRANSMISSION — no shift lock solenoid exists.",
-        "Depress the clutch pedal fully.",
-        "Move the gear lever to the Neutral position (center gate, no gear engaged).",
-        "Release the clutch. Verify the vehicle rolls freely before towing."
+        "IDENTIFY TRANSMISSION TYPE: automatic or manual.",
+        "AUTOMATIC: Turn ignition to ON.",
+        "Locate small cap near selector base on center console. Pry off.",
+        "Insert key or thin flathead. Press firmly downward. Press brake. Move to N.",
+        "MANUAL TRANSMISSION: depress clutch fully. Move gear lever to Neutral.",
+        "DEAD BATTERY (auto): restore power via jump pack — battery under hood."
       ],
       "neutral": [
-        "Manual transmission — no battery power needed to reach Neutral.",
-        "Depress the clutch fully.",
-        "Move gear lever to Neutral.",
-        "Release the clutch and verify the vehicle rolls freely."
+        "Apply parking brake and chock wheels.",
+        "Connect jump pack to battery — under hood.",
+        "Auto: restore power, press brake, shift to N.",
+        "Manual: depress clutch, select N — no battery needed.",
+        "FWD: lift from front. AWD (Corolla Cross): flatbed preferred."
       ],
       "notes": "Manual: clutch to N.",
       "warn": "",
@@ -99,10 +102,10 @@
       "yearStart": 2006,
       "yearEnd": 2026,
       "trans": "4-speed, 6-speed, 8-speed, or hybrid eCVT",
-      "slot": "Cap near selector base on console",
+      "slot": "Small cap/slot near selector base on console — location varies by gen. 5TH GEN (2019+): slot is on the LEFT SIDE and SLIGHTLY AHEAD OF the shift lever (not at the rear/behind it). Remove the black tab/cap, insert screwdriver, press down while pressing shifter button.",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the shift lock slot: Cap near selector base on console.",
+        "Locate the shift lock override — on 5th gen (2019+) it is LEFT SIDE and AHEAD of the shift lever, covered by a small black tab.",
         "Insert a thin key or flathead into the slot and press firmly down.",
         "While holding the slot, press the brake pedal.",
         "Move the selector to Neutral."
@@ -150,8 +153,8 @@
       "neutral": [
         "Apply parking brake.",
         "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Once 12V power is restored, press brake and move selector to N normally.",
+        "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
       ],
       "notes": "4WD optional. Manual: clutch to N.",
       "warn": "4WD: transfer case to 2H.",
@@ -193,23 +196,28 @@
       "yearStart": 2000,
       "yearEnd": 2026,
       "trans": "4-speed, 6-speed, or 10-speed auto; hybrid eCVT (3rd gen 2022+)",
-      "slot": "Cap near console shifter (older) or electronic selector slot (newer)",
+      "slot": "1ST/2ND GEN (2000-2021): small cap near selector base on center console — pry off, insert flathead, press firmly down. 3RD GEN (2022+): electronic selector — small covered access panel near selector base. Restore 12V power first. Hybrid: 12V only.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the shift lock slot: Cap near console shifter (older) or electronic selector slot (newer).",
-        "Insert a thin key or flathead into the slot and press firmly down.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector to Neutral."
+        "IDENTIFY GENERATION: 1st/2nd gen (2000-2021) or 3rd gen (2022+).",
+        "1ST/2ND GEN (2000-2021):",
+        "Turn ignition to ON. Locate small cap near selector base. Pry off.",
+        "Insert flathead. Press firmly downward. Press brake. Move to N.",
+        "3RD GEN (2022+):",
+        "RESTORE 12V POWER FIRST — battery under hood.",
+        "Once powered, press brake and move electronic selector to N.",
+        "Without power: small covered access panel near selector — pry open, pull release lever.",
+        "HYBRID (2022+ iForce Max): 12V auxiliary only — never touch HV battery."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery — under hood.",
         "Once 12V power is restored, press brake and shift to N normally.",
-        "If using slot without power, apply consistent firm pressure — hybrid selectors may require more force.",
-        "Hybrid: 12V auxiliary only — never touch HV battery."
+        "If using slot without power: insert flathead into cap slot and press down firmly.",
+        "Hybrid: 12V auxiliary only — never touch HV battery.",
+        "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
       ],
       "notes": "4WD optional.",
-      "warn": "4WD: transfer case.",
+      "warn": "Must shift transfer case to 2H/2WD before road towing. Never tow in 4H or 4L on dry pavement — drivetrain damage.",
       "drivetrain": "RWD or 4WD (part-time)",
       "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2WD first, then lift from rear — rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
@@ -262,7 +270,8 @@
         "Apply parking brake and chock wheels.",
         "Connect jump pack to battery — Under hood, driver side.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Cap near selector base on console."
+        "If power cannot be restored, use the shift lock slot above — Cap near selector base on console.",
+        "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
       ],
       "notes": "4WD standard.",
       "warn": "4WD: transfer case to 2H before towing.",
@@ -306,7 +315,7 @@
       "slot": "Cap near selector base",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the shift lock slot: Cap near selector base.",
+        "Locate the shift lock override slot — Cap near selector base.",
         "Insert a thin key or flathead into the slot and press firmly down.",
         "While holding the slot, press the brake pedal.",
         "Move the selector to Neutral."
@@ -340,11 +349,11 @@
       "model": "Sienna",
       "yearStart": 2004,
       "yearEnd": 2026,
-      "trans": "5-speed, 6-speed, or hybrid eCVT (4th gen)",
-      "slot": "Cap near selector base",
+      "trans": "5-speed auto (1st gen), 6-speed auto (2nd/3rd gen), hybrid eCVT (4th gen 2021+)",
+      "slot": "1ST-3RD GEN (1998-2020): small cap near selector base on console — pry off, insert key/flathead, press down. 4TH GEN (2021+): HYBRID-ONLY with electronic selector. Restore 12V power first. Override slot on console near selector base — same cap/flathead method.",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the shift lock slot: Cap near selector base.",
+        "Locate the shift lock override slot — Cap near selector base.",
         "Insert a thin key or flathead into the slot and press firmly down.",
         "While holding the slot, press the brake pedal.",
         "Move the selector to Neutral."
@@ -354,7 +363,8 @@
         "Connect jump pack to battery — Under hood.",
         "Once 12V power is restored, press brake and shift to N normally.",
         "If using slot without power, apply consistent firm pressure — hybrid selectors may require more force.",
-        "Hybrid: 12V auxiliary only — never touch HV battery."
+        "Hybrid: 12V auxiliary only — never touch HV battery.",
+        "4TH GEN (2021+): hybrid-only — 12V under hood. Restore power first. EPB requires 12V to release."
       ],
       "notes": "FWD or AWD.",
       "warn": "",
@@ -392,11 +402,10 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "BATTERY IS IN THE TRUNK — open trunk, battery under cargo floor on RIGHT side.",
-        "12V AUXILIARY BATTERY ONLY — NEVER touch the high-voltage hybrid battery (under rear seat/floor).",
+        "BATTERY IN TRUNK — passenger side (RIGHT). NOTE: 2nd gen trunk latch is ELECTRONIC — dead battery means trunk won't open. Use underhood jump post instead.",
+        "Under-hood fuse box jump post: red cap near DRIVER'S SIDE headlight. Connect jump pack there.",
         "Connect jump pack to 12V battery in trunk.",
         "Once 12V is restored, press Power button (no brake), then press brake and push joystick to N normally.",
-        "AWD-e models (2019+ 4th gen Prius): FLATBED ONLY — rear electric motor cannot be disabled.",
         "FWD models: lift from front after getting into N."
       ],
       "notes": "12V battery IN TRUNK. HV battery under rear seat — NEVER touch. Joystick selector.",
@@ -423,7 +432,7 @@
         }
       ],
       "battery": {
-        "location": "TRUNK — under cargo floor on the RIGHT side when looking in from rear",
+        "location": "TRUNK — passenger side (RIGHT when looking in from rear). Jump post under hood fuse box, driver's side (red cap, near driver's headlight).",
         "jumpTerminals": "Trunk — 12V auxiliary battery. Open trunk, lift cargo floor panel right side.",
         "type": "auxiliary-12v-only",
         "warnings": "Battery is in the TRUNK — NOT under the hood. 12V auxiliary ONLY — never touch the HV battery pack. Prius Prime (PHEV): same trunk battery location."
@@ -448,11 +457,10 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "BATTERY IS IN THE TRUNK — open trunk, battery under cargo floor on RIGHT side.",
-        "12V AUXILIARY BATTERY ONLY — NEVER touch the high-voltage hybrid battery (under rear seat/floor).",
+        "BATTERY IN TRUNK — passenger side (RIGHT). NOTE: trunk latch is electronic — dead battery means trunk won't open. Use underhood jump post instead.",
+        "Under-hood fuse box jump post: red cap driver's side. Connect jump pack there.",
         "Connect jump pack to 12V battery in trunk.",
         "Once 12V is restored, press Power button (no brake), then press brake and push joystick to N normally.",
-        "AWD-e models (2019+ 4th gen Prius): FLATBED ONLY — rear electric motor cannot be disabled.",
         "FWD models: lift from front after getting into N."
       ],
       "notes": "12V battery IN TRUNK.",
@@ -475,7 +483,7 @@
         }
       ],
       "battery": {
-        "location": "TRUNK — under cargo floor on the RIGHT side when looking in from rear",
+        "location": "TRUNK — passenger side (RIGHT when looking in from rear). Jump post under hood fuse box, driver's side (red cap).",
         "jumpTerminals": "Trunk — 12V auxiliary battery. Open trunk, lift cargo floor panel right side.",
         "type": "auxiliary-12v-only",
         "warnings": "Battery is in the TRUNK — NOT under the hood. 12V auxiliary ONLY — never touch the HV battery pack. Prius Prime (PHEV): same trunk battery location."
@@ -487,7 +495,7 @@
       "yearStart": 2016,
       "yearEnd": 2023,
       "trans": "CVT hybrid eCVT",
-      "slot": "JOYSTICK-style selector — small plastic cap near the BASE of the joystick on the console.",
+      "slot": "JOYSTICK-style selector — small plastic cap near the BASE of the joystick on the console. 12V battery is UNDER THE HOOD on 4th gen (2016+).",
       "shift": [
         "Turn ignition to ON (Ready mode — push Power button with brake, or just push Power without brake for accessory).",
         "Locate the shift lock override: small cap near the BASE of the joystick-style selector.",
@@ -496,13 +504,13 @@
         "While holding, press the brake pedal.",
         "Move the joystick to N.",
         "Release tool and replace cap.",
-        "NOTE: 12V battery is in the TRUNK — must jump trunk battery before attempting electrical shift."
+        "NOTE: 12V battery is UNDER THE HOOD on 4th gen — NOT in trunk."
       ],
       "neutral": [
         "Apply parking brake.",
-        "BATTERY IS IN THE TRUNK — open trunk, battery under cargo floor on RIGHT side.",
+        "12V BATTERY IS UNDER THE HOOD — connect jump pack directly.",
         "12V AUXILIARY BATTERY ONLY — NEVER touch the high-voltage hybrid battery (under rear seat/floor).",
-        "Connect jump pack to 12V battery in trunk.",
+        "Connect jump pack to 12V battery under hood.",
         "Once 12V is restored, press Power button (no brake), then press brake and push joystick to N normally.",
         "AWD-e models (2019+ 4th gen Prius): FLATBED ONLY — rear electric motor cannot be disabled.",
         "FWD models: lift from front after getting into N."
@@ -518,8 +526,8 @@
       ],
       "knownIssues": [
         {
-          "title": "12V Battery in Trunk",
-          "detail": "12V battery is under the cargo floor in the trunk on the right side. Not under the hood. Prius Prime PHEV: same trunk battery location."
+          "title": "12V Battery Under Hood (4th Gen 2016+)",
+          "detail": "Unlike earlier Prius generations, the 4th gen (2016-2021) 12V battery is UNDER THE HOOD, not in the trunk. Jump directly from under hood."
         },
         {
           "title": "AWD-e Models — Flatbed Only",
@@ -527,10 +535,10 @@
         }
       ],
       "battery": {
-        "location": "TRUNK — under cargo floor on the RIGHT side when looking in from rear",
-        "jumpTerminals": "Trunk — 12V auxiliary battery. Open trunk, lift cargo floor panel right side.",
+        "location": "Under hood (4th gen 2016-2021)",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "Battery is in the TRUNK — NOT under the hood. 12V auxiliary ONLY — never touch the HV battery pack. Prius Prime (PHEV): same trunk battery location."
+        "warnings": "NEVER touch HV battery. 12V only."
       }
     },
     {
@@ -548,15 +556,15 @@
         "While holding, press the brake pedal.",
         "Move the joystick to N.",
         "Release tool and replace cap.",
-        "NOTE: 12V battery is in the TRUNK — must jump trunk battery before attempting electrical shift."
+        "NOTE: 12V battery is UNDER THE HOOD on 5th gen."
       ],
       "neutral": [
         "Apply parking brake.",
-        "BATTERY IS IN THE TRUNK — open trunk, battery under cargo floor on RIGHT side.",
+        "12V BATTERY IS UNDER THE HOOD — connect jump pack directly.",
         "12V AUXILIARY BATTERY ONLY — NEVER touch the high-voltage hybrid battery (under rear seat/floor).",
-        "Connect jump pack to 12V battery in trunk.",
+        "Connect jump pack to 12V battery under hood.",
         "Once 12V is restored, press Power button (no brake), then press brake and push joystick to N normally.",
-        "AWD-e models (2019+ 4th gen Prius): FLATBED ONLY — rear electric motor cannot be disabled.",
+        "AWD-e models: FLATBED ONLY — rear electric motor cannot be disabled.",
         "FWD models: lift from front after getting into N."
       ],
       "notes": "",
@@ -570,10 +578,10 @@
       ],
       "knownIssues": [],
       "battery": {
-        "location": "TRUNK — under cargo floor on the RIGHT side when looking in from rear",
-        "jumpTerminals": "Trunk — 12V auxiliary battery. Open trunk, lift cargo floor panel right side.",
+        "location": "Under hood (5th gen 2023+)",
+        "jumpTerminals": "Under hood — standard terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "Battery is in the TRUNK — NOT under the hood. 12V auxiliary ONLY — never touch the HV battery pack. Prius Prime (PHEV): same trunk battery location."
+        "warnings": "NEVER touch HV battery. 12V only."
       }
     },
     {
@@ -585,7 +593,7 @@
       "slot": "Cap near selector base on console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Cap near selector base on console.",
+        "Locate the shift lock override slot — Cap near selector base on console.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -596,10 +604,11 @@
         "Apply parking brake and chock wheels.",
         "Connect jump pack to battery — Under hood, driver side.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Cap near selector base on console."
+        "If power cannot be restored, use the shift lock slot above — Cap near selector base on console.",
+        "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
       ],
       "notes": "4WD standard. Large luxury 4WD.",
-      "warn": "4WD: transfer case.",
+      "warn": "Must shift transfer case to 2H/2WD before road towing. Never tow in 4H or 4L on dry pavement — drivetrain damage.",
       "drivetrain": "4WD (full-time with 2WD option, standard)",
       "towMethod": "Transfer case to H2 (2WD) first, then lift from rear — rear (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
@@ -637,23 +646,28 @@
       "yearStart": 2001,
       "yearEnd": 2026,
       "trans": "4-speed, 6-speed, 10-speed, or hybrid eCVT",
-      "slot": "Cap near selector base (older) or electronic selector slot (newer)",
+      "slot": "1ST/2ND GEN (2001-2022): small cap near selector base on center console — pry off, insert flathead, press down. 3RD GEN (2023+): electronic selector — restore 12V power first. Hybrid (2023+): 12V auxiliary only.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the shift lock slot: Cap near selector base (older) or electronic selector slot (newer).",
-        "Insert a thin key or flathead into the slot and press firmly down.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector to Neutral."
+        "IDENTIFY GENERATION: 1st/2nd gen (2001-2022) or 3rd gen (2023+).",
+        "1ST/2ND GEN:",
+        "Turn ignition to ON. Locate small cap near selector base. Pry off.",
+        "Insert flathead. Press down. Press brake. Move to N.",
+        "3RD GEN (2023+ hybrid-only):",
+        "RESTORE 12V POWER FIRST — battery under hood.",
+        "Once powered, press brake and move electronic selector to N.",
+        "Without power: small covered access panel near selector — pry open, pull release lever.",
+        "HYBRID: 12V ONLY — never touch HV battery."
       ],
       "neutral": [
         "Apply parking brake.",
         "Connect jump pack to battery — Under hood.",
         "Once 12V power is restored, press brake and shift to N normally.",
         "If using slot without power, apply consistent firm pressure — hybrid selectors may require more force.",
-        "Hybrid: 12V auxiliary only — never touch HV battery."
+        "Hybrid: 12V auxiliary only — never touch HV battery.",
+        "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
       ],
       "notes": "4WD optional.",
-      "warn": "4WD: transfer case.",
+      "warn": "Must shift transfer case to 2H/2WD before road towing. Never tow in 4H or 4L on dry pavement — drivetrain damage.",
       "drivetrain": "RWD or 4WD (part-time)",
       "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2WD first, then lift from rear — rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": {
@@ -693,21 +707,24 @@
       "yearStart": 2020,
       "yearEnd": 2026,
       "trans": "8-speed automatic ZF 8HP",
-      "slot": "Electronic selector — slot near selector base",
+      "slot": "NO CABIN OVERRIDE. ZF 8HP has NO accessible cabin shift lock release. Park lock released via a lever on the DRIVER'S SIDE of the ZF 8HP transmission underbody. RESTORE 12V POWER FIRST — battery under hood (AGM). 2023+ manual: depress clutch, move lever to N — no procedure needed.",
       "shift": [
-        "Turn ignition to ON.",
-        "Electronic gear selector on console — locate the override slot near the selector base.",
-        "Pry off trim cover if present.",
-        "Insert thin flathead into slot and press firmly.",
-        "While holding, press the brake pedal.",
-        "Move selector to N.",
-        "ZF 8HP: restoring 12V power first is strongly preferred."
+        "RESTORE 12V POWER FIRST — strongly preferred.",
+        "AGM-compatible jump pack to battery under hood.",
+        "Once powered, shift electronically to N.",
+        "WITHOUT POWER — ZF 8HP underbody lever:",
+        "Lift vehicle for clearance. Remove underbody belly pan (extensive — multiple bolts).",
+        "Locate the park lock lever on the DRIVER'S SIDE of the ZF 8HP transmission.",
+        "Push/pull the lever and wedge something in the gap to hold it open.",
+        "NO cabin slot, cap, or trim piece exists — any such procedure is incorrect.",
+        "2023+ MANUAL: depress clutch, move lever to Neutral."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Connect jump pack to battery — Under hood (shared BMW platform). Use an AGM-compatible jump pack — this vehicle has an AGM battery. Use an AGM-compatible jump pack.",
-        "Once 12V power is restored, press brake and shift to N normally.",
-        "BMW/ZF 8HP: battery is typically NOT under the hood — under hood (shared bmw platform). Always use the hood jump terminals."
+        "Apply parking brake. Chock wheels.",
+        "Battery under hood — AGM-compatible jump pack.",
+        "Restore power, shift electronically to N.",
+        "No power: ZF 8HP underbody lever — requires jack and belly pan removal.",
+        "FLATBED STRONGLY RECOMMENDED — low clearance, high-value sports car."
       ],
       "notes": "Shared platform with BMW Z4. RWD.",
       "warn": "Low clearance — flatbed preferred.",
@@ -718,7 +735,12 @@
         "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
         "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "No Cabin Park Release — ZF 8HP Underbody Lever Required",
+          "detail": "The GR Supra A90 uses ZF 8HP with electronic park lock. No cabin shift lock release exists. Override is a lever on the ZF 8HP transmission underbody — requires belly pan removal. Restore 12V power first. Flatbed recommended."
+        }
+      ],
       "battery": {
         "location": "Under hood (shared BMW platform)",
         "jumpTerminals": "Under hood: red fused terminal (+), black ground bolt (−)",
@@ -747,7 +769,7 @@
         "Once powered, press N button while pressing brake."
       ],
       "notes": "Shared platform with Subaru Solterra.",
-      "warn": "FLATBED ONLY.",
+      "warn": "FLATBED ONLY — electric drivetrain or permanent AWD. Never tow with driven wheels on the ground.",
       "drivetrain": "FWD or AWD (electric)",
       "towMethod": "FLATBED ONLY — electric drivetrain",
       "tc": null,
@@ -775,7 +797,7 @@
       "slot": "Small square plastic cover located BEHIND the gear selector (toward the REAR of the center console, NOT at the front base). Look at the console surface just behind where the shifter sits.",
       "shift": [
         "Turn ignition to ON (do not start the engine).",
-        "Locate the shift lock release: small square plastic cover located BEHIND the gear selector (toward rear of console — NOT at the shifter base).",
+        "Locate the shift lock release in the storage compartment behind the center console — lift the rubber mat to expose the slot.",
         "Insert the ignition key VERTICALLY into the slot beside the cover and pry it upward, OR use a small flathead.",
         "Insert key or thin flathead into the exposed slot and press FIRMLY DOWNWARD.",
         "While holding the slot, press the brake pedal firmly.",
@@ -813,7 +835,7 @@
       "slot": "Small square plastic cover located BEHIND the gear selector (toward the REAR of the center console, NOT at the front base). Look at the console surface just behind where the shifter sits.",
       "shift": [
         "Turn ignition to ON (do not start the engine).",
-        "Locate the shift lock release: small square plastic cover located BEHIND the gear selector (toward rear of console — NOT at the shifter base).",
+        "Locate the shift lock release in the storage compartment behind the center console — lift the rubber mat to expose the slot.",
         "Insert the ignition key VERTICALLY into the slot beside the cover and pry it upward, OR use a small flathead.",
         "Insert key or thin flathead into the exposed slot and press FIRMLY DOWNWARD.",
         "While holding the slot, press the brake pedal firmly.",
@@ -982,25 +1004,24 @@
       "yearEnd": 2003,
       "trans": "e-CVT hybrid (ECVT)",
       "drivetrain": "FWD (hybrid)",
-      "slot": "JOYSTICK-style selector — small plastic cap near the BASE of the joystick on the console.",
+      "slot": "COLUMN/DASH-MOUNTED SHIFTER — quasi-column lever on the dashboard behind the steering wheel. Override: small slot on the column assembly — insert key and press to release. 12V BATTERY IS IN THE TRUNK, DRIVER'S SIDE (LEFT) — mechanical trunk lock opens with key even with dead battery.",
       "shift": [
-        "Turn ignition to ON (Ready mode — push Power button with brake, or just push Power without brake for accessory).",
-        "Locate the shift lock override: small cap near the BASE of the joystick-style selector.",
-        "Pry off the small plastic cap with your ignition key or thin flathead.",
-        "Insert key or thin flathead into the slot and press FIRMLY downward.",
-        "While holding, press the brake pedal.",
-        "Move the joystick to N.",
-        "Release tool and replace cap.",
-        "NOTE: 12V battery is in the TRUNK — must jump trunk battery before attempting electrical shift."
+        "COLUMN/DASH SHIFTER — lever on dashboard behind the steering wheel.",
+        "Turn ignition to ON (press Power without brake for accessory).",
+        "Locate override slot on the column/dash shifter assembly.",
+        "Insert key or thin flathead and press firmly to release shift lock.",
+        "While holding, press brake. Move lever to N.",
+        "12V BATTERY IN TRUNK, DRIVER'S SIDE: open trunk with mechanical key — works with dead battery.",
+        "Jump post also under hood fuse box (red cap, driver's side).",
+        "12V ONLY — NEVER touch the high-voltage hybrid battery."
       ],
       "neutral": [
         "Apply parking brake.",
-        "BATTERY IS IN THE TRUNK — open trunk, battery under cargo floor on RIGHT side.",
-        "12V AUXILIARY BATTERY ONLY — NEVER touch the high-voltage hybrid battery (under rear seat/floor).",
-        "Connect jump pack to 12V battery in trunk.",
-        "Once 12V is restored, press Power button (no brake), then press brake and push joystick to N normally.",
-        "AWD-e models (2019+ 4th gen Prius): FLATBED ONLY — rear electric motor cannot be disabled.",
-        "FWD models: lift from front after getting into N."
+        "12V BATTERY IN TRUNK, DRIVER'S SIDE (LEFT) — open with mechanical key even when dead.",
+        "OR: under-hood fuse box jump post (red cap, driver's side).",
+        "12V ONLY — NEVER touch HV battery.",
+        "Connect jump pack. Once powered, press Power (no brake), then press brake and move lever to N.",
+        "FWD ONLY — lift from front. 1st gen Prius had NO AWD option."
       ],
       "notes": "1st gen Prius: 12V battery in trunk. Never touch HV battery under rear seat.",
       "warn": "12V battery in TRUNK — not under hood. Never touch HV battery.",
@@ -1010,12 +1031,17 @@
         "FWD: lift from front. Battery in trunk."
       ],
       "battery": {
-        "location": "TRUNK — under cargo floor on the RIGHT side when looking in from rear",
-        "jumpTerminals": "Trunk — 12V auxiliary battery. Open trunk, lift cargo floor panel right side.",
+        "location": "TRUNK — driver's side (LEFT when looking in from rear). Mechanical key opens trunk even with dead battery.",
+        "jumpTerminals": "Under-hood fuse box, driver's side — red cap. OR direct battery in trunk.",
         "type": "auxiliary-12v-only",
-        "warnings": "Battery is in the TRUNK — NOT under the hood. 12V auxiliary ONLY — never touch the HV battery pack. Prius Prime (PHEV): same trunk battery location."
+        "warnings": "NEVER touch HV battery. 12V only."
       },
-      "knownIssues": []
+      "knownIssues": [
+        {
+          "title": "1st Gen Prius — Dash/Column Shifter NOT Joystick; Battery Driver's Side",
+          "detail": "2001-2003 Prius uses a column/dash-mounted lever, NOT the joystick of later gens. 12V battery is in trunk, driver's side (left). Trunk has mechanical lock — opens with key. No AWD option on 1st gen."
+        }
+      ]
     },
     {
       "make": "Toyota",
@@ -1027,7 +1053,7 @@
       "slot": "Cap near selector base on center console",
       "shift": [
         "Turn ignition to ON (key to Run position — do not start).",
-        "Locate the shift lock override: cap near selector base on center console.",
+        "Locate the shift lock override slot — Cap near selector base on center console.",
         "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -1074,7 +1100,7 @@
       "yearEnd": 2006,
       "trans": "4-speed automatic (A140E) or 5-speed manual",
       "drivetrain": "FWD",
-      "slot": "Small cap near gear selector base on center console",
+      "slot": "Small cap near gear selector base on center console. Battery under hood.",
       "shift": [
         "Turn ignition to ON.",
         "MANUAL TRANSMISSION (very common on Celica): depress clutch fully, move lever to Neutral.",
@@ -1082,8 +1108,9 @@
       ],
       "neutral": [
         "Apply parking brake.",
+        "Connect jump pack to battery — under hood.",
         "Manual: depress clutch, select N.",
-        "Auto: connect jump pack — under hood. Once powered, shift to N.",
+        "Auto: once powered, press brake and shift to N.",
         "FWD: lift from front. High-value — flatbed preferred."
       ],
       "notes": "Manual is most common variant. FWD. Low clearance on some — flatbed preferred.",
@@ -1137,19 +1164,11 @@
       "knownIssues": [
         {
           "title": "Battery in Front Frunk — NOT Rear Engine Bay",
-          "detail": "The MR2 is mid-engine. The rear hood opens to the engine. The FRONT hood opens to a small storage frunk where the 12V battery is located. Never look in the engine bay for the battery — always open the front hood."
+          "detail": "12V battery is in the FRONT storage compartment (frunk), accessed via the front hood. Do NOT open the rear engine lid expecting to find the battery."
         },
         {
-          "title": "SMT Sequential Requires Power",
-          "detail": "The W30 MR2 Spyder SMT (Sequential Manual Transmission) is electro-hydraulic and cannot shift without 12V power. Always restore battery power before attempting to select Neutral."
-        },
-        {
-          "title": "Battery in Frunk — Not the Rear Engine Bay",
-          "detail": "The MR2 and MR2 Spyder are mid-engine. The engine is at the rear — the battery is in the FRONT storage frunk. Open the front lid to find the battery. Never open the rear lid expecting to find a battery there."
-        },
-        {
-          "title": "Battery in Frunk — NOT Rear Engine Bay",
-          "detail": "The MR2 is mid-engine. The 12V battery is in the FRONT storage compartment (frunk). The rear opening is the engine bay — no battery there. Always open the FRONT hood to access the battery."
+          "title": "SMT Sequential Requires Power to Shift",
+          "detail": "W30 Spyder with SMT (sequential manual transmission) requires 12V power to shift. Restore power before attempting to move out of Park."
         }
       ],
       "battery": {
@@ -1166,7 +1185,7 @@
       "yearEnd": 2022,
       "trans": "4-speed (1995-1999), 5-speed (2000-2012), 6-speed (2013-2018), 8-speed (2019-2022) automatic; hybrid eCVT available",
       "drivetrain": "FWD",
-      "slot": "Small cap or slot near gear selector base on center console",
+      "slot": "Small cap or slot near gear selector base on center console. Battery under hood.",
       "shift": [
         "Turn ignition to ON.",
         "Locate shift lock slot near selector base on console.",
@@ -1175,7 +1194,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack to battery — under hood.",
         "Once powered, shift to N.",
         "FWD: lift from front."
       ],
@@ -1202,10 +1221,10 @@
       "yearEnd": 2020,
       "trans": "4-speed automatic (A245E) or 5-speed manual (C50)",
       "drivetrain": "FWD",
-      "slot": "Small cap near gear selector base on center console",
+      "slot": "Small cap near gear selector base on center console. Battery under hood.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Locate the shift lock override slot — Small cap near gear selector base on center console.",
         "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
         "While holding, press the brake pedal firmly.",
@@ -1214,7 +1233,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack to battery — under hood.",
         "Once powered, shift to N.",
         "Manual: depress clutch. FWD: lift from front."
       ],
@@ -1240,10 +1259,10 @@
       "yearEnd": 2013,
       "trans": "4-speed automatic (A246E) or 5-speed manual",
       "drivetrain": "FWD or AWD",
-      "slot": "Small cap near gear selector base on center console",
+      "slot": "Small cap near gear selector base on center console. Battery under hood.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Locate the shift lock override slot — Small cap near gear selector base on center console.",
         "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
         "While holding, press the brake pedal firmly.",
@@ -1252,7 +1271,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack to battery — under hood.",
         "Once powered, shift to N.",
         "Manual: depress clutch. AWD: flatbed preferred."
       ],
@@ -1341,7 +1360,7 @@
       "yearEnd": 2023,
       "trans": "CVT",
       "drivetrain": "FWD",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Small slot near gear selector base on center console. Battery under hood.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
@@ -1353,7 +1372,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack to battery — under hood.",
         "Once powered, shift to N.",
         "CVT: flatbed preferred — do not exceed 35 mph / 50 miles with drive wheels on ground."
       ],
@@ -1380,7 +1399,7 @@
       "yearEnd": 2015,
       "trans": "6-speed automatic (A761E/U660E)",
       "drivetrain": "FWD or AWD",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Small slot near gear selector base on center console. Battery under hood.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
@@ -1392,7 +1411,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack to battery — under hood.",
         "Once powered, shift to N.",
         "AWD: flatbed preferred."
       ],

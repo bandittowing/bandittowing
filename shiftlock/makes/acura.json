@@ -21,8 +21,7 @@
       "slot": "Small round cap on top-left corner of shifter console — pry off to access slot",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Small round cap on top-left corner of shifter console — pry off to access slot.",
-        "Pry off the cap or cover if present using your ignition key or a small flathead.",
+        "Locate the shift lock override slot — Small round cap on top-left corner of shifter console — pry off to access slot.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
         "Move the selector from Park to Neutral.",
@@ -57,15 +56,16 @@
       "yearStart": 2013,
       "yearEnd": 2022,
       "trans": "5-speed auto (2013-2015 base), 8-speed DCT (2016-2022)",
-      "slot": "Small slot near the gear selector base on the center console, covered by a removable plastic cap",
+      "slot": "Small slot near the gear selector base on the console — pry off plastic cap, insert key. DCT: RESTORE 12V POWER FIRST for reliable operation — DCT cannot shift without power.",
       "shift": [
-        "Turn ignition to ON.",
-        "This vehicle has a DCT dual-clutch transmission — it requires 12V power to shift reliably.",
-        "Locate the shift lock slot — Small slot near the gear selector base on the center console, covered by a removable plastic cap.",
-        "Insert a thin key or flathead into the slot.",
-        "Press firmly and hold.",
-        "Press the brake pedal while holding.",
-        "Move the selector to Neutral."
+        "RESTORE 12V POWER FIRST — DCT requires 12V power to shift reliably.",
+        "Connect jump pack — battery under hood.",
+        "Once powered, press brake and select N.",
+        "WITHOUT POWER — shift lock slot (mechanical override only):",
+        "Locate the small plastic cap near the gear selector base on the console.",
+        "Pry off the cap with the ignition key or small flathead.",
+        "Insert key into the slot and press firmly. Press brake. Move selector to N.",
+        "NOTE: Even with mechanical override, DCT clutch packs will not disengage without power — this may not work reliably."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -99,7 +99,7 @@
       "slot": "Small slot near the gear selector base, covered by a plastic cap",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Small slot near the gear selector base, covered by a plastic cap.",
+        "Locate the shift lock override slot — Small slot near the gear selector base, covered by a plastic cap.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -137,7 +137,7 @@
       "slot": "Slot on front-right side of shifter base — snap-off plastic cover",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Slot on front-right side of shifter base — snap-off plastic cover.",
+        "Locate the shift lock override slot — Slot on front-right side of shifter base — snap-off plastic cover.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -172,22 +172,26 @@
       "yearStart": 2014,
       "yearEnd": 2020,
       "trans": "9-speed automatic (ZF 9HP)",
-      "slot": "FRONT LIP of center console near the dashboard — silver rectangular slot. NOT near the shift handle.",
+      "slot": "2014-2015 (6-speed Honda AT): small cap near selector lever on console — pry off, insert key, press down. 2016-2020 (ZF 9HP push-button): NO CABIN OVERRIDE. Transmission stub on TOP of the ZF 9HP — rotate with small crescent wrench to disengage parking pawl.",
       "shift": [
-        "Turn ignition to ON.",
-        "ZF 9HP transmission: locate the shift lock slot — FRONT LIP of center console near the dashboard — silver rectangular slot. NOT near the shift handle.",
-        "Insert a thin key or dedicated ZF 9HP override tool (~$50 from dealer tool suppliers) into the slot.",
-        "Press firmly and hold.",
-        "While holding, press the brake pedal.",
-        "Move the selector to Neutral.",
-        "NOTE: The ZF 9HP solenoid requires more force than most vehicles — apply steady firm pressure."
+        "RESTORE 12V POWER FIRST — preferred for all variants.",
+        "Connect jump pack to battery under hood. Once powered, press brake and select N on push-button selector.",
+        "2014-2015 (6-speed Honda AT) WITHOUT POWER:",
+        "Locate the small plastic cap near the gear selector lever on the console. Pry off with key or flathead.",
+        "Insert key or flathead into the slot and press firmly downward. Hold. Press brake. Move selector to N.",
+        "2016-2020 (ZF 9HP push-button) WITHOUT POWER — ENGINE BAY PROCEDURE:",
+        "Remove the engine covers (plastic trim panels on top of engine).",
+        "Locate the stub/shaft with two flat faces on the TOP of the ZF 9HP transmission.",
+        "Grip the stub with a small crescent wrench and rotate CLOCKWISE to disengage the parking pawl.",
+        "Someone must ride the vehicle to hold it in place while it is moved — it will re-engage when released.",
+        "FLATBED with dollies is the safer practical option if power cannot be restored."
       ],
       "neutral": [
         "Apply parking brake.",
-        "ZF 9HP STRONGLY RECOMMENDED: Connect jump pack to battery — Under hood. Use an AGM-compatible jump pack — this vehicle has an AGM battery.",
-        "The ZF 9HP is very difficult to shift without 12V power — jumping the battery first is the most reliable method.",
-        "Once powered, press brake and shift normally.",
-        "If using mechanical slot: a dedicated ZF 9HP override tool (~$50 online) is more reliable than a key."
+        "Connect jump pack — battery under hood.",
+        "Once powered, press brake and select N on electronic selector.",
+        "ZF 9HP (2016-2020) WITHOUT POWER: engine bay procedure required — see shift steps. No cabin override.",
+        "SH-AWD: FLATBED PREFERRED."
       ],
       "notes": "CRITICAL: The slot is at the FRONT of the console near the dashboard, NOT at the shifter base — this is a very common mistake. Always carry a jump pack with ZF 9HP-equipped vehicles.",
       "warn": "ZF 9HP: jump pack strongly recommended. Forcing shift without power risks transmission damage.",
@@ -220,21 +224,21 @@
       "yearStart": 2022,
       "yearEnd": 2026,
       "trans": "10-speed automatic",
-      "slot": "Near base of electronic gear selector on center console",
+      "slot": "NO CABIN OVERRIDE. 4th-gen MDX has no shift lock release accessible from inside. Restore 12V power to shift normally. Dead battery with no way to jump: FLATBED with dollies only.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Near base of electronic gear selector on center console.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — this is the only practical option.",
+        "Connect jump pack to battery under hood.",
+        "Once powered, press brake and select N on push-button selector.",
+        "WITHOUT POWER: there is NO cabin shift override on the 4th-gen MDX.",
+        "The owner's manual confirms: flatbed is required if power cannot be restored.",
+        "FLATBED with wheel dollies is the field solution."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood. Use an AGM-compatible jump pack — this vehicle has an AGM battery.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Connect jump pack — battery under hood.",
+        "Once powered, press brake and select N.",
+        "If power cannot be restored: FLATBED ONLY with wheel dollies.",
+        "No cabin override exists on this generation."
       ],
       "notes": "Electronic selector design. Slot location may vary by trim — consult owner's manual.",
       "warn": "",
@@ -244,7 +248,12 @@
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "No Cabin Neutral Override — Flatbed Required if Power Lost",
+          "detail": "The 4th-generation MDX (2022+) has no shift lock release accessible from the cabin. If the battery is completely dead and cannot be jumped, the vehicle cannot be shifted to neutral. Flatbed with wheel dollies is the only safe field solution."
+        }
+      ],
       "battery": {
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
@@ -261,7 +270,7 @@
       "slot": "Small slot near the gear selector base, covered by a plastic cap",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Small slot near the gear selector base, covered by a plastic cap.",
+        "Locate the shift lock override slot — Small slot near the gear selector base, covered by a plastic cap.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -299,7 +308,7 @@
       "slot": "Slot on side of gear selector base near console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Slot on side of gear selector base near console.",
+        "Locate the shift lock override slot — Slot on side of gear selector base near console.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -334,21 +343,24 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "10-speed automatic",
-      "slot": "Near base of the electronic push-button shifter on center console",
+      "slot": "NO CABIN OVERRIDE on 3rd-gen RDX (2019+). The shift lock cover exists but does nothing without power on this transmission. Park lock release is on the transmission, accessed from the engine bay.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Near base of the electronic push-button shifter on center console.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — the only practical option.",
+        "Connect jump pack to battery under hood.",
+        "Once powered, press brake and select N on push-button selector.",
+        "WITHOUT POWER: NO effective cabin override on the 3rd-gen RDX.",
+        "Dealer videos confirm: park lock release requires accessing the transmission from the engine bay.",
+        "Remove the air filter housing (8mm socket) to access the shift lock release stub on the transmission.",
+        "Rotate the stub with a wrench to disengage the parking pawl.",
+        "FLATBED with wheel dollies is the safer practical field option."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Connect jump pack — battery under hood.",
+        "Once powered, select N on push-button selector.",
+        "If power cannot be restored: transmission stub in engine bay (requires removing air filter housing).",
+        "FLATBED with wheel dollies is the safest field solution.",
+        "AWD: FLATBED PREFERRED."
       ],
       "notes": "3rd gen uses electronic push-button shifter — no physical lever. N button must be activated electronically.",
       "warn": "",
@@ -358,7 +370,12 @@
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
-      "knownIssues": [],
+      "knownIssues": [
+        {
+          "title": "No Effective Cabin Override — Engine Bay Transmission Access Required",
+          "detail": "The 3rd-gen RDX (2019+) has a shift lock cover on the console but it does nothing without 12V power. The actual park lock release requires accessing the transmission from the engine bay after removing the air filter housing. Always restore 12V power first. Flatbed with dollies if power cannot be restored."
+        }
+      ],
       "battery": {
         "location": "Under hood",
         "jumpTerminals": "Under hood — standard terminals",
@@ -375,7 +392,7 @@
       "slot": "Small slot near gear selector base, covered by a cap",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Small slot near gear selector base, covered by a cap.",
+        "Locate the shift lock override slot — Small slot near gear selector base, covered by a cap.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -413,7 +430,7 @@
       "slot": "Small slot near gear selector base, covered by a cap",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Small slot near gear selector base, covered by a cap.",
+        "Locate the shift lock override slot — Small slot near gear selector base, covered by a cap.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -451,7 +468,7 @@
       "slot": "Small round cap on upper-left of shifter base",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Small round cap on upper-left of shifter base.",
+        "Locate the shift lock override slot — Small round cap on upper-left of shifter base.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -490,7 +507,7 @@
       "slot": "Slot on right side of shifter base, snap-off plastic cover",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Slot on right side of shifter base, snap-off plastic cover.",
+        "Locate the shift lock override slot — Slot on right side of shifter base, snap-off plastic cover.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -526,21 +543,27 @@
       "yearStart": 2015,
       "yearEnd": 2020,
       "trans": "8-speed DCT (2015-17) or 9-speed auto (2018-20)",
-      "slot": "Slot at base of gear selector on console",
+      "slot": "8-speed DCT (2015-2018): small cap on console near selector — pry off, insert key. 9-speed AT V6 (2015-2020): cabin cap is present but DOES NOTHING without power. 9-speed: transmission stub on top of transmission — small shaft with two flat faces, rotate with crescent wrench.",
       "shift": [
-        "Turn ignition to ON.",
-        "This vehicle has a DCT dual-clutch transmission — it requires 12V power to shift reliably.",
-        "Locate the shift lock slot — Slot at base of gear selector on console.",
-        "Insert a thin key or flathead into the slot.",
-        "Press firmly and hold.",
-        "Press the brake pedal while holding.",
-        "Move the selector to Neutral."
+        "RESTORE 12V POWER FIRST — strongly preferred for all TLX variants.",
+        "Connect jump pack to battery under hood.",
+        "Once powered, press brake and select N normally.",
+        "8-speed DCT (2015-2018) WITHOUT POWER:",
+        "Locate the small cap on the console near the selector. Pry off with key or flathead.",
+        "Insert key into slot and press firmly. Press brake. Move selector to N.",
+        "9-speed AT V6 (2015-2020) WITHOUT POWER — ENGINE BAY PROCEDURE:",
+        "The cabin cap does nothing on the 9-speed. Remove engine covers to access transmission top.",
+        "Locate the small stub/shaft with two flat faces on the ZF 9HP.",
+        "Rotate COUNTERCLOCKWISE about 15 degrees with a small crescent wrench to disengage parking pawl.",
+        "FLATBED with wheel dollies is the safer practical field option."
       ],
       "neutral": [
         "Apply parking brake.",
-        "DCT REQUIRES POWER: Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and shift to N normally.",
-        "If mechanical slot is used without power: DCT transmissions may resist — apply steady firm pressure and hold for several seconds."
+        "Connect jump pack — battery under hood.",
+        "Once powered, press brake and select N.",
+        "9-speed V6: if power cannot be restored — transmission stub in engine bay.",
+        "8-speed DCT: cabin cap works without power. 9-speed: cabin cap does NOT work.",
+        "FWD/AWD: flatbed preferred."
       ],
       "notes": "Power method preferred for 8-speed DCT. 9-speed (2018+): slot method works reliably.",
       "warn": "8-speed DCT: FLATBED ONLY. Do not tow with all four wheels on ground.",
@@ -570,24 +593,22 @@
       "yearStart": 2021,
       "yearEnd": 2026,
       "trans": "10-speed automatic",
-      "slot": "Near base of electronic gear selector on center console",
+      "slot": "NO CABIN OVERRIDE. 2nd-gen TLX (2021+) has no accessible shift lock release in the cabin. Restore 12V power to shift normally.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Near base of electronic gear selector on center console.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — only practical option.",
+        "Connect jump pack to battery under hood.",
+        "Once powered, press brake and select N on push-button selector.",
+        "WITHOUT POWER: NO cabin override on 2nd-gen TLX.",
+        "FLATBED with wheel dollies if power cannot be restored."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood. Use an AGM-compatible jump pack — this vehicle has an AGM battery.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Connect jump pack — battery under hood.",
+        "Once powered, select N on push-button selector.",
+        "If power cannot be restored: FLATBED ONLY with wheel dollies."
       ],
       "notes": "",
-      "warn": "AWD — flatbed preferred.",
+      "warn": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
       "drivetrain": "FWD or AWD (SH-AWD)",
       "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
@@ -611,7 +632,7 @@
       "slot": "Slot on right side of shifter base, snap-off cover",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Slot on right side of shifter base, snap-off cover.",
+        "Locate the shift lock override slot — Slot on right side of shifter base, snap-off cover.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -650,7 +671,7 @@
       "slot": "Small slot near gear selector base, covered by a cap",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Small slot near gear selector base, covered by a cap.",
+        "Locate the shift lock override slot — Small slot near gear selector base, covered by a cap.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -664,7 +685,7 @@
         "If power cannot be restored, use the shift lock slot above — Small slot near gear selector base, covered by a cap."
       ],
       "notes": "SH-AWD standard on all ZDX.",
-      "warn": "AWD — use flatbed.",
+      "warn": "Full-time AWD — FLATBED ONLY. Cannot disengage AWD. If no flatbed, dollies required on free-rolling axle.",
       "drivetrain": "AWD (SH-AWD, standard)",
       "towMethod": "FLATBED ONLY — SH-AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
@@ -759,7 +780,7 @@
       "slot": "Small cap near selector base on center console",
       "shift": [
         "Turn ignition to ON (key to Run position — do not start).",
-        "Locate the shift lock override: small cap near selector base on center console.",
+        "Locate the shift lock override slot — Small cap near selector base on center console.",
         "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -839,7 +860,7 @@
       "slot": "Small cap near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Locate the shift lock override slot — Small cap near gear selector base on center console.",
         "Pry off cap with ignition key or small flathead screwdriver.",
         "Insert key or thin flathead into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal firmly.",
@@ -878,7 +899,7 @@
       "slot": "Small cap near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Locate the shift lock override slot — Small cap near gear selector base on center console.",
         "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead into the slot and press firmly downward.",
         "While holding, press the brake pedal firmly.",
@@ -917,7 +938,7 @@
       "slot": "Small cap near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Locate the shift lock override slot — Small cap near gear selector base on center console.",
         "Pry off cap with small flathead.",
         "Insert key or thin flathead into the slot and press firmly downward.",
         "While holding, press the brake pedal firmly.",
@@ -954,7 +975,7 @@
       "slot": "Small cap near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Locate the shift lock override slot — Small cap near gear selector base on center console.",
         "Pry off cap with small flathead.",
         "Insert key or thin flathead into the slot and press firmly downward.",
         "While holding, press the brake pedal firmly.",
@@ -1003,15 +1024,12 @@
       "yearEnd": 2021,
       "trans": "10-speed automatic",
       "drivetrain": "AWD (SH-AWD, standard)",
-      "slot": "Near base of electronic gear selector on center console",
+      "slot": "Electronic push-button selector — same as 3rd gen ZF 9HP. NO CABIN OVERRIDE. Restore 12V power or use engine bay transmission stub procedure.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override near base of electronic gear selector on center console.",
-        "Remove trim cover if present using a plastic pry tool.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move selector to Neutral."
+        "RESTORE 12V POWER FIRST.",
+        "Connect jump pack — battery under hood. Once powered, select N on push-button selector.",
+        "WITHOUT POWER: NO cabin override. See MDX 3rd Gen ZF 9HP engine bay stub procedure.",
+        "FLATBED with dollies if power cannot be restored."
       ],
       "neutral": [
         "Apply parking brake.",
@@ -1021,7 +1039,7 @@
         "SH-AWD: FLATBED PREFERRED."
       ],
       "notes": "2021 MDX is the first year of the 4th Gen body but mechanically shares features with late 3rd Gen. Treat as 4th Gen.",
-      "warn": "AWD — flatbed preferred.",
+      "warn": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
       "towMethod": "FLATBED ONLY — SH-AWD cannot be disabled. Wheel-lift with dollies on free-rolling axle if no flatbed.",
       "tc": null,
       "towNotes": [

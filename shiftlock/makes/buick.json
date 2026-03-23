@@ -21,7 +21,7 @@
       "slot": "Small slot near console shifter base, covered by a plastic cap",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Small slot near console shifter base, covered by a plastic cap.",
+        "Locate the shift lock override slot — Small slot near console shifter base, covered by a plastic cap.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -35,7 +35,7 @@
         "If power cannot be restored, use the shift lock slot above — Small slot near console shifter base, covered by a plastic cap."
       ],
       "notes": "FWD and AWD variants.",
-      "warn": "AWD — flatbed preferred.",
+      "warn": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
       "drivetrain": "FWD or AWD",
       "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
@@ -61,24 +61,27 @@
       "yearStart": 2018,
       "yearEnd": 2026,
       "trans": "9-speed automatic (9T65)",
-      "slot": "Electronic selector — slot near base",
+      "slot": "NO external shift lock slot. Manual park release: remove the trim panel on the DRIVER'S SIDE of the center console (in the driver's footwell, using a flathead screwdriver). Pull the RED RELEASE strap/cable to disengage the park lock. Press brake while pulling. RESTORE 12V POWER FIRST whenever possible.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — slot near base.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — battery under hood.",
+        "Connect jump pack to battery under hood.",
+        "Once powered, press brake and select N on the electronic selector.",
+        "WITHOUT POWER — red release method:",
+        "Use a flathead screwdriver to remove the trim panel on the DRIVER'S SIDE of the center console in the driver's footwell.",
+        "Press the brake pedal firmly.",
+        "Pull the RED RELEASE strap/cable to mechanically disengage the park lock.",
+        "Vehicle will roll — ensure wheels are chocked first.",
+        "NOTE: There is NO accessible slot near the gear selector base on this model."
       ],
       "neutral": [
-        "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Apply parking brake. Chock wheels.",
+        "Battery under hood — connect jump pack.",
+        "Restore power, press brake, select N electronically.",
+        "No power: driver's footwell console trim removal + red release pull.",
+        "AWD: FLATBED PREFERRED."
       ],
       "notes": "AWD standard.",
-      "warn": "AWD — flatbed preferred.",
+      "warn": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
       "drivetrain": "FWD or AWD",
       "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
       "tc": null,
@@ -102,7 +105,7 @@
       "slot": "Small slot near console shifter base, covered by a plastic cap",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Small slot near console shifter base, covered by a plastic cap.",
+        "Locate the shift lock override slot — Small slot near console shifter base, covered by a plastic cap.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -137,21 +140,19 @@
       "yearStart": 2020,
       "yearEnd": 2026,
       "trans": "CVT or 9-speed automatic",
-      "slot": "Electronic selector — slot near base",
+      "slot": "NO manual shift lock release. Buick forums and owner's manual confirm: no cabin override exists on the Encore GX. RESTORE 12V POWER — battery under hood. Without power: FLATBED with wheel dollies only.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — slot near base.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — battery under hood.",
+        "Connect jump pack. Once powered, press brake and select N on electronic selector.",
+        "WITHOUT POWER: there is NO manual shift lock release on the Encore GX.",
+        "Buick owner forums confirm: tow truck must use wheel dollies or flatbed.",
+        "FLATBED with wheel dollies is the only field solution without power."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Battery under hood — connect jump pack.",
+        "Restore power, press brake, select N.",
+        "No power: FLATBED ONLY with wheel dollies."
       ],
       "notes": "AWD optional.",
       "warn": "",
@@ -176,21 +177,30 @@
       "yearStart": 2005,
       "yearEnd": 2019,
       "trans": "4-speed, 6-speed, or 8-speed automatic",
-      "slot": "Small slot near gear selector base, covered by a plastic cap",
+      "slot": "GEN 1 (2005-2009): small cap near gear selector base on floor console — pry off, insert flathead, press down. GEN 2 (2010-2016): column-style console shifter — override button hidden under the SILVER TRIM SURROUND around the shifter (may be covered with a small piece of tape). Remove trim surround, insert small screwdriver into the hole to press the button. GEN 3 (2017-2019): electronic shifter — RESTORE 12V POWER FIRST. Battery under hood.",
       "shift": [
-        "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Small slot near gear selector base, covered by a plastic cap.",
-        "Pry off the cap or cover if present using your ignition key or a small flathead.",
-        "Insert the key (or a thin flathead) into the slot and press firmly downward.",
-        "While holding the slot, press the brake pedal.",
-        "Move the selector from Park to Neutral.",
-        "Remove key from slot and replace cap."
+        "IDENTIFY GENERATION FIRST.",
+        "GEN 1 (2005-2009) — FLOOR CONSOLE CAP:",
+        "Turn ignition to ON. Locate small cap near selector base on floor console.",
+        "Pry off cap. Insert flathead, press firmly DOWNWARD. Press brake. Move to N.",
+        "GEN 2 (2010-2016) — COLUMN-STYLE CONSOLE SHIFTER:",
+        "Turn ignition to ON. Remove the silver trim surround around the shifter.",
+        "Locate the override button hole (may be covered with tape).",
+        "Insert a small screwdriver to press and hold the button.",
+        "Press brake. Move shifter to N.",
+        "GEN 3 (2017-2019) — ELECTRONIC SHIFTER:",
+        "RESTORE 12V POWER FIRST — battery under hood.",
+        "Once powered, press brake and move electronic selector to N.",
+        "Without power: no confirmed cabin override — FLATBED with dollies."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Small slot near gear selector base, covered by a plastic cap."
+        "Battery under hood — connect jump pack.",
+        "Gen 1: floor console cap, key to ON, press down, press brake, move to N.",
+        "Gen 2: silver trim removal + hidden override button.",
+        "Gen 3: restore power, electronic selector to N.",
+        "FWD: lift from front — front (drive) wheels in the air.",
+        "AWD (eAssist/eAWD): FLATBED PREFERRED."
       ],
       "notes": "eAssist mild hybrid available on some years: same procedure.",
       "warn": "",
@@ -214,21 +224,18 @@
       "yearStart": 2016,
       "yearEnd": 2026,
       "trans": "6-speed or 9-speed automatic",
-      "slot": "Slot near electronic selector base",
+      "slot": "NO accessible cabin shift lock override. Owner's manual does not describe a manual release. RESTORE 12V POWER FIRST — battery under hood. Without power: FLATBED with wheel dollies.",
       "shift": [
-        "Turn ignition to ON.",
-        "Locate the electronic selector override: Slot near electronic selector base.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
-        "Insert a thin key or flathead into the exposed slot.",
-        "Press firmly inward and hold.",
-        "While holding, press the brake pedal.",
-        "Press the N button or move the electronic selector to Neutral."
+        "RESTORE 12V POWER FIRST — battery under hood.",
+        "Connect jump pack. Once powered, press brake and select N.",
+        "WITHOUT POWER: owner's manual makes no mention of a manual release for the Envision.",
+        "FLATBED with wheel dollies is the field solution without power."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
-        "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Battery under hood — connect jump pack.",
+        "Restore power, press brake, select N.",
+        "No power: FLATBED with wheel dollies."
       ],
       "notes": "AWD available.",
       "warn": "",
@@ -253,12 +260,12 @@
       "yearEnd": 2005,
       "trans": "4-speed automatic (4T60-E or 4T65-E)",
       "drivetrain": "FWD",
-      "slot": "Small cap on the right side of the shift indicator on the console",
+      "slot": "Small plastic cap on the TOP LEFT of the shifter trim cover on the console — pry off, insert flathead, press DOWN to release shift lock.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Locate the small plastic cap on the TOP LEFT of the shifter trim cover on the console.",
         "Pry off cap with ignition key or small flathead screwdriver.",
-        "Insert key or thin flathead into the slot and press firmly downward.",
+        "Insert flathead into the slot and press firmly DOWNWARD.",
         "While holding the slot, press the brake pedal firmly.",
         "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
@@ -291,12 +298,12 @@
       "yearEnd": 2005,
       "trans": "4-speed automatic (4T65-E)",
       "drivetrain": "FWD",
-      "slot": "Small cap near gear selector base on console",
+      "slot": "Small plastic cap on the TOP LEFT of the shifter trim cover on the console — pry off, insert flathead, press DOWN to release shift lock. FWD.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Locate the small plastic cap on the TOP LEFT of the shifter trim cover on the console.",
         "Pry off cap with ignition key or small flathead screwdriver.",
-        "Insert key or thin flathead into the slot and press firmly downward.",
+        "Insert flathead into the slot and press firmly DOWNWARD.",
         "While holding the slot, press the brake pedal firmly.",
         "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
@@ -324,17 +331,17 @@
     },
     {
       "make": "Buick",
-      "model": "Century / Regal",
+      "model": "Century (1997-2005) / Regal (1997-2004)",
       "yearStart": 1997,
       "yearEnd": 2004,
       "trans": "4-speed automatic (4T65-E)",
       "drivetrain": "FWD",
-      "slot": "Small cap near gear selector base on console",
+      "slot": "Small plastic cap on the TOP LEFT of the shifter trim cover on the console — pry off, insert flathead, press DOWN. FWD. Century: all FWD. Regal GS: supercharged FWD — same procedure.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Locate the small plastic cap on the TOP LEFT of the shifter trim cover on the console.",
         "Pry off cap with ignition key or small flathead screwdriver.",
-        "Insert key or thin flathead into the slot and press firmly downward.",
+        "Insert flathead into the slot and press firmly DOWNWARD.",
         "While holding the slot, press the brake pedal firmly.",
         "Move the selector from Park to Neutral.",
         "Remove tool and replace cap."
@@ -406,7 +413,7 @@
       "yearEnd": 2007,
       "trans": "4-speed automatic (4L60-E) or 5-speed automatic (for I6)",
       "drivetrain": "RWD or AWD (part-time)",
-      "slot": "Floor shift — small cap near shifter base on console",
+      "slot": "Floor shift (2004-2007) — small cap near the SIDE of the shifter base on the center console. Pry off cap with ignition key or small flathead, insert into slot, press down.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
@@ -456,7 +463,7 @@
     },
     {
       "make": "Buick",
-      "model": "Verano",
+      "model": "Verano (2012-2017)",
       "yearStart": 2012,
       "yearEnd": 2017,
       "trans": "6-speed automatic or 6-speed manual",
@@ -499,7 +506,7 @@
       "yearEnd": 2017,
       "trans": "6-speed automatic or 6-speed manual",
       "drivetrain": "FWD or AWD (eAWD on select trims)",
-      "slot": "Small slot near gear selector base on center console",
+      "slot": "Small plastic cap near the gear selector base on the center console — pry off with key or flathead, insert into slot, press down to release.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
