@@ -21,7 +21,7 @@
       "slot": "Cap near selector base",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Cap near selector base.",
+        "Locate the shift lock override slot \u2014 Cap near selector base.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -30,14 +30,14 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Cap near selector base."
+        "If power cannot be restored, use the shift lock slot above \u2014 Cap near selector base."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
@@ -46,7 +46,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals. Hybrid/PHEV: 12V only.",
+        "jumpTerminals": "Under hood \u2014 standard terminals. Hybrid/PHEV: 12V only.",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -60,8 +60,8 @@
       "slot": "Cap near selector base",
       "shift": [
         "Turn ignition to ON.",
-        "This vehicle has a DCT dual-clutch transmission — it requires 12V power to shift reliably.",
-        "Locate the shift lock slot — Cap near selector base.",
+        "This vehicle has a DCT dual-clutch transmission \u2014 it requires 12V power to shift reliably.",
+        "Locate the shift lock slot \u2014 Cap near selector base.",
         "Insert a thin key or flathead into the slot.",
         "Press firmly and hold.",
         "Press the brake pedal while holding.",
@@ -69,24 +69,24 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "DCT REQUIRES POWER: Connect jump pack to battery — Under hood.",
+        "DCT REQUIRES POWER: Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to N normally.",
-        "If mechanical slot is used without power: DCT transmissions may resist — apply steady firm pressure and hold for several seconds."
+        "If mechanical slot is used without power: DCT transmissions may resist \u2014 apply steady firm pressure and hold for several seconds."
       ],
       "notes": "",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release \u2014 use flatbed if shift override fails."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals. Hybrid/PHEV: 12V only.",
+        "jumpTerminals": "Under hood \u2014 standard terminals. Hybrid/PHEV: 12V only.",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -97,11 +97,11 @@
       "yearStart": 2020,
       "yearEnd": 2026,
       "trans": "8-speed automatic",
-      "slot": "Electronic selector — slot near selector base",
+      "slot": "Electronic selector \u2014 slot near selector base",
       "shift": [
         "Turn ignition to ON.",
-        "Locate the electronic selector override: Electronic selector — slot near selector base.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
+        "Remove trim panel or cover if present \u2014 use a trim pry tool or your fingernail at the edge.",
         "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
         "While holding, press the brake pedal.",
@@ -109,14 +109,14 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Electronic selectors require power \u2014 mechanical override is a last resort only."
       ],
       "notes": "AWD optional. 3-row SUV.",
-      "warn": "AWD — flatbed preferred.",
+      "warn": "AWD \u2014 FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -124,7 +124,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -135,33 +135,33 @@
       "yearStart": 2022,
       "yearEnd": 2026,
       "trans": "Single-speed electric",
-      "slot": "Electronic selector — slot near selector base",
+      "slot": "Electronic selector \u2014 slot near selector base",
       "shift": [
         "Turn vehicle to ON/Ready mode.",
-        "Electronic gear selector — press and hold the N button while pressing the brake pedal.",
+        "Electronic gear selector \u2014 press and hold the N button while pressing the brake pedal.",
         "Confirm N on the instrument cluster.",
         "If power is lost: connect jump pack to 12V auxiliary battery under the hood.",
-        "12V AUXILIARY ONLY — NEVER touch HV battery."
+        "12V AUXILIARY ONLY \u2014 NEVER touch HV battery."
       ],
       "neutral": [
-        "FLATBED ONLY — electric drivetrain.",
+        "FLATBED ONLY \u2014 electric drivetrain.",
         "12V auxiliary under hood.",
-        "12V AUXILIARY ONLY — never touch HV battery.",
+        "12V AUXILIARY ONLY \u2014 never touch HV battery.",
         "Once powered, press N while pressing brake."
       ],
       "notes": "E-GMP platform shared with Hyundai Ioniq 5.",
-      "warn": "FLATBED ONLY.",
+      "warn": "FLATBED ONLY \u2014 electric drivetrain or permanent AWD. Never tow with driven wheels on the ground.",
       "drivetrain": "RWD or AWD (electric)",
-      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "towMethod": "FLATBED ONLY \u2014 electric drivetrain",
       "tc": null,
       "towNotes": [
-        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "ELECTRIC VEHICLE: FLATBED ONLY \u2014 never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
         "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
-        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+        "12V battery ONLY for jumping \u2014 NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
       ],
       "knownIssues": [
         {
-          "title": "800V System — Extreme HV Hazard",
+          "title": "800V System \u2014 Extreme HV Hazard",
           "detail": "The EV6 shares the 800V E-GMP platform with the Hyundai Ioniq 5. This is double the voltage of standard EVs. Never probe, access, or touch any orange HV cables or connectors. 12V auxiliary battery under hood only for all electrical operations."
         },
         {
@@ -171,9 +171,9 @@
       ],
       "battery": {
         "location": "Under hood (12V auxiliary)",
-        "jumpTerminals": "Under hood — 12V auxiliary terminals only",
+        "jumpTerminals": "Under hood \u2014 12V auxiliary terminals only",
         "type": "auxiliary-12v-only",
-        "warnings": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
+        "warnings": "FLATBED ONLY. 12V auxiliary only \u2014 never touch HV system."
       }
     },
     {
@@ -185,7 +185,7 @@
       "slot": "Cap near selector base",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: Cap near selector base.",
+        "Locate the shift lock override slot \u2014 Cap near selector base.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -194,14 +194,14 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — In trunk, under panel. Use an AGM-compatible jump pack — this vehicle has an AGM battery.",
+        "Connect jump pack to battery \u2014 In trunk, under panel. Use an AGM-compatible jump pack \u2014 this vehicle has an AGM battery.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Cap near selector base."
+        "If power cannot be restored, use the shift lock slot above \u2014 Cap near selector base."
       ],
       "notes": "RWD or AWD.",
-      "warn": "AWD — flatbed preferred.",
+      "warn": "AWD \u2014 FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear \u2014 rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
@@ -210,9 +210,9 @@
       "knownIssues": [],
       "battery": {
         "location": "In trunk, under panel",
-        "jumpTerminals": "Under hood: fused red (+) terminal, black ground bolt (−)",
+        "jumpTerminals": "Under hood: fused red (+) terminal, black ground bolt (\u2212)",
         "type": "agm-12v",
-        "warnings": "Use hood terminals — not trunk battery directly."
+        "warnings": "Use hood terminals \u2014 not trunk battery directly."
       }
     },
     {
@@ -224,8 +224,8 @@
       "slot": "Cap near selector base",
       "shift": [
         "Turn ignition to ON.",
-        "This vehicle has a DCT dual-clutch transmission — it requires 12V power to shift reliably.",
-        "Locate the shift lock slot — Cap near selector base.",
+        "This vehicle has a DCT dual-clutch transmission \u2014 it requires 12V power to shift reliably.",
+        "Locate the shift lock slot \u2014 Cap near selector base.",
         "Insert a thin key or flathead into the slot.",
         "Press firmly and hold.",
         "Press the brake pedal while holding.",
@@ -233,24 +233,24 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "DCT REQUIRES POWER: Connect jump pack to battery — Under hood.",
+        "DCT REQUIRES POWER: Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to N normally.",
-        "If mechanical slot is used without power: DCT transmissions may resist — apply steady firm pressure and hold for several seconds."
+        "If mechanical slot is used without power: DCT transmissions may resist \u2014 apply steady firm pressure and hold for several seconds."
       ],
       "notes": "",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release \u2014 use flatbed if shift override fails."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -265,7 +265,7 @@
       "slot": "Small cap near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Locate the shift lock override slot \u2014 Small cap near gear selector base on center console.",
         "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
         "While holding, press the brake pedal firmly.",
@@ -274,13 +274,13 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Once powered, shift to N.",
         "Manual: depress clutch. FWD: lift from front."
       ],
       "notes": "Manual: depress clutch, select Neutral.",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front."
@@ -288,7 +288,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -312,7 +312,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Once powered, shift to N.",
         "Manual: depress clutch. FWD: lift from front."
       ],
@@ -326,7 +326,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -341,6 +341,7 @@
       "slot": "Small slot near gear selector base on console; EV: N button on selector",
       "shift": [
         "Turn ignition to ON (do not start engine).",
+        "DUAL-CLUTCH TRANSMISSION: restoring 12V power first is STRONGLY PREFERRED \u2014 DCT/DSG/S-tronic cannot shift reliably without power.",
         "Locate the shift lock release: small cap near gear selector base on center console.",
         "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
@@ -350,9 +351,9 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Once powered, shift to N.",
-        "EV (Soul EV): FLATBED ONLY. 12V AUXILIARY ONLY — never touch HV battery.",
+        "EV (Soul EV): FLATBED ONLY. 12V AUXILIARY ONLY \u2014 never touch HV battery.",
         "Manual: depress clutch."
       ],
       "notes": "Soul EV (2015-2019): flatbed only. 12V auxiliary under hood only. Manual: depress clutch.",
@@ -361,14 +362,14 @@
       "tc": null,
       "towNotes": [
         "FWD gas: lift from front. CVT: flatbed preferred.",
-        "EV: FLATBED ONLY — electric drivetrain."
+        "EV: FLATBED ONLY \u2014 electric drivetrain."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
-        "warnings": "EV: 12V auxiliary only — never touch HV battery."
+        "warnings": "EV: 12V auxiliary only \u2014 never touch HV battery."
       }
     },
     {
@@ -381,31 +382,32 @@
       "slot": "Small slot near gear selector base; EV: N button on selector",
       "shift": [
         "Turn ignition to ON.",
+        "DUAL-CLUTCH TRANSMISSION: restoring 12V power first is STRONGLY PREFERRED \u2014 DCT/DSG/S-tronic cannot shift reliably without power.",
         "Shift lock slot near selector base on console. Pry cap. Insert key. Press firmly. Hold. Press brake. Move to N.",
         "EV variant: press and hold N button on electronic selector while pressing brake."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to 12V auxiliary — under hood.",
-        "12V AUXILIARY ONLY for all variants — NEVER touch HV battery.",
+        "Connect jump pack to 12V auxiliary \u2014 under hood.",
+        "12V AUXILIARY ONLY for all variants \u2014 NEVER touch HV battery.",
         "EV variant: FLATBED ONLY.",
         "Hybrid/PHEV: FWD, lift from front after getting into N."
       ],
       "notes": "Hybrid, PHEV, and EV variants. All FWD. EV: flatbed only.",
-      "warn": "EV: FLATBED ONLY. ALL variants: 12V auxiliary ONLY — never touch HV battery.",
+      "warn": "EV: FLATBED ONLY. ALL variants: 12V auxiliary ONLY \u2014 never touch HV battery.",
       "towMethod": "Hybrid/PHEV: lift from front (FWD). EV: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
         "Hybrid/PHEV FWD: lift from front.",
         "EV: FLATBED ONLY.",
-        "ALL variants: 12V auxiliary only — never access HV battery."
+        "ALL variants: 12V auxiliary only \u2014 never access HV battery."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "jumpTerminals": "Under hood \u2014 12V auxiliary terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "12V auxiliary only — never touch HV battery. EV: flatbed only."
+        "warnings": "12V auxiliary only \u2014 never touch HV battery. EV: flatbed only."
       }
     },
     {
@@ -427,13 +429,13 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Once powered, shift to N.",
         "FWD: lift from front."
       ],
       "notes": "Sedona (2002-2021), Carnival (2022+). All FWD.",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front."
@@ -441,7 +443,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -465,7 +467,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Once powered, shift to N.",
         "K900 AWD: flatbed preferred. Cadenza FWD: lift from front."
       ],
@@ -481,10 +483,11 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
     }
-  ]
+  ],
+  "make": "Kia"
 }

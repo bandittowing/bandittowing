@@ -29,7 +29,8 @@
         "TOWING: RWD \u2014 rear wheel-lift acceptable with trans in N. Manual TC not applicable (RWD only).",
         "Battery: under hood, driver side."
       ],
-      "notes": "300ZX Z32 (1990-1996). RWD coupe/convertible. Twin Turbo and NA. 5-speed manual or 4-speed auto. Manual override: plastic cap on PRNDL bezel above P. Last US sale 1996. High-value \u2014 use padded straps."
+      "notes": "300ZX Z32 (1990-1996). RWD coupe/convertible. Twin Turbo and NA. 5-speed manual or 4-speed auto. Manual override: plastic cap on PRNDL bezel above P. Last US sale 1996. High-value \u2014 use padded straps.",
+      "make": "Nissan"
     },
     {
       "model": "240SX S13 / S14",
@@ -48,7 +49,8 @@
         "TOWING: RWD \u2014 rear wheel-lift acceptable in N.",
         "Battery: under hood, driver side."
       ],
-      "notes": "240SX S13 (1990-1994) and S14 (1995-1998). RWD coupe/convertible. Popular drift platform. Manual override: cap on PRNDL bezel."
+      "notes": "240SX S13 (1990-1994) and S14 (1995-1998). RWD coupe/convertible. Popular drift platform. Manual override: cap on PRNDL bezel.",
+      "make": "Nissan"
     },
     {
       "model": "Maxima A32 (4th Gen)",
@@ -67,7 +69,8 @@
         "FWD: wheel-lift from rear acceptable with trans in N. Flatbed preferred for any distance.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Maxima A32 4th Gen (1995-1999). FWD sedan. 4-speed auto or 5-speed manual. Override cap on PRNDL bezel."
+      "notes": "Maxima A32 4th Gen (1995-1999). FWD sedan. 4-speed auto or 5-speed manual. Override cap on PRNDL bezel.",
+      "make": "Nissan"
     },
     {
       "model": "Maxima A33 (5th Gen)",
@@ -85,7 +88,8 @@
         "MANUAL TRANS: Clutch in, shift to N.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Maxima A33 5th Gen (2000-2003). FWD. 4-speed auto or 6-speed manual. Override cap on PRNDL bezel."
+      "notes": "Maxima A33 5th Gen (2000-2003). FWD. 4-speed auto or 6-speed manual. Override cap on PRNDL bezel.",
+      "make": "Nissan"
     },
     {
       "model": "Maxima A34 (6th Gen)",
@@ -103,7 +107,8 @@
         "CVT WARNING: FLATBED strongly preferred. CVT cannot be safely towed with driven wheels on ground beyond short distances.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Maxima A34 6th Gen (2004-2008). FWD. CVT or 6-speed manual. CVT: flatbed preferred. Override cap on PRNDL bezel."
+      "notes": "Maxima A34 6th Gen (2004-2008). FWD. CVT or 6-speed manual. CVT: flatbed preferred. Override cap on PRNDL bezel.",
+      "make": "Nissan"
     },
     {
       "model": "Maxima A35 / A36 (7th / 8th Gen)",
@@ -121,7 +126,8 @@
         "CVT WARNING: FLATBED strongly preferred. Do NOT exceed 35 mph or 50 miles with driven wheels on ground \u2014 CVT damage will occur.",
         "Battery: under hood, driver side. Jump directly."
       ],
-      "notes": "Maxima A35 (2009-2015) and A36 (2016-2023). FWD CVT only. Override: small cap on PRNDL bezel above gear letters. FLATBED preferred \u2014 CVT towing restriction. Maxima discontinued after 2023."
+      "notes": "Maxima A35 (2009-2015) and A36 (2016-2023). FWD CVT only. Override: small cap on PRNDL bezel above gear letters. FLATBED preferred \u2014 CVT towing restriction. Maxima discontinued after 2023.",
+      "make": "Nissan"
     },
     {
       "model": "Altima L30 / L31 (1st\u20133rd Gen)",
@@ -139,7 +145,8 @@
         "MANUAL TRANS: Clutch in, shift to N.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Altima L30/L31 1st-3rd Gen (1993-2001). FWD sedan/coupe. 4-speed auto or 5-speed manual. Override cap on PRNDL bezel."
+      "notes": "Altima L30/L31 1st-3rd Gen (1993-2001). FWD sedan/coupe. 4-speed auto or 5-speed manual. Override cap on PRNDL bezel.",
+      "make": "Nissan"
     },
     {
       "model": "Altima L32 (4th Gen)",
@@ -157,7 +164,8 @@
         "MANUAL TRANS: Clutch in, shift to N.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Altima L32 4th Gen (2002-2006). FWD sedan. 4-speed auto or 6-speed manual. Override cap on PRNDL bezel above gear letters."
+      "notes": "Altima L32 4th Gen (2002-2006). FWD sedan. 4-speed auto or 6-speed manual. Override cap on PRNDL bezel above gear letters.",
+      "make": "Nissan"
     },
     {
       "model": "Altima L33 (5th Gen)",
@@ -176,7 +184,8 @@
         "ALTIMA HYBRID: Jump 12V under hood only. NEVER touch orange HV cables under rear seat.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Altima L33 5th Gen (2007-2012). FWD CVT standard. Manual sedan 2007-2009 only \u2014 dropped for 2010 sedan. Coupe available 2008-2013 with manual. Hybrid 2007-2011 CVT only. Override cap on PRNDL bezel for physical lever models."
+      "notes": "Altima L33 5th Gen (2007-2012). FWD CVT standard. Manual sedan 2007-2009 only \u2014 dropped for 2010 sedan. Coupe available 2008-2013 with manual. Hybrid 2007-2011 CVT only. Override cap on PRNDL bezel for physical lever models.",
+      "make": "Nissan"
     },
     {
       "model": "Altima L34 (6th Gen)",
@@ -194,7 +203,8 @@
         "CVT WARNING: FLATBED strongly preferred.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Altima L34 6th Gen (2013-2018). FWD CVT ONLY \u2014 no manual transmission offered. 5th gen manual was dropped for sedan in 2010; L34 never had manual. Override cap on PRNDL bezel. CVT: flatbed preferred."
+      "notes": "Altima L34 6th Gen (2013-2018). FWD CVT ONLY \u2014 no manual transmission offered. 5th gen manual was dropped for sedan in 2010; L34 never had manual. Override cap on PRNDL bezel. CVT: flatbed preferred.",
+      "make": "Nissan"
     },
     {
       "model": "Altima L35 (7th Gen)",
@@ -214,7 +224,8 @@
         "CVT WARNING: FLATBED strongly preferred. Do not tow with driven wheels on ground.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Altima L35 7th Gen (2019-2026). FWD or AWD. CVT only. Electronic selector \u2014 NO mechanical override. Jump 12V to restore power, then shift electronically. AWD: flatbed preferred."
+      "notes": "Altima L35 7th Gen (2019-2026). FWD or AWD. CVT only. Electronic selector \u2014 NO mechanical override. Jump 12V to restore power, then shift electronically. AWD: flatbed preferred.",
+      "make": "Nissan"
     },
     {
       "model": "Sentra B13 / B14 (4th\u20135th Gen)",
@@ -232,7 +243,8 @@
         "MANUAL TRANS: Clutch in, shift to N.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Sentra B13 (1991-1994) and B14 (1995-1999). FWD. 3/4-speed auto or 5-speed manual. Override cap on PRNDL bezel."
+      "notes": "Sentra B13 (1991-1994) and B14 (1995-1999). FWD. 3/4-speed auto or 5-speed manual. Override cap on PRNDL bezel.",
+      "make": "Nissan"
     },
     {
       "model": "Sentra B15 (6th Gen)",
@@ -250,7 +262,8 @@
         "CVT WARNING: Flatbed strongly preferred.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Sentra B15 6th Gen (2000-2006). FWD. 4-speed auto, CVT, or 5/6-speed manual. Override cap on PRNDL bezel. CVT: flatbed preferred."
+      "notes": "Sentra B15 6th Gen (2000-2006). FWD. 4-speed auto, CVT, or 5/6-speed manual. Override cap on PRNDL bezel. CVT: flatbed preferred.",
+      "make": "Nissan"
     },
     {
       "model": "Sentra B16 / B17 (7th\u20138th Gen)",
@@ -268,7 +281,8 @@
         "CVT WARNING: Flatbed strongly preferred.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Sentra B16 (2007-2012) and B17 (2013-2019). FWD. CVT, 6-speed auto, or 6-speed manual. Override cap on PRNDL bezel. CVT: flatbed preferred."
+      "notes": "Sentra B16 (2007-2012) and B17 (2013-2019). FWD. CVT, 6-speed auto, or 6-speed manual. Override cap on PRNDL bezel. CVT: flatbed preferred.",
+      "make": "Nissan"
     },
     {
       "model": "Sentra B18 (9th Gen)",
@@ -287,7 +301,8 @@
         "CVT WARNING: Flatbed strongly preferred.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Sentra B18 9th Gen (2020-2026). FWD CVT. Electronic selector \u2014 jump 12V to restore, then shift. No mechanical override. CVT: flatbed preferred."
+      "notes": "Sentra B18 9th Gen (2020-2026). FWD CVT. Electronic selector \u2014 jump 12V to restore, then shift. No mechanical override. CVT: flatbed preferred.",
+      "make": "Nissan"
     },
     {
       "model": "Versa N16 / N17 / N18",
@@ -307,7 +322,8 @@
         "MANUAL TRANS: Clutch in, shift to N.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Versa N16 (2004-2006), N17 (2007-2019), N18 (2020-2026). FWD. CVT/auto or manual. Pre-2020: override cap on PRNDL bezel. 2020+: electronic selector, jump 12V. Versa Note = hatchback variant 2014-2019."
+      "notes": "Versa N16 (2004-2006), N17 (2007-2019), N18 (2020-2026). FWD. CVT/auto or manual. Pre-2020: override cap on PRNDL bezel. 2020+: electronic selector, jump 12V. Versa Note = hatchback variant 2014-2019.",
+      "make": "Nissan"
     },
     {
       "model": "Pathfinder WD21",
@@ -326,7 +342,8 @@
         "TRANSFER CASE: Move separate TC floor lever to 2H (two-wheel high) before towing. NEVER tow in 4H or 4L.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Pathfinder WD21 (1990-1995). Body-on-frame 4WD. Separate TC floor lever \u2014 must be in 2H before towing. Override cap on PRNDL bezel."
+      "notes": "Pathfinder WD21 (1990-1995). Body-on-frame 4WD. Separate TC floor lever \u2014 must be in 2H before towing. Override cap on PRNDL bezel.",
+      "make": "Nissan"
     },
     {
       "model": "Pathfinder R50",
@@ -345,7 +362,8 @@
         "TRANSFER CASE: Floor lever (manual) or dashboard knob (electronic). Move to 2H before wheel-lift towing.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Pathfinder R50 (1996-2004). Body-on-frame. Part-time 4WD. Override cap on PRNDL bezel. TC to 2H before towing."
+      "notes": "Pathfinder R50 (1996-2004). Body-on-frame. Part-time 4WD. Override cap on PRNDL bezel. TC to 2H before towing.",
+      "make": "Nissan"
     },
     {
       "model": "Pathfinder R51",
@@ -363,7 +381,8 @@
         "TRANSFER CASE: Electronic dash dial. Move to 2WD before towing. NOTE: TC requires 12V power to switch modes \u2014 if battery dead, TC may be stuck in last position. If stuck in 4WD full-time: flatbed.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Pathfinder R51 (2005-2012). Unibody. Electronic TC dial \u2014 needs 12V to switch. Override cap on PRNDL bezel. If TC stuck in 4WD and 12V dead: flatbed."
+      "notes": "Pathfinder R51 (2005-2012). Unibody. Electronic TC dial \u2014 needs 12V to switch. Override cap on PRNDL bezel. If TC stuck in 4WD and 12V dead: flatbed.",
+      "make": "Nissan"
     },
     {
       "model": "Pathfinder R52 / R53",
@@ -383,7 +402,8 @@
         "AWD: full-time electronic AWD coupling on both R52/R53. Flatbed strongly preferred.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Pathfinder R52 (2013-2021): CVT, physical lever, override cap on PRNDL bezel. R53 (2022+): 9-speed auto, electronic selector, jump 12V to restore power. AWD on both \u2014 flatbed preferred. 2022+ R53 has electronic parking brake also."
+      "notes": "Pathfinder R52 (2013-2021): CVT, physical lever, override cap on PRNDL bezel. R53 (2022+): 9-speed auto, electronic selector, jump 12V to restore power. AWD on both \u2014 flatbed preferred. 2022+ R53 has electronic parking brake also.",
+      "make": "Nissan"
     },
     {
       "model": "Murano Z50 (1st Gen)",
@@ -402,7 +422,8 @@
         "AWD: ATTESA on-demand rear coupling. Flatbed preferred for AWD models.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Murano Z50 1st Gen (2003-2007). FWD or AWD. CVT only. Override cap on PRNDL bezel. FLATBED preferred \u2014 CVT restriction."
+      "notes": "Murano Z50 1st Gen (2003-2007). FWD or AWD. CVT only. Override cap on PRNDL bezel. FLATBED preferred \u2014 CVT restriction.",
+      "make": "Nissan"
     },
     {
       "model": "Murano Z51 (2nd Gen)",
@@ -420,7 +441,8 @@
         "CVT WARNING: FLATBED strongly preferred.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Murano Z51 2nd Gen (2009-2014). FWD or AWD. CVT. CrossCabriolet convertible 2011-2014 \u2014 same procedure. Override cap on PRNDL bezel. FLATBED preferred."
+      "notes": "Murano Z51 2nd Gen (2009-2014). FWD or AWD. CVT. CrossCabriolet convertible 2011-2014 \u2014 same procedure. Override cap on PRNDL bezel. FLATBED preferred.",
+      "make": "Nissan"
     },
     {
       "model": "Murano Z52 (3rd Gen)",
@@ -439,7 +461,8 @@
         "AWD: on-demand rear. Flatbed preferred.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Murano Z52 3rd Gen (2015-2026). FWD or AWD. CVT. Override cap on PRNDL bezel (physical lever models). FLATBED preferred. Fully redesigned 2025 Murano \u2014 same jump procedure."
+      "notes": "Murano Z52 3rd Gen (2015-2026). FWD or AWD. CVT. Override cap on PRNDL bezel (physical lever models). FLATBED preferred. Fully redesigned 2025 Murano \u2014 same jump procedure.",
+      "make": "Nissan"
     },
     {
       "model": "Rogue S35 (1st Gen)",
@@ -457,7 +480,8 @@
         "CVT WARNING: FLATBED strongly preferred. Do not tow with driven wheels on ground.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Rogue S35 1st Gen (2008-2013). FWD or AWD. CVT. Override cap on PRNDL bezel. FLATBED preferred."
+      "notes": "Rogue S35 1st Gen (2008-2013). FWD or AWD. CVT. Override cap on PRNDL bezel. FLATBED preferred.",
+      "make": "Nissan"
     },
     {
       "model": "Rogue T32 (2nd Gen) / Rogue Select",
@@ -475,7 +499,8 @@
         "CVT WARNING: FLATBED strongly preferred.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Rogue T32 2nd Gen (2014-2020). FWD or AWD. CVT. Override cap on PRNDL bezel. FLATBED preferred."
+      "notes": "Rogue T32 2nd Gen (2014-2020). FWD or AWD. CVT. Override cap on PRNDL bezel. FLATBED preferred.",
+      "make": "Nissan"
     },
     {
       "model": "Rogue T33 (3rd Gen) / Rogue Sport J11",
@@ -495,7 +520,8 @@
         "AWD models: flatbed preferred.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Rogue T33 3rd Gen (2021-2026): electronic selector, no mechanical override \u2014 jump 12V. Rogue Sport J11 (2017-2022): physical lever, override cap on PRNDL bezel. Both CVT \u2014 FLATBED preferred. 2026 Rogue PHEV also available."
+      "notes": "Rogue T33 3rd Gen (2021-2026): electronic selector, no mechanical override \u2014 jump 12V. Rogue Sport J11 (2017-2022): physical lever, override cap on PRNDL bezel. Both CVT \u2014 FLATBED preferred. 2026 Rogue PHEV also available.",
+      "make": "Nissan"
     },
     {
       "model": "Kicks P15 / P15R",
@@ -514,7 +540,8 @@
         "CVT WARNING: FWD only \u2014 wheel-lift from rear acceptable short distance with trans in N. Flatbed strongly preferred.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Kicks P15 (2018-2021) and P15R facelift (2022-2026). FWD only. CVT. Early: override cap on PRNDL bezel. 2022+: electronic selector, jump 12V. FLATBED preferred."
+      "notes": "Kicks P15 (2018-2021) and P15R facelift (2022-2026). FWD only. CVT. Early: override cap on PRNDL bezel. 2022+: electronic selector, jump 12V. FLATBED preferred.",
+      "make": "Nissan"
     },
     {
       "model": "Juke F15",
@@ -533,7 +560,8 @@
         "CVT WARNING: Flatbed strongly preferred.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Juke F15 (2011-2017). FWD or AWD. CVT or manual. Override cap on PRNDL bezel. Discontinued in US after 2017. FLATBED preferred for CVT."
+      "notes": "Juke F15 (2011-2017). FWD or AWD. CVT or manual. Override cap on PRNDL bezel. Discontinued in US after 2017. FLATBED preferred for CVT.",
+      "make": "Nissan"
     },
     {
       "model": "Frontier D21 (1st Gen)",
@@ -552,7 +580,8 @@
         "TRANSFER CASE: Separate floor lever. Move to 2H before towing. NEVER tow in 4H or 4L.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Frontier D21 1st Gen as Nissan Frontier (1990-1997). Also sold as Nissan pickup/hardbody. RWD or part-time 4WD. Manual TC floor lever. Override may be minimal on very early years \u2014 jump battery preferred."
+      "notes": "Frontier D21 1st Gen as Nissan Frontier (1990-1997). Also sold as Nissan pickup/hardbody. RWD or part-time 4WD. Manual TC floor lever. Override may be minimal on very early years \u2014 jump battery preferred.",
+      "make": "Nissan"
     },
     {
       "model": "Frontier D22 (2nd Gen)",
@@ -571,7 +600,8 @@
         "TRANSFER CASE: Manual floor shift lever (not electronic). Per 2003 owner manual: 'Move the transfer case shift lever to 2H.' TC lever is between driver seat and console. Move to 2H before towing. NEVER tow in 4H or 4L. NOTE: Some D22 trims had electronic push-button 4WD available as an option \u2014 if no floor lever is present, TC uses electronic push-button switch requiring 12V power.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Frontier D22 2nd Gen (1998-2004). RWD or 4WD. Electronic TC buttons. Override cap on PRNDL bezel. TC needs 12V to change modes."
+      "notes": "Frontier D22 2nd Gen (1998-2004). RWD or 4WD. Electronic TC buttons. Override cap on PRNDL bezel. TC needs 12V to change modes.",
+      "make": "Nissan"
     },
     {
       "model": "Frontier D40 (3rd Gen)",
@@ -590,7 +620,8 @@
         "TRANSFER CASE: Electronic dash selector. 2WD mode available. Must have 12V to switch. If 12V dead and TC in 4WD: flatbed. If 2WD: rear wheel-lift acceptable in N.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Frontier D40 3rd Gen (2005-2021). RWD or 4WD. Override cap on PRNDL bezel. Electronic TC \u2014 needs 12V to switch. Very long production run \u2014 same basic procedure throughout."
+      "notes": "Frontier D40 3rd Gen (2005-2021). RWD or 4WD. Override cap on PRNDL bezel. Electronic TC \u2014 needs 12V to switch. Very long production run \u2014 same basic procedure throughout.",
+      "make": "Nissan"
     },
     {
       "model": "Frontier D41 (4th Gen)",
@@ -609,7 +640,8 @@
         "TRANSFER CASE: Electronic 2WD/4H/4Lo dash buttons. Requires 12V to change. If TC stuck in 4WD: flatbed. If 2WD: rear wheel-lift acceptable in N.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Frontier D41 4th Gen (2022-2026). Electronic selector \u2014 NO mechanical override. Jump 12V pack required. Electronic TC also needs 12V. If stuck in 4WD and 12V dead: FLATBED."
+      "notes": "Frontier D41 4th Gen (2022-2026). Electronic selector \u2014 NO mechanical override. Jump 12V pack required. Electronic TC also needs 12V. If stuck in 4WD and 12V dead: FLATBED.",
+      "make": "Nissan"
     },
     {
       "model": "Xterra WD22 (1st Gen)",
@@ -628,7 +660,8 @@
         "TRANSFER CASE: Electronic buttons or floor lever. Move to 2WD before towing.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Xterra WD22 1st Gen (2000-2004). Body-on-frame on Frontier D22 platform. Override cap on PRNDL bezel. TC to 2WD before towing."
+      "notes": "Xterra WD22 1st Gen (2000-2004). Body-on-frame on Frontier D22 platform. Override cap on PRNDL bezel. TC to 2WD before towing.",
+      "make": "Nissan"
     },
     {
       "model": "Xterra N50 (2nd Gen)",
@@ -647,7 +680,8 @@
         "TRANSFER CASE: Electronic dash selector. 2WD required for towing. Needs 12V to switch \u2014 if 12V dead and stuck in 4WD: flatbed.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Xterra N50 2nd Gen (2005-2015). Body-on-frame on D40 Frontier platform. Override cap on PRNDL bezel. Discontinued 2015. TC to 2WD before towing \u2014 needs 12V."
+      "notes": "Xterra N50 2nd Gen (2005-2015). Body-on-frame on D40 Frontier platform. Override cap on PRNDL bezel. Discontinued 2015. TC to 2WD before towing \u2014 needs 12V.",
+      "make": "Nissan"
     },
     {
       "model": "Titan / Titan XD A60 (1st Gen)",
@@ -665,7 +699,8 @@
         "TRANSFER CASE: Electronic 4WD buttons on dash. 2WD required for towing. Needs 12V to change \u2014 if TC stuck in 4WD and 12V dead: flatbed. If 2WD: rear wheel-lift acceptable in N.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Titan A60 1st Gen (2004-2015). Full-size pickup. 5-speed auto, floor shift. Override cap on PRNDL bezel at side of console. Electronic TC needs 12V \u2014 if stuck in 4WD: flatbed."
+      "notes": "Titan A60 1st Gen (2004-2015). Full-size pickup. 5-speed auto, floor shift. Override cap on PRNDL bezel at side of console. Electronic TC needs 12V \u2014 if stuck in 4WD: flatbed.",
+      "make": "Nissan"
     },
     {
       "model": "Titan / Titan XD A61 (2nd Gen)",
@@ -685,7 +720,8 @@
         "TRANSFER CASE: Electronic dash selector. 2WD required for towing. Needs 12V to switch.",
         "Battery: under hood, driver side (or both sides on Titan XD diesel \u2014 verify)."
       ],
-      "notes": "Titan A61 2nd Gen (2016-2026). 7-speed auto. Early: physical floor lever with PRNDL cap override. Later: electronic selector \u2014 jump 12V. Titan XD: may have dual batteries. Electronic TC needs 12V."
+      "notes": "Titan A61 2nd Gen (2016-2026). 7-speed auto. Early: physical floor lever with PRNDL cap override. Later: electronic selector \u2014 jump 12V. Titan XD: may have dual batteries. Electronic TC needs 12V.",
+      "make": "Nissan"
     },
     {
       "model": "Armada WA60 (1st Gen)",
@@ -703,7 +739,8 @@
         "TRANSFER CASE: Electronic dash buttons. 2WD required for towing. Needs 12V \u2014 if stuck in 4WD: flatbed.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Armada WA60 1st Gen (2004-2015). Full-size SUV on Titan A60 platform. Override cap on PRNDL bezel at side of console. Electronic TC needs 12V."
+      "notes": "Armada WA60 1st Gen (2004-2015). Full-size SUV on Titan A60 platform. Override cap on PRNDL bezel at side of console. Electronic TC needs 12V.",
+      "make": "Nissan"
     },
     {
       "model": "Armada Y62 (2nd Gen)",
@@ -721,7 +758,8 @@
         "TRANSFER CASE: Electronic 2WD/4H/4Lo dash selector. 2WD required for towing. Needs 12V to switch.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Armada Y62 2nd Gen (2017-2026). Full-size SUV on Patrol platform. Physical floor lever, override cap on PRNDL bezel. Electronic TC needs 12V. 3rd row seating."
+      "notes": "Armada Y62 2nd Gen (2017-2026). Full-size SUV on Patrol platform. Physical floor lever, override cap on PRNDL bezel. Electronic TC needs 12V. 3rd row seating.",
+      "make": "Nissan"
     },
     {
       "model": "Quest V42 (3rd Gen)",
@@ -739,7 +777,8 @@
         "FWD: rear wheel-lift acceptable with trans in N.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Quest V42 3rd Gen (1999-2002). FWD minivan. Column or floor shift depending on trim. Override cap on PRNDL bezel (floor) or key+brake (column)."
+      "notes": "Quest V42 3rd Gen (1999-2002). FWD minivan. Column or floor shift depending on trim. Override cap on PRNDL bezel (floor) or key+brake (column).",
+      "make": "Nissan"
     },
     {
       "model": "Quest V41 (4th Gen)",
@@ -757,7 +796,8 @@
         "CVT WARNING: Flatbed strongly preferred.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Quest V41 4th Gen (2004-2009). FWD minivan. CVT or 5-speed auto. Override cap on PRNDL bezel. CVT: flatbed preferred."
+      "notes": "Quest V41 4th Gen (2004-2009). FWD minivan. CVT or 5-speed auto. Override cap on PRNDL bezel. CVT: flatbed preferred.",
+      "make": "Nissan"
     },
     {
       "model": "Quest V40 (5th Gen)",
@@ -775,7 +815,8 @@
         "CVT WARNING: Flatbed strongly preferred. Quest discontinued after 2017.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Quest V40 5th Gen (2011-2017). FWD CVT minivan. Override cap on PRNDL bezel. Discontinued 2017. FLATBED preferred."
+      "notes": "Quest V40 5th Gen (2011-2017). FWD CVT minivan. Override cap on PRNDL bezel. Discontinued 2017. FLATBED preferred.",
+      "make": "Nissan"
     },
     {
       "model": "350Z Z33",
@@ -794,7 +835,8 @@
         "RWD: Rear wheel-lift acceptable with trans in N. High-value \u2014 padded equipment.",
         "Battery: under hood, driver side."
       ],
-      "notes": "350Z Z33 (2003-2009). RWD coupe/roadster. 6-speed manual or 5-speed auto. Override cap on PRNDL bezel. High-value \u2014 use padded straps and equipment."
+      "notes": "350Z Z33 (2003-2009). RWD coupe/roadster. 6-speed manual or 5-speed auto. Override cap on PRNDL bezel. High-value \u2014 use padded straps and equipment.",
+      "make": "Nissan"
     },
     {
       "model": "370Z Z34",
@@ -813,7 +855,8 @@
         "RWD: Rear wheel-lift acceptable in N. High-value \u2014 padded equipment.",
         "Battery: under hood, driver side."
       ],
-      "notes": "370Z Z34 (2009-2020). RWD coupe/roadster. 6-speed manual or 7-speed auto. Override cap on PRNDL bezel. High-value."
+      "notes": "370Z Z34 (2009-2020). RWD coupe/roadster. 6-speed manual or 7-speed auto. Override cap on PRNDL bezel. High-value.",
+      "make": "Nissan"
     },
     {
       "model": "Z RZ34 (7th Gen)",
@@ -832,7 +875,8 @@
         "RWD: Rear wheel-lift acceptable. High-value \u2014 use padded equipment only.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Nissan Z RZ34 7th Gen (2023-2026). RWD. 6-speed manual or 9-speed auto (ZF 9HP). Auto: electronic selector, jump 12V for manual override. High-value \u2014 padded straps."
+      "notes": "Nissan Z RZ34 7th Gen (2023-2026). RWD. 6-speed manual or 9-speed auto (ZF 9HP). Auto: electronic selector, jump 12V for manual override. High-value \u2014 padded straps.",
+      "make": "Nissan"
     },
     {
       "model": "GT-R R35",
@@ -852,7 +896,8 @@
         "HIGH-VALUE VEHICLE: Use padded flatbed straps ONLY. Never contact front splitter, rear diffuser, carbon body panels, or side skirts with metal hooks or chains.",
         "NOTE: GT-R discontinued in US after 2024 model year. Final US sale 2024."
       ],
-      "notes": "GT-R R35 (2009-2024). AWD \u2014 FLATBED ONLY. Battery in TRUNK under panel \u2014 NOT under hood. AGM battery \u2014 use AGM jump pack. Electronic DCT requires power. High-value \u2014 padded equipment only. Final US sale 2024."
+      "notes": "GT-R R35 (2009-2024). AWD \u2014 FLATBED ONLY. Battery in TRUNK under panel \u2014 NOT under hood. AGM battery \u2014 use AGM jump pack. Electronic DCT requires power. High-value \u2014 padded equipment only. Final US sale 2024.",
+      "make": "Nissan"
     },
     {
       "model": "Leaf ZE0 / AZE0 (1st / 2nd Gen)",
@@ -873,7 +918,8 @@
         "NEVER touch orange/yellow HV cables or HV battery enclosure.",
         "Battery (12V): under hood. Battery (HV): under floor \u2014 never touch."
       ],
-      "notes": "Leaf ZE0/AZE0 1st/2nd Gen (2011-2017). NO mechanical shift override \u2014 must jump 12V. Electric park actuator on reduction gear. Do NOT move at speed without 12V. FLATBED ONLY. Never touch orange HV cables."
+      "notes": "Leaf ZE0/AZE0 1st/2nd Gen (2011-2017). NO mechanical shift override \u2014 must jump 12V. Electric park actuator on reduction gear. Do NOT move at speed without 12V. FLATBED ONLY. Never touch orange HV cables.",
+      "make": "Nissan"
     },
     {
       "model": "Leaf ZE1 (3rd Gen / Plus)",
@@ -894,7 +940,8 @@
         "2026 LEAF REDESIGN: New SUV-style crossover platform. Same jump-first procedure applies.",
         "Battery (12V): under hood."
       ],
-      "notes": "Leaf ZE1 3rd Gen (2018-2026). NO mechanical shift override. Jump 12V first. FLATBED ONLY. Never touch orange HV cables. 2026 Leaf completely redesigned as crossover SUV \u2014 same basic 12V jump + electronic shift procedure."
+      "notes": "Leaf ZE1 3rd Gen (2018-2026). NO mechanical shift override. Jump 12V first. FLATBED ONLY. Never touch orange HV cables. 2026 Leaf completely redesigned as crossover SUV \u2014 same basic 12V jump + electronic shift procedure.",
+      "make": "Nissan"
     },
     {
       "model": "Ariya FE0",
@@ -914,7 +961,8 @@
         "NEVER touch orange/yellow HV cables or HV battery enclosure.",
         "Battery (12V): under hood, driver side."
       ],
-      "notes": "Ariya FE0 (2023-2026). All-electric crossover. Electronic selector \u2014 jump 12V to restore. FWD: rear wheel-lift possible but flatbed preferred. AWD e-4ORCE: FLATBED ONLY. Never touch orange HV cables."
+      "notes": "Ariya FE0 (2023-2026). All-electric crossover. Electronic selector \u2014 jump 12V to restore. FWD: rear wheel-lift possible but flatbed preferred. AWD e-4ORCE: FLATBED ONLY. Never touch orange HV cables.",
+      "make": "Nissan"
     }
   ]
 }

@@ -18,10 +18,10 @@
       "yearStart": 2001,
       "yearEnd": 2003,
       "trans": "5-speed automatic (6-speed manual on 2003 Type-S)",
-      "slot": "Small round cap on top-left corner of shifter console — pry off to access slot",
+      "slot": "Small round cap on top-left corner of shifter console \u2014 pry off to access slot",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Small round cap on top-left corner of shifter console — pry off to access slot.",
+        "Locate the shift lock override slot \u2014 Small round cap on top-left corner of shifter console \u2014 pry off to access slot.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
         "Move the selector from Park to Neutral.",
@@ -29,23 +29,23 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood, driver side.",
+        "Connect jump pack to battery \u2014 Under hood, driver side.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Small round cap on top-left corner of shifter console — pry off to access slot."
+        "If power cannot be restored, use the shift lock slot above \u2014 Small round cap on top-left corner of shifter console \u2014 pry off to access slot."
       ],
-      "notes": "Key interlock recall Service Bulletin 05-009 affects some units — verify recall was completed.",
+      "notes": "Key interlock recall Service Bulletin 05-009 affects some units \u2014 verify recall was completed.",
       "warn": "Always apply parking brake and chock wheels before releasing Park on any incline.",
       "drivetrain": "FWD",
-      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Lift from front \u2014 front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard red (+) / black (−)",
+        "jumpTerminals": "Under hood \u2014 standard red (+) / black (\u2212)",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -56,36 +56,36 @@
       "yearStart": 2013,
       "yearEnd": 2022,
       "trans": "5-speed auto (2013-2015 base), 8-speed DCT (2016-2022)",
-      "slot": "Small slot near the gear selector base on the console — pry off plastic cap, insert key. DCT: RESTORE 12V POWER FIRST for reliable operation — DCT cannot shift without power.",
+      "slot": "Small slot near the gear selector base on the console \u2014 pry off plastic cap, insert key. DCT: RESTORE 12V POWER FIRST for reliable operation \u2014 DCT cannot shift without power.",
       "shift": [
-        "RESTORE 12V POWER FIRST — DCT requires 12V power to shift reliably.",
-        "Connect jump pack — battery under hood.",
+        "RESTORE 12V POWER FIRST \u2014 DCT requires 12V power to shift reliably.",
+        "Connect jump pack \u2014 battery under hood.",
         "Once powered, press brake and select N.",
-        "WITHOUT POWER — shift lock slot (mechanical override only):",
+        "WITHOUT POWER \u2014 shift lock slot (mechanical override only):",
         "Locate the small plastic cap near the gear selector base on the console.",
         "Pry off the cap with the ignition key or small flathead.",
         "Insert key into the slot and press firmly. Press brake. Move selector to N.",
-        "NOTE: Even with mechanical override, DCT clutch packs will not disengage without power — this may not work reliably."
+        "NOTE: Even with mechanical override, DCT clutch packs will not disengage without power \u2014 this may not work reliably."
       ],
       "neutral": [
         "Apply parking brake.",
-        "DCT REQUIRES POWER: Connect jump pack to battery — Under hood.",
+        "DCT REQUIRES POWER: Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to N normally.",
-        "If mechanical slot is used without power: DCT transmissions may resist — apply steady firm pressure and hold for several seconds."
+        "If mechanical slot is used without power: DCT transmissions may resist \u2014 apply steady firm pressure and hold for several seconds."
       ],
       "notes": "8-speed DCT: power strongly preferred. Flatbed tow only for DCT variants.",
       "warn": "8-speed DCT: FLATBED ONLY. Do not tow with wheels on ground.",
       "drivetrain": "FWD",
-      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Lift from front \u2014 front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release \u2014 use flatbed if shift override fails."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard red (+) / black (−)",
+        "jumpTerminals": "Under hood \u2014 standard red (+) / black (\u2212)",
         "type": "standard-12v",
         "warnings": "8-speed DCT: restore power before shifting"
       }
@@ -99,7 +99,7 @@
       "slot": "Small slot near the gear selector base, covered by a plastic cap",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Small slot near the gear selector base, covered by a plastic cap.",
+        "Locate the shift lock override slot \u2014 Small slot near the gear selector base, covered by a plastic cap.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -108,14 +108,14 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Small slot near the gear selector base, covered by a plastic cap."
+        "If power cannot be restored, use the shift lock slot above \u2014 Small slot near the gear selector base, covered by a plastic cap."
       ],
       "notes": "Brake lights must be functioning for the normal shift interlock to work. If brake lights are out, use the manual slot.",
       "warn": "",
       "drivetrain": "AWD (VTM-4, standard)",
-      "towMethod": "FLATBED ONLY — AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
@@ -123,7 +123,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -134,10 +134,10 @@
       "yearStart": 2007,
       "yearEnd": 2013,
       "trans": "6-speed automatic",
-      "slot": "Slot on front-right side of shifter base — snap-off plastic cover",
+      "slot": "Slot on front-right side of shifter base \u2014 snap-off plastic cover",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Slot on front-right side of shifter base — snap-off plastic cover.",
+        "Locate the shift lock override slot \u2014 Slot on front-right side of shifter base \u2014 snap-off plastic cover.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -146,14 +146,14 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Slot on front-right side of shifter base — snap-off plastic cover."
+        "If power cannot be restored, use the shift lock slot above \u2014 Slot on front-right side of shifter base \u2014 snap-off plastic cover."
       ],
       "notes": "",
       "warn": "",
       "drivetrain": "AWD (VTM-4, standard)",
-      "towMethod": "FLATBED ONLY — AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
@@ -161,7 +161,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -172,31 +172,31 @@
       "yearStart": 2014,
       "yearEnd": 2020,
       "trans": "9-speed automatic (ZF 9HP)",
-      "slot": "2014-2015 (6-speed Honda AT): small cap near selector lever on console — pry off, insert key, press down. 2016-2020 (ZF 9HP push-button): NO CABIN OVERRIDE. Transmission stub on TOP of the ZF 9HP — rotate with small crescent wrench to disengage parking pawl.",
+      "slot": "2014-2015 (6-speed Honda AT): small cap near selector lever on console \u2014 pry off, insert key, press down. 2016-2020 (ZF 9HP push-button): NO CABIN OVERRIDE. Transmission stub on TOP of the ZF 9HP \u2014 rotate with small crescent wrench to disengage parking pawl.",
       "shift": [
-        "RESTORE 12V POWER FIRST — preferred for all variants.",
+        "RESTORE 12V POWER FIRST \u2014 preferred for all variants.",
         "Connect jump pack to battery under hood. Once powered, press brake and select N on push-button selector.",
         "2014-2015 (6-speed Honda AT) WITHOUT POWER:",
         "Locate the small plastic cap near the gear selector lever on the console. Pry off with key or flathead.",
         "Insert key or flathead into the slot and press firmly downward. Hold. Press brake. Move selector to N.",
-        "2016-2020 (ZF 9HP push-button) WITHOUT POWER — ENGINE BAY PROCEDURE:",
+        "2016-2020 (ZF 9HP push-button) WITHOUT POWER \u2014 ENGINE BAY PROCEDURE:",
         "Remove the engine covers (plastic trim panels on top of engine).",
         "Locate the stub/shaft with two flat faces on the TOP of the ZF 9HP transmission.",
         "Grip the stub with a small crescent wrench and rotate CLOCKWISE to disengage the parking pawl.",
-        "Someone must ride the vehicle to hold it in place while it is moved — it will re-engage when released.",
+        "Someone must ride the vehicle to hold it in place while it is moved \u2014 it will re-engage when released.",
         "FLATBED with dollies is the safer practical option if power cannot be restored."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — battery under hood.",
+        "Connect jump pack \u2014 battery under hood.",
         "Once powered, press brake and select N on electronic selector.",
-        "ZF 9HP (2016-2020) WITHOUT POWER: engine bay procedure required — see shift steps. No cabin override.",
+        "ZF 9HP (2016-2020) WITHOUT POWER: engine bay procedure required \u2014 see shift steps. No cabin override.",
         "SH-AWD: FLATBED PREFERRED."
       ],
-      "notes": "CRITICAL: The slot is at the FRONT of the console near the dashboard, NOT at the shifter base — this is a very common mistake. Always carry a jump pack with ZF 9HP-equipped vehicles.",
+      "notes": "CRITICAL: The slot is at the FRONT of the console near the dashboard, NOT at the shifter base \u2014 this is a very common mistake. Always carry a jump pack with ZF 9HP-equipped vehicles.",
       "warn": "ZF 9HP: jump pack strongly recommended. Forcing shift without power risks transmission damage.",
       "drivetrain": "AWD (SH-AWD, standard)",
-      "towMethod": "FLATBED ONLY — SH-AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 SH-AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
@@ -208,12 +208,12 @@
         },
         {
           "title": "Shift Lock Slot Location Misidentified",
-          "detail": "The shift lock slot is at the FRONT lip of the center console near the dashboard — NOT near the shift handle base. Technicians and operators regularly probe the wrong location. Look at where the console meets the dash."
+          "detail": "The shift lock slot is at the FRONT lip of the center console near the dashboard \u2014 NOT near the shift handle base. Technicians and operators regularly probe the wrong location. Look at where the console meets the dash."
         }
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "agm-12v",
         "warnings": "ZF 9HP: must restore power before TC shift. Use jump pack rated for AGM batteries."
       }
@@ -226,7 +226,7 @@
       "trans": "10-speed automatic",
       "slot": "NO CABIN OVERRIDE. 4th-gen MDX has no shift lock release accessible from inside. Restore 12V power to shift normally. Dead battery with no way to jump: FLATBED with dollies only.",
       "shift": [
-        "RESTORE 12V POWER FIRST — this is the only practical option.",
+        "RESTORE 12V POWER FIRST \u2014 this is the only practical option.",
         "Connect jump pack to battery under hood.",
         "Once powered, press brake and select N on push-button selector.",
         "WITHOUT POWER: there is NO cabin shift override on the 4th-gen MDX.",
@@ -235,28 +235,28 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — battery under hood.",
+        "Connect jump pack \u2014 battery under hood.",
         "Once powered, press brake and select N.",
         "If power cannot be restored: FLATBED ONLY with wheel dollies.",
         "No cabin override exists on this generation."
       ],
-      "notes": "Electronic selector design. Slot location may vary by trim — consult owner's manual.",
+      "notes": "Electronic selector design. Slot location may vary by trim \u2014 consult owner's manual.",
       "warn": "",
       "drivetrain": "AWD (SH-AWD, standard)",
-      "towMethod": "FLATBED ONLY — SH-AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 SH-AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
       ],
       "knownIssues": [
         {
-          "title": "No Cabin Neutral Override — Flatbed Required if Power Lost",
+          "title": "No Cabin Neutral Override \u2014 Flatbed Required if Power Lost",
           "detail": "The 4th-generation MDX (2022+) has no shift lock release accessible from the cabin. If the battery is completely dead and cannot be jumped, the vehicle cannot be shifted to neutral. Flatbed with wheel dollies is the only safe field solution."
         }
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "agm-12v",
         "warnings": ""
       }
@@ -270,7 +270,7 @@
       "slot": "Small slot near the gear selector base, covered by a plastic cap",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Small slot near the gear selector base, covered by a plastic cap.",
+        "Locate the shift lock override slot \u2014 Small slot near the gear selector base, covered by a plastic cap.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -279,14 +279,14 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Small slot near the gear selector base, covered by a plastic cap."
+        "If power cannot be restored, use the shift lock slot above \u2014 Small slot near the gear selector base, covered by a plastic cap."
       ],
       "notes": "2007-2009: AWD (SH-AWD) standard on all models. 2010-2012: FWD option added.",
       "warn": "AWD models (all 2007-2009, optional 2010-2012): flatbed preferred.",
       "drivetrain": "AWD standard (2007-2009); FWD or AWD (2010-2012)",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -294,7 +294,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -308,7 +308,7 @@
       "slot": "Slot on side of gear selector base near console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Slot on side of gear selector base near console.",
+        "Locate the shift lock override slot \u2014 Slot on side of gear selector base near console.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -317,14 +317,14 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Slot on side of gear selector base near console."
+        "If power cannot be restored, use the shift lock slot above \u2014 Slot on side of gear selector base near console."
       ],
       "notes": "AWD available.",
-      "warn": "AWD — use flatbed tow truck preferred.",
+      "warn": "AWD \u2014 use flatbed tow truck preferred.",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -332,7 +332,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -345,7 +345,7 @@
       "trans": "10-speed automatic",
       "slot": "NO CABIN OVERRIDE on 3rd-gen RDX (2019+). The shift lock cover exists but does nothing without power on this transmission. Park lock release is on the transmission, accessed from the engine bay.",
       "shift": [
-        "RESTORE 12V POWER FIRST — the only practical option.",
+        "RESTORE 12V POWER FIRST \u2014 the only practical option.",
         "Connect jump pack to battery under hood.",
         "Once powered, press brake and select N on push-button selector.",
         "WITHOUT POWER: NO effective cabin override on the 3rd-gen RDX.",
@@ -356,29 +356,29 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — battery under hood.",
+        "Connect jump pack \u2014 battery under hood.",
         "Once powered, select N on push-button selector.",
         "If power cannot be restored: transmission stub in engine bay (requires removing air filter housing).",
         "FLATBED with wheel dollies is the safest field solution.",
         "AWD: FLATBED PREFERRED."
       ],
-      "notes": "3rd gen uses electronic push-button shifter — no physical lever. N button must be activated electronically.",
+      "notes": "3rd gen uses electronic push-button shifter \u2014 no physical lever. N button must be activated electronically.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [
         {
-          "title": "No Effective Cabin Override — Engine Bay Transmission Access Required",
+          "title": "No Effective Cabin Override \u2014 Engine Bay Transmission Access Required",
           "detail": "The 3rd-gen RDX (2019+) has a shift lock cover on the console but it does nothing without 12V power. The actual park lock release requires accessing the transmission from the engine bay after removing the air filter housing. Always restore 12V power first. Flatbed with dollies if power cannot be restored."
         }
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -392,7 +392,7 @@
       "slot": "Small slot near gear selector base, covered by a cap",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Small slot near gear selector base, covered by a cap.",
+        "Locate the shift lock override slot \u2014 Small slot near gear selector base, covered by a cap.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -401,14 +401,14 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Small slot near gear selector base, covered by a cap."
+        "If power cannot be restored, use the shift lock slot above \u2014 Small slot near gear selector base, covered by a cap."
       ],
       "notes": "SH-AWD: flatbed preferred.",
-      "warn": "SH-AWD — flatbed preferred.",
+      "warn": "SH-AWD \u2014 flatbed preferred.",
       "drivetrain": "AWD (SH-AWD, standard)",
-      "towMethod": "FLATBED ONLY — SH-AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 SH-AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
@@ -416,7 +416,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -430,7 +430,7 @@
       "slot": "Small slot near gear selector base, covered by a cap",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Small slot near gear selector base, covered by a cap.",
+        "Locate the shift lock override slot \u2014 Small slot near gear selector base, covered by a cap.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -439,14 +439,14 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Small slot near gear selector base, covered by a cap."
+        "If power cannot be restored, use the shift lock slot above \u2014 Small slot near gear selector base, covered by a cap."
       ],
       "notes": "SH-AWD: flatbed preferred.",
-      "warn": "SH-AWD — flatbed preferred.",
+      "warn": "SH-AWD \u2014 flatbed preferred.",
       "drivetrain": "FWD or AWD (SH-AWD)",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -454,7 +454,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -468,7 +468,7 @@
       "slot": "Small round cap on upper-left of shifter base",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Small round cap on upper-left of shifter base.",
+        "Locate the shift lock override slot \u2014 Small round cap on upper-left of shifter base.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -477,23 +477,23 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Small round cap on upper-left of shifter base."
+        "If power cannot be restored, use the shift lock slot above \u2014 Small round cap on upper-left of shifter base."
       ],
-      "notes": "Manual transmission: no shift lock — depress clutch, select N. Key interlock recall SB 05-009.",
+      "notes": "Manual transmission: no shift lock \u2014 depress clutch, select N. Key interlock recall SB 05-009.",
       "warn": "",
       "drivetrain": "FWD",
-      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Lift from front \u2014 front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -507,7 +507,7 @@
       "slot": "Slot on right side of shifter base, snap-off plastic cover",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Slot on right side of shifter base, snap-off plastic cover.",
+        "Locate the shift lock override slot \u2014 Slot on right side of shifter base, snap-off plastic cover.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -516,23 +516,23 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Slot on right side of shifter base, snap-off plastic cover."
+        "If power cannot be restored, use the shift lock slot above \u2014 Slot on right side of shifter base, snap-off plastic cover."
       ],
       "notes": "SH-AWD available with 5-speed auto (2009-2011), 6-speed auto (2012-2014), or 6-speed manual (2010-2014). SH-AWD: flatbed only.",
       "warn": "SH-AWD models: FLATBED ONLY.",
       "drivetrain": "FWD or AWD (SH-AWD)",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. SH-AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. SH-AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -543,15 +543,15 @@
       "yearStart": 2015,
       "yearEnd": 2020,
       "trans": "8-speed DCT (2015-17) or 9-speed auto (2018-20)",
-      "slot": "8-speed DCT (2015-2018): small cap on console near selector — pry off, insert key. 9-speed AT V6 (2015-2020): cabin cap is present but DOES NOTHING without power. 9-speed: transmission stub on top of transmission — small shaft with two flat faces, rotate with crescent wrench.",
+      "slot": "8-speed DCT (2015-2018): small cap on console near selector \u2014 pry off, insert key. 9-speed AT V6 (2015-2020): cabin cap is present but DOES NOTHING without power. 9-speed: transmission stub on top of transmission \u2014 small shaft with two flat faces, rotate with crescent wrench.",
       "shift": [
-        "RESTORE 12V POWER FIRST — strongly preferred for all TLX variants.",
+        "RESTORE 12V POWER FIRST \u2014 strongly preferred for all TLX variants.",
         "Connect jump pack to battery under hood.",
         "Once powered, press brake and select N normally.",
         "8-speed DCT (2015-2018) WITHOUT POWER:",
         "Locate the small cap on the console near the selector. Pry off with key or flathead.",
         "Insert key into slot and press firmly. Press brake. Move selector to N.",
-        "9-speed AT V6 (2015-2020) WITHOUT POWER — ENGINE BAY PROCEDURE:",
+        "9-speed AT V6 (2015-2020) WITHOUT POWER \u2014 ENGINE BAY PROCEDURE:",
         "The cabin cap does nothing on the 9-speed. Remove engine covers to access transmission top.",
         "Locate the small stub/shaft with two flat faces on the ZF 9HP.",
         "Rotate COUNTERCLOCKWISE about 15 degrees with a small crescent wrench to disengage parking pawl.",
@@ -559,20 +559,20 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — battery under hood.",
+        "Connect jump pack \u2014 battery under hood.",
         "Once powered, press brake and select N.",
-        "9-speed V6: if power cannot be restored — transmission stub in engine bay.",
+        "9-speed V6: if power cannot be restored \u2014 transmission stub in engine bay.",
         "8-speed DCT: cabin cap works without power. 9-speed: cabin cap does NOT work.",
         "FWD/AWD: flatbed preferred."
       ],
       "notes": "Power method preferred for 8-speed DCT. 9-speed (2018+): slot method works reliably.",
       "warn": "8-speed DCT: FLATBED ONLY. Do not tow with all four wheels on ground.",
       "drivetrain": "FWD or AWD (SH-AWD)",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. SH-AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. SH-AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails."
+        "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release \u2014 use flatbed if shift override fails."
       ],
       "knownIssues": [
         {
@@ -582,7 +582,7 @@
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": "8-speed DCT models: restore power before attempting shift"
       }
@@ -595,7 +595,7 @@
       "trans": "10-speed automatic",
       "slot": "NO CABIN OVERRIDE. 2nd-gen TLX (2021+) has no accessible shift lock release in the cabin. Restore 12V power to shift normally.",
       "shift": [
-        "RESTORE 12V POWER FIRST — only practical option.",
+        "RESTORE 12V POWER FIRST \u2014 only practical option.",
         "Connect jump pack to battery under hood.",
         "Once powered, press brake and select N on push-button selector.",
         "WITHOUT POWER: NO cabin override on 2nd-gen TLX.",
@@ -603,14 +603,14 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — battery under hood.",
+        "Connect jump pack \u2014 battery under hood.",
         "Once powered, select N on push-button selector.",
         "If power cannot be restored: FLATBED ONLY with wheel dollies."
       ],
       "notes": "",
-      "warn": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+      "warn": "AWD \u2014 FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
       "drivetrain": "FWD or AWD (SH-AWD)",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -618,7 +618,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "agm-12v",
         "warnings": ""
       }
@@ -632,7 +632,7 @@
       "slot": "Slot on right side of shifter base, snap-off cover",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Slot on right side of shifter base, snap-off cover.",
+        "Locate the shift lock override slot \u2014 Slot on right side of shifter base, snap-off cover.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -641,23 +641,23 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Slot on right side of shifter base, snap-off cover."
+        "If power cannot be restored, use the shift lock slot above \u2014 Slot on right side of shifter base, snap-off cover."
       ],
-      "notes": "Manual: no shift lock — depress clutch. Sport Wagon: same procedure.",
+      "notes": "Manual: no shift lock \u2014 depress clutch. Sport Wagon: same procedure.",
       "warn": "",
       "drivetrain": "FWD",
-      "towMethod": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "Lift from front \u2014 front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
-        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock \u2014 depress clutch and select Neutral. No override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -671,7 +671,7 @@
       "slot": "Small slot near gear selector base, covered by a cap",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Small slot near gear selector base, covered by a cap.",
+        "Locate the shift lock override slot \u2014 Small slot near gear selector base, covered by a cap.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -680,14 +680,14 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "If power cannot be restored, use the shift lock slot above — Small slot near gear selector base, covered by a cap."
+        "If power cannot be restored, use the shift lock slot above \u2014 Small slot near gear selector base, covered by a cap."
       ],
       "notes": "SH-AWD standard on all ZDX.",
-      "warn": "Full-time AWD — FLATBED ONLY. Cannot disengage AWD. If no flatbed, dollies required on free-rolling axle.",
+      "warn": "Full-time AWD \u2014 FLATBED ONLY. Cannot disengage AWD. If no flatbed, dollies required on free-rolling axle.",
       "drivetrain": "AWD (SH-AWD, standard)",
-      "towMethod": "FLATBED ONLY — SH-AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 SH-AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
@@ -695,7 +695,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -710,26 +710,26 @@
       "slot": "Small cap near gear selector base on center console",
       "shift": [
         "Turn ignition to ON.",
-        "AUTOMATIC: Locate shift lock slot — small cap near selector base on center console.",
+        "AUTOMATIC: Locate shift lock slot \u2014 small cap near selector base on center console.",
         "Pry off cap. Insert key and press firmly.",
         "While holding, press brake. Move selector to Neutral.",
         "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood, driver side.",
+        "Connect jump pack to battery \u2014 under the hood, driver side.",
         "Once 12V power is restored, press brake and shift to Neutral normally."
       ],
       "notes": "Manual trans: depress clutch, select Neutral.",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front."
       ],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       },
@@ -745,26 +745,26 @@
       "slot": "Small cap near selector base on center console",
       "shift": [
         "Turn ignition to ON.",
-        "AUTOMATIC: Locate shift lock slot — small cap near selector base on center console.",
+        "AUTOMATIC: Locate shift lock slot \u2014 small cap near selector base on center console.",
         "Pry off cap. Insert key and press firmly.",
         "While holding, press brake. Move selector to Neutral.",
         "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally."
       ],
       "notes": "Manual trans: depress clutch, select Neutral.",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front."
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       },
@@ -779,8 +779,8 @@
       "drivetrain": "FWD",
       "slot": "Small cap near selector base on center console",
       "shift": [
-        "Turn ignition to ON (key to Run position — do not start).",
-        "Locate the shift lock override slot — Small cap near selector base on center console.",
+        "Turn ignition to ON (key to Run position \u2014 do not start).",
+        "Locate the shift lock override slot \u2014 Small cap near selector base on center console.",
         "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -789,19 +789,19 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally."
       ],
       "notes": "",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front."
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       },
@@ -820,33 +820,33 @@
         "AUTOMATIC: locate cap near selector base. Pry off. Insert key and press firmly.",
         "While holding, press brake. Move to Neutral.",
         "MANUAL: depress clutch and move gear lever to Neutral.",
-        "Mid-engine vehicle — battery is in the FRONT trunk (frunk), not at rear engine."
+        "Mid-engine vehicle \u2014 battery is in the FRONT trunk (frunk), not at rear engine."
       ],
       "neutral": [
         "Apply parking brake.",
-        "BATTERY IS IN THE FRONT TRUNK (frunk) — NSX is mid-engine, battery is NOT at the rear.",
+        "BATTERY IS IN THE FRONT TRUNK (frunk) \u2014 NSX is mid-engine, battery is NOT at the rear.",
         "Open the front hood to access battery. Connect jump pack.",
         "Once powered, shift normally.",
-        "RWD: lift from rear — rear (drive) wheels in the air.",
-        "Very low clearance and high value — use flatbed with wheel grids only."
+        "RWD: lift from rear \u2014 rear (drive) wheels in the air.",
+        "Very low clearance and high value \u2014 use flatbed with wheel grids only."
       ],
       "notes": "Mid-engine. Battery in frunk (front storage). High-value vehicle.",
-      "warn": "Battery in FRUNK — not at rear engine. Very high value — use padded equipment only.",
-      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Flatbed strongly preferred.",
+      "warn": "Battery in FRUNK \u2014 not at rear engine. Very high value \u2014 use padded equipment only.",
+      "towMethod": "RWD: lift from rear \u2014 rear (drive) wheels in the air. Flatbed strongly preferred.",
       "tc": null,
       "towNotes": [
-        "Battery in frunk. RWD: lift from rear. Very high value — flatbed preferred."
+        "Battery in frunk. RWD: lift from rear. Very high value \u2014 flatbed preferred."
       ],
       "battery": {
-        "location": "FRUNK (front storage compartment) — NOT at the rear engine",
-        "jumpTerminals": "Frunk — standard battery terminals",
+        "location": "FRUNK (front storage compartment) \u2014 NOT at the rear engine",
+        "jumpTerminals": "Frunk \u2014 standard battery terminals",
         "type": "standard-12v",
-        "warnings": "Battery in frunk. High-value vehicle — flatbed preferred."
+        "warnings": "Battery in frunk. High-value vehicle \u2014 flatbed preferred."
       },
       "knownIssues": [
         {
           "title": "Battery in Frunk, Not at Rear Engine",
-          "detail": "The NSX is mid-engine. The battery is in the front storage compartment (frunk), not at the rear engine. Many operators open the rear engine lid and find no battery — open the FRONT hood."
+          "detail": "The NSX is mid-engine. The battery is in the front storage compartment (frunk), not at the rear engine. Many operators open the rear engine lid and find no battery \u2014 open the FRONT hood."
         }
       ]
     },
@@ -860,7 +860,7 @@
       "slot": "Small cap near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+        "Locate the shift lock override slot \u2014 Small cap near gear selector base on center console.",
         "Pry off cap with ignition key or small flathead screwdriver.",
         "Insert key or thin flathead into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal firmly.",
@@ -869,22 +869,22 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood, driver side.",
+        "Connect jump pack to battery \u2014 under the hood, driver side.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "Manual trans: depress clutch fully, select Neutral — no shift lock slot needed."
+        "Manual trans: depress clutch fully, select Neutral \u2014 no shift lock slot needed."
       ],
-      "notes": "Manual transmission: depress clutch fully, select Neutral — no shift lock.",
+      "notes": "Manual transmission: depress clutch fully, select Neutral \u2014 no shift lock.",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air). If rear-lift only, use wheel dollies under rear wheels.",
-        "MANUAL TRANSMISSION: depress clutch, select Neutral — no override slot needed."
+        "MANUAL TRANSMISSION: depress clutch, select Neutral \u2014 no override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard red (+) / black (−)",
+        "jumpTerminals": "Under hood \u2014 standard red (+) / black (\u2212)",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -899,7 +899,7 @@
       "slot": "Small cap near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+        "Locate the shift lock override slot \u2014 Small cap near gear selector base on center console.",
         "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead into the slot and press firmly downward.",
         "While holding, press the brake pedal firmly.",
@@ -908,22 +908,22 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "Manual transmission (Type-S or 6-speed): depress clutch, select Neutral — no slot needed."
+        "Manual transmission (Type-S or 6-speed): depress clutch, select Neutral \u2014 no slot needed."
       ],
-      "notes": "Manual transmission (Type-S and base 6-speed): depress clutch, select Neutral — no shift lock.",
+      "notes": "Manual transmission (Type-S and base 6-speed): depress clutch, select Neutral \u2014 no shift lock.",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air, or flatbed.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air, or flatbed.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air).",
-        "MANUAL TRANSMISSION: depress clutch, select Neutral — no override slot needed."
+        "MANUAL TRANSMISSION: depress clutch, select Neutral \u2014 no override slot needed."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -938,7 +938,7 @@
       "slot": "Small cap near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+        "Locate the shift lock override slot \u2014 Small cap near gear selector base on center console.",
         "Pry off cap with small flathead.",
         "Insert key or thin flathead into the slot and press firmly downward.",
         "While holding, press the brake pedal firmly.",
@@ -947,12 +947,12 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood, driver side.",
+        "Connect jump pack to battery \u2014 under the hood, driver side.",
         "Once 12V power is restored, press brake and shift to Neutral normally."
       ],
       "notes": "Manual transmission: depress clutch, select Neutral.",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front."
@@ -960,7 +960,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -975,7 +975,7 @@
       "slot": "Small cap near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+        "Locate the shift lock override slot \u2014 Small cap near gear selector base on center console.",
         "Pry off cap with small flathead.",
         "Insert key or thin flathead into the slot and press firmly downward.",
         "While holding, press the brake pedal firmly.",
@@ -984,25 +984,25 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "Transfer case: shift to 2H (2WD) before road towing — manual floor lever."
+        "Transfer case: shift to 2H (2WD) before road towing \u2014 manual floor lever."
       ],
       "notes": "Isuzu Trooper platform. Transfer case must be in 2H for road towing. Avoid towing in 4H or 4L on dry pavement.",
       "warn": "Shift transfer case to 2H before road towing. 4WD modes will damage drivetrain on pavement.",
-      "towMethod": "2H: lift from rear — rear (drive) wheels in the air. Transfer case to 2H first. Flatbed preferred.",
+      "towMethod": "2H: lift from rear \u2014 rear (drive) wheels in the air. Transfer case to 2H first. Flatbed preferred.",
       "tc": {
         "type": "Manual floor-mounted lever (Isuzu-style)",
         "positions": [
-          "2H — rear wheels only — use for road towing",
-          "4H — part-time 4WD high — do NOT tow on dry road",
-          "4L — low range — NEVER tow on road"
+          "2H \u2014 rear wheels only \u2014 use for road towing",
+          "4H \u2014 part-time 4WD high \u2014 do NOT tow on dry road",
+          "4L \u2014 low range \u2014 NEVER tow on road"
         ],
         "steps": [
           "Stop completely.",
           "Move the transfer case FLOOR LEVER to 2H (2WD).",
           "Confirm 2H before lifting rear wheels.",
-          "NEVER tow in 4H or 4L on dry pavement — driveline damage."
+          "NEVER tow in 4H or 4L on dry pavement \u2014 driveline damage."
         ]
       },
       "towNotes": [
@@ -1012,35 +1012,35 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
     },
     {
       "make": "Acura",
-      "model": "MDX (2021 — Transition Year)",
+      "model": "MDX (2021 \u2014 Transition Year)",
       "yearStart": 2021,
       "yearEnd": 2021,
       "trans": "10-speed automatic",
       "drivetrain": "AWD (SH-AWD, standard)",
-      "slot": "Electronic push-button selector — same as 3rd gen ZF 9HP. NO CABIN OVERRIDE. Restore 12V power or use engine bay transmission stub procedure.",
+      "slot": "Electronic push-button selector \u2014 same as 3rd gen ZF 9HP. NO CABIN OVERRIDE. Restore 12V power or use engine bay transmission stub procedure.",
       "shift": [
         "RESTORE 12V POWER FIRST.",
-        "Connect jump pack — battery under hood. Once powered, select N on push-button selector.",
+        "Connect jump pack \u2014 battery under hood. Once powered, select N on push-button selector.",
         "WITHOUT POWER: NO cabin override. See MDX 3rd Gen ZF 9HP engine bay stub procedure.",
         "FLATBED with dollies if power cannot be restored."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under hood. Use AGM-compatible jump pack.",
+        "Connect jump pack to battery \u2014 under hood. Use AGM-compatible jump pack.",
         "Once 12V power is restored, press brake and select N on electronic selector.",
-        "Electronic selectors require power — mechanical override is last resort only.",
+        "Electronic selectors require power \u2014 mechanical override is last resort only.",
         "SH-AWD: FLATBED PREFERRED."
       ],
       "notes": "2021 MDX is the first year of the 4th Gen body but mechanically shares features with late 3rd Gen. Treat as 4th Gen.",
-      "warn": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
-      "towMethod": "FLATBED ONLY — SH-AWD cannot be disabled. Wheel-lift with dollies on free-rolling axle if no flatbed.",
+      "warn": "AWD \u2014 FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+      "towMethod": "FLATBED ONLY \u2014 SH-AWD cannot be disabled. Wheel-lift with dollies on free-rolling axle if no flatbed.",
       "tc": null,
       "towNotes": [
         "FULL-TIME AWD: Cannot disengage SH-AWD. Flatbed is safest. If using wheel-lift, dollies MUST be under the free-rolling axle."
@@ -1048,10 +1048,11 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "agm-12v",
-        "warnings": "AGM battery — use AGM-compatible jump pack. SH-AWD flatbed preferred."
+        "warnings": "AGM battery \u2014 use AGM-compatible jump pack. SH-AWD flatbed preferred."
       }
     }
-  ]
+  ],
+  "make": "Acura"
 }

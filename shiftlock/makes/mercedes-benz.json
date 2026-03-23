@@ -31,7 +31,8 @@
         "4MATIC AWD on all G-Class: FLATBED ONLY.",
         "G63 AMG: very heavy (5,800\u20136,000 lbs) \u2014 confirm tow truck capacity."
       ],
-      "notes": "All G-Class are AWD \u2014 flatbed only. G63 AMG weight is approximately 5,800\u20136,000 lbs. Classic pre-2019 uses console selector with mechanical slot. Post-2019 is fully electronic."
+      "notes": "All G-Class are AWD \u2014 flatbed only. G63 AMG weight is approximately 5,800\u20136,000 lbs. Classic pre-2019 uses console selector with mechanical slot. Post-2019 is fully electronic.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "E-Class W124 (1990-1995)",
@@ -50,7 +51,8 @@
         "W124 uses mechanical cable-type shifter \u2014 relatively easy to release. Insert flathead into slot at console base, depress, move to N.",
         "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "W124 final generation sold in US 1990-1995 as E-Class. Traditional mechanical shifter \u2014 straightforward neutral procedure. Battery under hood driver side."
+      "notes": "W124 final generation sold in US 1990-1995 as E-Class. Traditional mechanical shifter \u2014 straightforward neutral procedure. Battery under hood driver side.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "SL-Class R129 (1990-2002)",
@@ -71,7 +73,8 @@
         "RWD: wheel-lift from rear acceptable.",
         "Soft top/hardtop rollbar: secure before towing."
       ],
-      "notes": "R129 = SL300/SL320/SL500/SL600. RWD two-seater roadster. Battery in trunk. Mechanical shifter \u2014 straightforward procedure. Automatic rollbar pop-up system \u2014 verify secured before towing."
+      "notes": "R129 = SL300/SL320/SL500/SL600. RWD two-seater roadster. Battery in trunk. Mechanical shifter \u2014 straightforward procedure. Automatic rollbar pop-up system \u2014 verify secured before towing.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "190E (W201) (1990-1993)",
@@ -90,7 +93,8 @@
         "Insert small flathead into slot at console selector base, depress, move to N.",
         "RWD: rear wheel-lift acceptable."
       ],
-      "notes": "Pre-C-Class compact. Mechanical cable shifter \u2014 direct neutral movement possible. Last US year 1993. All RWD."
+      "notes": "Pre-C-Class compact. Mechanical cable shifter \u2014 direct neutral movement possible. Last US year 1993. All RWD.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "S-Class W140 (1992-1999)",
@@ -111,7 +115,8 @@
         "Air suspension (AIRMATIC on some trims): check clearance before flatbed.",
         "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "W140 battery in trunk. Mechanical cable shifter \u2014 more reliable neutral procedure than later electronic models. Air suspension on many trims \u2014 verify clearance. Very heavy vehicle."
+      "notes": "W140 battery in trunk. Mechanical cable shifter \u2014 more reliable neutral procedure than later electronic models. Air suspension on many trims \u2014 verify clearance. Very heavy vehicle.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "C-Class W202 (1994-2000)",
@@ -131,7 +136,8 @@
         "Move column shifter to N.",
         "RWD: rear wheels can lift \u2014 use wheel lift from rear (drive axle in air). 4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "Column shifter on all US W202 models. Battery in trunk. 4MATIC available on C280/C36/C43."
+      "notes": "Column shifter on all US W202 models. Battery in trunk. 4MATIC available on C280/C36/C43.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "E-Class W210 (1996-2002)",
@@ -151,7 +157,8 @@
         "Move column or console shifter to N (mechanical cable-type shift on W210 \u2014 direct movement possible with minimal shift lock).",
         "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "W210 uses traditional cable-linked column or console shifter \u2014 relatively easy neutral override. Battery in trunk \u2014 use hood terminals. E55 AMG is RWD."
+      "notes": "W210 uses traditional cable-linked column or console shifter \u2014 relatively easy neutral override. Battery in trunk \u2014 use hood terminals. E55 AMG is RWD.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "SLK-Class R170 (1997-2004)",
@@ -172,7 +179,8 @@
         "RWD: rear wheel-lift acceptable.",
         "Retractable hardtop: ensure roof fully open or closed before towing."
       ],
-      "notes": "Compact roadster, RWD. Battery under hood. Mechanical cable shifter \u2014 straightforward neutral access. Folding hardtop."
+      "notes": "Compact roadster, RWD. Battery under hood. Mechanical cable shifter \u2014 straightforward neutral access. Folding hardtop.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "CLK-Class W208 (1998-2002)",
@@ -192,7 +200,8 @@
         "Console selector slot \u2014 insert flathead, depress, move to N.",
         "RWD: rear wheel-lift acceptable."
       ],
-      "notes": "W208 CLK coupe/cabriolet. Based on W202 C-Class platform. Battery in trunk. RWD only. AMG CLK55: V8 RWD."
+      "notes": "W208 CLK coupe/cabriolet. Based on W202 C-Class platform. Battery in trunk. RWD only. AMG CLK55: V8 RWD.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "M-Class W163 (1998-2005)",
@@ -211,7 +220,8 @@
         "W163 uses mechanical cable console shifter \u2014 slot at base, insert flathead, depress, move to N.",
         "4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "First-gen M-Class. Battery under hood. Mechanical cable shifter \u2014 relatively easy neutral access. All 4MATIC AWD \u2014 flatbed only."
+      "notes": "First-gen M-Class. Battery under hood. Mechanical cable shifter \u2014 relatively easy neutral access. All 4MATIC AWD \u2014 flatbed only.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "S-Class W220 (1999-2005)",
@@ -233,7 +243,8 @@
         "Air suspension: may sink when dead \u2014 verify ground clearance before flatbed loading.",
         "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "Battery under rear seat \u2014 NOT in trunk. Air suspension (AIRMATIC or ABC) \u2014 check clearance. W220 shift selector is column-mounted, known for park lock issues when dead. S55 AMG: RWD."
+      "notes": "Battery under rear seat \u2014 NOT in trunk. Air suspension (AIRMATIC or ABC) \u2014 check clearance. W220 shift selector is column-mounted, known for park lock issues when dead. S55 AMG: RWD.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "CL-Class W215 (2000-2006)",
@@ -254,7 +265,8 @@
         "Air suspension (ABC) on all trims \u2014 verify clearance before flatbed.",
         "RWD: rear wheel-lift acceptable (CL500/CL55/CL65). 4MATIC: FLATBED ONLY."
       ],
-      "notes": "CL-Class is S-Class coupe (2-door). W215 shares W220 platform \u2014 battery under rear seat. ABC suspension standard \u2014 check clearance. AMG CL55/CL65: RWD."
+      "notes": "CL-Class is S-Class coupe (2-door). W215 shares W220 platform \u2014 battery under rear seat. ABC suspension standard \u2014 check clearance. AMG CL55/CL65: RWD.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "C-Class W203 (2001-2007)",
@@ -274,7 +286,8 @@
         "Alternatively: pry up the leather shift boot from its base, find yellow button inside housing, depress button and pull selector to N.",
         "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "W203 battery is under hood (passenger side) \u2014 unlike most Mercedes. AMG C32 and C55 are RWD only. 4MATIC on C240/C280/C320."
+      "notes": "W203 battery is under hood (passenger side) \u2014 unlike most Mercedes. AMG C32 and C55 are RWD only. 4MATIC on C240/C280/C320.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "E-Class W211 (2003-2009)",
@@ -295,7 +308,8 @@
         "Pry shift boot up from base to expose yellow shift lock button, depress, move to N. OR insert flathead in slot at selector base.",
         "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "W211 trunk battery is main battery \u2014 aux battery is small separate unit in engine bay. Jump via under-hood terminals only. E63 AMG: RWD, 6.2L V8."
+      "notes": "W211 trunk battery is main battery \u2014 aux battery is small separate unit in engine bay. Jump via under-hood terminals only. E63 AMG: RWD, 6.2L V8.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "SL-Class R230 (2003-2012)",
@@ -316,7 +330,8 @@
         "ABC (Active Body Control) suspension \u2014 may drop when battery dies. Verify clearance before flatbed.",
         "RWD roadster: rear wheel-lift acceptable but flatbed preferred due to ABC and low clearance."
       ],
-      "notes": "Dual battery: main under hood, large convenience battery in trunk. ABC suspension \u2014 check clearance. Retractable hardtop. AMG SL55/SL65: RWD."
+      "notes": "Dual battery: main under hood, large convenience battery in trunk. ABC suspension \u2014 check clearance. Retractable hardtop. AMG SL55/SL65: RWD.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "CLK-Class W209 (2003-2009)",
@@ -336,7 +351,8 @@
         "Console selector: pry shift boot or use slot at base, depress lock, move to N.",
         "RWD: rear wheel-lift acceptable."
       ],
-      "notes": "W209 CLK coupe/cabriolet. Based on W203/W211 platform. Trunk battery. RWD. AMG CLK55/CLK63: V8/V6 RWD. Last CLK year 2009."
+      "notes": "W209 CLK coupe/cabriolet. Based on W203/W211 platform. Trunk battery. RWD. AMG CLK55/CLK63: V8/V6 RWD. Last CLK year 2009.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "SLK-Class R171 (2005-2011)",
@@ -356,7 +372,8 @@
         "Manual: depress clutch, move to N.",
         "RWD: rear wheel-lift acceptable."
       ],
-      "notes": "RWD roadster. Battery under hood. SLK55 AMG: V8, RWD. 7-speed auto on later SLK350. Folding hardtop."
+      "notes": "RWD roadster. Battery under hood. SLK55 AMG: V8, RWD. 7-speed auto on later SLK350. Folding hardtop.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "CLS-Class W219 (2005-2011)",
@@ -377,7 +394,8 @@
         "RWD: rear wheel-lift acceptable.",
         "Low roofline \u2014 flatbed preferred to avoid clearance issues."
       ],
-      "notes": "W219 based on W211 E-Class platform. Trunk battery. RWD only. AMG CLS55/CLS63: RWD. Four-door coupe styling \u2014 low clearance, prefer flatbed."
+      "notes": "W219 based on W211 E-Class platform. Trunk battery. RWD only. AMG CLS55/CLS63: RWD. Four-door coupe styling \u2014 low clearance, prefer flatbed.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "ML-Class / GLE Coupe W164/W166 (2006-2019)",
@@ -398,7 +416,8 @@
         "4MATIC AWD: FLATBED ONLY.",
         "Air suspension (AIRMATIC) on many trims: confirm clearance before flatbed loading."
       ],
-      "notes": "W164 ML (2006-2011) and W166 ML/GLE (2012-2019) both have trunk battery with under-hood jump terminals. ISM electronic shifting \u2014 aux battery powers ISM. 4MATIC AWD \u2014 flatbed only. W164 (2006-2011): ISM electronic \u2014 NO manual override, must restore 12V. W166 (2012-2019): same ISM system."
+      "notes": "W164 ML (2006-2011) and W166 ML/GLE (2012-2019) both have trunk battery with under-hood jump terminals. ISM electronic shifting \u2014 aux battery powers ISM. 4MATIC AWD \u2014 flatbed only. W164 (2006-2011): ISM electronic \u2014 NO manual override, must restore 12V. W166 (2012-2019): same ISM system.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "R-Class W251 (2006-2012)",
@@ -420,7 +439,8 @@
         "4MATIC AWD (most US variants): FLATBED ONLY.",
         "Minivan-sized vehicle \u2014 verify tow truck capacity."
       ],
-      "notes": "Large 3-row luxury MPV. Most US R-Class sold with 4MATIC \u2014 flatbed. Trunk battery. Discontinued after 2012 in US."
+      "notes": "Large 3-row luxury MPV. Most US R-Class sold with 4MATIC \u2014 flatbed. Trunk battery. Discontinued after 2012 in US.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "S-Class W221 (2007-2013)",
@@ -443,7 +463,8 @@
         "RWD: wheel-lift from rear acceptable (S350/S550). 4MATIC AWD: FLATBED ONLY.",
         "S65 AMG / S63 AMG: RWD \u2014 rear wheel-lift acceptable."
       ],
-      "notes": "W221 main battery under hood. Aux battery powers ISM for shifting \u2014 if both dead, must restore 12V. AIRMATIC air suspension \u2014 check clearance."
+      "notes": "W221 main battery under hood. Aux battery powers ISM for shifting \u2014 if both dead, must restore 12V. AIRMATIC air suspension \u2014 check clearance.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "Sprinter Van (W906 / W907) (2007-2026)",
@@ -465,7 +486,8 @@
         "AWD 4x4 Sprinter: FLATBED ONLY.",
         "Commercial vehicle: verify tow capacity \u2014 fully loaded Sprinter can exceed 10,000 lbs."
       ],
-      "notes": "Gas and diesel Sprinters share jump procedure. Diesel may have dual batteries. AWD 4x4 Sprinter: flatbed required. Large commercial van \u2014 confirm tow truck capacity."
+      "notes": "Gas and diesel Sprinters share jump procedure. Diesel may have dual batteries. AWD 4x4 Sprinter: flatbed required. Large commercial van \u2014 confirm tow truck capacity.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "CL-Class W216 (2007-2014)",
@@ -486,7 +508,8 @@
         "ABC or AIRMATIC air suspension on all trims \u2014 verify clearance before flatbed.",
         "RWD: rear wheel-lift acceptable. 4MATIC CL550: FLATBED ONLY."
       ],
-      "notes": "W216 shares W221 S-Class platform \u2014 battery under hood. Air suspension standard. Last CL-Class year 2014; replaced by S-Class Coupe C217."
+      "notes": "W216 shares W221 S-Class platform \u2014 battery under hood. Air suspension standard. Last CL-Class year 2014; replaced by S-Class Coupe C217.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "GL-Class X164 (2007-2012)",
@@ -507,7 +530,8 @@
         "4MATIC AWD: FLATBED ONLY.",
         "AIRMATIC air suspension on most trims \u2014 verify clearance before flatbed."
       ],
-      "notes": "Full-size 3-row luxury SUV (predecessor to GLS). Trunk battery with under-hood terminals. All 4MATIC AWD \u2014 flatbed. AIRMATIC common \u2014 check clearance."
+      "notes": "Full-size 3-row luxury SUV (predecessor to GLS). Trunk battery with under-hood terminals. All 4MATIC AWD \u2014 flatbed. AIRMATIC common \u2014 check clearance.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "C-Class W204 (2008-2015)",
@@ -528,7 +552,8 @@
         "Depress yellow button and move selector to N.",
         "RWD: wheel-lift acceptable from rear. 4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "Main battery under hood (passenger side). Small aux battery in trunk right panel \u2014 NOT the jump point. Yellow button inside shift boot base is the shift lock override. 4MATIC on C300/C350."
+      "notes": "Main battery under hood (passenger side). Small aux battery in trunk right panel \u2014 NOT the jump point. Yellow button inside shift boot base is the shift lock override. 4MATIC on C300/C350.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "E-Class W212 (2010-2016)",
@@ -549,7 +574,8 @@
         "Pry leather shift boot up from console base, locate yellow override button, depress, move selector to N.",
         "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "W212 same jump procedure as W211. Trunk main battery, aux in driver-side upper panel. E63 AMG: RWD, 5.5L biturbo V8."
+      "notes": "W212 same jump procedure as W211. Trunk main battery, aux in driver-side upper panel. E63 AMG: RWD, 5.5L biturbo V8.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "GLK-Class X204 (2010-2015)",
@@ -569,7 +595,8 @@
         "Access shift lock slot at base of console selector, insert flathead, depress, move to N.",
         "4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "GLK battery in trunk right side panel \u2014 NOT under hood. Jump via under-hood terminals. All US GLK are 4MATIC AWD."
+      "notes": "GLK battery in trunk right side panel \u2014 NOT under hood. Jump via under-hood terminals. All US GLK are 4MATIC AWD.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "E-Class Coupe/Cabriolet W207 (2010-2017)",
@@ -591,7 +618,8 @@
         "4MATIC AWD (E400 4MATIC Coupe): FLATBED ONLY.",
         "Cabriolet: retractable soft top \u2014 ensure secured before towing."
       ],
-      "notes": "2-door E-Class coupe and cabriolet. Trunk battery with under-hood jump terminals. E400 Coupe available in 4MATIC. Soft top cabriolet \u2014 secure before towing."
+      "notes": "2-door E-Class coupe and cabriolet. Trunk battery with under-hood jump terminals. E400 Coupe available in 4MATIC. Soft top cabriolet \u2014 secure before towing.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "SLS AMG R197 (2011-2014)",
@@ -612,7 +640,8 @@
         "GULLWING DOORS: ensure both doors are fully closed and latched before loading on flatbed.",
         "RWD: wheel-lift technically possible but flatbed strongly preferred for this collector vehicle."
       ],
-      "notes": "Iconic gullwing-door supercar. 6.3L AMG V8 (563 hp). RWD. Gullwing doors must be fully closed before towing. DCT requires 12V. Collector vehicle \u2014 flatbed only. Production ended 2014."
+      "notes": "Iconic gullwing-door supercar. 6.3L AMG V8 (563 hp). RWD. Gullwing doors must be fully closed before towing. DCT requires 12V. Collector vehicle \u2014 flatbed only. Production ended 2014.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "SLK/SLC-Class R172 (2012-2020)",
@@ -632,7 +661,8 @@
         "RWD: rear wheel-lift acceptable.",
         "Renamed SLC-Class from 2016 facelift onward \u2014 same platform and procedures."
       ],
-      "notes": "Renamed SLC-Class in 2016 facelift (same R172 platform). Battery under hood. AMG SLC43/SLK55: RWD. Folding hardtop. Final year 2020."
+      "notes": "Renamed SLC-Class in 2016 facelift (same R172 platform). Battery under hood. AMG SLC43/SLK55: RWD. Folding hardtop. Final year 2020.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "CLS-Class W218 (2012-2018)",
@@ -652,7 +682,8 @@
         "Pry shift boot from console base to access yellow button inside housing. Depress and move to N.",
         "RWD: rear wheel-lift acceptable. 4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "W218 trunk battery with under-hood terminals. AMG CLS63 S available in 4MATIC \u2014 flatbed. Four-door coupe \u2014 low clearance, prefer flatbed."
+      "notes": "W218 trunk battery with under-hood terminals. AMG CLS63 S available in 4MATIC \u2014 flatbed. Four-door coupe \u2014 low clearance, prefer flatbed.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "SL-Class R231 (2013-2020)",
@@ -675,7 +706,8 @@
         "ABC suspension: may drop when dead \u2014 verify clearance before flatbed.",
         "RWD: rear wheel-lift acceptable, but flatbed strongly preferred."
       ],
-      "notes": "CRITICAL: R231 has NO battery under hood \u2014 both are in trunk/interior. Aux battery behind DRIVER'S seat powers ISM/shifting. Jump via under-hood terminals only. ABC suspension \u2014 check clearance."
+      "notes": "CRITICAL: R231 has NO battery under hood \u2014 both are in trunk/interior. Aux battery behind DRIVER'S seat powers ISM/shifting. Jump via under-hood terminals only. ABC suspension \u2014 check clearance.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "S-Class W222 (2014-2020)",
@@ -697,7 +729,8 @@
         "Air suspension (AIRMATIC): may drop when dead \u2014 verify clearance before loading on flatbed.",
         "RWD models (S550 base/S63/S65): rear wheel-lift acceptable. 4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "W222 auxiliary voltage converter (not mini battery) is near rear fuse box. Air suspension AIRMATIC standard \u2014 confirm clearance. S63 AMG 4MATIC+: AWD flatbed only."
+      "notes": "W222 auxiliary voltage converter (not mini battery) is near rear fuse box. Air suspension AIRMATIC standard \u2014 confirm clearance. S63 AMG 4MATIC+: AWD flatbed only.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "CLA-Class C117 (2014-2019)",
@@ -718,7 +751,8 @@
         "4MATIC AWD (CLA250 4MATIC, AMG CLA45): FLATBED ONLY.",
         "First front-wheel-drive Mercedes sold in US \u2014 verify drivetrain before wheel-lift."
       ],
-      "notes": "First FWD Mercedes in US. DCT transmission requires 12V to shift. CLA250 base = FWD; 4MATIC = AWD. AMG CLA45 = AWD. Battery under hood driver side."
+      "notes": "First FWD Mercedes in US. DCT transmission requires 12V to shift. CLA250 base = FWD; 4MATIC = AWD. AMG CLA45 = AWD. Battery under hood driver side.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "C-Class W205 (2015-2021)",
@@ -740,7 +774,8 @@
         "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY.",
         "AMG C63/C63 S: RWD only \u2014 rear wheel lift acceptable."
       ],
-      "notes": "Aux voltage converter/backup battery is in passenger footwell under carpet \u2014 only accessed by removing footwell trim. Main jump via under-hood terminals. W205 uses 9G-Tronic on standard models."
+      "notes": "Aux voltage converter/backup battery is in passenger footwell under carpet \u2014 only accessed by removing footwell trim. Main jump via under-hood terminals. W205 uses 9G-Tronic on standard models.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "GLA-Class X156 (2015-2020)",
@@ -760,7 +795,8 @@
         "FWD GLA250: front dollies acceptable if N confirmed.",
         "4MATIC AWD (GLA250 4MATIC, AMG GLA45): FLATBED ONLY."
       ],
-      "notes": "X156 compact crossover. DCT requires 12V. Base FWD; 4MATIC optional. AMG GLA45 = AWD. Battery under hood driver side."
+      "notes": "X156 compact crossover. DCT requires 12V. Base FWD; 4MATIC optional. AMG GLA45 = AWD. Battery under hood driver side.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "S-Class Coupe/Cabriolet C217 (2015-2021)",
@@ -782,7 +818,8 @@
         "ABC or AIRMATIC air suspension \u2014 verify clearance before flatbed.",
         "S650 Cabriolet: retractable soft top \u2014 ensure secured before towing."
       ],
-      "notes": "2-door S-Class coupe and cabriolet. Battery under hood. Air suspension (ABC on AMG). S650 Cabriolet has soft top. AMG S63 Coupe 4MATIC+: AWD flatbed."
+      "notes": "2-door S-Class coupe and cabriolet. Battery under hood. Air suspension (ABC on AMG). S650 Cabriolet has soft top. AMG S63 Coupe 4MATIC+: AWD flatbed.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "GLC-Class X253/X254 (2016-2026)",
@@ -802,7 +839,8 @@
         "If power cannot be restored (X253): slot at base of console shifter \u2014 insert flathead, depress, move to N.",
         "4MATIC AWD: FLATBED ONLY on all GLC models."
       ],
-      "notes": "All US GLC are 4MATIC \u2014 flatbed preferred. Battery under hood on both X253 and X254 generations. AMG GLC63 S E Performance (X254) = PHEV \u2014 no HV cable contact."
+      "notes": "All US GLC are 4MATIC \u2014 flatbed preferred. Battery under hood on both X253 and X254 generations. AMG GLC63 S E Performance (X254) = PHEV \u2014 no HV cable contact.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "GLE-Class W166/W167 (2016-2026)",
@@ -822,7 +860,8 @@
         "4MATIC AWD: FLATBED ONLY.",
         "Air suspension (AIRMATIC): check clearance before flatbed loading."
       ],
-      "notes": "All US GLE are 4MATIC AWD \u2014 flatbed only. Air suspension common (AIRMATIC) \u2014 confirm clearance. GLE63 AMG S 4MATIC+: AWD flatbed. GLE plug-in hybrid: no HV contact."
+      "notes": "All US GLE are 4MATIC AWD \u2014 flatbed only. Air suspension common (AIRMATIC) \u2014 confirm clearance. GLE63 AMG S 4MATIC+: AWD flatbed. GLE plug-in hybrid: no HV contact.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "AMG GT / GT 4-Door / GT Coupe / GT S (C190/R190/X290)",
@@ -844,7 +883,8 @@
         "Very low clearance on all AMG GT variants \u2014 flatbed strongly preferred for all.",
         "GT Black Series / GT R: FLATBED ONLY \u2014 extreme performance vehicle, very low clearance."
       ],
-      "notes": "AMG GT 2-door = RWD (wheel-lift possible). GT 4-Door = AWD (flatbed required). All variants low clearance. DCT requires 12V to shift. GT Black Series: collector vehicle \u2014 flatbed only."
+      "notes": "AMG GT 2-door = RWD (wheel-lift possible). GT 4-Door = AWD (flatbed required). All variants low clearance. DCT requires 12V to shift. GT Black Series: collector vehicle \u2014 flatbed only.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "Metris Van W447 (2016-2023)",
@@ -864,7 +904,8 @@
         "RWD: wheel-lift from rear acceptable.",
         "Commercial passenger/cargo van: confirm payload \u2014 loaded Metris can be heavy."
       ],
-      "notes": "Compact cargo/passenger van. Smaller than Sprinter. RWD. Discontinued in US after 2023. Battery under hood driver side."
+      "notes": "Compact cargo/passenger van. Smaller than Sprinter. RWD. Discontinued in US after 2023. Battery under hood driver side.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "E-Class W213 (2017-2023)",
@@ -885,7 +926,8 @@
         "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY.",
         "AMG E63/E63 S: AWD (4MATIC+) \u2014 FLATBED ONLY."
       ],
-      "notes": "W213 battery moved back under hood (passenger side) \u2014 no more trunk battery. AMG E63 S is AWD. 9G-Tronic on all US models."
+      "notes": "W213 battery moved back under hood (passenger side) \u2014 no more trunk battery. AMG E63 S is AWD. 9G-Tronic on all US models.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "GLS-Class X166/X167 (2017-2026)",
@@ -905,7 +947,8 @@
         "4MATIC AWD: FLATBED ONLY.",
         "Air suspension (AIRMATIC standard): verify clearance before flatbed loading."
       ],
-      "notes": "All US GLS are 4MATIC AWD \u2014 flatbed only. AIRMATIC air suspension standard on all trims. GLS600 Maybach: same procedures."
+      "notes": "All US GLS are 4MATIC AWD \u2014 flatbed only. AIRMATIC air suspension standard on all trims. GLS600 Maybach: same procedures.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "CLS-Class C257 (2019-2023)",
@@ -925,7 +968,8 @@
         "4MATIC AWD on all US C257: FLATBED ONLY.",
         "Production ended August 2023."
       ],
-      "notes": "All US C257 CLS are 4MATIC AWD \u2014 flatbed only. Battery under hood. Electronic selector \u2014 no mechanical override. Discontinued 2023."
+      "notes": "All US C257 CLS are 4MATIC AWD \u2014 flatbed only. Battery under hood. Electronic selector \u2014 no mechanical override. Discontinued 2023.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "EQC / EQA / EQB (Electric) (2020-2026)",
@@ -946,7 +990,8 @@
         "EQA RWD base: confirm RWD before using wheel-lift \u2014 check VIN/spec.",
         "AWD models: FLATBED ONLY."
       ],
-      "notes": "Do NOT touch HV orange/yellow cables. EQC = SUV, EQA = compact SUV, EQB = compact SUV. All AWD variants: flatbed only. Always confirm RWD vs AWD before wheel-lift."
+      "notes": "Do NOT touch HV orange/yellow cables. EQC = SUV, EQA = compact SUV, EQB = compact SUV. All AWD variants: flatbed only. Always confirm RWD vs AWD before wheel-lift.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "GLB-Class X247 (2020-2026)",
@@ -967,7 +1012,8 @@
         "AMG GLB35: 4MATIC AWD \u2014 FLATBED ONLY.",
         "DCT: requires 12V to shift \u2014 always restore power first."
       ],
-      "notes": "Boxy compact SUV, optional 3rd row seating. DCT requires 12V. All AMG GLB35 = AWD flatbed. Base 250 FWD: wheel-lift acceptable from rear."
+      "notes": "Boxy compact SUV, optional 3rd row seating. DCT requires 12V. All AMG GLB35 = AWD flatbed. Base 250 FWD: wheel-lift acceptable from rear.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "CLA-Class C118 (2020-2026)",
@@ -987,7 +1033,8 @@
         "FWD base CLA250: front dollies acceptable if N confirmed.",
         "4MATIC AWD (4MATIC/AMG CLA35/CLA45): FLATBED ONLY."
       ],
-      "notes": "C118 larger and wider than C117. DCT requires 12V. FWD base; AWD on 4MATIC/AMG variants. Battery under hood driver side."
+      "notes": "C118 larger and wider than C117. DCT requires 12V. FWD base; AWD on 4MATIC/AMG variants. Battery under hood driver side.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "S-Class W223 (2021-2026)",
@@ -1008,7 +1055,8 @@
         "AMG S63 PHEV: do NOT touch orange/yellow HV cables. FLATBED ONLY.",
         "Air suspension standard (AIRMATIC/E-ACTIVE BODY CONTROL) \u2014 confirm clearance before loading."
       ],
-      "notes": "All US W223 S-Class are 4MATIC AWD \u2014 flatbed only. Air suspension standard. AMG S63 is PHEV with HV battery. Do not tow on wheel-lift."
+      "notes": "All US W223 S-Class are 4MATIC AWD \u2014 flatbed only. Air suspension standard. AMG S63 is PHEV with HV battery. Do not tow on wheel-lift.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "Maybach S-Class W223 (2021-2026)",
@@ -1030,7 +1078,8 @@
         "Extremely long wheelbase (LWB): verify flatbed can accommodate length (~220 inches).",
         "Ultra-premium vehicle: handle with extreme care, use wheel covers/soft straps."
       ],
-      "notes": "Ultra-luxury extended S-Class. LWB (~220 in) \u2014 confirm flatbed length. Air suspension standard. 4MATIC AWD \u2014 flatbed only. Treat as highest-priority care vehicle."
+      "notes": "Ultra-luxury extended S-Class. LWB (~220 in) \u2014 confirm flatbed length. Air suspension standard. 4MATIC AWD \u2014 flatbed only. Treat as highest-priority care vehicle.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "GLA-Class H247 (2021-2026)",
@@ -1050,7 +1099,8 @@
         "FWD base GLA250: front dollies acceptable if N confirmed.",
         "4MATIC AWD: FLATBED ONLY."
       ],
-      "notes": "H247 completely redesigned vs X156. 8G-DCT requires 12V. Larger interior than X156. AMG GLA45 S = AWD. Battery under hood driver side."
+      "notes": "H247 completely redesigned vs X156. 8G-DCT requires 12V. Larger interior than X156. AMG GLA45 S = AWD. Battery under hood driver side.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "C-Class W206 (2022-2026)",
@@ -1070,7 +1120,8 @@
         "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY.",
         "AMG C63 PHEV: high-voltage system present \u2014 do NOT touch orange/HV cables; flatbed preferred."
       ],
-      "notes": "W206 AMG C63 is a 4-cyl mild hybrid \u2014 only 4-cyl AMG C63 ever made. PHEV HV cables present. 4MATIC AWD standard on all US C-Class W206."
+      "notes": "W206 AMG C63 is a 4-cyl mild hybrid \u2014 only 4-cyl AMG C63 ever made. PHEV HV cables present. 4MATIC AWD standard on all US C-Class W206.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "EQE / EQS (Electric Sedan/SUV) (2022-2026)",
@@ -1092,7 +1143,8 @@
         "EQS: air suspension standard \u2014 confirm clearance before flatbed loading.",
         "Very long wheelbase on EQS sedan \u2014 confirm flatbed length."
       ],
-      "notes": "EQS air suspension (AIRMATIC) \u2014 confirm clearance. EQS sedan is extremely long (204 inches). EQS SUV = AWD. EQE available RWD or AWD. Never touch HV system."
+      "notes": "EQS air suspension (AIRMATIC) \u2014 confirm clearance. EQS sedan is extremely long (204 inches). EQS SUV = AWD. EQE available RWD or AWD. Never touch HV system.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "SL-Class R232 / AMG SL (2022-2026)",
@@ -1113,7 +1165,8 @@
         "Soft top retractable roof: ensure secured before towing.",
         "Very low clearance \u2014 flatbed strongly preferred regardless."
       ],
-      "notes": "R232 is now branded AMG SL only \u2014 no non-AMG variant in US. All US R232 are 4MATIC AWD. Completely redesigned vs R231. Flatbed required."
+      "notes": "R232 is now branded AMG SL only \u2014 no non-AMG variant in US. All US R232 are 4MATIC AWD. Completely redesigned vs R231. Flatbed required.",
+      "make": "Mercedes-Benz"
     },
     {
       "model": "CLE-Class C236 (2024-2026)",
@@ -1134,7 +1187,8 @@
         "4MATIC AWD (CLE450/AMG CLE53): FLATBED ONLY.",
         "Available as coupe or cabriolet \u2014 retractable soft top on cabriolet."
       ],
-      "notes": "CLE replaces CLK and E-Class Coupe/Cabriolet. CLE300 = RWD; CLE450/AMG = AWD. New for 2024. Cabriolet soft top \u2014 secure before towing."
+      "notes": "CLE replaces CLK and E-Class Coupe/Cabriolet. CLE300 = RWD; CLE450/AMG = AWD. New for 2024. Cabriolet soft top \u2014 secure before towing.",
+      "make": "Mercedes-Benz"
     }
   ]
 }

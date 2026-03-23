@@ -18,19 +18,19 @@
       "yearStart": 2000,
       "yearEnd": 2014,
       "trans": "4-speed or 6-speed automatic",
-      "slot": "ALL 1st through 3rd Gen (1999-2014) use COLUMN SHIFT — shift lock on STEERING COLUMN. Key to ON + brake releases interlock normally. Dead battery (below 9V): restore power via jump pack first. NOTE: 2003-2006 and some 2007+ also had optional console shift — console variant has a small cap at the side of the console shifter base.",
+      "slot": "ALL 1st through 3rd Gen (1999-2014) use COLUMN SHIFT \u2014 shift lock on STEERING COLUMN. Key to ON + brake releases interlock normally. Dead battery (below 9V): restore power via jump pack first. NOTE: 2003-2006 and some 2007+ also had optional console shift \u2014 console variant has a small cap at the side of the console shifter base.",
       "shift": [
         "Turn ignition key to ON (do not start). This energizes the shift interlock.",
-        "COLUMN SHIFT (standard): locate the shift lock release slot on the STEERING COLUMN — lower face of the column below the shift lever.",
+        "COLUMN SHIFT (standard): locate the shift lock release slot on the STEERING COLUMN \u2014 lower face of the column below the shift lever.",
         "Insert a thin flathead into the slot and press firmly inward.",
         "While holding the slot, press the brake pedal firmly.",
         "Move the column lever from Park to Neutral.",
-        "DEAD BATTERY: interlock requires ~9V minimum. Connect jump pack — battery under hood.",
-        "CONSOLE SHIFT (some trims): small cap at the side of the console shifter base — pry off, insert key, press down while pressing brake."
+        "DEAD BATTERY: interlock requires ~9V minimum. Connect jump pack \u2014 battery under hood.",
+        "CONSOLE SHIFT (some trims): small cap at the side of the console shifter base \u2014 pry off, insert key, press down while pressing brake."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood — connect jump pack.",
+        "Battery under hood \u2014 connect jump pack.",
         "Column shift: key to ON, slot on column, press brake, move to N.",
         "Console shift (some trims): side cap on console shifter base.",
         "TRANSFER CASE: must be in 2WD/2H before towing. Jump battery first if needed."
@@ -38,14 +38,14 @@
       "notes": "4WD: transfer case to 2H before towing on road.",
       "warn": "4WD: transfer case MUST be in 2H before towing.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear — rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear \u2014 rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear \u2014 rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
-        "type": "Electric push-button (Autotrac) — 2000-2002 may have manual lever",
+        "type": "Electric push-button (Autotrac) \u2014 2000-2002 may have manual lever",
         "positions": [
-          "2WD (2H) — rear wheels only, for all road towing",
-          "4WD Auto — automatic AWD engagement (NOT safe for towing)",
-          "4WD Hi (4H) — part-time 4WD high range (NOT safe for dry-road towing)",
-          "4WD Lo (4L) — low range — NEVER tow in this position"
+          "2WD (2H) \u2014 rear wheels only, for all road towing",
+          "4WD Auto \u2014 automatic AWD engagement (NOT safe for towing)",
+          "4WD Hi (4H) \u2014 part-time 4WD high range (NOT safe for dry-road towing)",
+          "4WD Lo (4L) \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH or come to a complete stop.",
@@ -53,31 +53,31 @@
           "MANUAL LEVER (older models): Stop completely. Move the transfer case floor lever firmly to the 2H position.",
           "Confirm the 2WD indicator lamp is ON before lifting rear wheels.",
           "Verify all 4WD indicator lights are OFF.",
-          "NEVER tow in 4H, 4WD Auto, or 4L — serious driveline damage will result.",
+          "NEVER tow in 4H, 4WD Auto, or 4L \u2014 serious driveline damage will result.",
           "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
         ]
       },
       "towNotes": [
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [
         {
-          "title": "Transfer Case Must Be in 2WD — Not Just Neutral",
+          "title": "Transfer Case Must Be in 2WD \u2014 Not Just Neutral",
           "detail": "Operators sometimes shift the transfer case to Neutral thinking that's safe to tow. The driveshaft is still connected in TC Neutral on these models. Transfer case MUST be in 2WD (2H) for wheel-lift towing, not just neutral."
         },
         {
-          "title": "Heavy Vehicle — Equipment Ratings",
-          "detail": "Escalade curb weight ranges 5,600–6,200 lbs depending on year and trim. Verify your wheel-lift and strapping equipment is rated appropriately before attempting to lift."
+          "title": "Heavy Vehicle \u2014 Equipment Ratings",
+          "detail": "Escalade curb weight ranges 5,600\u20136,200 lbs depending on year and trim. Verify your wheel-lift and strapping equipment is rated appropriately before attempting to lift."
         }
       ],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard red (+) / black (−)",
+        "jumpTerminals": "Under hood \u2014 standard red (+) / black (\u2212)",
         "type": "standard-12v",
         "warnings": "Heavy vehicle. Verify TC is in 2WD before lifting."
       }
@@ -88,19 +88,19 @@
       "yearStart": 2015,
       "yearEnd": 2026,
       "trans": "6-speed (6L80) or 10-speed (10L80) automatic",
-      "slot": "4th Gen (2015-2020): COLUMN SHIFT — same as Silverado/Suburban of same era. Shift lock slot on the STEERING COLUMN. Key to ON + brake releases interlock. Dead battery: restore power via jump pack. 5th Gen (2021-2023): PUSH-BUTTON EPS — NO CABIN OVERRIDE. Owner's manual states: cannot shift to neutral with dead battery. Restore 12V power first. FLATBED with wheel dollies if power cannot be restored. 2024+ (facelift): COLUMN SHIFT again — same as 4th gen procedure.",
+      "slot": "4th Gen (2015-2020): COLUMN SHIFT \u2014 same as Silverado/Suburban of same era. Shift lock slot on the STEERING COLUMN. Key to ON + brake releases interlock. Dead battery: restore power via jump pack. 5th Gen (2021-2023): PUSH-BUTTON EPS \u2014 NO CABIN OVERRIDE. Owner's manual states: cannot shift to neutral with dead battery. Restore 12V power first. FLATBED with wheel dollies if power cannot be restored. 2024+ (facelift): COLUMN SHIFT again \u2014 same as 4th gen procedure.",
       "shift": [
         "IDENTIFY GENERATION FIRST.",
-        "4TH GEN (2015-2020) — COLUMN SHIFT:",
+        "4TH GEN (2015-2020) \u2014 COLUMN SHIFT:",
         "Turn ignition key to ON. Locate shift lock slot on lower face of STEERING COLUMN.",
         "Insert thin flathead into slot, press firmly. Press brake. Move column lever to N.",
-        "4TH GEN DEAD BATTERY: restore power via jump pack — battery under hood.",
-        "5TH GEN (2021-2023) — EPS PUSH-BUTTON (NO CABIN OVERRIDE):",
-        "RESTORE 12V POWER FIRST — connect jump pack to underhood battery.",
+        "4TH GEN DEAD BATTERY: restore power via jump pack \u2014 battery under hood.",
+        "5TH GEN (2021-2023) \u2014 EPS PUSH-BUTTON (NO CABIN OVERRIDE):",
+        "RESTORE 12V POWER FIRST \u2014 connect jump pack to underhood battery.",
         "Once powered, press brake and use push-button row (left of infotainment screen) to select N.",
-        "5TH GEN WITHOUT POWER: owner's manual explicit — cannot shift or release EPB with dead battery.",
+        "5TH GEN WITHOUT POWER: owner's manual explicit \u2014 cannot shift or release EPB with dead battery.",
         "FLATBED with wheel dollies only if power cannot be restored.",
-        "2024+ REFRESH: COLUMN SHIFT returned — use same procedure as 4th gen above."
+        "2024+ REFRESH: COLUMN SHIFT returned \u2014 use same procedure as 4th gen above."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
@@ -109,53 +109,53 @@
         "5th gen no power: FLATBED ONLY with wheel dollies.",
         "TRANSFER CASE: must be in 2WD/2H before towing. Jump battery first if needed."
       ],
-      "notes": "Escalade IQ EV (2025+): 12V only — flatbed required.",
+      "notes": "Escalade IQ EV (2025+): 12V only \u2014 flatbed required.",
       "warn": "Escalade IQ EV: FLATBED ONLY. 4WD: transfer case to 2H.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear — rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear \u2014 rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear \u2014 rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric rotary dial or push-button (Autotrac)",
         "positions": [
-          "2WD — rear wheels only, for all road towing",
-          "4WD Auto — automatic AWD (NOT safe for towing)",
-          "4WD Hi — part-time 4WD (NOT safe for dry-road towing)",
-          "4WD Lo — low range — NEVER tow in this position"
+          "2WD \u2014 rear wheels only, for all road towing",
+          "4WD Auto \u2014 automatic AWD (NOT safe for towing)",
+          "4WD Hi \u2014 part-time 4WD (NOT safe for dry-road towing)",
+          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH.",
           "Turn the rotary transfer case dial (or press 2WD button) on the center console to 2WD.",
           "Wait for the 2WD indicator to illuminate on the instrument cluster.",
           "Verify all 4WD lights are OFF before lifting rear wheels.",
-          "Escalade IQ EV (2025+): FLATBED ONLY — electric drivetrain, no transfer case.",
+          "Escalade IQ EV (2025+): FLATBED ONLY \u2014 electric drivetrain, no transfer case.",
           "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
         ]
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
-        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
+        "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' \u2014 check with owner if possible.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [
         {
           "title": "Electronic Selector Requires Power",
-          "detail": "4th and 5th gen Escalade uses a fully electronic gear selector. With a dead battery, the shift lock slot must be used. The slot is concealed under a trim panel — locate it before the job if possible."
+          "detail": "4th and 5th gen Escalade uses a fully electronic gear selector. With a dead battery, the shift lock slot must be used. The slot is concealed under a trim panel \u2014 locate it before the job if possible."
         },
         {
-          "title": "Escalade IQ EV (2025+) — Flatbed Only",
+          "title": "Escalade IQ EV (2025+) \u2014 Flatbed Only",
           "detail": "The 2025 Escalade IQ is a full EV. FLATBED ONLY. No transfer case. 12V auxiliary battery only for electronics. Never touch the HV propulsion battery."
         },
         {
-          "title": "5th Gen (2021-2023) — No Cabin Neutral Override, EPB Auto-Engages",
+          "title": "5th Gen (2021-2023) \u2014 No Cabin Neutral Override, EPB Auto-Engages",
           "detail": "The 5th-gen Escalade has push-button EPS and a hydraulic park pawl. Owner's manual states: with dead 12V battery, electric parking brake cannot be released and vehicle cannot be shifted to Neutral. Flatbed with tire skates/dollies required. The EPB will also auto-engage if manual park release is used while powered. The 4th gen (2015-2020) used a traditional column shift and does NOT have this issue."
         }
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
-        "warnings": "Escalade IQ EV: 12V auxiliary only — never touch HV battery."
+        "warnings": "Escalade IQ EV: 12V auxiliary only \u2014 never touch HV battery."
       }
     },
     {
@@ -164,24 +164,24 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "9-speed automatic",
-      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: behind small cover in driver's kick panel, just to the RIGHT of the gas pedal. Pull the manual release handle to disengage the park lock. Owner's manual: Driving and Operating → Manual Park Release. SERVICE MODE (with partial power): hold Start button (no brake) ~5 sec until lights/chimes, then press brake and move selector to N. RESTORE 12V POWER FIRST whenever possible.",
+      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: behind small cover in driver's kick panel, just to the RIGHT of the gas pedal. Pull the manual release handle to disengage the park lock. Owner's manual: Driving and Operating \u2192 Manual Park Release. SERVICE MODE (with partial power): hold Start button (no brake) ~5 sec until lights/chimes, then press brake and move selector to N. RESTORE 12V POWER FIRST whenever possible.",
       "shift": [
-        "RESTORE 12V POWER FIRST — strongly preferred. Battery under hood.",
+        "RESTORE 12V POWER FIRST \u2014 strongly preferred. Battery under hood.",
         "Once powered: press Start without brake to enter accessory/service mode, press brake, press EPS selector button and move lever to N.",
-        "WITHOUT POWER — MANUAL PARK RELEASE (2016-2020 models):",
+        "WITHOUT POWER \u2014 MANUAL PARK RELEASE (2016-2020 models):",
         "Locate the small cover in the driver's kick panel, just to the RIGHT of the gas pedal.",
         "Open the cover to access the manual park release handle.",
         "Pull the handle firmly upward/outward to release the park lock.",
-        "Vehicle will roll — ensure parking brake is chocked first.",
+        "Vehicle will roll \u2014 ensure parking brake is chocked first.",
         "SERVICE MODE (with partial power, older 8-speed models only):",
         "Hold Start button (no brake) for ~5 seconds until all electronics activate.",
         "Release Start, then press brake, press EPS side button, move lever to N.",
-        "NOTE: Service mode may show 'conditions not met' on newer 9-speed models — use manual release.",
-        "2021+ models: some may not have kick-panel lever — restore power or flatbed."
+        "NOTE: Service mode may show 'conditions not met' on newer 9-speed models \u2014 use manual release.",
+        "2021+ models: some may not have kick-panel lever \u2014 restore power or flatbed."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood — connect jump pack.",
+        "Battery under hood \u2014 connect jump pack.",
         "Restore power, then shift to N via EPS selector.",
         "No power: kick-panel manual park release (see shift steps).",
         "AWD: FLATBED PREFERRED."
@@ -189,7 +189,7 @@
       "notes": "",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -197,7 +197,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -208,24 +208,24 @@
       "yearStart": 2017,
       "yearEnd": 2026,
       "trans": "8-speed automatic",
-      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: behind small cover in driver's kick panel, just to the RIGHT of the gas pedal. Pull the manual release handle to disengage the park lock. Owner's manual: Driving and Operating → Manual Park Release. SERVICE MODE (with partial power): hold Start button (no brake) ~5 sec until lights/chimes, then press brake and move selector to N. RESTORE 12V POWER FIRST whenever possible.",
+      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: behind small cover in driver's kick panel, just to the RIGHT of the gas pedal. Pull the manual release handle to disengage the park lock. Owner's manual: Driving and Operating \u2192 Manual Park Release. SERVICE MODE (with partial power): hold Start button (no brake) ~5 sec until lights/chimes, then press brake and move selector to N. RESTORE 12V POWER FIRST whenever possible.",
       "shift": [
-        "RESTORE 12V POWER FIRST — strongly preferred. Battery under hood.",
+        "RESTORE 12V POWER FIRST \u2014 strongly preferred. Battery under hood.",
         "Once powered: press Start without brake to enter accessory/service mode, press brake, press EPS selector button and move lever to N.",
-        "WITHOUT POWER — MANUAL PARK RELEASE (2016-2020 models):",
+        "WITHOUT POWER \u2014 MANUAL PARK RELEASE (2016-2020 models):",
         "Locate the small cover in the driver's kick panel, just to the RIGHT of the gas pedal.",
         "Open the cover to access the manual park release handle.",
         "Pull the handle firmly upward/outward to release the park lock.",
-        "Vehicle will roll — ensure parking brake is chocked first.",
+        "Vehicle will roll \u2014 ensure parking brake is chocked first.",
         "SERVICE MODE (with partial power, older 8-speed models only):",
         "Hold Start button (no brake) for ~5 seconds until all electronics activate.",
         "Release Start, then press brake, press EPS side button, move lever to N.",
-        "NOTE: Service mode may show 'conditions not met' on newer 9-speed models — use manual release.",
-        "2021+ models: some may not have kick-panel lever — restore power or flatbed."
+        "NOTE: Service mode may show 'conditions not met' on newer 9-speed models \u2014 use manual release.",
+        "2021+ models: some may not have kick-panel lever \u2014 restore power or flatbed."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood — connect jump pack.",
+        "Battery under hood \u2014 connect jump pack.",
         "Restore power, then shift to N via EPS selector.",
         "No power: kick-panel manual park release (see shift steps).",
         "AWD: FLATBED PREFERRED."
@@ -233,7 +233,7 @@
       "notes": "AWD standard on most trims.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -241,7 +241,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -252,24 +252,24 @@
       "yearStart": 2020,
       "yearEnd": 2026,
       "trans": "9-speed automatic",
-      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: behind small cover in driver's kick panel, just to the RIGHT of the gas pedal. Pull the manual release handle to disengage the park lock. Owner's manual: Driving and Operating → Manual Park Release. SERVICE MODE (with partial power): hold Start button (no brake) ~5 sec until lights/chimes, then press brake and move selector to N. RESTORE 12V POWER FIRST whenever possible.",
+      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: behind small cover in driver's kick panel, just to the RIGHT of the gas pedal. Pull the manual release handle to disengage the park lock. Owner's manual: Driving and Operating \u2192 Manual Park Release. SERVICE MODE (with partial power): hold Start button (no brake) ~5 sec until lights/chimes, then press brake and move selector to N. RESTORE 12V POWER FIRST whenever possible.",
       "shift": [
-        "RESTORE 12V POWER FIRST — strongly preferred. Battery under hood.",
+        "RESTORE 12V POWER FIRST \u2014 strongly preferred. Battery under hood.",
         "Once powered: press Start without brake to enter accessory/service mode, press brake, press EPS selector button and move lever to N.",
-        "WITHOUT POWER — MANUAL PARK RELEASE (2016-2020 models):",
+        "WITHOUT POWER \u2014 MANUAL PARK RELEASE (2016-2020 models):",
         "Locate the small cover in the driver's kick panel, just to the RIGHT of the gas pedal.",
         "Open the cover to access the manual park release handle.",
         "Pull the handle firmly upward/outward to release the park lock.",
-        "Vehicle will roll — ensure parking brake is chocked first.",
+        "Vehicle will roll \u2014 ensure parking brake is chocked first.",
         "SERVICE MODE (with partial power, older 8-speed models only):",
         "Hold Start button (no brake) for ~5 seconds until all electronics activate.",
         "Release Start, then press brake, press EPS side button, move lever to N.",
-        "NOTE: Service mode may show 'conditions not met' on newer 9-speed models — use manual release.",
-        "2021+ models: some may not have kick-panel lever — restore power or flatbed."
+        "NOTE: Service mode may show 'conditions not met' on newer 9-speed models \u2014 use manual release.",
+        "2021+ models: some may not have kick-panel lever \u2014 restore power or flatbed."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood — connect jump pack.",
+        "Battery under hood \u2014 connect jump pack.",
         "Restore power, then shift to N via EPS selector.",
         "No power: kick-panel manual park release (see shift steps).",
         "AWD: FLATBED PREFERRED."
@@ -277,7 +277,7 @@
       "notes": "3-row SUV. AWD standard.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -285,7 +285,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -296,24 +296,24 @@
       "yearStart": 2020,
       "yearEnd": 2026,
       "trans": "8-speed or 10-speed automatic",
-      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: behind small cover in driver's kick panel, just to the RIGHT of the gas pedal. Pull the manual release handle to disengage the park lock. Owner's manual: Driving and Operating → Manual Park Release. SERVICE MODE (with partial power): hold Start button (no brake) ~5 sec until lights/chimes, then press brake and move selector to N. RESTORE 12V POWER FIRST whenever possible.",
+      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: behind small cover in driver's kick panel, just to the RIGHT of the gas pedal. Pull the manual release handle to disengage the park lock. Owner's manual: Driving and Operating \u2192 Manual Park Release. SERVICE MODE (with partial power): hold Start button (no brake) ~5 sec until lights/chimes, then press brake and move selector to N. RESTORE 12V POWER FIRST whenever possible.",
       "shift": [
-        "RESTORE 12V POWER FIRST — strongly preferred. Battery under hood.",
+        "RESTORE 12V POWER FIRST \u2014 strongly preferred. Battery under hood.",
         "Once powered: press Start without brake to enter accessory/service mode, press brake, press EPS selector button and move lever to N.",
-        "WITHOUT POWER — MANUAL PARK RELEASE (2016-2020 models):",
+        "WITHOUT POWER \u2014 MANUAL PARK RELEASE (2016-2020 models):",
         "Locate the small cover in the driver's kick panel, just to the RIGHT of the gas pedal.",
         "Open the cover to access the manual park release handle.",
         "Pull the handle firmly upward/outward to release the park lock.",
-        "Vehicle will roll — ensure parking brake is chocked first.",
+        "Vehicle will roll \u2014 ensure parking brake is chocked first.",
         "SERVICE MODE (with partial power, older 8-speed models only):",
         "Hold Start button (no brake) for ~5 seconds until all electronics activate.",
         "Release Start, then press brake, press EPS side button, move lever to N.",
-        "NOTE: Service mode may show 'conditions not met' on newer 9-speed models — use manual release.",
-        "2021+ models: some may not have kick-panel lever — restore power or flatbed."
+        "NOTE: Service mode may show 'conditions not met' on newer 9-speed models \u2014 use manual release.",
+        "2021+ models: some may not have kick-panel lever \u2014 restore power or flatbed."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery under hood — connect jump pack.",
+        "Battery under hood \u2014 connect jump pack.",
         "Restore power, shift to N via EPS selector.",
         "No power: kick-panel manual park release (see shift steps).",
         "RWD: front dollies or flatbed. AWD: FLATBED PREFERRED. Manual: depress clutch."
@@ -321,7 +321,7 @@
       "notes": "Blackwing manual: clutch to N.",
       "warn": "",
       "drivetrain": "RWD or AWD",
-      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD: lift from rear \u2014 rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
@@ -330,7 +330,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -341,36 +341,36 @@
       "yearStart": 2023,
       "yearEnd": 2026,
       "trans": "Single-speed electric",
-      "slot": "Electronic selector — slot near selector base",
+      "slot": "Electronic selector \u2014 slot near selector base",
       "shift": [
         "Turn vehicle to ON/Ready mode.",
-        "Electronic gear selector — press and hold N while pressing brake pedal.",
+        "Electronic gear selector \u2014 press and hold N while pressing brake pedal.",
         "Confirm N on instrument cluster.",
         "If power is lost: connect jump pack to 12V auxiliary under hood.",
-        "12V AUXILIARY ONLY — NEVER touch HV components."
+        "12V AUXILIARY ONLY \u2014 NEVER touch HV components."
       ],
       "neutral": [
-        "FLATBED ONLY — electric drivetrain.",
+        "FLATBED ONLY \u2014 electric drivetrain.",
         "12V auxiliary under hood.",
-        "12V AUXILIARY ONLY — never touch HV battery.",
+        "12V AUXILIARY ONLY \u2014 never touch HV battery.",
         "Once powered, select N electronically."
       ],
       "notes": "Fully electric crossover.",
       "warn": "FLATBED ONLY. Never tow with driven wheels on ground.",
       "drivetrain": "RWD or AWD (electric)",
-      "towMethod": "FLATBED ONLY — electric drivetrain",
+      "towMethod": "FLATBED ONLY \u2014 electric drivetrain",
       "tc": null,
       "towNotes": [
-        "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+        "ELECTRIC VEHICLE: FLATBED ONLY \u2014 never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
         "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
-        "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+        "12V battery ONLY for jumping \u2014 NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood (12V auxiliary)",
-        "jumpTerminals": "Under hood — 12V auxiliary terminals only",
+        "jumpTerminals": "Under hood \u2014 12V auxiliary terminals only",
         "type": "auxiliary-12v-only",
-        "warnings": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
+        "warnings": "FLATBED ONLY. 12V auxiliary only \u2014 never touch HV system."
       }
     },
     {
@@ -380,7 +380,7 @@
       "yearEnd": 2011,
       "trans": "4-speed automatic (4T80-E)",
       "drivetrain": "FWD",
-      "slot": "Small plastic cap on the TOP LEFT of the shifter trim cover, on the console beside the selector. Pry off cap, insert flathead into the hole, press DOWN to release shift lock. FWD — lift from front.",
+      "slot": "Small plastic cap on the TOP LEFT of the shifter trim cover, on the console beside the selector. Pry off cap, insert flathead into the hole, press DOWN to release shift lock. FWD \u2014 lift from front.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the small plastic cap on the TOP LEFT of the shifter trim cover on the console.",
@@ -392,13 +392,13 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "FWD: lift from front — front (drive) wheels in the air."
+        "FWD: lift from front \u2014 front (drive) wheels in the air."
       ],
       "notes": "DeVille (1994-2005), DTS (2006-2011). All FWD. 4T80-E transmission is robust.",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air)."
@@ -406,7 +406,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -430,13 +430,13 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "FWD: lift from front — front (drive) wheels in the air."
+        "FWD: lift from front \u2014 front (drive) wheels in the air."
       ],
       "notes": "",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front."
@@ -444,7 +444,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -468,13 +468,13 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
-        "FWD: lift from front — front (drive) wheels in the air."
+        "FWD: lift from front \u2014 front (drive) wheels in the air."
       ],
       "notes": "Seville (1998-2004), STS used this platform. All FWD.",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front."
@@ -482,7 +482,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -506,13 +506,13 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once powered, press brake and shift to Neutral.",
         "AWD: FLATBED PREFERRED. Manual trans: depress clutch, select Neutral."
       ],
       "notes": "CTS manual: depress clutch, select Neutral. AWD (CTS-AWD): flatbed preferred.",
       "warn": "AWD models: flatbed preferred.",
-      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed preferred. Wheel-lift with dollies on front axle if no flatbed.",
+      "towMethod": "RWD: lift from rear \u2014 rear (drive) wheels in the air. AWD: flatbed preferred. Wheel-lift with dollies on front axle if no flatbed.",
       "tc": null,
       "towNotes": [
         "RWD: lift from rear.",
@@ -522,7 +522,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -546,7 +546,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once powered, shift to Neutral.",
         "AWD: FLATBED PREFERRED. Manual: depress clutch."
       ],
@@ -562,7 +562,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -586,7 +586,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under the hood.",
+        "Connect jump pack \u2014 under the hood.",
         "Once powered, shift to Neutral.",
         "AWD: FLATBED PREFERRED."
       ],
@@ -596,12 +596,12 @@
       "tc": null,
       "towNotes": [
         "RWD: lift from rear.",
-        "AWD: flatbed preferred — no true 2WD disengagement."
+        "AWD: flatbed preferred \u2014 no true 2WD disengagement."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -625,7 +625,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under the hood.",
+        "Connect jump pack \u2014 under the hood.",
         "Once powered, shift to Neutral.",
         "AWD: FLATBED PREFERRED."
       ],
@@ -640,7 +640,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -652,40 +652,40 @@
       "yearEnd": 2020,
       "trans": "8-speed or 10-speed automatic; PHEV eCVT available",
       "drivetrain": "RWD or AWD; PHEV is AWD",
-      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: driver's kick panel, right of gas pedal — small cover, pull handle. PHEV: 12V auxiliary battery under hood — separate from HV pack. NEVER touch orange HV cables.",
+      "slot": "Electronic Precision Shift (EPS) console selector. MANUAL PARK RELEASE: driver's kick panel, right of gas pedal \u2014 small cover, pull handle. PHEV: 12V auxiliary battery under hood \u2014 separate from HV pack. NEVER touch orange HV cables.",
       "shift": [
-        "RESTORE 12V POWER FIRST — connect jump pack to 12V auxiliary under hood.",
+        "RESTORE 12V POWER FIRST \u2014 connect jump pack to 12V auxiliary under hood.",
         "Once powered, press brake and move EPS selector to N.",
-        "WITHOUT POWER — MANUAL PARK RELEASE:",
+        "WITHOUT POWER \u2014 MANUAL PARK RELEASE:",
         "Locate small cover in driver's kick panel, right of gas pedal.",
         "Open cover, pull manual park release handle to disengage park lock.",
         "SERVICE MODE (partial power): hold Start (no brake) ~5 sec, then brake, shift to N.",
-        "PHEV CAUTION: 12V AUXILIARY ONLY — NEVER touch HV orange cables or HV battery.",
-        "PHEV: FLATBED ONLY — do not tow by wheels."
+        "PHEV CAUTION: 12V AUXILIARY ONLY \u2014 NEVER touch HV orange cables or HV battery.",
+        "PHEV: FLATBED ONLY \u2014 do not tow by wheels."
       ],
       "neutral": [
         "Apply parking brake.",
-        "12V auxiliary under hood — use AGM-compatible jump pack.",
+        "12V auxiliary under hood \u2014 use AGM-compatible jump pack.",
         "PHEV: 12V ONLY, never HV.",
         "Once powered, shift to N via EPS selector.",
         "No power: kick-panel manual release.",
         "PHEV: FLATBED ONLY."
       ],
       "notes": "Electronic shift selector. PHEV models have both 12V and high-voltage battery systems.",
-      "warn": "PHEV: 12V auxiliary ONLY — never touch HV system. AWD: flatbed preferred.",
+      "warn": "PHEV: 12V auxiliary ONLY \u2014 never touch HV system. AWD: flatbed preferred.",
       "towMethod": "RWD: lift from rear. AWD: flatbed preferred. AWD without flatbed: dollies on free-rolling axle.",
       "tc": null,
       "towNotes": [
         "RWD: lift from rear.",
         "AWD / PHEV: flatbed preferred.",
-        "PHEV HYBRID: 12V auxiliary ONLY — never access HV battery."
+        "PHEV HYBRID: 12V auxiliary ONLY \u2014 never access HV battery."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "agm-12v",
-        "warnings": "AGM battery. PHEV: 12V auxiliary only — never touch HV system."
+        "warnings": "AGM battery. PHEV: 12V auxiliary only \u2014 never touch HV system."
       }
     },
     {
@@ -695,7 +695,7 @@
       "yearEnd": 1996,
       "trans": "4-speed automatic (4L60 / 4L60-E)",
       "drivetrain": "RWD",
-      "slot": "Column shifter — no console shift lock slot. Column lock released by ignition key in ON position.",
+      "slot": "Column shifter \u2014 no console shift lock slot. Column lock released by ignition key in ON position.",
       "shift": [
         "Turn ignition to ON (key to Run position).",
         "COLUMN SHIFTER: key in ON position releases the shift interlock.",
@@ -705,23 +705,24 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood, driver side.",
+        "Connect jump pack to battery \u2014 under the hood, driver side.",
         "Once powered, key to ON and shift column lever to Neutral."
       ],
-      "notes": "Column shifter. RWD platform. Very large vehicle — allow extra space for tow truck maneuvering.",
+      "notes": "Column shifter. RWD platform. Very large vehicle \u2014 allow extra space for tow truck maneuvering.",
       "warn": "",
-      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air.",
+      "towMethod": "RWD: lift from rear \u2014 rear (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
-        "RWD: lift from rear. Large vehicle — confirm clearance before approach."
+        "RWD: lift from rear. Large vehicle \u2014 confirm clearance before approach."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
     }
-  ]
+  ],
+  "make": "Cadillac"
 }

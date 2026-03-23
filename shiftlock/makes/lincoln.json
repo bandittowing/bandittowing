@@ -21,26 +21,27 @@
       "fuelType": "gasoline",
       "trans": "6-speed or 10-speed SelectShift automatic",
       "drivetrain": "RWD or 4WD (part-time, Torque on Demand)",
-      "curbWeight": "5,685–6,056 lbs (varies by wheelbase/drivetrain)",
-      "gvwr": "7,300–7,600 lbs",
-      "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
+      "curbWeight": "5,685\u20136,056 lbs (varies by wheelbase/drivetrain)",
+      "gvwr": "7,300\u20137,600 lbs",
+      "slot": "Center console storage bin \u2014 small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
       "shift": [
         "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
         "Open the center console storage lid.",
         "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
         "Insert a thin flathead screwdriver or key into the hole.",
         "Press and HOLD the brake-shift interlock switch inside the hole.",
-        "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+        "The shift buttons on the instrument panel will FLASH \u2014 this indicates override mode is active.",
         "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
         "Release the override button.",
         "Vehicle is now in Neutral for towing."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, use the console hole override method OR shift normally.",
-        "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
-        "AWD models: flatbed preferred."
+        "If 12V cannot be restored: use the console hole method \u2014 it works without full electrical power.",
+        "AWD models: flatbed preferred.",
+        "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
       ],
       "notes": "4WD Torque on Demand: transfer case must be in 2H before wheel-lift tow.",
       "warn": "Transfer case to 2H before towing. Flatbed strongly preferred.",
@@ -48,10 +49,10 @@
       "tc": {
         "type": "Electronic Torque on Demand (part-time 4WD, push-button on dash)",
         "positions": [
-          "2WD — REQUIRED for all road towing",
-          "4WD Auto — NOT safe for towing",
-          "4WD High — NOT safe for dry road towing",
-          "4WD Low — NEVER tow in this position"
+          "2WD \u2014 REQUIRED for all road towing",
+          "4WD Auto \u2014 NOT safe for towing",
+          "4WD High \u2014 NOT safe for dry road towing",
+          "4WD Low \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH.",
@@ -63,7 +64,7 @@
       "towNotes": [
         "ELECTRONIC TC requires 12V power. Jump battery first if dead.",
         "If TC cannot be confirmed in 2WD, USE FLATBED.",
-        "Very heavy vehicle — confirm tow truck capacity before lifting."
+        "Very heavy vehicle \u2014 confirm tow truck capacity before lifting."
       ],
       "epb": {
         "equipped": false,
@@ -74,15 +75,15 @@
         "equipped": true,
         "description": "Lincoln Air Glide suspension (optional on some trims). Self-leveling. Automatically adjusts under load.",
         "towingNotes": [
-          "Air suspension self-levels and maintains stance — no special towing procedure required.",
+          "Air suspension self-levels and maintains stance \u2014 no special towing procedure required.",
           "Do NOT disable air suspension before loading on flatbed.",
-          "If suspension is failed/deflated, notify flatbed operator — vehicle will be lower than normal."
+          "If suspension is failed/deflated, notify flatbed operator \u2014 vehicle will be lower than normal."
         ]
       },
-      "steeringLock": "Electronic steering lock. Releases with ignition ON. Will lock when ignition is removed — use tow dolly or flatbed to avoid binding.",
+      "steeringLock": "Electronic steering lock. Releases with ignition ON. Will lock when ignition is removed \u2014 use tow dolly or flatbed to avoid binding.",
       "battery": {
         "location": "Under hood, passenger side near windshield base",
-        "jumpTerminals": "Under hood — standard red (+) / black (−) terminals",
+        "jumpTerminals": "Under hood \u2014 standard red (+) / black (\u2212) terminals",
         "type": "standard-12v",
         "warnings": "4WD: confirm TC in 2WD before wheel-lift."
       },
@@ -106,35 +107,35 @@
       "fuelType": "gasoline",
       "trans": "10-speed SelectShift automatic (or Grand Touring PHEV)",
       "drivetrain": "RWD or AWD",
-      "curbWeight": "4,745–5,673 lbs (RWD to AWD Grand Touring PHEV)",
-      "gvwr": "Not published — check door jamb label",
-      "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
+      "curbWeight": "4,745\u20135,673 lbs (RWD to AWD Grand Touring PHEV)",
+      "gvwr": "Not published \u2014 check door jamb label",
+      "slot": "Center console storage bin \u2014 small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
       "shift": [
         "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
         "Open the center console storage lid.",
         "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
         "Insert a thin flathead screwdriver or key into the hole.",
         "Press and HOLD the brake-shift interlock switch inside the hole.",
-        "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+        "The shift buttons on the instrument panel will FLASH \u2014 this indicates override mode is active.",
         "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
         "Release the override button.",
         "Vehicle is now in Neutral for towing."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, use the console hole override method OR shift normally.",
-        "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+        "If 12V cannot be restored: use the console hole method \u2014 it works without full electrical power.",
         "AWD models: flatbed preferred."
       ],
-      "notes": "Grand Touring PHEV: orange HV cables present — 12V auxiliary only for jump.",
+      "notes": "Grand Touring PHEV: orange HV cables present \u2014 12V auxiliary only for jump.",
       "warn": "AWD: FLATBED ONLY. PHEV: never touch HV battery.",
       "towMethod": "AWD: FLATBED ONLY. RWD: lift from front (rear drive wheels roll). PHEV models: FLATBED ONLY regardless of drivetrain.",
       "tc": null,
       "towNotes": [
-        "AWD system does not have a neutral for the transfer case — flatbed mandatory.",
+        "AWD system does not have a neutral for the transfer case \u2014 flatbed mandatory.",
         "PHEV Grand Touring: orange HV wiring present. 12V auxiliary jump only.",
-        "PHEV is significantly heavier than gas model — verify flatbed capacity."
+        "PHEV is significantly heavier than gas model \u2014 verify flatbed capacity."
       ],
       "epb": {
         "equipped": false,
@@ -145,7 +146,7 @@
       "steeringLock": "Electronic steering lock. Will engage without ignition power.",
       "battery": {
         "location": "Under hood, passenger side",
-        "jumpTerminals": "Under hood — standard terminals. PHEV: 12V auxiliary only.",
+        "jumpTerminals": "Under hood \u2014 standard terminals. PHEV: 12V auxiliary only.",
         "type": "standard-12v",
         "warnings": "PHEV: NEVER touch HV battery. AWD: flatbed only."
       },
@@ -160,33 +161,33 @@
       "fuelType": "gasoline",
       "trans": "6-speed or 8-speed SelectShift automatic",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "4,007–4,350 lbs",
-      "gvwr": "Not published — check door jamb",
-      "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
+      "curbWeight": "4,007\u20134,350 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Center console storage bin \u2014 small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
       "shift": [
         "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
         "Open the center console storage lid.",
         "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
         "Insert a thin flathead screwdriver or key into the hole.",
         "Press and HOLD the brake-shift interlock switch inside the hole.",
-        "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+        "The shift buttons on the instrument panel will FLASH \u2014 this indicates override mode is active.",
         "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
         "Release the override button.",
         "Vehicle is now in Neutral for towing."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, use the console hole override method OR shift normally.",
-        "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+        "If 12V cannot be restored: use the console hole method \u2014 it works without full electrical power.",
         "AWD models: flatbed preferred."
       ],
       "notes": "Earlier MKX (2007-2015) uses traditional shift slot. 2016+ Nautilus has electronic selector.",
-      "warn": "AWD: flatbed only.",
+      "warn": "AWD \u2014 FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
       "towMethod": "FWD: lift from rear (front drive wheels roll). AWD: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "AWD system has no TC neutral — flatbed required.",
+        "AWD system has no TC neutral \u2014 flatbed required.",
         "FWD: rear lift, front (drive) wheels roll freely."
       ],
       "epb": {
@@ -198,7 +199,7 @@
       "steeringLock": "Standard key or electronic steering lock.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": "AWD: flatbed only."
       },
@@ -213,25 +214,25 @@
       "fuelType": "gasoline",
       "trans": "6-speed SelectShift automatic or hybrid eCVT",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "3,653–3,911 lbs",
-      "gvwr": "Not published — check door jamb",
-      "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
+      "curbWeight": "3,653\u20133,911 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Center console storage bin \u2014 small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
       "shift": [
         "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
         "Open the center console storage lid.",
         "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
         "Insert a thin flathead screwdriver or key into the hole.",
         "Press and HOLD the brake-shift interlock switch inside the hole.",
-        "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+        "The shift buttons on the instrument panel will FLASH \u2014 this indicates override mode is active.",
         "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
         "Release the override button.",
         "Vehicle is now in Neutral for towing."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, use the console hole override method OR shift normally.",
-        "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+        "If 12V cannot be restored: use the console hole method \u2014 it works without full electrical power.",
         "AWD models: flatbed preferred."
       ],
       "notes": "Hybrid eCVT equipped trims: 12V auxiliary jump only.",
@@ -251,7 +252,7 @@
       "steeringLock": "Electronic steering lock on push-button start models.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": "Hybrid: 12V auxiliary only."
       },
@@ -266,8 +267,8 @@
       "fuelType": "gasoline",
       "trans": "6-speed SelectShift automatic",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "4,044–4,253 lbs",
-      "gvwr": "Not published — check door jamb",
+      "curbWeight": "4,044\u20134,253 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
       "slot": "Small override hole below electronic shifter in center console",
       "shift": [
         "Open center console area.",
@@ -284,11 +285,11 @@
         "AWD: flatbed required."
       ],
       "notes": "Some models have secondary battery in trunk. Use under-hood terminals for jumping.",
-      "warn": "AWD: flatbed only.",
+      "warn": "AWD \u2014 FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
       "towMethod": "FWD: lift from rear. AWD: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "Secondary battery may be in trunk — always jump from under-hood terminals.",
+        "Secondary battery may be in trunk \u2014 always jump from under-hood terminals.",
         "AWD: flatbed mandatory."
       ],
       "epb": {
@@ -300,7 +301,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood (primary). Possible secondary in trunk right side.",
-        "jumpTerminals": "Under hood — use hood terminals, NOT trunk battery for jumping",
+        "jumpTerminals": "Under hood \u2014 use hood terminals, NOT trunk battery for jumping",
         "type": "standard-12v",
         "warnings": "Always jump from under-hood terminals. AWD: flatbed only."
       },
@@ -315,34 +316,34 @@
       "fuelType": "gasoline",
       "trans": "6-speed or 8-speed SelectShift automatic",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "3,665–4,033 lbs",
-      "gvwr": "Not published — check door jamb",
-      "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
+      "curbWeight": "3,665\u20134,033 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Center console storage bin \u2014 small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
       "shift": [
         "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
         "Open the center console storage lid.",
         "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
         "Insert a thin flathead screwdriver or key into the hole.",
         "Press and HOLD the brake-shift interlock switch inside the hole.",
-        "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+        "The shift buttons on the instrument panel will FLASH \u2014 this indicates override mode is active.",
         "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
         "Release the override button.",
         "Vehicle is now in Neutral for towing."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, use the console hole override method OR shift normally.",
-        "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+        "If 12V cannot be restored: use the console hole method \u2014 it works without full electrical power.",
         "AWD models: flatbed preferred."
       ],
-      "notes": "Compact crossover. AWD has no TC neutral — flatbed only for AWD.",
-      "warn": "AWD: flatbed only.",
+      "notes": "Compact crossover. AWD has no TC neutral \u2014 flatbed only for AWD.",
+      "warn": "AWD \u2014 FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
       "towMethod": "FWD: lift from rear (front drive wheels roll). AWD: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "AWD: no transfer case neutral — flatbed mandatory.",
-        "Compact vehicle — front access can be tight."
+        "AWD: no transfer case neutral \u2014 flatbed mandatory.",
+        "Compact vehicle \u2014 front access can be tight."
       ],
       "epb": {
         "equipped": false,
@@ -353,7 +354,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood (primary). Secondary battery access under spare tire in rear.",
-        "jumpTerminals": "Under hood — red rubber boot on positive terminal",
+        "jumpTerminals": "Under hood \u2014 red rubber boot on positive terminal",
         "type": "standard-12v",
         "warnings": "AWD: flatbed only."
       },
@@ -366,7 +367,7 @@
       "yearEnd": 2011,
       "trans": "4-speed automatic (AOD/4R70W)",
       "drivetrain": "RWD",
-      "slot": "Column-mounted shifter — slot on the STEERING COLUMN, typically at the base of the column lever housing.",
+      "slot": "Column-mounted shifter \u2014 slot on the STEERING COLUMN, typically at the base of the column lever housing.",
       "shift": [
         "Turn ignition to ON (key to Run position).",
         "Column shifter: locate the shift lock override slot at the BASE of the column shifter housing.",
@@ -378,20 +379,20 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood, driver side near firewall.",
+        "Connect jump pack to battery \u2014 under the hood, driver side near firewall.",
         "Once 12V power is restored, press brake and shift to Neutral normally."
       ],
-      "notes": "Extremely common fleet/livery/police vehicle. Column shifter — slot on steering column, not console.",
+      "notes": "Extremely common fleet/livery/police vehicle. Column shifter \u2014 slot on steering column, not console.",
       "warn": "",
-      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Very common — straightforward procedure.",
+      "towMethod": "RWD: lift from rear \u2014 rear (drive) wheels in the air. Very common \u2014 straightforward procedure.",
       "tc": null,
       "towNotes": [
         "RWD: lift from rear.",
-        "Column shifter — very common livery/fleet vehicle for operators."
+        "Column shifter \u2014 very common livery/fleet vehicle for operators."
       ],
       "battery": {
         "location": "Under hood, driver side near firewall",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       },
@@ -406,7 +407,7 @@
       "drivetrain": "FWD",
       "slot": "Small plastic cap near the gear selector base on the center console.",
       "shift": [
-        "Turn ignition to ON (key to Run — do not start).",
+        "Turn ignition to ON (key to Run \u2014 do not start).",
         "Locate shift lock cap near selector base on center console.",
         "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead into the slot and press firmly downward.",
@@ -416,19 +417,19 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally."
       ],
       "notes": "FWD luxury sedan. Column or console shift depending on year.",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front."
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       },
@@ -441,10 +442,10 @@
       "yearEnd": 2002,
       "trans": "4-speed automatic (4R100)",
       "drivetrain": "RWD or 4WD (part-time)",
-      "slot": "Column-mounted shifter — slot on STEERING COLUMN",
+      "slot": "Column-mounted shifter \u2014 slot on STEERING COLUMN",
       "shift": [
         "Turn ignition to ON.",
-        "1st gen Navigator uses a COLUMN-MOUNTED shifter — slot is on the STEERING COLUMN.",
+        "1st gen Navigator uses a COLUMN-MOUNTED shifter \u2014 slot is on the STEERING COLUMN.",
         "Insert key into the column slot and press firmly.",
         "While holding, press brake pedal.",
         "Move column lever to Neutral."
@@ -453,13 +454,13 @@
         "Apply parking brake.",
         "Battery under the hood, passenger side near firewall. Connect jump pack.",
         "Once powered, press brake and shift normally.",
-        "4WD: electronic TC — jump battery first, then shift TC to 2WD before towing.",
-        "RWD: lift from rear — rear (drive) wheels in the air.",
-        "4WD in 2H: lift from rear — rear (drive) wheels in the air."
+        "4WD: electronic TC \u2014 jump battery first, then shift TC to 2WD before towing.",
+        "RWD: lift from rear \u2014 rear (drive) wheels in the air.",
+        "4WD in 2H: lift from rear \u2014 rear (drive) wheels in the air."
       ],
-      "notes": "1st gen Navigator — column shifter. Electronic 4WD requires 12V to shift TC.",
+      "notes": "1st gen Navigator \u2014 column shifter. Electronic 4WD requires 12V to shift TC.",
       "warn": "4WD: TC must be in 2WD before towing. Jump battery first if dead.",
-      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: TC to 2H first, then lift from rear.",
+      "towMethod": "RWD/2WD: lift from rear \u2014 rear (drive) wheels in the air. 4WD: TC to 2H first, then lift from rear.",
       "tc": {
         "type": "Electronic 4WD (push-button on dash)",
         "positions": [
@@ -475,12 +476,12 @@
         ]
       },
       "towNotes": [
-        "Column shifter — slot on steering column.",
+        "Column shifter \u2014 slot on steering column.",
         "RWD: lift from rear. 4WD: TC to 2H."
       ],
       "battery": {
         "location": "Under hood, passenger side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": "4WD: jump battery first to power TC."
       },
@@ -495,7 +496,7 @@
       "drivetrain": "RWD",
       "slot": "Small plastic cap near the gear selector base on the center console.",
       "shift": [
-        "Turn ignition to ON (key to Run — do not start).",
+        "Turn ignition to ON (key to Run \u2014 do not start).",
         "Locate shift lock cap near selector base on center console.",
         "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead into the slot and press firmly downward.",
@@ -505,12 +506,12 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood, driver side.",
+        "Connect jump pack to battery \u2014 under the hood, driver side.",
         "Once 12V power is restored, press brake and shift to Neutral normally."
       ],
       "notes": "RWD personal luxury coupe. Air suspension on all trims.",
       "warn": "Air suspension: may drop with dead battery. Jump first to normalize.",
-      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air.",
+      "towMethod": "RWD: lift from rear \u2014 rear (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "RWD: lift from rear.",
@@ -518,7 +519,7 @@
       ],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": "Air suspension may drop with dead battery."
       },
@@ -531,19 +532,19 @@
       "yearEnd": 2016,
       "trans": "6-speed SelectShift automatic (6F55)",
       "drivetrain": "FWD or AWD (EcoBoost)",
-      "slot": "Center console storage bin — small access HOLE just below the media hub connections. Open console lid, locate hole in front wall below USB/media ports.",
+      "slot": "Center console storage bin \u2014 small access HOLE just below the media hub connections. Open console lid, locate hole in front wall below USB/media ports.",
       "shift": [
         "Turn ignition to ON.",
         "Open the center console storage lid.",
         "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
         "Insert thin flathead into the hole and press the brake-shift interlock switch.",
-        "The instrument panel shift buttons will FLASH — override is active.",
+        "The instrument panel shift buttons will FLASH \u2014 override is active.",
         "While holding, press the N button on the instrument panel.",
         "Release the override tool."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Once powered, shift to N via push-button selector or console hole method.",
         "AWD: flatbed preferred. FWD: lift from front."
       ],
@@ -558,7 +559,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -570,7 +571,7 @@
       "yearEnd": 2019,
       "trans": "6-speed automatic (6F55)",
       "drivetrain": "FWD or AWD (EcoBoost)",
-      "slot": "Center console storage bin — small access HOLE below the media hub. Same procedure as Navigator/MKZ.",
+      "slot": "Center console storage bin \u2014 small access HOLE below the media hub. Same procedure as Navigator/MKZ.",
       "shift": [
         "Turn ignition to ON.",
         "Open center console storage lid.",
@@ -582,7 +583,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Once powered, shift to N.",
         "AWD (EcoBoost): flatbed preferred. FWD: lift from front."
       ],
@@ -597,7 +598,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -609,10 +610,10 @@
       "yearEnd": 2006,
       "trans": "5-speed automatic (5R55N) or 6-speed manual (Getrag)",
       "drivetrain": "RWD",
-      "slot": "Small cap near gear selector base on center console — ALSO: battery is in the TRUNK.",
+      "slot": "Small cap near gear selector base on center console \u2014 ALSO: battery is in the TRUNK.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Locate the shift lock override slot \u2014 Small cap near gear selector base on center console \u2014 ALSO: battery is in the TRUNK..",
         "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
         "While holding, press the brake pedal firmly.",
@@ -621,18 +622,18 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "BATTERY IS IN THE TRUNK — open trunk to access.",
+        "BATTERY IS IN THE TRUNK \u2014 open trunk to access.",
         "Connect jump pack to trunk battery.",
         "Once powered, press brake and shift to N.",
         "RWD: lift from rear. Flatbed preferred."
       ],
       "notes": "Battery in TRUNK. Manual: depress clutch, select Neutral.",
-      "warn": "Battery in TRUNK — not under the hood.",
-      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air.",
+      "warn": "Battery in TRUNK \u2014 not under the hood.",
+      "towMethod": "RWD: lift from rear \u2014 rear (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "RWD: lift from rear.",
-        "Battery in TRUNK — open trunk for jump access."
+        "Battery in TRUNK \u2014 open trunk for jump access."
       ],
       "knownIssues": [
         {
@@ -640,20 +641,21 @@
           "detail": "The LS 12V battery is in the trunk. There is no battery under the hood. Always open the trunk to access jump terminals."
         },
         {
-          "title": "Battery in Trunk — Not Under Hood",
+          "title": "Battery in Trunk \u2014 Not Under Hood",
           "detail": "The Lincoln LS 12V battery is in the trunk. Opening the hood will not find the battery. Open the trunk and lift the cargo floor liner."
         },
         {
-          "title": "Battery in Trunk — Not Under Hood",
+          "title": "Battery in Trunk \u2014 Not Under Hood",
           "detail": "The Lincoln LS battery is in the trunk. There is no battery under the hood. Open the trunk to access the 12V battery for jumping."
         }
       ],
       "battery": {
-        "location": "TRUNK — under cargo floor",
-        "jumpTerminals": "Trunk — 12V battery terminals",
+        "location": "TRUNK \u2014 under cargo floor",
+        "jumpTerminals": "Trunk \u2014 12V battery terminals",
         "type": "standard-12v",
-        "warnings": "Battery in TRUNK — not under hood."
+        "warnings": "Battery in TRUNK \u2014 not under hood."
       }
     }
-  ]
+  ],
+  "make": "Lincoln"
 }

@@ -824,7 +824,8 @@
         "Air suspension: set to lowest/normal ride height before loading on flatbed if possible.",
         "NOTE: 'e-tron' name used through 2023; renamed 'Q8 e-tron' for 2024 model year onward."
       ],
-      "notes": "Original e-tron (2019-2023) renamed Q8 e-tron for 2024+. e-tron S/Q8 S e-tron = tri-motor 496hp. 12V in trunk \u2014 critical tow truck knowledge."
+      "notes": "Original e-tron (2019-2023) renamed Q8 e-tron for 2024+. e-tron S/Q8 S e-tron = tri-motor 496hp. 12V in trunk \u2014 critical tow truck knowledge.",
+      "make": "Audi"
     },
     {
       "model": "e-tron GT / RS e-tron GT (F8) (2022-2026)",
@@ -845,7 +846,8 @@
         "Gran Turismo body \u2014 very low clearance. Use flatbed, not wheel lift.",
         "AWD: FLATBED ONLY."
       ],
-      "notes": "Gran Turismo 4-door sports car. Low stance \u2014 flatbed required, no wheel lift. RS version has 646hp. e-tron GT yearStart is 2022 in US. Shares platform with Porsche Taycan."
+      "notes": "Gran Turismo 4-door sports car. Low stance \u2014 flatbed required, no wheel lift. RS version has 646hp. e-tron GT yearStart is 2022 in US. Shares platform with Porsche Taycan.",
+      "make": "Audi"
     },
     {
       "model": "Q4 e-tron / Q4 Sportback e-tron (2022-2026)",
@@ -864,7 +866,8 @@
         "Once 12V restored, press brake and select N on electronic selector.",
         "AWD models: FLATBED REQUIRED."
       ],
-      "notes": "MEB platform (shared with VW ID.4). Smaller/more affordable EV than Q8 e-tron. Q4 40 = RWD; Q4 45/50 = AWD."
+      "notes": "MEB platform (shared with VW ID.4). Smaller/more affordable EV than Q8 e-tron. Q4 40 = RWD; Q4 45/50 = AWD.",
+      "make": "Audi"
     },
     {
       "model": "80 / 90 / Coupe Quattro (B3/B4) (1990-1995)",
@@ -883,7 +886,8 @@
         "Manual: depress clutch and select N.",
         "Quattro AWD: FLATBED preferred."
       ],
-      "notes": "Pre-A4 era Audi. Type 89 (B3) and Type 8C (B4). The 90 was the upmarket version of the 80. Coupe Quattro = 3-door hatch. These are older vehicles \u2014 simple shift interlock."
+      "notes": "Pre-A4 era Audi. Type 89 (B3) and Type 8C (B4). The 90 was the upmarket version of the 80. Coupe Quattro = 3-door hatch. These are older vehicles \u2014 simple shift interlock.",
+      "make": "Audi"
     },
     {
       "model": "100 / A6 (C4) (1990-1997)",
@@ -902,7 +906,8 @@
         "Manual: depress clutch and select N.",
         "Quattro AWD: FLATBED preferred."
       ],
-      "notes": "Audi 100 renamed to A6 for 1995 MY in US. Same vehicle \u2014 C4 chassis. 2.8L V6 most common in US market."
+      "notes": "Audi 100 renamed to A6 for 1995 MY in US. Same vehicle \u2014 C4 chassis. 2.8L V6 most common in US market.",
+      "make": "Audi"
     },
     {
       "model": "V8 Quattro (4C) (1990-1994)",
@@ -920,7 +925,8 @@
         "Key to ON, insert tool into slot, press brake, move to N.",
         "Quattro AWD: FLATBED preferred."
       ],
-      "notes": "Flagship sedan, predecessor to A8. 3.6L or 4.2L V8. All Quattro AWD. Rare vehicle \u2014 likely collectible."
+      "notes": "Flagship sedan, predecessor to A8. 3.6L or 4.2L V8. All Quattro AWD. Rare vehicle \u2014 likely collectible.",
+      "make": "Audi"
     },
     {
       "model": "Cabriolet (B3/B4 platform) (1994-1998)",
@@ -939,7 +945,8 @@
         "Manual: depress clutch and select N.",
         "Soft top: ensure top is secured before towing to prevent wind damage."
       ],
-      "notes": "2.8L V6 in US. Based on Audi 80/90 B4 platform. Predecessor to A4 Cabriolet. Soft top \u2014 protect from wind damage during tow."
+      "notes": "2.8L V6 in US. Based on Audi 80/90 B4 platform. Predecessor to A4 Cabriolet. Soft top \u2014 protect from wind damage during tow.",
+      "make": "Audi"
     },
     {
       "model": "A4 Cabriolet / S4 Cabriolet (B6/B7) (2003-2009)",
@@ -958,7 +965,8 @@
         "Soft top: secure before towing.",
         "Quattro AWD: FLATBED preferred."
       ],
-      "notes": "Convertible A4. Battery under hood like B6/B7 sedan (NOT trunk). Soft top \u2014 protect from wind damage during tow."
+      "notes": "Convertible A4. Battery under hood like B6/B7 sedan (NOT trunk). Soft top \u2014 protect from wind damage during tow.",
+      "make": "Audi"
     },
     {
       "model": "Q6 e-tron / SQ6 e-tron (2024-2026)",
@@ -977,7 +985,8 @@
         "Once 12V restored, press brake and select N on electronic selector.",
         "AWD: FLATBED REQUIRED."
       ],
-      "notes": "Built on new PPE platform (shared with Porsche Macan EV). Launched 2024. ~300 mile range. SQ6 = dual motor AWD 489hp."
+      "notes": "Built on new PPE platform (shared with Porsche Macan EV). Launched 2024. ~300 mile range. SQ6 = dual motor AWD 489hp.",
+      "make": "Audi"
     },
     {
       "model": "A6 e-tron / S6 e-tron (2024-2026)",
@@ -995,7 +1004,9 @@
         "NEVER touch HV traction battery under floor or orange/yellow cables.",
         "Once 12V restored, press brake and select N on electronic selector."
       ],
-      "notes": "New PPE-platform sedan/Avant EV. Launched in US 2025. Not to be confused with A6 TFSI (ICE). A6 Avant = estate/wagon variant."
+      "notes": "New PPE-platform sedan/Avant EV. Launched in US 2025. Not to be confused with A6 TFSI (ICE). A6 Avant = estate/wagon variant.",
+      "make": "Audi"
     }
-  ]
+  ],
+  "make": "Audi"
 }

@@ -6,10 +6,12 @@
     "website": "bandittowing.com",
     "location": "Cary, NC",
     "year": 2025,
-    "rights": "All rights reserved. This dataset, including all vehicle towing procedures, shift lock release instructions, neutral override procedures, battery terminal locations, transfer case procedures, known issues, and associated data, was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use of this dataset, in whole or in part, is strictly prohibited without express written permission from the owner.",
-    "notice": "Copyright 2025 Bandit Towing & Transport. Unauthorized use prohibited."
+    "rights": "All rights reserved. This dataset was compiled and authored exclusively for and is the property of Bandit Towing & Transport. Unauthorized copying, reproduction, redistribution, or commercial use is strictly prohibited without express written permission from the owner."
   },
-  "_description": "Bandit Towing vehicle database manifest. Fetch each file in makes/ to load all vehicles.",
+  "_description": "Vehicle database manifest \u2014 38 makes, 718 vehicles, 1990-2026. Each make file contains full shift lock release, neutral override, battery location, and tow method data.",
+  "_generated": "2026-03-23",
+  "_totalVehicles": 718,
+  "_totalMakes": 38,
   "makes": [
     {
       "make": "Acura",
@@ -27,7 +29,7 @@
       "count": 25
     },
     {
-      "make": "Bmw",
+      "make": "BMW",
       "file": "bmw.json",
       "count": 58
     },
@@ -67,14 +69,14 @@
       "count": 37
     },
     {
+      "make": "GMC",
+      "file": "gmc.json",
+      "count": 24
+    },
+    {
       "make": "Genesis",
       "file": "genesis.json",
       "count": 7
-    },
-    {
-      "make": "Gmc",
-      "file": "gmc.json",
-      "count": 24
     },
     {
       "make": "Honda",
@@ -122,6 +124,11 @@
       "count": 13
     },
     {
+      "make": "MINI",
+      "file": "mini.json",
+      "count": 7
+    },
+    {
       "make": "Mazda",
       "file": "mazda.json",
       "count": 10
@@ -130,11 +137,6 @@
       "make": "Mercedes-Benz",
       "file": "mercedes-benz.json",
       "count": 54
-    },
-    {
-      "make": "Mini",
-      "file": "mini.json",
-      "count": 7
     },
     {
       "make": "Mitsubishi",
@@ -194,16 +196,12 @@
     {
       "make": "Volkswagen",
       "file": "volkswagen.json",
-      "count": 14
+      "count": 27
     },
     {
       "make": "Volvo",
       "file": "volvo.json",
       "count": 11
     }
-  ],
-  "totalVehicles": 705,
-  "lastUpdated": "2026-03-23",
-  "version": "2.2",
-  "notes": "v2.2: Updated counts — 705 vehicles across 38 makes, 1990–2026."
+  ]
 }

@@ -21,33 +21,33 @@
       "fuelType": "gasoline",
       "trans": "8-speed automatic",
       "drivetrain": "RWD or AWD",
-      "curbWeight": "3,373–3,671 lbs",
-      "gvwr": "Not published — check door jamb",
+      "curbWeight": "3,373\u20133,671 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
       "slot": "Small cap or override button under center console near selector base",
       "shift": [
         "Turn ignition to ON.",
-        "The G70 uses an 8-speed automatic with a fully electronic override — locate the cap at the selector base and remove it.",
+        "The G70 uses an 8-speed automatic with a fully electronic override \u2014 locate the cap at the selector base and remove it.",
         "Press and hold the electronic override button firmly.",
         "Simultaneously press the brake pedal.",
         "Move the selector to N while holding the override. Confirm N on the display.",
-        "CANNOT SHIFT WITHOUT POWER — restore 12V first if battery is dead."
+        "CANNOT SHIFT WITHOUT POWER \u2014 restore 12V first if battery is dead."
       ],
       "neutral": [
         "Apply parking brake.",
         "IMPORTANT: G70 battery is in the TRUNK under the floor panel (remove mat, tray, and toolkit to access).",
-        "Use the UNDER-HOOD JUMP TERMINALS (always present) — connect jump pack there, not at the trunk battery.",
+        "Use the UNDER-HOOD JUMP TERMINALS (always present) \u2014 connect jump pack there, not at the trunk battery.",
         "Once 12V power is restored, press brake and shift to N normally.",
-        "RWD: lift from front — rear (drive) wheels roll on ground. AWD: FLATBED ONLY.",
+        "RWD: lift from front \u2014 rear (drive) wheels roll on ground. AWD: FLATBED ONLY.",
         "EPB: hold EPB button with power to release before towing."
       ],
-      "notes": "Battery in trunk. Use under-hood jump terminals. Cannot shift without electrical power — must connect battery first.",
-      "warn": "AWD: flatbed only. Battery in trunk — use under-hood jump terminals.",
+      "notes": "Battery in trunk. Use under-hood jump terminals. Cannot shift without electrical power \u2014 must connect battery first.",
+      "warn": "AWD: flatbed only. Battery in trunk \u2014 use under-hood jump terminals.",
       "towMethod": "RWD: lift from front (rear drive wheels roll). AWD: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "Cannot shift to neutral without electrical power — connect jump pack first.",
-        "AWD: no transfer case neutral — flatbed mandatory.",
-        "Battery in trunk — use dedicated under-hood jump posts."
+        "Cannot shift to neutral without electrical power \u2014 connect jump pack first.",
+        "AWD: no transfer case neutral \u2014 flatbed mandatory.",
+        "Battery in trunk \u2014 use dedicated under-hood jump posts."
       ],
       "epb": {
         "equipped": true,
@@ -60,10 +60,10 @@
         ]
       },
       "airSuspension": null,
-      "steeringLock": "Electronic steering lock — requires ignition power.",
+      "steeringLock": "Electronic steering lock \u2014 requires ignition power.",
       "battery": {
-        "location": "TRUNK under floor panel — remove mat, tray, and toolkit to access",
-        "jumpTerminals": "Under hood — dedicated jump-start terminals (positive and negative posts)",
+        "location": "TRUNK under floor panel \u2014 remove mat, tray, and toolkit to access",
+        "jumpTerminals": "Under hood \u2014 dedicated jump-start terminals (positive and negative posts)",
         "type": "standard-12v",
         "warnings": "Must restore electrical power before any shifting. AWD: flatbed only."
       },
@@ -78,8 +78,8 @@
       "fuelType": "gasoline",
       "trans": "8-speed automatic; Electrified G80 (EV) available 2023+",
       "drivetrain": "RWD or AWD; EV is AWD",
-      "curbWeight": "4,069–4,662 lbs (EV heavier)",
-      "gvwr": "Not published — check door jamb",
+      "curbWeight": "4,069\u20134,662 lbs (EV heavier)",
+      "gvwr": "Not published \u2014 check door jamb",
       "slot": "Electronic override button under console cap near selector base",
       "shift": [
         "Turn ignition to ON.",
@@ -87,14 +87,14 @@
         "Press and hold the electronic override button.",
         "Press the brake pedal simultaneously.",
         "Move the selector to N. Confirm N on the display.",
-        "Electrified G80 (2023+ EV): restore 12V power first — use the under-hood jump terminals."
+        "Electrified G80 (2023+ EV): restore 12V power first \u2014 use the under-hood jump terminals."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery is in the TRUNK under the floor — use the UNDER-HOOD JUMP TERMINALS to connect your jump pack.",
+        "Battery is in the TRUNK under the floor \u2014 use the UNDER-HOOD JUMP TERMINALS to connect your jump pack.",
         "Once 12V power is restored, shift to N normally.",
-        "RWD: lift from front — rear (drive) wheels roll. AWD: FLATBED ONLY. Electrified G80 EV: FLATBED ONLY.",
-        "Electrified G80: 12V auxiliary only — NEVER touch the orange high-voltage battery cables."
+        "RWD: lift from front \u2014 rear (drive) wheels roll. AWD: FLATBED ONLY. Electrified G80 EV: FLATBED ONLY.",
+        "Electrified G80: 12V auxiliary only \u2014 NEVER touch the orange high-voltage battery cables."
       ],
       "notes": "Electrified G80 EV (2023+): orange HV cables, flatbed only, 12V auxiliary only.",
       "warn": "AWD: flatbed only. Electrified G80: FLATBED ONLY, never touch HV.",
@@ -119,7 +119,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "TRUNK under floor panel. Under-hood jump terminals available.",
-        "jumpTerminals": "Under hood — dedicated jump-start posts",
+        "jumpTerminals": "Under hood \u2014 dedicated jump-start posts",
         "type": "standard-12v",
         "warnings": "Electrified G80: 12V only, flatbed only. AWD: flatbed only."
       },
@@ -134,8 +134,8 @@
       "fuelType": "gasoline",
       "trans": "8-speed automatic",
       "drivetrain": "RWD or AWD",
-      "curbWeight": "4,453–4,750 lbs",
-      "gvwr": "Not published — check door jamb",
+      "curbWeight": "4,453\u20134,750 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
       "slot": "Electronic override under console near selector",
       "shift": [
         "Turn ignition to ON.",
@@ -143,22 +143,22 @@
         "Press the electronic override button firmly.",
         "Press brake while holding override.",
         "Move selector to N. Confirm N on the display.",
-        "Fully electronic — requires 12V power for all functions. Jump battery first if dead."
+        "Fully electronic \u2014 requires 12V power for all functions. Jump battery first if dead."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Battery in TRUNK under floor — use the UNDER-HOOD JUMP TERMINALS to connect jump pack.",
+        "Battery in TRUNK under floor \u2014 use the UNDER-HOOD JUMP TERMINALS to connect jump pack.",
         "Once 12V power is restored, press brake and shift to N normally.",
         "RWD: lift from front. AWD: FLATBED ONLY.",
-        "All G90 systems are fully electronic — no mechanical override exists. Power is required."
+        "All G90 systems are fully electronic \u2014 no mechanical override exists. Power is required."
       ],
-      "notes": "Flagship sedan. Fully electronic — requires 12V power for all functions.",
-      "warn": "AWD: flatbed only.",
+      "notes": "Flagship sedan. Fully electronic \u2014 requires 12V power for all functions.",
+      "warn": "AWD \u2014 FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
       "towMethod": "RWD: lift from front. AWD: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "Fully electronic — must have power for any procedure.",
-        "AWD: no TC neutral — flatbed mandatory."
+        "Fully electronic \u2014 must have power for any procedure.",
+        "AWD: no TC neutral \u2014 flatbed mandatory."
       ],
       "epb": {
         "equipped": true,
@@ -179,9 +179,9 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "TRUNK under floor. Under-hood jump terminals available.",
-        "jumpTerminals": "Under hood — dedicated jump-start posts",
+        "jumpTerminals": "Under hood \u2014 dedicated jump-start posts",
         "type": "standard-12v",
-        "warnings": "AWD: flatbed only. Fully electronic — must restore power first."
+        "warnings": "AWD: flatbed only. Fully electronic \u2014 must restore power first."
       },
       "knownIssues": []
     },
@@ -194,9 +194,9 @@
       "fuelType": "gasoline",
       "trans": "8-speed automatic; Electrified GV70 (EV) available",
       "drivetrain": "RWD or AWD; Electrified: AWD",
-      "curbWeight": "3,946–4,464 lbs",
-      "gvwr": "Not published — check door jamb",
-      "slot": "Electronic selector — override button under console cap",
+      "curbWeight": "3,946\u20134,464 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Electronic selector \u2014 override button under console cap",
       "shift": [
         "Turn ignition to ON.",
         "Remove the cap at the selector base.",
@@ -206,10 +206,10 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "12V battery under the hood — connect jump pack.",
+        "12V battery under the hood \u2014 connect jump pack.",
         "Once powered, press brake and shift to N normally.",
         "RWD: lift from front. AWD: FLATBED ONLY. Electrified GV70: FLATBED ONLY.",
-        "Electrified GV70: 12V auxiliary only — NEVER touch the high-voltage battery."
+        "Electrified GV70: 12V auxiliary only \u2014 NEVER touch the high-voltage battery."
       ],
       "notes": "Electrified GV70 EV: flatbed only, 12V auxiliary only.",
       "warn": "AWD: flatbed only. Electrified: FLATBED ONLY, 12V only.",
@@ -231,7 +231,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood (primary). Check door jamb for specifics.",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": "Electrified: 12V only, flatbed only. AWD: flatbed only."
       },
@@ -246,32 +246,32 @@
       "fuelType": "gasoline",
       "trans": "8-speed automatic",
       "drivetrain": "RWD or AWD",
-      "curbWeight": "4,497–5,830 lbs",
-      "gvwr": "6,217–6,834 lbs (varies by config)",
-      "slot": "Electronic selector — override under console cap near selector base",
+      "curbWeight": "4,497\u20135,830 lbs",
+      "gvwr": "6,217\u20136,834 lbs (varies by config)",
+      "slot": "Electronic selector \u2014 override under console cap near selector base",
       "shift": [
         "Turn ignition to ON.",
         "Locate and remove the cap near the selector base on the center console.",
         "Press and hold the electronic override button firmly.",
         "Press the brake pedal.",
         "Move selector to N. Confirm N on the display.",
-        "CRITICAL: Cannot shift without electrical power — jump battery first if dead."
+        "CRITICAL: Cannot shift without electrical power \u2014 jump battery first if dead."
       ],
       "neutral": [
         "Apply parking brake.",
-        "Under-hood jump terminals are always available — connect jump pack there.",
+        "Under-hood jump terminals are always available \u2014 connect jump pack there.",
         "Once 12V power is restored, press brake and shift to N normally.",
-        "RWD: lift from front. AWD: FLATBED ONLY — no transfer case neutral.",
-        "Large, heavy SUV — verify flatbed weight rating before loading."
+        "RWD: lift from front. AWD: FLATBED ONLY \u2014 no transfer case neutral.",
+        "Large, heavy SUV \u2014 verify flatbed weight rating before loading."
       ],
       "notes": "Largest Genesis SUV. AWD has no TC neutral. Must have power to shift.",
       "warn": "AWD: flatbed only. Cannot shift without electrical power.",
       "towMethod": "RWD: lift from front. AWD: FLATBED ONLY.",
       "tc": null,
       "towNotes": [
-        "AWD: no transfer case — flatbed mandatory.",
+        "AWD: no transfer case \u2014 flatbed mandatory.",
         "Must restore 12V power before any shifting is possible.",
-        "Large, heavy SUV — verify flatbed capacity."
+        "Large, heavy SUV \u2014 verify flatbed capacity."
       ],
       "epb": {
         "equipped": true,
@@ -286,7 +286,7 @@
       "steeringLock": "Electronic steering lock.",
       "battery": {
         "location": "Under hood or trunk (check door jamb). Under-hood jump terminals always available.",
-        "jumpTerminals": "Under hood — dedicated jump-start posts",
+        "jumpTerminals": "Under hood \u2014 dedicated jump-start posts",
         "type": "standard-12v",
         "warnings": "AWD: flatbed only. Must restore power before shifting."
       },
@@ -299,28 +299,28 @@
       "yearEnd": 2026,
       "trans": "Single-speed electric",
       "drivetrain": "AWD electric",
-      "slot": "Electronic selector — use touchscreen or selector button to access N",
+      "slot": "Electronic selector \u2014 use touchscreen or selector button to access N",
       "shift": [
         "Turn vehicle to ON/Ready mode.",
-        "Electronic gear selector — press and hold N button while pressing brake pedal.",
+        "Electronic gear selector \u2014 press and hold N button while pressing brake pedal.",
         "Hold 3 seconds. Confirm N on instrument cluster.",
         "If power lost: connect jump pack to 12V auxiliary in TRUNK.",
-        "12V AUXILIARY ONLY — NEVER touch HV components."
+        "12V AUXILIARY ONLY \u2014 NEVER touch HV components."
       ],
       "neutral": [
-        "FLATBED ONLY — electric drivetrain.",
+        "FLATBED ONLY \u2014 electric drivetrain.",
         "12V auxiliary battery is in the TRUNK under cargo floor.",
-        "12V AUXILIARY ONLY — never touch HV battery.",
+        "12V AUXILIARY ONLY \u2014 never touch HV battery.",
         "Once powered, select N electronically."
       ],
       "notes": "EV platform. 12V auxiliary battery in trunk. Flatbed only.",
       "warn": "FLATBED ONLY. 12V auxiliary battery in TRUNK. Never touch HV system.",
-      "towMethod": "FLATBED ONLY — electric drivetrain.",
+      "towMethod": "FLATBED ONLY \u2014 electric drivetrain.",
       "tc": null,
       "towNotes": [
         "ELECTRIC VEHICLE: FLATBED ONLY. Never tow with driven wheels on ground.",
         "12V auxiliary battery is in the TRUNK under cargo floor.",
-        "NEVER touch or access the high-voltage (HV) system — marked with orange cables."
+        "NEVER touch or access the high-voltage (HV) system \u2014 marked with orange cables."
       ],
       "knownIssues": [
         {
@@ -329,8 +329,8 @@
         }
       ],
       "battery": {
-        "location": "TRUNK — under cargo floor panel",
-        "jumpTerminals": "Trunk — 12V auxiliary battery terminals",
+        "location": "TRUNK \u2014 under cargo floor panel",
+        "jumpTerminals": "Trunk \u2014 12V auxiliary battery terminals",
         "type": "auxiliary-12v-only",
         "warnings": "Battery in TRUNK. FLATBED ONLY. Never touch HV system."
       }
@@ -342,23 +342,23 @@
       "yearEnd": 2026,
       "trans": "Single-speed electric",
       "drivetrain": "AWD electric",
-      "slot": "Electronic selector — N button on console",
+      "slot": "Electronic selector \u2014 N button on console",
       "shift": [
         "Turn vehicle to ON/Ready mode.",
         "Press and hold N button on gear selector while pressing brake pedal.",
         "Hold 3 seconds. Confirm N.",
         "If power lost: connect jump pack to 12V auxiliary under hood.",
-        "12V AUXILIARY ONLY — NEVER touch HV components."
+        "12V AUXILIARY ONLY \u2014 NEVER touch HV components."
       ],
       "neutral": [
-        "FLATBED ONLY — electric drivetrain.",
+        "FLATBED ONLY \u2014 electric drivetrain.",
         "12V auxiliary under hood, driver side.",
-        "12V AUXILIARY ONLY — never touch HV battery.",
+        "12V AUXILIARY ONLY \u2014 never touch HV battery.",
         "Once powered, select N electronically."
       ],
       "notes": "EV. 12V battery under hood. Flatbed only.",
       "warn": "FLATBED ONLY. Never touch HV system.",
-      "towMethod": "FLATBED ONLY — electric drivetrain.",
+      "towMethod": "FLATBED ONLY \u2014 electric drivetrain.",
       "tc": null,
       "towNotes": [
         "ELECTRIC VEHICLE: FLATBED ONLY.",
@@ -368,10 +368,11 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard 12V auxiliary terminals",
+        "jumpTerminals": "Under hood \u2014 standard 12V auxiliary terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
+        "warnings": "FLATBED ONLY. 12V auxiliary only \u2014 never touch HV system."
       }
     }
-  ]
+  ],
+  "make": "Genesis"
 }

@@ -33,7 +33,8 @@
         "FLATBED ONLY \u2014 all R1T Gen 1 are AWD. Never tow with wheels on ground.",
         "NEVER touch orange/yellow HV cables. HV traction battery is in the skateboard chassis under the floor."
       ],
-      "notes": "R1T Gen 1 (2021-2024). First deliveries October 2021. Two 12V batteries early builds \u2192 one 12V battery later 2023-2024 builds. Emergency frunk access: T20/T25 screws on LEFT wheel arch inboard panel \u2192 pull hood release cable. Jump terminals also at rear hitch. Quad Motor = 4 independent motors. FLATBED ONLY. Park brake release loop: MY2022-2024 pull loop TWICE."
+      "notes": "R1T Gen 1 (2021-2024). First deliveries October 2021. Two 12V batteries early builds \u2192 one 12V battery later 2023-2024 builds. Emergency frunk access: T20/T25 screws on LEFT wheel arch inboard panel \u2192 pull hood release cable. Jump terminals also at rear hitch. Quad Motor = 4 independent motors. FLATBED ONLY. Park brake release loop: MY2022-2024 pull loop TWICE.",
+      "make": "Rivian"
     },
     {
       "model": "R1T (Gen 2)",
@@ -57,7 +58,8 @@
         "FLATBED ONLY \u2014 all R1T Gen 2 are AWD. Never tow with wheels on ground.",
         "NEVER touch orange/yellow HV cables under vehicle."
       ],
-      "notes": "R1T Gen 2 (2025+). Major change: 12V battery moved from frunk to under passenger seat. Jump via rear hitch terminals or behind frunk tub panel. In-house Enduro motors. Steel body structure (vs aluminum Gen 1). MY2025 park brake release = pull solid lever ONCE. FLATBED ONLY."
+      "notes": "R1T Gen 2 (2025+). Major change: 12V battery moved from frunk to under passenger seat. Jump via rear hitch terminals or behind frunk tub panel. In-house Enduro motors. Steel body structure (vs aluminum Gen 1). MY2025 park brake release = pull solid lever ONCE. FLATBED ONLY.",
+      "make": "Rivian"
     },
     {
       "model": "R1S (Gen 1)",
@@ -82,7 +84,8 @@
         "R1S has 3rd row seating \u2014 verify all passengers clear before towing.",
         "NEVER touch orange/yellow HV cables."
       ],
-      "notes": "R1S Gen 1 (2022-2024). First deliveries December 2021 (employee/internal), general customer deliveries 2022. Same 12V battery location and emergency procedures as R1T Gen 1. 3-row SUV. Quad Motor = 4 independent motors. FLATBED ONLY. Park brake release: MY2022-2024 pull loop TWICE."
+      "notes": "R1S Gen 1 (2022-2024). First deliveries December 2021 (employee/internal), general customer deliveries 2022. Same 12V battery location and emergency procedures as R1T Gen 1. 3-row SUV. Quad Motor = 4 independent motors. FLATBED ONLY. Park brake release: MY2022-2024 pull loop TWICE.",
+      "make": "Rivian"
     },
     {
       "model": "R1S (Gen 2)",
@@ -106,7 +109,8 @@
         "3-row seating \u2014 verify all passengers clear.",
         "NEVER touch orange/yellow HV cables."
       ],
-      "notes": "R1S Gen 2 (2025+). 12V battery moved to under passenger seat \u2014 NOT in frunk. Jump via rear hitch terminals. In-house Enduro motors. New dual-layer battery chemistry options (LFP standard pack; NMC large/max). MY2025 park brake release = solid lever ONCE. 3-row seating. FLATBED ONLY."
+      "notes": "R1S Gen 2 (2025+). 12V battery moved to under passenger seat \u2014 NOT in frunk. Jump via rear hitch terminals. In-house Enduro motors. New dual-layer battery chemistry options (LFP standard pack; NMC large/max). MY2025 park brake release = solid lever ONCE. 3-row seating. FLATBED ONLY.",
+      "make": "Rivian"
     },
     {
       "model": "EDV (Electric Delivery Van)",
@@ -132,7 +136,8 @@
         "Roadside Assistance 24/7: (800) 433-7195 | Fleet Service 24/7: (855) 748-2225",
         "NEVER touch orange/yellow HV cables. NEVER use EDV to jump start another vehicle."
       ],
-      "notes": "EDV (Electric Delivery Van) \u2014 Amazon fleet and commercial customers only. Two variants: EDV 500 (500 cu ft) and EDV 700 (700 cu ft). Two 12V batteries under driver's seat. Jump both simultaneously (positive to posts, negative to door latch). 12.5V/15A (30A peak). Park brake: Safety > Park brake release > Start Release. Pull speed max 5 mph. FLATBED ONLY \u2014 fire hazard otherwise. Height: 9ft 7in. Roadside: (800) 433-7195."
+      "notes": "EDV (Electric Delivery Van) \u2014 Amazon fleet and commercial customers only. Two variants: EDV 500 (500 cu ft) and EDV 700 (700 cu ft). Two 12V batteries under driver's seat. Jump both simultaneously (positive to posts, negative to door latch). 12.5V/15A (30A peak). Park brake: Safety > Park brake release > Start Release. Pull speed max 5 mph. FLATBED ONLY \u2014 fire hazard otherwise. Height: 9ft 7in. Roadside: (800) 433-7195.",
+      "make": "Rivian"
     },
     {
       "model": "R2",
@@ -152,7 +157,8 @@
         "NEVER touch orange/yellow HV cables.",
         "NOTE: R2 not yet in general production as of March 2026 \u2014 verify current procedures with Rivian when vehicle is encountered."
       ],
-      "notes": "R2 compact SUV announced March 2024. Expected deliveries late 2026 (Premium trim); Standard Long Range 2027; base Standard trim 2027+. Starting price ~$45,000-$54,000. Smaller than R1S. Shares R1 Gen 2 electrical architecture. Procedures TBD pending production \u2014 verify with Rivian Roadside Assistance."
+      "notes": "R2 compact SUV announced March 2024. Expected deliveries late 2026 (Premium trim); Standard Long Range 2027; base Standard trim 2027+. Starting price ~$45,000-$54,000. Smaller than R1S. Shares R1 Gen 2 electrical architecture. Procedures TBD pending production \u2014 verify with Rivian Roadside Assistance.",
+      "make": "Rivian"
     }
   ]
 }

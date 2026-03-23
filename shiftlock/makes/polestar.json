@@ -21,32 +21,32 @@
       "fuelType": "electric",
       "trans": "Single-speed electric",
       "drivetrain": "FWD, RWD, or AWD electric",
-      "curbWeight": "4,464–4,824 lbs",
+      "curbWeight": "4,464\u20134,824 lbs",
       "gvwr": "5,556 lbs",
-      "slot": "Center display (touchscreen) — Car Status > Service > Tow Mode. Physical selector override near column stalk.",
+      "slot": "Center display (touchscreen) \u2014 Car Status > Service > Tow Mode. Physical selector override near column stalk.",
       "shift": [
         "Turn vehicle to ON/Ready mode.",
-        "Polestar 2/3/4: on the center TOUCHSCREEN — navigate to Car Status > Service > Tow Mode.",
-        "Activate Tow Mode — this safely puts the vehicle in N and releases the park brake for towing.",
-        "Alternatively: physical gear selector (if equipped) — push selector to N and hold.",
+        "Polestar 2/3/4: on the center TOUCHSCREEN \u2014 navigate to Car Status > Service > Tow Mode.",
+        "Activate Tow Mode \u2014 this safely puts the vehicle in N and releases the park brake for towing.",
+        "Alternatively: physical gear selector (if equipped) \u2014 push selector to N and hold.",
         "If power is lost: connect jump pack to 12V auxiliary battery under the hood.",
-        "12V AUXILIARY ONLY — NEVER touch HV components."
+        "12V AUXILIARY ONLY \u2014 NEVER touch HV components."
       ],
       "neutral": [
-        "FLATBED ONLY — electric drivetrain.",
+        "FLATBED ONLY \u2014 electric drivetrain.",
         "12V auxiliary under hood.",
-        "12V AUXILIARY ONLY — never touch HV battery.",
+        "12V AUXILIARY ONLY \u2014 never touch HV battery.",
         "Activate Tow Mode via touchscreen before loading.",
-        "Polestar 1: carbon fiber body — padded equipment only."
+        "Polestar 1: carbon fiber body \u2014 padded equipment only."
       ],
       "notes": "FLATBED ONLY. Tow Mode via touchscreen. 12V auxiliary under hood.",
-      "warn": "FLATBED ONLY. 12V only — NEVER touch orange HV battery cables.",
-      "towMethod": "FLATBED ONLY — electric drivetrain. FWD, RWD, or AWD depending on variant — all are flatbed only.",
+      "warn": "FLATBED ONLY. 12V only \u2014 NEVER touch orange HV battery cables.",
+      "towMethod": "FLATBED ONLY \u2014 electric drivetrain. FWD, RWD, or AWD depending on variant \u2014 all are flatbed only.",
       "tc": null,
       "towNotes": [
-        "Electric drivetrain — flatbed only on all variants.",
+        "Electric drivetrain \u2014 flatbed only on all variants.",
         "Tow Mode on touchscreen is the correct neutral method.",
-        "12V under-hood terminals accessible — standard procedure.",
+        "12V under-hood terminals accessible \u2014 standard procedure.",
         "Contact Polestar Customer Support if Tow Mode unavailable and vehicle cannot be powered."
       ],
       "epb": {
@@ -61,10 +61,10 @@
         ]
       },
       "airSuspension": null,
-      "steeringLock": "Electronic — Tow Mode disengages.",
+      "steeringLock": "Electronic \u2014 Tow Mode disengages.",
       "battery": {
-        "location": "Under hood — 12V auxiliary jump terminal access points",
-        "jumpTerminals": "Under hood: positive under plastic cover (+), negative at chassis ground (−)",
+        "location": "Under hood \u2014 12V auxiliary jump terminal access points",
+        "jumpTerminals": "Under hood: positive under plastic cover (+), negative at chassis ground (\u2212)",
         "type": "auxiliary-12v-only",
         "warnings": "FLATBED ONLY. 12V only. Never touch orange HV system."
       },
@@ -74,7 +74,7 @@
           "detail": "Polestar 2 requires Tow Mode to be activated via the center touchscreen (Car Status > Service > Tow Mode) for safe neutral and EPB release. Using the column stalk alone may allow the vehicle to re-engage drive. Always use Tow Mode."
         },
         {
-          "title": "FLATBED ONLY — All Variants",
+          "title": "FLATBED ONLY \u2014 All Variants",
           "detail": "All Polestar 2 variants (Standard Range FWD, Long Range Single Motor, Long Range Dual Motor AWD, Performance AWD) are electric drivetrains. Towing with any driven wheels on the ground risks motor damage. Flatbed is the only method."
         }
       ]
@@ -89,29 +89,29 @@
       "trans": "Single-speed electric",
       "drivetrain": "AWD electric",
       "curbWeight": "5,291 lbs (approx)",
-      "gvwr": "Not published — check door jamb",
-      "slot": "Center display touchscreen — same Tow Mode path as Polestar 2",
+      "gvwr": "Not published \u2014 check door jamb",
+      "slot": "Center display touchscreen \u2014 same Tow Mode path as Polestar 2",
       "shift": [
         "Turn vehicle to ON/Ready mode.",
-        "Polestar 2/3/4: on the center TOUCHSCREEN — navigate to Car Status > Service > Tow Mode.",
-        "Activate Tow Mode — this safely puts the vehicle in N and releases the park brake for towing.",
-        "Alternatively: physical gear selector (if equipped) — push selector to N and hold.",
+        "Polestar 2/3/4: on the center TOUCHSCREEN \u2014 navigate to Car Status > Service > Tow Mode.",
+        "Activate Tow Mode \u2014 this safely puts the vehicle in N and releases the park brake for towing.",
+        "Alternatively: physical gear selector (if equipped) \u2014 push selector to N and hold.",
         "If power is lost: connect jump pack to 12V auxiliary battery under the hood.",
-        "12V AUXILIARY ONLY — NEVER touch HV components."
+        "12V AUXILIARY ONLY \u2014 NEVER touch HV components."
       ],
       "neutral": [
-        "FLATBED ONLY — electric drivetrain.",
+        "FLATBED ONLY \u2014 electric drivetrain.",
         "12V auxiliary under hood.",
-        "12V AUXILIARY ONLY — never touch HV battery.",
+        "12V AUXILIARY ONLY \u2014 never touch HV battery.",
         "Activate Tow Mode via touchscreen before loading.",
-        "Polestar 1: carbon fiber body — padded equipment only."
+        "Polestar 1: carbon fiber body \u2014 padded equipment only."
       ],
       "notes": "FLATBED ONLY. AWD electric. Same Tow Mode as Polestar 2.",
-      "warn": "FLATBED ONLY. 12V only. AWD electric — no exceptions.",
-      "towMethod": "FLATBED ONLY — AWD electric drivetrain.",
+      "warn": "FLATBED ONLY. 12V only. AWD electric \u2014 no exceptions.",
+      "towMethod": "FLATBED ONLY \u2014 AWD electric drivetrain.",
       "tc": null,
       "towNotes": [
-        "AWD EV — flatbed only.",
+        "AWD EV \u2014 flatbed only.",
         "Larger, heavier than Polestar 2.",
         "Verify flatbed capacity."
       ],
@@ -126,7 +126,7 @@
       "airSuspension": null,
       "steeringLock": "Electronic.",
       "battery": {
-        "location": "Under hood — 12V auxiliary access",
+        "location": "Under hood \u2014 12V auxiliary access",
         "jumpTerminals": "Under hood 12V terminals",
         "type": "auxiliary-12v-only",
         "warnings": "FLATBED ONLY. AWD EV. 12V only."
@@ -140,51 +140,51 @@
       "yearEnd": 2021,
       "trans": "8-speed automatic (ZF 8HP) + electric motor hybrid",
       "drivetrain": "AWD (hybrid: front ICE + rear electric)",
-      "slot": "Electronic selector — no mechanical shift lock slot",
+      "slot": "Electronic selector \u2014 no mechanical shift lock slot",
       "shift": [
         "Turn vehicle to ON/Ready mode.",
-        "Polestar 1 is a PHEV — touchscreen on center display.",
+        "Polestar 1 is a PHEV \u2014 touchscreen on center display.",
         "Navigate to: Car Status > Service > Tow Mode (or similar service menu path).",
         "Activate Tow Mode to safely put vehicle in N.",
-        "If power lost: connect jump pack to 12V auxiliary — under hood.",
-        "12V AUXILIARY ONLY — NEVER touch HV battery.",
-        "CARBON FIBER body — padded equipment ONLY."
+        "If power lost: connect jump pack to 12V auxiliary \u2014 under hood.",
+        "12V AUXILIARY ONLY \u2014 NEVER touch HV battery.",
+        "CARBON FIBER body \u2014 padded equipment ONLY."
       ],
       "neutral": [
-        "FLATBED ONLY — carbon fiber body, high-value PHEV.",
+        "FLATBED ONLY \u2014 carbon fiber body, high-value PHEV.",
         "12V auxiliary under hood.",
-        "12V AUXILIARY ONLY — never touch HV battery.",
+        "12V AUXILIARY ONLY \u2014 never touch HV battery.",
         "Tow Mode via touchscreen.",
-        "Approximately 1,500 ever produced — EXTREMELY high value. Padded flatbed ramps only, soft straps only."
+        "Approximately 1,500 ever produced \u2014 EXTREMELY high value. Padded flatbed ramps only, soft straps only."
       ],
       "notes": "PHEV Grand Tourer. Very rare (~1,500 produced total). Carbon fiber body. Extremely high value. Flatbed only.",
-      "warn": "FLATBED ONLY. Extremely high-value, very rare vehicle. Carbon fiber body — padded equipment only.",
-      "towMethod": "FLATBED ONLY — hybrid AWD drivetrain. Carbon fiber body.",
+      "warn": "FLATBED ONLY. Extremely high-value, very rare vehicle. Carbon fiber body \u2014 padded equipment only.",
+      "towMethod": "FLATBED ONLY \u2014 hybrid AWD drivetrain. Carbon fiber body.",
       "tc": null,
       "towNotes": [
-        "FLATBED ONLY — hybrid permanent AWD.",
+        "FLATBED ONLY \u2014 hybrid permanent AWD.",
         "Extremely high-value and rare (~1,500 produced).",
-        "Carbon fiber body — use padded flatbed ramps and soft ties only."
+        "Carbon fiber body \u2014 use padded flatbed ramps and soft ties only."
       ],
       "knownIssues": [
         {
           "title": "Extremely Rare and High-Value",
-          "detail": "The Polestar 1 is one of the rarest vehicles you will ever tow — approximately 1,500 were produced total. It has a carbon fiber body. Use a flatbed with padded ramps and soft tie-down straps. Do not use metal chains or hooks against any body surface."
+          "detail": "The Polestar 1 is one of the rarest vehicles you will ever tow \u2014 approximately 1,500 were produced total. It has a carbon fiber body. Use a flatbed with padded ramps and soft tie-down straps. Do not use metal chains or hooks against any body surface."
         },
         {
-          "title": "Carbon Fiber Body — Metal Equipment Will Cause Damage",
+          "title": "Carbon Fiber Body \u2014 Metal Equipment Will Cause Damage",
           "detail": "Polestar 1 has a carbon fiber reinforced plastic body. Never use metal chains, hooks, or hard straps directly on body panels. Only padded soft ramps and rubber-lined straps. Approximately 1,500 total units were ever built."
         },
         {
-          "title": "Carbon Fiber Body — Extreme Value — ~1,500 Units Produced",
+          "title": "Carbon Fiber Body \u2014 Extreme Value \u2014 ~1,500 Units Produced",
           "detail": "The Polestar 1 is a limited production PHEV with a carbon fiber body. Approximately 1,500 units were produced worldwide. Never place metal equipment against the body. Use padded flatbed ramps, rubber-lined straps, and treat this as one of the highest-value vehicles you will encounter."
         }
       ],
       "battery": {
         "location": "Under hood (12V auxiliary)",
-        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "jumpTerminals": "Under hood \u2014 12V auxiliary terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "Carbon fiber body — padded equipment ONLY. ~1,500 produced, extreme value. FLATBED ONLY."
+        "warnings": "Carbon fiber body \u2014 padded equipment ONLY. ~1,500 produced, extreme value. FLATBED ONLY."
       }
     },
     {
@@ -197,32 +197,33 @@
       "slot": "Electronic selector on center console",
       "shift": [
         "Turn vehicle to ON/Ready mode.",
-        "Polestar 4: touchscreen — navigate to Car Status > Service > Tow Mode.",
+        "Polestar 4: touchscreen \u2014 navigate to Car Status > Service > Tow Mode.",
         "Activate Tow Mode to safely put vehicle in N.",
-        "If power lost: connect jump pack to 12V auxiliary — under hood.",
-        "12V AUXILIARY ONLY — NEVER touch HV battery."
+        "If power lost: connect jump pack to 12V auxiliary \u2014 under hood.",
+        "12V AUXILIARY ONLY \u2014 NEVER touch HV battery."
       ],
       "neutral": [
-        "FLATBED ONLY — electric drivetrain.",
+        "FLATBED ONLY \u2014 electric drivetrain.",
         "12V auxiliary under hood.",
-        "12V AUXILIARY ONLY — never touch HV battery.",
+        "12V AUXILIARY ONLY \u2014 never touch HV battery.",
         "Activate Tow Mode via touchscreen."
       ],
       "notes": "Electric coupe/SUV. No rear window. Flatbed only. 12V auxiliary under hood.",
-      "warn": "FLATBED ONLY. 12V auxiliary ONLY — never touch HV battery.",
-      "towMethod": "FLATBED ONLY — electric drivetrain.",
+      "warn": "FLATBED ONLY. 12V auxiliary ONLY \u2014 never touch HV battery.",
+      "towMethod": "FLATBED ONLY \u2014 electric drivetrain.",
       "tc": null,
       "towNotes": [
         "ELECTRIC: FLATBED ONLY.",
-        "12V auxiliary under hood — never touch HV battery."
+        "12V auxiliary under hood \u2014 never touch HV battery."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood (12V auxiliary)",
-        "jumpTerminals": "Under hood — 12V auxiliary terminals",
+        "jumpTerminals": "Under hood \u2014 12V auxiliary terminals",
         "type": "auxiliary-12v-only",
-        "warnings": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
+        "warnings": "FLATBED ONLY. 12V auxiliary only \u2014 never touch HV system."
       }
     }
-  ]
+  ],
+  "make": "Polestar"
 }

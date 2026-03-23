@@ -29,7 +29,8 @@
         "FLAT TOW CAPABLE: YJ with manual trans can be flat-towed with TC in N. Automatic: TC in N, trans in Park or Neutral. Verify oil levels first per owner manual.",
         "Battery: under hood driver side. Jump both posts directly."
       ],
-      "notes": "Wrangler YJ (1990-1995). Rectangular headlights. NP231 Command-Trac TC \u2014 floor lever. Manual trans: no shift lock. Auto: screwdriver override port in PRNDL bezel. Flat tow capable with correct TC position."
+      "notes": "Wrangler YJ (1990-1995). Rectangular headlights. NP231 Command-Trac TC \u2014 floor lever. Manual trans: no shift lock. Auto: screwdriver override port in PRNDL bezel. Flat tow capable with correct TC position.",
+      "make": "Jeep"
     },
     {
       "model": "Wrangler TJ",
@@ -50,7 +51,8 @@
         "FLAT TOW CAPABLE: All TJ models. Manual: TC neutral, trans in gear (highest). Auto: TC neutral, trans in Park. Verify lube levels. Max recommended speed 55 mph.",
         "Battery: under hood driver side."
       ],
-      "notes": "Wrangler TJ (1997-2006). LJ = Unlimited 4-door (2004-2006). Round headlights. NP231 or NP242 TC (Rubicon 2003+). Manual override: screwdriver in PRNDL bezel slot. Dead system: shift cable at transmission. Flat tow approved per owner manual."
+      "notes": "Wrangler TJ (1997-2006). LJ = Unlimited 4-door (2004-2006). Round headlights. NP231 or NP242 TC (Rubicon 2003+). Manual override: screwdriver in PRNDL bezel slot. Dead system: shift cable at transmission. Flat tow approved per owner manual.",
+      "make": "Jeep"
     },
     {
       "model": "Wrangler JK",
@@ -70,7 +72,8 @@
         "FLAT TOW CAPABLE (4WD models): Automatic = trans in PARK + TC in N. Manual = trans in highest gear + TC in N. Ignition to ACC. Max 55 mph. Verify per owner manual.",
         "Battery: under hood, driver side. Jump directly."
       ],
-      "notes": "Wrangler JK (2007-2018). JKU = 4-door Unlimited. Plastic cap on PRNDL bezel for manual override. TC lever separate floor shift. Flat tow approved \u2014 auto in Park + TC Neutral. Manual NSG370 \u2014 clutch only, no shift lock."
+      "notes": "Wrangler JK (2007-2018). JKU = 4-door Unlimited. Plastic cap on PRNDL bezel for manual override. TC lever separate floor shift. Flat tow approved \u2014 auto in Park + TC Neutral. Manual NSG370 \u2014 clutch only, no shift lock.",
+      "make": "Jeep"
     },
     {
       "model": "Wrangler JL / JL 4xe",
@@ -91,7 +94,8 @@
         "JL 4xe SPECIFIC: Battery has 12V system under hood AND 17.3 kWh HV battery under floor. For 4xe towing: NEVER touch orange/yellow HV cables or HV connectors. Jump 12V at hood terminals only. 4xe is AWD \u2014 transfer case Neutral needed for flatbed. FLATBED strongly recommended for 4xe. Consult Jeep Roadside Assistance for 4xe: 877-426-5337.",
         "Battery (12V): under hood driver side. Jump directly."
       ],
-      "notes": "Wrangler JL (2018-2026). Orange strap in front console for manual park release \u2014 one click only. For flatbed loading only, NOT flat tow setup. JL 4xe (2021+): PHEV, HV battery under floor, never touch orange cables. Flat tow: auto in Park + TC Neutral. Manual: gear in Neutral + TC Neutral."
+      "notes": "Wrangler JL (2018-2026). Orange strap in front console for manual park release \u2014 one click only. For flatbed loading only, NOT flat tow setup. JL 4xe (2021+): PHEV, HV battery under floor, never touch orange cables. Flat tow: auto in Park + TC Neutral. Manual: gear in Neutral + TC Neutral.",
+      "make": "Jeep"
     },
     {
       "model": "Gladiator JT",
@@ -110,7 +114,8 @@
         "TRANSFER CASE: Floor lever separate from trans. Trans in N or P first, then TC to 2H.",
         "Battery: under hood driver side. Jump directly."
       ],
-      "notes": "Gladiator JT (2020-2026). Midsize pickup on JL Wrangler platform. Same park release procedure as JL \u2014 orange strap in front console, one click. Flat tow approved for 4WD models. TC and trans independent floor levers."
+      "notes": "Gladiator JT (2020-2026). Midsize pickup on JL Wrangler platform. Same park release procedure as JL \u2014 orange strap in front console, one click. Flat tow approved for 4WD models. TC and trans independent floor levers.",
+      "make": "Jeep"
     },
     {
       "model": "Cherokee XJ",
@@ -130,7 +135,8 @@
         "4WD models: if TC cannot be moved, lift rear wheels and tow from front (FWD configuration safe short distance).",
         "Battery: under hood, driver side."
       ],
-      "notes": "Cherokee XJ (1990-2001). Unibody compact SUV. COLUMN shift on most models. AW4 auto interlock less aggressive than modern units \u2014 key-ACC + brake often sufficient. NP231 TC floor lever. Selec-Trac models have 2WD mode."
+      "notes": "Cherokee XJ (1990-2001). Unibody compact SUV. COLUMN shift on most models. AW4 auto interlock less aggressive than modern units \u2014 key-ACC + brake often sufficient. NP231 TC floor lever. Selec-Trac models have 2WD mode.",
+      "make": "Jeep"
     },
     {
       "model": "Liberty KJ",
@@ -150,7 +156,8 @@
         "2WD models: tow from front or rear normally in Neutral.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Liberty KJ (2002-2007). Floor console shift. Screwdriver cap on PRNDL bezel for manual override. Command-Trac: floor TC lever. Selec-Trac: electronic TC selector."
+      "notes": "Liberty KJ (2002-2007). Floor console shift. Screwdriver cap on PRNDL bezel for manual override. Command-Trac: floor TC lever. Selec-Trac: electronic TC selector.",
+      "make": "Jeep"
     },
     {
       "model": "Liberty KK",
@@ -170,7 +177,8 @@
         "TRANSFER CASE: Floor lever or electronic depending on trim. Trans to N first, TC to 2H.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Liberty KK (2008-2012). Some KK models MISSING shift lock override cap \u2014 verify before attempting. Jump battery preferred if override absent. NSG370 manual: no shift lock."
+      "notes": "Liberty KK (2008-2012). Some KK models MISSING shift lock override cap \u2014 verify before attempting. Jump battery preferred if override absent. NSG370 manual: no shift lock.",
+      "make": "Jeep"
     },
     {
       "model": "Grand Cherokee ZJ",
@@ -191,7 +199,8 @@
         "Selec-Trac: 2WD available \u2014 rear wheel-lift acceptable short distance with TC in 2WD.",
         "Battery (for jump): use under-hood remote terminals. Battery physical location: under passenger seat."
       ],
-      "notes": "Grand Cherokee ZJ (1993-1998). 42RE auto, floor shift. Selec-Trac = 2WD available. Quadra-Trac I = full-time AWD, NO 2WD \u2014 FLATBED ONLY. Manual override: pry cap on PRNDL bezel. Note: 1993 is Gen 1 start year."
+      "notes": "Grand Cherokee ZJ (1993-1998). 42RE auto, floor shift. Selec-Trac = 2WD available. Quadra-Trac I = full-time AWD, NO 2WD \u2014 FLATBED ONLY. Manual override: pry cap on PRNDL bezel. Note: 1993 is Gen 1 start year.",
+      "make": "Jeep"
     },
     {
       "model": "Grand Cherokee WJ",
@@ -212,7 +221,8 @@
         "Selec-Trac: 2WD available \u2014 rear wheel-lift acceptable short distance.",
         "Battery (physical): under front passenger seat. Jump via under-hood remote terminals."
       ],
-      "notes": "Grand Cherokee WJ (1999-2004). 42RE/45RFE auto. 1999-2001: mechanical shift; 2002-2004: electrical solenoid. Quadra-Trac I/II = no 2WD, FLATBED ONLY. Selec-Trac = 2WD available. Battery location varies by year."
+      "notes": "Grand Cherokee WJ (1999-2004). 42RE/45RFE auto. 1999-2001: mechanical shift; 2002-2004: electrical solenoid. Quadra-Trac I/II = no 2WD, FLATBED ONLY. Selec-Trac = 2WD available. Battery location varies by year.",
+      "make": "Jeep"
     },
     {
       "model": "Grand Cherokee WK",
@@ -231,7 +241,8 @@
         "SRT8 WK (2006-2010): 6.1L HEMI. Same shift override procedure. All SRT8 models are RWD \u2014 no TC concern.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Grand Cherokee WK (2005-2010). 545RFE auto, floor shift. Override cap may be under cupholder rubber OR on PRNDL bezel \u2014 check both. Quadra-Trac I/II = FLATBED ONLY. SRT8 is RWD. Selec-Terrain electronic TC."
+      "notes": "Grand Cherokee WK (2005-2010). 545RFE auto, floor shift. Override cap may be under cupholder rubber OR on PRNDL bezel \u2014 check both. Quadra-Trac I/II = FLATBED ONLY. SRT8 is RWD. Selec-Terrain electronic TC.",
+      "make": "Jeep"
     },
     {
       "model": "Grand Cherokee WK2",
@@ -252,7 +263,8 @@
         "SRT/Trackhawk: RWD only. No TC. Jump battery, shift to N.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Grand Cherokee WK2 (2011-2021). 2011-2013: physical floor shifter, rear cupholder access, pink lever. 2014+: electronic shift, back of console storage, difficult pull cord. STRONGLY prefer jumping battery on 2014+ vs. manual override. Quadra-Trac I = FLATBED ONLY. SRT/Trackhawk = RWD, simpler."
+      "notes": "Grand Cherokee WK2 (2011-2021). 2011-2013: physical floor shifter, rear cupholder access, pink lever. 2014+: electronic shift, back of console storage, difficult pull cord. STRONGLY prefer jumping battery on 2014+ vs. manual override. Quadra-Trac I = FLATBED ONLY. SRT/Trackhawk = RWD, simpler.",
+      "make": "Jeep"
     },
     {
       "model": "Grand Cherokee WL / Grand Cherokee L",
@@ -273,7 +285,8 @@
         "Grand Cherokee L (3-row): same procedures as standard WL. Verify all passengers clear before towing.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Grand Cherokee WL/L (2021-2026). Rotary E-shift, electronic-only. Manual override same as WK2 2014+ \u2014 pull cord in back of console storage. Jump battery strongly preferred. 4xe PHEV: HV battery under floor, never touch orange cables. Grand Cherokee L = 3-row, same procedure."
+      "notes": "Grand Cherokee WL/L (2021-2026). Rotary E-shift, electronic-only. Manual override same as WK2 2014+ \u2014 pull cord in back of console storage. Jump battery strongly preferred. 4xe PHEV: HV battery under floor, never touch orange cables. Grand Cherokee L = 3-row, same procedure.",
+      "make": "Jeep"
     },
     {
       "model": "Grand Cherokee 4xe",
@@ -294,7 +307,8 @@
         "Jeep Roadside Assistance (4xe): 877-426-5337.",
         "Battery (12V): under hood, driver side only."
       ],
-      "notes": "Grand Cherokee 4xe (2022-2026). PHEV AWD. Jump 12V under hood. NEVER touch orange HV cables. FLATBED ONLY. Electronic-only E-shift \u2014 manual override very difficult, jump battery preferred."
+      "notes": "Grand Cherokee 4xe (2022-2026). PHEV AWD. Jump 12V under hood. NEVER touch orange HV cables. FLATBED ONLY. Electronic-only E-shift \u2014 manual override very difficult, jump battery preferred.",
+      "make": "Jeep"
     },
     {
       "model": "Commander XK",
@@ -312,7 +326,8 @@
         "TRANSFER CASE: Electronic Quadra-Trac/Selec-Terrain dash controls. Quadra-Trac I: no 2WD \u2014 FLATBED ONLY. Quadra-Trac II/Selec-Terrain: 2WD mode available.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Commander XK (2006-2010). 3-row SUV on WK platform. 545RFE auto, floor shift. Same override as WK. Quadra-Trac I = FLATBED ONLY."
+      "notes": "Commander XK (2006-2010). 3-row SUV on WK platform. 545RFE auto, floor shift. Same override as WK. Quadra-Trac I = FLATBED ONLY.",
+      "make": "Jeep"
     },
     {
       "model": "Patriot MK",
@@ -332,7 +347,8 @@
         "FLAT TOW: Manual transmission Patriot with Freedom Drive II 4WD ONLY may be flat-towed per owner manual. CVT and FWD/AWD auto: flatbed only.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Patriot MK (2007-2017). CVT: FLATBED ONLY. Manual FD-II 4WD: flat tow approved. Freedom Drive I (AWD): no 2WD on some \u2014 check TC. Override cap on PRNDL bezel."
+      "notes": "Patriot MK (2007-2017). CVT: FLATBED ONLY. Manual FD-II 4WD: flat tow approved. Freedom Drive I (AWD): no 2WD on some \u2014 check TC. Override cap on PRNDL bezel.",
+      "make": "Jeep"
     },
     {
       "model": "Compass MK (1st Gen)",
@@ -351,7 +367,8 @@
         "MANUAL TRANS: Clutch in, shift to N.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Compass MK 1st gen (2007-2017). CVT models: FLATBED ONLY. Shares Patriot platform/procedures. Override cap on PRNDL bezel."
+      "notes": "Compass MK 1st gen (2007-2017). CVT models: FLATBED ONLY. Shares Patriot platform/procedures. Override cap on PRNDL bezel.",
+      "make": "Jeep"
     },
     {
       "model": "Compass MP (2nd Gen)",
@@ -370,7 +387,8 @@
         "AWD (Active Drive): rear-wheel disconnect system. FWD available if disconnected. Short wheel-lift from rear acceptable if trans confirmed in N \u2014 flatbed preferred.",
         "Battery: under hood. Verify side (driver or passenger) for your specific model before applying jump cables."
       ],
-      "notes": "Compass MP 2nd gen (2017-2026). Electronic shift. ZF 9HP complex \u2014 prefer jump over manual override. Active Drive AWD has rear disconnect. Battery location varies \u2014 check before jumping."
+      "notes": "Compass MP 2nd gen (2017-2026). Electronic shift. ZF 9HP complex \u2014 prefer jump over manual override. Active Drive AWD has rear disconnect. Battery location varies \u2014 check before jumping.",
+      "make": "Jeep"
     },
     {
       "model": "Renegade BU",
@@ -391,7 +409,8 @@
         "ZF 9HP: Jump battery first \u2014 override is difficult. Battery under hood or under rear seat depending on market.",
         "Battery: under hood, driver side (verify location)."
       ],
-      "notes": "Renegade BU (2015-2026). FLAT TOW PROHIBITED by manufacturer. Electronic shift \u2014 prefer jump over manual override on ZF 9HP. Active Drive AWD rear disconnect. Verify battery location (US: under hood; some markets: under rear seat)."
+      "notes": "Renegade BU (2015-2026). FLAT TOW PROHIBITED by manufacturer. Electronic shift \u2014 prefer jump over manual override on ZF 9HP. Active Drive AWD rear disconnect. Verify battery location (US: under hood; some markets: under rear seat).",
+      "make": "Jeep"
     },
     {
       "model": "Cherokee KL (5th Gen)",
@@ -412,7 +431,8 @@
         "Cherokee KL was discontinued February 2023. 2026 Cherokee KM is a new/different model.",
         "Battery: under hood \u2014 verify side."
       ],
-      "notes": "Cherokee KL (2014-2023). ZF 9HP complex \u2014 JUMP BATTERY FIRST. Manual override: pry bezel, push white tab forward at front-passenger side of shifter. Active Drive II: no 2WD, flatbed preferred. Discontinued Feb 2023."
+      "notes": "Cherokee KL (2014-2023). ZF 9HP complex \u2014 JUMP BATTERY FIRST. Manual override: pry bezel, push white tab forward at front-passenger side of shifter. Active Drive II: no 2WD, flatbed preferred. Discontinued Feb 2023.",
+      "make": "Jeep"
     },
     {
       "model": "Cherokee KM (6th Gen)",
@@ -431,7 +451,8 @@
         "AWD hybrid: flatbed recommended. Consult Jeep Roadside Assistance for hybrid towing guidance.",
         "Battery (12V): under hood. Verify positive terminal location."
       ],
-      "notes": "Cherokee KM 6th gen (2026+). New platform (STLA Large Transverse). Hybrid AWD. Production started Aug 2025 in Mexico for 2026 MY. Jump 12V only. Never touch HV orange cables. Procedures may evolve \u2014 verify with Jeep when encountered."
+      "notes": "Cherokee KM 6th gen (2026+). New platform (STLA Large Transverse). Hybrid AWD. Production started Aug 2025 in Mexico for 2026 MY. Jump 12V only. Never touch HV orange cables. Procedures may evolve \u2014 verify with Jeep when encountered.",
+      "make": "Jeep"
     },
     {
       "model": "Wagoneer / Grand Wagoneer",
@@ -451,7 +472,8 @@
         "WEIGHT: Wagoneer ~6,000+ lbs, Grand Wagoneer ~6,400+ lbs \u2014 verify flatbed/tow truck capacity.",
         "Battery: under hood, driver side."
       ],
-      "notes": "Wagoneer/Grand Wagoneer (2022-2026). Ram 1500 platform. Electronic E-shift. Jump battery preferred. Quadra-Trac I = FLATBED ONLY. Heavy vehicles \u2014 verify truck capacity. Rotary or push-button selector by trim."
+      "notes": "Wagoneer/Grand Wagoneer (2022-2026). Ram 1500 platform. Electronic E-shift. Jump battery preferred. Quadra-Trac I = FLATBED ONLY. Heavy vehicles \u2014 verify truck capacity. Rotary or push-button selector by trim.",
+      "make": "Jeep"
     }
   ]
 }

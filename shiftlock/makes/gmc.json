@@ -21,15 +21,16 @@
       "battery": {
         "location": "Under hood, driver side"
       },
-      "slot": "COLUMN SHIFTER — all GMT800 Sierra 1500 trucks use a steering column-mounted gear selector. Shift interlock slot on the STEERING COLUMN housing — small access slot on the lower-left face of the column, below the shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
+      "slot": "COLUMN SHIFTER \u2014 all GMT800 Sierra 1500 trucks use a steering column-mounted gear selector. Shift interlock slot on the STEERING COLUMN housing \u2014 small access slot on the lower-left face of the column, below the shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under hood, driver side.",
+        "Connect jump pack to battery \u2014 under hood, driver side.",
         "Turn key to ON, insert flathead into column shift interlock slot (lower-left face), press brake, move column lever to N.",
         "TRANSFER CASE: must be in 2WD/2H before wheel-lift towing. Manual lever TC: shift to 2H on floor. Electronic TC (AutoTrac): with engine running, press 2WD button.",
         "4WD: FLATBED preferred. 2WD RWD: can lift from rear."
       ],
-      "notes": "GMT800 platform. Column shifter on ALL trims — no console shift option on full-size Sierra. 4.3L V6, 4.8L, 5.3L, 6.0L V8 options."
+      "notes": "GMT800 platform. Column shifter on ALL trims \u2014 no console shift option on full-size Sierra. 4.3L V6, 4.8L, 5.3L, 6.0L V8 options.",
+      "make": "GMC"
     },
     {
       "model": "Sierra 1500 (2007-2013, GMT900)",
@@ -40,34 +41,36 @@
       "battery": {
         "location": "Under hood, driver side"
       },
-      "slot": "COLUMN SHIFTER — all GMT900 Sierra 1500 trucks use a steering column-mounted gear selector. Shift interlock slot on the STEERING COLUMN housing — lower-left face of column, below shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
+      "slot": "COLUMN SHIFTER \u2014 all GMT900 Sierra 1500 trucks use a steering column-mounted gear selector. Shift interlock slot on the STEERING COLUMN housing \u2014 lower-left face of column, below shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under hood, driver side.",
+        "Connect jump pack to battery \u2014 under hood, driver side.",
         "Turn key to ON, insert flathead into column interlock slot (lower-left face), press brake, move column lever to N.",
         "TRANSFER CASE: must be in 2WD/2H before towing. Electronic AutoTrac TC: with engine running, press 2WD button.",
         "4WD: FLATBED preferred. 2WD: can lift from rear."
       ],
-      "notes": "GMT900 platform. 6-speed 6L80-E available on V8 models from 2009 MY. NO 8-speed on any 2007-2013 Sierra 1500. Column shift on ALL trims."
+      "notes": "GMT900 platform. 6-speed 6L80-E available on V8 models from 2009 MY. NO 8-speed on any 2007-2013 Sierra 1500. Column shift on ALL trims.",
+      "make": "GMC"
     },
     {
       "model": "Sierra 1500 (2014-2018, K2XX)",
       "yearStart": 2014,
       "yearEnd": 2018,
       "drivetrain": "RWD or 4WD (part-time)",
-      "trans": "6-speed automatic 6L80-E (4.3L V6 and 5.3L V8, standard on all trims); 8-speed automatic 8L90-E (6.2L V8 ONLY, available from 2015 MY — NOT available before 2015 and NOT available with any other engine)",
+      "trans": "6-speed automatic 6L80-E (4.3L V6 and 5.3L V8, standard on all trims); 8-speed automatic 8L90-E (6.2L V8 ONLY, available from 2015 MY \u2014 NOT available before 2015 and NOT available with any other engine)",
       "battery": {
         "location": "Under hood, driver side"
       },
-      "slot": "COLUMN SHIFTER — all K2XX Sierra 1500 trucks use a steering column-mounted gear selector. Shift interlock slot on the STEERING COLUMN housing — lower-left face of column, below shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
+      "slot": "COLUMN SHIFTER \u2014 all K2XX Sierra 1500 trucks use a steering column-mounted gear selector. Shift interlock slot on the STEERING COLUMN housing \u2014 lower-left face of column, below shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under hood, driver side.",
+        "Connect jump pack to battery \u2014 under hood, driver side.",
         "Turn key to ON, insert flathead into column interlock slot (lower-left face), press brake, move column lever to N.",
         "TRANSFER CASE: must be in 2WD/2H before towing. Electronic TC: with engine running, press 2WD button.",
         "4WD: FLATBED preferred. 2WD: can lift from rear."
       ],
-      "notes": "K2XX platform (2014-2018). 8-speed ONLY on 6.2L V8 from 2015 MY onward — all V6 and 5.3L V8 trucks remain 6-speed 6L80. Column shift on ALL trims."
+      "notes": "K2XX platform (2014-2018). 8-speed ONLY on 6.2L V8 from 2015 MY onward \u2014 all V6 and 5.3L V8 trucks remain 6-speed 6L80. Column shift on ALL trims.",
+      "make": "GMC"
     },
     {
       "make": "GMC",
@@ -75,11 +78,11 @@
       "yearStart": 2019,
       "yearEnd": 2026,
       "trans": "8-speed automatic 8L90-E (2.7L TurboMax 4-cyl ALL years including 2026; 5.3L V8 some base trims); 10-speed automatic 10L80-E (5.3L V8 most trims, 6.2L V8 all trims, 3.0L Duramax diesel 2020+)",
-      "slot": "ELECTRONIC PRECISION SHIFT — column-mounted shift-by-wire lever (NOT a rotary dial or console selector). The lever is on the steering column. To shift to N with power: press and hold the side interlock button on the lever, push lever forward to first bump and release — 'N' illuminates red. DEAD BATTERY / NO POWER: restore 12V via jump pack (battery under hood). No mechanical cabin override exists — must have 12V to shift electronically.",
+      "slot": "ELECTRONIC PRECISION SHIFT \u2014 column-mounted shift-by-wire lever (NOT a rotary dial or console selector). The lever is on the steering column. To shift to N with power: press and hold the side interlock button on the lever, push lever forward to first bump and release \u2014 'N' illuminates red. DEAD BATTERY / NO POWER: restore 12V via jump pack (battery under hood). No mechanical cabin override exists \u2014 must have 12V to shift electronically.",
       "shift": [
         "Turn ignition to ON.",
         "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Remove trim panel or cover if present \u2014 use a trim pry tool or your fingernail at the edge.",
         "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
         "While holding, press the brake pedal.",
@@ -87,23 +90,23 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under hood.",
-        "Once 12V restored: press and hold the side interlock button on the column-mounted shift lever, push lever forward to first bump, release — 'N' lights up.",
-        "No mechanical override exists — power MUST be restored before shifting.",
+        "Connect jump pack to battery \u2014 under hood.",
+        "Once 12V restored: press and hold the side interlock button on the column-mounted shift lever, push lever forward to first bump, release \u2014 'N' lights up.",
+        "No mechanical override exists \u2014 power MUST be restored before shifting.",
         "TRANSFER CASE: must be in 2WD/2H before towing. With engine running, press 2WD button on dash or TC controls.",
         "4WD: FLATBED preferred. 2WD: can lift from rear after confirming N."
       ],
       "notes": "Sierra EV (2024+): flatbed only.",
       "warn": "Sierra EV: FLATBED ONLY. 4WD: transfer case.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear — rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear \u2014 rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear \u2014 rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric rotary dial on center console (Autotrac)",
         "positions": [
-          "2WD — rear wheels only — REQUIRED for all road towing",
-          "4WD Auto — automatic AWD — NOT safe for towing",
-          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
-          "4WD Lo — low range — NEVER tow in this position"
+          "2WD \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
+          "4WD Hi \u2014 part-time 4WD \u2014 NOT safe for dry-road towing",
+          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow to under 3 MPH.",
@@ -115,13 +118,13 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": "Sierra EV: 12V auxiliary only."
       }
@@ -132,58 +135,58 @@
       "yearStart": 2001,
       "yearEnd": 2026,
       "trans": "6-speed automatic 6L90-E (gas V8 2001-2023: 6.0L LY6 2001-2019, 6.6L L8T 2020-2023); Allison 1000 5-speed auto (Duramax 6.6L diesel 2001-2005); Allison 1000 6-speed auto (Duramax 6.6L diesel 2006-2019); Allison 10L1000 10-speed auto (Duramax 6.6L diesel 2020+; gas L8T 6.6L V8 2024+)",
-      "slot": "Pre-2020 (column shifter, gas and diesel): STEERING COLUMN shift interlock slot — lower-left face of column, below shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N. 2020+ (electronic column shift on gas; electronic selector on some diesel): restore 12V power first, then shift normally. G56 MANUAL (rare option, pre-2019 diesel only): depress clutch and shift to N — no electrical requirement.",
+      "slot": "Pre-2020 (column shifter, gas and diesel): STEERING COLUMN shift interlock slot \u2014 lower-left face of column, below shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N. 2020+ (electronic column shift on gas; electronic selector on some diesel): restore 12V power first, then shift normally. G56 MANUAL (rare option, pre-2019 diesel only): depress clutch and shift to N \u2014 no electrical requirement.",
       "shift": [
         "Turn ignition to ON.",
         "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Remove trim panel or cover if present \u2014 use a trim pry tool or your fingernail at the edge.",
         "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
         "While holding, press the brake pedal.",
         "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
-        "Apply parking brake and chock wheels — heavy vehicle.",
-        "Connect jump pack — under hood, driver side. Diesel: connect to positive terminal closest to firewall.",
+        "Apply parking brake and chock wheels \u2014 heavy vehicle.",
+        "Connect jump pack \u2014 under hood, driver side. Diesel: connect to positive terminal closest to firewall.",
         "Pre-2020 column shift: turn key to ON, insert flathead into column interlock slot, press brake, move lever to N.",
         "2020+ electronic shift: restore 12V power, press brake, shift to N normally on electronic selector.",
-        "G56 MANUAL: depress clutch, shift to N — no electrical requirement.",
+        "G56 MANUAL: depress clutch, shift to N \u2014 no electrical requirement.",
         "TRANSFER CASE: must be in 2WD/2H before road towing. Requires power for electronic TC.",
-        "FLATBED STRONGLY PREFERRED for all HD trucks — very heavy and high-value vehicle."
+        "FLATBED STRONGLY PREFERRED for all HD trucks \u2014 very heavy and high-value vehicle."
       ],
       "notes": "Duramax diesel trucks used true Allison 1000 (5-speed 2001-2005, 6-speed 2006-2019). From 2020 diesel and 2024 gas: Allison 10L1000 (GM-built, Allison-validated). Gas HD trucks 2020-2023 retained the 6L90-E 6-speed. Dual batteries on all Duramax diesel trims.",
       "warn": "4WD: transfer case. Heavy blocks required.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first. Heavy-duty — use rated equipment. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear \u2014 rear (drive) wheels in the air. 4WD: transfer case to 2H first. Heavy-duty \u2014 use rated equipment. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button or manual lever (varies by year)",
         "positions": [
-          "2H — rear wheels only — REQUIRED for all road towing",
-          "4H — part-time 4WD high range",
-          "4L — low range — NEVER tow in this position"
+          "2H \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4H \u2014 part-time 4WD high range",
+          "4L \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "ELECTRIC: Slow under 3 MPH. Press 2H. Confirm indicator.",
           "MANUAL: Stop completely. Shift TC lever to 2H.",
           "Confirm before lifting rear wheels.",
-          "Heavy-duty truck — use proper rated equipment.",
+          "Heavy-duty truck \u2014 use proper rated equipment.",
           "IF BATTERY IS DEAD: Jump battery first to power electronic TC, shift to 2WD, then disconnect. If unable to shift, FLATBED ONLY."
         ]
       },
       "towNotes": [
         "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
-        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight — account for extra weight in equipment ratings.",
+        "DIESEL: Same shift-lock and tow procedures as gasoline variant. Heavier curb weight \u2014 account for extra weight in equipment ratings.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Under hood, driver side. Duramax diesel trims: DUAL BATTERIES — both under hood on driver side. Connect jump pack to the POSITIVE post closest to the firewall on the primary battery.",
-        "jumpTerminals": "Under hood: red (+) on either battery, black (−) to engine block",
+        "location": "Under hood, driver side. Duramax diesel trims: DUAL BATTERIES \u2014 both under hood on driver side. Connect jump pack to the POSITIVE post closest to the firewall on the primary battery.",
+        "jumpTerminals": "Under hood: red (+) on either battery, black (\u2212) to engine block",
         "type": "standard-12v",
-        "warnings": "Diesel dual batteries. Very heavy — verify equipment ratings."
+        "warnings": "Diesel dual batteries. Very heavy \u2014 verify equipment ratings."
       }
     },
     {
@@ -192,10 +195,10 @@
       "yearStart": 2000,
       "yearEnd": 2020,
       "trans": "4-speed automatic 4L60-E (4.8L, 5.3L V8 2000-2008); 4-speed automatic 4L65-E (6.0L V8, Yukon Denali 2000-2008); 6-speed automatic 6L80-E (5.3L V8 2009+); 6-speed automatic 6L90-E (6.2L V8, Yukon Denali 2009+)",
-      "slot": "COLUMN SHIFTER — all 2000-2020 Yukon / Yukon XL use a steering column-mounted gear selector. Shift interlock slot on the STEERING COLUMN housing — lower-left face of column, below the shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N. NOTE: There is NO console shifter on these vehicles — the slot is on the column only.",
+      "slot": "COLUMN SHIFTER \u2014 all 2000-2020 Yukon / Yukon XL use a steering column-mounted gear selector. Shift interlock slot on the STEERING COLUMN housing \u2014 lower-left face of column, below the shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N. NOTE: There is NO console shifter on these vehicles \u2014 the slot is on the column only.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock override slot — Cap at side of console shifter base.",
+        "Locate the shift lock override slot \u2014 Cap at side of console shifter base.",
         "Pry off the cap or cover if present using your ignition key or a small flathead.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -204,22 +207,22 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under hood, driver side.",
+        "Connect jump pack to battery \u2014 under hood, driver side.",
         "Turn key to ON, insert flathead into column shift interlock slot (lower-left face), press brake, move column lever to N.",
         "TRANSFER CASE: must be in 2WD/2H before road towing. Electronic AutoTrac: with engine running, press 2WD button.",
         "4WD: FLATBED preferred. 2WD: can lift from rear."
       ],
       "notes": "4WD standard.",
-      "warn": "4WD: transfer case. Large — block all wheels.",
+      "warn": "4WD: transfer case. Large \u2014 block all wheels.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear — rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear \u2014 rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear \u2014 rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button (Autotrac)",
         "positions": [
-          "2WD — rear wheels only — REQUIRED for all road towing",
-          "4WD Auto — automatic AWD — NOT safe for towing",
-          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
-          "4WD Lo — low range — NEVER tow in this position"
+          "2WD \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
+          "4WD Hi \u2014 part-time 4WD \u2014 NOT safe for dry-road towing",
+          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow under 3 MPH.",
@@ -231,16 +234,16 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
-        "warnings": "Large vehicle — block all wheels."
+        "warnings": "Large vehicle \u2014 block all wheels."
       }
     },
     {
@@ -253,31 +256,31 @@
       "shift": [
         "Turn ignition to ON.",
         "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Remove trim panel or cover if present \u2014 use a trim pry tool or your fingernail at the edge.",
         "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
         "While holding, press the brake pedal.",
         "Press the N button or move the electronic selector to Neutral."
       ],
       "neutral": [
-        "Apply parking brake — electric parking brake auto-engages on some trims when shifted to P.",
-        "Connect jump pack to battery — under hood.",
+        "Apply parking brake \u2014 electric parking brake auto-engages on some trims when shifted to P.",
+        "Connect jump pack to battery \u2014 under hood.",
         "Once 12V restored, press brake, select N on the electronic precision shift selector.",
-        "No mechanical override exists — 12V MUST be restored before shifting.",
+        "No mechanical override exists \u2014 12V MUST be restored before shifting.",
         "TRANSFER CASE: with engine running, shift TC to 2WD before road towing.",
         "4WD: FLATBED preferred. 2WD: can lift from rear after confirming N."
       ],
       "notes": "AWD and 4WD available.",
       "warn": "4WD: transfer case. Block all wheels.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear — rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear \u2014 rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear \u2014 rear (drive) wheels in the air. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric rotary dial (Autotrac)",
         "positions": [
-          "2WD — rear wheels only — REQUIRED for all road towing",
-          "4WD Auto — automatic AWD — NOT safe for towing",
-          "4WD Hi — part-time 4WD — NOT safe for dry-road towing",
-          "4WD Lo — low range — NEVER tow in this position"
+          "2WD \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4WD Auto \u2014 automatic AWD \u2014 NOT safe for towing",
+          "4WD Hi \u2014 part-time 4WD \u2014 NOT safe for dry-road towing",
+          "4WD Lo \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow under 3 MPH.",
@@ -289,14 +292,14 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "HEAVY VEHICLE: Use properly rated wheel blocks, straps, and chains. Verify your equipment weight rating before attempting to load or lift.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -311,7 +314,7 @@
       "shift": [
         "Turn ignition to ON.",
         "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Remove trim panel or cover if present \u2014 use a trim pry tool or your fingernail at the edge.",
         "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
         "While holding, press the brake pedal.",
@@ -319,14 +322,14 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only."
+        "Electronic selectors require power \u2014 mechanical override is a last resort only."
       ],
       "notes": "AWD optional.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
@@ -334,7 +337,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -349,7 +352,7 @@
       "shift": [
         "Turn ignition to ON.",
         "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Remove trim panel or cover if present \u2014 use a trim pry tool or your fingernail at the edge.",
         "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
         "While holding, press the brake pedal.",
@@ -357,8 +360,8 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Gen1 (2007-2016): Battery is INSIDE CABIN under passenger-side floor mat — use under-hood remote positive jump terminal (fuse block area) to jump.",
-        "Gen2 (2017-2026): Battery under hood, driver side — connect jump pack directly.",
+        "Gen1 (2007-2016): Battery is INSIDE CABIN under passenger-side floor mat \u2014 use under-hood remote positive jump terminal (fuse block area) to jump.",
+        "Gen2 (2017-2026): Battery under hood, driver side \u2014 connect jump pack directly.",
         "Gen1 once powered: pry cap on right side of console, insert screwdriver, press brake, move to N.",
         "Gen2 once powered: press brake and select N on electronic selector.",
         "AWD: FLATBED preferred."
@@ -366,15 +369,15 @@
       "notes": "FWD or AWD.",
       "warn": "",
       "drivetrain": "FWD or AWD",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
       ],
       "knownIssues": [],
       "battery": {
-        "location": "Gen1 (2007-2016): INSIDE CABIN — under floor mat/panel behind the front passenger seat (floor pan area, second row). Slide front passenger seat fully forward, lift floor mat, unscrew Torx access panel cover to reach battery. Remote positive jump terminal available under hood at fuse block — use this for jumping. Gen2 (2017-2026): Under hood, driver side (standard location).",
-        "jumpTerminals": "Under hood — standard terminals",
+        "location": "Gen1 (2007-2016): INSIDE CABIN \u2014 under floor mat/panel behind the front passenger seat (floor pan area, second row). Slide front passenger seat fully forward, lift floor mat, unscrew Torx access panel cover to reach battery. Remote positive jump terminal available under hood at fuse block \u2014 use this for jumping. Gen2 (2017-2026): Under hood, driver side (standard location).",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -385,11 +388,11 @@
       "yearStart": 2004,
       "yearEnd": 2026,
       "trans": "Gen1 (2004-2012): 4-speed auto 4L60-E (4-cyl/V6); 5-speed manual NV3500 (4-cyl); Gen2 (2015-2022): 6-speed auto 6L80-E (V6 3.6L); 8-speed auto 8L45-E (Diesel 2.8L, 2016+); Gen3 (2023-2026): 8-speed auto 8L80 (2.7L Turbo standard)",
-      "slot": "Gen1 (2004-2012): small plastic cap on right or front side of center console shifter base — pry off, insert screwdriver, press brake, move to N. Gen2 (2015-2022): key to ON position + press brake — usually releases normally. No console cap; shift cable accessible under console side panel if needed. Gen3 (2023-2026): electronic selector, no mechanical override — restore 12V first.",
+      "slot": "Gen1 (2004-2012): small plastic cap on right or front side of center console shifter base \u2014 pry off, insert screwdriver, press brake, move to N. Gen2 (2015-2022): key to ON position + press brake \u2014 usually releases normally. No console cap; shift cable accessible under console side panel if needed. Gen3 (2023-2026): electronic selector, no mechanical override \u2014 restore 12V first.",
       "shift": [
         "Turn ignition to ON.",
         "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
-        "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+        "Remove trim panel or cover if present \u2014 use a trim pry tool or your fingernail at the edge.",
         "Insert a thin key or flathead into the exposed slot.",
         "Press firmly inward and hold.",
         "While holding, press the brake pedal.",
@@ -397,21 +400,21 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — Under hood.",
+        "Connect jump pack to battery \u2014 Under hood.",
         "Once 12V power is restored, press brake and select N normally on the electronic selector.",
-        "Electronic selectors require power — mechanical override is a last resort only.",
+        "Electronic selectors require power \u2014 mechanical override is a last resort only.",
         "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
       ],
       "notes": "4WD optional.",
-      "warn": "Must shift transfer case to 2H/2WD before road towing. Never tow in 4H or 4L on dry pavement — drivetrain damage.",
+      "warn": "Must shift transfer case to 2H/2WD before road towing. Never tow in 4H or 4L on dry pavement \u2014 drivetrain damage.",
       "drivetrain": "RWD or 4WD (part-time)",
-      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+      "towMethod": "RWD/2WD: lift from rear \u2014 rear (drive) wheels in the air. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles \u2014 flatbed preferred for longer distances.",
       "tc": {
         "type": "Electric push-button or rotary dial on console",
         "positions": [
-          "2H — rear wheels only — REQUIRED for all road towing",
-          "4H — part-time 4WD high range",
-          "4L — low range — NEVER tow in this position"
+          "2H \u2014 rear wheels only \u2014 REQUIRED for all road towing",
+          "4H \u2014 part-time 4WD high range",
+          "4L \u2014 low range \u2014 NEVER tow in this position"
         ],
         "steps": [
           "Slow under 3 MPH.",
@@ -422,13 +425,13 @@
       },
       "towNotes": [
         "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
-        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+        "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L \u2014 will destroy transfer case and driveline.",
         "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -443,19 +446,19 @@
       "slot": "Cap near selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start).",
-        "Locate the shift lock override slot — Cap near selector base on center console.",
+        "Locate the shift lock override slot \u2014 Cap near selector base on center console.",
         "Pry off cap. Insert key or thin flathead. Press firmly. Hold while pressing brake. Move to N.",
-        "4WD: manual floor TC lever — shift to 2WD before road towing."
+        "4WD: manual floor TC lever \u2014 shift to 2WD before road towing."
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood, driver side.",
+        "Connect jump pack to battery \u2014 under the hood, driver side.",
         "Once 12V power is restored, press brake and shift to Neutral normally.",
         "4WD: TC to 2H before wheel-lift."
       ],
       "notes": "S-15 Jimmy. Same platform as Chevy Blazer S10.",
       "warn": "4WD: TC to 2H before towing.",
-      "towMethod": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: TC to 2H, then lift from rear.",
+      "towMethod": "RWD/2WD: lift from rear \u2014 rear (drive) wheels in the air. 4WD: TC to 2H, then lift from rear.",
       "tc": {
         "type": "Manual floor lever",
         "positions": [
@@ -474,7 +477,7 @@
       ],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       },
@@ -487,7 +490,7 @@
       "yearEnd": 2005,
       "trans": "4-speed automatic (4L60-E)",
       "drivetrain": "RWD or AWD",
-      "slot": "COLUMN SHIFTER — GMC Safari uses a steering column-mounted gear selector. Shift interlock on the STEERING COLUMN; turn key to ON/ACC, press brake, move column lever to N. Dead battery: connect jump pack first, then turn key to ON to release interlock.",
+      "slot": "COLUMN SHIFTER \u2014 GMC Safari uses a steering column-mounted gear selector. Shift interlock on the STEERING COLUMN; turn key to ON/ACC, press brake, move column lever to N. Dead battery: connect jump pack first, then turn key to ON to release interlock.",
       "shift": [
         "Turn ignition to ON (do not start engine).",
         "Locate the shift lock release: small cap near gear selector base on center console.",
@@ -499,11 +502,11 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Once powered, turn key to ON, press brake, move column lever to N.",
         "AWD: flatbed preferred."
       ],
-      "notes": "AWD uses Borg-Warner AWD system — no traditional TC. AWD: flatbed preferred.",
+      "notes": "AWD uses Borg-Warner AWD system \u2014 no traditional TC. AWD: flatbed preferred.",
       "warn": "AWD: flatbed preferred.",
       "towMethod": "RWD: lift from rear. AWD: flatbed preferred.",
       "tc": null,
@@ -513,7 +516,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -537,7 +540,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Once powered, shift to N.",
         "TC: electronic push-button. Shift to 2WD before road towing.",
         "IF BATTERY DEAD: jump first, shift to 2WD, then disconnect. If unable: FLATBED ONLY."
@@ -548,10 +551,10 @@
       "tc": {
         "type": "Electronic push-button on dashboard",
         "positions": [
-          "2WD — rear wheels only — REQUIRED for road towing",
-          "AWD — automatic — NOT safe for road towing",
-          "4WD Hi — part-time — NOT safe for dry-road towing",
-          "4WD Lo — NEVER tow on road"
+          "2WD \u2014 rear wheels only \u2014 REQUIRED for road towing",
+          "AWD \u2014 automatic \u2014 NOT safe for road towing",
+          "4WD Hi \u2014 part-time \u2014 NOT safe for dry-road towing",
+          "4WD Lo \u2014 NEVER tow on road"
         ],
         "steps": [
           "Slow to under 3 MPH.",
@@ -568,7 +571,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -592,9 +595,9 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Once powered, shift to N.",
-        "TC: manual floor lever — shift to 2H before road towing.",
+        "TC: manual floor lever \u2014 shift to 2H before road towing.",
         "Manual trans: depress clutch, select N."
       ],
       "notes": "S-10 Blazer/S-Series platform. Manual TC floor lever on most. Manual: depress clutch, select Neutral.",
@@ -603,9 +606,9 @@
       "tc": {
         "type": "Manual floor lever",
         "positions": [
-          "2WD — REQUIRED for road towing",
-          "4WD Hi — NOT safe for dry road",
-          "4WD Lo — NEVER tow on road"
+          "2WD \u2014 REQUIRED for road towing",
+          "4WD Hi \u2014 NOT safe for dry road",
+          "4WD Lo \u2014 NEVER tow on road"
         ],
         "steps": [
           "Stop completely.",
@@ -615,13 +618,13 @@
         ]
       },
       "towNotes": [
-        "Manual TC — shift to 2WD before road towing.",
+        "Manual TC \u2014 shift to 2WD before road towing.",
         "MANUAL TRANSMISSION: depress clutch, select Neutral."
       ],
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -635,15 +638,16 @@
       "battery": {
         "location": "Under hood, driver side. 6.5L diesel trims may have dual batteries."
       },
-      "slot": "COLUMN SHIFTER — all 1990-1999 C/K trucks use a steering column-mounted gear selector. BTSI solenoid on steering column. Turn key to ON/RUN position to release solenoid, press brake, move column lever to N. Early 1990-1991 models may have minimal BTSI — key to ACC + brake may release interlock.",
+      "slot": "COLUMN SHIFTER \u2014 all 1990-1999 C/K trucks use a steering column-mounted gear selector. BTSI solenoid on steering column. Turn key to ON/RUN position to release solenoid, press brake, move column lever to N. Early 1990-1991 models may have minimal BTSI \u2014 key to ACC + brake may release interlock.",
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under hood, driver side.",
+        "Connect jump pack to battery \u2014 under hood, driver side.",
         "Turn key to ON/RUN, press brake, move column lever to N.",
-        "TRANSFER CASE (K-series): manual floor lever — shift to 2WD/2H BEFORE road towing.",
+        "TRANSFER CASE (K-series): manual floor lever \u2014 shift to 2WD/2H BEFORE road towing.",
         "2WD (C-series): lift from rear. 4WD: FLATBED preferred."
       ],
-      "notes": "GMT400 platform (predecessor to GMT800/Sierra). C=2WD, K=4WD. 4.3L V6, 5.0L, 5.7L, 7.4L V8. 6.5L diesel on 2500/3500. Column shift on ALL trims."
+      "notes": "GMT400 platform (predecessor to GMT800/Sierra). C=2WD, K=4WD. 4.3L V6, 5.0L, 5.7L, 7.4L V8. 6.5L diesel on 2500/3500. Column shift on ALL trims.",
+      "make": "GMC"
     },
     {
       "model": "Suburban C/K (1990-1999, GMT400)",
@@ -657,12 +661,13 @@
       "slot": "COLUMN SHIFTER: BTSI solenoid on steering column. Turn key to ON/RUN, press brake, move column lever to N. Dead battery: connect jump pack first.",
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood, driver side.",
+        "Connect jump pack \u2014 under hood, driver side.",
         "Turn key to ON, press brake, move column lever to N.",
-        "TRANSFER CASE: manual floor lever — shift to 2WD/2H before road towing.",
+        "TRANSFER CASE: manual floor lever \u2014 shift to 2WD/2H before road towing.",
         "4WD: FLATBED preferred. 2WD: can lift from rear."
       ],
-      "notes": "GMT400 Suburban. Shares C/K pickup components. 5.7L and 7.4L V8 gas options; 6.5L diesel. Column shift on ALL trims."
+      "notes": "GMT400 Suburban. Shares C/K pickup components. 5.7L and 7.4L V8 gas options; 6.5L diesel. Column shift on ALL trims.",
+      "make": "GMC"
     },
     {
       "model": "Jimmy Full-Size / Yukon (1990-1994, GMT400)",
@@ -676,12 +681,13 @@
       "slot": "COLUMN SHIFTER: BTSI on steering column. Turn key to ON/ACC, press brake, move column lever to N.",
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood, driver side.",
+        "Connect jump pack \u2014 under hood, driver side.",
         "Turn key to ON, press brake, move column lever to N.",
-        "TRANSFER CASE: manual floor lever — shift to 2WD before road towing.",
+        "TRANSFER CASE: manual floor lever \u2014 shift to 2WD before road towing.",
         "4WD: FLATBED preferred. 2WD: lift from rear."
       ],
-      "notes": "2-door full-size SUV. Became Yukon nameplate in 1992. GMT400 platform. Column shift on all trims."
+      "notes": "2-door full-size SUV. Became Yukon nameplate in 1992. GMT400 platform. Column shift on all trims.",
+      "make": "GMC"
     },
     {
       "model": "Syclone (1991)",
@@ -695,11 +701,12 @@
       "slot": "FLOOR CONSOLE SHIFTER (sport console): small cap or lever near shifter base. Insert key or flathead into override slot, press brake, move to N.",
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Insert key/screwdriver into shift lock override near shifter, press brake, move to N.",
-        "AWD drivetrain — FLATBED preferred. Never tow with only two wheels on ground."
+        "AWD drivetrain \u2014 FLATBED preferred. Never tow with only two wheels on ground."
       ],
-      "notes": "Very rare — only 2,995 produced. Turbocharged 4.3L V6, 0-60 in 4.3s. AWD — flatbed strongly recommended for towing."
+      "notes": "Very rare \u2014 only 2,995 produced. Turbocharged 4.3L V6, 0-60 in 4.3s. AWD \u2014 flatbed strongly recommended for towing.",
+      "make": "GMC"
     },
     {
       "model": "Typhoon (1992-1993)",
@@ -713,11 +720,12 @@
       "slot": "FLOOR CONSOLE SHIFTER: shift lock override near shifter base. Insert key or flathead into override slot, press brake, move to N.",
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Insert screwdriver into shift lock override, press brake, move to N.",
-        "AWD drivetrain — FLATBED preferred."
+        "AWD drivetrain \u2014 FLATBED preferred."
       ],
-      "notes": "Performance SUV based on S-10 Blazer chassis. Only 4,697 produced (1992-1993). AWD — flatbed required for all towing."
+      "notes": "Performance SUV based on S-10 Blazer chassis. Only 4,697 produced (1992-1993). AWD \u2014 flatbed required for all towing.",
+      "make": "GMC"
     },
     {
       "model": "Savana Van (1996-2026)",
@@ -728,14 +736,15 @@
       "battery": {
         "location": "Under hood, driver side"
       },
-      "slot": "COLUMN SHIFTER (all Savana years): shift interlock slot on the STEERING COLUMN housing — lower-left face, below the shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
+      "slot": "COLUMN SHIFTER (all Savana years): shift interlock slot on the STEERING COLUMN housing \u2014 lower-left face, below the shift lever. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack to battery — under hood, driver side.",
+        "Connect jump pack to battery \u2014 under hood, driver side.",
         "Turn key to ON, insert flathead into column interlock slot (lower-left face), press brake, move lever to N.",
         "RWD: lift from rear axle. AWD: FLATBED required."
       ],
-      "notes": "Full-size van on GMT610 platform. Column shift on ALL Savana trims. Sold alongside Chevrolet Express (mechanically identical except badging)."
+      "notes": "Full-size van on GMT610 platform. Column shift on ALL Savana trims. Sold alongside Chevrolet Express (mechanically identical except badging).",
+      "make": "GMC"
     },
     {
       "model": "Hummer EV Pickup / Hummer EV SUV (2022-2026)",
@@ -744,18 +753,19 @@
       "drivetrain": "AWD electric (tri-motor or dual-motor)",
       "trans": "Single-speed electric drive (Ultium platform)",
       "battery": {
-        "location": "12V auxiliary battery under hood. HV Ultium traction battery under floor (~212 kWh) — NEVER touch orange/yellow HV cables. Extreme caution: HV system is extremely high voltage and high capacity."
+        "location": "12V auxiliary battery under hood. HV Ultium traction battery under floor (~212 kWh) \u2014 NEVER touch orange/yellow HV cables. Extreme caution: HV system is extremely high voltage and high capacity."
       },
-      "slot": "Electronic selector — no mechanical cabin override. Restore 12V power first.",
+      "slot": "Electronic selector \u2014 no mechanical cabin override. Restore 12V power first.",
       "neutral": [
-        "FLATBED ONLY — AWD electric drivetrain. NEVER tow with wheels on ground.",
-        "12V auxiliary battery under hood — connect jump pack here for 12V systems only.",
+        "FLATBED ONLY \u2014 AWD electric drivetrain. NEVER tow with wheels on ground.",
+        "12V auxiliary battery under hood \u2014 connect jump pack here for 12V systems only.",
         "NEVER touch HV traction battery under floor or orange/yellow HV cables.",
         "Once 12V restored, press brake, select N on electronic selector.",
-        "Extremely heavy (~9,000+ lbs) — CONFIRM tow truck rated for this weight before loading.",
+        "Extremely heavy (~9,000+ lbs) \u2014 CONFIRM tow truck rated for this weight before loading.",
         "Crab Walk / 4-wheel steer: ensure feature is off and wheels are straight before loading on flatbed."
       ],
-      "notes": "Built on Ultium EV platform. Tri-motor = 1,000 hp. Air suspension — set to Extract (raised) mode for flatbed loading if possible. Weight exceeds most flatbed capacity — confirm before dispatch."
+      "notes": "Built on Ultium EV platform. Tri-motor = 1,000 hp. Air suspension \u2014 set to Extract (raised) mode for flatbed loading if possible. Weight exceeds most flatbed capacity \u2014 confirm before dispatch.",
+      "make": "GMC"
     },
     {
       "model": "Sierra EV (2024-2026)",
@@ -764,17 +774,18 @@
       "drivetrain": "AWD electric (dual motor)",
       "trans": "Single-speed electric drive (Ultium platform)",
       "battery": {
-        "location": "12V auxiliary battery under hood. HV Ultium traction battery under floor — NEVER touch orange HV cables."
+        "location": "12V auxiliary battery under hood. HV Ultium traction battery under floor \u2014 NEVER touch orange HV cables."
       },
-      "slot": "Electronic selector — no mechanical override. Restore 12V power first.",
+      "slot": "Electronic selector \u2014 no mechanical override. Restore 12V power first.",
       "neutral": [
-        "FLATBED ONLY — AWD electric drivetrain.",
-        "12V auxiliary battery under hood — connect jump pack here.",
+        "FLATBED ONLY \u2014 AWD electric drivetrain.",
+        "12V auxiliary battery under hood \u2014 connect jump pack here.",
         "NEVER touch HV traction battery under floor or orange/yellow cables.",
         "Once 12V restored, press brake and select N on electronic selector.",
-        "Very heavy (~7,200 lbs) — confirm tow truck capacity before loading."
+        "Very heavy (~7,200 lbs) \u2014 confirm tow truck capacity before loading."
       ],
-      "notes": "Ultium platform EV truck. 754 hp Denali Edition, 400+ hp base. Shares architecture with Chevrolet Silverado EV."
+      "notes": "Ultium platform EV truck. 754 hp Denali Edition, 400+ hp base. Shares architecture with Chevrolet Silverado EV.",
+      "make": "GMC"
     },
     {
       "model": "Yukon / Yukon XL (1995-1999, GMT400)",
@@ -788,12 +799,13 @@
       "slot": "COLUMN SHIFTER: shift interlock slot on the STEERING COLUMN housing. Turn key to ON/ACC, insert flathead screwdriver into slot, press brake, move column lever to N.",
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood, driver side.",
+        "Connect jump pack \u2014 under hood, driver side.",
         "Turn key to ON, insert flathead into column slot, press brake, move lever to N.",
-        "TRANSFER CASE: manual floor lever — shift to 2WD/2H before road towing.",
+        "TRANSFER CASE: manual floor lever \u2014 shift to 2WD/2H before road towing.",
         "4WD: FLATBED preferred. 2WD: can lift from rear."
       ],
-      "notes": "GMT400 platform Yukon. 2-door 1992-1994, 4-door 1995+. Renamed from Jimmy Full-Size to Yukon in 1992. Column shift all trims."
+      "notes": "GMT400 platform Yukon. 2-door 1992-1994, 4-door 1995+. Renamed from Jimmy Full-Size to Yukon in 1992. Column shift all trims.",
+      "make": "GMC"
     },
     {
       "model": "Terrain EV (2024-2026)",
@@ -802,16 +814,18 @@
       "drivetrain": "FWD or AWD electric",
       "trans": "Single-speed electric (Ultium-derived)",
       "battery": {
-        "location": "12V auxiliary battery under hood. HV traction battery under floor — never touch orange cables."
+        "location": "12V auxiliary battery under hood. HV traction battery under floor \u2014 never touch orange cables."
       },
-      "slot": "Electronic selector — no mechanical override. Restore 12V first.",
+      "slot": "Electronic selector \u2014 no mechanical override. Restore 12V first.",
       "neutral": [
         "FLATBED ONLY for AWD. FWD may use front dollies if N confirmed.",
-        "12V auxiliary under hood — jump here.",
+        "12V auxiliary under hood \u2014 jump here.",
         "Never touch HV battery under floor or orange cables.",
         "Once 12V restored, press brake, select N."
       ],
-      "notes": "All-electric compact SUV. Canadian market launch first; US market expanding. Smaller than Equinox EV."
+      "notes": "All-electric compact SUV. Canadian market launch first; US market expanding. Smaller than Equinox EV.",
+      "make": "GMC"
     }
-  ]
+  ],
+  "make": "GMC"
 }

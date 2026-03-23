@@ -21,8 +21,8 @@
       "fuelType": "gasoline",
       "trans": "4-speed or 6-speed automatic",
       "drivetrain": "FWD",
-      "curbWeight": "3,131–3,439 lbs",
-      "gvwr": "Not published — check door jamb",
+      "curbWeight": "3,131\u20133,439 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
       "slot": "Cap near selector base on center console",
       "shift": [
         "Turn ignition to ON.",
@@ -33,11 +33,11 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "12V battery under the hood — connect jump pack.",
+        "12V battery under the hood \u2014 connect jump pack.",
         "Once powered, press brake and shift to N normally.",
-        "FWD: lift from rear — front (drive) wheels roll on ground."
+        "FWD: lift from rear \u2014 front (drive) wheels roll on ground."
       ],
-      "notes": "FWD — rear lift. Common on roads despite discontinuation in 2010.",
+      "notes": "FWD \u2014 rear lift. Common on roads despite discontinuation in 2010.",
       "warn": "",
       "towMethod": "Lift from rear (front FWD drive wheels roll).",
       "tc": null,
@@ -53,7 +53,7 @@
       "steeringLock": "Key-operated.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard",
+        "jumpTerminals": "Under hood \u2014 standard",
         "type": "standard-12v",
         "warnings": ""
       },
@@ -68,8 +68,8 @@
       "fuelType": "gasoline",
       "trans": "4-speed automatic",
       "drivetrain": "FWD",
-      "curbWeight": "3,439–3,704 lbs",
-      "gvwr": "Not published — check door jamb",
+      "curbWeight": "3,439\u20133,704 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
       "slot": "Cap near selector base on console",
       "shift": [
         "Turn ignition to ON.",
@@ -80,11 +80,11 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "12V battery under the hood — connect jump pack.",
+        "12V battery under the hood \u2014 connect jump pack.",
         "Once powered, press brake and shift to N normally.",
-        "FWD: lift from rear — front (drive) wheels roll on ground."
+        "FWD: lift from rear \u2014 front (drive) wheels roll on ground."
       ],
-      "notes": "FWD — rear lift.",
+      "notes": "FWD \u2014 rear lift.",
       "warn": "",
       "towMethod": "Lift from rear (front FWD wheels roll).",
       "tc": null,
@@ -98,7 +98,7 @@
       "steeringLock": "Key-operated.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard",
+        "jumpTerminals": "Under hood \u2014 standard",
         "type": "standard-12v",
         "warnings": ""
       },
@@ -113,8 +113,8 @@
       "fuelType": "gasoline",
       "trans": "4-speed automatic",
       "drivetrain": "FWD",
-      "curbWeight": "3,042–3,175 lbs",
-      "gvwr": "Not published — check door jamb",
+      "curbWeight": "3,042\u20133,175 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
       "slot": "Cap near selector base on console",
       "shift": [
         "Find cap near selector base. Pry off.",
@@ -127,7 +127,7 @@
         "Connect jump pack.",
         "Shift normally."
       ],
-      "notes": "FWD — rear lift. N-body platform.",
+      "notes": "FWD \u2014 rear lift. N-body platform.",
       "warn": "",
       "towMethod": "Lift from rear.",
       "tc": null,
@@ -141,7 +141,7 @@
       "steeringLock": "Key-operated.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard",
+        "jumpTerminals": "Under hood \u2014 standard",
         "type": "standard-12v",
         "warnings": ""
       },
@@ -156,12 +156,12 @@
       "fuelType": "gasoline",
       "trans": "4-speed automatic or 5-speed manual",
       "drivetrain": "FWD or AWD (GT AWD)",
-      "curbWeight": "2,712–3,086 lbs",
-      "gvwr": "Not published — check door jamb",
+      "curbWeight": "2,712\u20133,086 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
       "slot": "Cap near selector base on console",
       "shift": [
         "Turn ignition to ON.",
-        "The Vibe is built on the Toyota Matrix/Corolla platform — locate the shift lock slot near the gear selector base.",
+        "The Vibe is built on the Toyota Matrix/Corolla platform \u2014 locate the shift lock slot near the gear selector base.",
         "Pry off the cap with a key or thin flathead.",
         "Insert key into the slot and press firmly.",
         "Press the brake pedal while holding.",
@@ -170,16 +170,16 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "12V battery under the hood — connect jump pack.",
+        "12V battery under the hood \u2014 connect jump pack.",
         "Once powered, press brake and shift to N normally.",
-        "FWD: lift from rear — front (drive) wheels roll on ground."
+        "FWD: lift from rear \u2014 front (drive) wheels roll on ground."
       ],
       "notes": "Toyota Matrix twin. AWD: flatbed preferred. Manual option available.",
       "warn": "AWD GT: flatbed preferred.",
       "towMethod": "FWD: rear lift. AWD GT: flatbed preferred.",
       "tc": null,
       "towNotes": [
-        "Toyota Matrix twin — shares all service data.",
+        "Toyota Matrix twin \u2014 shares all service data.",
         "AWD: flatbed."
       ],
       "epb": {
@@ -191,7 +191,7 @@
       "steeringLock": "Key-operated.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard",
+        "jumpTerminals": "Under hood \u2014 standard",
         "type": "standard-12v",
         "warnings": "AWD: flatbed preferred."
       },
@@ -206,8 +206,8 @@
       "fuelType": "gasoline",
       "trans": "5-speed automatic",
       "drivetrain": "FWD or AWD",
-      "curbWeight": "3,571–3,748 lbs",
-      "gvwr": "Not published — check door jamb",
+      "curbWeight": "3,571\u20133,748 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
       "slot": "Cap near selector base on console",
       "shift": [
         "Turn ignition to ON.",
@@ -218,16 +218,16 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "12V battery under the hood — connect jump pack.",
+        "12V battery under the hood \u2014 connect jump pack.",
         "Once powered, shift normally.",
-        "FWD: lift from rear. AWD: flatbed preferred — no transfer case neutral on Torrent AWD."
+        "FWD: lift from rear. AWD: flatbed preferred \u2014 no transfer case neutral on Torrent AWD."
       ],
       "notes": "Chevrolet Equinox twin. AWD: flatbed preferred.",
       "warn": "AWD: flatbed preferred.",
       "towMethod": "FWD: rear lift. AWD: flatbed preferred.",
       "tc": null,
       "towNotes": [
-        "Equinox twin — shares all procedures."
+        "Equinox twin \u2014 shares all procedures."
       ],
       "epb": {
         "equipped": false,
@@ -238,7 +238,7 @@
       "steeringLock": "Key-operated.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard",
+        "jumpTerminals": "Under hood \u2014 standard",
         "type": "standard-12v",
         "warnings": "AWD: flatbed."
       },
@@ -253,8 +253,8 @@
       "fuelType": "gasoline",
       "trans": "5-speed automatic or 5-speed manual",
       "drivetrain": "RWD",
-      "curbWeight": "2,888–3,042 lbs",
-      "gvwr": "Not published — check door jamb",
+      "curbWeight": "2,888\u20133,042 lbs",
+      "gvwr": "Not published \u2014 check door jamb",
       "slot": "Cap or slot near selector base on console",
       "shift": [
         "Find cap near selector base. Pry off.",
@@ -269,13 +269,13 @@
         "Shift normally.",
         "RWD: lift from front."
       ],
-      "notes": "Roadster/convertible. RWD — lift from front. Very low clearance.",
+      "notes": "Roadster/convertible. RWD \u2014 lift from front. Very low clearance.",
       "warn": "Very low ground clearance. Use flatbed or minimal ramp angle.",
       "towMethod": "Lift from front (rear RWD wheels roll). Flatbed preferred due to low clearance.",
       "tc": null,
       "towNotes": [
-        "Very low clearance — flatbed preferred.",
-        "Convertible soft top — do not strap over roof."
+        "Very low clearance \u2014 flatbed preferred.",
+        "Convertible soft top \u2014 do not strap over roof."
       ],
       "epb": {
         "equipped": false,
@@ -286,9 +286,9 @@
       "steeringLock": "Key-operated.",
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard",
+        "jumpTerminals": "Under hood \u2014 standard",
         "type": "standard-12v",
-        "warnings": "Very low clearance — flatbed preferred."
+        "warnings": "Very low clearance \u2014 flatbed preferred."
       },
       "knownIssues": [
         {
@@ -306,8 +306,8 @@
       "drivetrain": "FWD",
       "slot": "Small cap near selector base on center console",
       "shift": [
-        "Turn ignition to ON (key to Run position — do not start).",
-        "Locate the shift lock override: small cap near selector base on center console.",
+        "Turn ignition to ON (key to Run position \u2014 do not start).",
+        "Locate the shift lock override slot \u2014 Small cap near selector base on center console.",
         "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -316,19 +316,19 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally."
       ],
       "notes": "FWD W-body platform. Common vehicle.",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front."
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       },
@@ -343,8 +343,8 @@
       "drivetrain": "FWD",
       "slot": "Small cap near selector base on center console",
       "shift": [
-        "Turn ignition to ON (key to Run position — do not start).",
-        "Locate the shift lock override: small cap near selector base on center console.",
+        "Turn ignition to ON (key to Run position \u2014 do not start).",
+        "Locate the shift lock override slot \u2014 Small cap near selector base on center console.",
         "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
         "Insert the key (or a thin flathead) into the slot and press firmly downward.",
         "While holding the slot, press the brake pedal.",
@@ -353,19 +353,19 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally."
       ],
       "notes": "FWD H-body platform. Full-size Pontiac.",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front."
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       },
@@ -388,20 +388,20 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood, driver side.",
+        "Connect jump pack to battery \u2014 under the hood, driver side.",
         "Once 12V power is restored, press brake and shift to Neutral normally."
       ],
       "notes": "RWD F-body platform. Same as Camaro. Manual trans: depress clutch.",
       "warn": "",
-      "towMethod": "RWD: lift from rear — rear (drive) wheels in the air. Flatbed preferred.",
+      "towMethod": "RWD: lift from rear \u2014 rear (drive) wheels in the air. Flatbed preferred.",
       "tc": null,
       "towNotes": [
         "RWD: lift from rear.",
-        "Same platform as Camaro — identical procedure."
+        "Same platform as Camaro \u2014 identical procedure."
       ],
       "battery": {
         "location": "Under hood, driver side",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       },
@@ -424,19 +424,19 @@
       ],
       "neutral": [
         "Apply parking brake and chock wheels.",
-        "Connect jump pack to battery — under the hood.",
+        "Connect jump pack to battery \u2014 under the hood.",
         "Once 12V power is restored, press brake and shift to Neutral normally."
       ],
       "notes": "N-body platform. Very common 1990s vehicle.",
       "warn": "",
-      "towMethod": "FWD: lift from front — front (drive) wheels in the air.",
+      "towMethod": "FWD: lift from front \u2014 front (drive) wheels in the air.",
       "tc": null,
       "towNotes": [
         "FWD: lift from front."
       ],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       },
@@ -461,7 +461,7 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Once powered, shift to N.",
         "AWD variants: FLATBED PREFERRED. FWD: lift from front."
       ],
@@ -475,7 +475,7 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
@@ -490,7 +490,7 @@
       "slot": "Small cap near gear selector base on center console",
       "shift": [
         "Turn ignition to ON (do not start engine).",
-        "Locate the shift lock release: small cap near gear selector base on center console.",
+        "Locate the shift lock override slot \u2014 Small cap near gear selector base on center console.",
         "Pry off cap with ignition key or small flathead.",
         "Insert key or thin flathead and press firmly downward.",
         "While holding, press the brake pedal firmly.",
@@ -499,9 +499,9 @@
       ],
       "neutral": [
         "Apply parking brake.",
-        "Connect jump pack — under hood.",
+        "Connect jump pack \u2014 under hood.",
         "Once powered, shift to N.",
-        "AWD (Versatrak): FLATBED PREFERRED — no traditional TC."
+        "AWD (Versatrak): FLATBED PREFERRED \u2014 no traditional TC."
       ],
       "notes": "AWD: flatbed preferred.",
       "warn": "AWD: flatbed preferred.",
@@ -513,10 +513,11 @@
       "knownIssues": [],
       "battery": {
         "location": "Under hood",
-        "jumpTerminals": "Under hood — standard terminals",
+        "jumpTerminals": "Under hood \u2014 standard terminals",
         "type": "standard-12v",
         "warnings": ""
       }
     }
-  ]
+  ],
+  "make": "Pontiac"
 }
