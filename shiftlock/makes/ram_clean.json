@@ -1,6 +1,6 @@
 {
   "make": "Ram",
-  "count": 14,
+  "count": 15,
   "vehicles": [
     {
       "make": "Ram",
@@ -66,7 +66,7 @@
       "chassis": "DT",
       "years": "2019–2026",
       "meta": {
-        "transmission": "8-speed TorqueFlite automatic: 850RE (V6 3.6L), 8HP75 (Hemi 5.7L V8). eTorque is a mild hybrid belt-starter system — not a separate transmission.",
+        "transmission": "8-speed TorqueFlite automatic: 850RE (V6 3.6L), 8HP75 (Hemi 5.7L V8 2019-2024, returned 2026). 2025+: 3.0L Hurricane I6 SO (420 hp) or HO (540 hp) — same 8-speed TorqueFlite (8HP75). eTorque is a mild hybrid belt-starter system — not a separate transmission.",
         "drivetrain": "RWD or 4WD (part-time)",
         "tags": [
           "rwd",
@@ -127,7 +127,7 @@
     {
       "make": "Ram",
       "model": "1500 TRX",
-      "chassis": null,
+      "chassis": "DT",
       "years": "2021–2024",
       "meta": {
         "transmission": "8-speed TorqueFlite (8HP95)",
@@ -172,12 +172,85 @@
         "location": "Under hood",
         "jumpPoints": "Under hood — standard terminals",
         "type": "standard-12v",
-        "warning": ""
+        "warning": "Full-time 4WD — must shift TC to 2H before road towing. Engine must be running."
       },
       "alerts": {
         "warning": "Must shift transfer case to 2H/2WD before road towing. Never tow in 4H or 4L on dry pavement — drivetrain damage.",
         "notes": "High-performance off-road trim. Same as DT 1500 procedure.",
         "issues": []
+      }
+    },
+    {
+      "make": "Ram",
+      "model": "1500 RHO",
+      "chassis": "DT",
+      "years": "2025–2026",
+      "meta": {
+        "transmission": "8-speed TorqueFlite automatic (8HP75) — same as other DT 1500 models",
+        "drivetrain": "4WD (full-time BorgWarner 48-13 active transfer case — no 2WD mode)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Same as DT 1500 — electronic gear selector with Manual Park Release under the dash. Panel is LEFT of steering column, ABOVE the parking brake release handle. Pry off small plastic cover with flathead screwdriver. Inside: push the locking tab to the RIGHT with a screwdriver, then pull the orange tether strap REARWARD (toward driver seat) until it clicks locked. Vehicle is now in neutral.",
+          "steps": [
+            "Turn ignition to ON.",
+            "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
+            "Insert a thin key or flathead into the exposed slot.",
+            "Press firmly inward and hold.",
+            "While holding, press the brake pedal.",
+            "Press the N button or move the electronic selector to Neutral.",
+            "Confirm N on instrument cluster."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood — connect jump pack directly.",
+            "Once 12V restored: press brake and turn electronic selector to N normally.",
+            "DEAD BATTERY: pry off panel LEFT of steering column above park brake release. Push locking tab RIGHT, pull orange strap REARWARD until it clicks. Truck is now in N.",
+            "TRANSFER CASE: BorgWarner 48-13 full-time AWD — NO 2WD mode available. Cannot disengage front axle.",
+            "FLATBED ONLY — full-time AWD with no 2WD option means wheel-lift towing is NOT safe.",
+            "Bilstein active shocks: set ride height to NORMAL/ENTRY before towing if possible."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — full-time AWD transfer case with no 2WD mode. Cannot disengage front axle for wheel-lift towing.",
+        "notes": [
+          "BorgWarner 48-13 transfer case has NO 2WD mode — unlike standard Ram 1500 4WD.",
+          "FLATBED is the only safe tow method. Do NOT attempt wheel-lift.",
+          "If flatbed not available, use wheel-lift with dollies on opposite axle.",
+          "Active suspension: lower to ENTRY/NORMAL height before loading if possible.",
+          "33-inch or 35-inch off-road tires — account for wider footprint when loading flatbed."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "FLATBED ONLY — full-time AWD, no 2WD mode."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY — full-time AWD transfer case has no 2WD mode.",
+        "notes": "High-performance off-road trim replacing TRX for 2025-2026. Uses Hurricane HO (540 hp) instead of supercharged Hemi. Full-time AWD — cannot be switched to 2WD. Same DT platform as standard 1500.",
+        "issues": [
+          {
+            "title": "Full-Time AWD — No 2WD Mode",
+            "detail": "Unlike standard Ram 1500 4WD models, the RHO uses a BorgWarner 48-13 full-time active transfer case with NO 2WD option. The front axle cannot be disengaged. This means wheel-lift towing (rear wheels up) will still drag the front driveline. FLATBED ONLY."
+          },
+          {
+            "title": "Active Suspension — Set to Normal Before Towing",
+            "detail": "The RHO has active Bilstein shocks and may be in a raised off-road height setting. Use the touchscreen or drive mode selector to lower the truck to Normal or Entry height before loading onto a flatbed, if the vehicle has power."
+          },
+          {
+            "title": "Known Issue: 12V Battery Drain",
+            "detail": "2025-2026 DT trucks (including RHO) have a known issue with 12V battery drain, often triggered by key fob proximity. TSB 08-380-25 addresses this with a BCM software reflash. Dead batteries are common on these trucks."
+          }
+        ]
       }
     },
     {
@@ -230,9 +303,9 @@
       },
       "battery": {
         "location": "Under hood driver side. Cummins diesel: dual batteries, both on driver side under hood.",
-        "jumpPoints": null,
-        "type": null,
-        "warning": null
+        "jumpPoints": "Under hood — standard terminals. Cummins: connect to POSITIVE terminal closest to firewall.",
+        "type": "standard-12v",
+        "warning": "Cummins diesel: dual batteries both under hood driver side. Very heavy — rated equipment required."
       },
       "alerts": {
         "warning": "4WD: transfer case. Heavy-duty — use heavy wheel blocks.",
@@ -295,21 +368,21 @@
       },
       "battery": {
         "location": "Under hood, driver side near firewall.",
-        "jumpPoints": null,
-        "type": null,
-        "warning": null
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Large, heavy van. 2022+: 948TE 9-speed."
       },
       "alerts": {
         "warning": "Large van — heavy wheel blocks.",
-        "notes": "Commercial van. Based on Fiat Ducato platform. ProMaster City uses ZF 9HP rotary selector — restore 12V power before shifting. ZF 9HP requires more force than standard if shifted without power.",
+        "notes": "Commercial van. Based on Fiat Ducato platform. 2014-2021: 62TE 6-speed with cable-connected floor shifter. 2022+: 948TE 9-speed (marketed as 9-speed but 8th/9th gears locked out on ProMaster due to weight). Floor-mounted shifter on all years.",
         "issues": [
           {
-            "title": "ZF 9HP Rotary Requires 12V Power",
-            "detail": "The ProMaster City uses a ZF 9HP rotary dial selector. This transmission requires 12V power to shift reliably. Always jump the battery first."
+            "title": "62TE 6-Speed (2014-2021) — Rollaway Recall",
+            "detail": "2019-2021 ProMasters with 62TE were recalled for transmission shifter cable separation and premature clutch retainer failure. Confirm recall was addressed before towing. Park pawl may not engage properly."
           },
           {
-            "title": "ZF 9HP Rotary Selector — Left of Steering Column",
-            "detail": "The ProMaster City's rotary gear selector is NOT on the center console — it is to the LEFT of the steering column. The ZF 9HP requires 12V power for reliable shifting. Mechanical override requires significant force."
+            "title": "948TE 9-Speed (2022+) — Top Gears Locked Out",
+            "detail": "The 2022+ ProMaster uses a 948TE 9-speed but 8th and 9th gears are software-locked due to the van's weight and gearing. Effectively operates as a 7-speed. Same shift-to-neutral procedure as 62TE — floor-mounted shifter."
           }
         ]
       }
@@ -363,7 +436,7 @@
         "location": "Under hood",
         "jumpPoints": "Under hood — standard terminals",
         "type": "standard-12v",
-        "warning": ""
+        "warning": "Confirm TC in 2WD before lifting."
       },
       "alerts": {
         "warning": "Shift TC to 2WD before road towing.",
@@ -373,12 +446,12 @@
     },
     {
       "make": "Ram",
-      "model": "1500 REV",
+      "model": "1500 REV (Ramcharger)",
       "chassis": "EV",
-      "years": "2025–2026",
+      "years": "2026",
       "meta": {
-        "transmission": "Single-speed electric",
-        "drivetrain": "AWD electric",
+        "transmission": "Single-speed electric motors — series hybrid PHEV (3.6L Pentastar V6 generator, no mechanical link to wheels). Originally announced as all-electric BEV; renamed to REV in Sept 2025 as PHEV Ramcharger.",
+        "drivetrain": "eAWD (electric all-wheel drive)",
         "tags": [
           "awd",
           "flatbed_only"
@@ -397,7 +470,7 @@
         },
         "neutralOverride": {
           "steps": [
-            "FLATBED ONLY — electric drivetrain, AWD. Never tow with driven wheels on ground.",
+            "FLATBED ONLY — electric drivetrain, eAWD. Never tow with driven wheels on ground.",
             "12V auxiliary battery is under hood — connect jump pack here for 12V systems.",
             "12V AUXILIARY ONLY — NEVER touch HV battery under floor or orange cables.",
             "Once 12V powered, use touchscreen/selector to engage N.",
@@ -422,8 +495,17 @@
       },
       "alerts": {
         "warning": "FLATBED ONLY. Very heavy — confirm tow capacity. 12V auxiliary ONLY.",
-        "notes": "Electric pickup truck. Very heavy — confirm tow capacity. Flatbed only.",
-        "issues": []
+        "notes": "Plug-in hybrid (series hybrid — gas engine is generator only, no mechanical drive). Renamed from Ramcharger to REV in Sept 2025. All-electric BEV version delayed to 2027–2028. Very heavy (~7,000 lb) — confirm tow truck capacity.",
+        "issues": [
+          {
+            "title": "PHEV Series Hybrid — Not Traditional Hybrid",
+            "detail": "The 1500 REV uses a series hybrid architecture. The 3.6L Pentastar V6 acts only as an onboard generator — it has NO mechanical connection to the wheels. All drive power comes from electric motors. Towing procedures are the same as a BEV: flatbed only, 12V auxiliary for jumping."
+          },
+          {
+            "title": "All-Electric BEV Version Delayed",
+            "detail": "The original all-electric Ram 1500 REV (BEV) has been delayed to summer 2027 at earliest. The production vehicle launching as 2026 REV is the Ramcharger plug-in hybrid with range extender."
+          }
+        ]
       }
     },
     {
@@ -440,16 +522,15 @@
       },
       "procedures": {
         "shiftLock": {
-          "slot": "COLUMN-MOUNTED gear selector lever (not a rotary dial). The ProMaster City uses a cable-connected column shifter with PRNDL positions on the column stalk. Shift lock override: small cap/cover at the base of the column shroud. Pry off cover with flathead screwdriver. Insert screwdriver to press the shift interlock plunger. Press brake and move the column lever to N.",
+          "slot": "COLUMN-MOUNTED gear selector lever (not a rotary dial). The ProMaster City uses a cable-connected column shifter with PRNDL positions on the column stalk. Shift lock override: small cap/cover at the base of the column shroud near the steering column. Pry off cover with flathead screwdriver. Insert screwdriver to press the shift interlock solenoid plunger. Press brake and move the column lever to N.",
           "steps": [
-            "Turn ignition to ON.",
-            "ZF 9HP rotary selector: RESTORE 12V POWER FIRST — strongly recommended.",
-            "Connect jump pack — under hood.",
-            "Once powered, press brake and rotate dial to N.",
-            "WITHOUT POWER: override slot near BASE of rotary dial.",
-            "Insert thin flathead. Apply FIRM sustained pressure for 5-10 seconds.",
-            "While holding, press brake and rotate to N.",
-            "Rotary selector on LEFT side of steering column (not center console)."
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override: small cap/cover at the base of the steering column shroud.",
+            "Pry off cover with flathead screwdriver.",
+            "Insert screwdriver to press the shift interlock plunger inside.",
+            "While holding, press the brake pedal firmly.",
+            "Move the column-mounted PRNDL lever to Neutral.",
+            "Remove tool and replace cover."
           ]
         },
         "neutralOverride": {
@@ -471,25 +552,17 @@
       },
       "battery": {
         "location": "Under hood, driver side.",
-        "jumpPoints": null,
-        "type": null,
-        "warning": null
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Discontinued after 2022 MY."
       },
       "alerts": {
         "warning": "ZF 9HP: restore power before shifting.",
-        "notes": "ZF 9HP rotary — power strongly preferred. Small commercial van. FWD.",
+        "notes": "Small commercial van based on Fiat Doblo platform. FWD. 948TE 9-speed automatic with column-mounted shifter — NOT a rotary dial. Discontinued after 2022 MY.",
         "issues": [
           {
-            "title": "ZF 9HP Requires Power to Shift",
-            "detail": "The ZF 9HP rotary transmission cannot reliably shift without 12V power. Always restore the battery before attempting to select Neutral."
-          },
-          {
-            "title": "ZF 9HP Rotary Requires 12V Power",
-            "detail": "The ProMaster City uses a ZF 9HP rotary dial selector. This transmission requires 12V power to shift reliably. Always jump the battery first."
-          },
-          {
-            "title": "ZF 9HP Rotary Selector — Left of Steering Column",
-            "detail": "The ProMaster City's rotary gear selector is NOT on the center console — it is to the LEFT of the steering column. The ZF 9HP requires 12V power for reliable shifting. Mechanical override requires significant force."
+            "title": "948TE 9-Speed — Restore Power Before Shifting",
+            "detail": "The ProMaster City's 948TE 9-speed automatic is more reliable when shifted with 12V power. Always jump the battery first if possible. Mechanical override at column shroud base requires firm pressure."
           }
         ]
       }
@@ -510,7 +583,15 @@
       "procedures": {
         "shiftLock": {
           "slot": "Column shifter (most trims): small slot at base of steering column shroud, bottom side. Insert key or screwdriver to depress interlock button. Press brake and move lever to N. Console shifter (some trims): small cap beside shifter gate — pry off, insert screwdriver.",
-          "steps": []
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Column shifter: locate small slot at base of steering column shroud, bottom/driver side.",
+            "Console shifter (some trims): locate small cap beside shifter gate on console.",
+            "Insert ignition key or thin flathead screwdriver into slot/cap.",
+            "Press firmly to depress the shift interlock button.",
+            "While holding, press brake pedal firmly.",
+            "Move selector from Park to Neutral."
+          ]
         },
         "neutralOverride": {
           "steps": [
@@ -526,18 +607,22 @@
         }
       },
       "tow": {
-        "method": null,
-        "notes": []
+        "method": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first, then lift from rear. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "TC must be in 2WD/2H for road towing.",
+          "DEAD BATTERY: jump first, shift TC to 2WD, THEN disconnect. If unable, FLATBED ONLY.",
+          "MANUAL NV3500/NV4500: depress clutch and shift to N — no interlock override needed."
+        ]
       },
       "battery": {
         "location": "Under hood, driver side.",
-        "jumpPoints": null,
-        "type": null,
-        "warning": null
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Confirm TC in 2WD before lifting. Some trims have electronic TC requiring power."
       },
       "alerts": {
-        "warning": null,
-        "notes": null,
+        "warning": "Shift TC to 2WD before road towing.",
+        "notes": "Sold as Dodge Ram through 2001. Column shifter most common; some sport/SLT trims had console shifter. Manual trans option: NV3500 (gas) or NV4500 (HD).",
         "issues": []
       }
     },
@@ -557,7 +642,15 @@
       "procedures": {
         "shiftLock": {
           "slot": "Column shifter: small slot at base of column shroud, bottom side. Insert key or screwdriver to depress interlock. Press brake and move to N. NOTE: Early 1990-1993 trucks may have minimal electronic shift lock — some can be shifted key-on with brake pressed and no override needed.",
-          "steps": []
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate shift lock slot at bottom of steering column shroud.",
+            "Insert ignition key or thin flathead into slot.",
+            "Press firmly to depress interlock button.",
+            "While holding, press brake pedal.",
+            "Move column lever from Park to Neutral.",
+            "NOTE: Some early 1990-1991 trucks may shift without override — try key-on + brake first."
+          ]
         },
         "neutralOverride": {
           "steps": [
@@ -572,18 +665,22 @@
         }
       },
       "tow": {
-        "method": null,
-        "notes": []
+        "method": "RWD/2WD: lift from rear. 4WD: transfer case to 2H first, then lift from rear. Flatbed preferred for all 4WD models.",
+        "notes": [
+          "TC floor lever: shift to 2H before road towing.",
+          "MANUAL (NV4500/NV3500): depress clutch and shift to N.",
+          "Very early models (1990-1991) may have minimal electronic shift interlock."
+        ]
       },
       "battery": {
         "location": "Under hood, driver side.",
-        "jumpPoints": null,
-        "type": null,
-        "warning": null
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
       },
       "alerts": {
-        "warning": null,
-        "notes": null,
+        "warning": "4WD: transfer case to 2H before road towing.",
+        "notes": "Sold as Dodge Ram. First generation with modern Ram styling. A727 3-speed auto very common. Manual trans available.",
         "issues": []
       }
     },
@@ -603,7 +700,14 @@
       "procedures": {
         "shiftLock": {
           "slot": "Column-mounted gear selector lever (PRNDL on steering column). Small shift lock override slot at the base of the column shroud, bottom/driver side. Insert key or small flathead screwdriver into slot, press shift interlock button. Press brake pedal and move column lever to N.",
-          "steps": []
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate shift lock override: small slot at base of column shroud, bottom/driver side.",
+            "Insert ignition key or thin flathead screwdriver.",
+            "Press firmly to depress interlock button.",
+            "While holding, press brake pedal.",
+            "Move column lever to Neutral."
+          ]
         },
         "neutralOverride": {
           "steps": [
@@ -617,18 +721,21 @@
         }
       },
       "tow": {
-        "method": null,
-        "notes": []
+        "method": "RWD only — lift from rear or flatbed.",
+        "notes": [
+          "RWD only — no transfer case concerns.",
+          "Heavy vehicle — confirm equipment capacity, especially fully loaded passenger wagon models."
+        ]
       },
       "battery": {
         "location": "Under hood, driver side near firewall.",
-        "jumpPoints": null,
-        "type": null,
-        "warning": null
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
       },
       "alerts": {
-        "warning": null,
-        "notes": null,
+        "warning": "Heavy van — use rated equipment.",
+        "notes": "Sold as Dodge Ram Van / Ram Wagon 1990-2003. RWD only. Column shifter standard.",
         "issues": []
       }
     },
@@ -648,7 +755,15 @@
       "procedures": {
         "shiftLock": {
           "slot": "Floor console shifter: small cap beside the shifter gate (right side of selector). Pry cap off with flathead screwdriver. Insert screwdriver to depress shift interlock plunger. Press brake and move selector to N. G56 MANUAL: no shift lock — depress clutch only.",
-          "steps": []
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate shift lock override: small cap beside shifter gate (right side of console selector).",
+            "Pry cap off with flathead screwdriver.",
+            "Insert screwdriver to depress shift interlock plunger.",
+            "While holding, press brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "G56 MANUAL: depress clutch only — no shift lock."
+          ]
         },
         "neutralOverride": {
           "steps": [
@@ -663,19 +778,34 @@
         }
       },
       "tow": {
-        "method": null,
-        "notes": []
+        "method": "RWD/2WD: lift from rear. 4WD: transfer case to 2H first, then lift from rear. Heavy-duty — use rated equipment. Flatbed preferred.",
+        "notes": [
+          "MANUAL TRANSFER CASE (floor lever): shift to 2H before road towing. Rock vehicle gently if lever is stiff.",
+          "ELECTRONIC TC (some trims): requires 12V power. Jump first, shift TC, then disconnect.",
+          "DEAD BATTERY FALLBACK: if TC cannot be shifted to 2WD, FLATBED ONLY.",
+          "Cummins 5.9L/6.7L diesel: same procedure. Very heavy — confirm tow truck capacity.",
+          "DRW 3500 can exceed 10,000 lbs — verify all equipment ratings."
+        ]
       },
       "battery": {
         "location": "Under hood, driver side. Cummins diesel: dual batteries, both on driver side.",
-        "jumpPoints": null,
-        "type": null,
-        "warning": null
+        "jumpPoints": "Under hood — standard terminals. Cummins: connect to POSITIVE terminal closest to firewall.",
+        "type": "standard-12v",
+        "warning": "Cummins diesel: dual batteries both under hood driver side."
       },
       "alerts": {
-        "warning": null,
-        "notes": null,
-        "issues": []
+        "warning": "4WD: transfer case to 2H. Heavy-duty — use rated equipment and heavy wheel blocks.",
+        "notes": "Sold as Dodge Ram through 2009. Cummins 5.9L (2003-2007) and 6.7L (2007.5-2009). G56 manual option with Cummins.",
+        "issues": [
+          {
+            "title": "Manual Transfer Case Lever May Be Stiff",
+            "detail": "The NV271 manual transfer case floor lever can be extremely stiff, especially after extended 4WD use. Rock the vehicle gently in neutral while applying firm pressure. Do not force — damage to the TC shift fork can occur."
+          },
+          {
+            "title": "Very Heavy Vehicle — Equipment Ratings Critical",
+            "detail": "Ram 2500/3500 HD curb weight ranges from 5,800–7,000 lbs. A fully loaded 3500 dually can exceed 11,000 lbs GVWR. Verify all equipment is rated appropriately."
+          }
+        ]
       }
     },
     {
@@ -694,7 +824,15 @@
       "procedures": {
         "shiftLock": {
           "slot": "Floor console or column shifter depending on trim year. Console (4th gen): cap beside shifter gate — pry cap, insert screwdriver to depress interlock. Column/electronic (5th gen 2019+): under-dash panel LEFT of column above park brake release — push locking tab RIGHT, pull orange strap rearward. G56 manual: clutch only.",
-          "steps": []
+          "steps": [
+            "Turn ignition to ON.",
+            "Console shifter (4th gen): locate small cap beside shifter gate. Pry off, insert screwdriver to depress interlock.",
+            "Column/electronic (5th gen 2019+): pry panel LEFT of steering column above park brake release.",
+            "Push locking tab to the RIGHT with screwdriver.",
+            "Pull orange tether strap REARWARD until it clicks.",
+            "Vehicle is now in Neutral.",
+            "G56 MANUAL: depress clutch only — no shift lock."
+          ]
         },
         "neutralOverride": {
           "steps": [
@@ -709,19 +847,30 @@
         }
       },
       "tow": {
-        "method": null,
-        "notes": []
+        "method": "RWD/2WD: lift from rear. 4WD: transfer case to 2H first. Chassis cab with upfitted body — confirm total weight. Flatbed strongly preferred.",
+        "notes": [
+          "EXTREMELY HEAVY VEHICLE — confirm all equipment weight ratings before attempting to load or lift.",
+          "Cummins diesel: dual batteries, both driver side under hood.",
+          "ELECTRONIC TC: requires 12V power. Jump first, shift TC, then disconnect.",
+          "G56 MANUAL: depress clutch and shift to N — no electrical requirement.",
+          "Chassis cab body may extend well beyond rear axle — account for overhang when loading flatbed."
+        ]
       },
       "battery": {
         "location": "Under hood, driver side. Cummins: dual batteries, both driver side.",
-        "jumpPoints": null,
-        "type": null,
-        "warning": null
+        "jumpPoints": "Under hood — standard terminals. Cummins: connect to POSITIVE terminal closest to firewall.",
+        "type": "standard-12v",
+        "warning": "Cummins diesel: dual batteries both under hood driver side. Very heavy — rated equipment required."
       },
       "alerts": {
-        "warning": null,
-        "notes": null,
-        "issues": []
+        "warning": "VERY HEAVY — confirm tow truck capacity. 4WD: transfer case to 2H.",
+        "notes": "Commercial chassis cab. Cummins diesel standard. Upfitted body weight varies widely — always confirm total weight.",
+        "issues": [
+          {
+            "title": "Extreme Weight — Equipment Ratings Critical",
+            "detail": "Ram 4500/5500 GVWR ranges from 16,500–19,500 lbs. With upfitted bodies (utility, flatbed, dump, etc.), actual weight can exceed standard tow truck capacity. Always confirm total weight before attempting to tow."
+          }
+        ]
       }
     },
     {
@@ -740,7 +889,14 @@
       "procedures": {
         "shiftLock": {
           "slot": "Electronic rotary/dial selector. Requires 12V power. No mechanical cabin override — must restore 12V first. NEVER touch orange HV cables or HV battery under floor.",
-          "steps": []
+          "steps": [
+            "Electronic rotary/dial selector — requires 12V power.",
+            "Connect jump pack to 12V auxiliary battery under hood.",
+            "NEVER touch orange HV cables or HV battery under floor.",
+            "Once 12V restored, press brake and use electronic selector to engage N.",
+            "If 12V cannot be restored: no mechanical cabin override available. Must winch onto flatbed.",
+            "FLATBED ONLY — electric drivetrain."
+          ]
         },
         "neutralOverride": {
           "steps": [
@@ -754,19 +910,33 @@
         }
       },
       "tow": {
-        "method": null,
-        "notes": []
+        "method": "FLATBED ONLY — FWD electric drivetrain. Never tow with drive wheels on ground.",
+        "notes": [
+          "ELECTRIC: FLATBED ONLY.",
+          "FWD — if flatbed not available, can winch from front end. Do NOT push or tow with front wheels on ground.",
+          "12V auxiliary under hood — never touch HV battery or orange cables.",
+          "Very heavy — confirm tow truck capacity."
+        ]
       },
       "battery": {
         "location": "12V auxiliary under hood. HV battery under floor — never touch orange cables.",
-        "jumpPoints": null,
-        "type": null,
-        "warning": null
+        "jumpPoints": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warning": "FLATBED ONLY. 12V auxiliary only — NEVER touch HV system or orange cables."
       },
       "alerts": {
-        "warning": null,
-        "notes": null,
-        "issues": []
+        "warning": "FLATBED ONLY. Electric drivetrain — no driven-wheel towing. 12V auxiliary ONLY.",
+        "notes": "Electric commercial van. FWD electric. 110 kWh battery, ~164 mile city range. Available as step van or cargo van. 2024 step van launched first, 2025 added cargo van configuration.",
+        "issues": [
+          {
+            "title": "No Mechanical Neutral Override",
+            "detail": "The ProMaster EV has no mechanical override to shift to Neutral without 12V power. If the 12V auxiliary battery is completely dead and cannot be jumped, the vehicle must be winched onto a flatbed."
+          },
+          {
+            "title": "High Voltage Battery Safety",
+            "detail": "The HV battery is located under the floor. NEVER touch orange or yellow HV cables. If the vehicle has been in a collision or flood, maintain safe distance from HV components and wait for qualified EV technicians."
+          }
+        ]
       }
     }
   ]
