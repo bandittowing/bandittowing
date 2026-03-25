@@ -1,0 +1,422 @@
+{
+  "make": "Saturn",
+  "count": 8,
+  "vehicles": [
+    {
+      "make": "Saturn",
+      "model": "Ion",
+      "chassis": "2003-2007",
+      "years": "2003–2007",
+      "meta": {
+        "transmission": "4-speed automatic or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near gear selector base on console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the cap near the gear selector base on the center console. Pry off with a key.",
+            "Insert key into the slot and press firmly downward.",
+            "While holding, press the brake pedal.",
+            "Move the selector to Neutral. Replace cap.",
+            "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "12V battery under the hood — connect jump pack.",
+            "Once powered, press brake and shift to N normally.",
+            "FWD: lift from rear — front (drive) wheels roll on ground.",
+            "IMPORTANT: Saturn has plastic body panels — do NOT hook or chain to any body panels. Use frame lift points or flatbed."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from rear (front FWD wheels roll).",
+        "notes": [
+          "Plastic body panels — no chains on body. Use proper lift points or flatbed.",
+          "Discontinued vehicle — parts availability limited."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": "Plastic panels — no chains on body."
+      },
+      "alerts": {
+        "warning": "Saturn plastic body panels — do NOT hook or chain to body panels.",
+        "notes": "Discontinued 2007. FWD — rear lift. Unique Saturn plastic body panels — do not hook body.",
+        "issues": [
+          {
+            "title": "Saturn Plastic Body Panels",
+            "detail": "Saturn vehicles use polymer plastic body panels. Standard tow chains or hooks on the body will crush or crack the panels. Always use proper lift points (frame/subframe) or load on flatbed with wheel straps."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Saturn",
+      "model": "Vue",
+      "chassis": "2002-2007 V1",
+      "years": "2002–2007",
+      "meta": {
+        "transmission": "4-speed automatic or CVT (Honda) or 5-speed manual",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on console",
+          "steps": [
+            "Find cap near selector base. Pry off.",
+            "Insert key, press.",
+            "Press brake. Move to N.",
+            "Manual: clutch, N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood.",
+            "Connect jump pack.",
+            "Shift normally.",
+            "AWD: flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: rear lift. AWD: flatbed preferred.",
+        "notes": [
+          "Plastic panels — wheel straps or proper lift points only.",
+          "Honda-sourced AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": "Plastic panels. AWD: flatbed."
+      },
+      "alerts": {
+        "warning": "Plastic body panels — no chains on body. AWD: flatbed preferred.",
+        "notes": "Honda-sourced V6 and AWD on some models. Plastic body panels.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Saturn",
+      "model": "Vue",
+      "chassis": "2008-2010 V2",
+      "years": "2008–2010",
+      "meta": {
+        "transmission": "6-speed automatic or hybrid eCVT",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on console",
+          "steps": [
+            "Find cap near selector base. Pry off.",
+            "Insert key, press.",
+            "Press brake. Move to N.",
+            "Hybrid: 12V only."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood.",
+            "Connect jump pack (12V only for Hybrid).",
+            "Shift normally.",
+            "AWD: flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: rear lift. AWD: flatbed preferred.",
+        "notes": [
+          "Plastic panels — no chains.",
+          "Hybrid: 12V only."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": "Plastic panels. Hybrid: 12V only. AWD: flatbed."
+      },
+      "alerts": {
+        "warning": "Plastic panels. Hybrid: 12V only. AWD: flatbed preferred.",
+        "notes": "Hybrid (Green Line) available. Plastic body panels.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Saturn",
+      "model": "Aura",
+      "chassis": "2007-2010",
+      "years": "2007–2010",
+      "meta": {
+        "transmission": "4-speed or 6-speed automatic",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on center console",
+          "steps": [
+            "Find cap near selector base. Pry off.",
+            "Insert key, press plunger.",
+            "Press brake. Move to N.",
+            "Hybrid (Green Line): 12V only."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood.",
+            "Connect jump pack.",
+            "Shift normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from rear (front FWD drive wheels roll).",
+        "notes": [
+          "Plastic panels — no hooks on body."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": "Plastic body panels."
+      },
+      "alerts": {
+        "warning": "Plastic body panels — do not chain to body.",
+        "notes": "Mid-size sedan. Plastic body panels.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Saturn",
+      "model": "Outlook",
+      "chassis": "2007-2010",
+      "years": "2007–2010",
+      "meta": {
+        "transmission": "6-speed automatic",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the shift lock slot near the gear selector base on the console.",
+            "Pry off cap. Insert key and press firmly.",
+            "Press brake while holding. Move to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "12V battery under the hood — connect jump pack.",
+            "Once powered, shift normally.",
+            "FWD or AWD — AWD: flatbed preferred. FWD: lift from rear — front (drive) wheels roll."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: rear lift. AWD: flatbed preferred.",
+        "notes": [
+          "Plastic panels — no hooks on body.",
+          "Heavy crossover — verify lift capacity."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": "Plastic panels. AWD: flatbed. Heavy vehicle."
+      },
+      "alerts": {
+        "warning": "Plastic body panels. AWD: flatbed preferred. Heavy for a Saturn.",
+        "notes": "Largest Saturn. Lambda platform (same as Traverse/Enclave). Plastic body panels.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Saturn",
+      "model": "SL / SC / SW Series",
+      "chassis": "1991-2002",
+      "years": "1991–2002",
+      "meta": {
+        "transmission": "3-speed or 4-speed automatic, or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": [
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near selector base on center console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the small cap near the selector base on the center console.",
+            "Pry off cap with a key.",
+            "Insert key into slot and press firmly.",
+            "While holding, press brake pedal.",
+            "Move selector to Neutral.",
+            "MANUAL: depress clutch and move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under the hood — connect jump pack.",
+            "Once powered, press brake and shift normally.",
+            "FWD: lift from front — front (drive) wheels in the air.",
+            "CRITICAL: Saturn has polymer PLASTIC BODY PANELS — do NOT hook or chain to body panels. Use subframe lift points or flatbed with wheel straps only."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. Flatbed strongly preferred.",
+        "notes": [
+          "FWD: lift from front.",
+          "Plastic panels — no chains on body. Subframe lift or flatbed only."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Plastic panels — no chains on body panels."
+      },
+      "alerts": {
+        "warning": "PLASTIC BODY PANELS — do NOT hook or chain to body. Use subframe/frame lift only or flatbed.",
+        "notes": "Original Saturn compact. Plastic polymer body panels — NO chains on body panels.",
+        "issues": [
+          {
+            "title": "Polymer Plastic Body Panels — No Chains",
+            "detail": "All 1st gen Saturn SL/SC/SW models have polymer plastic body panels. Tow chains or hooks on the body WILL crack or crush the panels. Always use the subframe or proper lift points. Flatbed with wheel straps is the safest method."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Saturn",
+      "model": "LS / LW",
+      "chassis": "2000-2002",
+      "years": "2000–2002",
+      "meta": {
+        "transmission": "4-speed automatic or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near selector base on center console",
+          "steps": [
+            "Turn ignition to ON (key to Run position — do not start).",
+            "Locate the shift lock override slot — Small cap near selector base on center console.",
+            "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under the hood — connect jump pack.",
+            "Once powered, shift normally.",
+            "FWD: lift from front — front (drive) wheels in the air.",
+            "IMPORTANT: plastic body panels — do NOT chain or hook to body panels."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front.",
+          "Plastic panels — no chains on body."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Plastic panels."
+      },
+      "alerts": {
+        "warning": "Plastic body panels — no chains on body.",
+        "notes": "Larger Saturn sedan/wagon. Plastic body panels.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Saturn",
+      "model": "L-Series",
+      "chassis": "L200/L300",
+      "years": "2000–2005",
+      "meta": {
+        "transmission": "4-speed automatic (4T40-E) or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Opel Vectra platform. Manual: depress clutch, select Neutral.",
+        "issues": []
+      }
+    }
+  ]
+}

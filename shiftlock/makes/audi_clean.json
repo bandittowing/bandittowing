@@ -1,0 +1,1481 @@
+{
+  "make": "Audi",
+  "count": 25,
+  "vehicles": [
+    {
+      "make": "Audi",
+      "model": "A3 / S3 / RS3",
+      "chassis": null,
+      "years": "2006–2026",
+      "meta": {
+        "transmission": "6-speed Tiptronic or 7-speed S-tronic DSG (varies by year)",
+        "drivetrain": "FWD or Quattro AWD",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "8P (2006-2013): Tiptronic/S-tronic. Pop out ashtray insert, remove cap underneath, depress button with allen key. 8V (2013-2020) / 8Y (2021+): RED TOOL from spare wheel kit in trunk: RED TOOL from spare wheel kit in trunk — cupholder procedure.",
+          "steps": [
+            "RESTORE 12V POWER FIRST — strongly preferred for all variants.",
+            "Under-hood jump terminal: + on firewall (red cover), − to chassis ground.",
+            "Once powered, press brake and select N.",
+            "8P (2006-2013) Tiptronic WITHOUT POWER — ASHTRAY RELEASE:",
+            "Remove the ASHTRAY/COIN TRAY in FRONT of the gear selector (NOT next to it).",
+            "Press the release tab to pop the ashtray insert out.",
+            "Under the ashtray mount, remove the small cap. Insert allen key or flathead and depress button firmly.",
+            "While holding button, press brake and move selector to N.",
+            "8V (2013-2020) / 8Y (2021+) WITHOUT POWER — RED TOOL:",
+            "Open trunk, lift spare wheel cover, retrieve RED TOOL from spare wheel kit.",
+            "Pull up rubber insert in FRONT cupholder. Remove plastic cap using key blade or flathead.",
+            "Insert red tool, rotate CLOCKWISE to release park lock. Keep tool VERTICAL while moved.",
+            "S-tronic/DSG on ANY variant: REQUIRES 12V power — no mechanical override."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "BATTERY LOCATION VARIES: 8P (2006-2013): trunk passenger side. 8V/8Y: under rear seat or trunk depending on trim.",
+            "Use under-hood jump terminal — + on firewall (red cover), − to chassis ground.",
+            "Use AGM-compatible jump pack.",
+            "Once powered, press brake and select N.",
+            "If power cannot be restored: 8V/8Y use red tool procedure above. 8P use shift lock slot.",
+            "S-tronic/DSG: power REQUIRED — cannot shift DSG without 12V.",
+            "Quattro AWD variants: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "Under rear seat (most) or trunk — varies by generation",
+        "jumpPoints": "Under hood: red fused jump terminal near firewall, black ground bolt on strut tower",
+        "type": "agm-12v",
+        "warning": "Never jump directly at battery — use hood terminals only. AGM battery requires AGM-compatible charger."
+      },
+      "alerts": {
+        "warning": "S-tronic DSG: NEVER tow with wheels on ground. Flatbed only.",
+        "notes": "Battery location varies: often under rear seat. A3 8P (2006-2013), 8V (2014-2020), 8Y (2021+). DSG/S-tronic REQUIRES 12V power to shift — electro-hydraulic clutch packs will not release without power. Always restore battery before attempting any shift.",
+        "issues": [
+          {
+            "title": "DSG/S-tronic Requires Power to Shift",
+            "detail": "S-tronic dual-clutch transmission requires 12V power to shift to neutral. Battery is often located under the rear seat — not under the hood. Jump the 12V battery first, then shift."
+          },
+          {
+            "title": "Battery Not Under Hood",
+            "detail": "Battery location varies by generation — frequently under the rear seat or in the trunk. Do not waste time looking under the hood first."
+          },
+          {
+            "title": "Park Lock Release: Red Tool in Spare Wheel Kit",
+            "detail": "Many Audi models (approximately 2014+) include a red emergency park lock release tool stored in the spare wheel kit in the trunk. Without power, open the trunk, lift the spare wheel cover, and retrieve this tool. Remove the rubber insert from the FRONT cupholder, remove the plastic cap inside, insert the red tool and rotate CLOCKWISE to release the park lock. Keep the red tool VERTICAL while the vehicle is being moved — removing it re-engages Park. Older Audi models use a traditional shift lock slot near the gear selector base."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "A4 / S4 / RS4",
+      "chassis": null,
+      "years": "1996–2026",
+      "meta": {
+        "transmission": "B5 (1996-2001): 5-speed auto (5HP19/5HP24) or 5-speed manual; B6/B7 (2002-2008): 5-speed auto (5HP19/CVT Multitronic) or 6-speed manual; B8 (2009-2016): 7-speed S-tronic DSG or 8-speed Tiptronic ZF; CVT Multitronic (FWD); B9 (2017-2026): 7-speed S-tronic or 8-speed Tiptronic ZF",
+        "drivetrain": "FWD or Quattro AWD",
+        "tags": [
+          "awd",
+          "no_override",
+          "requires_power",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "B6/B7/B8 (2002-2016): release under ASHTRAY/COIN TRAY in front of shifter. Pop out ashtray insert, remove cap underneath, depress button with allen key. B9 (2017+): RED TOOL from spare wheel kit in trunk: RED TOOL from spare wheel kit in trunk — cupholder procedure.",
+          "steps": [
+            "RESTORE 12V POWER FIRST — strongly preferred.",
+            "Under-hood jump terminal: + on firewall (red cover), − to chassis ground.",
+            "Once powered, press brake and select N.",
+            "B6/B7/B8 (2002-2016) WITHOUT POWER — ASHTRAY RELEASE:",
+            "Remove the ASHTRAY/COIN TRAY in FRONT of the gear selector (NOT next to it).",
+            "Press the release tab/button on the ashtray to pop the insert out.",
+            "Under the ashtray mount, loosen and remove the small cap.",
+            "Insert a small allen key or flathead and depress the shift lock button firmly.",
+            "While holding, press brake and move selector to N.",
+            "B9 (2017+) WITHOUT POWER — RED TOOL:",
+            "Open trunk, lift spare wheel cover, retrieve RED TOOL from spare wheel kit.",
+            "Pull up rubber insert in FRONT cupholder. Remove plastic cap using key blade or flathead.",
+            "Insert red tool, rotate CLOCKWISE to release. Keep tool VERTICAL while moved.",
+            "S-tronic: REQUIRES 12V power."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "BATTERY IS IN THE TRUNK — use under-hood jump terminal (+ on firewall, red cover).",
+            "AGM battery on most B8/B9 — use AGM-compatible jump pack.",
+            "Once powered, press brake and select N.",
+            "B9: if power cannot be restored, use red tool procedure above.",
+            "S-tronic/DSG: power REQUIRED.",
+            "Quattro: FLATBED PREFERRED.",
+            "ZF 8HP (B8/B9/C7/C8 gen): NO cabin override — ashtray method is for OLDER Tiptronic/Multitronic only. ZF neutral bypass is a bolt on the UNDERSIDE of the transmission (professional use). Field recommendation: always restore 12V first; if unable — FLATBED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "B5 (1996-2001): under hood, beneath cowl panel near windshield. B6/B7 (2002-2008): under hood, beneath cowl panel near windshield — not immediately visible, under plastic cover. B8 (2009-2016): in trunk, under spare tire — right side under floor panel. B9 (2017-2026): in trunk, right side under floor panel.",
+        "jumpPoints": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warning": "Always use hood jump terminals — jumping directly at the trunk battery can cause ECU damage. AGM rated jump pack required."
+      },
+      "alerts": {
+        "warning": "Quattro AWD — flatbed preferred.",
+        "notes": "B9 (2017+) may use electronic rotary/selector shifter. Battery in trunk.",
+        "issues": [
+          {
+            "title": "Park Lock Release: Red Tool in Spare Wheel Kit",
+            "detail": "Many Audi models (approximately 2014+) include a red emergency park lock release tool stored in the spare wheel kit in the trunk. Without power, open the trunk, lift the spare wheel cover, and retrieve this tool. Remove the rubber insert from the FRONT cupholder, remove the plastic cap inside, insert the red tool and rotate CLOCKWISE to release the park lock. Keep the red tool VERTICAL while the vehicle is being moved — removing it re-engages Park. Older Audi models use a traditional shift lock slot near the gear selector base."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "A5 / S5 / RS5",
+      "chassis": null,
+      "years": "2007–2026",
+      "meta": {
+        "transmission": "7-speed S-tronic or 8-speed Tiptronic",
+        "drivetrain": "FWD or Quattro AWD",
+        "tags": [
+          "awd",
+          "no_override",
+          "requires_power",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "B8 (2007-2016): release under ASHTRAY/COIN TRAY in front of shifter. Pop out ashtray insert, remove cap underneath, depress button with allen key. B9 (2017+): RED TOOL from spare wheel kit in trunk: RED TOOL from spare wheel kit in trunk — cupholder procedure.",
+          "steps": [
+            "RESTORE 12V POWER FIRST.",
+            "Under-hood jump terminal: + on firewall (red cover), − to chassis ground.",
+            "Once powered, press brake and select N.",
+            "B8 (2007-2016) WITHOUT POWER — ASHTRAY RELEASE:",
+            "Remove the ASHTRAY/COIN TRAY in FRONT of the gear selector.",
+            "Press the release tab to pop the ashtray insert out.",
+            "Remove the small cap under the ashtray mount. Insert allen key and depress shift lock button.",
+            "While holding, press brake and move selector to N.",
+            "B9 (2017+) WITHOUT POWER — RED TOOL:",
+            "Open trunk, lift spare wheel cover, retrieve RED TOOL from spare wheel kit.",
+            "Pull up rubber insert in FRONT cupholder. Remove plastic cap. Rotate CLOCKWISE. Keep VERTICAL.",
+            "S-tronic: REQUIRES 12V power."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "BATTERY IS IN THE TRUNK — use under-hood jump terminal (+ on firewall, red cover).",
+            "AGM battery — use AGM-compatible jump pack.",
+            "Once powered, press brake and select N.",
+            "B9: if power cannot be restored, use red tool procedure above.",
+            "S-tronic: power REQUIRED.",
+            "Quattro: FLATBED PREFERRED.",
+            "ZF 8HP (B8/B9/C7/C8 gen): NO cabin override — ashtray method is for OLDER Tiptronic/Multitronic only. ZF neutral bypass is a bolt on the UNDERSIDE of the transmission (professional use). Field recommendation: always restore 12V first; if unable — FLATBED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "In trunk under panel",
+        "jumpPoints": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warning": "Use hood terminals only. AGM jump pack required."
+      },
+      "alerts": {
+        "warning": "Quattro AWD — flatbed preferred.",
+        "notes": "S-tronic DSG on most variants — power preferred. DSG/S-tronic REQUIRES 12V power to shift — electro-hydraulic clutch packs will not release without power. Always restore battery before attempting any shift.",
+        "issues": [
+          {
+            "title": "DSG/S-tronic Cannot Shift Without Power",
+            "detail": "Audi DSG and S-tronic dual-clutch transmissions are controlled by electro-hydraulic actuators. Without 12V power they cannot shift out of Park. Always jump the 12V battery before attempting any shift override. This applies to all Audi models with DSG or S-tronic (most 2005+ models)."
+          },
+          {
+            "title": "Park Lock Release: Red Tool in Spare Wheel Kit",
+            "detail": "Many Audi models (approximately 2014+) include a red emergency park lock release tool stored in the spare wheel kit in the trunk. Without power, open the trunk, lift the spare wheel cover, and retrieve this tool. Remove the rubber insert from the FRONT cupholder, remove the plastic cap inside, insert the red tool and rotate CLOCKWISE to release the park lock. Keep the red tool VERTICAL while the vehicle is being moved — removing it re-engages Park. Older Audi models use a traditional shift lock slot near the gear selector base."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "A6 / S6 / RS6",
+      "chassis": null,
+      "years": "1994–2026",
+      "meta": {
+        "transmission": "C4 (1994-1997): 4-speed auto (4HP18) or 5-speed manual; C5 (1998-2004): 5-speed auto (5HP24) or 6-speed Tiptronic or CVT Multitronic; C6 (2005-2011): 6-speed Tiptronic or CVT Multitronic; C7 (2012-2018): 8-speed Tiptronic ZF; C8 (2019-2026): 7-speed S-tronic or 8-speed Tiptronic ZF MHEV",
+        "drivetrain": "FWD or Quattro AWD",
+        "tags": [
+          "awd",
+          "no_override",
+          "requires_power",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "C5/C6/C7 (1997-2018): release under ASHTRAY/COIN TRAY in front of shifter. Pop out ashtray insert, remove cap underneath, depress button with allen key. C8 (2019+): RED TOOL from spare wheel kit in trunk: RED TOOL from spare wheel kit in trunk — cupholder procedure.",
+          "steps": [
+            "RESTORE 12V POWER FIRST.",
+            "Under-hood jump terminal: + on firewall (red cover), − to chassis ground.",
+            "Once powered, press brake and select N.",
+            "C5/C6/C7 (1997-2018) WITHOUT POWER — ASHTRAY RELEASE:",
+            "Remove the ASHTRAY/COIN TRAY in FRONT of the gear selector.",
+            "Press the release tab to pop the insert out.",
+            "Under the ashtray mount, remove the small cap. Insert allen key and depress shift lock button.",
+            "While holding, press brake and move selector to N.",
+            "C8 (2019+) WITHOUT POWER — RED TOOL:",
+            "Open trunk, lift spare wheel cover, retrieve RED TOOL from spare wheel kit.",
+            "Pull up rubber insert in FRONT cupholder. Remove plastic cap. Rotate CLOCKWISE. Keep VERTICAL.",
+            "S-tronic/DSG: REQUIRES 12V power."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "BATTERY IS IN THE TRUNK — use under-hood jump terminal (+ on firewall, red cover).",
+            "AGM battery on C7/C8 — use AGM-compatible jump pack.",
+            "Once powered, press brake and select N.",
+            "C8: if power cannot be restored, use red tool procedure above.",
+            "Quattro: FLATBED PREFERRED.",
+            "ZF 8HP (B8/B9/C7/C8 gen): NO cabin override — ashtray method is for OLDER Tiptronic/Multitronic only. ZF neutral bypass is a bolt on the UNDERSIDE of the transmission (professional use). Field recommendation: always restore 12V first; if unable — FLATBED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "C4 (1994-1997): under hood. C5 (1998-2004): under hood, driver side (some late C5 under rear seat). C6 (2005-2011): under hood or in trunk — varies by trim/option. C7 (2012-2018): in trunk under spare tire/floor panel. C8 (2019-2026): in trunk under floor panel.",
+        "jumpPoints": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warning": "Use hood terminals only. AGM jump pack."
+      },
+      "alerts": {
+        "warning": "Quattro AWD — flatbed preferred.",
+        "notes": "C8 uses fully electronic selector with N button.",
+        "issues": [
+          {
+            "title": "Park Lock Release: Red Tool in Spare Wheel Kit",
+            "detail": "Many Audi models (approximately 2014+) include a red emergency park lock release tool stored in the spare wheel kit in the trunk. Without power, open the trunk, lift the spare wheel cover, and retrieve this tool. Remove the rubber insert from the FRONT cupholder, remove the plastic cap inside, insert the red tool and rotate CLOCKWISE to release the park lock. Keep the red tool VERTICAL while the vehicle is being moved — removing it re-engages Park. Older Audi models use a traditional shift lock slot near the gear selector base."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "A7 / S7 / RS7",
+      "chassis": null,
+      "years": "2012–2026",
+      "meta": {
+        "transmission": "7-speed S-tronic or 8-speed Tiptronic",
+        "drivetrain": "Quattro AWD",
+        "tags": [
+          "awd",
+          "no_override",
+          "requires_power",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "C7 1st gen (2012-2018): release under ASHTRAY/COIN TRAY in front of rotary selector. Pop out ashtray insert, remove cap underneath, depress button with allen key. C8 2nd gen (2019+): RED TOOL from spare wheel kit in trunk: RED TOOL from spare wheel kit in trunk — cupholder procedure.",
+          "steps": [
+            "RESTORE 12V POWER FIRST — required for rotary/electronic selector.",
+            "Under-hood jump terminal: + on firewall (red cover), − to chassis ground.",
+            "Once powered, press brake and rotate selector to N.",
+            "C7 (2012-2018) WITHOUT POWER — ASHTRAY RELEASE:",
+            "Remove the ASHTRAY/COIN TRAY in FRONT of the rotary selector.",
+            "Press the release tab to pop the insert out. Remove small cap under mount.",
+            "Insert allen key and depress shift lock button. While holding, press brake and rotate selector to N.",
+            "C8 (2019+) WITHOUT POWER — RED TOOL:",
+            "Open trunk, lift spare wheel cover, retrieve RED TOOL from spare wheel kit.",
+            "Pull up rubber insert in FRONT cupholder. Remove plastic cap. Rotate CLOCKWISE. Keep VERTICAL.",
+            "S-tronic: REQUIRES 12V power."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "BATTERY IS IN THE TRUNK — use under-hood jump terminal (+ on firewall, red cover).",
+            "AGM battery — use AGM-compatible jump pack.",
+            "Once powered, rotate selector to N.",
+            "If power cannot be restored: use red tool procedure above.",
+            "Quattro AWD: FLATBED PREFERRED.",
+            "ZF 8HP (B8/B9/C7/C8 gen): NO cabin override — ashtray method is for OLDER Tiptronic/Multitronic only. ZF neutral bypass is a bolt on the UNDERSIDE of the transmission (professional use). Field recommendation: always restore 12V first; if unable — FLATBED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — Quattro AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+        "notes": [
+          "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
+        ]
+      },
+      "battery": {
+        "location": "In trunk under floor panel",
+        "jumpPoints": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warning": "Use hood terminals only. AGM jump pack."
+      },
+      "alerts": {
+        "warning": "Quattro AWD — flatbed preferred.",
+        "notes": "1st gen uses MMI rotary shifter — rotate counterclockwise toward N. DSG/S-tronic REQUIRES 12V power to shift — electro-hydraulic clutch packs will not release without power. Always restore battery before attempting any shift.",
+        "issues": [
+          {
+            "title": "DSG/S-tronic Cannot Shift Without Power",
+            "detail": "Audi DSG and S-tronic dual-clutch transmissions are controlled by electro-hydraulic actuators. Without 12V power they cannot shift out of Park. Always jump the 12V battery before attempting any shift override. This applies to all Audi models with DSG or S-tronic (most 2005+ models)."
+          },
+          {
+            "title": "Park Lock Release: Red Tool in Spare Wheel Kit",
+            "detail": "Many Audi models (approximately 2014+) include a red emergency park lock release tool stored in the spare wheel kit in the trunk. Without power, open the trunk, lift the spare wheel cover, and retrieve this tool. Remove the rubber insert from the FRONT cupholder, remove the plastic cap inside, insert the red tool and rotate CLOCKWISE to release the park lock. Keep the red tool VERTICAL while the vehicle is being moved — removing it re-engages Park. Older Audi models use a traditional shift lock slot near the gear selector base."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "A8 / S8",
+      "chassis": null,
+      "years": "1997–2026",
+      "meta": {
+        "transmission": "D2 (1997-2003): 5-speed auto (5HP24) — V8 4.2L; D3 (2004-2010): 6-speed Tiptronic or CVT Multitronic; D4 (2011-2017): 8-speed Tiptronic ZF; D5 (2019-2026): 8-speed Tiptronic ZF MHEV (48V mild hybrid)",
+        "drivetrain": "Quattro AWD",
+        "tags": [
+          "awd",
+          "no_override",
+          "requires_power",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "D2/D3/D4 (1994-2017): release under ASHTRAY/COIN TRAY in front of selector. Pop out ashtray insert, remove cap underneath, depress button with allen key. D5 (2018+): RED TOOL from spare wheel kit in trunk: RED TOOL from spare wheel kit in trunk — cupholder procedure.",
+          "steps": [
+            "RESTORE 12V POWER FIRST.",
+            "Under-hood jump terminal: + on firewall (red cover), − to chassis ground.",
+            "Once powered, press brake and select N.",
+            "D2/D3/D4 (1994-2017) WITHOUT POWER — ASHTRAY RELEASE:",
+            "Remove the ASHTRAY/COIN TRAY in FRONT of the gear selector.",
+            "Press the release tab to pop the insert out. Remove small cap under mount.",
+            "Insert allen key and depress shift lock button. While holding, press brake and move selector to N.",
+            "D5 (2018+) WITHOUT POWER — RED TOOL:",
+            "Open trunk, lift spare wheel cover, retrieve RED TOOL from spare wheel kit.",
+            "Pull up rubber insert in FRONT cupholder. Remove plastic cap. Rotate CLOCKWISE. Keep VERTICAL.",
+            "ZF 8HP / S-tronic: REQUIRES 12V power."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "D3 (2004-2010) CRITICAL: NO under-hood jump terminal — battery is in trunk only. If battery is dead and trunk is locked: use rear seat center armrest pass-through to reach trunk release latch, or apply 12V to fuse panel (fuse #3, passenger side) to power trunk latch release.",
+            "BATTERY IS IN THE TRUNK — use under-hood jump terminal (+ on firewall, red cover).",
+            "AGM battery — use AGM-compatible jump pack.",
+            "Once powered, press brake and select N.",
+            "D5: if power cannot be restored, use red tool procedure above.",
+            "Quattro AWD: FLATBED PREFERRED.",
+            "ZF 8HP (B8/B9/C7/C8 gen): NO cabin override — ashtray method is for OLDER Tiptronic/Multitronic only. ZF neutral bypass is a bolt on the UNDERSIDE of the transmission (professional use). Field recommendation: always restore 12V first; if unable — FLATBED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — Quattro AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+        "notes": [
+          "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
+          "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+        ]
+      },
+      "battery": {
+        "location": "D2 (1997-2003): under rear seat. D3 (2004-2010): in trunk or under rear seat — varies. D4 (2011-2017): in trunk under floor panel, right side. D5 (2019-2026): in trunk under floor panel. CRITICAL: D3 (2004-2010) has NO under-hood jump terminal — battery is in trunk with no external access points. If trunk is locked and battery is dead, access battery through rear seat center armrest pass-through or use fuse panel to power trunk latch.",
+        "jumpPoints": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warning": "Use hood terminals only. AGM jump pack. Air suspension may drop with dead battery."
+      },
+      "alerts": {
+        "warning": "AWD. Air suspension: verify clearance before loading on flatbed.",
+        "notes": "D5 (2018+): slot concealed under trim piece. Air suspension — check clearance before flatbed.",
+        "issues": [
+          {
+            "title": "Park Lock Release: Red Tool in Spare Wheel Kit",
+            "detail": "Many Audi models (approximately 2014+) include a red emergency park lock release tool stored in the spare wheel kit in the trunk. Without power, open the trunk, lift the spare wheel cover, and retrieve this tool. Remove the rubber insert from the FRONT cupholder, remove the plastic cap inside, insert the red tool and rotate CLOCKWISE to release the park lock. Keep the red tool VERTICAL while the vehicle is being moved — removing it re-engages Park. Older Audi models use a traditional shift lock slot near the gear selector base."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "Q3 / Q3 Sportback",
+      "chassis": null,
+      "years": "2015–2026",
+      "meta": {
+        "transmission": "8U (2015-2018): 6-speed S-tronic DSG (FWD or Quattro). F3 (2019-2025): 8-speed Tiptronic automatic (Aisin; US market) or 7-speed S-tronic (non-US). NOTE: US-spec F3 Q3 uses 8-speed conventional automatic — NOT dual-clutch DSG.",
+        "drivetrain": "FWD or Quattro AWD",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "8U (2012-2018): release under ASHTRAY/COIN TRAY in front of selector. Pop out ashtray insert, remove cap underneath, depress button with allen key. F3 (2019+): RED TOOL from spare wheel kit in trunk: RED TOOL from spare wheel kit in trunk — cupholder procedure.",
+          "steps": [
+            "RESTORE 12V POWER FIRST.",
+            "Under-hood jump terminal: + on firewall (red cover), − to chassis ground.",
+            "Once powered, press brake and select N.",
+            "8U (2012-2018) WITHOUT POWER — ASHTRAY RELEASE:",
+            "Remove the ASHTRAY/COIN TRAY in FRONT of the gear selector.",
+            "Press the release tab to pop the insert out. Remove small cap under mount.",
+            "Insert allen key and depress shift lock button. While holding, press brake and move selector to N.",
+            "F3 (2019+) WITHOUT POWER — RED TOOL:",
+            "Open trunk, lift spare wheel cover, retrieve RED TOOL from spare wheel kit.",
+            "Pull up rubber insert in FRONT cupholder. Remove plastic cap. Rotate CLOCKWISE. Keep VERTICAL."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under-hood terminal (+ on firewall, red cover).",
+            "Once powered, press brake and select N.",
+            "F3 (2019+): if power cannot be restored, use red tool procedure above.",
+            "Quattro: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. Quattro AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "8U (2015-2018): under hood, driver side. F3 (2019-2025): under hood, driver side. Both generations keep battery under hood — use direct battery or under-hood terminals for jump access.",
+        "jumpPoints": "Under hood: red fused terminal, black ground bolt",
+        "type": "agm-12v",
+        "warning": "Use hood terminals only."
+      },
+      "alerts": {
+        "warning": "Quattro AWD — flatbed preferred.",
+        "notes": "S-tronic DSG — power required in most cases. DSG/S-tronic REQUIRES 12V power to shift — electro-hydraulic clutch packs will not release without power. Always restore battery before attempting any shift.",
+        "issues": [
+          {
+            "title": "DSG/S-tronic Cannot Shift Without Power",
+            "detail": "Audi DSG and S-tronic dual-clutch transmissions are controlled by electro-hydraulic actuators. Without 12V power they cannot shift out of Park. Always jump the 12V battery before attempting any shift override. This applies to all Audi models with DSG or S-tronic (most 2005+ models)."
+          },
+          {
+            "title": "Park Lock Release: Red Tool in Spare Wheel Kit",
+            "detail": "Many Audi models (approximately 2014+) include a red emergency park lock release tool stored in the spare wheel kit in the trunk. Without power, open the trunk, lift the spare wheel cover, and retrieve this tool. Remove the rubber insert from the FRONT cupholder, remove the plastic cap inside, insert the red tool and rotate CLOCKWISE to release the park lock. Keep the red tool VERTICAL while the vehicle is being moved — removing it re-engages Park. Older Audi models use a traditional shift lock slot near the gear selector base."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "Q5 / SQ5 / Q5 Sportback",
+      "chassis": null,
+      "years": "2009–2026",
+      "meta": {
+        "transmission": "7-speed S-tronic or 8-speed Tiptronic",
+        "drivetrain": "Quattro AWD",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "8R (2008-2016): release under ASHTRAY/COIN TRAY in front of selector. Pop out ashtray insert, remove cap underneath, depress button with allen key. B9 (2017+): RED TOOL from spare wheel kit in trunk: RED TOOL from spare wheel kit in trunk — cupholder procedure.",
+          "steps": [
+            "RESTORE 12V POWER FIRST.",
+            "Under-hood jump terminal: + on firewall (red cover), − to chassis ground.",
+            "Once powered, press brake and select N.",
+            "8R (2008-2016) WITHOUT POWER — ASHTRAY RELEASE:",
+            "Remove the ASHTRAY/COIN TRAY in FRONT of the gear selector (confirmed from owner manuals).",
+            "Press the release tab to pop the ashtray insert out.",
+            "Under the ashtray mount, remove the small cap.",
+            "Insert a small allen key or flathead and depress the shift lock button firmly.",
+            "While holding, press brake and move selector to N.",
+            "B9 (2017+) WITHOUT POWER — RED TOOL:",
+            "Open trunk, lift spare wheel cover, retrieve RED TOOL from spare wheel kit.",
+            "Pull up rubber insert in FRONT cupholder. Remove plastic cap. Rotate CLOCKWISE. Keep VERTICAL.",
+            "S-tronic: REQUIRES 12V power."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "BATTERY IS IN THE TRUNK — use under-hood jump terminal (+ on firewall, red cover).",
+            "AGM battery on B9 — use AGM-compatible jump pack.",
+            "Once powered, press brake and select N.",
+            "B9: if power cannot be restored, use red tool procedure above.",
+            "Quattro AWD: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — Quattro AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+        "notes": [
+          "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage."
+        ]
+      },
+      "battery": {
+        "location": "IN TRUNK under spare tire well (both 8R 2009-2017 and B9 2017+ generations). Remove trunk floor panel → remove spare tire → battery is below. Use under-hood remote jump terminals (+ near windshield cowl area, − chassis ground) for jump access — do NOT jump directly at battery.",
+        "jumpPoints": "Under hood: red fused terminal (+), black ground bolt (−)",
+        "type": "agm-12v",
+        "warning": "Use hood terminals only. AGM jump pack."
+      },
+      "alerts": {
+        "warning": "Quattro AWD — flatbed preferred.",
+        "notes": "2017+ Q5 uses 7-speed S-tronic. Earlier models (8R) use Tiptronic. Battery in trunk under spare — both generations. DSG/S-tronic REQUIRES 12V power to shift — electro-hydraulic clutch packs will not release without power. Always restore battery before attempting any shift.",
+        "issues": [
+          {
+            "title": "DSG/S-tronic Cannot Shift Without Power",
+            "detail": "Audi DSG and S-tronic dual-clutch transmissions are controlled by electro-hydraulic actuators. Without 12V power they cannot shift out of Park. Always jump the 12V battery before attempting any shift override. This applies to all Audi models with DSG or S-tronic (most 2005+ models)."
+          },
+          {
+            "title": "Park Lock Release: Red Tool in Spare Wheel Kit",
+            "detail": "Many Audi models (approximately 2014+) include a red emergency park lock release tool stored in the spare wheel kit in the trunk. Without power, open the trunk, lift the spare wheel cover, and retrieve this tool. Remove the rubber insert from the FRONT cupholder, remove the plastic cap inside, insert the red tool and rotate CLOCKWISE to release the park lock. Keep the red tool VERTICAL while the vehicle is being moved — removing it re-engages Park. Older Audi models use a traditional shift lock slot near the gear selector base."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "Q7 / SQ7",
+      "chassis": null,
+      "years": "2007–2026",
+      "meta": {
+        "transmission": "8-speed Tiptronic or 8-speed auto (PHEV)",
+        "drivetrain": "Quattro AWD",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "4L (2006-2015): release under ASHTRAY/COIN TRAY in front of selector. Pop out ashtray insert, remove cap underneath, depress button with allen key. 4M (2016+): RED TOOL from spare wheel kit in trunk: RED TOOL from spare wheel kit in trunk — cupholder procedure.",
+          "steps": [
+            "RESTORE 12V POWER FIRST.",
+            "Under-hood jump terminal: + on firewall (red cover), − to chassis ground.",
+            "Once powered, press brake and select N.",
+            "4L (2006-2015) WITHOUT POWER — ASHTRAY RELEASE:",
+            "Remove the ASHTRAY/COIN TRAY in FRONT of the gear selector.",
+            "Press the release tab to pop the insert out. Remove small cap under mount.",
+            "Insert allen key and depress shift lock button. While holding, press brake and move selector to N.",
+            "4M (2016+) WITHOUT POWER — RED TOOL:",
+            "Open trunk, lift spare wheel cover, retrieve RED TOOL from spare wheel kit.",
+            "Pull up rubber insert in FRONT cupholder. Remove plastic cap. Rotate CLOCKWISE. Keep VERTICAL.",
+            "S-tronic/ZF: REQUIRES 12V power."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under-hood terminal (+ on firewall, red cover).",
+            "AGM battery on 4M — use AGM-compatible jump pack.",
+            "Once powered, press brake and select N.",
+            "4M: if power cannot be restored, use red tool procedure above.",
+            "Quattro AWD: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — Quattro AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+        "notes": [
+          "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+          "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
+          "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+        ]
+      },
+      "battery": {
+        "location": "In spare tire well under cargo floor — lift cargo panel, remove spare",
+        "jumpPoints": "Terminals directly on battery in spare tire well",
+        "type": "agm-12v",
+        "warning": "Must remove cargo floor panel and spare tire cover to access. AGM battery. Q7 PHEV: 12V auxiliary only — never touch HV battery."
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Battery in spare tire well.",
+        "issues": [
+          {
+            "title": "Air Suspension Clearance Risk",
+            "detail": "Air suspension can lower unexpectedly when power is lost or the vehicle sits for an extended period. Verify ride height is stable before attempting to load on flatbed. Some trims have a 'transport mode' — check if accessible."
+          },
+          {
+            "title": "Battery in Spare Tire Well",
+            "detail": "12V battery is located in the spare tire well under the cargo floor — not under the hood. Open the rear hatch and pull up the cargo floor to access jump terminals."
+          },
+          {
+            "title": "Park Lock Release: Red Tool in Spare Wheel Kit",
+            "detail": "Many Audi models (approximately 2014+) include a red emergency park lock release tool stored in the spare wheel kit in the trunk. Without power, open the trunk, lift the spare wheel cover, and retrieve this tool. Remove the rubber insert from the FRONT cupholder, remove the plastic cap inside, insert the red tool and rotate CLOCKWISE to release the park lock. Keep the red tool VERTICAL while the vehicle is being moved — removing it re-engages Park. Older Audi models use a traditional shift lock slot near the gear selector base."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "Q8 / SQ8 / RS Q8",
+      "chassis": null,
+      "years": "2019–2026",
+      "meta": {
+        "transmission": "8-speed Tiptronic",
+        "drivetrain": "Quattro AWD",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "RED TOOL from spare wheel kit in trunk — cupholder procedure. Electronic virtual cockpit selector.",
+          "steps": [
+            "RESTORE 12V POWER FIRST — preferred method.",
+            "Use under-hood jump terminal: positive (+) is on the firewall/engine bay (red cover), negative to chassis ground.",
+            "Once powered, press brake and select N on the electronic MMI selector.",
+            "WITHOUT POWER — RED TOOL PROCEDURE:",
+            "Open the trunk/boot and lift the spare wheel cover. The red release tool is stored in the spare wheel kit.",
+            "Remove the rubber insert from the FRONT cupholder by pulling up on the small tabs on the left or right side.",
+            "Remove the plastic cap from inside the cupholder base using the Audi key blade or a small flathead.",
+            "Insert the red tool into the opening and rotate it CLOCKWISE until the park lock releases (gearbox shifts to N).",
+            "KEEP THE RED TOOL VERTICAL while the vehicle is being moved or towed — removing it re-engages Park.",
+            "After moving to a safe location, rotate the red tool back to horizontal and remove it."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "BATTERY IS IN THE TRUNK — connect to under-hood jump terminal (+ on firewall, red cover).",
+            "Use an AGM-compatible jump pack.",
+            "Once 12V power is restored, press brake and select N on electronic selector.",
+            "IF POWER CANNOT BE RESTORED: use the RED TOOL from the spare wheel kit in the trunk — see shift procedure above.",
+            "NEVER touch orange HV cables on e-tron/hybrid variants.",
+            "Quattro AWD: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — Quattro AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+        "notes": [
+          "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
+          "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+        ]
+      },
+      "battery": {
+        "location": "Under cargo floor in trunk",
+        "jumpPoints": "Under trunk floor panel — direct battery access",
+        "type": "agm-12v",
+        "warning": "AGM jump pack required."
+      },
+      "alerts": {
+        "warning": "Quattro AWD — flatbed preferred.",
+        "notes": "",
+        "issues": [
+          {
+            "title": "Park Lock Release: Red Tool in Spare Wheel Kit",
+            "detail": "Many Audi models (approximately 2014+) include a red emergency park lock release tool stored in the spare wheel kit in the trunk. Without power, open the trunk, lift the spare wheel cover, and retrieve this tool. Remove the rubber insert from the FRONT cupholder, remove the plastic cap inside, insert the red tool and rotate CLOCKWISE to release the park lock. Keep the red tool VERTICAL while the vehicle is being moved — removing it re-engages Park. Older Audi models use a traditional shift lock slot near the gear selector base."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "A3",
+      "chassis": "8L 1st Gen",
+      "years": "1999–2006",
+      "meta": {
+        "transmission": "6-speed manual or 5-speed automatic (09A Tiptronic) or 6-speed S-tronic DSG (later)",
+        "drivetrain": "FWD or Quattro AWD",
+        "tags": [
+          "requires_power",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Release under the ASHTRAY/COIN TRAY in front of the gear selector — NOT next to it.",
+          "steps": [
+            "RESTORE 12V POWER FIRST.",
+            "Under-hood jump terminal: + on firewall (red cover), − to chassis ground.",
+            "Once powered, press brake and select N.",
+            "WITHOUT POWER — ASHTRAY RELEASE:",
+            "Remove the ASHTRAY/COIN TRAY in FRONT of the gear selector.",
+            "Press the release tab to pop the insert out. Remove small cap under mount.",
+            "Insert allen key and depress shift lock button. While holding, press brake and move to N.",
+            "Manual: depress clutch, select N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under the hood.",
+            "DSG: must restore power before shifting.",
+            "Once powered, shift normally. Manual: depress clutch.",
+            "Quattro AWD: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. Quattro: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front.",
+          "Quattro AWD: flatbed preferred — permanent AWD cannot be easily disengaged.",
+          "DSG dual-clutch: always restore 12V power before attempting shift."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "DSG: restore power before shifting."
+      },
+      "alerts": {
+        "warning": "Quattro AWD: flatbed preferred. DSG: restore power before shifting.",
+        "notes": "EUROPEAN MARKET ONLY — the Audi A3 8L was NOT sold in the United States. US A3 sales began with the 8P generation in 2006. Manual: depress clutch, select Neutral. DSG/S-tronic: power strongly preferred. Quattro: flatbed preferred. If encountered in US it is likely imported.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "TT",
+      "chassis": "8N / 8J / FV",
+      "years": "1999–2023",
+      "meta": {
+        "transmission": "6-speed manual or 6-speed S-tronic DSG or 7-speed S-tronic",
+        "drivetrain": "FWD or Quattro AWD",
+        "tags": [
+          "requires_power",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Release under the ASHTRAY/COIN TRAY in front of the gear selector — NOT next to it. Pop out ashtray insert, remove cap, depress button with allen key.",
+          "steps": [
+            "RESTORE 12V POWER FIRST.",
+            "Under-hood jump terminal: + on firewall (red cover), − to chassis ground.",
+            "Once powered, press brake and select N.",
+            "WITHOUT POWER — ASHTRAY RELEASE:",
+            "Remove the ASHTRAY/COIN TRAY in FRONT of the gear selector.",
+            "Press the release tab to pop the insert out. Remove small cap under mount.",
+            "Insert allen key or flathead and depress shift lock button. While holding, press brake and move to N.",
+            "DSG/S-tronic (most TTs): REQUIRES 12V power — no mechanical override.",
+            "Manual: depress clutch, select N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under the hood.",
+            "DSG/S-tronic: must restore 12V power — will not shift without it.",
+            "Once powered, shift to N.",
+            "Quattro AWD: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. Quattro: flatbed preferred. Low clearance — use flatbed ramps.",
+        "notes": [
+          "FWD: lift from front.",
+          "Quattro AWD: flatbed preferred.",
+          "DSG: cannot shift without 12V power — jump battery first."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "DSG: must restore power before shifting."
+      },
+      "alerts": {
+        "warning": "DSG: MUST restore power before shifting. Quattro: flatbed preferred.",
+        "notes": "DSG/S-tronic: always restore power. Manual: depress clutch. Quattro: flatbed preferred. Low clearance on all generations.",
+        "issues": [
+          {
+            "title": "DSG/S-tronic Cannot Shift Without Power",
+            "detail": "Audi DSG and S-tronic dual-clutch transmissions are electro-hydraulic. Without 12V power they will not shift out of Park. Always jump the battery before attempting any shift override."
+          },
+          {
+            "title": "Park Lock Release: Red Tool in Spare Wheel Kit",
+            "detail": "Many Audi models (approximately 2014+) include a red emergency park lock release tool stored in the spare wheel kit in the trunk. Without power, open the trunk, lift the spare wheel cover, and retrieve this tool. Remove the rubber insert from the FRONT cupholder, remove the plastic cap inside, insert the red tool and rotate CLOCKWISE to release the park lock. Keep the red tool VERTICAL while the vehicle is being moved — removing it re-engages Park. Older Audi models use a traditional shift lock slot near the gear selector base."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "Allroad",
+      "chassis": "C5 / C6 / B9",
+      "years": "2001–2026",
+      "meta": {
+        "transmission": "5-speed auto (C5) or 6-speed Tiptronic (C6) or 8-speed Tiptronic (B9)",
+        "drivetrain": "Quattro AWD (standard)",
+        "tags": [
+          "requires_power",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "C5/C6 (2001-2011): release under ASHTRAY/COIN TRAY in front of selector. Pop out ashtray insert, remove cap underneath, depress button with allen key. B9 (2017+): RED TOOL from spare wheel kit in trunk: RED TOOL from spare wheel kit in trunk — cupholder procedure.",
+          "steps": [
+            "RESTORE 12V POWER FIRST.",
+            "Under-hood jump terminal: + on firewall (red cover), − to chassis ground.",
+            "Once powered, press brake and select N.",
+            "C5/C6 WITHOUT POWER — ASHTRAY RELEASE:",
+            "Remove the ASHTRAY/COIN TRAY in FRONT of the selector. Pop insert out. Remove small cap.",
+            "Insert allen key and depress shift lock button. While holding, press brake and move to N.",
+            "B9 (2017+) WITHOUT POWER — RED TOOL:",
+            "Open trunk, lift spare wheel cover, retrieve RED TOOL.",
+            "Pull up rubber insert in FRONT cupholder. Remove plastic cap. Rotate CLOCKWISE. Keep VERTICAL."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery in trunk — use under-hood jump terminal (+ on firewall, red cover).",
+            "AGM battery — use AGM-compatible jump pack.",
+            "Once powered, press brake and select N.",
+            "B9: if power cannot be restored, use red tool procedure above.",
+            "Quattro AWD: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED PREFERRED — permanent Quattro AWD. Wheel-lift with dollies if no flatbed.",
+        "notes": [
+          "Permanent Quattro AWD — cannot disengage. Flatbed is safest.",
+          "Wheel-lift with dollies on free-rolling axle if flatbed unavailable."
+        ]
+      },
+      "battery": {
+        "location": "C5 (2001-2005): TRUNK under spare tire, same as A6 C5 — NOT under hood. C6 (2006-2011): TRUNK under spare tire (same platform as C6 A6). B9 (2017+): trunk under floor panel. Use under-hood remote terminals for jump starting on all variants.",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warning": "AGM battery on 2008+ models. Permanent Quattro AWD — flatbed preferred."
+      },
+      "alerts": {
+        "warning": "Permanent Quattro AWD — flatbed preferred.",
+        "notes": "All Allroad variants are full-time Quattro AWD — flatbed preferred.",
+        "issues": [
+          {
+            "title": "Park Lock Release: Red Tool in Spare Wheel Kit",
+            "detail": "Many Audi models (approximately 2014+) include a red emergency park lock release tool stored in the spare wheel kit in the trunk. Without power, open the trunk, lift the spare wheel cover, and retrieve this tool. Remove the rubber insert from the FRONT cupholder, remove the plastic cap inside, insert the red tool and rotate CLOCKWISE to release the park lock. Keep the red tool VERTICAL while the vehicle is being moved — removing it re-engages Park. Older Audi models use a traditional shift lock slot near the gear selector base."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "R8",
+      "chassis": "1st Gen / 2nd Gen",
+      "years": "2008–2024",
+      "meta": {
+        "transmission": "6-speed R-tronic single-clutch robot (Gen 1) or 7-speed S-tronic DSG (Gen 1 later) or 7-speed S-tronic (Gen 2)",
+        "drivetrain": "Quattro AWD (standard); RWD available on Gen 2 V10 RWS and V10 RWD models (2017-2024)",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "RED TOOL in FRUNK toolkit — stored directly under the tow hook. Tool telescopes out and inserts into the ENGINE BAY (under the V8/V10 carbon fiber engine cover) to release park lock. NOT a console/cupholder procedure. S-tronic: red tool in frunk. R-tronic V8 Gen1: may not have this tool — restore power.",
+          "steps": [
+            "RESTORE 12V POWER FIRST — preferred and safest method.",
+            "R8 battery is in the FRUNK — access via front hood.",
+            "Connect jump pack to 12V battery in frunk. Once powered, press brake and select N.",
+            "WITHOUT POWER — RED TOOL (S-tronic, Gen1 V10 and Gen2):",
+            "Open the FRUNK. Locate the red release tool stored directly under the tow hook in the frunk toolkit.",
+            "The tool telescopes/extends out.",
+            "Remove the V8/V10 carbon fiber engine cover in the rear engine bay.",
+            "Insert the red tool into the designated socket in the engine bay near the transmission.",
+            "Twist the tool to force the park lock to release (transmission shifts to N).",
+            "FLATBED ONLY — very high value. Never tow on drive wheels.",
+            "R-tronic Gen1 V8 (2008-2012): may not have the red tool — restore power is the only option. Flatbed or dollies."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — very high value vehicle.",
+            "BATTERY IS IN THE FRUNK — open front hood to access.",
+            "Connect jump pack to 12V battery in frunk.",
+            "Once powered, press brake and select N.",
+            "If power cannot be restored: S-tronic/Gen1 V10/Gen2 — use red tool from frunk toolkit (see shift procedure).",
+            "R-tronic Gen1 V8: restore power is the only field option — no red tool tool confirmed.",
+            "Quattro AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — very low ground clearance, mid/rear-engine layout, very high value.",
+        "notes": [
+          "FLATBED ONLY — extremely low clearance, high value.",
+          "Battery location NOT conventional — verify before jumping.",
+          "R-tronic and S-tronic both require 12V power to shift."
+        ]
+      },
+      "battery": {
+        "location": "FRUNK — front hood area. 12V battery in front storage compartment.",
+        "jumpPoints": "Frunk — 12V battery terminals directly accessible.",
+        "type": "agm-12v",
+        "warning": "Battery in FRUNK — not under hood at rear. Very high value — FLATBED ONLY with padded equipment."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY. Battery NOT under conventional hood. Very high-value vehicle.",
+        "notes": "MID-ENGINE (not rear-engine) — V8/V10 mounted behind seats, in front of rear axle. Battery in FRUNK (front storage). Red tool in frunk toolkit under tow hook — insert and twist under engine cover in bay. Gen 1 R8 V8 (2008-2012): R-tronic or 6-speed manual. Gen 1 V10 (2008-2015): R-tronic or S-tronic. Gen 2 (2016-2024): V10 only, 7-speed S-tronic. Production ended Q1 2024. RWD variant available Gen 2 (R8 V10 RWD/Spyder). ALWAYS flatbed.",
+        "issues": [
+          {
+            "title": "Red Tool in Frunk — Goes Into Engine Bay, Not Console",
+            "detail": "The R8 red release tool is stored in the FRUNK toolkit directly under the tow hook. Unlike other Audis (cupholder procedure), the R8 tool must be inserted into the ENGINE BAY under the V8/V10 carbon fiber cover to release the park lock. The tool telescopes out for reach. R-tronic Gen1 V8 may not have this tool."
+          },
+          {
+            "title": "Non-Standard Battery Location",
+            "detail": "The R8 battery is NOT under a conventional hood. Gen 1 (2008-2015): 12V battery is in the front storage compartment accessible from outside near the front wheels or frunk area. Always locate the battery before jumping — do not assume standard location."
+          },
+          {
+            "title": "Transmission Requires Power to Shift",
+            "detail": "Both the R-tronic (Gen 1) and S-tronic (Gen 1 later/Gen 2) cannot shift without 12V power. Always restore battery power before attempting Neutral."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "Q2",
+      "chassis": null,
+      "years": "2017–2026",
+      "meta": {
+        "transmission": "6-speed manual or 7-speed S-tronic DSG",
+        "drivetrain": "FWD or Quattro AWD",
+        "tags": [
+          "requires_power",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Release under the ASHTRAY/COIN TRAY in front of the gear selector OR red tool from trunk on newer builds.",
+          "steps": [
+            "RESTORE 12V POWER FIRST.",
+            "Under-hood jump terminal: + on firewall (red cover), − to chassis ground.",
+            "Once powered, press brake and select N.",
+            "WITHOUT POWER — ASHTRAY RELEASE:",
+            "Remove the ASHTRAY/COIN TRAY in FRONT of the gear selector.",
+            "Press the release tab to pop the insert out. Remove small cap under mount.",
+            "Insert allen key and depress shift lock button. While holding, press brake and move to N.",
+            "DSG/S-tronic: REQUIRES 12V power."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under the hood.",
+            "DSG: must restore 12V before shifting.",
+            "Once powered, shift to N.",
+            "Quattro AWD: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. Quattro: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front.",
+          "Quattro AWD: flatbed preferred.",
+          "DSG: cannot shift without power — jump battery first."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warning": "AGM battery. DSG: must restore power before shifting."
+      },
+      "alerts": {
+        "warning": "DSG: restore power before shifting. Quattro: flatbed preferred.",
+        "notes": "Small crossover. DSG: power required. Manual: depress clutch. Quattro: flatbed preferred.",
+        "issues": [
+          {
+            "title": "Park Lock Release: Red Tool in Spare Wheel Kit",
+            "detail": "Many Audi models (approximately 2014+) include a red emergency park lock release tool stored in the spare wheel kit in the trunk. Without power, open the trunk, lift the spare wheel cover, and retrieve this tool. Remove the rubber insert from the FRONT cupholder, remove the plastic cap inside, insert the red tool and rotate CLOCKWISE to release the park lock. Keep the red tool VERTICAL while the vehicle is being moved — removing it re-engages Park. Older Audi models use a traditional shift lock slot near the gear selector base."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "e-tron SUV / Q8 e-tron",
+      "chassis": "GE/GF",
+      "years": "2019–2026",
+      "meta": {
+        "transmission": "Single-speed electric drive",
+        "drivetrain": "AWD electric (dual or tri motor). e-tron S/Q8 S e-tron = tri-motor",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic virtual cockpit selector (rotary dial or button selector depending on trim). Requires 12V power to shift. NO mechanical cabin override. ZF 8HP-based park lock — underbody bolt on transmission for emergency release ONLY by professional. Must restore 12V via under-hood jump terminal first.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — AWD electric drivetrain. Never tow with wheels on ground.",
+            "12V auxiliary battery is in the rear cargo area under the trunk floor — NOT under the hood.",
+            "For jump-starting: use under-hood remote positive (+) terminal near windshield; negative to chassis ground.",
+            "NEVER touch HV traction battery cables (orange/yellow) under the vehicle floor.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "Quattro AWD: FLATBED ONLY.",
+            "Air suspension: set to lowest/normal ride height before loading on flatbed if possible.",
+            "NOTE: 'e-tron' name used through 2023; renamed 'Q8 e-tron' for 2024 model year onward."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V auxiliary battery in the REAR CARGO AREA — under the trunk floor, beneath the load floor panel. NOT under the hood. HV traction battery under the floor of the vehicle — NEVER touch orange/yellow HV cables. Remote jump terminal (+) available under the hood near the windshield — use this for jump-starting.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Original e-tron (2019-2023) renamed Q8 e-tron for 2024+. e-tron S/Q8 S e-tron = tri-motor 496hp. 12V in trunk — critical tow truck knowledge.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "e-tron GT / RS e-tron GT",
+      "chassis": "F8",
+      "years": "2022–2026",
+      "meta": {
+        "transmission": "Single-speed electric drive (2-speed on rear motor on RS variant)",
+        "drivetrain": "AWD electric (dual motor, rear-biased)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic selector. Requires 12V power. No mechanical cabin override. 12V is in the frunk — connect jump pack directly here.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — AWD electric drivetrain.",
+            "12V auxiliary battery is in the FRUNK — open front hood to access.",
+            "Connect jump pack to 12V terminals in frunk.",
+            "NEVER touch HV traction battery under floor or orange/yellow HV cables.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "Gran Turismo body — very low clearance. Use flatbed, not wheel lift.",
+            "AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V auxiliary battery in the FRUNK (front storage compartment) — lift the front hood, open the frunk storage area. HV traction battery under the floor — NEVER touch orange/yellow HV cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Gran Turismo 4-door sports car. Low stance — flatbed required, no wheel lift. RS version has 646hp. e-tron GT yearStart is 2022 in US. Shares platform with Porsche Taycan.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "Q4 e-tron / Q4 Sportback e-tron",
+      "chassis": "2022-2026",
+      "years": "2022–2026",
+      "meta": {
+        "transmission": "Single-speed electric drive",
+        "drivetrain": "RWD or AWD electric (FWD base; quattro AWD on 50/S models)",
+        "tags": [
+          "rwd",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic selector. Requires 12V power. No mechanical cabin override.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED preferred — electric drivetrain. RWD models may use front dollies if N confirmed.",
+            "12V auxiliary battery under hood — connect jump pack here.",
+            "NEVER touch HV traction battery under floor or orange/yellow cables.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "AWD models: FLATBED REQUIRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V auxiliary battery under hood, driver side. HV traction battery under floor — NEVER touch orange/yellow HV cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "MEB platform (shared with VW ID.4). Smaller/more affordable EV than Q8 e-tron. Q4 40 = RWD; Q4 45/50 = AWD.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "80 / 90 / Coupe Quattro",
+      "chassis": "B3/B4",
+      "years": "1990–1995",
+      "meta": {
+        "transmission": "3-speed automatic (3HP22) or 4-speed auto (4HP18); 5-speed manual (standard on most trims)",
+        "drivetrain": "FWD or Quattro AWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "COLUMN or CONSOLE SHIFTER depending on trim. Pre-BTSI era (1990-1991): minimal shift lock — key in ignition + press brake often sufficient to release. 1992+: BTSI solenoid — small slot near selector base (floor shift) or column-mounted (bench). Insert small flathead screwdriver to press solenoid release.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood, driver side.",
+            "Key to ON, press brake, move selector to N.",
+            "Manual: depress clutch and select N.",
+            "Quattro AWD: FLATBED preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Pre-A4 era Audi. Type 89 (B3) and Type 8C (B4). The 90 was the upmarket version of the 80. Coupe Quattro = 3-door hatch. These are older vehicles — simple shift interlock.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "100 / A6",
+      "chassis": "C4",
+      "years": "1990–1997",
+      "meta": {
+        "transmission": "4-speed auto (4HP18/4HP24); 5-speed manual (standard); CVT (some late C4 models)",
+        "drivetrain": "FWD or Quattro AWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE or COLUMN SHIFTER. Small slot or button near selector base — insert flathead/allen key, press brake, move to N. Pre-BTSI early models: key to ON + brake may release without tools.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood.",
+            "Key to ON, press brake, move selector to N.",
+            "Manual: depress clutch and select N.",
+            "Quattro AWD: FLATBED preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side near firewall",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Audi 100 renamed to A6 for 1995 MY in US. Same vehicle — C4 chassis. 2.8L V6 most common in US market.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "V8 Quattro",
+      "chassis": "4C",
+      "years": "1990–1994",
+      "meta": {
+        "transmission": "4-speed auto (4HP24E) or 5-speed manual",
+        "drivetrain": "Quattro AWD (standard)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER. Small slot near selector base — insert flathead/allen key, press brake, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood.",
+            "Key to ON, insert tool into slot, press brake, move to N.",
+            "Quattro AWD: FLATBED preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Flagship sedan, predecessor to A8. 3.6L or 4.2L V8. All Quattro AWD. Rare vehicle — likely collectible.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "Cabriolet",
+      "chassis": "B3/B4 platform",
+      "years": "1994–1998",
+      "meta": {
+        "transmission": "4-speed auto (4HP18/4HP24) or 5-speed manual",
+        "drivetrain": "FWD (standard); Quattro rare",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER. Small slot near selector base — insert small flathead, press brake, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood.",
+            "Key to ON, insert tool, press brake, move to N.",
+            "Manual: depress clutch and select N.",
+            "Soft top: ensure top is secured before towing to prevent wind damage."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "2.8L V6 in US. Based on Audi 80/90 B4 platform. Predecessor to A4 Cabriolet. Soft top — protect from wind damage during tow.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "A4 Cabriolet / S4 Cabriolet",
+      "chassis": "B6/B7",
+      "years": "2003–2009",
+      "meta": {
+        "transmission": "6-speed Tiptronic (B6); 6-speed Tiptronic or 6-speed S-tronic (B7)",
+        "drivetrain": "FWD or Quattro AWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "B6/B7 ashtray/coin tray method: pop out ashtray insert in front of shifter, remove plastic cap underneath, insert allen key or small flathead to depress solenoid. Press brake and move selector to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood (cowl area).",
+            "Once powered, use ashtray/coin tray override (see slot steps) or simply press brake and shift normally.",
+            "Soft top: secure before towing.",
+            "Quattro AWD: FLATBED preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, beneath windshield cowl panel — same location as A4 B6/B7 sedan. NOTE: convertible body means no trunk battery access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Convertible A4. Battery under hood like B6/B7 sedan (NOT trunk). Soft top — protect from wind damage during tow.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "Q6 e-tron / SQ6 e-tron",
+      "chassis": "2024-2026",
+      "years": "2024–2026",
+      "meta": {
+        "transmission": "Single-speed electric (2-speed on rear motor on SQ6)",
+        "drivetrain": "AWD electric (standard); RWD on some base trims",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic selector. No mechanical cabin override. Restore 12V first.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY for AWD. RWD may use front dollies if N confirmed.",
+            "12V auxiliary battery under hood — connect jump pack here.",
+            "NEVER touch HV traction battery under floor or orange/yellow cables.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "AWD: FLATBED REQUIRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V auxiliary battery under hood. HV traction battery under floor — NEVER touch orange/yellow HV cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Built on new PPE platform (shared with Porsche Macan EV). Launched 2024. ~300 mile range. SQ6 = dual motor AWD 489hp.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "A6 e-tron / S6 e-tron",
+      "chassis": "2024-2026",
+      "years": "2024–2026",
+      "meta": {
+        "transmission": "Single-speed electric",
+        "drivetrain": "RWD or AWD electric",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic selector. No mechanical cabin override. Restore 12V first.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY for AWD. RWD may use front dollies if N confirmed.",
+            "12V auxiliary battery under hood — connect jump pack here.",
+            "NEVER touch HV traction battery under floor or orange/yellow cables.",
+            "Once 12V restored, press brake and select N on electronic selector."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V auxiliary battery under hood. HV traction battery under floor — NEVER touch orange/yellow HV cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "New PPE-platform sedan/Avant EV. Launched in US 2025. Not to be confused with A6 TFSI (ICE). A6 Avant = estate/wagon variant.",
+        "issues": []
+      }
+    }
+  ]
+}

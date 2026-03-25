@@ -1,0 +1,251 @@
+{
+  "make": "Polestar",
+  "count": 4,
+  "vehicles": [
+    {
+      "make": "Polestar",
+      "model": "Polestar 2 EV",
+      "chassis": "2021-2024",
+      "years": "2021–2024",
+      "meta": {
+        "transmission": "Single-speed electric",
+        "drivetrain": "FWD, RWD, or AWD electric",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Center display (touchscreen) — Car Status > Service > Tow Mode. Physical selector override near column stalk.",
+          "steps": [
+            "Turn vehicle to ON/Ready mode.",
+            "Polestar 2/3/4: on the center TOUCHSCREEN — navigate to Car Status > Service > Tow Mode.",
+            "Activate Tow Mode — this safely puts the vehicle in N and releases the park brake for towing.",
+            "Alternatively: physical gear selector (if equipped) — push selector to N and hold.",
+            "If power is lost: connect jump pack to 12V auxiliary battery under the hood.",
+            "12V AUXILIARY ONLY — NEVER touch HV components."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — electric drivetrain.",
+            "12V auxiliary under hood.",
+            "12V AUXILIARY ONLY — never touch HV battery.",
+            "Activate Tow Mode via touchscreen before loading.",
+            "Polestar 1: carbon fiber body — padded equipment only."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — electric drivetrain. FWD, RWD, or AWD depending on variant — all are flatbed only.",
+        "notes": [
+          "Electric drivetrain — flatbed only on all variants.",
+          "Tow Mode on touchscreen is the correct neutral method.",
+          "12V under-hood terminals accessible — standard procedure.",
+          "Contact Polestar Customer Support if Tow Mode unavailable and vehicle cannot be powered."
+        ]
+      },
+      "battery": {
+        "location": "Under hood — 12V auxiliary jump terminal access points",
+        "jumpPoints": "Under hood: positive under plastic cover (+), negative at chassis ground (−)",
+        "type": "auxiliary-12v-only",
+        "warning": "FLATBED ONLY. 12V only. Never touch orange HV system."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY. 12V only — NEVER touch orange HV battery cables.",
+        "notes": "FLATBED ONLY. Tow Mode via touchscreen. 12V auxiliary under hood.",
+        "issues": [
+          {
+            "title": "Tow Mode via Touchscreen Is the Correct Method",
+            "detail": "Polestar 2 requires Tow Mode to be activated via the center touchscreen (Car Status > Service > Tow Mode) for safe neutral and EPB release. Using the column stalk alone may allow the vehicle to re-engage drive. Always use Tow Mode."
+          },
+          {
+            "title": "FLATBED ONLY — All Variants",
+            "detail": "All Polestar 2 variants (Standard Range FWD, Long Range Single Motor, Long Range Dual Motor AWD, Performance AWD) are electric drivetrains. Towing with any driven wheels on the ground risks motor damage. Flatbed is the only method."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar 3 EV",
+      "chassis": "2024",
+      "years": "2024–2026",
+      "meta": {
+        "transmission": "Single-speed electric",
+        "drivetrain": "AWD electric",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Center display touchscreen — same Tow Mode path as Polestar 2",
+          "steps": [
+            "Turn vehicle to ON/Ready mode.",
+            "Polestar 2/3/4: on the center TOUCHSCREEN — navigate to Car Status > Service > Tow Mode.",
+            "Activate Tow Mode — this safely puts the vehicle in N and releases the park brake for towing.",
+            "Alternatively: physical gear selector (if equipped) — push selector to N and hold.",
+            "If power is lost: connect jump pack to 12V auxiliary battery under the hood.",
+            "12V AUXILIARY ONLY — NEVER touch HV components."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — electric drivetrain.",
+            "12V auxiliary under hood.",
+            "12V AUXILIARY ONLY — never touch HV battery.",
+            "Activate Tow Mode via touchscreen before loading.",
+            "Polestar 1: carbon fiber body — padded equipment only."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — AWD electric drivetrain.",
+        "notes": [
+          "AWD EV — flatbed only.",
+          "Larger, heavier than Polestar 2.",
+          "Verify flatbed capacity."
+        ]
+      },
+      "battery": {
+        "location": "Under hood — 12V auxiliary access",
+        "jumpPoints": "Under hood 12V terminals",
+        "type": "auxiliary-12v-only",
+        "warning": "FLATBED ONLY. AWD EV. 12V only."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY. 12V only. AWD electric — no exceptions.",
+        "notes": "FLATBED ONLY. AWD electric. Same Tow Mode as Polestar 2.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar 1",
+      "chassis": null,
+      "years": "2020–2021",
+      "meta": {
+        "transmission": "8-speed automatic (ZF 8HP) + electric motor hybrid",
+        "drivetrain": "AWD (hybrid: front ICE + rear electric)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic selector — no mechanical shift lock slot",
+          "steps": [
+            "Turn vehicle to ON/Ready mode.",
+            "Polestar 1 is a PHEV — touchscreen on center display.",
+            "Navigate to: Car Status > Service > Tow Mode (or similar service menu path).",
+            "Activate Tow Mode to safely put vehicle in N.",
+            "If power lost: connect jump pack to 12V auxiliary — under hood.",
+            "12V AUXILIARY ONLY — NEVER touch HV battery.",
+            "CARBON FIBER body — padded equipment ONLY."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — carbon fiber body, high-value PHEV.",
+            "12V auxiliary under hood.",
+            "12V AUXILIARY ONLY — never touch HV battery.",
+            "Tow Mode via touchscreen.",
+            "Approximately 1,500 ever produced — EXTREMELY high value. Padded flatbed ramps only, soft straps only."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — hybrid AWD drivetrain. Carbon fiber body.",
+        "notes": [
+          "FLATBED ONLY — hybrid permanent AWD.",
+          "Extremely high-value and rare (~1,500 produced).",
+          "Carbon fiber body — use padded flatbed ramps and soft ties only."
+        ]
+      },
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpPoints": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warning": "Carbon fiber body — padded equipment ONLY. ~1,500 produced, extreme value. FLATBED ONLY."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY. Extremely high-value, very rare vehicle. Carbon fiber body — padded equipment only.",
+        "notes": "PHEV Grand Tourer. Very rare (~1,500 produced total). Carbon fiber body. Extremely high value. Flatbed only.",
+        "issues": [
+          {
+            "title": "Extremely Rare and High-Value",
+            "detail": "The Polestar 1 is one of the rarest vehicles you will ever tow — approximately 1,500 were produced total. It has a carbon fiber body. Use a flatbed with padded ramps and soft tie-down straps. Do not use metal chains or hooks against any body surface."
+          },
+          {
+            "title": "Carbon Fiber Body — Metal Equipment Will Cause Damage",
+            "detail": "Polestar 1 has a carbon fiber reinforced plastic body. Never use metal chains, hooks, or hard straps directly on body panels. Only padded soft ramps and rubber-lined straps. Approximately 1,500 total units were ever built."
+          },
+          {
+            "title": "Carbon Fiber Body — Extreme Value — ~1,500 Units Produced",
+            "detail": "The Polestar 1 is a limited production PHEV with a carbon fiber body. Approximately 1,500 units were produced worldwide. Never place metal equipment against the body. Use padded flatbed ramps, rubber-lined straps, and treat this as one of the highest-value vehicles you will encounter."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Polestar",
+      "model": "Polestar 4 EV",
+      "chassis": null,
+      "years": "2025–2026",
+      "meta": {
+        "transmission": "Single-speed electric",
+        "drivetrain": "RWD or AWD electric",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic selector on center console",
+          "steps": [
+            "Turn vehicle to ON/Ready mode.",
+            "Polestar 4: touchscreen — navigate to Car Status > Service > Tow Mode.",
+            "Activate Tow Mode to safely put vehicle in N.",
+            "If power lost: connect jump pack to 12V auxiliary — under hood.",
+            "12V AUXILIARY ONLY — NEVER touch HV battery."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — electric drivetrain.",
+            "12V auxiliary under hood.",
+            "12V AUXILIARY ONLY — never touch HV battery.",
+            "Activate Tow Mode via touchscreen."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — electric drivetrain.",
+        "notes": [
+          "ELECTRIC: FLATBED ONLY.",
+          "12V auxiliary under hood — never touch HV battery."
+        ]
+      },
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpPoints": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warning": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY. 12V auxiliary ONLY — never touch HV battery.",
+        "notes": "Electric coupe/SUV. No rear window. Flatbed only. 12V auxiliary under hood.",
+        "issues": []
+      }
+    }
+  ]
+}

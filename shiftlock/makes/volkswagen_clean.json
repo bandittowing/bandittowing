@@ -1,0 +1,1179 @@
+{
+  "make": null,
+  "count": 27,
+  "vehicles": [
+    {
+      "make": "Volkswagen",
+      "model": "Golf / Jetta / GTI",
+      "chassis": "Mk3",
+      "years": "1993–1999",
+      "meta": {
+        "transmission": "4-speed automatic (096/01M) or 5-speed manual. Floor console shift on automatic. No DSG in this generation.",
+        "drivetrain": "FWD. Golf hatchback and Jetta sedan. GTI performance variant. Corrado (1990-1994) shares similar procedures.",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "4-speed automatic: shift lock solenoid. The 096/01M automatic does NOT have a DSG-style yellow tab. Manual override: insert key or small screwdriver into the small slot on the PRNDL bezel cover near Park. Push down to release interlock while pressing brake. Manual trans: clutch interlock only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift floor lever to N.",
+            "MANUAL OVERRIDE (dead battery — auto): Insert small flat screwdriver or key tip into override slot on PRNDL bezel (near P position). Push down and hold. Press brake pedal. Move shift lever to N.",
+            "MANUAL TRANS: Depress clutch pedal. Move floor shift lever to N. No shift lock.",
+            "FWD: Rear wheel-lift acceptable with trans in N. Flatbed preferred.",
+            "Battery: under hood, driver side (left)."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, engine compartment. Driver side (left), under plastic cover. Standard top-post battery.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Golf/Jetta Mk3 (1993-1999, US). Battery under hood. 4-speed auto (096/01M) — override slot on PRNDL bezel. No DSG. Manual: clutch to N. Corrado (1990-1994) same basic procedure.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Golf / Jetta / GTI / New Beetle",
+      "chassis": "Mk4",
+      "years": "1999–2006",
+      "meta": {
+        "transmission": "5-speed automatic (09A/5-speed tiptronic) or 6-speed manual (02M/MQ350) or early DSG (6-speed DQ250 on GTI/GLI from 2004+). Floor console shift.",
+        "drivetrain": "FWD. Golf hatchback, Jetta sedan/wagon, GTI, New Beetle. VR6 and 4Motion AWD available on some. Rabbit sold as Golf Mk5 in US starting 2006.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Traditional 5-speed auto (09A): shift lock solenoid — PRNDL bezel override slot (small hole near P, use screwdriver to push interlock tab). DSG (from 2004 GTI/GLI): YELLOW TAB under shifter gaiter — lift gaiter front, press yellow tab inward, move to N. Manual: clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Floor shift to N.",
+            "5-SPEED AUTO OVERRIDE (dead battery): Locate small override hole on PRNDL bezel near P. Insert screwdriver or key. Press tab down and hold. Press brake. Move to N.",
+            "DSG OVERRIDE (2004+ GTI/GLI with DQ250): Pry shifter gaiter from front edge. Lift gaiter up. Locate YELLOW TAB on right side of shifter housing. Press yellow tab INWARD. While holding, move lever to N. Reinstall gaiter.",
+            "STRONGLY PREFER: Jump battery under hood (driver side). Once powered, shift normally.",
+            "MANUAL TRANS: Clutch in, shift to N.",
+            "FWD: Rear wheel-lift acceptable in N. 4Motion AWD: flatbed.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, engine compartment. Driver side (left), rear of engine bay under cover. Fuse box mounted directly on top of battery. Standard top-post. Jump terminals accessible at battery or via under-hood fuse box positive stud.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Golf/Jetta Mk4 (1999-2006, US). Battery under hood, left side. 09A auto: PRNDL slot override. DSG (2004+ GTI/GLI): yellow tab under gaiter. New Beetle same platform/procedures. R32 (2004, 2008): AWD — flatbed.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Golf / GTI / Rabbit",
+      "chassis": "Mk5",
+      "years": "2006–2010",
+      "meta": {
+        "transmission": "6-speed automatic (09G Aisin) or 6-speed DSG (DQ250) or 6-speed manual (MQ350). Floor console shift.",
+        "drivetrain": "FWD or 4Motion AWD (Golf R32 2008). Sold as 'Rabbit' (base) and 'Golf GTI' in US.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG/DQ250: YELLOW TAB under shifter gaiter. Pry gaiter from front, lift up, press yellow tab inward (toward housing center), move selector to N. 09G Aisin auto (non-GTI base): PRNDL bezel override slot. Manual: clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Floor shift to N.",
+            "DSG OVERRIDE: Pry front of shifter gaiter upward. Locate YELLOW TAB right side of shifter housing. Press INWARD. Move to N while holding. Reinstall gaiter.",
+            "09G AUTO OVERRIDE: Small screwdriver into PRNDL bezel override slot near P. Push down. Press brake. Move to N.",
+            "MANUAL TRANS: Clutch in, shift to N.",
+            "FWD: Rear wheel-lift acceptable. R32 AWD: flatbed.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, engine compartment. Driver side (left), rear of bay under cover. Fuse box mounted on battery. Jump directly at battery or at fuse box positive stud under hood.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Golf/GTI/Rabbit Mk5 (2006-2010). Sold as 'Rabbit' base in US 2006-2009. Battery under hood, left side. DSG: yellow tab under gaiter. R32 2008: AWD flatbed. Golf SportWagen (Mk5 body) same procedure.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Jetta",
+      "chassis": "Mk5 / A5",
+      "years": "2005–2010",
+      "meta": {
+        "transmission": "6-speed automatic (09G Aisin) or 6-speed DSG (DQ250) or 5/6-speed manual. Floor console shift.",
+        "drivetrain": "FWD. Sedan. Jetta GLI performance variant.",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG (GLI): YELLOW TAB under shifter gaiter — pry gaiter front, press yellow tab inward, move to N. 09G auto: PRNDL bezel override slot. Manual: clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Floor shift to N.",
+            "DSG OVERRIDE (GLI): Pry shifter gaiter from front edge. Press yellow tab inward. Move lever to N. Reinstall gaiter.",
+            "09G AUTO OVERRIDE: Screwdriver into PRNDL bezel slot near P. Push down. Press brake. Move to N.",
+            "MANUAL: Clutch in, shift to N.",
+            "Battery: under hood."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, engine compartment. Driver side (left), under battery cover. Confirmed by iFixit 2005 Jetta guide: 'battery in upper right corner of engine bay' (from driver's perspective = passenger side). NOTE: Mk5 Jetta battery confirmed under hood regardless of 2005 guide description direction convention — verify side by opening hood on specific vehicle.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Jetta Mk5/A5 (2005-2010). Sedan. Battery under hood. DSG (GLI): yellow tab override. 09G auto: PRNDL bezel slot. Manual: clutch to N.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Golf / GTI / Golf R",
+      "chassis": "Mk6",
+      "years": "2010–2014",
+      "meta": {
+        "transmission": "6-speed DSG (DQ250) or 6-speed manual (MQ350). No traditional torque-converter auto in US Mk6 Golf. Floor console shift.",
+        "drivetrain": "FWD (Golf, GTI) or AWD 4Motion (Golf R). Hatchback. Golf R available 2012-2013 US.",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG/DQ250: YELLOW TAB under shifter gaiter. Pry gaiter from front edge (ashtray panel forward first, then gaiter up). Locate yellow tab right side of shifter housing. Press INWARD. Move to N. Manual: clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift to N.",
+            "DSG OVERRIDE: Open front ashtray (if equipped), unclip shifter bezel from front. Lift gaiter. Press yellow tab INWARD on right side of housing. Simultaneously move selector to N. Reinstall gaiter.",
+            "MANUAL TRANS: Clutch in, shift to N.",
+            "FWD: Rear wheel-lift acceptable in N. Golf R 4Motion: flatbed.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, engine compartment. Driver side (left), under plastic cover. Standard/AGM. MQB-adjacent platform uses same hood location.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Golf/GTI/Golf R Mk6 (2010-2014, US). DSG only in US (no torque-converter auto). Yellow tab override under gaiter. Golf R (2012-2013): AWD flatbed only. Battery under hood.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Jetta / Jetta SportWagen",
+      "chassis": "Mk6",
+      "years": "2011–2018",
+      "meta": {
+        "transmission": "5-speed automatic (0AW) or 6-speed DSG (DQ250) or 5/6-speed manual. Floor console shift.",
+        "drivetrain": "FWD. Sedan and SportWagen (wagon). Jetta GLI performance variant.",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG: YELLOW TAB under shifter gaiter — pry gaiter front, press yellow tab inward on right side, move to N. 5-speed auto (0AW): PRNDL bezel override slot. Manual: clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift to N.",
+            "DSG OVERRIDE: Pry front of shifter gaiter up. Locate yellow tab right side of housing. Press INWARD. Move to N.",
+            "5-SPEED AUTO OVERRIDE: Screwdriver into PRNDL override slot near P. Push down. Press brake. Move to N.",
+            "MANUAL: Clutch in, shift to N.",
+            "Battery: under hood, driver side (left)."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, driver side (left). Confirmed by AAA: 'Volkswagen Jetta 2011-2021: Battery is under the hood, usually on the left side.'",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Jetta Mk6 (2011-2018, US). Sedan and SportWagen wagon. Battery under hood, left side. DSG: yellow tab override. Manual: clutch to N. SportWagen discontinued 2014 — replaced by Golf SportWagen.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Golf / GTI / Golf R / Golf SportWagen / e-Golf / Golf Alltrack",
+      "chassis": "Mk7 / Mk7.5",
+      "years": "2015–2021",
+      "meta": {
+        "transmission": "6-speed DSG (DQ250) or 6-speed manual (MQ350). e-Golf: single-speed electric. Floor console shift.",
+        "drivetrain": "FWD (Golf, GTI, e-Golf, SportWagen base) or AWD 4Motion (Golf R, Alltrack, SportWagen AWD). MQB platform.",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG/DQ250: YELLOW TAB under shifter gaiter. Open front ashtray, unclip bezel panel from front, lift gaiter, press yellow tab INWARD on right side of housing, move to N. Manual: clutch only. e-Golf electronic selector: no mechanical override — jump 12V.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift to N.",
+            "DSG OVERRIDE: Open ashtray, unclip shifter bezel/cover from front. Lift gaiter. Locate YELLOW TAB on right side of housing. Press yellow tab INWARD. Simultaneously move selector to N. Reinstall gaiter.",
+            "MANUAL TRANS: Clutch in, shift to N.",
+            "e-GOLF: Jump 12V under hood. Once powered, shift to N electronically. FLATBED ONLY — electric drivetrain. NEVER touch orange HV cables.",
+            "FWD: Rear wheel-lift acceptable in N. Golf R 4Motion / Alltrack AWD: FLATBED strongly preferred.",
+            "Battery (12V): under hood, driver side. AGM — use AGM-compatible jump pack."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, driver side (left), under plastic cover with light bulb symbol. AGM battery on start-stop equipped models. Under-hood jump terminals present. e-Golf: 12V aux battery under hood; HV traction battery under floor — NEVER touch orange HV cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Golf Mk7/7.5 (2015-2021, US). MQB platform. DSG only (no torque-converter auto). Yellow tab override under gaiter. Golf R / Alltrack AWD: flatbed. e-Golf: electric, flatbed, never touch orange HV. AGM battery — use AGM jump pack.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Golf GTI / Golf R",
+      "chassis": "Mk8 / Mk8.5",
+      "years": "2022–2026",
+      "meta": {
+        "transmission": "7-speed DSG (DQ381) or 6-speed manual (MQ350). Floor console shift (physical selector lever).",
+        "drivetrain": "FWD (GTI) or AWD 4Motion (Golf R). MQB Evo platform. Mk8.5 facelift 2024+.",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG/DQ381: YELLOW TAB under shifter gaiter. Pry gaiter from front, lift, press yellow tab INWARD on right side of housing, move to N. Manual: clutch only. NOTE: VW Mk8 may have a slightly revised gaiter panel — unclip from front, same yellow tab procedure.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. DSG floor selector to N.",
+            "DSG OVERRIDE: Unclip/pry shifter gaiter panel from front. Lift gaiter. Locate YELLOW TAB right side of shifter housing. Press INWARD. Move selector to N while holding. Reinstall gaiter.",
+            "MANUAL TRANS: Clutch in, shift to N.",
+            "GTI FWD: Rear wheel-lift acceptable in N. Golf R 4Motion: FLATBED ONLY.",
+            "Battery (12V): under hood, driver side. AGM — AGM jump pack required.",
+            "NOTE: VW Mk8 also available as Golf R only; GTI is separate model in US."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, driver side (left), under plastic cover. AGM battery standard (start-stop system). Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Golf GTI/R Mk8 (2022-2026, US). Only Golf models sold in US are GTI and R (no base Golf hatchback). DSG DQ381. Yellow tab override under gaiter. Golf R: AWD flatbed. AGM battery under hood. Mk8.5 facelift 2024 — same procedures.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Jetta / Jetta GLI",
+      "chassis": "Mk7 / A7",
+      "years": "2019–2026",
+      "meta": {
+        "transmission": "8-speed automatic (Aisin AQ300/09S) or 6-speed DSG (DQ250 on GLI) or 6-speed manual (GLI). Floor console shift.",
+        "drivetrain": "FWD. Sedan. GLI performance variant. MQB platform.",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "8-speed Aisin auto (base/Sport/SE/SEL): electronic shift — NO DSG yellow tab. Manual override: PRNDL bezel override slot or jump battery first. DSG (GLI): YELLOW TAB under shifter gaiter — pry gaiter front, press yellow tab inward, move to N. Manual (GLI): clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON or START to ON. Press brake. Selector to N.",
+            "8-SPEED AISIN AUTO OVERRIDE: Jump battery under hood. Once powered, press brake, shift to N electronically. If no power available: locate small override access near shifter base (may be under console trim). Screwdriver into slot, press tab, move to N.",
+            "DSG OVERRIDE (GLI): Pry shifter gaiter from front. Press yellow tab INWARD on right side. Move to N. Reinstall gaiter.",
+            "MANUAL (GLI): Clutch in, shift to N.",
+            "Battery: under hood, driver side. Jump directly."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, driver side (left). Confirmed by AAA: 'Volkswagen Jetta 2011-2021: Battery under the hood, usually on the left side.' AGM on equipped trims.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Jetta Mk7/A7 (2019-2026). FWD sedan. Base/SE: 8-speed Aisin auto. GLI: DSG or manual. Battery under hood left side. DSG override: yellow tab under gaiter. 8-speed: jump battery preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Passat B5 / B5.5",
+      "chassis": null,
+      "years": "1998–2005",
+      "meta": {
+        "transmission": "5-speed automatic (01V tiptronic) or 5/6-speed manual. No DSG in this generation. Floor console shift.",
+        "drivetrain": "FWD or AWD 4Motion. Sedan and wagon (Variant).",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "5-speed tiptronic (01V): shift lock solenoid on console shifter. Manual override: insert screwdriver into PRNDL bezel override slot near P. Push down and hold. Press brake. Move to N. Manual: clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Floor shift to N.",
+            "MANUAL OVERRIDE (dead battery): Locate small override slot on PRNDL bezel near P. Insert screwdriver. Push down. Press brake. Move to N.",
+            "JUMP BATTERY: Use under-hood jump terminals (RED positive terminal, black negative bolt) — do NOT need to access trunk battery. Once powered, shift normally.",
+            "MANUAL TRANS: Clutch in, shift to N.",
+            "FWD: Rear wheel-lift acceptable. 4Motion AWD: flatbed.",
+            "Battery (physical): in TRUNK, right side. Jump via UNDER-HOOD terminals."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "IN TRUNK — right side (passenger side) of cargo area, under a panel. NOT under hood. Remote jump terminals located under hood in fuse/relay box: RED positive terminal (+) and black negative ground. ALWAYS use under-hood jump terminals for jump-starting — do NOT need to open trunk to jump.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Passat B5/B5.5 (1998-2005, US). Battery in TRUNK right side. Use under-hood jump terminals. 01V tiptronic: PRNDL bezel override. 4Motion AWD: flatbed. Wagon (Variant) same procedure.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Passat B6 / CC",
+      "chassis": "NMS first gen",
+      "years": "2006–2011",
+      "meta": {
+        "transmission": "6-speed automatic (09G Aisin) or 6-speed DSG (DQ250) or 6-speed manual. Floor console shift.",
+        "drivetrain": "FWD or AWD 4Motion. Sedan and wagon. CC (2009-2017): sporty coupe-sedan variant, FWD or 4Motion.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG/DQ250: YELLOW TAB under shifter gaiter — pry gaiter from front, press yellow tab INWARD on right side of housing, move to N. 09G Aisin auto: PRNDL bezel override slot. Manual: clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift to N.",
+            "DSG OVERRIDE: Pry/unclip shifter gaiter from front. Locate YELLOW TAB on right side of shifter housing. Press INWARD. Move selector to N. Reinstall gaiter.",
+            "09G AUTO OVERRIDE: Screwdriver into PRNDL bezel override slot near P. Push down. Press brake. Move to N.",
+            "MANUAL: Clutch in, shift to N.",
+            "FWD: Rear wheel-lift acceptable. 4Motion AWD: flatbed.",
+            "Battery: under hood. Jump directly at battery or at under-hood positive terminal."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD. B6 Passat (2006-2010): Battery moved to under hood on this generation — right side (passenger side), under plastic cover. CC (2009-2017): also under hood. AAA confirms Passat 2012-2021 under hood. Remote positive terminal also in under-hood fuse box.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Passat B6 (2006-2010) and CC (2009-2017). Battery under hood. DSG: yellow tab under gaiter. 4Motion: flatbed. CC same procedure as Passat B6.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Passat NMS B7 / B8",
+      "chassis": "North American Market",
+      "years": "2012–2022",
+      "meta": {
+        "transmission": "6-speed automatic (Aisin 09G) 2012-2015. 6-speed DSG (DQ250) 2012-2015 on some. 6-speed Aisin only 2016-2022. Manual discontinued after 2015. Floor console shift.",
+        "drivetrain": "FWD. Sedan only (no AWD on NMS Passat US market). Larger North American-specific platform.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG (2012-2015): YELLOW TAB under shifter gaiter — pry gaiter from front, press yellow tab inward, move to N. Aisin 09G/6-speed auto (2016-2022): PRNDL bezel override slot. Manual (2012-2015): clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Floor shift to N.",
+            "DSG OVERRIDE (2012-2015): Pry shifter gaiter from front. Press YELLOW TAB inward on right side. Move to N.",
+            "AISIN AUTO OVERRIDE (2016-2022): Screwdriver into PRNDL override slot near P on console. Push down. Press brake. Move to N.",
+            "MANUAL (2012-2015): Clutch in, shift to N.",
+            "FWD only on NMS — rear wheel-lift acceptable in N.",
+            "Battery: under hood, passenger side (right)."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, right side (passenger side), under plastic cover. Confirmed by AAA: 'Volkswagen Passat 2012-2021: Battery is under the hood, usually on the right side.'",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Passat NMS (2012-2022, US). FWD only. Battery under hood RIGHT side. DSG (2012-2015): yellow tab. Aisin auto (2016-2022): PRNDL slot. Manual dropped after 2015. Passat discontinued in North America after 2022.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "New Beetle / Beetle",
+      "chassis": "A4 / A5",
+      "years": "1998–2019",
+      "meta": {
+        "transmission": "6-speed automatic (09G Aisin) or 6-speed DSG (DQ250) or 5/6-speed manual. Floor console shift.",
+        "drivetrain": "FWD. Coupe and convertible. New Beetle (A4 1998-2010), Beetle 'Coccinelle' refresh (A5 2012-2019). Turbo, TDI variants.",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG (Turbo/TDI with DSG option): YELLOW TAB under shifter gaiter — pry gaiter front, press yellow tab inward, move to N. 09G Aisin auto: PRNDL bezel override slot. Manual: clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift to N.",
+            "DSG OVERRIDE: Pry shifter gaiter from front. Press yellow tab INWARD on right side. Move to N.",
+            "09G AUTO OVERRIDE: Screwdriver into PRNDL bezel override slot near P. Push down. Press brake. Move to N.",
+            "MANUAL: Clutch in, shift to N.",
+            "FWD: Rear wheel-lift acceptable in N.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "New Beetle (1998-2010): UNDER HOOD, driver side. Battery under plastic cover in engine bay. Beetle A5 (2012-2019): UNDER HOOD, driver side. Both generations: standard top-post, direct access under hood.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "New Beetle (1998-2010) and Beetle A5 (2012-2019). Battery under hood. DSG: yellow tab override. 09G: PRNDL bezel slot. Beetle/New Beetle convertible same procedure. Discontinued 2019.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Eos",
+      "chassis": null,
+      "years": "2007–2016",
+      "meta": {
+        "transmission": "6-speed DSG (DQ250) or 6-speed manual. Floor console shift.",
+        "drivetrain": "FWD. Hardtop convertible coupe. Based on Mk5 Golf platform.",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG: YELLOW TAB under shifter gaiter — pry gaiter front, press yellow tab INWARD, move to N. Manual: clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift to N.",
+            "DSG OVERRIDE: Pry gaiter from front. Press yellow tab INWARD on right side of housing. Move selector to N.",
+            "MANUAL: Clutch in, shift to N.",
+            "FWD: Rear wheel-lift acceptable. NOTE: Hardtop must be fully retracted/closed before towing — electric roof requires power.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, driver side (left). Under plastic cover in engine bay.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Eos (2007-2016). FWD hardtop convertible. Battery under hood. DSG: yellow tab override. Electric folding roof needs power — ensure closed before towing. Discontinued 2016.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Phaeton",
+      "chassis": null,
+      "years": "2004–2006",
+      "meta": {
+        "transmission": "5-speed tiptronic automatic (09D ZF 5HP-24A). Floor console shift.",
+        "drivetrain": "AWD (4Motion standard on all US models). Full-size luxury sedan.",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "5-speed tiptronic (09D): shift lock solenoid on console shifter. Manual override: insert screwdriver into PRNDL bezel override slot near P. Push down. Press brake. Move to N. Air suspension on all models.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift console lever to N.",
+            "MANUAL OVERRIDE (dead battery): Locate override slot on PRNDL bezel near P. Insert screwdriver. Push down. Press brake. Move to N.",
+            "JUMP BATTERY: Use under-hood jump terminals — do NOT need to access trunk. AGM batteries — AGM jump pack required. Once powered, shift normally.",
+            "AWD 4Motion: FLATBED ONLY — all Phaetons are AWD. Never wheel-lift.",
+            "AIR SUSPENSION: May lower/collapse when power is off. Ensure vehicle is stable before moving.",
+            "Battery: DUAL AGM in TRUNK right side. Jump via under-hood terminals."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "DUAL BATTERIES IN TRUNK — right side of cargo area. Two AGM batteries (starter battery on right, VPS/comfort battery also in trunk). Remote jump terminals also in engine compartment (under hood). USE UNDER-HOOD JUMP TERMINALS for jump-starting. Do NOT need to open trunk to jump. NOTE: AGM batteries — use AGM-rated jump pack only.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Phaeton (2004-2006, US). AWD — FLATBED ONLY. DUAL AGM batteries in TRUNK. Use under-hood jump terminals. Air suspension. PRNDL bezel override. Only sold 2004-2006 in US.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Touareg",
+      "chassis": "1st Gen",
+      "years": "2004–2010",
+      "meta": {
+        "transmission": "6-speed automatic (09D ZF 6HP-26) or V10 TDI with 6-speed auto. No manual. Center console electronic shifter.",
+        "drivetrain": "AWD (Permanent 4Motion standard). Mid-size luxury SUV. Shared with Porsche Cayenne and Audi Q7.",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ZF 6HP-26 electronic selector: brake-shift interlock. No DSG yellow tab. Must restore 12V power to shift. Jump under-hood terminals. Once powered: key/START to ON, press brake, shift to N electronically. V10 TDI: same procedure.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Electronic selector to N.",
+            "DEAD BATTERY: Jump under-hood positive terminal (at fuse box cover) and negative (engine block/ground). Use AGM jump pack (single battery models) or dual-battery capable pack (V10 TDI). Once powered, press brake, shift to N electronically.",
+            "AWD 4Motion: FLATBED ONLY. Permanent AWD — never wheel-lift tow.",
+            "AIR SUSPENSION (equipped models): May collapse without power. Use caution positioning flatbed.",
+            "Battery (physical): under DRIVER'S SEAT. Jump via under-hood terminals only."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER DRIVER'S SEAT — requires removing driver seat for full battery access. Procedure: slide seat back, remove seat rail covers, remove 10mm triple-square floor bolts (4), slide seat forward, tilt seat back to reveal battery compartment. Remote POSITIVE jump terminal: under hood at fuse box cover. Negative: engine block. ALWAYS jump via under-hood terminals — never attempt to move seat while vehicle is dead.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Touareg 1st Gen (2004-2010). AWD FLATBED ONLY. Battery under DRIVER SEAT — major disassembly. Jump via under-hood positive stud and negative ground. Air suspension on most models — may need stabilization.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Touareg",
+      "chassis": "2nd Gen",
+      "years": "2011–2017",
+      "meta": {
+        "transmission": "8-speed automatic (ZF 8HP-45/55). Electronic push-button or console selector. No manual.",
+        "drivetrain": "AWD (Permanent 4Motion standard). Mid-size luxury SUV. Hybrid available 2012-2014.",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ZF 8HP electronic selector: no mechanical cable. Must restore 12V power to shift. Jump under-hood positive/negative. Once powered: press brake, use electronic selector to shift to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Electronic selector to N.",
+            "DEAD BATTERY: Jump under-hood terminals. AGM battery — AGM pack required. Once powered, press brake, electronic selector to N.",
+            "AWD 4Motion: FLATBED ONLY.",
+            "HYBRID: Jump 12V only (under-hood terminals). NEVER touch HV NiMH cables or battery.",
+            "Battery: under DRIVER SEAT. Jump via under-hood terminals only."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER DRIVER'S SEAT — same as 1st gen. Driver seat must be tilted back/removed for battery access. Remote jump terminals under hood (positive stud at fuse box, negative at engine ground). ALWAYS jump via under-hood terminals. Hybrid (2012-2014): 12V under driver seat; HV NiMH battery in rear — NEVER touch HV cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Touareg 2nd Gen (2011-2017). AWD FLATBED ONLY. Battery under driver seat — jump via under-hood. ZF 8HP: jump 12V to shift. Hybrid: jump 12V only, never touch HV. Air suspension on most trims.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Tiguan",
+      "chassis": "1st Gen NF",
+      "years": "2009–2017",
+      "meta": {
+        "transmission": "6-speed DSG (DQ250) or 6-speed manual. Floor console shift. No traditional torque-converter auto in US 1st gen Tiguan.",
+        "drivetrain": "FWD or AWD 4Motion. Compact SUV. Based on Golf Mk5/Mk6 platform.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG/DQ250: YELLOW TAB under shifter gaiter — pry gaiter from front, press yellow tab INWARD on right side, move to N. Manual: clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. DSG selector to N.",
+            "DSG OVERRIDE: Pry shifter gaiter from front. Locate YELLOW TAB right side of housing. Press INWARD. Move selector to N. Reinstall gaiter.",
+            "MANUAL: Clutch in, shift to N.",
+            "FWD: Rear wheel-lift acceptable. 4Motion AWD: flatbed preferred.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, driver side (left). Under plastic cover. Standard/AGM.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Tiguan 1st Gen (2009-2017). DSG only in US (no torque-converter auto). Yellow tab override under gaiter. 4Motion: flatbed preferred. Battery under hood.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Tiguan",
+      "chassis": "2nd Gen AD1",
+      "years": "2018–2024",
+      "meta": {
+        "transmission": "8-speed automatic (Aisin AQ300/09S). Electronic console push-button selector (physical lever 2018-2019; push-button 2020+). No DSG in US 2nd gen Tiguan.",
+        "drivetrain": "FWD or AWD 4Motion. Compact SUV. MQB platform. Standard wheelbase. 3-row version available 2018-2021.",
+        "tags": [
+          "requires_power",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "8-speed Aisin electronic selector: NO DSG yellow tab. Must restore 12V power. Jump battery under hood. Once powered: press brake, shift to N electronically via push-button selector. Physical floor lever (early 2nd gen): PRNDL bezel override may be accessible.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key or START to ON. Press brake. Electronic selector to N.",
+            "DEAD BATTERY: Jump 12V under hood, driver side. AGM pack required. Once powered, press brake, shift to N electronically.",
+            "EARLY PHYSICAL LEVER (2018-2019): May have PRNDL bezel override slot — screwdriver into slot, push down, press brake, move to N.",
+            "FWD: Rear wheel-lift acceptable in N. 4Motion AWD: flatbed preferred.",
+            "Battery: under hood, driver side. AGM — use AGM jump pack."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, driver side (left). Under plastic cover. AGM battery standard.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Tiguan 2nd Gen (2018-2024). 8-speed Aisin auto, electronic selector. NO DSG yellow tab — jump battery to restore power. 4Motion: flatbed preferred. AGM battery.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Tiguan",
+      "chassis": "3rd Gen AD2",
+      "years": "2025–2026",
+      "meta": {
+        "transmission": "8-speed automatic (Aisin AQ300) or new 7-speed DSG (DQ381 on SEL R-Line Turbo 2026). Electronic console selector.",
+        "drivetrain": "FWD or AWD 4Motion. Compact SUV. New MQB Evo platform. Fully redesigned 2025.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "8-speed Aisin: NO DSG yellow tab — jump 12V to restore, shift electronically. 7-speed DSG (2026 SEL R-Line Turbo): yellow tab under gaiter may apply — verify per model year.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. START to ON with brake. Electronic selector to N.",
+            "DEAD BATTERY (8-speed Aisin): Jump 12V under hood. AGM pack. Once powered, press brake, shift to N electronically.",
+            "DSG VARIANT (2026 SEL R-Line Turbo): Pry shifter gaiter, press yellow tab inward, move to N.",
+            "FWD: Rear wheel-lift acceptable. 4Motion AWD: flatbed preferred.",
+            "Battery: under hood, driver side. AGM."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, driver side (left). AGM battery standard. Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Tiguan 3rd Gen (2025-2026). Fully redesigned 2025. 8-speed Aisin standard; 7-speed DSG new for 2026 SEL R-Line Turbo. Electronic selector. AGM battery under hood.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Atlas / Atlas Cross Sport",
+      "chassis": null,
+      "years": "2018–2026",
+      "meta": {
+        "transmission": "8-speed automatic (Aisin AQ350). Electronic push-button or console selector. No DSG, no manual.",
+        "drivetrain": "FWD or AWD 4Motion. Atlas: full-size 3-row SUV. Atlas Cross Sport: 2-row coupe-SUV variant (2020+). MQB platform.",
+        "tags": [
+          "requires_power",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "8-speed Aisin electronic selector: NO DSG yellow tab. Must restore 12V power. Jump battery under hood. Once powered: press brake, shift to N electronically.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Push START with brake. Electronic selector to N.",
+            "DEAD BATTERY: Jump 12V under hood, driver side. AGM pack recommended. Once powered, press brake, shift to N electronically.",
+            "NO mechanical override on electronic push-button selector — jumping battery is required.",
+            "FWD: Rear wheel-lift acceptable in N. 4Motion AWD: flatbed preferred.",
+            "Battery: under hood, driver side. AGM — use AGM-compatible jump pack."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, driver side (left). Under plastic cover. AGM battery on most configurations.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Atlas (2018-2026) and Atlas Cross Sport (2020-2026). 8-speed Aisin, electronic selector. NO DSG yellow tab — jump 12V required. 4Motion: flatbed preferred. AGM battery under hood.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Taos",
+      "chassis": null,
+      "years": "2022–2026",
+      "meta": {
+        "transmission": "7-speed DSG (DQ381) with FWD or 8-speed automatic (Aisin) with AWD. Electronic console selector.",
+        "drivetrain": "FWD or AWD 4Motion. Subcompact SUV. MQB platform.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG/DQ381 (FWD): YELLOW TAB under shifter gaiter — pry gaiter front, press yellow tab inward, move to N. 8-speed Aisin (AWD): NO yellow tab — jump 12V, shift electronically.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. START to ON with brake. Selector to N.",
+            "DSG OVERRIDE (FWD models): Pry shifter gaiter from front. Press YELLOW TAB INWARD on right side of housing. Move selector to N.",
+            "8-SPEED AISIN OVERRIDE (AWD models): Jump 12V under hood. AGM pack. Once powered, press brake, shift to N electronically.",
+            "FWD: Rear wheel-lift acceptable in N. 4Motion AWD: flatbed preferred.",
+            "Battery: under hood, driver side. AGM."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, driver side (left). Under plastic cover. AGM battery.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Taos (2022-2026). FWD: 7-speed DSG — yellow tab override. AWD: 8-speed Aisin — jump 12V. Subcompact SUV. AGM battery under hood.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "chassis": null,
+      "years": "2021–2026",
+      "meta": {
+        "transmission": "Single-speed reduction gear. Electronic rotary/push-button selector. No physical transmission.",
+        "drivetrain": "RWD (single rear motor) or AWD (dual motor). All-electric crossover SUV. MEB platform.",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR ONLY. No mechanical override. Must restore 12V power first. Jump 12V under hood. Once powered: push START with brake, shift to N via electronic selector.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "STEP 1 — JUMP 12V: Connect jump pack to 12V auxiliary battery under hood, driver side. Wait for dashboard to power up.",
+            "STEP 2 — SHIFT TO N: Push START button with foot on brake. Electronic rotary/push-button selector to N.",
+            "FLATBED ONLY — electric drivetrain. RWD variants: wheel-lift from rear technically possible but flatbed strongly preferred. AWD: FLATBED ONLY.",
+            "NEVER touch orange/yellow HV cables under vehicle floor or HV battery enclosure.",
+            "Battery (12V): under hood, driver side. Battery (HV): under floor — NEVER touch."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V AUXILIARY BATTERY: under hood, driver side. HV TRACTION BATTERY: 62-91 kWh lithium pack under vehicle floor — NEVER touch orange/yellow HV cables, connectors, or battery enclosure. Remote 12V jump terminals accessible under hood.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "ID.4 (2021-2026). All-electric. Jump 12V under hood — no mechanical override. RWD: flatbed preferred. AWD: FLATBED ONLY. Never touch orange HV cables. 12V under hood; HV under floor.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "ID. Buzz",
+      "chassis": null,
+      "years": "2025–2026",
+      "meta": {
+        "transmission": "Single-speed reduction gear. Electronic rotary selector. No physical transmission.",
+        "drivetrain": "RWD or AWD (dual motor). All-electric minivan/bus. MEB platform. US deliveries began 2024/2025.",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR ONLY. No mechanical override. Jump 12V to restore power, then shift to N via electronic selector.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "JUMP 12V: Connect jump pack to 12V aux battery. Wait for systems to power up.",
+            "SHIFT TO N: Push START with brake. Electronic selector to N.",
+            "FLATBED ONLY — electric drivetrain. AWD version: FLATBED ONLY.",
+            "NEVER touch orange/yellow HV cables under vehicle.",
+            "NOTE: ID. Buzz production paused for US 2026 model year — MY2025 is current available generation.",
+            "Battery (12V): under hood/panel. Battery (HV): under floor — NEVER touch."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V AUXILIARY BATTERY: under hood or accessible panel — verify per variant. HV TRACTION BATTERY: 82-91 kWh lithium under vehicle floor — NEVER touch orange/yellow HV cables. NOTE: ID. Buzz paused production for 2026 model year in US — skipped MY2026.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "ID. Buzz (2025+). All-electric minivan. US sales began 2024/2025. Paused MY2026. Jump 12V — no mechanical override. FLATBED ONLY. Never touch orange HV cables.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Routan",
+      "chassis": null,
+      "years": "2009–2014",
+      "meta": {
+        "transmission": "6-speed automatic (Chrysler 62TE). Floor console shift.",
+        "drivetrain": "FWD. Minivan. Badge-engineered Chrysler Town & Country / Dodge Grand Caravan on Chrysler RS platform.",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Chrysler 62TE: shift lock solenoid. Manual override: small plastic cap on PRNDL bezel near P position (same as Chrysler/Dodge procedure). Pry off cap. Insert screwdriver into override port. Press and hold override tab DOWN. Press brake. Move shifter to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Floor shift to N.",
+            "MANUAL OVERRIDE (dead battery): Locate small plastic cap on PRNDL bezel near P. Pry off. Insert screwdriver into override port. Press override tab DOWN and hold. Press brake. Move shifter to N.",
+            "FWD: Rear wheel-lift acceptable with trans in N.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, driver side. Standard top-post. Same as Chrysler/Dodge minivan platform.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Routan (2009-2014). Badge-engineered Chrysler Town & Country. Chrysler 62TE auto. PRNDL bezel cap override (same as Chrysler/Dodge). Battery under hood. Discontinued 2014.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Golf R32 / R32",
+      "chassis": null,
+      "years": "2004–2008",
+      "meta": {
+        "transmission": "6-speed manual (02M) or 6-speed DSG (DQ250 — 2008 only). Floor console shift.",
+        "drivetrain": "AWD (Haldex 4Motion). Hot hatch. 3.2L VR6. Two model years: 2004 (Mk4 platform) and 2008 (Mk5 platform).",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG (2008): YELLOW TAB under shifter gaiter — pry gaiter front, press yellow tab inward, move to N. Manual: clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift to N.",
+            "DSG OVERRIDE (2008): Pry gaiter from front. Press yellow tab INWARD on right side. Move to N.",
+            "MANUAL: Clutch in, shift to N.",
+            "AWD 4Motion: FLATBED ONLY — both years are AWD. Never wheel-lift.",
+            "HIGH-PERFORMANCE: Padded equipment. Mind front lip and rear diffuser.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, driver side (left). Under plastic cover.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Golf R32 (2004 Mk4 and 2008 Mk5). AWD FLATBED ONLY. 2004: manual only. 2008: manual or DSG (yellow tab). Battery under hood. Limited production.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Arteon",
+      "chassis": null,
+      "years": "2019–2023",
+      "meta": {
+        "transmission": "7-speed DSG (DQ381). Electronic console selector. No manual.",
+        "drivetrain": "FWD or AWD 4Motion. Fastback sedan. Based on Mk7 MQB platform.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "DSG/DQ381: YELLOW TAB under shifter gaiter — pry gaiter front edge, press yellow tab INWARD on right side of housing, move to N. Electronic selector variant: jump 12V if no access to gaiter.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key or START to ON. Press brake. Electronic DSG selector to N.",
+            "DSG OVERRIDE: Pry shifter gaiter from front. Press YELLOW TAB INWARD on right side. Move selector to N.",
+            "FWD: Rear wheel-lift acceptable. 4Motion AWD: flatbed preferred.",
+            "Battery: under hood, driver side. AGM — use AGM jump pack."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD, driver side (left). Under plastic cover. AGM battery.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Arteon (2019-2023). FWD or AWD. 7-speed DSG. Yellow tab override under gaiter. 4Motion: flatbed preferred. Discontinued in US after 2023. AGM battery under hood.",
+        "issues": []
+      }
+    }
+  ]
+}

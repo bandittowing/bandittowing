@@ -1,0 +1,594 @@
+{
+  "make": "Infiniti",
+  "count": 11,
+  "vehicles": [
+    {
+      "make": "Infiniti",
+      "model": "G35 / G37 / Q40",
+      "chassis": null,
+      "years": "2003–2015",
+      "meta": {
+        "transmission": "5 or 7-speed automatic or 6-speed manual",
+        "drivetrain": "RWD or AWD",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near gear selector base on console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Cap near gear selector base on console.",
+            "Pry off the cap or cover if present using your ignition key or a small flathead.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored, use the shift lock slot above — Cap near gear selector base on console."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "Manual: clutch to N. RWD or AWD.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "Q50",
+      "chassis": null,
+      "years": "2014–2026",
+      "meta": {
+        "transmission": "7-speed automatic",
+        "drivetrain": "RWD or AWD",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near gear selector base on console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Cap near gear selector base on console.",
+            "Pry off the cap or cover if present using your ignition key or a small flathead.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored, use the shift lock slot above — Cap near gear selector base on console."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Hybrid: 12V only."
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "AWD optional.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "Q60",
+      "chassis": null,
+      "years": "2017–2022",
+      "meta": {
+        "transmission": "7-speed automatic",
+        "drivetrain": "RWD or AWD",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near gear selector base",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Cap near gear selector base.",
+            "Pry off the cap or cover if present using your ignition key or a small flathead.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored, use the shift lock slot above — Cap near gear selector base."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "AWD VARIANT: Use flatbed. If no flatbed, wheel-lift with dollies on free-rolling axle."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "RWD or AWD.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX50 / EX35 / EX37",
+      "chassis": null,
+      "years": "2008–2017",
+      "meta": {
+        "transmission": "5-speed automatic (2008-2010) or 7-speed automatic (2011-2017)",
+        "drivetrain": "RWD or AWD",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near gear selector base on console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Cap near gear selector base on console.",
+            "Pry off the cap or cover if present using your ignition key or a small flathead.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored, use the shift lock slot above — Cap near gear selector base on console."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "RWD standard; AWD optional.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX50",
+      "chassis": "2nd Gen",
+      "years": "2019–2026",
+      "meta": {
+        "transmission": "CVT",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near gear selector base on console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the shift lock override slot — Cap near gear selector base on console.",
+            "Insert a thin key or small flathead into the slot.",
+            "Press firmly and hold.",
+            "Press the brake pedal while holding.",
+            "Move the selector to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — Under hood — verify before attempting to jump.",
+            "Once 12V power is restored, press brake and shift to N normally.",
+            "CVT transmissions: do NOT exceed 35 mph or 50 miles with driven wheels on ground — flatbed strongly preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible.",
+          "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+        ]
+      },
+      "battery": {
+        "location": "Under hood — verify before attempting to jump",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "2nd gen on new FWD-based platform. AWD optional.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX60 / JX35",
+      "chassis": null,
+      "years": "2013–2026",
+      "meta": {
+        "transmission": "CVT or 9-speed automatic",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near gear selector base on console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the shift lock override slot — Cap near gear selector base on console.",
+            "Insert a thin key or small flathead into the slot.",
+            "Press firmly and hold.",
+            "Press the brake pedal while holding.",
+            "Move the selector to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to N normally.",
+            "CVT transmissions: do NOT exceed 35 mph or 50 miles with driven wheels on ground — flatbed strongly preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "AWD optional.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX80 / QX56",
+      "chassis": null,
+      "years": "2004–2026",
+      "meta": {
+        "transmission": "5-speed, 7-speed, or 8-speed automatic",
+        "drivetrain": "RWD or 4WD (part-time)",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near gear selector base on console",
+          "steps": [
+            "Turn ignition to ON (do not start).",
+            "Locate the shift lock override slot — Cap near gear selector base on console.",
+            "Pry off cap. Insert key or thin flathead. Press firmly. Hold while pressing brake. Move to N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored, use the shift lock slot above — Cap near gear selector base on console.",
+            "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+          "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+          "AIR SUSPENSION: May lower/raise unexpectedly. Verify ride height is stable before loading on flatbed. Some models have a 'jack mode' or 'transport mode' — check with owner if possible.",
+          "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "AWD standard. Large luxury SUV.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "I30 / I35",
+      "chassis": null,
+      "years": "1996–2004",
+      "meta": {
+        "transmission": "4-speed automatic (RE4F04A/V) or 5-speed automatic",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Nissan Maxima-based platform. FWD.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "M35 / M45 / Q70",
+      "chassis": null,
+      "years": "2003–2019",
+      "meta": {
+        "transmission": "5-speed automatic (2003-2006) or 7-speed automatic (2007+)",
+        "drivetrain": "RWD or AWD",
+        "tags": [
+          "rwd",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small slot near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock release: small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "AWD: flatbed preferred. RWD: lift from rear."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear. AWD: flatbed preferred.",
+        "notes": [
+          "RWD: lift from rear.",
+          "AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred.",
+        "notes": "M35/M45 (2003-2010), Q70 (2014-2019). AWD: flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "FX35 / FX45 / FX50 / QX70",
+      "chassis": null,
+      "years": "2003–2017",
+      "meta": {
+        "transmission": "5-speed automatic (FX35/45) or 7-speed automatic (FX50/QX70)",
+        "drivetrain": "RWD or AWD",
+        "tags": [
+          "rwd",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small slot near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock release: small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "AWD: flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear. AWD: flatbed preferred.",
+        "notes": [
+          "RWD: lift from rear.",
+          "AWD: flatbed preferred — high-performance AWD system."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred.",
+        "notes": "AWD: flatbed preferred. High-performance AWD system — do not tow AWD variants with wheels on ground.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Infiniti",
+      "model": "QX4",
+      "chassis": null,
+      "years": "1997–2003",
+      "meta": {
+        "transmission": "4-speed automatic (RE4R01A)",
+        "drivetrain": "RWD or 4WD (part-time)",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "TC: manual floor lever — shift to 2H before road towing."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear.",
+        "notes": [
+          "Nissan Pathfinder R50 platform. Manual TC floor lever — must be in 2WD for road towing."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Shift TC to 2H before road towing.",
+        "notes": "Nissan Pathfinder R50-based. Manual TC floor lever. Must be in 2H for road towing.",
+        "issues": []
+      }
+    }
+  ]
+}

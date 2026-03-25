@@ -1,0 +1,421 @@
+{
+  "make": "Alfa Romeo",
+  "count": 7,
+  "vehicles": [
+    {
+      "make": "Alfa Romeo",
+      "model": "Giulia",
+      "chassis": "2017-2024",
+      "years": "2017–2024",
+      "meta": {
+        "transmission": "8-speed automatic (ZF)",
+        "drivetrain": "RWD or AWD (Q4)",
+        "tags": [
+          "awd",
+          "rwd",
+          "flatbed_only",
+          "no_override",
+          "requires_power"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "NO CABIN OVERRIDE. The ZF 8HP transmission has NO accessible shift lock release inside the cabin. Park lock is released via a special bolt threaded into a slot on the UNDERSIDE of the ZF 8HP transmission. RESTORE 12V POWER FIRST — strongly preferred. Battery under hood.",
+          "steps": [
+            "RESTORE 12V POWER FIRST — strongly preferred.",
+            "Connect jump pack to battery under hood.",
+            "Once powered, press brake and rotate DNA dial to N normally.",
+            "WITHOUT POWER — ZF 8HP underbody bolt method (field/emergency only):",
+            "Access the underside of the ZF 8HP transmission (jack if needed for clearance).",
+            "Locate the park lock release slot on the transmission casing.",
+            "Thread the ZF 8HP park release tool (or a compatible bolt) into the slot — this mechanically disengages the parking pawl.",
+            "Do NOT over-tighten — the tool releases when unthreaded.",
+            "NOTE: There is NO cabin-accessible slot, trim piece to pry, or interior button. Any procedure describing a slot 'near the selector base' is incorrect for this vehicle."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake. Chock wheels.",
+            "Battery under hood — connect jump pack.",
+            "Once powered, press brake and rotate DNA dial to N.",
+            "No power: ZF 8HP underbody bolt method — see shift steps.",
+            "RWD: lift from rear — rear (drive) wheels roll freely. AWD (Q4): FLATBED ONLY.",
+            "EPB must be released before towing — hold EPB button with 12V power restored. Without power: EPB motor requires direct 12V or physical access."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from front (rear drive wheels roll). AWD Q4: flatbed preferred.",
+        "notes": [
+          "AWD Q4: flatbed preferred.",
+          "ZF 8HP — same transmission as BMW/Land Rover. Well-proven."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "AWD Q4: flatbed preferred. EPB manual release requires motor removal."
+      },
+      "alerts": {
+        "warning": "AWD Q4: flatbed preferred. Italian vehicle — connector and trim may be less familiar.",
+        "notes": "RWD standard, AWD (Q4) optional. AWD: flatbed preferred.",
+        "issues": [
+          {
+            "title": "EPB Manual Release Requires Motor Access",
+            "detail": "Without 12V power, the Giulia's EPB cannot be released without physically accessing the EPB actuator motor at the rear caliper and either directly powering it (12V to motor terminals) or manually winding the piston back. A jump start is strongly preferred."
+          },
+          {
+            "title": "No Cabin Park Release — ZF 8HP Underbody Bolt Required",
+            "detail": "The Giulia uses a ZF 8HP transmission with electronic park lock. There is no shift lock release accessible from inside the cabin. The only mechanical override is a bolt threaded into the transmission underbody slot to release the parking pawl. Always restore 12V power first. Flatbed if power cannot be restored."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "Stelvio",
+      "chassis": "2018-2024",
+      "years": "2018–2024",
+      "meta": {
+        "transmission": "8-speed automatic (ZF)",
+        "drivetrain": "RWD or AWD (Q4)",
+        "tags": [
+          "awd",
+          "rwd",
+          "flatbed_only",
+          "no_override",
+          "requires_power"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "NO CABIN OVERRIDE. The ZF 8HP transmission has NO accessible shift lock release inside the cabin. Park lock is released via a special bolt threaded into a slot on the UNDERSIDE of the ZF 8HP transmission. RESTORE 12V POWER FIRST — strongly preferred. Battery under hood.",
+          "steps": [
+            "RESTORE 12V POWER FIRST — strongly preferred.",
+            "Connect jump pack to battery under hood.",
+            "Once powered, press brake and rotate DNA dial to N normally.",
+            "WITHOUT POWER — ZF 8HP underbody bolt method (field/emergency only):",
+            "Access the underside of the ZF 8HP transmission (jack if needed for clearance).",
+            "Locate the park lock release slot on the transmission casing.",
+            "Thread the ZF 8HP park release tool (or a compatible bolt) into the slot — this mechanically disengages the parking pawl.",
+            "Do NOT over-tighten — the tool releases when unthreaded.",
+            "NOTE: There is NO cabin-accessible slot, trim piece to pry, or interior button. Any procedure describing a slot 'near the selector base' is incorrect for this vehicle."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake. Chock wheels.",
+            "Battery under hood — connect jump pack.",
+            "Once powered, press brake and rotate DNA dial to N.",
+            "No power: ZF 8HP underbody bolt method — see shift steps.",
+            "All Stelvio models are AWD (Q4) — FLATBED ONLY.",
+            "EPB must be released before loading — hold EPB button with 12V power. Manual EPB release requires access to the rear caliper EPB motor."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from front. AWD Q4: flatbed preferred.",
+        "notes": [
+          "Same EPB and towing rules as Giulia."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "AWD Q4: flatbed preferred."
+      },
+      "alerts": {
+        "warning": "AWD Q4: flatbed preferred.",
+        "notes": "Crossover version of Giulia platform. Same drivetrain rules.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "Tonale",
+      "chassis": "2023-2024",
+      "years": "2023–2024",
+      "meta": {
+        "transmission": "6-speed automatic (mild hybrid) or PHEV eCVT",
+        "drivetrain": "FWD (MHEV) or AWD (PHEV)",
+        "tags": [
+          "awd",
+          "no_override",
+          "requires_power",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "NO accessible cabin override. Tonale uses a ZF 9-speed or e-AWD DCT — electronic park lock with no cabin shift lock slot. RESTORE 12V POWER FIRST. Battery under hood. Without power: ZF underbody transmission bolt method.",
+          "steps": [
+            "RESTORE 12V POWER FIRST — required for all variants.",
+            "Connect jump pack to battery under hood.",
+            "Once powered, press brake and move selector to N normally.",
+            "PHEV variant: 12V AUXILIARY ONLY — never touch the high-voltage battery pack.",
+            "WITHOUT POWER — ZF underbody bolt method (same as Giulia/Stelvio):",
+            "Access the underside of the ZF transmission.",
+            "Thread the park release tool/bolt into the transmission park lock slot.",
+            "Disengage parking pawl, then move vehicle.",
+            "FLATBED strongly recommended if power cannot be restored."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "12V battery under the hood — connect jump pack.",
+            "Once powered, shift to N normally.",
+            "PHEV AWD: FLATBED ONLY — 12V auxiliary only, never touch the high-voltage battery pack.",
+            "MHEV FWD: front wheels driven — lift from REAR so front drive wheels roll freely."
+          ]
+        }
+      },
+      "tow": {
+        "method": "MHEV FWD: lift from rear (front drive wheels roll). PHEV AWD: FLATBED ONLY.",
+        "notes": [
+          "PHEV: flatbed only, HV present.",
+          "MHEV: rear lift for FWD."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": "PHEV: 12V only, flatbed only."
+      },
+      "alerts": {
+        "warning": "PHEV AWD: FLATBED ONLY. MHEV: 12V mild hybrid — no HV danger but note 48V system on some.",
+        "notes": "PHEV AWD: flatbed only, 12V only. MHEV FWD: rear lift.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "164",
+      "chassis": "1991-1995",
+      "years": "1991–1995",
+      "meta": {
+        "transmission": "4-speed automatic or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap or slot near selector base on center console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the small cap near the selector base on the center console.",
+            "Pry off cap with a key or thin flathead.",
+            "Insert key into the slot and press firmly.",
+            "While holding, press the brake pedal.",
+            "Move selector to Neutral.",
+            "MANUAL: depress clutch fully and move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front.",
+          "Rare vehicle — be cautious with trim removal."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Rare vehicle — unfamiliar connectors and trim. Consult owner manual if available.",
+        "notes": "FWD luxury sedan. Rare — manual may be more common on US models found.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "GTV / Spider",
+      "chassis": "916",
+      "years": "1995–2005",
+      "meta": {
+        "transmission": "4-speed automatic or 6-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "AUTOMATIC (rare): small cap near gear selector base on center console — pry off, insert key, press down. MANUAL TRANSMISSION (most 916): no shift lock — depress clutch, move lever to Neutral.",
+          "steps": [
+            "IDENTIFY TRANSMISSION TYPE: automatic (rare) or manual (most common).",
+            "AUTOMATIC: Turn ignition to ON. Locate small cap near selector base on console.",
+            "Pry off cap with small flathead. Insert key or flathead and press firmly downward.",
+            "While holding, press brake pedal. Move selector from Park to Neutral.",
+            "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood, driver side.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "Manual transmission: depress clutch, select Neutral — no slot needed."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. Flatbed preferred due to vehicle value and rarity.",
+        "notes": [
+          "FWD: lift from front.",
+          "High-value, low-production vehicle — flatbed strongly preferred to avoid damage."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Very rare in US market. High value — flatbed preferred.",
+        "notes": "Manual transmission: depress clutch, select Neutral. Rare in US — mostly gray market or private imports. Parts availability is limited.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "Spider / Brera",
+      "chassis": null,
+      "years": "2006–2011",
+      "meta": {
+        "transmission": "6-speed automatic (Selespeed) or 6-speed manual",
+        "drivetrain": "RWD or AWD (Q4 on some Brera trims)",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "SELESPEED (automated manual): NO shift lock cap — requires 12V power to shift. Restore battery first. Cannot shift without power. MANUAL TRANSMISSION: no shift lock at all — depress clutch, move lever to N.",
+          "steps": [
+            "IDENTIFY TRANSMISSION TYPE first: Selespeed (automated manual) or full manual.",
+            "SELESPEED: REQUIRES 12V power — restore battery FIRST.",
+            "Connect jump pack to battery under hood.",
+            "Once powered, press brake and use Selespeed lever/paddles to select Neutral.",
+            "MANUAL TRANSMISSION: depress clutch fully, move lever to Neutral — no power needed.",
+            "Q4 AWD variants: FLATBED ONLY."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "SELESPEED: connect jump pack to battery under hood — cannot shift without power.",
+            "Once powered, select Neutral via Selespeed controls.",
+            "Manual: depress clutch, select Neutral.",
+            "Q4 AWD: FLATBED ONLY — cannot disengage AWD."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear. AWD (Q4): flatbed only. Flatbed strongly preferred for all variants.",
+        "notes": [
+          "RWD variants: lift from rear — rear (drive) wheels up.",
+          "Q4 AWD variants: FLATBED ONLY — cannot disengage AWD.",
+          "High-value vehicle — use flatbed with padded wheel grids."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Selespeed: must restore 12V before attempting shift."
+      },
+      "alerts": {
+        "warning": "SELESPEED: Must have 12V power to shift — jump pack required. High value — flatbed preferred.",
+        "notes": "Selespeed is an automated manual (robotized), NOT a true torque-converter automatic. It requires electrical power to shift. Very rare in the US.",
+        "issues": [
+          {
+            "title": "Selespeed Cannot Shift Without Power",
+            "detail": "The Selespeed is an electro-hydraulic automated manual. Without 12V power it cannot disengage from gear. Always jump the battery before attempting any shift."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Alfa Romeo",
+      "model": "4C",
+      "chassis": null,
+      "years": "2015–2020",
+      "meta": {
+        "transmission": "6-speed TCT dual-clutch (automated)",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "TCT dual-clutch (C635): small slot near selector base on center console — mechanical override possible but TCT strongly resists without power. BATTERY IS IN THE REAR ENGINE BAY — open the REAR hood to access. RESTORE 12V POWER FIRST for reliable operation.",
+          "steps": [
+            "Turn ignition to ON.",
+            "TCT dual-clutch: requires 12V power to shift — jump battery first.",
+            "Locate the shift lock slot near the selector base on the center console.",
+            "With power restored, press brake and use the paddle shifters or selector to move to Neutral.",
+            "If using mechanical slot without power: insert thin flathead, press firmly, hold while pressing brake, move to N.",
+            "TCT without power will strongly resist — apply steady firm pressure for several seconds."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "BATTERY IS IN THE REAR ENGINE BAY — open the REAR hood.",
+            "TCT dual-clutch requires 12V power to shift — restore battery first.",
+            "Connect jump pack to rear battery. Once powered, use TCT paddles/selector to select N.",
+            "FLATBED ONLY — very low clearance, carbon fiber body, mid-engine."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD — FLATBED ONLY. Extremely low clearance and carbon fiber body make wheel-lift dangerous.",
+        "notes": [
+          "FLATBED ONLY — very low clearance, mid-engine, carbon fiber body.",
+          "Battery is at the REAR in the engine compartment — open the rear hood, not the front frunk.",
+          "Use flatbed with padded wheel ramps only. Carbon fiber body can crack if improperly loaded."
+        ]
+      },
+      "battery": {
+        "location": "REAR engine compartment — open the REAR hood, NOT the front frunk",
+        "jumpPoints": "Rear engine bay — 12V battery terminals",
+        "type": "standard-12v",
+        "warning": "Battery in REAR engine bay — NOT the front frunk. Carbon fiber body — FLATBED ONLY with padded equipment."
+      },
+      "alerts": {
+        "warning": "Battery in REAR engine bay, NOT the front. Mid-engine carbon body — flatbed ONLY with padded equipment.",
+        "notes": "Mid-engine. Battery is in the REAR engine compartment — not the front frunk. Carbon fiber body — use extreme care with straps. Very low clearance.",
+        "issues": [
+          {
+            "title": "Battery in Rear Engine Bay",
+            "detail": "The 4C is mid-engine. The front 'hood' opens to a small storage frunk. The 12V battery is in the REAR engine compartment. Many operators open the front and find no battery — open the REAR hood."
+          },
+          {
+            "title": "TCT Requires Power to Shift",
+            "detail": "The 6-speed TCT (Twin Clutch Transmission) is electro-hydraulic and will not release without 12V power. Always jump the battery before attempting to select Neutral."
+          }
+        ]
+      }
+    }
+  ]
+}

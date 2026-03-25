@@ -1,0 +1,304 @@
+{
+  "make": null,
+  "count": 6,
+  "vehicles": [
+    {
+      "make": "Rivian",
+      "model": "R1T",
+      "chassis": "Gen 1",
+      "years": "2021–2024",
+      "meta": {
+        "transmission": "Single-speed electric. No physical transmission or park pawl.",
+        "drivetrain": "AWD electric — Quad Motor (4 independent motors, one per wheel) standard early production; Dual Motor added later. RWD not available on Gen 1.",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "NO TRADITIONAL SHIFT LOCK OR GEAR SELECTOR. Electronic park lock. Tow Mode required via touchscreen. Drive stalk is on the right side of the steering column (up = R, center push = P, down = N, further down = D). Electronic parking brake on rear wheels only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH 12V POWER: Shift to Park. Chock wheels. Press and hold brake pedal. On touchscreen: Controls > Service > Tow Mode (or older firmware: Controls > Settings > Service & Reset > Tow Mode > ON). Park brake releases and vehicle enters Neutral.",
+            "Tow Mode turns off after 15 minutes — must be re-engaged if towing takes longer. Can also turn off by putting vehicle in Park.",
+            "IF 12V DEAD AND FRUNK ACCESSIBLE (hood already open): Connect external jump pack to 12V battery terminals under frunk liner. Power source must supply up to 30 amps continuous for several minutes. Wait for touchscreen to wake. Then activate Tow Mode.",
+            "IF 12V DEAD AND FRUNK LOCKED (hood closed, can't get in): EMERGENCY FRUNK ACCESS — Remove Torx screws from the inboard side of the LEFT front wheel arch trim panel using T20 and T25 Torx bits. Remove extra screws as needed. Reach in and up behind the panel to locate the manual hood release cable. Pull the cable to release the hood latch. Have second person push gently on hood while pulling if needed.",
+            "JUMP TERMINAL ALTERNATIVE: Jump terminals are also located next to the rear trailer hitch — behind a plastic cap on the right side of the hitch receiver. Connect jump pack here to restore 12V without accessing frunk.",
+            "After restoring 12V: open frunk, connect directly to 12V battery, wait for touchscreen to fully wake, then activate Tow Mode.",
+            "CRITICAL: Rivian must supply up to 30 amps continuous — small A23 or 9V batteries will NOT work. Use a full-size portable jump starter or running tow truck vehicle.",
+            "Do NOT use a Rivian to jump start another vehicle.",
+            "FLATBED ONLY — all R1T Gen 1 are AWD. Never tow with wheels on ground.",
+            "NEVER touch orange/yellow HV cables. HV traction battery is in the skateboard chassis under the floor."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V AUXILIARY BATTERY — located IN THE FRUNK (front trunk) under the frunk liner. Early 2021-2022 builds: TWO 12V batteries under frunk liner. Later Gen 1 (2023-2024): transitioning to ONE 12V battery in frunk. Jump terminals also accessible behind the frunk tub interior panel AND next to the rear trailer hitch (behind a plastic cap on right side of hitch). HV traction battery in skateboard chassis under vehicle floor — NEVER touch orange/yellow HV cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "R1T Gen 1 (2021-2024). First deliveries October 2021. Two 12V batteries early builds → one 12V battery later 2023-2024 builds. Emergency frunk access: T20/T25 screws on LEFT wheel arch inboard panel → pull hood release cable. Jump terminals also at rear hitch. Quad Motor = 4 independent motors. FLATBED ONLY. Park brake release loop: MY2022-2024 pull loop TWICE.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Rivian",
+      "model": "R1T",
+      "chassis": "Gen 2",
+      "years": "2025–2026",
+      "meta": {
+        "transmission": "Single-speed electric. No physical transmission or park pawl.",
+        "drivetrain": "AWD electric — Dual Motor standard (in-house Enduro motors); Tri Motor and Quad Motor available. No RWD option.",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "NO TRADITIONAL SHIFT LOCK. Electronic park lock. Tow Mode via touchscreen. Drive stalk on right of steering column. MY2025 addition: jump start also enables adjusting front seats, opening/closing front windows, and additional functions vs Gen 1.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH 12V POWER: Shift to Park. Chock wheels. Press and hold brake. Touchscreen: Controls > Service > Tow Mode. Park brake releases, vehicle enters Neutral.",
+            "Tow Mode turns off after 15 minutes — re-engage as needed.",
+            "IF 12V DEAD: Jump terminals are behind the frunk tub (requires opening frunk first) OR next to the rear hitch (plastic cap, right side of hitch receiver — accessible without opening anything). Connect jump pack to rear hitch jump terminals to restore 12V WITHOUT needing to access frunk.",
+            "EMERGENCY FRUNK ACCESS (if needed): T20/T25 Torx screws on inboard side of LEFT front wheel arch panel → remove screws → reach in and pull manual hood release cable. Have second person press on hood while pulling cable if needed.",
+            "Gen 2 MY2025 park brake manual release: pull SOLID lever ONCE (not a loop). Located in wheel arch area per emergency response guide.",
+            "After 12V restored: touchscreen wakes, activate Tow Mode before any movement.",
+            "CRITICAL: Use full-size jump starter supplying up to 30A continuous — small batteries will NOT work.",
+            "Do NOT use Rivian to jump start another vehicle.",
+            "FLATBED ONLY — all R1T Gen 2 are AWD. Never tow with wheels on ground.",
+            "NEVER touch orange/yellow HV cables under vehicle."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V AUXILIARY BATTERY — MOVED TO UNDER PASSENGER SEAT on Gen 2 (2025+). NOT in frunk. Access: move passenger seat forward, remove plastic cover under seat to expose 12V terminals. Full battery replacement requires tilting/removing seat. JUMP TERMINALS: accessible behind the frunk tub interior panel (reach in after opening frunk) AND next to rear trailer hitch (behind plastic cap on right side). HV traction battery in chassis floor — NEVER touch orange/yellow HV cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "R1T Gen 2 (2025+). Major change: 12V battery moved from frunk to under passenger seat. Jump via rear hitch terminals or behind frunk tub panel. In-house Enduro motors. Steel body structure (vs aluminum Gen 1). MY2025 park brake release = pull solid lever ONCE. FLATBED ONLY.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Rivian",
+      "model": "R1S",
+      "chassis": "Gen 1",
+      "years": "2022–2024",
+      "meta": {
+        "transmission": "Single-speed electric. No physical transmission or park pawl.",
+        "drivetrain": "AWD electric — Quad Motor standard early production; Dual Motor and Tri Motor added. No RWD.",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "NO TRADITIONAL SHIFT LOCK. Electronic park lock. Tow Mode via touchscreen. Drive stalk on right of steering column. Identical procedure to R1T Gen 1.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH 12V POWER: Shift to Park. Chock wheels. Press and hold brake. Touchscreen: Controls > Service > Tow Mode. Park brake releases and Neutral engages.",
+            "Tow Mode turns off after 15 minutes — re-engage as needed.",
+            "IF 12V DEAD AND FRUNK ACCESSIBLE: Connect jump pack to 12V battery under frunk liner. 30A continuous required. Wait for touchscreen to wake. Activate Tow Mode.",
+            "IF 12V DEAD AND FRUNK LOCKED: EMERGENCY FRUNK ACCESS — T20 and T25 Torx screws on inboard side of LEFT front wheel arch trim panel. Remove screws. Reach in and pull manual hood release cable. Have second person push gently on hood if needed.",
+            "JUMP TERMINAL ALTERNATIVE: Rear hitch jump terminals (right side, behind plastic cap) accessible without opening frunk — connect jump pack here.",
+            "MY2022-2024 park brake manual release: pull loop-shaped release TWO TIMES.",
+            "CRITICAL: Full-size jump starter required (up to 30A continuous). Small batteries will not work.",
+            "Do NOT use Rivian to jump start another vehicle.",
+            "FLATBED ONLY — AWD electric. Never tow with wheels on ground.",
+            "R1S has 3rd row seating — verify all passengers clear before towing.",
+            "NEVER touch orange/yellow HV cables."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V AUXILIARY BATTERY — IN THE FRUNK (front trunk) under frunk liner. Same location as R1T Gen 1. Early builds: TWO 12V batteries; later 2023-2024: ONE 12V battery. Jump terminals also at rear hitch (behind plastic cap right side) and behind frunk tub interior. HV traction battery in skateboard chassis — NEVER touch orange/yellow HV cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "R1S Gen 1 (2022-2024). First deliveries December 2021 (employee/internal), general customer deliveries 2022. Same 12V battery location and emergency procedures as R1T Gen 1. 3-row SUV. Quad Motor = 4 independent motors. FLATBED ONLY. Park brake release: MY2022-2024 pull loop TWICE.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Rivian",
+      "model": "R1S",
+      "chassis": "Gen 2",
+      "years": "2025–2026",
+      "meta": {
+        "transmission": "Single-speed electric. No physical transmission or park pawl.",
+        "drivetrain": "AWD electric — Dual Motor standard (Enduro in-house motors); Tri Motor and Quad Motor available. No RWD.",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "NO TRADITIONAL SHIFT LOCK. Electronic park lock. Tow Mode via touchscreen. Drive stalk on right of steering column. MY2025: jump start also powers front seat adjustment, front windows, additional features.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH 12V POWER: Shift to Park. Chock wheels. Press and hold brake. Touchscreen: Controls > Service > Tow Mode. Park brake releases, vehicle enters Neutral.",
+            "Tow Mode turns off after 15 minutes — re-engage as needed.",
+            "IF 12V DEAD: Rear hitch jump terminals (right side, behind plastic cap) are accessible without opening frunk or entering vehicle — connect jump pack here first. Alternatively, access frunk via T20/T25 Torx screws on LEFT wheel arch panel, pull hood cable, then connect at frunk tub jump terminals.",
+            "Gen 2 MY2025 park brake manual release: pull SOLID lever ONCE (confirmed in Emergency Response Guide).",
+            "After 12V restored: wait for touchscreen, activate Tow Mode.",
+            "CRITICAL: Full-size jump starter (30A continuous) required. Small batteries will not work.",
+            "Do NOT use Rivian to jump start another vehicle.",
+            "FLATBED ONLY — AWD electric. Never tow with wheels on ground.",
+            "3-row seating — verify all passengers clear.",
+            "NEVER touch orange/yellow HV cables."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V AUXILIARY BATTERY — UNDER PASSENGER SEAT (Gen 2 change — NOT in frunk). Move passenger seat forward, remove plastic cover to access terminals. Full battery replacement requires tilting/removing seat. JUMP TERMINALS: behind frunk tub interior panel AND at rear hitch (plastic cap right side). HV battery in chassis floor — NEVER touch orange/yellow HV cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "R1S Gen 2 (2025+). 12V battery moved to under passenger seat — NOT in frunk. Jump via rear hitch terminals. In-house Enduro motors. New dual-layer battery chemistry options (LFP standard pack; NMC large/max). MY2025 park brake release = solid lever ONCE. 3-row seating. FLATBED ONLY.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Rivian",
+      "model": "EDV",
+      "chassis": "Electric Delivery Van",
+      "years": "2021–2026",
+      "meta": {
+        "transmission": "Single-speed electric. No physical transmission. Park brake released via center display: Safety > Park brake release > Start Release. Timeout: 15 minutes.",
+        "drivetrain": "FWD electric (single front motor e-axle). FLATBED ONLY regardless of drivetrain — towing with any wheels on the ground is a fire hazard.",
+        "tags": [
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "NO TRADITIONAL SHIFT LOCK. Electronic drive controls. Tow Mode or neutral release via fleet software/touchscreen.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "COMMERCIAL FLEET VEHICLE — available to Amazon fleet and approved commercial customers. EDV 500 and EDV 700 variants only (no 900 variant).",
+            "FLATBED ONLY — ALL variants. FIRE HAZARD: towing with any wheels on the ground can cause significant damage and overheating leading to fire. No exceptions.",
+            "VEHICLE HEIGHT: 9 ft 7 in (2.92 m) — check overhead clearance before loading.",
+            "PREFERRED PROCEDURE (12V POWER AVAILABLE): (1) Ensure front wheels face forward and parallel. (2) Shift to P (Park) and chock wheels. (3) Connect tow truck winch with 3 ft (1m) endless loops or nylon bridle through LOWER CONTROL ARMS. (4) Press and hold brake pedal. (5) Center display: Safety > Park brake release > Start Release. (6) Release brake pedal and confirm park brake released. (7) Pull onto flatbed at 5 MPH OR LESS — faster and vehicle stops and shifts itself to Park.",
+            "ALTERNATE CONNECTION — REAR AXLE: If front control arms are not accessible, connect nylon bridle or short endless loops through rear axle. DO NOT use tow eye or rear bumper step to connect. Follow same park brake release procedure as above.",
+            "IF PARK BRAKE CANNOT BE RELEASED: Chock front wheels. Connect via front control arms or rear axle. LIFT REAR WHEELS using skates, dolly, or wheel lift. Load onto flatbed.",
+            "IF 12V DEAD: Use EMERGENCY KEY inside the key fob to unlock doors. Remove panels on LEFT and RIGHT sides of driver's seat (push down clips). Open positive post cover on each side. Connect BOTH batteries simultaneously: positive (+) to positive post, negative (-) to driver's door latch — do both sides at once. Jump spec: 12.5V at 15A (30A peak). Tow truck must be running. Once displays wake, proceed with park brake release via touchscreen.",
+            "IMPORTANT: If HV battery is also depleted, 12V batteries will drain again immediately. Charge vehicle as soon as possible.",
+            "Park brake release timeout: 15 minutes. Re-engage via Safety menu or by shifting to Park.",
+            "Tie down: eight-point retention straps, two points per corner. Do NOT let straps contact brake lines behind tires.",
+            "Roadside Assistance 24/7: (800) 433-7195 | Fleet Service 24/7: (855) 748-2225",
+            "NEVER touch orange/yellow HV cables. NEVER use EDV to jump start another vehicle."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TWO 12V batteries UNDER THE DRIVER'S SEAT. Access: remove panels on LEFT and RIGHT sides of driver's seat by pushing down on the clips. Open the cover on each side to expose positive battery post. Jump both batteries simultaneously — positive lead (+) to positive battery post, negative lead (-) to driver's door latch. Do both sides at the same time. Jump spec: 12.5V at 15A (30A peak). If using tow truck to jump, tow truck must be RUNNING until vehicle powers up. NEVER use vehicle to jump start another vehicle. HV traction battery in chassis floor — NEVER touch orange/yellow HV cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "EDV (Electric Delivery Van) — Amazon fleet and commercial customers only. Two variants: EDV 500 (500 cu ft) and EDV 700 (700 cu ft). Two 12V batteries under driver's seat. Jump both simultaneously (positive to posts, negative to door latch). 12.5V/15A (30A peak). Park brake: Safety > Park brake release > Start Release. Pull speed max 5 mph. FLATBED ONLY — fire hazard otherwise. Height: 9ft 7in. Roadside: (800) 433-7195.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Rivian",
+      "model": "R2",
+      "chassis": null,
+      "years": "2026–2026",
+      "meta": {
+        "transmission": "Single-speed electric. No physical transmission.",
+        "drivetrain": "AWD electric (dual motor standard); RWD base variant expected",
+        "tags": [
+          "rwd",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "NO TRADITIONAL SHIFT LOCK. Electronic park lock. Tow Mode expected via touchscreen (same Rivian software platform as R1 Gen 2).",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "ANTICIPATED DELIVERY 2026 (initial builds) — procedures will mirror R1 Gen 2 platform.",
+            "PREFERRED: Touchscreen Tow Mode expected: Controls > Service > Tow Mode.",
+            "Jump terminals: expected at rear of vehicle and/or in front trunk area per Rivian platform architecture.",
+            "FLATBED for AWD variants. RWD base (if available): wheel-lift from rear may be acceptable with Tow Mode confirmed.",
+            "NEVER touch orange/yellow HV cables.",
+            "NOTE: R2 not yet in general production as of March 2026 — verify current procedures with Rivian when vehicle is encountered."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V/LV auxiliary battery location: expected under hood or under seat per R1 Gen 2 architecture — exact field location TBD at time of delivery. Jump procedure expected to follow R1 Gen 2 pattern. HV traction battery in chassis floor — NEVER touch orange/yellow HV cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "R2 compact SUV announced March 2024. Expected deliveries late 2026 (Premium trim); Standard Long Range 2027; base Standard trim 2027+. Starting price ~$45,000-$54,000. Smaller than R1S. Shares R1 Gen 2 electrical architecture. Procedures TBD pending production — verify with Rivian Roadside Assistance.",
+        "issues": []
+      }
+    }
+  ]
+}

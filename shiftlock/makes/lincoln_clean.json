@@ -1,0 +1,737 @@
+{
+  "make": "Lincoln",
+  "count": 13,
+  "vehicles": [
+    {
+      "make": "Lincoln",
+      "model": "Navigator",
+      "chassis": "2015-2024",
+      "years": "2015–2024",
+      "meta": {
+        "transmission": "6-speed or 10-speed SelectShift automatic",
+        "drivetrain": "RWD or 4WD (part-time, Torque on Demand)",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
+          "steps": [
+            "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
+            "Open the center console storage lid.",
+            "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
+            "Insert a thin flathead screwdriver or key into the hole.",
+            "Press and HOLD the brake-shift interlock switch inside the hole.",
+            "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+            "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
+            "Release the override button.",
+            "Vehicle is now in Neutral for towing."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, use the console hole override method OR shift normally.",
+            "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+            "AWD models: flatbed preferred.",
+            "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": "4WD models: transfer case to 2H, then wheel-lift from front (rear drive wheels roll). RWD: lift from front. Flatbed strongly preferred for all configurations.",
+        "notes": [
+          "ELECTRONIC TC requires 12V power. Jump battery first if dead.",
+          "If TC cannot be confirmed in 2WD, USE FLATBED.",
+          "Very heavy vehicle — confirm tow truck capacity before lifting."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, passenger side near windshield base",
+        "jumpPoints": "Under hood — standard red (+) / black (−) terminals",
+        "type": "standard-12v",
+        "warning": "4WD: confirm TC in 2WD before wheel-lift."
+      },
+      "alerts": {
+        "warning": "Transfer case to 2H before towing. Flatbed strongly preferred.",
+        "notes": "4WD Torque on Demand: transfer case must be in 2H before wheel-lift tow.",
+        "issues": [
+          {
+            "title": "Override Button Hidden Below Media Hub",
+            "detail": "The shift interlock override is NOT at the base of the shifter. It is a small hole BELOW the USB/media hub in the console storage bin. Many operators look at the shifter base and cannot find it. Look inside the bin, below the ports."
+          },
+          {
+            "title": "2023+ Navigator: Console Override Method May Not Work",
+            "detail": "Verified by tow operators in the field: the 2023+ Navigator L does NOT have a functioning console override hole. The manual is reportedly incorrect. Emergency method: crawl under the vehicle to the left side of the transmission. Remove the bolt holding a spring-loaded lever. Use a bungee cord or strap to pull the lever toward the REAR of the vehicle and hold tension. This releases the park pawl. Source: Lincoln Forums (2024), confirmed by tow operators."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "Aviator",
+      "chassis": "2020-2024",
+      "years": "2020–2024",
+      "meta": {
+        "transmission": "10-speed SelectShift automatic (or Grand Touring PHEV)",
+        "drivetrain": "RWD or AWD",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
+          "steps": [
+            "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
+            "Open the center console storage lid.",
+            "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
+            "Insert a thin flathead screwdriver or key into the hole.",
+            "Press and HOLD the brake-shift interlock switch inside the hole.",
+            "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+            "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
+            "Release the override button.",
+            "Vehicle is now in Neutral for towing."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, use the console hole override method OR shift normally.",
+            "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+            "AWD models: flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "AWD: FLATBED ONLY. RWD: lift from front (rear drive wheels roll). PHEV models: FLATBED ONLY regardless of drivetrain.",
+        "notes": [
+          "AWD system does not have a neutral for the transfer case — flatbed mandatory.",
+          "PHEV Grand Touring: orange HV wiring present. 12V auxiliary jump only.",
+          "PHEV is significantly heavier than gas model — verify flatbed capacity."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, passenger side",
+        "jumpPoints": "Under hood — standard terminals. PHEV: 12V auxiliary only.",
+        "type": "standard-12v",
+        "warning": "PHEV: NEVER touch HV battery. AWD: flatbed only."
+      },
+      "alerts": {
+        "warning": "AWD: FLATBED ONLY. PHEV: never touch HV battery.",
+        "notes": "Grand Touring PHEV: orange HV cables present — 12V auxiliary only for jump.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "Nautilus / MKX",
+      "chassis": "2007-2024",
+      "years": "2007–2024",
+      "meta": {
+        "transmission": "6-speed or 8-speed SelectShift automatic",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
+          "steps": [
+            "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
+            "Open the center console storage lid.",
+            "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
+            "Insert a thin flathead screwdriver or key into the hole.",
+            "Press and HOLD the brake-shift interlock switch inside the hole.",
+            "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+            "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
+            "Release the override button.",
+            "Vehicle is now in Neutral for towing."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, use the console hole override method OR shift normally.",
+            "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+            "AWD models: flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from rear (front drive wheels roll). AWD: FLATBED ONLY.",
+        "notes": [
+          "AWD system has no TC neutral — flatbed required.",
+          "FWD: rear lift, front (drive) wheels roll freely."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "AWD: flatbed only."
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "Earlier MKX (2007-2015) uses traditional shift slot. 2016+ Nautilus has electronic selector.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "MKZ / Zephyr",
+      "chassis": "2006-2023",
+      "years": "2006–2023",
+      "meta": {
+        "transmission": "6-speed SelectShift automatic or hybrid eCVT",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
+          "steps": [
+            "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
+            "Open the center console storage lid.",
+            "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
+            "Insert a thin flathead screwdriver or key into the hole.",
+            "Press and HOLD the brake-shift interlock switch inside the hole.",
+            "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+            "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
+            "Release the override button.",
+            "Vehicle is now in Neutral for towing."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, use the console hole override method OR shift normally.",
+            "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+            "AWD models: flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from rear (front drive wheels roll). AWD: FLATBED ONLY.",
+        "notes": [
+          "Hybrid: use 12V auxiliary only for jump. HV battery is orange-cable marked.",
+          "FWD models: rear lift only."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Hybrid: 12V auxiliary only."
+      },
+      "alerts": {
+        "warning": "AWD: flatbed only. Hybrid: 12V only.",
+        "notes": "Hybrid eCVT equipped trims: 12V auxiliary jump only.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "Continental",
+      "chassis": "2017-2020",
+      "years": "2017–2020",
+      "meta": {
+        "transmission": "6-speed SelectShift automatic",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small override hole below electronic shifter in center console",
+          "steps": [
+            "Open center console area.",
+            "Find override slot near the electronic gear selector base.",
+            "Insert key, press plunger.",
+            "Press brake. Press N on shifter display.",
+            "Confirm N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Primary battery: under hood. Secondary chassis battery may be in trunk right side behind panel.",
+            "Connect jump pack to under-hood terminals first.",
+            "Once powered, use override procedure above.",
+            "AWD: flatbed required."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from rear. AWD: FLATBED ONLY.",
+        "notes": [
+          "Secondary battery may be in trunk — always jump from under-hood terminals.",
+          "AWD: flatbed mandatory."
+        ]
+      },
+      "battery": {
+        "location": "Under hood (primary). Possible secondary in trunk right side.",
+        "jumpPoints": "Under hood — use hood terminals, NOT trunk battery for jumping",
+        "type": "standard-12v",
+        "warning": "Always jump from under-hood terminals. AWD: flatbed only."
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "Some models have secondary battery in trunk. Use under-hood terminals for jumping.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "Corsair / MKC",
+      "chassis": "2015-2024",
+      "years": "2015–2024",
+      "meta": {
+        "transmission": "6-speed or 8-speed SelectShift automatic",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Center console storage bin — small access HOLE just below the media hub connections (USB/power ports). Open the center console storage lid. Locate the hole on the front wall of the bin, below the media hub. Insert a thin screwdriver or key to press the brake-shift interlock switch.",
+          "steps": [
+            "Turn ignition to ON (press start button WITHOUT foot on brake for accessory mode).",
+            "Open the center console storage lid.",
+            "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
+            "Insert a thin flathead screwdriver or key into the hole.",
+            "Press and HOLD the brake-shift interlock switch inside the hole.",
+            "The shift buttons on the instrument panel will FLASH — this indicates override mode is active.",
+            "While still holding the override switch, press the N (Neutral) button on the instrument panel.",
+            "Release the override button.",
+            "Vehicle is now in Neutral for towing."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, use the console hole override method OR shift normally.",
+            "If 12V cannot be restored: use the console hole method — it works without full electrical power.",
+            "AWD models: flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from rear (front drive wheels roll). AWD: FLATBED ONLY.",
+        "notes": [
+          "AWD: no transfer case neutral — flatbed mandatory.",
+          "Compact vehicle — front access can be tight."
+        ]
+      },
+      "battery": {
+        "location": "Under hood (primary). Secondary battery access under spare tire in rear.",
+        "jumpPoints": "Under hood — red rubber boot on positive terminal",
+        "type": "standard-12v",
+        "warning": "AWD: flatbed only."
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "Compact crossover. AWD has no TC neutral — flatbed only for AWD.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "Town Car",
+      "chassis": "1990-2011",
+      "years": "1990–2011",
+      "meta": {
+        "transmission": "4-speed automatic (AOD/4R70W)",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Column-mounted shifter — slot on the STEERING COLUMN, typically at the base of the column lever housing.",
+          "steps": [
+            "Turn ignition to ON (key to Run position).",
+            "Column shifter: locate the shift lock override slot at the BASE of the column shifter housing.",
+            "Insert a thin flathead screwdriver into the slot.",
+            "Press firmly and hold.",
+            "Press the brake pedal firmly.",
+            "Move the column lever from Park to Neutral.",
+            "Remove tool."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood, driver side near firewall.",
+            "Once 12V power is restored, press brake and shift to Neutral normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air. Very common — straightforward procedure.",
+        "notes": [
+          "RWD: lift from rear.",
+          "Column shifter — very common livery/fleet vehicle for operators."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, driver side near firewall",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Extremely common fleet/livery/police vehicle. Column shifter — slot on steering column, not console.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "Continental",
+      "chassis": "1995-2002",
+      "years": "1995–2002",
+      "meta": {
+        "transmission": "4-speed automatic (4R70W)",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small plastic cap near the gear selector base on the center console.",
+          "steps": [
+            "Turn ignition to ON (key to Run — do not start).",
+            "Locate shift lock cap near selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead into the slot and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "FWD luxury sedan. Column or console shift depending on year.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "Navigator",
+      "chassis": "1998-2002",
+      "years": "1998–2002",
+      "meta": {
+        "transmission": "4-speed automatic (4R100)",
+        "drivetrain": "RWD or 4WD (part-time)",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Column-mounted shifter — slot on STEERING COLUMN",
+          "steps": [
+            "Turn ignition to ON.",
+            "1st gen Navigator uses a COLUMN-MOUNTED shifter — slot is on the STEERING COLUMN.",
+            "Insert key into the column slot and press firmly.",
+            "While holding, press brake pedal.",
+            "Move column lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under the hood, passenger side near firewall. Connect jump pack.",
+            "Once powered, press brake and shift normally.",
+            "4WD: electronic TC — jump battery first, then shift TC to 2WD before towing.",
+            "RWD: lift from rear — rear (drive) wheels in the air.",
+            "4WD in 2H: lift from rear — rear (drive) wheels in the air."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: TC to 2H first, then lift from rear.",
+        "notes": [
+          "Column shifter — slot on steering column.",
+          "RWD: lift from rear. 4WD: TC to 2H."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, passenger side",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "4WD: jump battery first to power TC."
+      },
+      "alerts": {
+        "warning": "4WD: TC must be in 2WD before towing. Jump battery first if dead.",
+        "notes": "1st gen Navigator — column shifter. Electronic 4WD requires 12V to shift TC.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "Mark VIII",
+      "chassis": "1993-1998",
+      "years": "1993–1998",
+      "meta": {
+        "transmission": "4-speed automatic (4R70W)",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small plastic cap near the gear selector base on the center console.",
+          "steps": [
+            "Turn ignition to ON (key to Run — do not start).",
+            "Locate shift lock cap near selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead into the slot and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood, driver side.",
+            "Once 12V power is restored, press brake and shift to Neutral normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air.",
+        "notes": [
+          "RWD: lift from rear.",
+          "Air suspension: jump battery to normalize before loading."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Air suspension may drop with dead battery."
+      },
+      "alerts": {
+        "warning": "Air suspension: may drop with dead battery. Jump first to normalize.",
+        "notes": "RWD personal luxury coupe. Air suspension on all trims.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "MKS",
+      "chassis": null,
+      "years": "2009–2016",
+      "meta": {
+        "transmission": "6-speed SelectShift automatic (6F55)",
+        "drivetrain": "FWD or AWD (EcoBoost)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Center console storage bin — small access HOLE just below the media hub connections. Open console lid, locate hole in front wall below USB/media ports.",
+          "steps": [
+            "Turn ignition to ON.",
+            "Open the center console storage lid.",
+            "Locate the small access hole in the front wall of the storage bin, just BELOW the media hub/USB connections.",
+            "Insert thin flathead into the hole and press the brake-shift interlock switch.",
+            "The instrument panel shift buttons will FLASH — override is active.",
+            "While holding, press the N button on the instrument panel.",
+            "Release the override tool."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N via push-button selector or console hole method.",
+            "AWD: flatbed preferred. FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. AWD: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front.",
+          "AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred.",
+        "notes": "EcoBoost AWD: flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "MKT",
+      "chassis": null,
+      "years": "2010–2019",
+      "meta": {
+        "transmission": "6-speed automatic (6F55)",
+        "drivetrain": "FWD or AWD (EcoBoost)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Center console storage bin — small access HOLE below the media hub. Same procedure as Navigator/MKZ.",
+          "steps": [
+            "Turn ignition to ON.",
+            "Open center console storage lid.",
+            "Locate access hole below the media hub in the storage bin front wall.",
+            "Insert thin flathead. Press the interlock switch inside.",
+            "Instrument panel shift buttons FLASH.",
+            "While holding, press N on the instrument panel.",
+            "Release tool."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "AWD (EcoBoost): flatbed preferred. FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. AWD: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front.",
+          "AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred.",
+        "notes": "Flex platform. AWD: flatbed preferred. Common as a livery/funeral vehicle.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Lincoln",
+      "model": "LS",
+      "chassis": null,
+      "years": "2000–2006",
+      "meta": {
+        "transmission": "5-speed automatic (5R55N) or 6-speed manual (Getrag)",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console — ALSO: battery is in the TRUNK.",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console — ALSO: battery is in the TRUNK..",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "BATTERY IS IN THE TRUNK — open trunk to access.",
+            "Connect jump pack to trunk battery.",
+            "Once powered, press brake and shift to N.",
+            "RWD: lift from rear. Flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air.",
+        "notes": [
+          "RWD: lift from rear.",
+          "Battery in TRUNK — open trunk for jump access."
+        ]
+      },
+      "battery": {
+        "location": "TRUNK — under cargo floor",
+        "jumpPoints": "Trunk — 12V battery terminals",
+        "type": "standard-12v",
+        "warning": "Battery in TRUNK — not under hood."
+      },
+      "alerts": {
+        "warning": "Battery in TRUNK — not under the hood.",
+        "notes": "Battery in TRUNK. Manual: depress clutch, select Neutral.",
+        "issues": [
+          {
+            "title": "Battery in Trunk",
+            "detail": "The LS 12V battery is in the trunk. There is no battery under the hood. Always open the trunk to access jump terminals."
+          },
+          {
+            "title": "Battery in Trunk — Not Under Hood",
+            "detail": "The Lincoln LS 12V battery is in the trunk. Opening the hood will not find the battery. Open the trunk and lift the cargo floor liner."
+          },
+          {
+            "title": "Battery in Trunk — Not Under Hood",
+            "detail": "The Lincoln LS battery is in the trunk. There is no battery under the hood. Open the trunk to access the 12V battery for jumping."
+          }
+        ]
+      }
+    }
+  ]
+}

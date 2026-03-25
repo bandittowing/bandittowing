@@ -1,0 +1,376 @@
+{
+  "make": "MINI",
+  "count": 7,
+  "vehicles": [
+    {
+      "make": "MINI",
+      "model": "Cooper / Hatch",
+      "chassis": "R50/R52/R53 2002-2006",
+      "years": "2002–2006",
+      "meta": {
+        "transmission": "CVT or 6-speed automatic (Aisin)",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Under air filter housing — short rod on transmission module with two flat sides",
+          "steps": [
+            "Turn ignition to ON.",
+            "UNUSUAL LOCATION: The shift interlock on R50/R52/R53 MINI is accessed under the air filter housing in the engine bay.",
+            "There is a short rod on the transmission module with two flat-blade slots.",
+            "Using a flat screwdriver, rotate one slot 90 degrees to release the shift lock.",
+            "With lock released, press brake and move selector to N.",
+            "NOTE: This is the factory method — no console slot exists on this generation."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood — driver side.",
+            "Connect jump pack.",
+            "Restore power. Manual shift to N, or use the rod method above.",
+            "AUTOMATIC: do NOT flat-tow. Lift front wheels only."
+          ]
+        }
+      },
+      "tow": {
+        "method": "LIFT FRONT WHEELS (wheel-lift or flatbed). Rear wheels roll on ground. NEVER flat-tow automatic.",
+        "notes": [
+          "AUTOMATIC TRANSMISSION: has no pump for lubrication when engine is off. Flat-towing or towing with front wheels on ground destroys transmission.",
+          "MANUAL: can flat-tow or tow any direction — select Neutral, clutch in.",
+          "Small, light vehicle — watch clearance during loading."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "AUTOMATIC: never flat-tow. Front lift only."
+      },
+      "alerts": {
+        "warning": "AUTOMATIC: NEVER flat-tow. LIFT FRONT WHEELS ONLY. Automatic transmission not equipped with oil pump when not running.",
+        "notes": "AUTOMATIC TRANSMISSION: cannot be flat-towed under any circumstances — will destroy transmission. MANUAL: depress clutch, select N.",
+        "issues": [
+          {
+            "title": "Shift Lock Override Under Air Filter — NOT on Console",
+            "detail": "The 2002-2006 MINI Cooper (R50/R52/R53) shift lock override is NOT on the center console. It is in the ENGINE BAY under the air filter housing. There is a transmission solenoid rod with flat-blade slots — rotate one slot 90 degrees with a flathead screwdriver to release. Many operators waste time looking for a console slot that does not exist on this generation."
+          }
+        ]
+      }
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper",
+      "chassis": "R56/R57/R58/R59 2007-2013",
+      "years": "2007–2013",
+      "meta": {
+        "transmission": "6-speed automatic (Aisin) or 6-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Shift interlock solenoid — access via console near shifter base. Brake light switch controls system.",
+          "steps": [
+            "Turn ignition to ON (do not start).",
+            "Locate shift lock override slot near shifter base — small cap or access point.",
+            "Remove cap. Insert key, press down.",
+            "Press brake pedal. Move selector to N.",
+            "Replace cap.",
+            "MANUAL: depress clutch, select N — no shift lock."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery location varies: under hood or trunk depending on model.",
+            "Connect jump pack to accessible terminals.",
+            "Restore power. Use override method.",
+            "AUTOMATIC: front lift only — never flat-tow."
+          ]
+        }
+      },
+      "tow": {
+        "method": "AUTOMATIC: LIFT FRONT WHEELS ONLY. MANUAL: any tow method acceptable.",
+        "notes": [
+          "Automatic transmission lacks lubrication when not running — front lift mandatory.",
+          "Manual: standard neutral selection, can tow any direction."
+        ]
+      },
+      "battery": {
+        "location": "Under hood (most). Convertible may have alternate location.",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Automatic: front lift only. Never flat-tow automatic."
+      },
+      "alerts": {
+        "warning": "AUTOMATIC: NEVER flat-tow. Front wheels must be lifted.",
+        "notes": "AUTOMATIC: front lift only. MANUAL: any direction.",
+        "issues": []
+      }
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper",
+      "chassis": "F55/F56/F57 2014-2024",
+      "years": "2014–2024",
+      "meta": {
+        "transmission": "7-speed dual-clutch (DCT) or 8-speed automatic; Cooper SE EV available",
+        "drivetrain": "FWD; Cooper SE: FWD electric",
+        "tags": [
+          "requires_power",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic shifter — mechanical release under console near selector base",
+          "steps": [
+            "Locate override slot under console trim near selector base.",
+            "Remove trim panel if necessary.",
+            "Insert key. Press override plunger.",
+            "Press brake. Move selector to N.",
+            "Cooper SE EV: restore 12V power first — use frunk/hood 12V terminals."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood or engine compartment.",
+            "Cooper SE EV: 12V battery under hood in front storage area.",
+            "Connect jump pack. Restore power.",
+            "Shift normally or use override.",
+            "AUTOMATIC/DCT: front lift only. SE EV: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Gas automatic/DCT: LIFT FRONT WHEELS ONLY. Cooper SE EV: FLATBED ONLY.",
+        "notes": [
+          "Cooper SE EV: electric drivetrain, flatbed only, 12V auxiliary in engine area.",
+          "Automatic/DCT: no lubrication without engine running — front lift only.",
+          "Never flat-tow any automatic or DCT MINI."
+        ]
+      },
+      "battery": {
+        "location": "Under hood / engine compartment",
+        "jumpPoints": "Under hood — standard or frunk area (SE EV)",
+        "type": "standard-12v",
+        "warning": "Automatic: front lift only. SE EV: flatbed only, 12V only."
+      },
+      "alerts": {
+        "warning": "Cooper SE EV: FLATBED ONLY. Automatic: front lift only — never flat-tow.",
+        "notes": "Cooper SE EV: FLATBED ONLY. Automatic/DCT: front lift only, never flat-tow.",
+        "issues": []
+      }
+    },
+    {
+      "make": "MINI",
+      "model": "Countryman",
+      "chassis": "R60 2011-2016 / F60 2017-2024",
+      "years": "2011–2024",
+      "meta": {
+        "transmission": "6-speed automatic or 8-speed automatic; PHEV available",
+        "drivetrain": "FWD or ALL4 AWD",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Center console — mechanical override near selector base",
+          "steps": [
+            "Locate override slot near selector base on center console.",
+            "Remove cap. Insert key, press plunger.",
+            "Press brake. Move to N.",
+            "ALL4 AWD: confirm tow method — flatbed required.",
+            "PHEV: restore 12V power first."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (R60) or rear of engine compartment / driver side under cover (F60).",
+            "Connect jump pack. Restore power.",
+            "Shift normally or use override.",
+            "ALL4: flatbed only. PHEV: 12V only, flatbed only."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD automatic: lift front wheels only. ALL4 AWD: FLATBED ONLY. PHEV ALL4: FLATBED ONLY.",
+        "notes": [
+          "ALL4 AWD: no transfer case neutral — flatbed mandatory.",
+          "PHEV: HV system present, 12V auxiliary only, flatbed only.",
+          "Automatic FWD: front lift only."
+        ]
+      },
+      "battery": {
+        "location": "Under hood or rear engine compartment (varies by gen/trim)",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "ALL4: flatbed only. PHEV: 12V only, flatbed only."
+      },
+      "alerts": {
+        "warning": "ALL4 AWD: FLATBED ONLY. PHEV: 12V only, flatbed only. Automatic: front lift for FWD.",
+        "notes": "ALL4 AWD: FLATBED ONLY. PHEV: flatbed only, 12V only.",
+        "issues": []
+      }
+    },
+    {
+      "make": "MINI",
+      "model": "Clubman",
+      "chassis": "R55 2008-2014 / F54 2016-2024",
+      "years": "2008–2024",
+      "meta": {
+        "transmission": "6-speed or 8-speed automatic",
+        "drivetrain": "FWD or ALL4 AWD",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Center console — mechanical override slot near selector base",
+          "steps": [
+            "Find override slot near selector base.",
+            "Remove cap. Insert key, press plunger.",
+            "Press brake. Move to N.",
+            "ALL4: flatbed only."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood.",
+            "Connect jump pack. Restore power.",
+            "Shift normally or use override."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD automatic: lift front wheels only. ALL4 AWD: FLATBED ONLY.",
+        "notes": [
+          "ALL4: flatbed mandatory.",
+          "Automatic: front lift only."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "ALL4: flatbed only. Automatic: front lift only."
+      },
+      "alerts": {
+        "warning": "ALL4 AWD: flatbed only. Automatic FWD: front lift only, never flat-tow.",
+        "notes": "ALL4 AWD: flatbed only. Automatic FWD: front lift only.",
+        "issues": []
+      }
+    },
+    {
+      "make": "MINI",
+      "model": "Paceman / Roadster",
+      "chassis": "R61 / R59",
+      "years": "2012–2015",
+      "meta": {
+        "transmission": "6-speed automatic (Aisin) or 6-speed manual",
+        "drivetrain": "FWD or ALL4 AWD (Paceman)",
+        "tags": [
+          "rwd",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small slot near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the override slot near the gear selector base on the center console.",
+            "Insert thin flathead. Press firmly. Hold. Press brake. Move to N.",
+            "R61 Paceman ALL4 AWD: FLATBED PREFERRED."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "ALL4 AWD: FLATBED PREFERRED. Manual: depress clutch."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. RWD (R59): lift from rear. ALL4 AWD: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front. RWD: lift from rear. ALL4 AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "ALL4 AWD: flatbed preferred.",
+        "notes": "Paceman R61: FWD or ALL4 AWD. Roadster R59: RWD roadster. Manual: depress clutch.",
+        "issues": []
+      }
+    },
+    {
+      "make": "MINI",
+      "model": "Cooper SE Electric",
+      "chassis": "F56 EV",
+      "years": "2020–2026",
+      "meta": {
+        "transmission": "Single-speed electric",
+        "drivetrain": "FWD electric",
+        "tags": [
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic toggle selector — no mechanical shift lock slot",
+          "steps": [
+            "Turn vehicle to ON/Ready mode.",
+            "Electronic gear selector — use selector lever or button to choose N.",
+            "If power lost: connect jump pack to 12V auxiliary under hood.",
+            "12V AUXILIARY ONLY — NEVER touch HV battery."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — electric drivetrain.",
+            "12V auxiliary under hood.",
+            "12V AUXILIARY ONLY — never touch HV battery.",
+            "Once powered, select N electronically."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — electric drivetrain.",
+        "notes": [
+          "ELECTRIC: FLATBED ONLY.",
+          "12V auxiliary under hood — never touch HV battery under floor."
+        ]
+      },
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpPoints": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warning": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY. 12V auxiliary ONLY — never touch HV battery.",
+        "notes": "Electric FWD only. 12V auxiliary under hood. HV battery under floor. Flatbed only.",
+        "issues": []
+      }
+    }
+  ]
+}

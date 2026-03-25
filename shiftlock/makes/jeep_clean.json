@@ -1,0 +1,987 @@
+{
+  "make": null,
+  "count": 22,
+  "vehicles": [
+    {
+      "make": "Jeep",
+      "model": "Wrangler YJ",
+      "chassis": null,
+      "years": "1990–1995",
+      "meta": {
+        "transmission": "3-speed automatic (TF999/30RH 1990-1991 with 2.5L; 32RH 1992-1995 with 4.0L; 30RH 1992-1995 with 2.5L) or 4/5-speed manual (BA10/5 early; AX5 with 2.5L; AX15 with 4.0L mid-1989+). Floor shift on automatic.",
+        "drivetrain": "Part-time 4WD standard. NP231 transfer case (Command-Trac). No AWD — 2WD or 4WD only.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Automatic: brake-interlock solenoid on shifter. Manual shift override slot on PRNDL bezel or use screwdriver in override port on shift plate. Manual transmission: NO shift lock — clutch interlock only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Set parking brake. Key ON, press brake pedal, shift lever to N normally.",
+            "MANUAL OVERRIDE (auto, no/low power): Engage parking brake. Insert flat screwdriver into shift lock override port on PRNDL bezel (right side of shifter, above Park position). Press and hold override tab. While holding tab, press brake pedal and move shifter to N.",
+            "MANUAL TRANS: No shift lock — clutch must be depressed to disengage. With key OFF, push clutch pedal in and move gear lever to Neutral. Can tow short distances.",
+            "TRANSFER CASE — CRITICAL: Put transmission in Neutral first, then shift NP231 TC floor lever to 2H (two-wheel high). Verify 4WD indicator light OFF. Then tow. NEVER tow with TC in 4H or 4L — driveline damage.",
+            "FLAT TOW CAPABLE: YJ with manual trans can be flat-towed with TC in N. Automatic: TC in N, trans in Park or Neutral. Verify oil levels first per owner manual.",
+            "Battery: under hood driver side. Jump both posts directly."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side. Standard top-post battery.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Wrangler YJ (1990-1995). Rectangular headlights. NP231 Command-Trac TC — floor lever. Manual trans: no shift lock. Auto: screwdriver override port in PRNDL bezel. Flat tow capable with correct TC position.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Wrangler TJ",
+      "chassis": null,
+      "years": "1997–2006",
+      "meta": {
+        "transmission": "3-speed automatic (32RH 1997-2002 with 4.0L; 30RH 1997-2002 with 2.5L) or 4-speed automatic (42RLE 2003-2006, all engines). Manual: 5-speed AX5 (2.5L early), AX15 (4.0L), NV3550 (4.0L 2000-2004), NV1500 (2.4L 2003-2004), NSG370 6-speed (2005-2006, all engines). Floor shift.",
+        "drivetrain": "Part-time 4WD (Command-Trac NP231 standard; Rock-Trac NP242 on Rubicon from 2003). No AWD.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Automatic: shift lock solenoid in floor console. Override: small slot/port on PRNDL bezel (right or front of selector). Screwdriver into port, press override tab, move to N with brake depressed. TJ LJ (2004-2006): interlock may require shifting the transmission lever directly at the transmission if no power — unclip linkage at transmission passenger side. Manual: clutch-only interlock.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON (not started), press brake, shift to N.",
+            "MANUAL OVERRIDE (auto): Parking brake on. Small screwdriver into shift lock override port on PRNDL bezel. Press and hold override tab. Simultaneously press brake and move shifter to N.",
+            "TJ/LJ WITH FULLY DEAD SYSTEM (no key ON possible): Reach under console and disconnect the shift cable at the transmission. Manually move the transmission lever on the passenger side of the transmission to Neutral.",
+            "MANUAL TRANS: Depress clutch pedal, shift to Neutral. No shift lock interlock.",
+            "TRANSFER CASE: Trans to N first. Floor shift TC lever to 2H. Verify 4WD light off. NEVER tow with TC in 4H or 4L.",
+            "FLAT TOW CAPABLE: All TJ models. Manual: TC neutral, trans in gear (highest). Auto: TC neutral, trans in Park. Verify lube levels. Max recommended speed 55 mph.",
+            "Battery: under hood driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side. Standard top-post.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Wrangler TJ (1997-2006). LJ = Unlimited 4-door (2004-2006). Round headlights. NP231 or NP242 TC (Rubicon 2003+). Manual override: screwdriver in PRNDL bezel slot. Dead system: shift cable at transmission. Flat tow approved per owner manual.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Wrangler JK",
+      "chassis": null,
+      "years": "2007–2018",
+      "meta": {
+        "transmission": "4-speed automatic (42RLE) 2007-2011 with 3.8L V6. 5-speed automatic (W5A580/NAG1, Mercedes-derived) 2012-2018 with 3.6L Pentastar V6. 6-speed manual (NSG370) all years. Floor console shift on auto.",
+        "drivetrain": "Part-time 4WD. Command-Trac NP241 standard; Rock-Trac NP241OR on Rubicon (2.72:1 low). No AWD.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Automatic: shift lock solenoid in console shifter. Manual override: SMALL PLASTIC CAP on PRNDL bezel, front/right of shift lever, above Park position. Pry off cap with screwdriver. Use screwdriver in override port — press and hold shift lock lever tab. While holding, press brake and slide shifter to N. Manual trans: no shift lock — clutch interlock only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON (engine off acceptable). Press brake firmly. Move floor shift lever to N.",
+            "MANUAL OVERRIDE (auto, dead/low battery): Parking brake on. Locate small plastic cap on PRNDL bezel — front-right of floor shifter, above P position. Pry cap off with flathead screwdriver. Insert screwdriver into port. Press and hold override tab DOWN. Simultaneously press brake pedal. Move shift lever to N.",
+            "MANUAL TRANS: Depress clutch, shift floor lever to N. No shift lock.",
+            "TRANSFER CASE: Must be moved SEPARATELY. NP241 TC: floor lever between driver seat and console. With trans in N, move TC lever to 2H. Verify 4WD indicator OFF. For flatbed loading with dead battery: can leave TC in current position if using wheel-lift (rear wheels lifted) — trans interlock is separate from TC.",
+            "FLAT TOW CAPABLE (4WD models): Automatic = trans in PARK + TC in N. Manual = trans in highest gear + TC in N. Ignition to ACC. Max 55 mph. Verify per owner manual.",
+            "Battery: under hood, driver side. Jump directly."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side. Standard top-post.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Wrangler JK (2007-2018). JKU = 4-door Unlimited. Plastic cap on PRNDL bezel for manual override. TC lever separate floor shift. Flat tow approved — auto in Park + TC Neutral. Manual NSG370 — clutch only, no shift lock.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Wrangler JL / JL 4xe",
+      "chassis": null,
+      "years": "2018–2026",
+      "meta": {
+        "transmission": "8-speed automatic (TorqueFlite 850RE) or 6-speed manual (Aisin AL6). Floor console shift on auto; floor shift manual.",
+        "drivetrain": "Part-time 4WD standard. Command-Trac NP241 or Rock-Trac NP241OR (Rubicon). JL 4xe (2021+): plug-in hybrid AWD, adds electric rear motor.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Automatic 8HP: Shift-by-wire electronic selector. Manual park release: SMALL UNMARKED BLACK PLASTIC DOOR at FRONT of floor console, in front of shift lever (between shifter and dashboard). Pry off. Inside: ORANGE FABRIC STRAP attached to manual park release mechanism. Pull strap GENTLY UPWARD until you hear/feel ONE CLICK — this releases Park. STOP immediately at click. Pull strap again to reset/re-engage Park. Manual trans: no electronic shift lock.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON or running. Press brake. Shift via electronic selector to N.",
+            "MANUAL PARK RELEASE (auto, dead/no battery — FOR FLATBED LOADING ONLY): Pry off small black unmarked door at FRONT of floor console (in front of shifter). Locate ORANGE FABRIC STRAP inside. Pull strap gently UPWARD until one audible/tactile CLICK — do NOT pull further. Vehicle now in Neutral — can be rolled/pushed onto flatbed. To re-engage Park: pull strap upward again and it returns to Park position.",
+            "IMPORTANT: The orange strap puts vehicle in Neutral for SHORT MOVEMENT only (loading onto flatbed, pushing out of intersection). It does NOT set up the vehicle for flat-towing behind an RV.",
+            "FLAT TOW (RV/motorhome behind): Auto trans: place in PARK + TC in Neutral. Manual trans: highest gear + TC in Neutral. Ignition to ACC. Max 55 mph. Do NOT use orange strap for flat towing.",
+            "TRANSFER CASE (separate from trans): JL floor TC lever. With trans in N or Park, shift TC to 2H. Verify 4WD indicator off.",
+            "JL 4xe SPECIFIC: Battery has 12V system under hood AND 17.3 kWh HV battery under floor. For 4xe towing: NEVER touch orange/yellow HV cables or HV connectors. Jump 12V at hood terminals only. 4xe is AWD — transfer case Neutral needed for flatbed. FLATBED strongly recommended for 4xe. Consult Jeep Roadside Assistance for 4xe: 877-426-5337.",
+            "Battery (12V): under hood driver side. Jump directly."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "STANDARD 12V: Under hood driver side. JL 4xe ALSO has: 17.3 kWh HV lithium pack under floor — NEVER touch orange HV cables. Auxiliary 12V jumper terminals under hood.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Wrangler JL (2018-2026). Orange strap in front console for manual park release — one click only. For flatbed loading only, NOT flat tow setup. JL 4xe (2021+): PHEV, HV battery under floor, never touch orange cables. Flat tow: auto in Park + TC Neutral. Manual: gear in Neutral + TC Neutral.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Gladiator JT",
+      "chassis": null,
+      "years": "2020–2026",
+      "meta": {
+        "transmission": "8-speed automatic (TorqueFlite 850RE) or 6-speed manual (Aisin AL6). Floor console shift.",
+        "drivetrain": "Part-time 4WD. Command-Trac NP241 standard; Rock-Trac NP241OR on Rubicon. Pickup truck body on JL Wrangler platform.",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "IDENTICAL to JL Wrangler. Automatic 8HP shift-by-wire. Manual park release: SMALL UNMARKED BLACK DOOR at FRONT of floor console, in front of shifter. Pry off. ORANGE FABRIC STRAP inside — pull gently upward ONE CLICK to release Park. Pull again to reset. Manual trans: no shift lock.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Move electronic selector to N.",
+            "MANUAL PARK RELEASE (auto, dead battery — flatbed loading only): Pry off small black door front of console. Locate orange strap. Pull gently upward ONE CLICK. Releases Park. Roll onto flatbed. Pull strap again to re-engage Park.",
+            "FLAT TOW (RV use): Auto: trans in PARK + TC in Neutral. Manual: highest gear + TC in Neutral. Ignition ACC. Max 55 mph. Gladiator is manufacturer-approved for flat towing with 4WD low-range models.",
+            "TRANSFER CASE: Floor lever separate from trans. Trans in N or P first, then TC to 2H.",
+            "Battery: under hood driver side. Jump directly."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side. Standard top-post 12V.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Gladiator JT (2020-2026). Midsize pickup on JL Wrangler platform. Same park release procedure as JL — orange strap in front console, one click. Flat tow approved for 4WD models. TC and trans independent floor levers.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Cherokee XJ",
+      "chassis": null,
+      "years": "1990–2001",
+      "meta": {
+        "transmission": "4-speed automatic (AW4) or 5-speed manual (AX5 or AX15). COLUMN shift (most models — PRNDL on steering column). Some late models: console shift.",
+        "drivetrain": "RWD or part-time 4WD (NP231 Command-Trac) or full-time Selec-Trac. Unibody construction.",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "COLUMN SHIFT (most XJ): Shift lock solenoid on steering column. With key ON and brake pressed, shift column lever to N. If no power: key to ACC, brake pressed, move column lever. Some XJ may allow shift with key in ACC and brake pressed even with low battery. Console shift (rare): small screwdriver slot on console bezel near P position.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON (not started). Press brake firmly. Move column shift lever down from P to N.",
+            "LOW/DEAD BATTERY: Key to ACC position. Press brake firmly. Column shift lever to N. The AW4 transmission's interlock is less aggressive than modern units — often releases with key-ACC + brake with minimal power.",
+            "CONSOLE SHIFT VARIANT: Screwdriver into override slot on console bezel near Park. Press tab, move shifter to N.",
+            "TRANSFER CASE: NP231 floor lever. Trans to N first, then TC floor lever to 2H. Selec-Trac: can also run in 2WD full-time. NEVER tow in 4H or 4L.",
+            "4WD models: if TC cannot be moved, lift rear wheels and tow from front (FWD configuration safe short distance).",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side. Standard top-post.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Cherokee XJ (1990-2001). Unibody compact SUV. COLUMN shift on most models. AW4 auto interlock less aggressive than modern units — key-ACC + brake often sufficient. NP231 TC floor lever. Selec-Trac models have 2WD mode.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Liberty KJ",
+      "chassis": null,
+      "years": "2002–2007",
+      "meta": {
+        "transmission": "4-speed automatic (42RLE/32RH) or 6-speed manual (NSG370). Floor console shift.",
+        "drivetrain": "RWD or 4WD (Command-Trac part-time; Selec-Trac full-time optional). Unibody.",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Automatic: shift lock solenoid in floor console. Override slot on PRNDL bezel — small cap on right side of bezel, above Park. Pry cap off. Insert screwdriver into override port. Press and hold override tab. Press brake. Move shifter to N. Manual: clutch interlock only — no shift lock.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Floor shift to N.",
+            "MANUAL OVERRIDE (auto): Parking brake on. Small pry-off cap on PRNDL console bezel, right side above P. Remove cap. Insert screwdriver into port. Press and hold override tab. Press brake. Move shifter to N.",
+            "MANUAL TRANS: Depress clutch, move floor lever to N. No shift lock.",
+            "TRANSFER CASE: Floor lever (Command-Trac) or electronic button (Selec-Trac). Trans to N first. Shift TC to 2H. Verify 4WD light off.",
+            "2WD models: tow from front or rear normally in Neutral.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side. Standard top-post.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Liberty KJ (2002-2007). Floor console shift. Screwdriver cap on PRNDL bezel for manual override. Command-Trac: floor TC lever. Selec-Trac: electronic TC selector.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Liberty KK",
+      "chassis": null,
+      "years": "2008–2012",
+      "meta": {
+        "transmission": "4-speed automatic (42RLE) or 6-speed manual (NSG370). Floor console shift.",
+        "drivetrain": "RWD or 4WD (Command-Trac part-time; Selec-Trac optional). Unibody.",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Automatic: shift lock solenoid. Override: small cap on PRNDL bezel right side. NOTE: some KK models have the override cap; some DO NOT (missing from factory). If override is missing, must jump battery or shift cable at transmission. Manual: clutch interlock only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Floor shift to N.",
+            "MANUAL OVERRIDE: Check for small cap on PRNDL bezel right side. If present: remove cap, insert screwdriver into port, press override tab, press brake, shift to N.",
+            "IF NO OVERRIDE CAP (some KK): Jump battery — under hood driver side. Once 12V restored: key ON, press brake, shift to N normally.",
+            "LAST RESORT (no battery, no override): Disconnect shift cable at the transmission (passenger side of trans, underneath). Move trans lever manually to Neutral.",
+            "TRANSFER CASE: Floor lever or electronic depending on trim. Trans to N first, TC to 2H.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Liberty KK (2008-2012). Some KK models MISSING shift lock override cap — verify before attempting. Jump battery preferred if override absent. NSG370 manual: no shift lock.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee ZJ",
+      "chassis": null,
+      "years": "1993–1998",
+      "meta": {
+        "transmission": "4-speed automatic (42RE). Floor console shift.",
+        "drivetrain": "RWD or 4WD. Selec-Trac (part-time + full-time) or Quadra-Trac I (full-time AWD only — NO 2WD mode). Body-on-frame.",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Floor console shift. Shift lock solenoid on shifter assembly. Manual override: small plastic cap on PRNDL console bezel near Park position. Pry off cap. Insert screwdriver into port. Press and hold shift lock tab. Press brake pedal. Move shifter to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift console lever to N.",
+            "MANUAL OVERRIDE (dead battery): Pry off small cap on PRNDL bezel near P. Screwdriver into port. Press and hold override tab. Press brake. Move to N.",
+            "JUMP BATTERY: Remote terminals UNDER HOOD (positive = red cover near firewall, negative = ground near fender). Do NOT need to move seat to jump. Once powered, shift to N normally.",
+            "TRANSFER CASE: Selec-Trac: floor lever — shift to 2WD. Quadra-Trac I (AWD): NO 2WD mode — permanently coupled front axle. With Quadra-Trac I: FLATBED required.",
+            "QUADRA-TRAC I WARNING: Full-time AWD with no 2WD. Towing with rear wheels only on ground will spin front wheels and wind up drivetrain. FLATBED REQUIRED for Quadra-Trac I.",
+            "Selec-Trac: 2WD available — rear wheel-lift acceptable short distance with TC in 2WD.",
+            "Battery (for jump): use under-hood remote terminals. Battery physical location: under passenger seat."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER PASSENGER SEAT — not under hood. Slide passenger seat fully forward. Remove carpeted floor panel (held by clips). Battery sits in sealed compartment with a vent tube. REMOTE JUMP TERMINALS: under hood, positive (red cover near firewall) and negative ground. Always use under-hood jump terminals for jump-starting — do NOT need to move seat for a jump.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Grand Cherokee ZJ (1993-1998). 42RE auto, floor shift. Selec-Trac = 2WD available. Quadra-Trac I = full-time AWD, NO 2WD — FLATBED ONLY. Manual override: pry cap on PRNDL bezel. Note: 1993 is Gen 1 start year.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee WJ",
+      "chassis": null,
+      "years": "1999–2004",
+      "meta": {
+        "transmission": "4-speed automatic (42RE or 45RFE). Floor console shift.",
+        "drivetrain": "RWD or 4WD. Quadra-Trac I (full-time, no 2WD), Quadra-Trac II (full-time with low range), or Selec-Trac (part-time + full-time). Unibody.",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Floor console shift. Shift lock solenoid. Manual override: small cap on PRNDL bezel near P. Note: 1999-2001 shift assembly is mechanical; 2002-2004 is electrical solenoid — slightly different feel. Either: pry cap, insert screwdriver into override port, press tab + brake + shift to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake firmly. Console shift to N.",
+            "MANUAL OVERRIDE: Pry small cap off PRNDL bezel (near P). Screwdriver into port. Press override tab + brake pedal simultaneously. Move to N.",
+            "JUMP BATTERY: Use remote terminals UNDER HOOD — red positive cover near firewall (passenger side), negative ground post nearby. Battery is under passenger seat but jump via hood terminals.",
+            "TRANSFER CASE: Selec-Trac (NV247) — floor lever, 2WD available. Quadra-Trac I/II — full-time AWD. Quadra-Trac II has TC low range but no 2WD. FLATBED required for Quadra-Trac I/II.",
+            "QUADRA-TRAC I/II: No 2WD mode. Cannot safely wheel-lift tow. FLATBED ONLY.",
+            "Selec-Trac: 2WD available — rear wheel-lift acceptable short distance.",
+            "Battery (physical): under front passenger seat. Jump via under-hood remote terminals."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER FRONT PASSENGER SEAT — same design as ZJ. Slide passenger seat fully forward. Remove floor panel/cover under seat. Battery in sealed compartment with vent tube. REMOTE JUMP TERMINALS: under hood, red positive cover near right firewall area and negative ground post — use these for all jump-starts without needing to access battery.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Grand Cherokee WJ (1999-2004). 42RE/45RFE auto. 1999-2001: mechanical shift; 2002-2004: electrical solenoid. Quadra-Trac I/II = no 2WD, FLATBED ONLY. Selec-Trac = 2WD available. Battery location varies by year.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee WK",
+      "chassis": null,
+      "years": "2005–2010",
+      "meta": {
+        "transmission": "5-speed automatic (545RFE). Floor console shift.",
+        "drivetrain": "RWD or 4WD. Quadra-Trac I (full-time), Quadra-Trac II (full-time with low), or Selec-Terrain. Unibody.",
+        "tags": [
+          "rwd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Floor console shift. Shift lock solenoid. Manual override: small plastic cap on bottom/side of center console cupholders, or on PRNDL bezel near P. Pry off with screwdriver. Insert screwdriver into port. Press override tab + brake + shift to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift console lever to N.",
+            "MANUAL OVERRIDE (dead battery): Locate small access cap — check BOTH the PRNDL bezel near P and the bottom of the rear cupholder well (per owner manual: under cupholder rubber mat). Pry off. Insert screwdriver. Press override tab. Press brake. Move to N.",
+            "TRANSFER CASE: Electronic NV140/NV245 controlled via dash knob or push button. 2WD button available on Selec-Terrain. Quadra-Trac I/II: no 2WD — FLATBED ONLY.",
+            "SRT8 WK (2006-2010): 6.1L HEMI. Same shift override procedure. All SRT8 models are RWD — no TC concern.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER FRONT PASSENGER SEAT — slide seat forward, remove floor panel under seat. Battery in compartment with vent tube. REMOTE JUMP TERMINALS: under hood, red positive cover near firewall (passenger side) and negative ground. Always jump via hood terminals.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Grand Cherokee WK (2005-2010). 545RFE auto, floor shift. Override cap may be under cupholder rubber OR on PRNDL bezel — check both. Quadra-Trac I/II = FLATBED ONLY. SRT8 is RWD. Selec-Terrain electronic TC.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee WK2",
+      "chassis": null,
+      "years": "2011–2021",
+      "meta": {
+        "transmission": "5-speed automatic (W5A580/NAG1) 2011-2012. 8-speed automatic (ZF 8HP70) 2013-2021. SRT8 uses ZF 8HP70; Trackhawk (2018-2021) uses ZF 8HP90. Electronic shift 2014+. NOTE: 545RFE was WJ/WK era — WK2 NEVER had 545RFE.",
+        "drivetrain": "RWD or 4WD. Quadra-Trac I (full-time no 2WD), Quadra-Trac II, or Selec-Terrain. Unibody.",
+        "tags": [
+          "rwd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "PHYSICAL FLOOR LEVER (2011-early 2013): Manual override — lift rubber mat from REAR cupholder of center console. Small round cap underneath. Pry off. Inside: pink/red lever or button. Press lever down to release shift interlock. Press brake and move shifter to N. ELECTRONIC SHIFT (2014+, monostable/rotary): override accessed via armrest lift + back of console storage compartment: lift armrest, remove plastic tray at BACK of storage compartment interior, then remove the cover. Pull the cable/cord with force while also moving a lever tab to the side. This takes significant effort — designed for emergency only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift floor lever or electronic selector to N.",
+            "PHYSICAL SHIFT (2011-early 2013) DEAD BATTERY: Parking brake on. Lift rubber mat from rear center console cupholder. Pry off round access cap underneath. Press PINK/RED lever down with screwdriver. Simultaneously press brake pedal. Move floor shift lever to N.",
+            "ELECTRONIC SHIFT (2014+ monostable/rotary) DEAD BATTERY: Parking brake on. Lift armrest. Remove plastic tray at BACK of center console storage compartment interior. Below tray: emergency neutral pull cable system. Use a pick or key shank to slide the LOCK TAB over sideways. Then pull the CORD/STRAP upward with significant force to move trans to Neutral. NOTE: This system is difficult — Jeep acknowledged it; most tower report jumping battery is far easier.",
+            "STRONGLY RECOMMENDED: Jump battery instead of using emergency neutral on WK2 2014+. Battery under hood driver side — standard jump.",
+            "TRANSFER CASE: Electronic Selec-Terrain/Quadra-Trac. Dash knob or button. 2WD available on Selec-Terrain. Quadra-Trac I: NO 2WD — FLATBED ONLY. Must have 12V power to shift TC electronically.",
+            "SRT/Trackhawk: RWD only. No TC. Jump battery, shift to N.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER FRONT PASSENGER SEAT. Slide seat forward (use external 12V to move powered seat if dead). Remove floor panel cover. Battery with vent tube. REMOTE JUMP TERMINALS under hood: red (+) positive cover near firewall passenger side, and black (−) ground post — use these for all jump-starts. Do NOT need to access under-seat battery for jumping.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Grand Cherokee WK2 (2011-2021). 2011-2013: physical floor shifter, rear cupholder access, pink lever. 2014+: electronic shift, back of console storage, difficult pull cord. STRONGLY prefer jumping battery on 2014+ vs. manual override. Quadra-Trac I = FLATBED ONLY. SRT/Trackhawk = RWD, simpler.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee WL / Grand Cherokee L",
+      "chassis": null,
+      "years": "2021–2026",
+      "meta": {
+        "transmission": "8-speed automatic (ZF 8HP75). Rotary E-shift dial (electronic shift-by-wire). No manual transmission option.",
+        "drivetrain": "RWD or 4WD (Quadra-Trac I, II, or Selec-Terrain). Grand Cherokee L: 3-row version (2021+). 4xe PHEV (2022+): adds 17.3 kWh HV battery under floor.",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic rotary E-shift dial. Manual park release: UNDER HOOD. Positive jump terminal accessible under hood. For shift override: lift armrest, remove console storage tray at back, access pull cord behind tray — slide lock tab sideways, then pull cord upward with force. Procedure same as WK2 2014+.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Rotate E-shift dial to N.",
+            "MANUAL OVERRIDE (dead battery): Same procedure as WK2 2014+. Lift armrest. Remove plastic tray from back of center console storage compartment. Slide lock tab sideways. Pull strap/cord with force to move trans to Neutral. STRONGLY RECOMMEND jumping battery instead.",
+            "JUMP BATTERY: Under hood driver side. Standard jump. Once powered, press brake, rotate E-shift dial to N.",
+            "TRANSFER CASE: Electronic Selec-Terrain dash knob. Quadra-Trac I: no 2WD — FLATBED ONLY. Selec-Terrain: 2WD available. Must have 12V power to change TC mode.",
+            "4xe SPECIFIC: PHEV. HV battery under floor — NEVER touch orange/yellow cables. For 4xe towing: jump 12V under hood only. 4xe = AWD — FLATBED strongly recommended. Jeep Roadside 4xe support: 877-426-5337.",
+            "Grand Cherokee L (3-row): same procedures as standard WL. Verify all passengers clear before towing.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side. 4xe adds HV 17.3 kWh battery under floor — NEVER touch orange/yellow HV cables or connectors.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Grand Cherokee WL/L (2021-2026). Rotary E-shift, electronic-only. Manual override same as WK2 2014+ — pull cord in back of console storage. Jump battery strongly preferred. 4xe PHEV: HV battery under floor, never touch orange cables. Grand Cherokee L = 3-row, same procedure.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee 4xe",
+      "chassis": null,
+      "years": "2022–2026",
+      "meta": {
+        "transmission": "8-speed automatic (ZF 8HP). Electronic rotary E-shift. No manual.",
+        "drivetrain": "AWD PHEV (plug-in hybrid). Quadra-Drive II with electric rear axle. 2.0L turbo + two electric motors + 17.3 kWh HV battery.",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic rotary E-shift. Manual override: back of center console storage (same as WK2/WL 2014+ procedure). Strongly prefer jumping 12V instead.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED STRONGLY RECOMMENDED — AWD PHEV drivetrain cannot be safely wheel-lift towed.",
+            "JUMP 12V: Under hood, driver side. Standard jump pack. Once powered: press brake, rotate E-shift to N.",
+            "MANUAL OVERRIDE (absolute last resort): Lift armrest, remove tray at back of console storage, slide lock tab, pull strap upward. Very difficult without power.",
+            "TRANSFER CASE: Electronic only — requires 12V power. With 12V restored, select 2WD via Selec-Terrain if moving to flatbed.",
+            "CRITICAL: NEVER cut, touch, or probe orange/yellow cables — 400V HV system. Do NOT jump the HV battery. 12V aux battery only.",
+            "Jeep Roadside Assistance (4xe): 877-426-5337.",
+            "Battery (12V): under hood, driver side only."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V auxiliary: under hood, driver side. HV traction battery: 17.3 kWh lithium pack under vehicle floor. NEVER touch orange/yellow HV cables, connectors, or battery enclosure.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Grand Cherokee 4xe (2022-2026). PHEV AWD. Jump 12V under hood. NEVER touch orange HV cables. FLATBED ONLY. Electronic-only E-shift — manual override very difficult, jump battery preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Commander XK",
+      "chassis": null,
+      "years": "2006–2010",
+      "meta": {
+        "transmission": "5-speed automatic (545RFE). Floor console shift.",
+        "drivetrain": "RWD or 4WD (Quadra-Trac I, II, or Selec-Terrain). 3-row body-on-frame SUV.",
+        "tags": [
+          "rwd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Floor console shift. Shift lock solenoid. Manual override: small access cap on PRNDL bezel or rear cupholder bottom (same family as WK/WK2). Pry cap, screwdriver into port, press override tab + brake + shift to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift console lever to N.",
+            "MANUAL OVERRIDE (dead battery): Small access cap on PRNDL bezel (near P) or bottom of rear cupholder. Pry off. Screwdriver into port. Press override tab. Press brake. Move to N.",
+            "TRANSFER CASE: Electronic Quadra-Trac/Selec-Terrain dash controls. Quadra-Trac I: no 2WD — FLATBED ONLY. Quadra-Trac II/Selec-Terrain: 2WD mode available.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side. Standard top-post.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Commander XK (2006-2010). 3-row SUV on WK platform. 545RFE auto, floor shift. Same override as WK. Quadra-Trac I = FLATBED ONLY.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Patriot MK",
+      "chassis": null,
+      "years": "2007–2017",
+      "meta": {
+        "transmission": "5-speed manual, 6-speed manual, CVT, or 6-speed auto (Aisin). Floor shift (manual) or console shift (CVT/auto).",
+        "drivetrain": "FWD or AWD (Freedom Drive I — on-demand AWD; Freedom Drive II — with low range). Unibody compact.",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Automatic/CVT: shift lock solenoid. Small override cap on PRNDL bezel near P — screwdriver into port, press tab + brake + shift to N. Manual: clutch interlock only. CVT WARNING: Do NOT wheel-lift or flat-tow CVT models — FLATBED ONLY for CVT.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift to N.",
+            "MANUAL OVERRIDE (auto/CVT): Pry cap on PRNDL bezel near P. Screwdriver into port. Press override tab. Press brake. Shift to N.",
+            "MANUAL TRANS: Depress clutch, shift to N.",
+            "CVT WARNING: FLATBED ONLY — CVT cannot tolerate being driven (wheels turning) without proper lubrication. Even short wheel-lift tow can damage CVT.",
+            "FLAT TOW: Manual transmission Patriot with Freedom Drive II 4WD ONLY may be flat-towed per owner manual. CVT and FWD/AWD auto: flatbed only.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Patriot MK (2007-2017). CVT: FLATBED ONLY. Manual FD-II 4WD: flat tow approved. Freedom Drive I (AWD): no 2WD on some — check TC. Override cap on PRNDL bezel.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Compass MK",
+      "chassis": "1st Gen",
+      "years": "2007–2017",
+      "meta": {
+        "transmission": "5-speed manual, 6-speed manual, CVT, or 6-speed auto. Floor or console shift.",
+        "drivetrain": "FWD or AWD (Freedom Drive I/II optional). Shares Patriot platform.",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Same as Patriot. Auto/CVT: small cap on PRNDL bezel near P. Manual override with screwdriver. Manual: clutch only.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift to N.",
+            "MANUAL OVERRIDE: Pry cap on PRNDL bezel near P. Screwdriver into port. Press override tab. Press brake. Shift to N.",
+            "CVT WARNING: FLATBED ONLY — CVT cannot handle wheel-lift towing.",
+            "MANUAL TRANS: Clutch in, shift to N.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Compass MK 1st gen (2007-2017). CVT models: FLATBED ONLY. Shares Patriot platform/procedures. Override cap on PRNDL bezel.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Compass MP",
+      "chassis": "2nd Gen",
+      "years": "2017–2026",
+      "meta": {
+        "transmission": "6-speed auto, 7-speed dual-clutch (DCT), or 9-speed auto (ZF 9HP). Electronic console shift. No manual in North America.",
+        "drivetrain": "FWD or AWD (Active Drive — rear-wheel disconnect). Unibody compact on CUSW platform.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic console shift. Shift lock solenoid — no traditional cable. Manual override: pry bezel surround from around shifter OR locate small access hole/cap on bezel near P. Insert screwdriver into override hole, press release tab, press brake, move to N. ZF 9HP: jumping battery first is strongly preferred over manual override.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Electronic selector to N.",
+            "MANUAL OVERRIDE: Carefully pry shifter bezel surround panel away from console. Locate small override access hole at front-right of shifter base. Insert screwdriver into hole. Press and hold release tab. Press brake. Move shift lever to N.",
+            "ZF 9HP NOTE: Complex transmission — jump battery strongly preferred. Jumpable under hood.",
+            "AWD (Active Drive): rear-wheel disconnect system. FWD available if disconnected. Short wheel-lift from rear acceptable if trans confirmed in N — flatbed preferred.",
+            "Battery: under hood. Verify side (driver or passenger) for your specific model before applying jump cables."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side or passenger side depending on engine/market. Verify before jumping.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Compass MP 2nd gen (2017-2026). Electronic shift. ZF 9HP complex — prefer jump over manual override. Active Drive AWD has rear disconnect. Battery location varies — check before jumping.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Renegade BU",
+      "chassis": null,
+      "years": "2015–2026",
+      "meta": {
+        "transmission": "6-speed manual, 6-speed auto, or 9-speed auto (ZF 9HP). Electronic console shift on autos.",
+        "drivetrain": "FWD or AWD (Active Drive I — rear-wheel disconnect on demand). Unibody subcompact on SMALL platform.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Automatic: electronic shift lock. Manual override: pry console shifter bezel surround off, locate small release tab/slot at base of shifter assembly. Screwdriver into slot, press tab, brake pressed, move to N. Manual trans: clutch interlock only. NOTE: DO NOT FLAT TOW any Renegade — manufacturer explicitly prohibits it.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Electronic selector to N.",
+            "MANUAL OVERRIDE (auto): Pry shifter surround bezel off console. Locate release tab at base of shifter. Screwdriver into slot. Press tab + brake + move to N.",
+            "MANUAL TRANS: Clutch in, shift to N.",
+            "AWD TOWING: Active Drive I has rear-wheel disconnect. Short wheel-lift from rear possible with trans in N. FLATBED strongly preferred — avoid rear wheel-lift on AWD.",
+            "FLAT TOW PROHIBITED: Jeep explicitly prohibits flat towing any Renegade — drivetrain damage will occur.",
+            "ZF 9HP: Jump battery first — override is difficult. Battery under hood or under rear seat depending on market.",
+            "Battery: under hood, driver side (verify location)."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side (most US-market models). Some markets: under rear seat. Verify.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Renegade BU (2015-2026). FLAT TOW PROHIBITED by manufacturer. Electronic shift — prefer jump over manual override on ZF 9HP. Active Drive AWD rear disconnect. Verify battery location (US: under hood; some markets: under rear seat).",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Cherokee KL",
+      "chassis": "5th Gen",
+      "years": "2014–2023",
+      "meta": {
+        "transmission": "6-speed auto (2014-2018) or 9-speed auto (ZF 9HP) 2014+. Electronic console push-button or lever shift.",
+        "drivetrain": "FWD or AWD (Active Drive I, II, or with low range). Unibody on Fiat C-CUSW platform.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic shift with brake-shift interlock. MANUAL OVERRIDE: (1) Key OFF, parking brake on. (2) Pry up or pull away the shifter bezel/console surround (trim ring around shifter). (3) Locate small WHITE TAB on the FRONT PASSENGER side of the shifter assembly base. (4) Insert small screwdriver, push the white tab FORWARD (toward front of vehicle). (5) While holding white tab forward, press brake and move shifter to N. ZF 9HP: ALWAYS jump battery first — far more reliable than override. Once powered: press brake, shift to N normally.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Shift to N. Verify indicator shows N.",
+            "MANUAL OVERRIDE (ZF 9HP — complicated): Parking brake on. Pry shifter surround bezel off console carefully. Locate WHITE TAB on front-passenger side of shifter base. Push white tab FORWARD with screwdriver while pressing brake pedal. Move shifter to N.",
+            "ZF 9HP JUMP FIRST: Strongly recommend jumping battery before attempting manual override. Battery under hood. Once 12V restored: press brake, shift to N. ZF 9HP may require key cycle to recognize gear change.",
+            "TRANSFER CASE: Active Drive I/II — electronic push-button. No true 2WD on Active Drive II (full-time). Active Drive I: has FWD mode. For flatbed loading: trans N is sufficient if AWD is on-demand.",
+            "ACTIVE DRIVE II / LOW RANGE: No 2WD — rear axle always engaged. Flatbed preferred.",
+            "Cherokee KL was discontinued February 2023. 2026 Cherokee KM is a new/different model.",
+            "Battery: under hood — verify side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood (most models), driver or passenger side depending on year and engine. Verify location before jumping. Negative ground: body or engine block.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Cherokee KL (2014-2023). ZF 9HP complex — JUMP BATTERY FIRST. Manual override: pry bezel, push white tab forward at front-passenger side of shifter. Active Drive II: no 2WD, flatbed preferred. Discontinued Feb 2023.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Cherokee KM",
+      "chassis": "6th Gen",
+      "years": "2026–2026",
+      "meta": {
+        "transmission": "Hybrid CVT/automatic. Electronic shift.",
+        "drivetrain": "AWD hybrid (STLA Large Transverse platform). 1.6L turbo hybrid standard. Rear electric motor.",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic shift with brake interlock. Manual override: pry shifter bezel surround — locate override tab/slot at shifter base. Screwdriver into slot, press tab, brake pressed, shift to N. Jumping 12V strongly preferred.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Electronic selector to N.",
+            "JUMP 12V: Under hood. Once powered, shift to N normally.",
+            "CRITICAL: HV hybrid battery under floor — NEVER touch orange/yellow cables. 12V only for jumping.",
+            "AWD hybrid: flatbed recommended. Consult Jeep Roadside Assistance for hybrid towing guidance.",
+            "Battery (12V): under hood. Verify positive terminal location."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V auxiliary under hood. HV hybrid battery in floor. NEVER touch orange/yellow HV hybrid cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Cherokee KM 6th gen (2026+). New platform (STLA Large Transverse). Hybrid AWD. Production started Aug 2025 in Mexico for 2026 MY. Jump 12V only. Never touch HV orange cables. Procedures may evolve — verify with Jeep when encountered.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Jeep",
+      "model": "Wagoneer / Grand Wagoneer",
+      "chassis": null,
+      "years": "2022–2026",
+      "meta": {
+        "transmission": "8-speed automatic (ZF 8HP75 or 8HP95). Electronic console shift-by-wire (rotary dial or push-button depending on trim).",
+        "drivetrain": "RWD or 4WD (Quadra-Trac I or Selec-Terrain). Full-size body-on-frame 3-row SUV on Ram 1500 platform.",
+        "tags": [
+          "rwd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic rotary or push-button E-shift. No physical shifter cable. Manual override: lift armrest, check rear of console storage area for pull-cord/override mechanism (same family as WL/WK2 2014+ architecture). STRONGLY prefer jumping battery.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "PREFERRED — WITH POWER: Parking brake on. Key ON. Press brake. Rotate/press electronic selector to N.",
+            "JUMP BATTERY: Under hood, driver side. Once 12V restored: press brake, shift to N via electronic selector.",
+            "MANUAL OVERRIDE (last resort): Lift armrest. Check rear of console storage compartment for emergency pull cord. Slide lock tab sideways, pull cord to release Park to Neutral.",
+            "TRANSFER CASE: Electronic Selec-Terrain/Quadra-Trac. Quadra-Trac I: no 2WD — FLATBED ONLY. Selec-Terrain: 2WD available.",
+            "WEIGHT: Wagoneer ~6,000+ lbs, Grand Wagoneer ~6,400+ lbs — verify flatbed/tow truck capacity.",
+            "Battery: under hood, driver side."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood, driver side. Standard top-post. Positive jump terminal accessible under hood. Negative: engine block or body ground.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Wagoneer/Grand Wagoneer (2022-2026). Ram 1500 platform. Electronic E-shift. Jump battery preferred. Quadra-Trac I = FLATBED ONLY. Heavy vehicles — verify truck capacity. Rotary or push-button selector by trim.",
+        "issues": []
+      }
+    }
+  ]
+}

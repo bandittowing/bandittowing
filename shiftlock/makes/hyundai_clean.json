@@ -1,0 +1,902 @@
+{
+  "make": "Hyundai",
+  "count": 17,
+  "vehicles": [
+    {
+      "make": "Hyundai",
+      "model": "Elantra",
+      "chassis": null,
+      "years": "2001–2026",
+      "meta": {
+        "transmission": "4-speed, 6-speed, CVT, or DCT (varies by generation)",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near gear selector base on console",
+          "steps": [
+            "Turn ignition to ON.",
+            "This vehicle has a DCT dual-clutch transmission — it requires 12V power to shift reliably.",
+            "Locate the shift lock slot — Cap near gear selector base on console.",
+            "Insert a thin key or flathead into the slot.",
+            "Press firmly and hold.",
+            "Press the brake pedal while holding.",
+            "Move the selector to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "DCT REQUIRES POWER: Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to N normally.",
+            "If mechanical slot is used without power: DCT transmissions may resist — apply steady firm pressure and hold for several seconds."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails.",
+          "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Elantra N DCT (2022+): power preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Sonata",
+      "chassis": null,
+      "years": "2000–2026",
+      "meta": {
+        "transmission": "4-speed, 6-speed, 8-speed auto, or hybrid CVT",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near gear selector base on console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the shift lock override slot — Cap near gear selector base on console.",
+            "Insert a thin key or flathead into the slot and press firmly down.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to N normally.",
+            "If using slot without power, apply consistent firm pressure — hybrid selectors may require more force.",
+            "Hybrid: 12V auxiliary only — never touch HV battery."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Hybrid: 12V only."
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Tucson",
+      "chassis": null,
+      "years": "2005–2026",
+      "meta": {
+        "transmission": "4-speed, 6-speed, DCT, or hybrid CVT",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near gear selector base",
+          "steps": [
+            "Turn ignition to ON.",
+            "DUAL-CLUTCH TRANSMISSION: restoring 12V power first is STRONGLY PREFERRED — DCT/DSG/S-tronic cannot shift reliably without power.",
+            "Locate the shift lock override slot — Cap near gear selector base.",
+            "Insert a thin key or flathead into the slot and press firmly down.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to N normally.",
+            "If using slot without power, apply consistent firm pressure — hybrid selectors may require more force.",
+            "Hybrid: 12V auxiliary only — never touch HV battery."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails.",
+          "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Hybrid/PHEV: 12V only."
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Santa Fe",
+      "chassis": null,
+      "years": "2001–2026",
+      "meta": {
+        "transmission": "4-speed, 6-speed, or 8-speed automatic",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near gear selector base",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Cap near gear selector base.",
+            "Pry off the cap or cover if present using your ignition key or a small flathead.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored, use the shift lock slot above — Cap near gear selector base."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. AWD/Hybrid: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Hybrid/PHEV: 12V only."
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "AWD optional.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Palisade",
+      "chassis": null,
+      "years": "2020–2026",
+      "meta": {
+        "transmission": "8-speed automatic",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic selector — slot near selector base",
+          "steps": [
+            "Turn ignition to ON.",
+            "Electronic rotary gear selector on center console.",
+            "Locate the override slot near the base of the rotary selector.",
+            "Insert thin flathead. Press firmly. Hold while pressing brake. Rotate selector to N.",
+            "Restoring 12V power first is strongly preferred."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+            "Electronic selectors require power — mechanical override is a last resort only."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD — flatbed preferred. Block all wheels.",
+        "notes": "AWD optional. 3-row SUV.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 5",
+      "chassis": null,
+      "years": "2022–2026",
+      "meta": {
+        "transmission": "Single-speed electric",
+        "drivetrain": "RWD or AWD (electric)",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic selector — slot near selector base",
+          "steps": [
+            "Turn vehicle to ON/Ready mode.",
+            "Ioniq 5 uses an electronic gear selector (rotary/dial type on center console).",
+            "Rotate or press the selector to N position.",
+            "If power is lost: connect jump pack to 12V auxiliary battery under the hood.",
+            "12V AUXILIARY ONLY — NEVER touch HV battery.",
+            "Once powered, select N using the rotary selector."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — electric drivetrain.",
+            "12V auxiliary under hood.",
+            "12V AUXILIARY ONLY — never touch HV components.",
+            "Once powered, rotate selector to N."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — electric drivetrain",
+        "notes": [
+          "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+          "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+          "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+        ]
+      },
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpPoints": "Under hood — 12V auxiliary red (+) / black (−) terminals",
+        "type": "auxiliary-12v-only",
+        "warning": "FLATBED ONLY. 12V auxiliary only — never touch HV battery."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY — electric drivetrain or permanent AWD. Never tow with driven wheels on the ground.",
+        "notes": "E-GMP platform. 800V system — NEVER touch HV components.",
+        "issues": [
+          {
+            "title": "800V System — Extreme HV Hazard",
+            "detail": "The Ioniq 5 uses an 800V high-voltage system — twice the voltage of most EVs. This is NOT a 400V system. Never touch, probe, or attempt to access any orange HV cables or components. 12V auxiliary battery under hood only."
+          },
+          {
+            "title": "FLATBED ONLY",
+            "detail": "Electric AWD or RWD. Towing with wheels on the ground will damage the motors. No exceptions."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 6",
+      "chassis": null,
+      "years": "2023–2026",
+      "meta": {
+        "transmission": "Single-speed electric",
+        "drivetrain": "RWD or AWD (electric)",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "COLUMN-MOUNTED electronic selector — override slot near column selector base or steering column.",
+          "steps": [
+            "Turn vehicle to ON/Ready mode.",
+            "Ioniq 6 has a COLUMN-MOUNTED electronic gear selector.",
+            "Use the column selector to move to N.",
+            "If power is lost: connect jump pack to 12V auxiliary battery under the hood.",
+            "12V AUXILIARY ONLY — NEVER touch HV battery.",
+            "Once powered, use column selector to choose N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — electric drivetrain.",
+            "12V auxiliary under hood.",
+            "12V AUXILIARY ONLY — never touch HV components.",
+            "Column selector: move to N once powered."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — electric drivetrain",
+        "notes": [
+          "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+          "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+          "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+        ]
+      },
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpPoints": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warning": "FLATBED ONLY. 12V auxiliary only — never touch HV battery."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY — electric drivetrain or permanent AWD. Never tow with driven wheels on the ground.",
+        "notes": "Unique column-mounted electronic shifter.",
+        "issues": [
+          {
+            "title": "Column-Mounted Electronic Shifter",
+            "detail": "The Ioniq 6 uses a unique column-mounted electronic gear selector — there is no center console shifter. The shift lock slot is near the base of the steering column, not on the console. Operators unfamiliar with this layout will spend time looking in the wrong place."
+          },
+          {
+            "title": "800V System — Extreme HV Hazard",
+            "detail": "Same 800V platform as Ioniq 5. 12V battery under hood only. Never touch HV components."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Kona",
+      "chassis": null,
+      "years": "2018–2026",
+      "meta": {
+        "transmission": "6-speed auto, DCT, CVT, or electric",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base (ICE) or slot near electronic selector (EV)",
+          "steps": [
+            "Turn the Hyundai Kona to ON/Ready mode.",
+            "DUAL-CLUTCH TRANSMISSION: restoring 12V power first is STRONGLY PREFERRED — DCT/DSG/S-tronic cannot shift reliably without power.",
+            "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
+            "Insert a thin key or flathead into the slot and press firmly.",
+            "Press the brake pedal while holding the slot.",
+            "Move selector to N.",
+            "FLATBED ONLY — do not tow with driven wheels on the ground."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to N normally.",
+            "NEVER touch the high-voltage traction battery.",
+            "FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. AWD/EV: flatbed only. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+          "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+          "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers.",
+          "DUAL-CLUTCH TRANSMISSION (DCT): Power is strongly preferred to shift to neutral. DCT without power may not release — use flatbed if shift override fails.",
+          "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals. EV: 12V auxiliary only.",
+        "type": "standard-12v",
+        "warning": "EV: 12V only, flatbed only."
+      },
+      "alerts": {
+        "warning": "Kona EV: FLATBED ONLY.",
+        "notes": "Kona EV: flatbed only.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Elantra",
+      "chassis": "1st/2nd Gen 1992-2000",
+      "years": "1992–2000",
+      "meta": {
+        "transmission": "4-speed automatic or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near selector base on center console",
+          "steps": [
+            "Turn ignition to ON.",
+            "AUTOMATIC: Locate shift lock slot — small cap near selector base.",
+            "Pry off cap. Insert key and press firmly.",
+            "While holding, press brake. Move selector to Neutral.",
+            "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Manual trans: depress clutch, Neutral.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Sonata",
+      "chassis": "2nd/3rd Gen 1993-2001",
+      "years": "1993–2001",
+      "meta": {
+        "transmission": "4-speed automatic or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near selector base on center console",
+          "steps": [
+            "Turn ignition to ON.",
+            "AUTOMATIC: Locate shift lock slot — small cap near selector base.",
+            "Pry off cap. Insert key and press firmly.",
+            "While holding, press brake. Move selector to Neutral.",
+            "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Manual trans: depress clutch, Neutral.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Tiburon",
+      "chassis": "1997-2001",
+      "years": "1997–2001",
+      "meta": {
+        "transmission": "4-speed automatic or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near selector base on center console",
+          "steps": [
+            "Turn ignition to ON.",
+            "AUTOMATIC: Locate shift lock slot — small cap near selector base.",
+            "Pry off cap. Insert key and press firmly.",
+            "While holding, press brake. Move selector to Neutral.",
+            "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Manual trans: depress clutch, Neutral. Sports coupe.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Accent / Excel",
+      "chassis": null,
+      "years": "1994–2017",
+      "meta": {
+        "transmission": "4-speed automatic or CVT (select years) or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "Manual: depress clutch. FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "CVT: flatbed preferred.",
+        "notes": "Manual: depress clutch, select Neutral. CVT (certain years): flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Genesis Coupe",
+      "chassis": null,
+      "years": "2010–2016",
+      "meta": {
+        "transmission": "6-speed automatic or 6-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small slot near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start).",
+            "AUTOMATIC: slot near selector base on console. Pry cap. Insert key. Press firmly. Hold. Press brake. Move to N.",
+            "MANUAL TRANSMISSION: depress clutch fully, move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "Manual: depress clutch. RWD: lift from rear."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air.",
+        "notes": [
+          "RWD: lift from rear."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Manual trans: depress clutch, select N. NOT to be confused with the Genesis luxury brand.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Veloster",
+      "chassis": null,
+      "years": "2012–2022",
+      "meta": {
+        "transmission": "6-speed automatic, DCT, or 6-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small slot near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "DUAL-CLUTCH TRANSMISSION: restoring 12V power first is STRONGLY PREFERRED — DCT/DSG/S-tronic cannot shift reliably without power.",
+            "Locate the shift lock release: small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "Manual: depress clutch. DCT: restore power preferred. FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "DCT: restore power before shifting.",
+        "notes": "Manual: depress clutch, select Neutral. DCT models: power strongly preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "IONIQ",
+      "chassis": "1st Gen Hybrid/PHEV/EV",
+      "years": "2017–2022",
+      "meta": {
+        "transmission": "6-speed DCT (Hybrid/PHEV) or single-speed electric (EV)",
+        "drivetrain": "FWD",
+        "tags": [
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small slot near gear selector base on console; EV: electronic N button",
+          "steps": [
+            "Turn ignition to ON.",
+            "DUAL-CLUTCH TRANSMISSION: restoring 12V power first is STRONGLY PREFERRED — DCT/DSG/S-tronic cannot shift reliably without power.",
+            "HYBRID/PHEV: Locate shift lock slot near gear selector base. Insert key, press firmly, hold, press brake, move to N.",
+            "EV variant: press and hold the N button on the gear selector while pressing the brake pedal."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to 12V battery — under the hood.",
+            "HYBRID/PHEV/EV: 12V auxiliary ONLY — NEVER touch the high-voltage battery.",
+            "Once 12V is restored, shift to Neutral using DCT slot or N button.",
+            "DCT: requires power to shift reliably.",
+            "EV variant: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Hybrid/PHEV: lift from front (FWD). EV: FLATBED ONLY.",
+        "notes": [
+          "Hybrid/PHEV FWD: lift from front.",
+          "EV: FLATBED ONLY — electric drivetrain.",
+          "ALL variants: 12V auxiliary only — never access HV battery."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — 12V auxiliary terminals",
+        "type": "auxiliary-12v-only",
+        "warning": "12V auxiliary ONLY. Never touch HV battery."
+      },
+      "alerts": {
+        "warning": "EV variant: FLATBED ONLY. All variants: 12V auxiliary ONLY — never touch HV battery.",
+        "notes": "Three powertrains: Hybrid, PHEV, and EV. EV: flatbed only. All FWD. 12V under hood.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Santa Cruz",
+      "chassis": null,
+      "years": "2022–2026",
+      "meta": {
+        "transmission": "8-speed automatic or 8-speed wet DCT (2.5T)",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic selector — small slot near base of electronic gear selector",
+          "steps": [
+            "Turn ignition to ON.",
+            "DUAL-CLUTCH TRANSMISSION: restoring 12V power first is STRONGLY PREFERRED — DCT/DSG/S-tronic cannot shift reliably without power.",
+            "Electronic selector — locate override slot near base.",
+            "Remove trim cover if present.",
+            "Insert thin flathead. Press firmly. Hold. Press brake. Move to N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "AWD: flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. AWD: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front.",
+          "AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warning": "AGM battery (2022+ with stop-start) — use AGM-compatible jump pack."
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred.",
+        "notes": "Compact pickup/crossover. AWD: flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Hyundai",
+      "model": "Venue",
+      "chassis": null,
+      "years": "2020–2026",
+      "meta": {
+        "transmission": "CVT or 6-speed manual or 7-speed DCT",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small slot near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "DUAL-CLUTCH TRANSMISSION: restoring 12V power first is STRONGLY PREFERRED — DCT/DSG/S-tronic cannot shift reliably without power.",
+            "Locate the shift lock release: small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "CVT: flatbed preferred. Manual: depress clutch."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front.",
+        "notes": [
+          "FWD: lift from front.",
+          "CVT: Do NOT exceed 35 mph or 50 miles with drive wheels on ground."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "CVT: flatbed preferred.",
+        "notes": "CVT: flatbed preferred. Manual: depress clutch. DCT: restore power preferred.",
+        "issues": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "make": "Pontiac",
+  "count": 12,
+  "vehicles": [
+    {
+      "make": "Pontiac",
+      "model": "G6",
+      "chassis": "2005-2010",
+      "years": "2005–2010",
+      "meta": {
+        "transmission": "4-speed or 6-speed automatic",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on center console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the plastic cap near the gear selector base on the center console. Pry off with a key.",
+            "Insert key into the exposed slot and press firmly downward.",
+            "While holding, press the brake pedal.",
+            "Move the selector from Park to Neutral. Replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "12V battery under the hood — connect jump pack.",
+            "Once powered, press brake and shift to N normally.",
+            "FWD: lift from rear — front (drive) wheels roll on ground."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from rear (front FWD drive wheels roll).",
+        "notes": [
+          "FWD: straightforward rear lift."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "FWD — rear lift. Common on roads despite discontinuation in 2010.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Pontiac",
+      "model": "Grand Prix",
+      "chassis": "2004-2008",
+      "years": "2004–2008",
+      "meta": {
+        "transmission": "4-speed automatic",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the shift lock cap near the selector base on the center console. Pry off.",
+            "Insert key into the slot and press firmly downward.",
+            "Press the brake pedal while holding.",
+            "Move the selector to Neutral. Replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "12V battery under the hood — connect jump pack.",
+            "Once powered, press brake and shift to N normally.",
+            "FWD: lift from rear — front (drive) wheels roll on ground."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from rear (front FWD wheels roll).",
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "FWD — rear lift.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Pontiac",
+      "model": "Grand Am",
+      "chassis": "2002-2005",
+      "years": "2002–2005",
+      "meta": {
+        "transmission": "4-speed automatic",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on console",
+          "steps": [
+            "Find cap near selector base. Pry off.",
+            "Insert key, press.",
+            "Press brake. Move to N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood.",
+            "Connect jump pack.",
+            "Shift normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from rear.",
+        "notes": []
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "FWD — rear lift. N-body platform.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Pontiac",
+      "model": "Vibe",
+      "chassis": "2003-2010",
+      "years": "2003–2010",
+      "meta": {
+        "transmission": "4-speed automatic or 5-speed manual",
+        "drivetrain": "FWD or AWD (GT AWD)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on console",
+          "steps": [
+            "Turn ignition to ON.",
+            "The Vibe is built on the Toyota Matrix/Corolla platform — locate the shift lock slot near the gear selector base.",
+            "Pry off the cap with a key or thin flathead.",
+            "Insert key into the slot and press firmly.",
+            "Press the brake pedal while holding.",
+            "Move the selector to Neutral. Replace cap.",
+            "MANUAL TRANSMISSION: depress clutch and move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "12V battery under the hood — connect jump pack.",
+            "Once powered, press brake and shift to N normally.",
+            "FWD: lift from rear — front (drive) wheels roll on ground."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: rear lift. AWD GT: flatbed preferred.",
+        "notes": [
+          "Toyota Matrix twin — shares all service data.",
+          "AWD: flatbed."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": "AWD: flatbed preferred."
+      },
+      "alerts": {
+        "warning": "AWD GT: flatbed preferred.",
+        "notes": "Toyota Matrix twin. AWD: flatbed preferred. Manual option available.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Pontiac",
+      "model": "Torrent",
+      "chassis": "2006-2009",
+      "years": "2006–2009",
+      "meta": {
+        "transmission": "5-speed automatic",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the shift lock cap near the selector base on the center console.",
+            "Pry off cap and insert key into the slot. Press firmly.",
+            "Press the brake pedal while holding.",
+            "Move selector to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "12V battery under the hood — connect jump pack.",
+            "Once powered, shift normally.",
+            "FWD: lift from rear. AWD: flatbed preferred — no transfer case neutral on Torrent AWD."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: rear lift. AWD: flatbed preferred.",
+        "notes": [
+          "Equinox twin — shares all procedures."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": "AWD: flatbed."
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred.",
+        "notes": "Chevrolet Equinox twin. AWD: flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Pontiac",
+      "model": "Solstice",
+      "chassis": "2006-2009",
+      "years": "2006–2009",
+      "meta": {
+        "transmission": "5-speed automatic or 5-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap or slot near selector base on console",
+          "steps": [
+            "Find cap near selector base. Pry off.",
+            "Insert key, press.",
+            "Press brake. Move to N.",
+            "Manual: clutch, N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood.",
+            "Connect jump pack.",
+            "Shift normally.",
+            "RWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from front (rear RWD wheels roll). Flatbed preferred due to low clearance.",
+        "notes": [
+          "Very low clearance — flatbed preferred.",
+          "Convertible soft top — do not strap over roof."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": "Very low clearance — flatbed preferred."
+      },
+      "alerts": {
+        "warning": "Very low ground clearance. Use flatbed or minimal ramp angle.",
+        "notes": "Roadster/convertible. RWD — lift from front. Very low clearance.",
+        "issues": [
+          {
+            "title": "Very Low Ground Clearance",
+            "detail": "The Solstice roadster has very low ground clearance, especially when found lowered or with aftermarket suspension. Use a flatbed when possible. If using wheel-lift, check clearance carefully."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Pontiac",
+      "model": "Grand Prix",
+      "chassis": "1997-2003",
+      "years": "1997–2003",
+      "meta": {
+        "transmission": "4-speed automatic",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near selector base on center console",
+          "steps": [
+            "Turn ignition to ON (key to Run position — do not start).",
+            "Locate the shift lock override slot — Small cap near selector base on center console.",
+            "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "FWD W-body platform. Common vehicle.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Pontiac",
+      "model": "Bonneville",
+      "chassis": "1992-2005",
+      "years": "1992–2005",
+      "meta": {
+        "transmission": "4-speed automatic",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near selector base on center console",
+          "steps": [
+            "Turn ignition to ON (key to Run position — do not start).",
+            "Locate the shift lock override slot — Small cap near selector base on center console.",
+            "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "FWD H-body platform. Full-size Pontiac.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Pontiac",
+      "model": "Trans Am / Firebird",
+      "chassis": "1993-2002",
+      "years": "1993–2002",
+      "meta": {
+        "transmission": "4-speed automatic or 6-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near selector base on center console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the cap near the selector base on the center console. Pry off.",
+            "Insert key into slot and press firmly.",
+            "While holding, press brake. Move selector to Neutral.",
+            "MANUAL: depress clutch and move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood, driver side.",
+            "Once 12V power is restored, press brake and shift to Neutral normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air. Flatbed preferred.",
+        "notes": [
+          "RWD: lift from rear.",
+          "Same platform as Camaro — identical procedure."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "RWD F-body platform. Same as Camaro. Manual trans: depress clutch.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Pontiac",
+      "model": "Grand Am",
+      "chassis": "1992-2001",
+      "years": "1992–2001",
+      "meta": {
+        "transmission": "3-speed or 4-speed automatic, or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near selector base on center console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the small cap near the selector base on the center console. Pry off.",
+            "Insert key into slot and press firmly.",
+            "While holding, press brake. Move to Neutral.",
+            "MANUAL: depress clutch and move to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "N-body platform. Very common 1990s vehicle.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Pontiac",
+      "model": "Montana / Trans Sport",
+      "chassis": null,
+      "years": "1990–2009",
+      "meta": {
+        "transmission": "3-speed automatic (3T40) or 4-speed automatic (4T65-E)",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock release: small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "AWD variants: FLATBED PREFERRED. FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. AWD: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front. AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred.",
+        "notes": "Trans Sport (1990-1999), Montana (1999-2009). AWD: flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Pontiac",
+      "model": "Aztek",
+      "chassis": null,
+      "years": "2001–2005",
+      "meta": {
+        "transmission": "4-speed automatic (4T65-E)",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "AWD (Versatrak): FLATBED PREFERRED — no traditional TC."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. AWD: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front. AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred.",
+        "notes": "AWD: flatbed preferred.",
+        "issues": []
+      }
+    }
+  ]
+}

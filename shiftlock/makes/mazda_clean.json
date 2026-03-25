@@ -1,0 +1,551 @@
+{
+  "make": "Mazda",
+  "count": 10,
+  "vehicles": [
+    {
+      "make": "Mazda",
+      "model": "Mazda3 / Mazda6",
+      "chassis": null,
+      "years": "2004–2026",
+      "meta": {
+        "transmission": "4-speed, 5-speed, 6-speed auto, or CVT; manual available",
+        "drivetrain": "FWD or AWD (Mazda3 2019+)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the shift lock override slot — Cap near selector base on console.",
+            "Insert a thin key or small flathead into the slot.",
+            "Press firmly and hold.",
+            "Press the brake pedal while holding.",
+            "Move the selector to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to N normally.",
+            "CVT transmissions: do NOT exceed 35 mph or 50 miles with driven wheels on ground — flatbed strongly preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+          "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Manual: clutch to N. AWD available on Mazda3 (2019+).",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-5",
+      "chassis": null,
+      "years": "2013–2026",
+      "meta": {
+        "transmission": "6-speed automatic",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Cap near selector base on console.",
+            "Pry off the cap or cover if present using your ignition key or a small flathead.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored, use the shift lock slot above — Cap near selector base on console."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "AWD optional.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-9 / CX-90",
+      "chassis": null,
+      "years": "2007–2026",
+      "meta": {
+        "transmission": "6-speed or 8-speed automatic",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base (older) or electronic selector slot (2024+)",
+          "steps": [
+            "Turn ignition to ON.",
+            "Pry or slide the trim piece at the base of the electronic gear selector to expose the override slot.",
+            "Remove trim panel or cover if present — use a trim pry tool or your fingernail at the edge.",
+            "Insert a thin key or flathead into the exposed slot.",
+            "Press firmly inward and hold.",
+            "While holding, press the brake pedal.",
+            "Press the N button or move the electronic selector to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and select N normally on the electronic selector.",
+            "Electronic selectors require power — mechanical override is a last resort only."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. CX-90 PHEV: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals. CX-90 PHEV: 12V only.",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "AWD standard.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-3 / CX-30 / CX-50",
+      "chassis": null,
+      "years": "2016–2026",
+      "meta": {
+        "transmission": "6-speed automatic",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Cap near selector base.",
+            "Pry off the cap or cover if present using your ignition key or a small flathead.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored, use the shift lock slot above — Cap near selector base."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "AWD optional.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "MX-5 Miata",
+      "chassis": null,
+      "years": "2006–2026",
+      "meta": {
+        "transmission": "6-speed auto or 6-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base (auto only)",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Cap near selector base (auto only).",
+            "Pry off the cap or cover if present using your ignition key or a small flathead.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — Under hood (driver side on ND gen), or passenger side on NC gen.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored, use the shift lock slot above — Cap near selector base (auto only)."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from rear — rear (drive) wheels in the air or flatbed — low clearance, flatbed preferred. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
+          "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        ]
+      },
+      "battery": {
+        "location": "Under hood (driver side on ND gen), or passenger side on NC gen",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Very low clearance. Soft top: never run straps over the roof."
+      },
+      "alerts": {
+        "warning": "LOW CLEARANCE — flatbed preferred.",
+        "notes": "Manual transmission is most common on all generations. Manual: depress clutch fully, select Neutral — no shift lock slot needed. Automatic (rare): slot near selector base on console.",
+        "issues": [
+          {
+            "title": "Very Low Ground Clearance",
+            "detail": "Ground clearance on the Miata is approximately 4.5 inches. Use shallow approach ramps for flatbed loading. The front air dam and soft front lip are easily damaged by standard ramp angles."
+          },
+          {
+            "title": "Soft Top Convertible Damage Risk",
+            "detail": "Soft top models are easily damaged if straps or chains contact the roof. Use hood straps or wheel lift methods. Never run straps over the soft top."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "Miata MX-5",
+      "chassis": "NA/NB",
+      "years": "1990–2005",
+      "meta": {
+        "transmission": "4-speed automatic (NA) or 5-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Manual: no shift lock. Auto (rare): small cap near selector base on console.",
+          "steps": [
+            "MANUAL TRANSMISSION (standard on NA/NB): depress clutch fully, move lever to Neutral.",
+            "AUTOMATIC (rare, available on some NA/NB trims): locate slot near selector base on console.",
+            "Pry off cap. Insert key. Press firmly. Hold. Press brake. Move to N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Manual: depress clutch, select N.",
+            "Auto: connect jump pack — under hood. Once powered, shift to N.",
+            "RWD: lift from rear. High-value — flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear. Flatbed strongly preferred to avoid body damage.",
+        "notes": [
+          "RWD: lift from rear.",
+          "Lightweight body — very easy to scratch. Flatbed preferred.",
+          "Manual trans: depress clutch, select Neutral — no shift lock."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "High-value vehicle — flatbed preferred.",
+        "notes": "Manual is the most common configuration. Auto was available but rare.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "RX-8",
+      "chassis": null,
+      "years": "2004–2011",
+      "meta": {
+        "transmission": "6-speed automatic (RE6R01A) or 6-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small slot near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock release: small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "RWD: lift from rear.",
+            "CRITICAL: Rotary engine floods very easily — see Known Issues before attempting roadside restart."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear. Flatbed preferred.",
+        "notes": [
+          "RWD: lift from rear.",
+          "Rotary engine: very common flood tow — do not attempt restart without proper procedure."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Rotary engine frequently floods — this is a shop repair, not a roadside fix."
+      },
+      "alerts": {
+        "warning": "Rotary engine: very prone to flooding (over-choking on cold starts). Extremely common tow call.",
+        "notes": "Renesis rotary engine. Very common flood/no-start tow. Battery under hood. Manual: depress clutch.",
+        "issues": [
+          {
+            "title": "Rotary Engine Flooding — Extremely Common Tow Call",
+            "detail": "The RX-8 Renesis rotary engine is notorious for flooding (fuel-wash of apex seals) when started cold, driven short distances, or improperly shut down. This is the most common reason the RX-8 is towed. Do not attempt to 'jump start and go' — the engine requires a specific flooding recovery procedure. Tow to a shop."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "Tribute",
+      "chassis": null,
+      "years": "2001–2011",
+      "meta": {
+        "transmission": "4-speed automatic (4F27E) or 5-speed manual",
+        "drivetrain": "FWD or 4WD (part-time)",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "4WD: TC push-button or floor lever. Shift to 2WD before road towing.",
+            "IF BATTERY DEAD: jump first, shift to 2WD, then disconnect."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. 4WD: shift TC to 2WD first, then lift rear. Flatbed preferred.",
+        "notes": [
+          "Ford Escape platform. TC must be in 2WD for road towing.",
+          "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "4WD: shift to 2WD before road towing.",
+        "notes": "Ford Escape platform. 4WD: must shift to 2WD before road towing. Manual: depress clutch, select Neutral.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-7",
+      "chassis": null,
+      "years": "2007–2012",
+      "meta": {
+        "transmission": "6-speed automatic",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small slot near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock release: small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "AWD (torque-on-demand): FLATBED PREFERRED — no traditional TC."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. AWD: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front.",
+          "AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred.",
+        "notes": "AWD: flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mazda",
+      "model": "B-Series Truck",
+      "chassis": "B2300/B2500/B3000/B4000",
+      "years": "1994–2009",
+      "meta": {
+        "transmission": "4-speed automatic (4R44E/4R55E) or 5-speed manual",
+        "drivetrain": "RWD or 4WD (part-time)",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on floor console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock release: small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "4WD: manual floor TC lever — shift to 2H before road towing.",
+            "Manual trans: depress clutch, select N."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear.",
+        "notes": [
+          "Ford Ranger platform. Manual TC floor lever — must be in 2WD before road towing.",
+          "MANUAL TRANSMISSION: depress clutch, select Neutral."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Shift TC to 2H before road towing.",
+        "notes": "Ford Ranger-based. Manual TC floor lever. Manual: depress clutch, select Neutral.",
+        "issues": []
+      }
+    }
+  ]
+}

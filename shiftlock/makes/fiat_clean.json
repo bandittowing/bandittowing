@@ -1,0 +1,265 @@
+{
+  "make": "Fiat",
+  "count": 5,
+  "vehicles": [
+    {
+      "make": "Fiat",
+      "model": "500",
+      "chassis": "2012-2019",
+      "years": "2012–2019",
+      "meta": {
+        "transmission": "5-speed automatic or 6-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap or slot near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON.",
+            "AUTOMATIC: Locate the small plastic cap near the gear selector base on the center console. Pry off with a key or thin flathead.",
+            "Insert key into the exposed slot and press firmly downward.",
+            "While holding, press the brake pedal.",
+            "Move the selector from Park to Neutral. Replace cap.",
+            "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral. No shift lock exists on manual."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "12V battery under the hood — connect jump pack.",
+            "Once powered, press brake and shift to N normally.",
+            "FWD: lift from rear — front (drive) wheels roll on ground. Very light vehicle — watch approach angle on ramp."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from rear (front FWD wheels roll). Flatbed optional.",
+        "notes": [
+          "Very small and light — simple wheel-lift from rear.",
+          "Low clearance — check ramp angle."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Small vehicle — watch clearance."
+      },
+      "alerts": {
+        "warning": "Very small vehicle — watch clearance under tow truck.",
+        "notes": "Small, light vehicle. FWD — rear lift. Manual trans: depress clutch, N.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Fiat",
+      "model": "500e EV",
+      "chassis": "2020-2024",
+      "years": "2020–2024",
+      "meta": {
+        "transmission": "Single-speed electric",
+        "drivetrain": "FWD electric",
+        "tags": [
+          "requires_power",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic — touchscreen or selector override near base",
+          "steps": [
+            "Turn vehicle to ON/Ready mode.",
+            "Electronic selector or touchscreen — select N.",
+            "If power is lost: connect jump pack to 12V auxiliary under hood.",
+            "12V AUXILIARY ONLY — NEVER touch HV battery."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — electric drivetrain.",
+            "12V auxiliary under hood.",
+            "12V AUXILIARY ONLY — never touch HV battery.",
+            "Once powered, select N electronically."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — electric drivetrain.",
+        "notes": [
+          "Electric FWD — flatbed only.",
+          "Light vehicle — straightforward flatbed load."
+        ]
+      },
+      "battery": {
+        "location": "Under hood — 12V auxiliary",
+        "jumpPoints": "Under hood — 12V only",
+        "type": "auxiliary-12v-only",
+        "warning": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY. 12V only — never touch HV system.",
+        "notes": "FLATBED ONLY. Electric FWD. 12V only.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Fiat",
+      "model": "500X",
+      "chassis": "2016-2024",
+      "years": "2016–2024",
+      "meta": {
+        "transmission": "6-speed or 9-speed automatic; mild hybrid (2021+)",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Override slot near selector base under console trim",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the override slot at the selector base under the console trim.",
+            "Insert key or flathead into the slot and press firmly.",
+            "Press the brake pedal while holding.",
+            "Move the selector to N. Confirm N on the display."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "12V battery under the hood — connect jump pack.",
+            "Once powered, press brake and shift to N normally.",
+            "FWD: lift from rear — front (drive) wheels roll on ground.",
+            "AWD: FLATBED ONLY — 500X AWD has no transfer case neutral."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from rear. AWD: flatbed preferred.",
+        "notes": [
+          "AWD: no TC neutral — flatbed."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": "AWD: flatbed preferred."
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred.",
+        "notes": "FWD: rear lift. AWD: flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Fiat",
+      "model": "500L",
+      "chassis": "2014-2020",
+      "years": "2014–2020",
+      "meta": {
+        "transmission": "6-speed dual-clutch (DCT) or 6-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Override slot near selector base",
+          "steps": [
+            "Turn ignition to ON.",
+            "The 500L has a 6-speed DUAL-CLUTCH TRANSMISSION (DCT) — DCT requires 12V power to shift reliably.",
+            "Locate the override slot near the selector base. Insert key and press firmly.",
+            "Press the brake pedal while holding.",
+            "Move the selector to N.",
+            "MANUAL TRANSMISSION variant: depress clutch fully and move gear lever to N. No shift lock exists."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "DCT REQUIRES POWER: 12V battery under the hood — connect jump pack.",
+            "Once powered, press brake and shift to N normally. DCT transmissions may resist without power.",
+            "FWD: lift from rear — front (drive) wheels roll on ground.",
+            "Do NOT flat-tow the 500L automatic (DCT) — no lubrication pump when engine not running."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from rear (front FWD wheels roll). Do not flat-tow DCT.",
+        "notes": [
+          "DCT: rear lift only.",
+          "FWD: straightforward."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard",
+        "type": "standard-12v",
+        "warning": "DCT: rear lift only."
+      },
+      "alerts": {
+        "warning": "DCT transmission: rear lift only, not flat-tow.",
+        "notes": "FWD — rear lift. DCT: rear lift only (not flat-tow).",
+        "issues": []
+      }
+    },
+    {
+      "make": "Fiat",
+      "model": "124 Spider",
+      "chassis": null,
+      "years": "2017–2020",
+      "meta": {
+        "transmission": "6-speed automatic or 6-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small slot near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock release: small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead screwdriver.",
+            "Insert key or thin flathead into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal firmly.",
+            "Move the selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood, driver side.",
+            "Once powered, press brake and shift to N.",
+            "Manual: depress clutch, select Neutral.",
+            "RWD: lift from rear. High-value — flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear. Flatbed preferred.",
+        "notes": [
+          "RWD: lift from rear.",
+          "Mazda MX-5 ND platform. High-value — flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "High-value vehicle — flatbed preferred.",
+        "notes": "Mazda MX-5 (ND) platform. Manual: depress clutch. High-value roadster — flatbed preferred.",
+        "issues": []
+      }
+    }
+  ]
+}

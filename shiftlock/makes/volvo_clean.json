@@ -1,0 +1,617 @@
+{
+  "make": "Volvo",
+  "count": 11,
+  "vehicles": [
+    {
+      "make": "Volvo",
+      "model": "XC90",
+      "chassis": "2003-2014",
+      "years": "2003–2014",
+      "meta": {
+        "transmission": "4-speed or 6-speed automatic (Aisin)",
+        "drivetrain": "AWD (Haldex angle gear)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Inside the COIN TRAY / storage compartment in FRONT of the gear selector. Lift the rubber mat in the bottom of the coin tray to expose a small hole.",
+          "steps": [
+            "Turn ignition to ON (or Mode II — key on without engine).",
+            "Open the coin tray located in FRONT of the gear selector.",
+            "Lift away the rubber mat from the bottom of the coin tray.",
+            "Locate the small hole (with a spring-loaded button inside) in the bottom of the compartment.",
+            "Press a small screwdriver, thin flathead, or key blade firmly into the hole and HOLD.",
+            "While holding, press the button on the FRONT SIDE of the gear selector.",
+            "Move the selector to N.",
+            "Release the button and remove the tool.",
+            "Replace rubber mat."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, use the coin tray hole method above OR shift normally.",
+            "NOTE: If battery is completely dead and vehicle cannot be started, the rubber mat/hole method works WITHOUT power.",
+            "FLATBED preferred — Haldex AWD cannot be easily disengaged."
+          ]
+        }
+      },
+      "tow": {
+        "method": "AWD: FLATBED STRONGLY PREFERRED. If wheel-lift required: rear lift only, short distance, slow speed. Haldex damage risk is high with prolonged wheel-lift.",
+        "notes": [
+          "Haldex AWD angle gear is easily damaged by improper towing. Flatbed always preferred.",
+          "If wheel-lift must be used: rear lift, under 35 mph, under 35 miles.",
+          "Parking brake electronic issues reported — confirm brake functionality."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "AWD: flatbed strongly preferred."
+      },
+      "alerts": {
+        "warning": "AWD Haldex angle gear — flatbed strongly preferred. Do not wheel-lift without flatbed.",
+        "notes": "Slot is BEHIND the shifter, under rubber mat in storage tray — not at the shifter base.",
+        "issues": [
+          {
+            "title": "Shift Release Is BEHIND the Shifter, Not at Base",
+            "detail": "The override access holes are under the rubber mat in the storage compartment BEHIND the center console, not at the shifter base. Many operators probe the base area and cannot find it. Lift the mat in the tray behind the shifter."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "XC90",
+      "chassis": "2016-2024",
+      "years": "2016–2024",
+      "meta": {
+        "transmission": "8-speed automatic (Aisin) or T8 PHEV",
+        "drivetrain": "AWD (rear electric motor on T8)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Console storage tray IN FRONT of the gear selector — same as first gen: lift rubber mat, expose small hole.",
+          "steps": [
+            "Open the console storage tray in FRONT of the gear selector.",
+            "Lift away the rubber mat in the bottom of the tray.",
+            "Locate the small hole with the spring-loaded button.",
+            "Insert a small screwdriver or key blade and press firmly DOWN — hold it.",
+            "Press the button on the FRONT of the gear selector.",
+            "Move the selector to N.",
+            "Release and remove tool.",
+            "Replace rubber mat.",
+            "NOTE: The gear selector locks again if N is held for more than 3 seconds without the brake pedal depressed."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under the hood, passenger side on some trims.",
+            "Once 12V restored, shift normally OR use hole method above.",
+            "FLATBED preferred — AWD (Haldex on some, rear electric motor on T8)."
+          ]
+        }
+      },
+      "tow": {
+        "method": "AWD: FLATBED ONLY for T8 PHEV and Recharge. Standard AWD: flatbed strongly preferred.",
+        "notes": [
+          "48V MILD-HYBRID: Never jump from the 48V support battery. 12V only.",
+          "T8 PHEV: FLATBED ONLY. Orange cables indicate HV system — do not touch.",
+          "AWD angle gear damage risk with wheel-lift — flatbed always preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood (12V). 48V support battery separate — never jump from 48V.",
+        "jumpPoints": "Under hood — 12V terminals only. NEVER use 48V system.",
+        "type": "standard-12v",
+        "warning": "48V mild-hybrid: lethal voltage — never jump from 48V. T8 PHEV: 12V auxiliary only, never touch HV."
+      },
+      "alerts": {
+        "warning": "48V: NEVER use 48V battery to jump — lethal voltage. T8 PHEV: HV system present.",
+        "notes": "48V mild-hybrid on some trims. T8 PHEV: orange HV system present.",
+        "issues": [
+          {
+            "title": "48V Mild-Hybrid Jump Hazard",
+            "detail": "SPA-platform XC90s with mild-hybrid have a 48V support battery. Under no circumstances should this battery be used for jump starting. The 48V system can cause lethal shock. Always use the 12V under-hood terminals only."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "XC60",
+      "chassis": "2008-2024",
+      "years": "2008–2024",
+      "meta": {
+        "transmission": "6-speed automatic or 8-speed automatic (2018+); T8 PHEV available",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Storage compartment BEHIND the center console (between shifter and rear seat area). Lift the rubber mat in the floor of the storage compartment to expose a small opening.",
+          "steps": [
+            "Locate the storage compartment BEHIND the center console (toward the rear of the vehicle).",
+            "Lift away the rubber mat from the floor of the storage compartment.",
+            "Insert the key blade (detachable from key fob) or a small screwdriver into the small opening.",
+            "Press the key blade/tool DOWN as far as possible and HOLD.",
+            "While holding, move the gear selector out of Park.",
+            "Remove tool, replace rubber mat."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery is in TRUNK under cargo floor panel (many models).",
+            "Use engine compartment charging terminals (marked + with cover) for jumping.",
+            "Negative at right engine mount outer screw or grounding bolt.",
+            "Restore power, shift normally or use override.",
+            "T8 PHEV: 12V only — never touch HV system."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from rear (front drive wheels roll). AWD: flatbed preferred. T8 PHEV AWD: FLATBED ONLY.",
+        "notes": [
+          "Battery under cargo floor — never jump directly at trunk battery. Use engine compartment posts.",
+          "AWD Haldex: flatbed preferred to avoid angle gear damage.",
+          "T8 PHEV: flatbed only — regenerative braking and HV system."
+        ]
+      },
+      "battery": {
+        "location": "TRUNK under cargo floor panel (most models). Engine compartment has jump terminals.",
+        "jumpPoints": "Engine compartment: positive under plastic cover marked '+'; negative at right engine mount outer screw",
+        "type": "standard-12v",
+        "warning": "NEVER jump at trunk battery directly — use engine compartment terminals. T8 PHEV: 12V only."
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred. Battery in trunk — use engine compartment terminals.",
+        "notes": "Battery often in trunk — ALWAYS use engine compartment jump terminals, not trunk battery directly.",
+        "issues": [
+          {
+            "title": "Battery Is in Trunk — Use Engine Compartment Terminals",
+            "detail": "The main 12V battery on most XC60 models is under the cargo floor in the trunk. Do NOT attempt to jump directly at the trunk battery. Volvo provides dedicated jump-start terminals in the engine compartment (positive post with cover, negative at engine mount bolt). Always use these terminals."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "XC40",
+      "chassis": "2018-2024",
+      "years": "2018–2024",
+      "meta": {
+        "transmission": "7-speed or 8-speed automatic; Recharge: single-speed electric",
+        "drivetrain": "FWD or AWD; Recharge: AWD electric",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic selector with mechanical override near console base",
+          "steps": [
+            "Locate mechanical override near selector base.",
+            "Insert key or flat tool, press plunger.",
+            "Press brake. Move selector to N.",
+            "Recharge EV: use touchscreen Service menu or restore 12V for touchscreen access."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery in engine compartment (gas) or frunk/under hood (Recharge).",
+            "Connect 12V jump pack to engine compartment terminals.",
+            "Restore power. Shift normally or use override.",
+            "Recharge: 12V auxiliary only — NEVER touch HV battery."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Gas AWD: flatbed preferred. Gas FWD: rear lift. Recharge EV: FLATBED ONLY.",
+        "notes": [
+          "Recharge EV: flatbed only — electric motors damaged by rolling on ground.",
+          "Gas AWD: Haldex system — flatbed preferred.",
+          "Use engine compartment jump terminals on all models."
+        ]
+      },
+      "battery": {
+        "location": "Engine compartment (gas). Under hood (Recharge EV).",
+        "jumpPoints": "Engine compartment — marked + and −",
+        "type": "standard-12v",
+        "warning": "Recharge EV: flatbed only. 12V auxiliary only — never touch HV."
+      },
+      "alerts": {
+        "warning": "Recharge EV: FLATBED ONLY. Never tow with driven wheels on ground.",
+        "notes": "Recharge (EV): FLATBED ONLY. 12V auxiliary under hood.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "S60",
+      "chassis": "2011-2024",
+      "years": "2011–2024",
+      "meta": {
+        "transmission": "6-speed or 8-speed automatic; T8 PHEV available",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "requires_power",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Storage compartment BEHIND the center console (between shifter and rear seat area). Lift the rubber mat in the floor of the storage compartment to expose a small opening.",
+          "steps": [
+            "Locate the storage compartment BEHIND the center console (toward the rear of the vehicle).",
+            "Lift away the rubber mat from the floor of the storage compartment.",
+            "Insert the key blade (detachable from key fob) or a small screwdriver into the small opening.",
+            "Press the key blade/tool DOWN as far as possible and HOLD.",
+            "While holding, move the gear selector out of Park.",
+            "Remove tool, replace rubber mat."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery in TRUNK under floor panel (primary). Stop-start models may have second battery.",
+            "Use engine compartment jump terminals — positive under small black plastic cover marked '+'; negative at fuse box area.",
+            "Restore power. Shift normally or use slot.",
+            "T8 PHEV: 12V only."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from rear (front drive wheels roll). AWD: flatbed preferred.",
+        "notes": [
+          "Battery in trunk — never jump at trunk battery directly.",
+          "Dual battery on stop-start models — engine compartment terminals handle both.",
+          "AWD: Haldex — flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "TRUNK under floor panel. Engine compartment has jump terminals.",
+        "jumpPoints": "Engine compartment: small cover marked '+'; negative at fuse box area",
+        "type": "standard-12v",
+        "warning": "Always use engine compartment terminals — not trunk battery directly. T8 PHEV: 12V only."
+      },
+      "alerts": {
+        "warning": "Battery in trunk — always use engine compartment jump terminals. AWD: flatbed preferred.",
+        "notes": "Stop-start equipped models may have dual 12V batteries. Battery in trunk — use engine compartment terminals.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "S90 / V90",
+      "chassis": "2017-2024",
+      "years": "2017–2024",
+      "meta": {
+        "transmission": "8-speed automatic (Aisin); T8 PHEV available",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Modern electronic gear selector. Emergency release under console near shifter base. Consult owner manual for exact location on this generation — access may require partial console disassembly.",
+          "steps": [
+            "PREFERRED: Turn ignition to ON. Electronic selector — shift to N normally.",
+            "WITHOUT POWER:",
+            "Connect jump pack to battery — under the hood.",
+            "Once powered, shift normally.",
+            "Mechanical override: locate access point under console near shifter base.",
+            "Insert thin flathead or key blade — press firmly to override solenoid.",
+            "While holding, move selector to N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery in TRUNK under floor (primary).",
+            "Connect jump pack at engine compartment terminals (positive marked '+', negative at mount).",
+            "Restore power. Shift normally.",
+            "T8 PHEV: 12V only — never touch HV system."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from rear. AWD: flatbed preferred. T8 AWD: FLATBED ONLY.",
+        "notes": [
+          "Fully electronic steering and shifting — requires power for safe operation.",
+          "T8 PHEV AWD: flatbed only."
+        ]
+      },
+      "battery": {
+        "location": "TRUNK under floor panel (primary). Engine compartment has jump terminals.",
+        "jumpPoints": "Engine compartment — positive under cover marked '+'; negative at engine mount",
+        "type": "standard-12v",
+        "warning": "Always use engine compartment terminals. T8 PHEV: 12V only."
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred. Battery in trunk — use engine compartment terminals.",
+        "notes": "Electronic systems require power for all functions. Battery in trunk — engine compartment terminals mandatory.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "850 / S70 / V70 / C70",
+      "chassis": "1st Gen",
+      "years": "1993–2000",
+      "meta": {
+        "transmission": "4-speed automatic (AW50-42 or AW72-40) or 5-speed manual (M56/M57)",
+        "drivetrain": "FWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Storage compartment BEHIND the center console — lift rubber mat, insert key blade into small hole.",
+          "steps": [
+            "Turn ignition to ON (do not start).",
+            "Locate the storage compartment BEHIND the center console (between shifter and rear seat).",
+            "Lift away the rubber mat from the floor of the storage compartment.",
+            "Insert the detachable key blade (from key fob) or a small screwdriver into the small opening/hole.",
+            "Press the key blade/tool DOWN as far as possible and HOLD.",
+            "While holding, press the brake pedal and move the gear selector to N.",
+            "Remove tool and replace rubber mat."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift normally OR use the behind-console rubber mat method.",
+            "AWD variants: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Manual: depress clutch. FWD. AWD (AWD models): flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "S40 / V40 / V50",
+      "chassis": "1995-2012",
+      "years": "1995–2012",
+      "meta": {
+        "transmission": "4-speed automatic or 5-speed automatic (AW55-51SN) or 5-speed manual",
+        "drivetrain": "FWD or AWD (select trims)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Storage compartment BEHIND the center console — lift rubber mat, insert key blade into small hole.",
+          "steps": [
+            "Turn ignition to ON (do not start).",
+            "Locate the storage compartment BEHIND the center console (between shifter and rear seat).",
+            "Lift away the rubber mat from the floor of the storage compartment.",
+            "Insert the detachable key blade (from key fob) or a small screwdriver into the small opening/hole.",
+            "Press the key blade/tool DOWN as far as possible and HOLD.",
+            "While holding, press the brake pedal and move the gear selector to N.",
+            "Remove tool and replace rubber mat."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift normally OR use the behind-console rubber mat method.",
+            "AWD variants: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. AWD: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front. AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred.",
+        "notes": "Manual: depress clutch. AWD (select trims): flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "S60 / V70",
+      "chassis": "2001-2009",
+      "years": "2001–2009",
+      "meta": {
+        "transmission": "5-speed automatic (AW55-51SN or TF-80SC) or 6-speed manual",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Storage compartment BEHIND the center console — lift rubber mat, insert key blade into small hole.",
+          "steps": [
+            "Turn ignition to ON (do not start).",
+            "Locate the storage compartment BEHIND the center console (between shifter and rear seat).",
+            "Lift away the rubber mat from the floor of the storage compartment.",
+            "Insert the detachable key blade (from key fob) or a small screwdriver into the small opening/hole.",
+            "Press the key blade/tool DOWN as far as possible and HOLD.",
+            "While holding, press the brake pedal and move the gear selector to N.",
+            "Remove tool and replace rubber mat."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift normally OR use the behind-console rubber mat method.",
+            "AWD variants: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. AWD: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front. AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred.",
+        "notes": "Manual: depress clutch. AWD (Haldex): flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "XC70",
+      "chassis": null,
+      "years": "2001–2016",
+      "meta": {
+        "transmission": "5-speed automatic (AW55-51SN or TF-80SC) or 6-speed automatic (TF-80SC, 2008+)",
+        "drivetrain": "AWD (Haldex, standard)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Storage compartment BEHIND the center console — lift rubber mat, insert key blade into small hole.",
+          "steps": [
+            "Turn ignition to ON (do not start).",
+            "Locate the storage compartment BEHIND the center console (between shifter and rear seat).",
+            "Lift away the rubber mat from the floor of the storage compartment.",
+            "Insert the detachable key blade (from key fob) or a small screwdriver into the small opening/hole.",
+            "Press the key blade/tool DOWN as far as possible and HOLD.",
+            "While holding, press the brake pedal and move the gear selector to N.",
+            "Remove tool and replace rubber mat."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift normally OR use the behind-console rubber mat method.",
+            "AWD variants: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED PREFERRED — permanent Haldex AWD. Wheel-lift with dollies if no flatbed.",
+        "notes": [
+          "Permanent Haldex AWD — cannot disengage. Flatbed preferred.",
+          "Wheel-lift with dollies on free-rolling axle if no flatbed."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Permanent AWD — flatbed preferred.",
+        "notes": "Permanent Haldex AWD — flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Volvo",
+      "model": "C30 / C70",
+      "chassis": "2006-2013",
+      "years": "2006–2013",
+      "meta": {
+        "transmission": "5-speed automatic (AW55-51SN) or 6-speed manual",
+        "drivetrain": "FWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Storage compartment BEHIND the center console — lift rubber mat, insert key blade into small hole.",
+          "steps": [
+            "Turn ignition to ON (do not start).",
+            "Locate the storage compartment BEHIND the center console (between shifter and rear seat).",
+            "Lift away the rubber mat from the floor of the storage compartment.",
+            "Insert the detachable key blade (from key fob) or a small screwdriver into the small opening/hole.",
+            "Press the key blade/tool DOWN as far as possible and HOLD.",
+            "While holding, press the brake pedal and move the gear selector to N.",
+            "Remove tool and replace rubber mat."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift normally OR use the behind-console rubber mat method.",
+            "AWD variants: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. C70 convertible: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front. C70 convertible: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "C70 convertible: high value — flatbed preferred.",
+        "notes": "Manual: depress clutch. FWD compact. C70 is convertible — high value.",
+        "issues": []
+      }
+    }
+  ]
+}

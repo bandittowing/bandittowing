@@ -1,0 +1,629 @@
+{
+  "make": "Chrysler",
+  "count": 11,
+  "vehicles": [
+    {
+      "make": "Chrysler",
+      "model": "200",
+      "chassis": "1st Gen 2011-2014 / Sebring rebadge",
+      "years": "2011–2014",
+      "meta": {
+        "transmission": "4 or 6-speed automatic",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near the console shifter base — pry off, insert flathead, press DOWN. Battery under hood.",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Cap near console shifter base.",
+            "Pry off the cap or cover if present using your ignition key or a small flathead.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored, use the shift lock slot above — Cap near console shifter base."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "",
+        "issues": []
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "200",
+      "chassis": "2nd Gen",
+      "years": "2015–2017",
+      "meta": {
+        "transmission": "9-speed automatic ZF 9HP",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ROTARY DIAL selector — shift lock override slot near the BASE of the rotary dial on the center console. Small access port below or beside the rotary dial — no cap to remove, direct slot access.",
+          "steps": [
+            "ZF 9HP ROTARY DIAL — restore 12V power FIRST for best results.",
+            "Connect jump pack to battery under the hood (standard-12v under hood).",
+            "Once powered, press brake and rotate dial to N normally.",
+            "WITHOUT POWER — mechanical override:",
+            "Locate the small override slot near the BASE of the rotary dial (not the dial itself).",
+            "Insert a thin flathead screwdriver into the slot.",
+            "Press firmly and hold — ZF 9HP requires more force than a standard interlock.",
+            "While holding, press the brake pedal and rotate the dial to N.",
+            "This may require very firm steady pressure for 5-10 seconds."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "ZF 9HP STRONGLY RECOMMENDED: Connect jump pack to battery — Under hood.",
+            "The ZF 9HP is very difficult to shift without 12V power — jumping the battery first is the most reliable method.",
+            "Once powered, press brake and shift normally.",
+            "If using mechanical slot: a dedicated ZF 9HP override tool (~$50 online) is more reliable than a key."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard red (+) / black (−)",
+        "type": "standard-12v",
+        "warning": "Rotary dial selector — no gear lever. ZF 9HP requires power. Jump first, then shift."
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "ROTARY DIAL only — no shifter lever. Familiarize with the dial before attempting.",
+        "issues": [
+          {
+            "title": "ROTARY DIAL SELECTOR — Not a Traditional Shifter",
+            "detail": "The 2015-2017 Chrysler 200 uses a rotary dial on the center console instead of a gear lever. Operators unfamiliar with this vehicle waste significant time looking for a shifter that does not exist. The shift lock release slot is at the BASE of the rotary dial."
+          },
+          {
+            "title": "ZF 9HP Transmission Issues",
+            "detail": "This generation used the notoriously problematic ZF 9HP transmission. Neutral override can be difficult without power. A jump pack is strongly recommended before attempting any shift lock or neutral override procedure on this vehicle."
+          },
+          {
+            "title": "Door Handles Require Power",
+            "detail": "The interior door handles are electronic and require 12V power to operate. With a dead battery, occupants can be temporarily unable to exit using the door handles. Be aware of this if the vehicle is occupied."
+          },
+          {
+            "title": "ZF 9HP Rotary Requires 12V Power — Mechanical Override Is Difficult",
+            "detail": "The ZF 9HP 9-speed transmission used in the Chrysler 200 (2nd gen) and Pacifica has a rotary dial selector that requires 12V power to shift reliably. The mechanical override is stiff and may require significant force. Always attempt to restore 12V power before using the mechanical override. A dedicated ZF 9HP override tool (~$30-50 online) provides more leverage than a key."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "300",
+      "chassis": null,
+      "years": "2005–2023",
+      "meta": {
+        "transmission": "5-speed, 8-speed auto",
+        "drivetrain": "RWD or AWD",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "BATTERY IS IN THE TRUNK — lift the trunk floor access panel. Jump posts on the RIGHT SIDE of the engine compartment (under hood) for jump-starting. MANUAL PARK RELEASE (2nd gen 2011-2023): remove the console storage bin, fish the tether strap up through the opening, pull the strap to release park lock. 1st gen (2005-2010): small cover beside the gear selector → orange/pink button.",
+          "steps": [
+            "BATTERY IS IN THE TRUNK — jump via RIGHT-SIDE underhood posts only. Do not attempt to open the trunk to access the battery if power is dead — use the underhood jump posts.",
+            "RESTORE 12V POWER FIRST — connect jump pack to underhood posts (right side).",
+            "Once powered, press brake and move selector to N.",
+            "WITHOUT POWER — manual park release:",
+            "2ND GEN (2011-2023): Remove the console storage bin. Use a small screwdriver to fish the tether strap up through the opening in the console base. Pull the strap firmly to release the park lock. Press brake while pulling.",
+            "1ST GEN (2005-2010): locate small cover BESIDE the gear selector on the console. Pry off. Insert screwdriver. Push DOWN on the orange/pink button. Press brake. Move to N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "BATTERY IN TRUNK — jump via underhood posts (RIGHT side of engine bay).",
+            "Restore power, press brake, move to N.",
+            "No power: 2nd gen → console bin tether strap. 1st gen → orange button beside shifter.",
+            "RWD: flatbed preferred. AWD: FLATBED REQUIRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "AWD VARIANT: Use flatbed. If no flatbed, wheel-lift with dollies on free-rolling axle."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "AWD available.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "chassis": null,
+      "years": "2017–2026",
+      "meta": {
+        "transmission": "9-speed auto or PHEV eCVT",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ROTARY DIAL selector — shift lock override slot near the BASE of the rotary dial on the center console. Small access port below or beside the rotary dial — no cap to remove, direct slot access.",
+          "steps": [
+            "ZF 9HP ROTARY DIAL — restore 12V power FIRST for best results.",
+            "Connect jump pack to battery under the hood (standard-12v under hood).",
+            "Once powered, press brake and rotate dial to N normally.",
+            "WITHOUT POWER — mechanical override:",
+            "Locate the small override slot near the BASE of the rotary dial (not the dial itself).",
+            "Insert a thin flathead screwdriver into the slot.",
+            "Press firmly and hold — ZF 9HP requires more force than a standard interlock.",
+            "While holding, press the brake pedal and rotate the dial to N.",
+            "This may require very firm steady pressure for 5-10 seconds."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to N normally.",
+            "If using slot without power, apply consistent firm pressure — hybrid selectors may require more force.",
+            "Hybrid: 12V auxiliary only — never touch HV battery."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals. Hybrid: 12V auxiliary under hood only.",
+        "type": "standard-12v",
+        "warning": "Pacifica Hybrid PHEV: 12V auxiliary only. NEVER touch HV battery under floor."
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Never access HV battery.",
+        "issues": [
+          {
+            "title": "ROTARY DIAL SELECTOR — Not a Traditional Shifter",
+            "detail": "Like the Chrysler 200, the Pacifica uses a rotary dial on the center console. No shift lever exists. The manual override slot is at the base of the dial."
+          },
+          {
+            "title": "Hybrid PHEV — 12V Only for Jumping",
+            "detail": "Pacifica Hybrid has a high-voltage battery pack under the floor. ONLY use the 12V auxiliary battery under the hood for jumping. Never attempt to access or jump from the HV pack."
+          },
+          {
+            "title": "ZF 9HP Rotary Requires 12V Power — Mechanical Override Is Difficult",
+            "detail": "The ZF 9HP 9-speed transmission used in the Chrysler 200 (2nd gen) and Pacifica has a rotary dial selector that requires 12V power to shift reliably. The mechanical override is stiff and may require significant force. Always attempt to restore 12V power before using the mechanical override. A dedicated ZF 9HP override tool (~$30-50 online) provides more leverage than a key."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "Town & Country",
+      "chassis": "2008-2016",
+      "years": "2000–2016",
+      "meta": {
+        "transmission": "4-speed or 6-speed automatic",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cover near the shifter base on the floor console — pry off, insert screwdriver, press down to release shift lock. Battery under hood. FWD.",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Cap near console shifter base.",
+            "Pry off the cap or cover if present using your ignition key or a small flathead.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored, use the shift lock slot above — Cap near console shifter base."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Always apply parking brake and chock wheels before releasing Park on any incline.",
+        "notes": "FWD minivan.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "PT Cruiser",
+      "chassis": null,
+      "years": "2001–2010",
+      "meta": {
+        "transmission": "4-speed auto or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": [
+          "no_override",
+          "requires_power"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "NO CABIN SHIFT LOCK OVERRIDE. Research and factory service data confirm: the PT Cruiser does NOT have an accessible interior shift lock release. The console cap/slot described in generic guides does NOT exist. RESTORE 12V POWER FIRST — battery under hood. Without power: access the transmission shift lever from under the hood (remove air cleaner box) and manually move the lever.",
+          "steps": [
+            "RESTORE 12V POWER FIRST — battery under hood. This is the reliable field method.",
+            "Connect jump pack. Once powered, turn key to ON, press brake, move selector to N.",
+            "WITHOUT POWER — transmission lever method:",
+            "Open the hood. Remove the air cleaner/filter box to access the top of the transmission.",
+            "Locate the manual shift lever on the transmission where the cable connects.",
+            "Detach the shift cable from the transmission lever.",
+            "Manually move the transmission lever two clicks forward toward Neutral.",
+            "Verify Neutral by checking that the vehicle rolls freely.",
+            "MANUAL TRANS (rare): depress clutch, move lever to Neutral.",
+            "NOTE: There is NO cabin-accessible shift lock override slot on the PT Cruiser."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery under hood — connect jump pack.",
+            "Restore power, key to ON, press brake, move to N.",
+            "No power: remove air cleaner box, manually operate transmission shift lever.",
+            "FWD: lift from front — front (drive) wheels in the air.",
+            "Manual: depress clutch, select Neutral."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Manual: clutch to N.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "Concorde / 300M / LHS",
+      "chassis": null,
+      "years": "1998–2004",
+      "meta": {
+        "transmission": "4-speed automatic (42LE or 42RLE)",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "FLOOR SHIFT (most trims, bucket seats): small plastic cap near selector base on center console — pry off, insert screwdriver, push orange/pink button. COLUMN SHIFT (base/bench seat trims): key to ON + brake releases normally. Check: bench seat = column shift, bucket seats = floor shift.",
+          "steps": [
+            "IDENTIFY SHIFTER TYPE: floor console (bucket seats) or column (bench seat).",
+            "FLOOR SHIFT: Turn ignition to ON. Locate small cap near selector base. Pry off. Insert screwdriver. Push DOWN on button. Press brake. Move to N.",
+            "COLUMN SHIFT: Turn ignition to ON. Press brake. Move column lever to N.",
+            "DEAD BATTERY (either): restore power via jump pack — battery under hood.",
+            "FWD: lift from front."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood, driver side.",
+            "Once powered, press brake and shift to N.",
+            "FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "",
+        "issues": []
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "Sebring",
+      "chassis": "2001-2010",
+      "years": "2001–2010",
+      "meta": {
+        "transmission": "4-speed automatic (41TE) or CVT (2007-2010 2.4L)",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console. Battery under hood.",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead screwdriver.",
+            "Insert key or thin flathead into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal firmly.",
+            "Move the selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood.",
+            "Once powered, press brake and shift to N.",
+            "CVT (2007-2010): flatbed preferred — do not exceed 35 mph / 50 miles with drive wheels on ground."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. CVT: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front.",
+          "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "CVT models: flatbed preferred — CVT damage risk if towed with front wheels on ground.",
+        "notes": "CVT (2007-2010): do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "Crossfire",
+      "chassis": null,
+      "years": "2004–2008",
+      "meta": {
+        "transmission": "5-speed automatic (Mercedes 722.6) or 6-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd",
+          "requires_power"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "BATTERY IS IN THE TRUNK (passenger side) — open trunk to access. Small cap near gear selector base on center console — pry off, insert flathead, press DOWN to release shift lock.",
+          "steps": [
+            "BATTERY IS IN THE TRUNK (passenger side) — open trunk, connect jump pack to battery on passenger side of trunk floor. Restore 12V power FIRST.",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead screwdriver.",
+            "Insert key or thin flathead into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal firmly.",
+            "Move the selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "BATTERY IS IN THE TRUNK (passenger side) — do NOT look under the hood.",
+            "Open trunk, connect jump pack to battery on passenger side of trunk floor.",
+            "Once powered, press brake and shift to N.",
+            "Manual trans: depress clutch, select Neutral."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air. Flatbed preferred due to low clearance.",
+        "notes": [
+          "RWD: lift from rear.",
+          "Battery is in the TRUNK — open trunk for jump access.",
+          "Low clearance — use flatbed with ramps when possible."
+        ]
+      },
+      "battery": {
+        "location": "TRUNK — passenger side (right when looking in from the rear)",
+        "jumpPoints": "Trunk — 12V battery terminals, passenger side",
+        "type": "standard-12v",
+        "warning": "Battery in TRUNK — not under the hood. Mercedes SLK-based platform."
+      },
+      "alerts": {
+        "warning": "Battery is in the TRUNK — not under the hood.",
+        "notes": "Mercedes SLK-based platform. Battery is in the TRUNK — not under the hood. Manual: depress clutch, select Neutral.",
+        "issues": [
+          {
+            "title": "Battery in Trunk",
+            "detail": "The Crossfire is Mercedes SLK-based. The 12V battery is in the TRUNK on the right side. There is no battery under the hood. Many operators waste time looking under the hood — go directly to the trunk."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "Aspen",
+      "chassis": null,
+      "years": "2007–2009",
+      "meta": {
+        "transmission": "5-speed automatic (545RFE)",
+        "drivetrain": "RWD or 4WD (part-time)",
+        "tags": [
+          "rwd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "COLUMN SHIFT (standard, based on Dodge Durango 3rd gen): shift interlock on the STEERING COLUMN — key to ON + brake releases normally. No external floor console cap. Dead battery: restore power via jump pack — battery under hood.",
+          "steps": [
+            "COLUMN SHIFT (standard on Aspen): Turn ignition to ON.",
+            "Locate shift lock release on the steering column.",
+            "Insert thin flathead into column slot, press firmly.",
+            "Press brake. Move column lever from Park to Neutral.",
+            "DEAD BATTERY: restore power via jump pack — battery under hood.",
+            "TRANSFER CASE: shift to 2WD before road towing. Jump battery first if needed."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery under hood — connect jump pack.",
+            "Key to ON, column slot, press brake, move to N.",
+            "TC: shift to 2WD before towing.",
+            "4WD: FLATBED if TC cannot be engaged."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear. Flatbed preferred.",
+        "notes": [
+          "Dodge Durango platform. Electronic or manual TC depending on trim.",
+          "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect. If unable, FLATBED ONLY."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Transfer case must be in 2H for road towing — 4WD on dry pavement damages driveline.",
+        "notes": "Dodge Durango-based platform. Transfer case must be in 2H/2WD for road towing.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Chrysler",
+      "model": "Voyager / Town & Country",
+      "chassis": "1991-1999",
+      "years": "1991–1999",
+      "meta": {
+        "transmission": "3-speed automatic (A413) or 4-speed automatic (41TE/A604)",
+        "drivetrain": "FWD or AWD (select years)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on console or dash-mounted column shifter. Battery under hood.",
+          "steps": [
+            "Turn ignition to ON.",
+            "COLUMN SHIFTER (early/base trims): key to ON, press brake, move column lever to N.",
+            "FLOOR SHIFTER: locate cap near selector base. Pry off. Insert key. Press firmly. Hold. Press brake. Move to N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood.",
+            "Once powered, shift to N.",
+            "FWD only — lift from front, front (drive) wheels in the air."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. AWD: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front.",
+          "AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD models: flatbed preferred.",
+        "notes": "Early models (1991-1995) may have column shifter. AWD: flatbed preferred.",
+        "issues": []
+      }
+    }
+  ]
+}

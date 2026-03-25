@@ -1,0 +1,668 @@
+{
+  "make": "Subaru",
+  "count": 12,
+  "vehicles": [
+    {
+      "make": "Subaru",
+      "model": "Outback / Legacy",
+      "chassis": null,
+      "years": "2000–2026",
+      "meta": {
+        "transmission": "4-speed auto, CVT, or 5/6-speed manual",
+        "drivetrain": "AWD (Symmetrical, standard)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on console",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the shift lock override slot — Cap near selector base on console.",
+            "Insert a thin key or small flathead into the slot.",
+            "Press firmly and hold.",
+            "Press the brake pedal while holding.",
+            "Move the selector to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to N normally.",
+            "FLATBED ONLY — Subaru Symmetrical AWD cannot be disabled. No 2WD mode exists on any trim.",
+            "PHEV/hybrid variants: 12V auxiliary only — never touch the HV battery."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — Subaru Symmetrical AWD cannot be disabled on any model. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+        "notes": [
+          "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+          "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
+          "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+          "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals. XT PHEV: 12V only.",
+        "type": "standard-12v",
+        "warning": "Symmetrical AWD — flatbed only on ALL Outback/Legacy. No exceptions. PHEV: 12V only."
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "AWD standard (Symmetrical). Manual: clutch to N.",
+        "issues": [
+          {
+            "title": "Symmetrical AWD Cannot Be Disabled — Flatbed Only",
+            "detail": "ALL Subaru Outback and Legacy models have Symmetrical AWD. There is no FWD trim, no 2WD mode, no transfer case to shift. FLATBED ONLY on every Outback and Legacy. Operators who attempt wheel-lift towing will immediately damage the center differential and AWD system."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "Forester",
+      "chassis": null,
+      "years": "2003–2026",
+      "meta": {
+        "transmission": "4-speed auto, CVT, or manual",
+        "drivetrain": "AWD (Symmetrical, standard)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the shift lock override slot — Cap near selector base.",
+            "Insert a thin key or small flathead into the slot.",
+            "Press firmly and hold.",
+            "Press the brake pedal while holding.",
+            "Move the selector to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to N normally.",
+            "FLATBED ONLY — Subaru Symmetrical AWD cannot be disabled. No 2WD mode exists on any trim.",
+            "PHEV/hybrid variants: 12V auxiliary only — never touch the HV battery."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — Subaru Symmetrical AWD cannot be disabled. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+        "notes": [
+          "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
+          "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+          "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Symmetrical AWD — flatbed only."
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "AWD standard. Manual: clutch to N.",
+        "issues": [
+          {
+            "title": "Symmetrical AWD Cannot Be Disabled — Flatbed Only",
+            "detail": "ALL Forester models have Symmetrical AWD. No exceptions. FLATBED ONLY. Do not attempt wheel-lift under any circumstances."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "Crosstrek",
+      "chassis": null,
+      "years": "2013–2026",
+      "meta": {
+        "transmission": "CVT, 6-speed auto, manual, or PHEV eCVT",
+        "drivetrain": "AWD (Symmetrical, standard)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the shift lock override slot — Cap near selector base.",
+            "Insert a thin key or flathead into the slot and press firmly down.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to N normally.",
+            "If using slot without power, apply consistent firm pressure — hybrid selectors may require more force.",
+            "Hybrid: 12V auxiliary only — never touch HV battery."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — Subaru Symmetrical AWD cannot be disabled. Crosstrek PHEV: 12V only. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+        "notes": [
+          "HYBRID/PHEV: Use 12V auxiliary battery ONLY for jumping. NEVER access the high-voltage battery pack.",
+          "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
+          "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals. PHEV: 12V only.",
+        "type": "standard-12v",
+        "warning": "Symmetrical AWD — flatbed only. PHEV: 12V only."
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "AWD standard.",
+        "issues": [
+          {
+            "title": "Symmetrical AWD Cannot Be Disabled — Flatbed Only",
+            "detail": "ALL Crosstrek models have Symmetrical AWD. No exceptions. FLATBED ONLY. Crosstrek PHEV additionally has a high-voltage battery — 12V auxiliary only for jumping."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "Impreza / WRX / STI",
+      "chassis": null,
+      "years": "2000–2026",
+      "meta": {
+        "transmission": "4-speed auto, CVT, or manual",
+        "drivetrain": "AWD (Symmetrical, standard)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base",
+          "steps": [
+            "Turn ignition to ON.",
+            "Locate the shift lock override slot — Cap near selector base.",
+            "Insert a thin key or small flathead into the slot.",
+            "Press firmly and hold.",
+            "Press the brake pedal while holding.",
+            "Move the selector to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to N normally.",
+            "CVT transmissions: do NOT exceed 35 mph or 50 miles with driven wheels on ground — flatbed strongly preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — Subaru Symmetrical AWD cannot be disabled. STI: manual only. If no flatbed available, use wheel-lift with dollies on free-rolling axle.",
+        "notes": [
+          "FULL-TIME AWD: Cannot disengage AWD. Flatbed is the safest method. If using wheel-lift, dollies MUST be used on the free-rolling axle to prevent driveline damage.",
+          "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+          "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground. Flatbed strongly preferred for CVTs."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Symmetrical AWD — flatbed only. STI: manual trans — no shift lock needed."
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "STI: manual only — clutch to N. AWD standard.",
+        "issues": [
+          {
+            "title": "Symmetrical AWD Cannot Be Disabled — Flatbed Only",
+            "detail": "All Impreza, WRX, and STI models have Symmetrical AWD. FLATBED ONLY."
+          },
+          {
+            "title": "STI Is Manual Transmission — No Shift Lock Needed",
+            "detail": "The STI uses a 6-speed manual transmission. Simply depress the clutch and select neutral. No shift lock release procedure is needed."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "BRZ",
+      "chassis": null,
+      "years": "2013–2026",
+      "meta": {
+        "transmission": "6-speed auto or 6-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on console (auto only)",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Cap near selector base on console (auto only).",
+            "Pry off the cap or cover if present using your ignition key or a small flathead.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — Under hood, driver side.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored, use the shift lock slot above — Cap near selector base on console (auto only)."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from rear — rear (drive) wheels in the air or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
+          "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "RWD — block rear wheels."
+      },
+      "alerts": {
+        "warning": "RWD — block rear wheels.",
+        "notes": "Manual: clutch to N. RWD. Shared platform with Toyota GR86.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "Solterra",
+      "chassis": null,
+      "years": "2023–2026",
+      "meta": {
+        "transmission": "Single-speed electric",
+        "drivetrain": "AWD (electric)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic selector — slot near selector base",
+          "steps": [
+            "Turn vehicle to ON/Ready mode.",
+            "Electronic gear selector — press N while pressing brake pedal.",
+            "If power is lost: connect jump pack to 12V auxiliary under hood.",
+            "12V AUXILIARY ONLY — NEVER touch HV battery."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — electric drivetrain.",
+            "12V auxiliary under hood.",
+            "12V AUXILIARY ONLY — never touch HV battery.",
+            "Once powered, press N while pressing brake."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — electric drivetrain",
+        "notes": [
+          "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+          "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+          "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+        ]
+      },
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpPoints": "Under hood — 12V auxiliary terminals only",
+        "type": "auxiliary-12v-only",
+        "warning": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY — electric drivetrain or permanent AWD. Never tow with driven wheels on the ground.",
+        "notes": "Shared platform with Toyota bZ4X.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "Legacy / Outback",
+      "chassis": "2nd Gen 1994-1999",
+      "years": "1994–1999",
+      "meta": {
+        "transmission": "4-speed automatic or 5-speed manual",
+        "drivetrain": "AWD (Symmetrical)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on center console",
+          "steps": [
+            "Turn ignition to ON (key to Run position — do not start).",
+            "Locate the shift lock override slot — Cap near selector base on center console.",
+            "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — Symmetrical AWD on all 2nd gen Legacy/Outback.",
+        "notes": [
+          "Symmetrical AWD — flatbed only. No 2WD mode."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "FLATBED ONLY — no 2WD mode."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY — Symmetrical AWD cannot be disabled.",
+        "notes": "Symmetrical AWD — FLATBED ONLY on all trims. No 2WD mode.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "Impreza / WRX",
+      "chassis": "1st Gen 1993-2001",
+      "years": "1993–2001",
+      "meta": {
+        "transmission": "4-speed automatic or 5-speed manual",
+        "drivetrain": "AWD (Symmetrical)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Cap near selector base on center console",
+          "steps": [
+            "Turn ignition to ON.",
+            "AUTOMATIC: Locate shift lock slot — cap near selector base on center console.",
+            "Pry off cap. Insert key and press firmly.",
+            "While holding, press brake. Move selector to Neutral.",
+            "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — Symmetrical AWD on all trims.",
+        "notes": [
+          "Symmetrical AWD — flatbed only."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "FLATBED ONLY."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY — Symmetrical AWD.",
+        "notes": "Symmetrical AWD — FLATBED ONLY. STI manual: depress clutch, Neutral.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "SVX",
+      "chassis": null,
+      "years": "1992–1997",
+      "meta": {
+        "transmission": "4-speed automatic (4EAT)",
+        "drivetrain": "AWD (permanent, standard)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "Permanent Symmetrical AWD: FLATBED ONLY — cannot disable AWD."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — permanent AWD. If no flatbed, use wheel-lift with dollies on free-rolling axle.",
+        "notes": [
+          "Permanent Symmetrical AWD — cannot disengage. Flatbed preferred.",
+          "Wheel-lift with dollies on free-rolling axle if no flatbed."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Permanent AWD — flatbed preferred. Rare vehicle — handle with care.",
+        "notes": "Permanent Symmetrical AWD — cannot be disengaged. Flatbed preferred. Very rare collectible.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "Baja",
+      "chassis": null,
+      "years": "2003–2006",
+      "meta": {
+        "transmission": "4-speed automatic (4EAT) or 5-speed manual",
+        "drivetrain": "AWD (Symmetrical, standard)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "Permanent Symmetrical AWD: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED PREFERRED — permanent AWD. Wheel-lift with dollies if no flatbed.",
+        "notes": [
+          "Permanent Symmetrical AWD — cannot disengage. Flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Permanent AWD — flatbed preferred.",
+        "notes": "Outback-based pickup/car hybrid. Permanent Symmetrical AWD. Manual: depress clutch.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "Tribeca",
+      "chassis": "B9X",
+      "years": "2006–2014",
+      "meta": {
+        "transmission": "5-speed automatic (5EAT)",
+        "drivetrain": "AWD (Symmetrical, standard)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small slot near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock release: small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "Permanent Symmetrical AWD: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED PREFERRED — permanent AWD. Wheel-lift with dollies if no flatbed.",
+        "notes": [
+          "Permanent Symmetrical AWD — cannot disengage. Flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Permanent AWD — flatbed preferred.",
+        "notes": "Permanent Symmetrical AWD — flatbed preferred. Three-row SUV.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Subaru",
+      "model": "Ascent",
+      "chassis": null,
+      "years": "2019–2026",
+      "meta": {
+        "transmission": "CVT (Lineartronic)",
+        "drivetrain": "AWD (Symmetrical, standard)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small slot near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock release: small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "Permanent Symmetrical AWD: FLATBED PREFERRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED STRONGLY PREFERRED — permanent AWD and CVT.",
+        "notes": [
+          "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground.",
+          "Permanent AWD — cannot disengage. Flatbed strongly preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warning": "AGM battery (2019+) — use AGM-compatible jump pack."
+      },
+      "alerts": {
+        "warning": "Permanent AWD + CVT — flatbed strongly preferred.",
+        "notes": "Permanent Symmetrical AWD with CVT — flatbed strongly preferred.",
+        "issues": []
+      }
+    }
+  ]
+}

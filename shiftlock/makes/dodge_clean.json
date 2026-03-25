@@ -1,0 +1,1461 @@
+{
+  "make": "Dodge",
+  "count": 27,
+  "vehicles": [
+    {
+      "make": "Dodge",
+      "model": "Challenger",
+      "chassis": "3rd Gen",
+      "years": "2008–2023",
+      "meta": {
+        "transmission": "5-speed automatic NAG1 (2008-2014) or 8-speed automatic TorqueFlite (2015-2023) or 6-speed manual (select years)",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd",
+          "requires_power"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "2015+ (8-speed electronic shifter): COIN HOLDER to the RIGHT of the shifter — lift out the coin tray insert. Underneath is the emergency neutral release strap with a metal locking tab. CRITICAL: Slide the metal locking tab to the RIGHT to unlock it FIRST — pulling without unlocking bends/breaks the tab. Then pull the red/orange nylon strap straight UP until vertical — transmission releases to Neutral. The strap must be held up while pushing — it does NOT auto-latch. Pre-2015 (NAG1 5-speed): Plastic cover to the right of the shifter — pry off with flathead. Insert screwdriver into slot and push down the pink/orange button while moving shifter to N.",
+          "steps": [
+            "BATTERY IS IN THE TRUNK — lift trunk floor panel to access. Jump terminals ARE available under the hood for jump starting.",
+            "RESTORE 12V POWER FIRST if battery is dead — connect jump pack to underhood terminals.",
+            "Once powered, use electronic shifter or ACC mode (press Start without brake) to shift to N normally.",
+            "2015+ (8-SPEED) WITHOUT POWER — red strap method:",
+            "Locate the small coin/cup holder BESIDE the gear selector on the center console.",
+            "Remove the cup insert. Use a small flathead to pop off the plastic access door.",
+            "CRITICAL: Release the locking clip first before pulling the strap — pulling without releasing the clip will damage the mechanism.",
+            "Pull UP firmly on the red strap to release the park lock. Vehicle will roll.",
+            "To hold in Neutral while moving: wedge the plastic access door lid under the strap lever.",
+            "PRE-2015 (NAG1 5-speed) WITHOUT POWER:",
+            "Locate the plastic cover beside the shifter. Pry off with a small flathead.",
+            "Insert screwdriver into the hole and push DOWN on the orange/pink/red button.",
+            "While holding the button, press brake and move selector to N.",
+            "Hellcat / Redeye / Demon: parking pawl is very strong — hold the release firmly and rock the car slightly if needed."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake firmly. Chock wheels — car WILL roll once released.",
+            "BATTERY IN TRUNK — use underhood jump terminals (passenger side fuse box area) to restore power first if possible.",
+            "2015+ 8-SPEED: Lift coin tray insert from RIGHT of shifter. Slide metal locking tab RIGHT to unlock. Pull red strap straight UP — hold it up while pushing to N.",
+            "Pre-2015 NAG1: Pry off plastic cover right of shifter. Insert screwdriver into slot, push pink/orange button down while moving to N.",
+            "RWD: flatbed preferred for long tows. Never tow by rear wheels only."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from rear — rear (drive) wheels in the air or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        ]
+      },
+      "battery": {
+        "location": "TRUNK — under cargo floor in spare tire compartment. Jump posts under hood (driver side fuse box area) for remote access.",
+        "jumpPoints": "Under hood — positive post at fuse box (driver side), ground to chassis bolt.",
+        "type": "standard-12v",
+        "warning": "Battery is in TRUNK. Use underhood jump posts for roadside jumping — trunk latch is electronic and won't open without power."
+      },
+      "alerts": {
+        "warning": "RWD — block rear wheels.",
+        "notes": "Final year of production: 2023. Last vehicle built December 22, 2023 (Demon 170). 5-speed NAG1: 2008-2014. 8-speed TorqueFlite8: 2015-2023.",
+        "issues": [
+          {
+            "title": "Strong Parking Pawl on High-Performance Models",
+            "detail": "Hellcat, Redeye, and Demon models have an exceptionally strong parking pawl that requires significant force on the manual override slot. Press firmly and hold for 3-5 seconds before attempting to move the shifter. Operators sometimes give up too early thinking the slot isn't working."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Charger",
+      "chassis": "2006-2023",
+      "years": "2006–2023",
+      "meta": {
+        "transmission": "5-speed automatic NAG1/W5A580 (2006-2014, continued in fleet/pursuit through 2020) or 8-speed automatic TorqueFlite ZF 8HP (2012-2023)",
+        "drivetrain": "RWD or AWD",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "2015-2023 (8-speed electronic shifter): COIN HOLDER to the RIGHT of the shifter on the console — lift out the coin tray insert. Underneath is the emergency neutral release strap with a metal locking tab. CRITICAL: Slide the metal locking tab to the RIGHT to unlock it FIRST before pulling. Pulling without unlocking bends/breaks the tab. Then pull the red/orange nylon strap straight UP until upright — holds transmission in Neutral. 2006-2014 (NAG1 5-speed, no electronic shifter): Plastic cover to the right of the shifter — pry off with flathead. Insert screwdriver into slot, push down the pink/orange button while moving shifter to N.",
+          "steps": [
+            "BATTERY IS IN THE TRUNK — lift trunk floor panel to access. Underhood jump terminals available for jump starting.",
+            "RESTORE 12V POWER FIRST if battery is dead.",
+            "Once powered, use ACC mode (press Start without brake) then press brake and shift to N.",
+            "2015-2023 (8-SPEED) WITHOUT POWER — red strap method:",
+            "Locate the coin/cup holder BESIDE the gear selector on the center console.",
+            "Remove the cup insert. Use a small flathead to pop off the plastic access door.",
+            "CRITICAL: Release the locking clip before pulling the strap.",
+            "Pull UP on the red strap to release the park lock.",
+            "Wedge the plastic lid under the strap lever to hold in Neutral while moving.",
+            "2006-2014 (NAG1 5-speed) WITHOUT POWER:",
+            "Locate plastic cover beside the shifter. Pry off.",
+            "Insert screwdriver into hole and push DOWN on the orange/pink/red button.",
+            "While holding, press brake and move selector to N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake firmly. Chock wheels — car WILL roll once released.",
+            "Battery in trunk — use underhood jump terminals to restore power first if possible.",
+            "2015-2023 8-SPEED: Lift coin tray insert from RIGHT of shifter. Slide metal locking tab RIGHT to unlock FIRST. Pull red strap straight UP and hold while shifting to N.",
+            "2006-2014 NAG1: Pry off plastic cover right of shifter. Insert screwdriver, push pink/orange button down while moving to N.",
+            "RWD: flatbed preferred. AWD (2017+ GT/GT Plus): flatbed required."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "AWD VARIANT: Use flatbed. If no flatbed, wheel-lift with dollies on free-rolling axle.",
+          "AWD available on V6/V8 non-SRT trims (SXT AWD, GT AWD, R/T AWD). Hellcat/SRT models are RWD only."
+        ]
+      },
+      "battery": {
+        "location": "TRUNK — under cargo floor on passenger side (right), in spare tire compartment. Jump posts under hood for remote access.",
+        "jumpPoints": "Under hood — positive post at fuse box (driver/passenger side), ground to chassis.",
+        "type": "standard-12v",
+        "warning": "Battery is in TRUNK on passenger side. Use underhood jump posts — do NOT attempt to access trunk first with dead battery."
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "Final ICE Charger year: 2023. Production ended December 2023.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Charger Daytona EV",
+      "chassis": null,
+      "years": "2024–2026",
+      "meta": {
+        "transmission": "Single-speed electric",
+        "drivetrain": "AWD (electric)",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRIC VEHICLE — electronic push-button or rotary selector. Requires 12V auxiliary power to shift. No mechanical park override. 12V auxiliary battery under the hood. Dead 12V: connect jump pack to underhood terminals. Once powered, press brake and select N. High-voltage drive battery is SEPARATE — never touch orange HV cables.",
+          "steps": [
+            "ELECTRIC VEHICLE: 12V auxiliary battery under hood — separate from HV drive battery.",
+            "Connect jump pack to 12V auxiliary terminals under hood if power is lost.",
+            "Once 12V power is restored: press brake and select N via push-button selector.",
+            "There is NO mechanical park override — 12V power is required.",
+            "NEVER touch orange HV cables or the high-voltage drive battery system.",
+            "FLATBED ONLY for towing — do not tow EVs by wheels."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — never tow by wheels.",
+            "Restore 12V via underhood auxiliary terminals before shifting.",
+            "Once powered, select N electronically.",
+            "NEVER touch HV orange cables."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — electric drivetrain",
+        "notes": [
+          "ELECTRIC VEHICLE: FLATBED ONLY — never tow with any driven wheels on the ground. Regenerative braking system can damage motor/inverter.",
+          "If vehicle must be moved short distance without flatbed, use dollies under ALL driven wheels.",
+          "12V battery ONLY for jumping — NEVER touch or access the high-voltage (HV) system. HV components are marked with ORANGE cables/covers."
+        ]
+      },
+      "battery": {
+        "location": "Under hood (12V auxiliary)",
+        "jumpPoints": "Under hood — 12V auxiliary terminals only",
+        "type": "auxiliary-12v-only",
+        "warning": "FLATBED ONLY. 12V auxiliary only — never touch HV system."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY — electric drivetrain or permanent AWD. Never tow with driven wheels on the ground.",
+        "notes": "World's first all-electric muscle car. AWD standard on all trims. Two-door coupe (2024), four-door also available (2025). No RWD-only variant.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Durango",
+      "chassis": null,
+      "years": "1998–2026",
+      "meta": {
+        "transmission": "4-speed, 5-speed, or 8-speed automatic",
+        "drivetrain": "RWD or 4WD/AWD",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "1998-2009 (conventional floor lever): cap near console selector base — pry off, insert key/screwdriver, press down. 2011+ (rotary e-shifter): MANUAL PARK RELEASE in center console — open console, locate cover at the REAR of the console, snap it off. CRITICAL: Use a screwdriver to push the metal latch IN toward the tether strap FIRST to unlock it. While holding the latch in, simultaneously pull the tether strap UPWARD until the lever clicks into the released position. Transmission is now in Neutral. Do NOT just pull the strap without pushing the latch first.",
+          "steps": [
+            "IDENTIFY YEAR FIRST.",
+            "1998-2009 (PHYSICAL LEVER): Turn ignition to ON. Locate cap near console selector base. Pry off. Insert key, press firmly. Press brake. Move selector to N.",
+            "2011+ (ROTARY E-SHIFTER): RESTORE 12V POWER FIRST. Connect jump pack — battery under hood. Once powered, press Start (no brake) to enter Run mode, press brake, rotate dial to N.",
+            "2011+ WITHOUT POWER — MANUAL PARK RELEASE:",
+            "Open the center console storage compartment lid.",
+            "Look at the REAR of the compartment for a plastic cover — pop it off.",
+            "Locate the metal latch with an attached strap.",
+            "Push the metal latch down to unlock, then pull the strap UP to release the park lock.",
+            "Vehicle will now roll. Apply parking brake and chock wheels before doing this.",
+            "Electronic TC/4WD (all years): must be in 2WD before road towing."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "1998-2009: key to ON, cap near selector, press brake, move to N.",
+            "2011+: Open center console, remove Manual Park Release cover at rear of console. Push metal latch toward tether strap with screwdriver to unlock. While holding latch in, pull tether strap UP until lever clicks into released position.",
+            "4WD: engage 2WD via electronic TC before towing."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air. AWD/4WD: transfer case to 2WD or flatbed. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+          "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline."
+        ]
+      },
+      "battery": {
+        "location": "1998-2009: Under hood, driver side. 2011+: Under front passenger seat (floor compartment beneath seat cushion). Jump posts under hood for both generations.",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD — FLATBED PREFERRED. If wheel-lift must be used, dollies required on free-rolling axle.",
+        "notes": "NOTE: No 2010 Durango exists — discontinued after 2009, reintroduced 2011. 1st gen (1998-2003): body-on-frame, Dakota-based. 2nd gen (2004-2009): larger body-on-frame. 3rd gen (2011+): unibody, Jeep Grand Cherokee-based. 2000-2009: physical floor lever. 2011+: rotary e-shifter (see slot field).",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Grand Caravan",
+      "chassis": null,
+      "years": "1987–2020",
+      "meta": {
+        "transmission": "3-speed automatic (1987-1992) or 4-speed automatic (1993-2007) or 6-speed automatic (2008-2020)",
+        "drivetrain": "FWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "COLUMN/DASH SHIFTER — the Grand Caravan does NOT have a floor console gear selector. The automatic shifter is mounted on the steering column (or dash). BTSI is on the steering column: key to ON + brake releases shift lock normally. Dead battery: restore power via jump pack (battery under hood). Manual override: small access port at the base of the steering column (some years).",
+          "steps": [
+            "Turn ignition key to ON (do not start) OR press Start button twice (no brake) for ACC/Run mode.",
+            "COLUMN/DASH SHIFTER: press the brake pedal firmly.",
+            "Move the column lever from Park to Neutral.",
+            "DEAD BATTERY: restore power via jump pack — battery under hood.",
+            "Once powered, key to ON, press brake, move column lever to N.",
+            "MANUAL OVERRIDE (if solenoid fails): locate the small access port at the base of the steering column. Insert a flathead and press the override lever to release.",
+            "NOTE: Grand Caravan uses a COLUMN/DASH-mounted shifter — there is NO floor console selector."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood — connect jump pack directly.",
+            "Key to ON, press brake, move column lever to N.",
+            "FWD ONLY — lift from front. Grand Caravan was never available with AWD."
+          ]
+        }
+      },
+      "tow": {
+        "method": "Lift from front — front (drive) wheels in the air, or flatbed. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Always apply parking brake and chock wheels before releasing Park on any incline.",
+        "notes": "Longer-wheelbase sibling to the regular Caravan. FWD only across entire production run. Column shifter standard.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Journey",
+      "chassis": null,
+      "years": "2009–2020",
+      "meta": {
+        "transmission": "4-speed or 6-speed automatic",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Center console cubby bin BEHIND the shift lever — remove the rubber liner/insert from the bin. Insert screwdriver into the hole at the FRONT of the cubby bin. Push the manual override release lever FORWARD while moving selector to N.",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the center console cubby bin BEHIND the shift lever.",
+            "Remove the rubber mat/liner from inside the cubby bin.",
+            "Insert a small flathead screwdriver into the hole at the FRONT of the cubby bin opening.",
+            "Push the manual override release lever FORWARD (toward the front of the vehicle).",
+            "While holding the lever, move the gear selector from Park to Neutral.",
+            "Release the override. The selector is now in N.",
+            "NOTE: This is NOT a cap beside the shifter — it is accessed through the cubby bin behind the lever."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery under hood — connect jump pack directly.",
+            "Key to ON, then use cubby bin override (see shift steps) to move to N.",
+            "AWD: flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air. AWD: flatbed only. AWD without flatbed: wheel-lift with dollies on opposite axle. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "FWD: lift from front (front/drive wheels in the air) freely. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first."
+        ]
+      },
+      "battery": {
+        "location": "Driver-side front fender well — behind the splash shield in front of the driver's front wheel. Remove front driver-side wheel to access. Jump posts under hood.",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "FWD or AWD.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Dakota",
+      "chassis": null,
+      "years": "1987–2011",
+      "meta": {
+        "transmission": "4-speed automatic 42RE/46RE (1987-2003, varies by engine) or 4-speed automatic 42RLE (2004-2011) or 5-speed automatic 545RFE (V8 models 2000+) or 5-speed manual (NV1500/NV3500) or 6-speed manual (Getrag 238, 3rd gen 2005-2011)",
+        "drivetrain": "RWD or 4WD (part-time)",
+        "tags": [
+          "rwd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "COLUMN SHIFT (most trims, 1987-2004): shift interlock on the STEERING COLUMN — key to ON + brake releases normally. No external cap. FLOOR SHIFT (higher trims, 2005-2011): small cap near the console selector base — pry off, insert key, press down. Check: bench seat = column shift. Bucket seats/console = floor shift.",
+          "steps": [
+            "IDENTIFY SHIFTER TYPE: column (bench seat) or floor console (bucket seats).",
+            "COLUMN SHIFT: Turn ignition to ON. Press brake firmly. Move column lever to Neutral.",
+            "COLUMN SHIFT DEAD BATTERY: restore power via jump pack — battery under hood.",
+            "FLOOR SHIFT: Turn ignition to ON. Locate small cap near the console selector base. Pry off with key or flathead. Insert key into slot, press firmly. Press brake. Move selector to N.",
+            "FLOOR SHIFT DEAD BATTERY: restore power via jump pack — battery under hood.",
+            "MANUAL TRANSMISSION: depress clutch and move lever to Neutral.",
+            "4WD: transfer case must be in 2WD/2H before towing. Jump battery first if needed."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — Under hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored, use the shift lock slot above — Cap at side of console shifter base.",
+            "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: transfer case to 2H first. Wheel-lift max: 35 mph, 50 miles — flatbed preferred for longer distances.",
+        "notes": [
+          "MANUAL TRANSFER CASE (floor lever): Vehicle must be STOPPED to shift. If lever is stiff, rock vehicle slightly in neutral while applying firm pressure.",
+          "ELECTRONIC TRANSFER CASE: Requires 12V power to shift. If battery is dead, jump the battery FIRST, then shift TC to 2WD before disconnecting.",
+          "DEAD BATTERY FALLBACK: If TC cannot be shifted to 2WD, USE FLATBED. Do NOT tow with TC in 4WD/4H/4L — will destroy transfer case and driveline.",
+          "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed.",
+          "4WD DOLLY FALLBACK: If transfer case CANNOT be shifted to 2WD (dead battery, mechanical failure), either use flatbed OR wheel-lift with dollies on the opposite axle."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Must shift transfer case to 2H/2WD before road towing. Never tow in 4H or 4L on dry pavement — drivetrain damage.",
+        "notes": "4WD: transfer case. Manual: clutch to N.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Viper",
+      "chassis": null,
+      "years": "1992–2017",
+      "meta": {
+        "transmission": "6-speed manual (Tremec TR-6060, all generations 1992-2017) — NO automatic option ever offered",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ALL GENERATIONS MANUAL ONLY (no shift lock). The Dodge Viper is manual transmission only across all generations (Gen1 1992-2002, Gen2 2003-2006, Gen3 2008-2010, Gen4/Gen5 2013-2017). No automatic transmission option was offered in the US market. MANUAL: depress clutch fully and move gear lever to Neutral.",
+          "steps": [
+            "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral.",
+            "No shift lock mechanism exists on any Viper generation.",
+            "Viper has no automatic transmission in the US market — shift lock procedures do not apply.",
+            "Wheel dollies recommended — very low ground clearance.",
+            "Do not tow by front wheels — drive wheels must be off the ground or flatbed required."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Depress clutch and move gear lever to Neutral.",
+            "No shift lock — no override needed.",
+            "EXTREME LOW CLEARANCE — flatbed only or front-wheel dollies minimum."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — extremely low clearance, side lift recommended",
+        "notes": [
+          "RWD: Lift from REAR. Rear (drive) wheels are lifted in the air. If rear-lift is not possible, place wheel dollies under the REAR wheels and tow front-first.",
+          "LOW CLEARANCE VEHICLE: Use flatbed. Check ground clearance before attempting any wheel-lift — front splitter/rear diffuser damage is common.",
+          "MANUAL TRANSMISSION OPTION: If equipped with manual trans, no shift lock — depress clutch and select Neutral. No override slot needed."
+        ]
+      },
+      "battery": {
+        "location": "Gen1 1992: center of trunk. Gen1-Gen2 (1993-2002): behind driver's side REAR wheel — remove rear wheel and splash shield to access. Gen3-Gen5 (2003-2017): under rear trunk panel — lift cargo carpet, remove cover. Jump posts on driver's side under hood for all generations.",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Side-lift or special ramps only. Carbon ceramic brakes on some trims — no metal chocks against rotors."
+      },
+      "alerts": {
+        "warning": "EXTREMELY LOW CLEARANCE — flatbed ONLY. Side lift recommended.",
+        "notes": "Most Vipers are manual. SRT/ACR: manual only.",
+        "issues": [
+          {
+            "title": "Extremely Low Ground Clearance — Side Lift Required",
+            "detail": "The Viper has approximately 3.7 inches of ground clearance. Standard flatbed ramps cannot be used without damaging the front splitter and underbody. Side-lift equipment or very shallow approach ramps with extensions are required. Never winch from the front."
+          },
+          {
+            "title": "Gen5 (2015-2017) Had Optional 8-Speed Auto",
+            "detail": "Gen1-4 Vipers (1992-2014) are manual only. Gen5 (2015-2017) offered an optional 8-speed automatic on some trims. All generations are RWD with extreme low clearance — flatbed only."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Neon",
+      "chassis": "1995-2005",
+      "years": "1995–2005",
+      "meta": {
+        "transmission": "3-speed automatic 31TH (1995-2001) or 4-speed automatic 41TE (2002) or 4-speed automatic 40TE (2003-2005) or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near selector base on center console",
+          "steps": [
+            "Turn ignition to ON.",
+            "AUTOMATIC: Locate shift lock slot — small cap near selector base on center console.",
+            "Pry off cap. Insert key and press firmly.",
+            "While holding, press brake. Move selector to Neutral.",
+            "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored: pry off small plastic cap at selector base, insert key/flathead, push button down while pressing brake and moving to N."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Manual trans: depress clutch, Neutral.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Intrepid / Chrysler Concorde",
+      "chassis": "1993-2004",
+      "years": "1993–2004",
+      "meta": {
+        "transmission": "4-speed automatic (42LE, all years 1993-2004)",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "FLOOR SHIFT (ES / SXT / R/T trims): small plastic cap/cover near the selector base on the center console — pry off, insert screwdriver, push down the orange/pink button. COLUMN SHIFT (base models): key to ON releases shift interlock on steering column. Check trim level — bucket seats = floor shift, bench seat = column shift.",
+          "steps": [
+            "IDENTIFY SHIFTER TYPE: floor console (bucket seats) or column (bench seat).",
+            "FLOOR SHIFT: Turn ignition to ON. Press brake. Move floor selector to Neutral.",
+            "FLOOR SHIFT OVERRIDE: locate small cap near selector base. Pry off. Insert screwdriver into slot, push down orange/pink button. Press brake. Move to N.",
+            "COLUMN SHIFT: Turn ignition to ON. Press brake. Move column lever to Neutral.",
+            "DEAD BATTERY (either type): restore power via jump pack — battery under hood.",
+            "Once powered, key to ON, press brake, shift normally."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery in fender well — jump from underhood terminals labeled (+) and (-).",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "If power cannot be restored: pry off small plastic cap at selector base, insert key/flathead, press button while pressing brake and moving to N.",
+            "FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Driver-side front fender well — behind splash shield in front of driver's front wheel. Remove air filter housing (or front wheel) to access. Jump posts labeled (+) and (-) under hood for remote access.",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Ram 1500",
+      "chassis": "1994-2001 BR/BE",
+      "years": "1994–2001",
+      "meta": {
+        "transmission": "4-speed automatic or 5/6-speed manual",
+        "drivetrain": "RWD or 4WD (part-time)",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Column shifter — slot on STEERING COLUMN. Console shift: cap near selector base.",
+          "steps": [
+            "Turn ignition to ON.",
+            "COLUMN SHIFT (most trims): slot is on the STEERING COLUMN — insert key into column slot, press firmly, press brake, move column lever to Neutral.",
+            "CONSOLE SHIFT: cap near selector base on console. Pry off. Insert key, press, press brake, move to Neutral.",
+            "MANUAL: depress clutch, move lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under the hood, driver side.",
+            "Once 12V power is restored, press brake and shift to Neutral normally.",
+            "4WD: transfer case must be in 2WD before towing."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD/2WD: lift from rear — rear (drive) wheels in the air. 4WD: TC to 2H, then lift from rear.",
+        "notes": [
+          "Column shifter on many trims — slot on steering column.",
+          "RWD: lift from rear. 4WD: TC to 2H."
+        ]
+      },
+      "battery": {
+        "location": "Under hood, driver side",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "4WD: TC to 2WD before towing.",
+        "notes": "NOTE: Ram became a standalone brand in 2010. This entry covers the Dodge-badged Ram 1500 (1994-2001 BR/BE gen). For 2002+ Ram trucks see the Ram dataset.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Stratus / Avenger",
+      "chassis": null,
+      "years": "1995–2014",
+      "meta": {
+        "transmission": "4-speed automatic (41TE) or 6-speed automatic (Avenger 2008-2014)",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead screwdriver.",
+            "Insert key or thin flathead into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal firmly.",
+            "Move the selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Jump from underhood remote terminals labeled (+) and (-) — battery is in fender well.",
+            "Once powered, press brake and shift to N.",
+            "If power cannot be restored: pry off small cap at selector base, press override button while pressing brake and moving to N.",
+            "Avenger (2008-2014): same procedure. FWD only."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. CVT models: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front.",
+          "CVT EQUIPPED (2008-2010): Do NOT exceed 35 mph or 50 miles with drive wheels on ground."
+        ]
+      },
+      "battery": {
+        "location": "Driver-side front fender well — in front of the front wheel behind the fender liner. Turn wheel right, remove splash shield or front wheel to access. Remote jump posts (+/-) labeled under hood.",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "CVT models: flatbed preferred.",
+        "notes": "Stratus Coupe/Sedan: 1995-2006. Avenger (2nd gen): 2008-2014. Combined entry covers both. 2008-2014 Avenger: 4-speed or 6-speed auto. CVT was NOT offered on US Avenger.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Caliber",
+      "chassis": null,
+      "years": "2007–2012",
+      "meta": {
+        "transmission": "CVT (most trims, 2.0L or 2.4L engine) or 5-speed manual (base SE, 1.8L) or 6-speed manual (SRT4 trim only, 2.4L turbo)",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead screwdriver.",
+            "Insert key or thin flathead into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal firmly.",
+            "Move the selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, press brake and shift to N.",
+            "If power cannot be restored: pry off small cap near selector base, press override button while pressing brake and moving to N.",
+            "CVT: treat same as auto — flatbed preferred. AWD: flatbed preferred. Manual: depress clutch, select N."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. CVT: flatbed preferred. AWD: flatbed preferred.",
+        "notes": [
+          "FWD: lift from front.",
+          "CVT EQUIPPED: Do NOT exceed 35 mph or 50 miles with drive wheels on ground.",
+          "AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "CVT: flatbed preferred. AWD: flatbed preferred.",
+        "notes": "CVT on most FWD trims. Manual: depress clutch, select Neutral. AWD: flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Magnum",
+      "chassis": null,
+      "years": "2005–2008",
+      "meta": {
+        "transmission": "5-speed automatic 545RFE (V6 and 5.7L HEMI V8) or 5-speed automatic NAG1/W5A580 (SRT8 6.1L)",
+        "drivetrain": "RWD or AWD",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console — pry off, insert screwdriver, push down the orange/pink button to release. BATTERY IS IN THE TRUNK (same as Charger) — jump via underhood terminals.",
+          "steps": [
+            "BATTERY IS IN THE TRUNK — lift rear cargo floor to access. Jump terminals are under the hood.",
+            "RESTORE 12V POWER if battery is dead — connect jump pack to underhood terminals.",
+            "Once powered, use ACC mode (press Start without brake) then brake and shift to N.",
+            "WITHOUT POWER — console method:",
+            "Locate small cap near the gear selector base on the console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert screwdriver into the slot, push DOWN on the orange/pink button.",
+            "While holding the button, press brake and move selector to N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "BATTERY IN TRUNK — jump via underhood terminals.",
+            "Once powered, shift to N via ACC mode.",
+            "Without power: console cap → push orange button.",
+            "AWD: FLATBED REQUIRED."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear. AWD: flatbed preferred. AWD without flatbed: dollies on front axle.",
+        "notes": [
+          "RWD: lift from rear.",
+          "AWD: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "TRUNK — under rear cargo floor. Jump posts under hood for remote access.",
+        "jumpPoints": "Under hood — positive post near fuse box, ground to chassis.",
+        "type": "standard-12v",
+        "warning": "Battery is in TRUNK. Use underhood jump terminals."
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred.",
+        "notes": "AWD: flatbed preferred. Shares Chrysler LX platform with 300 and Charger.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Nitro",
+      "chassis": null,
+      "years": "2007–2011",
+      "meta": {
+        "transmission": "4-speed automatic 42RLE (2.4L 4-cyl) or 5-speed automatic 545RFE (3.7L V6)",
+        "drivetrain": "RWD or 4WD (part-time)",
+        "tags": [
+          "rwd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock override slot — Small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead screwdriver.",
+            "Insert key or thin flathead into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal firmly.",
+            "Move the selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "TC: shift to 2WD before road towing. IF BATTERY DEAD: jump first."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD/2WD: lift from rear. 4WD: shift TC to 2H first, then lift rear. Flatbed preferred.",
+        "notes": [
+          "Jeep Liberty platform. Electronic TC requires power.",
+          "DEAD BATTERY: Jump first, shift to 2WD, THEN disconnect. If unable, FLATBED ONLY."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Shift transfer case to 2H before road towing.",
+        "notes": "Jeep Liberty-based. Transfer case must be in 2H for road towing.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Ram Van / Ram Wagon B-Series",
+      "chassis": null,
+      "years": "1992–2003",
+      "meta": {
+        "transmission": "3-speed automatic (32RH with 3.9L V6, or 36RH with 5.2L/5.9L V8, through ~1997) or 4-speed automatic (46RH 1992-1995, 46RE 1996-2003 with V8)",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Column shifter — shift lock released by key in ON position",
+          "steps": [
+            "Turn ignition to ON (key to Run).",
+            "COLUMN SHIFTER: key in ON releases shift interlock.",
+            "Press brake firmly.",
+            "Move column lever from Park to Neutral.",
+            "If lever is stiff: ensure ignition is fully ON, not just ACC."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack — under hood or right front inner fender.",
+            "Once powered, key to ON, press brake, shift column lever to N."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air.",
+        "notes": [
+          "RWD: lift from rear. Large/heavy vehicle — confirm tow capacity."
+        ]
+      },
+      "battery": {
+        "location": "Under hood or right front inner fender (varies by year)",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Column shifter. RWD. Very common commercial/fleet vehicle.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Shadow / Spirit",
+      "chassis": null,
+      "years": "1987–1995",
+      "meta": {
+        "transmission": "3-speed automatic (A413) or 4-speed automatic (41TE)",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on console — where present (BTSI not mandatory pre-2010). Early Shadow/Spirit (pre-1992 auto) may have key-ignition interlock only, no shift lock cap. Late models (1992-1994): cap typically present. Manual transmission: no shift lock.",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "MANUAL TRANSMISSION: depress clutch fully and move gear lever to Neutral — no further steps needed.",
+            "AUTOMATIC (late models with BTSI, 1992-1994): Locate small cap near gear selector base on the console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal firmly.",
+            "Move the selector from Park to Neutral. Remove tool and replace cap.",
+            "AUTOMATIC (early models, pre-1992): if no cap is present, key to ON + brake should release interlock. If not, restore power via jump pack — battery under hood."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood — connect jump pack.",
+            "Key to ON, press brake, shift to N.",
+            "If solenoid fails / no power: pry off small cap at selector base (if present on 41TE models), press override while pressing brake and moving to N.",
+            "Early auto (pre-1989, A413 only): no BTSI cap — key to ON + brake only.",
+            "FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Shadow: 1987-1994 (hatchback/coupe/convertible). Spirit: 1989-1995 (sedan). FWD. Manual trans common.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Dart",
+      "chassis": null,
+      "years": "2013–2016",
+      "meta": {
+        "transmission": "6-speed automatic (62TE) or 6-speed dual-dry-clutch (DDCT) or 6-speed manual",
+        "drivetrain": "FWD",
+        "tags": [
+          "requires_power"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "6-SPEED AUTOMATIC (62TE): small cap near gear selector base on center console — pry off, insert flathead, press override button while pressing brake and moving to N. DDCT (dual dry-clutch): REQUIRES 12V POWER — no mechanical override without power. Must restore 12V first. MANUAL: no shift lock — depress clutch and select N.",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "AUTOMATIC: Locate shift lock override — small cap near selector base on console.",
+            "Pry off cap. Insert key or thin flathead. Press firmly downward.",
+            "While holding, press brake. Move selector to Neutral.",
+            "DUAL-DRY-CLUTCH (DDCT): same cap procedure but RESTORE 12V POWER FIRST — DDCT requires 12V to actuate clutches. Flatbed if power cannot be restored.",
+            "MANUAL: depress clutch fully, move lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Connect jump pack to battery — under hood.",
+            "Auto: restore power, press brake, shift to N.",
+            "DDCT: must restore 12V power — DDCT cannot mechanically override without power.",
+            "Manual: depress clutch, select N.",
+            "FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front.",
+          "DDCT: restore 12V power before attempting to shift."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "DDCT dual-dry-clutch: requires 12V power to shift. Restore power first.",
+        "notes": "Alfa Romeo-based platform. DDCT dual-dry-clutch was unreliable — many known issues. Manual also available. FWD only.",
+        "issues": [
+          {
+            "title": "DDCT Dual-Dry-Clutch Requires 12V Power to Shift",
+            "detail": "The DDCT dual-dry-clutch transmission requires electrical power to actuate the clutches. Without 12V power, the transmission cannot be shifted mechanically. Restore power first or use flatbed."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Hornet",
+      "chassis": null,
+      "years": "2023–2026",
+      "meta": {
+        "transmission": "9-speed automatic (GT trim, 2.0L turbo) or 6-speed automatic (R/T PHEV trim, 1.3L turbo + rear e-motor) — NO manual option",
+        "drivetrain": "AWD",
+        "tags": [
+          "requires_power",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic selector — small console panel near selector base. Restore 12V power first.",
+          "steps": [
+            "RESTORE 12V POWER FIRST — electronic selector requires power.",
+            "Connect jump pack to battery under hood.",
+            "Once powered, press brake and move electronic selector to N.",
+            "WITHOUT POWER: locate small access panel near selector base on console.",
+            "Pry off panel. Use flathead to engage manual park release lever.",
+            "PHEV (R/T Plus): 12V AUXILIARY ONLY — never touch HV battery."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood.",
+            "Restore 12V. Once powered, press brake and move selector to N.",
+            "PHEV: 12V AUXILIARY ONLY — never touch HV battery.",
+            "AWD: flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "AWD — flatbed preferred.",
+        "notes": [
+          "AWD: flatbed preferred.",
+          "PHEV: 12V auxiliary only — never touch HV battery."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals. PHEV: 12V only.",
+        "type": "standard-12v",
+        "warning": "PHEV: 12V auxiliary only. Never touch HV battery."
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred. PHEV: 12V auxiliary only.",
+        "notes": "Alfa Romeo Tonale platform. AWD standard. PHEV variant available. Electronic selector.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Caravan",
+      "chassis": "1984-2007",
+      "years": "1984–2007",
+      "meta": {
+        "transmission": "3-speed auto (1984-1992), 4-speed auto (1993-2007)",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "COLUMN SHIFTER (most trims): shift released by key in ON + brake. FLOOR SHIFT (some trims): small cap near selector base on console.",
+          "steps": [
+            "IDENTIFY SHIFTER TYPE: column (most common) or floor console.",
+            "COLUMN SHIFT: Turn ignition to ON. Press brake firmly. Move column lever to Neutral.",
+            "FLOOR SHIFT: Locate small cap near selector base on console. Pry off. Insert key. Press firmly. Press brake. Move to N.",
+            "DEAD BATTERY: restore power via jump pack — battery under hood."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood.",
+            "Key to ON, press brake, shift column lever to N (or use floor cap).",
+            "FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Shorter wheelbase than Grand Caravan. Column shift most common. FWD only.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Dynasty",
+      "chassis": "1988-1993",
+      "years": "1988–1993",
+      "meta": {
+        "transmission": "3-speed automatic (A413) or 4-speed automatic (41TE)",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console — pry off, insert key, press down.",
+          "steps": [
+            "Turn ignition to ON.",
+            "AUTOMATIC: Locate shift lock — small cap near selector base on console.",
+            "Pry off cap. Insert key or flathead. Press firmly. Press brake. Move to N.",
+            "DEAD BATTERY: restore power via jump pack — battery under hood."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood.",
+            "Key to ON, press brake, shift to N.",
+            "If power cannot be restored: pry off small cap at selector base, insert key, press down while pressing brake and moving to N.",
+            "FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Full-size FWD sedan. Sibling to Chrysler New Yorker. Floor console selector.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Stealth",
+      "chassis": "1991-1996",
+      "years": "1991–1996",
+      "meta": {
+        "transmission": "4-speed automatic (F4A33) or 5/6-speed manual",
+        "drivetrain": "FWD or AWD (R/T Turbo)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Small cap near gear selector base on center console. Manual: no shift lock.",
+          "steps": [
+            "IDENTIFY TRANSMISSION: automatic or manual.",
+            "MANUAL: depress clutch fully, move lever to Neutral.",
+            "AUTOMATIC: Turn ignition to ON. Locate cap near selector base. Pry off. Insert key. Press firmly. Press brake. Move to N.",
+            "Battery under hood — restore power if needed."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood.",
+            "Auto: restore power, press brake, shift to N.",
+            "Manual: depress clutch, select N.",
+            "FWD: lift from front. AWD (R/T Turbo): flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front. AWD: flatbed preferred. Low clearance on all.",
+        "notes": [
+          "FWD: lift from front.",
+          "AWD R/T Turbo: flatbed preferred."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD (R/T Turbo): flatbed preferred. Low clearance.",
+        "notes": "Rebadged Mitsubishi 3000GT. AWD on R/T Turbo only. Manual very common. Low clearance — flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Daytona",
+      "chassis": "1984-1993",
+      "years": "1984–1993",
+      "meta": {
+        "transmission": "3-speed automatic (A413, 1984-1993) or 4-speed automatic (A604/41TE, 1989-1993 IROC trim only) or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "PRE-BTSI (most 1984-1991): key to ON + brake releases shift interlock — no cap needed. LATE MODELS with BTSI (some 1989-1993, especially IROC): small cap near selector base — pry off, insert key, press down. NOTE: BTSI was voluntary/optional — not all Daytonas have it. Check for cap first.",
+          "steps": [
+            "MANUAL TRANSMISSION: depress clutch fully, move lever to Neutral.",
+            "AUTOMATIC WITHOUT BTSI CAP (most 1984-1991): key to ON, press brake firmly, move selector to N.",
+            "AUTOMATIC WITH BTSI CAP (some 1989-1993, check for cap near selector base):",
+            "Pry off cap. Insert key or thin flathead. Press firmly. Press brake. Move to N.",
+            "DEAD BATTERY: restore power via jump pack — battery under hood."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood.",
+            "Key to ON, press brake, move selector to N.",
+            "FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front — front (drive) wheels in the air.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "K-car platform sport coupe. Very common tow call from storage/estate situations. Turbo models available. FWD only.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Lancer",
+      "chassis": "1985-1989",
+      "years": "1985–1989",
+      "meta": {
+        "transmission": "3-speed automatic (A413) or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Pre-BTSI era — no shift lock cap on most models. Key to ON + brake should release shift interlock. If solenoid fails: small access slot at base of shifter — insert key and press.",
+          "steps": [
+            "MANUAL TRANSMISSION: depress clutch fully, move lever to Neutral.",
+            "AUTOMATIC: Turn key to ON. Press brake firmly. Move selector to Neutral.",
+            "DEAD BATTERY: restore power via jump pack — battery under hood.",
+            "If solenoid fails without power: small slot at shifter base — insert key, press, move to N."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood.",
+            "Key to ON, press brake, shift to N.",
+            "FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "H-body 5-door hatchback. Sibling to Chrysler LeBaron GTS. FWD. Pre-BTSI era.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Challenger",
+      "chassis": "1st Gen 1970-1974",
+      "years": "1970–1974",
+      "meta": {
+        "transmission": "3-speed TorqueFlite automatic (A-727 with V8 engines, A-904 with slant-6) or 3-speed or 4-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "NO ELECTRONIC SHIFT LOCK — purely mechanical. COLUMN SHIFT: key to RUN (or even OFF on early models) + brake moves lever freely. FLOOR SHIFT (most muscle trims): move selector to N manually — no electronic interlock.",
+          "steps": [
+            "NO electronic shift lock on any 1970-1974 Challenger.",
+            "COLUMN SHIFT: turn key to RUN. Press brake. Move column lever to Neutral.",
+            "FLOOR SHIFT (console): press brake and move floor selector to Neutral.",
+            "MANUAL TRANSMISSION: depress clutch, move lever to Neutral.",
+            "Battery under hood — jump if needed."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "No shift lock — no override needed.",
+            "Column or floor shift: move to N with key to RUN + brake.",
+            "Manual: depress clutch, select N.",
+            "RWD: lift from rear — rear (drive) wheels in the air. HIGH VALUE — flatbed strongly preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED STRONGLY PREFERRED — high collector value. RWD if flatbed unavailable: lift from rear.",
+        "notes": [
+          "HIGH VALUE CLASSIC — use flatbed only. Soft straps, no chains on painted surfaces.",
+          "No electronic shift lock — purely mechanical, no override needed."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "HIGH VALUE COLLECTOR CAR — use proper equipment. Flatbed preferred."
+      },
+      "alerts": {
+        "warning": "HIGH VALUE CLASSIC — flatbed only. No electronic shift lock.",
+        "notes": "Classic 1st gen muscle car. HIGH COLLECTOR VALUE — flatbed only preferred. No electronic shift interlock. Floor shift most common on performance trims. Very heavy — check equipment ratings.",
+        "issues": [
+          {
+            "title": "No Electronic Shift Lock — Purely Mechanical",
+            "detail": "1970-1974 Challenger has no electronic BTSI shift lock. Shift freely with key to RUN + brake. No cap or override slot needed."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "Challenger",
+      "chassis": "2nd Gen 1978-1983",
+      "years": "1978–1983",
+      "meta": {
+        "transmission": "3-speed automatic (Mitsubishi unit) or 5-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Pre-BTSI era — no electronic shift lock cap. Key to ON + brake releases column shift interlock normally. Floor shift models: no interlock — move selector freely.",
+          "steps": [
+            "NO electronic shift lock on 2nd gen Challenger.",
+            "AUTOMATIC (column shift): key to ON, press brake, move lever to N.",
+            "AUTOMATIC (floor shift): press brake and move selector to N.",
+            "MANUAL TRANSMISSION: depress clutch, move lever to Neutral.",
+            "Battery under hood — jump if needed."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "No electronic shift lock — no override needed.",
+            "Key to ON, press brake, move to N.",
+            "Manual: depress clutch, select N.",
+            "RWD: lift from rear."
+          ]
+        }
+      },
+      "tow": {
+        "method": "RWD: lift from rear — rear (drive) wheels in the air.",
+        "notes": [
+          "RWD: lift from rear.",
+          "NOTE: completely different vehicle from Gen1 (1970) and Gen3 (2008) Challenger."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "Rebadged Mitsubishi Galant Lambda. Completely different from Gen1 or Gen3. RWD. 1.6L or 2.6L 4-cyl only — no V8. Pre-BTSI era — no shift lock. Compact personal-luxury coupe.",
+        "issues": [
+          {
+            "title": "Completely Different Vehicle From Other Challenger Generations",
+            "detail": "The 2nd gen (1978-1983) Challenger is a rebadged Mitsubishi Galant Lambda. It shares nothing with the 1st gen (1970-1974) or 3rd gen (2008-2023) Challengers."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Dodge",
+      "model": "400 / 600",
+      "chassis": "1982-1988",
+      "years": "1982–1988",
+      "meta": {
+        "transmission": "3-speed automatic (A413 with 2.2L engine, or A470 with 2.6L Mitsubishi engine) or 5-speed manual",
+        "drivetrain": "FWD",
+        "tags": []
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Pre-BTSI era — no electronic shift lock cap on most models. Key to ON + brake releases shift interlock on column and console shift models.",
+          "steps": [
+            "MANUAL TRANSMISSION: depress clutch, move lever to Neutral.",
+            "AUTOMATIC: Turn key to ON. Press brake firmly. Move selector to Neutral.",
+            "DEAD BATTERY: restore power via jump pack — battery under hood.",
+            "No BTSI cap on most models — interlock is purely key/solenoid based."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack to battery — under hood.",
+            "Key to ON, press brake, move to N.",
+            "FWD: lift from front."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: lift from front.",
+        "notes": [
+          "FWD: lift from front."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "",
+        "notes": "400 (1982-1983): 2-door coupe. 600 (1983-1988): 2-door coupe, 4-door sedan, convertible. K-car FWD platform. Pre-BTSI era. Some models had 2.6L Mitsubishi engine with A470 3-speed auto.",
+        "issues": []
+      }
+    }
+  ]
+}

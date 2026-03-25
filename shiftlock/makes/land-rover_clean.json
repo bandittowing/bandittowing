@@ -1,0 +1,833 @@
+{
+  "make": "Land Rover",
+  "count": 14,
+  "vehicles": [
+    {
+      "make": "Land Rover",
+      "model": "Range Rover",
+      "chassis": "2003-2012 L322",
+      "years": "2003–2012",
+      "meta": {
+        "transmission": "5-speed or 6-speed ZF automatic",
+        "drivetrain": "4WD (permanent AWD with transfer case)",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Red nylon release handle under the CUPHOLDER in the center console. Lift and pull the cupholder insert UP to expose the handle. Pull to engage Neutral.",
+          "steps": [
+            "PREFERRED (with power): Turn ignition to ON. Shift to N using the traditional floor shifter.",
+            "WITHOUT POWER — red handle method:",
+            "Pull the cupholder insert UPWARD firmly — it pops off its clips.",
+            "Locate the red nylon handle in the console cavity.",
+            "Press the brake pedal firmly.",
+            "Pull the red handle toward you (or push, depending on early vs late build) to release Park.",
+            "Confirm vehicle can roll before loading onto flatbed.",
+            "Vehicle must be on FLATBED — permanent 4WD, cannot disable AWD."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery is under the hood — connect jump pack.",
+            "Attempt to restore 12V power first to confirm N selector position.",
+            "Use red cupholder handle method if power unavailable.",
+            "FLATBED ONLY — permanent full-time 4WD.",
+            "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED PREFERRED. Flatbed with TC in neutral. Four-wheel-down: TC in neutral, max 30 mph / 30 miles. NEVER wheel-lift front or rear only — permanent AWD will destroy drivetrain.",
+        "notes": [
+          "PERMANENT AWD: never wheel-lift front or rear only — drivetrain destruction guaranteed.",
+          "TC must be in Neutral for flatbed loading. Electronic dial requires 12V power.",
+          "Air suspension: may have risen/lowered — vehicle height may be non-standard when found."
+        ]
+      },
+      "battery": {
+        "location": "Under hood — standard location",
+        "jumpPoints": "Under hood — standard red (+) / black (−) terminals",
+        "type": "standard-12v",
+        "warning": "TC must be in Neutral for flatbed. Permanent AWD — no wheel-lift."
+      },
+      "alerts": {
+        "warning": "Transfer case MUST be in Neutral (flatbed) or 2H equivalent. Permanent AWD — cannot wheel-lift without TC neutral.",
+        "notes": "Permanent AWD — transfer case neutral required for flatbed. 4-wheel tow: strict 30 mph / 30 mile limit.",
+        "issues": [
+          {
+            "title": "Permanent AWD — Wheel-Lift Will Destroy Drivetrain",
+            "detail": "The L322 Range Rover has permanent 4WD. You CANNOT use a standard wheel-lift without putting the transfer case in Neutral first. Attempting to tow with only two wheels on the ground while TC is engaged will destroy the transfer case, transmission, and differentials."
+          },
+          {
+            "title": "Air Suspension Failure Common on High-Mileage Units",
+            "detail": "EAS air suspension failure is extremely common on L322 Range Rovers. Vehicle may be sitting very low (at bump stops) when found. This affects loading angle and clearance. Note: the front air springs and rear air springs fail independently."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover",
+      "chassis": "2013-2021 L405",
+      "years": "2013–2021",
+      "meta": {
+        "transmission": "8-speed ZF 8HP automatic",
+        "drivetrain": "4WD (permanent AWD with electronic TC)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Emergency Park Release (EPR): red nylon handle under CUPHOLDER insert in center console. Remove cupholder inserts. Locate the EPR handle. Turn locking mechanism to UNLOCK. Pull handle up. NOTE: The rotary drive selector will show P but gear display flashes N — this is correct.",
+          "steps": [
+            "PREFERRED (with power): Turn ignition to ON. Rotary selector rises — rotate to N.",
+            "WITHOUT POWER — EPR procedure:",
+            "Remove the cupholder inserts from the center console.",
+            "Locate the EPR handle (red/orange nylon strap).",
+            "Turn the locking mechanism (small lever or twist) to the UNLOCK position.",
+            "Press the brake pedal firmly.",
+            "Pull the EPR handle UPWARD until it latches in the vertical position.",
+            "The rotary selector will remain showing P but the display flashes N — the vehicle IS in Neutral.",
+            "CRITICAL: The recovery agent MUST activate the EPR before towing. Do not use rotary P for recovery.",
+            "FLATBED ONLY — permanent electronic 4WD."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "CRITICAL per Land Rover owner manual: Recovery agent must activate EPR before towing begins.",
+            "Attempting to load without EPR activation can seriously damage the transmission.",
+            "Activate EPR using cupholder method above.",
+            "Confirm display shows flashing N before loading.",
+            "FLATBED ONLY.",
+            "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED STRONGLY PREFERRED with TC in Neutral. Four-wheel-down tow: TC in Neutral, max 30 mph / 30 miles ONLY. NEVER wheel-lift front or rear only.",
+        "notes": [
+          "Permanent AWD — no front or rear wheel-lift alone without TC in neutral.",
+          "TC electronic — requires 12V power to shift. Jump first if dead.",
+          "L405 is very heavy — verify flatbed weight capacity.",
+          "30 mph / 30 mile limit strictly enforced for four-wheel tow."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warning": "AGM rated jump pack required. TC must be in Neutral for flatbed. Permanent AWD."
+      },
+      "alerts": {
+        "warning": "PERMANENT AWD — no wheel-lift without TC neutral. Flatbed strongly preferred.",
+        "notes": "Rotary dial shifter. Red handle under cupholders is the manual override. TC must be in Neutral for flatbed.",
+        "issues": [
+          {
+            "title": "EPR MUST Be Activated Before Towing — Owner Manual Warning",
+            "detail": "Land Rover's owner manual explicitly states: 'The recovery agent MUST activate the Emergency Park Release before towing commences. The procedure is covered in a separate publication for service personnel.' Failure to activate EPR can result in serious transmission damage. The rotary selector will show P even after EPR is activated — the flashing N on the gear display confirms EPR is active."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Sport",
+      "chassis": "2006-2013 L320",
+      "years": "2006–2013",
+      "meta": {
+        "transmission": "6-speed ZF automatic",
+        "drivetrain": "4WD (permanent AWD with TC)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Red nylon handle under CUPHOLDER in center console — same procedure as L322. Remove cupholder insert, locate handle, press brake, pull handle to engage Neutral.",
+          "steps": [
+            "PREFERRED (with power): Turn ignition to ON. Shift to N using floor shifter.",
+            "WITHOUT POWER:",
+            "Remove cupholder insert from center console.",
+            "Press brake pedal firmly.",
+            "Pull the red nylon handle to release Park lock.",
+            "Confirm vehicle rolls before loading. FLATBED ONLY."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood.",
+            "Connect jump pack.",
+            "Use red handle method or shift normally once powered.",
+            "TC must be in Neutral for flatbed."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED with TC in Neutral. Four-wheel-down: TC neutral, max 30 mph / 30 miles.",
+        "notes": [
+          "Permanent AWD — flatbed with TC in neutral or four-wheel strictly limited.",
+          "30 mph / 30 miles for four-wheel tow.",
+          "L320 body on frame platform — tow from frame, not body panels."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Permanent AWD — no wheel-lift without TC neutral."
+      },
+      "alerts": {
+        "warning": "Permanent AWD — no wheel-lift without TC in neutral.",
+        "notes": "J-gate shifter. Same red handle override as full-size Range Rover.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Sport",
+      "chassis": "2014-2022 L494",
+      "years": "2014–2022",
+      "meta": {
+        "transmission": "8-speed ZF 8HP automatic",
+        "drivetrain": "4WD (permanent AWD with electronic TC)",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Red nylon EPR handle under CUPHOLDER inserts in center console. Remove cupholder inserts, turn locking mechanism to unlock, press brake, pull handle upward to vertical.",
+          "steps": [
+            "PREFERRED (with power): Turn ignition to ON. Electronic rotary selector rises. Rotate to N.",
+            "WITHOUT POWER — EPR procedure (same as L405):",
+            "Remove the cupholder inserts.",
+            "Locate the EPR handle and locking mechanism.",
+            "Turn locking mechanism to UNLOCK position.",
+            "Press the brake pedal firmly.",
+            "Pull the EPR handle UPWARD until it latches vertically.",
+            "Display will flash N to confirm activation."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood.",
+            "Connect jump pack. Restore power.",
+            "Shift TC and gear selector to Neutral normally via rotary dial.",
+            "Red handle as backup if electronics fail."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED PREFERRED with TC Neutral. Four-wheel-down: TC Neutral, max 30 mph / 30 miles.",
+        "notes": [
+          "Electronic TC requires 12V power — jump first if dead.",
+          "30 mph / 30 mile strict limit for four-wheel tow.",
+          "Permanent AWD — wheel-lift alone will destroy drivetrain."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — AGM rated",
+        "type": "agm-12v",
+        "warning": "AGM battery — use AGM-rated jump pack. TC neutral required for flatbed."
+      },
+      "alerts": {
+        "warning": "Permanent AWD — flatbed with TC neutral required. 30 mph / 30 miles for 4-wheel tow.",
+        "notes": "Rotary dial shifter. Shares red handle override with L405.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Evoque",
+      "chassis": "2012-2024",
+      "years": "2012–2024",
+      "meta": {
+        "transmission": "6-speed or 9-speed automatic; PHEV available (2021+)",
+        "drivetrain": "FWD or AWD",
+        "tags": [
+          "requires_power",
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic rotary dial shifter. Override slot near base of rotary dial — small trim cap. ZF 9HP transmission: requires 12V power to shift reliably. Restore battery first.",
+          "steps": [
+            "ZF 9HP: RESTORE 12V POWER FIRST — this transmission is very difficult to shift without power.",
+            "Connect jump pack to battery under the hood.",
+            "Turn ignition to ON — rotary selector rises.",
+            "Rotate dial to N normally.",
+            "Without power — override slot at base of rotary dial: insert thin flathead, press firmly, rotate dial to N.",
+            "Significant force may be required without power — ZF 9HP resists mechanical override."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Main battery under hood OR auxiliary battery under passenger glove box foot well.",
+            "If main battery dead, auxiliary may still have power — check under glove box.",
+            "Connect jump pack to under-hood terminals.",
+            "Restore power. Use rotary dial to select N.",
+            "AWD: flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FWD: rear lift (front drive wheels roll). AWD: flatbed preferred.",
+        "notes": [
+          "Auxiliary battery under glove box foot well — useful if main battery is dead.",
+          "AWD Haldex: flatbed preferred.",
+          "PHEV (2021+): 12V auxiliary only — never touch HV system."
+        ]
+      },
+      "battery": {
+        "location": "Under hood (main). Auxiliary battery possibly under passenger glove box foot well.",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Check for auxiliary battery under glove box. PHEV: 12V only."
+      },
+      "alerts": {
+        "warning": "AWD: flatbed preferred. Check for auxiliary battery under glove box foot well.",
+        "notes": "Auxiliary battery may be under passenger glove box for safety/electronic systems. Check both locations.",
+        "issues": [
+          {
+            "title": "Auxiliary Battery Under Glove Box",
+            "detail": "The Evoque has a small auxiliary battery under the passenger-side glove box foot area. This battery powers the rotary selector safety system. If the main battery is dead but this aux battery has charge, you may be able to use it to shift into Neutral without a full jump."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "Discovery / LR4",
+      "chassis": "2010-2016",
+      "years": "2010–2016",
+      "meta": {
+        "transmission": "6-speed ZF automatic",
+        "drivetrain": "4WD (permanent AWD with TC)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Red nylon EPR handle under CUPHOLDER inserts in center console. Same EPR procedure as Range Rover L405/L494.",
+          "steps": [
+            "PREFERRED (with power): Key to ON (accessory mode — do NOT press start with foot on brake). Press brake. Select N.",
+            "ACCESSORY MODE TIP: Press start button WITHOUT foot on brake — this gives accessory power. Then press brake and shift to N.",
+            "WITHOUT POWER — EPR:",
+            "Remove cupholder inserts from center console.",
+            "Turn EPR locking mechanism to UNLOCK.",
+            "Press brake firmly.",
+            "Pull red EPR handle upward to vertical — latches in place.",
+            "Display flashes N to confirm."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood.",
+            "Connect jump pack.",
+            "Use rotary/J-gate to shift once powered, or red handle method.",
+            "TC must be in Neutral for flatbed."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED with TC in Neutral. Four-wheel-down: TC Neutral, max 30 mph / 30 miles.",
+        "notes": [
+          "Very heavy vehicle — confirm flatbed capacity.",
+          "Electronic TC requires power — jump first if dead.",
+          "Shift lock solenoid problems reported on some year models."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Permanent AWD — TC neutral required. Heavy — check flatbed capacity."
+      },
+      "alerts": {
+        "warning": "Permanent AWD — no wheel-lift without TC neutral. Heavy vehicle.",
+        "notes": "LR4 name used in US market. Same J-gate/red handle system as Sport.",
+        "issues": [
+          {
+            "title": "Shift Lock Solenoid Failures",
+            "detail": "Some LR4 model years have documented shift lock solenoid failures that prevent the shift interlock from releasing even with the override method. If the red handle method fails and the vehicle has power, a failing solenoid may be the cause. Flatbed with TC in neutral is the safest fallback."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "Defender",
+      "chassis": "2020-2024 L663",
+      "years": "2020–2024",
+      "meta": {
+        "transmission": "8-speed ZF 8HP automatic; PHEV (P400e) available",
+        "drivetrain": "4WD (permanent AWD, electronic TC)",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Electronic shifter with mechanical override — override slot near base of rotary/lever selector under console trim",
+          "steps": [
+            "PREFERRED (with power): Turn ignition to ON. Electronic gear selector — select N.",
+            "WITHOUT POWER:",
+            "Connect jump pack to battery under hood first — strongly preferred.",
+            "Mechanical override slot near selector base — insert thin flathead.",
+            "ZF 8HP: apply firm steady pressure for several seconds.",
+            "While holding, press brake and move selector to N.",
+            "FLATBED ONLY — permanent AWD."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood.",
+            "Connect jump pack.",
+            "Restore power. Use selector normally.",
+            "TC: must be in Neutral for flatbed — electronic TC requires power.",
+            "PHEV: 12V only — never touch HV system."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED STRONGLY PREFERRED with TC in Neutral. Permanent AWD — no wheel-lift without TC neutral.",
+        "notes": [
+          "Modern L663 is fully electronic — all systems require 12V power.",
+          "PHEV: HV system present — orange cables. 12V auxiliary jump only.",
+          "Very wide vehicle — measure before using narrow flatbeds.",
+          "Limited public documentation on emergency procedures — Land Rover assist recommended."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — AGM rated",
+        "type": "agm-12v",
+        "warning": "AGM battery — use AGM-rated pack. Permanent AWD — TC neutral required. PHEV: 12V only."
+      },
+      "alerts": {
+        "warning": "Permanent AWD — TC neutral required. PHEV: never touch HV system. Flatbed strongly preferred.",
+        "notes": "Modern fully electronic vehicle. PHEV (P400e) has HV system — orange cables.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Classic",
+      "chassis": "1990-1995",
+      "years": "1990–1995",
+      "meta": {
+        "transmission": "4-speed automatic (ZF 4HP22) or 4-speed manual (LT77)",
+        "drivetrain": "4WD (permanent AWD with manual TC)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Console-mounted selector — override slot or mechanical release at selector base",
+          "steps": [
+            "Turn ignition to ON.",
+            "AUTOMATIC: locate override slot or mechanical release near selector base on console.",
+            "Insert flathead screwdriver into slot and press/lever the interlock cam upward.",
+            "While holding, press brake. Move selector to Neutral.",
+            "MANUAL: depress clutch fully and move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under the hood — standard location. Connect jump pack.",
+            "Once powered, shift normally.",
+            "PERMANENT 4WD — transfer case must be in Neutral for flatbed or four-wheel-down towing.",
+            "Manual TC lever: stop completely, move TC to Neutral position.",
+            "NEVER wheel-lift front or rear only — permanent AWD will destroy drivetrain."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED with TC in Neutral. Four-wheel-down: TC in Neutral, max 30 mph / 30 miles. NEVER wheel-lift front or rear alone.",
+        "notes": [
+          "Permanent AWD — TC must be in Neutral for any towing.",
+          "Never wheel-lift front or rear alone.",
+          "Manual TC lever — stop completely before shifting TC."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Permanent AWD — never wheel-lift without TC in Neutral."
+      },
+      "alerts": {
+        "warning": "PERMANENT AWD — NEVER wheel-lift front or rear only. TC must be in Neutral.",
+        "notes": "Permanent 4WD. TC must be in Neutral for any towing. Manual TC lever.",
+        "issues": [
+          {
+            "title": "Permanent AWD — Wheel-Lift Will Destroy Drivetrain",
+            "detail": "The Range Rover Classic has permanent 4WD with no 2WD mode. You CANNOT wheel-lift from either end without first putting the transfer case in Neutral. Attempting to tow with only two wheels off the ground while TC is engaged will destroy the transfer case and differentials."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "Discovery",
+      "chassis": "1st Gen 1994-1999",
+      "years": "1994–1999",
+      "meta": {
+        "transmission": "4-speed automatic (ZF 4HP22/24) or 5-speed manual (R380)",
+        "drivetrain": "4WD (permanent AWD with TC)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Console-mounted selector — override slot at selector base",
+          "steps": [
+            "Turn ignition to ON.",
+            "AUTOMATIC: locate the override slot at the selector base on the center console.",
+            "Insert a flathead screwdriver or key and press the interlock cam to release.",
+            "While holding, press brake. Move selector to Neutral.",
+            "MANUAL: depress clutch fully and move gear lever to Neutral."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under the hood — connect jump pack.",
+            "Once powered, shift normally.",
+            "PERMANENT AWD — TC must be in Neutral for flatbed or four-wheel-down towing.",
+            "Manual TC floor lever: stop completely, shift to Neutral.",
+            "NEVER wheel-lift front or rear only."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED with TC in Neutral. Four-wheel-down: TC Neutral, max 30 mph / 30 miles. NEVER wheel-lift.",
+        "notes": [
+          "Permanent AWD — TC to Neutral before towing.",
+          "Never wheel-lift front or rear alone.",
+          "Stop completely before shifting TC lever."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Permanent AWD — TC Neutral required for any towing."
+      },
+      "alerts": {
+        "warning": "PERMANENT AWD — NEVER wheel-lift front or rear alone. TC to Neutral before any towing.",
+        "notes": "Permanent AWD. Manual TC floor lever. Same rules as Range Rover Classic.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "Freelander",
+      "chassis": "2002-2005",
+      "years": "2002–2005",
+      "meta": {
+        "transmission": "5-speed automatic (Jatco) or 5-speed manual",
+        "drivetrain": "AWD (Haldex / IRD)",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Console-mounted selector — override slot near selector base",
+          "steps": [
+            "Turn ignition to ON (key to Run position — do not start).",
+            "Locate the shift lock override: cap or slot near selector base on center console.",
+            "Pry off the plastic cap with your ignition key or a small flathead screwdriver.",
+            "Insert the key (or a thin flathead) into the slot and press firmly downward.",
+            "While holding the slot, press the brake pedal.",
+            "Move the selector from Park to Neutral.",
+            "Remove key from slot and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under the hood — connect jump pack.",
+            "Once powered, press brake and shift normally.",
+            "FLATBED ONLY — Freelander Haldex AWD cannot be disabled. No 2WD mode.",
+            "MANUAL: depress clutch and move to Neutral. FLATBED ONLY — no 2WD."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED ONLY — permanent Haldex AWD with no 2WD mode.",
+        "notes": [
+          "Haldex AWD — flatbed only. No 2WD mode."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": "Flatbed only — no 2WD mode."
+      },
+      "alerts": {
+        "warning": "FLATBED ONLY — Haldex AWD cannot be disabled. Never wheel-lift.",
+        "notes": "Haldex AWD — FLATBED ONLY. No 2WD mode on any Freelander trim.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "LR2 / Freelander 2",
+      "chassis": null,
+      "years": "2006–2015",
+      "meta": {
+        "transmission": "6-speed automatic (Aisin TF-80SC)",
+        "drivetrain": "AWD (Haldex, permanent)",
+        "tags": [
+          "awd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Slot near selector base on center console — small trim cover.",
+          "steps": [
+            "Turn ignition to ON (do not start engine).",
+            "Locate the shift lock release: small cap near gear selector base on center console.",
+            "Pry off cap with ignition key or small flathead.",
+            "Insert key or thin flathead and press firmly downward.",
+            "While holding, press the brake pedal firmly.",
+            "Move selector from Park to Neutral.",
+            "Remove tool and replace cap."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Connect jump pack — under hood.",
+            "Once powered, shift to N.",
+            "Haldex AWD (permanent): FLATBED PREFERRED — AWD cannot be easily disengaged."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED PREFERRED — permanent AWD cannot be disengaged. Wheel-lift with dollies on free-rolling axle if no flatbed.",
+        "notes": [
+          "Permanent Haldex AWD — cannot disengage. Flatbed is safest.",
+          "Wheel-lift with dollies on free-rolling axle if flatbed unavailable."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "AWD — flatbed preferred. No transfer case to disengage.",
+        "notes": "Permanent Haldex AWD. No traditional transfer case lever. Flatbed preferred.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "LR3 / Discovery 3",
+      "chassis": null,
+      "years": "2005–2009",
+      "meta": {
+        "transmission": "6-speed automatic (ZF 6HP26)",
+        "drivetrain": "4WD (permanent, electronic TC)",
+        "tags": [
+          "requires_power",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Red nylon EPR handle under CUPHOLDER inserts in center console — same as Range Rover L405.",
+          "steps": [
+            "PREFERRED (with power): Turn key to ON — press start WITHOUT foot on brake for accessory mode. Then press brake and shift to N.",
+            "WITHOUT POWER — EPR:",
+            "Remove cupholder inserts from center console.",
+            "Turn EPR locking mechanism to UNLOCK.",
+            "Press the brake pedal firmly.",
+            "Pull the red EPR handle UPWARD until it latches vertically.",
+            "Display flashes N to confirm."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Attempt to restore 12V power — battery under hood.",
+            "If power available: accessory mode (start without brake), then brake + shift to N.",
+            "If no power: use EPR cupholder method above.",
+            "FLATBED ONLY — permanent electronic 4WD.",
+            "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED PREFERRED. Wheel-lift with dollies on free-rolling axle if no flatbed.",
+        "notes": [
+          "Full-time permanent 4WD. FLATBED is safest.",
+          "If wheel-lift must be used: dollies REQUIRED on free-rolling axle.",
+          "DEAD BATTERY: Jump first before any tow movement."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "standard-12v",
+        "warning": ""
+      },
+      "alerts": {
+        "warning": "Permanent 4WD — flatbed preferred. If wheel-lift, must use dollies on free-rolling axle.",
+        "notes": "Full-time 4WD with electronic TC. Must shift TC to high range before road towing.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "Range Rover Velar",
+      "chassis": "L560",
+      "years": "2018–2026",
+      "meta": {
+        "transmission": "8-speed automatic (ZF 8HP)",
+        "drivetrain": "4WD (permanent, electronic TC)",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Fully electronic touch panel selector — NO physical gear lever. Gear select is via the touchscreen panel on the center console. REQUIRES 12V POWER to operate — no mechanical override.",
+          "steps": [
+            "Turn ignition to ON — touch panel selector activates.",
+            "Touch the N on the gear select panel on the center console.",
+            "WITHOUT POWER: this selector CANNOT be operated without 12V power — no mechanical override exists.",
+            "Connect jump pack to battery under hood.",
+            "Once 12V is restored, the touch panel activates and N can be selected."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "CRITICAL: Velar uses a fully electronic touch panel selector — NO mechanical override.",
+            "MUST restore 12V power before any gear selection is possible.",
+            "Connect jump pack to battery under hood.",
+            "Once powered, touch N on the selector panel.",
+            "FLATBED ONLY — permanent electronic 4WD.",
+            "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED PREFERRED — permanent AWD. Wheel-lift with dollies if no flatbed.",
+        "notes": [
+          "Full-time permanent AWD. FLATBED strongly preferred.",
+          "Electronic touch panel requires power to shift."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warning": "Touch panel requires 12V power — NO mechanical override. Must restore power to shift."
+      },
+      "alerts": {
+        "warning": "Permanent AWD — flatbed preferred. Electronic selector requires power.",
+        "notes": "Fully electronic touch panel selector — no physical gear lever. Permanent AWD. Flatbed preferred.",
+        "issues": [
+          {
+            "title": "No Physical Gear Lever — Touch Panel Requires 12V Power",
+            "detail": "The Range Rover Velar uses a fully electronic touch-panel gear selector. There is no physical lever to move. Without 12V power, the panel is dead and cannot select any gear. The EPR (red handle under cupholder) is the only mechanical option when power is lost. Always jump the battery first if at all possible — this is far easier than the EPR procedure."
+          },
+          {
+            "title": "Touch Panel Has No Mechanical Override — Power Required",
+            "detail": "The Range Rover Velar (L560) uses a fully electronic touch-capacitive gear selector panel. Unlike rotary selectors (which have a red EPR handle), the Velar touch panel has NO mechanical cable or lever backup. Without 12V power the gear cannot be changed at all. Always restore battery power before attempting to shift. If power cannot be restored, the rear wheels must be lifted to load onto a flatbed."
+          }
+        ]
+      }
+    },
+    {
+      "make": "Land Rover",
+      "model": "Discovery",
+      "chassis": "5th Gen L462",
+      "years": "2017–2026",
+      "meta": {
+        "transmission": "8-speed automatic (ZF 8HP)",
+        "drivetrain": "4WD (permanent, electronic TC)",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "Red nylon EPR handle under cupholder inserts — same procedure as Range Rover L405/L494.",
+          "steps": [
+            "PREFERRED (with power): Turn ignition to ON. Electronic selector activates. Select N.",
+            "WITHOUT POWER — EPR:",
+            "Remove cupholder inserts from center console.",
+            "Turn EPR locking mechanism to UNLOCK.",
+            "Press brake firmly.",
+            "Pull EPR handle UPWARD until latched vertically.",
+            "Display flashes N to confirm."
+          ]
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Restore 12V if possible — battery under hood.",
+            "EPR method works without power if needed.",
+            "FLATBED ONLY — permanent electronic 4WD.",
+            "TRANSFER CASE: must be shifted to 2WD/2H before towing. IF BATTERY IS DEAD: jump battery FIRST, shift TC to 2WD, then disconnect. If TC cannot be shifted: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": "FLATBED PREFERRED. Wheel-lift with dollies on free-rolling axle if no flatbed.",
+        "notes": [
+          "Full-time permanent AWD. FLATBED strongly preferred.",
+          "Electronic rotary selector requires 12V power to operate."
+        ]
+      },
+      "battery": {
+        "location": "Under hood",
+        "jumpPoints": "Under hood — standard terminals",
+        "type": "agm-12v",
+        "warning": "AGM battery. Electronic selector requires power."
+      },
+      "alerts": {
+        "warning": "Permanent AWD — flatbed preferred. Electronic rotary requires power.",
+        "notes": "Electronic rotary selector. Permanent AWD. Must have power for selector. Flatbed preferred.",
+        "issues": []
+      }
+    }
+  ]
+}

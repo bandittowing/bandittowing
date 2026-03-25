@@ -1,0 +1,2525 @@
+{
+  "make": null,
+  "count": 54,
+  "vehicles": [
+    {
+      "make": "Mercedes-Benz",
+      "model": "G-Class W463",
+      "chassis": "1990-2026",
+      "years": "1990–2026",
+      "meta": {
+        "transmission": "4-speed automatic (older) to 9-speed automatic (722.9 9G-Tronic on 2019+); AMG G63 = AMG Speedshift TCT 9-speed",
+        "drivetrain": "4MATIC AWD standard (part-time or full-time depending on year)",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER (classic W463) or ELECTRONIC SELECTOR (W463A 2019+) — slot at console base on classic, or restore 12V for electronic.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery under the HOOD. Connect jump pack to under-hood terminals or directly to battery.",
+            "Use AGM-compatible jump pack on 2019+ models.",
+            "Key to position II or press START/STOP. Press brake firmly.",
+            "Classic W463 (pre-2019): console shifter slot at base — insert flathead, depress, move to N.",
+            "W463A (2019+): electronic selector — restore 12V first, then select N.",
+            "4MATIC AWD on all G-Class: FLATBED ONLY.",
+            "G63 AMG: very heavy (5,800–6,000 lbs) — confirm tow truck capacity."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — under hood, driver or passenger side depending on year. Post-2019 W463A: passenger side under cover. Under-hood jump terminals accessible on all years.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "All G-Class are AWD — flatbed only. G63 AMG weight is approximately 5,800–6,000 lbs. Classic pre-2019 uses console selector with mechanical slot. Post-2019 is fully electronic.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "E-Class W124",
+      "chassis": "1990-1995",
+      "years": "1990–1995",
+      "meta": {
+        "transmission": "4-speed automatic (722.3) or 5-speed manual; some later models 5-speed automatic",
+        "drivetrain": "RWD standard; 4MATIC AWD available on some trims",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — mechanical cable-type shifter on W124. Small slot at base of selector housing OR key to position II + press brake may release shift lock on early cable-type models without need for a tool. 1994-1995: very simple interlock — key in ignition + brake usually sufficient. 1996-1997: BTSI added — may need flathead in slot at console base.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery under the HOOD (driver side). Connect jump pack directly to battery.",
+            "Key to position II (accessory). Press brake firmly.",
+            "W124 uses mechanical cable-type shifter — relatively easy to release. Insert flathead into slot at console base, depress, move to N.",
+            "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — driver side under hood near firewall. Older generation with traditional under-hood battery placement.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W124 final generation sold in US 1990-1995 as E-Class. Traditional mechanical shifter — straightforward neutral procedure. Battery under hood driver side.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "SL-Class R129",
+      "chassis": "1990-2002",
+      "years": "1990–2002",
+      "meta": {
+        "transmission": "4-speed automatic (722.4) on early models; 5-speed automatic (722.6) on later models; some manual available outside US",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — mechanical cable shifter. Slot at base of selector housing. Insert flathead or key, press brake, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery under hood (passenger side) — connect jump pack directly to battery.",
+            "Connect jump pack directly to battery under hood.",
+            "Key to position II. Press brake firmly.",
+            "Insert flathead into slot at console selector base, depress, move to N.",
+            "RWD: wheel-lift from rear acceptable.",
+            "Soft top/hardtop rollbar: secure before towing."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side rear under plastic cover near firewall. Under-hood direct access. NOTE: R129 battery is under the hood, NOT in the trunk (unlike later R230/R231).",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "R129 = SL300/SL320/SL500/SL600. RWD two-seater roadster. Battery in trunk. Mechanical shifter — straightforward procedure. Automatic rollbar pop-up system — verify secured before towing.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "190E",
+      "chassis": "W201",
+      "years": "1990–1993",
+      "meta": {
+        "transmission": "4-speed automatic (722.3) or 5-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — mechanical cable type. Small slot at selector base; key or flathead, press brake, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (driver side). Connect jump pack directly.",
+            "Key to position II. Press brake.",
+            "Insert small flathead into slot at console selector base, depress, move to N.",
+            "RWD: rear wheel-lift acceptable."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — driver side under plastic cover near firewall.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Pre-C-Class compact. Mechanical cable shifter — direct neutral movement possible. Last US year 1993. All RWD.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "S-Class W140",
+      "chassis": "1992-1999",
+      "years": "1992–1999",
+      "meta": {
+        "transmission": "4-speed automatic (722.3/722.4) or 5-speed automatic (722.6 late W140)",
+        "drivetrain": "RWD standard; 4MATIC AWD on some variants",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER (floor-mounted) — W140 uses a CENTER CONSOLE floor shifter, NOT a column shifter. Small slot or cap at the selector base. Insert flathead, press brake, move to N. IMPORTANT: some W140 trims have NO manual override slot — in that case, restore 12V is required.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery is in the TRUNK (right side). Use under-hood jump terminals (+ red post, − chassis bolt) for jump access.",
+            "Connect jump pack to under-hood terminals.",
+            "Key to position II. Press brake firmly.",
+            "Insert flathead into slot at console selector base (floor console), depress, move to N. Some W140 trims lack slot — restore 12V if no slot found.",
+            "Air suspension (AIRMATIC on some trims): check clearance before flatbed.",
+            "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK — right side of trunk, behind trim panel. Under-hood jump terminals (+ fused post, − chassis bolt) for jump access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W140 battery in trunk. Mechanical cable shifter — more reliable neutral procedure than later electronic models. Air suspension on many trims — verify clearance. Very heavy vehicle.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "C-Class W202",
+      "chassis": "1994-2000",
+      "years": "1994–2000",
+      "meta": {
+        "transmission": "4-speed automatic (722.4) or 5-speed automatic (722.6); 5-speed manual on some trims",
+        "drivetrain": "RWD standard; 4MATIC AWD available",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "COLUMN SHIFTER — slot at base of column selector housing. Insert small flathead, press brake, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery is in the TRUNK — use under-hood jump terminals (+ red fused post near firewall, − chassis bolt on strut tower) to restore 12V.",
+            "Connect AGM-compatible jump pack to hood terminals.",
+            "Turn key to position II (accessory). Press brake pedal firmly.",
+            "Move column shifter to N.",
+            "RWD: rear wheels can lift — use wheel lift from rear (drive axle in air). 4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK — right side of trunk, behind trim panel. Use under-hood jump terminals (+ fused red post near firewall, − chassis bolt) for jump access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Column shifter on all US W202 models. Battery in trunk. 4MATIC available on C280/C36/C43.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "E-Class W210",
+      "chassis": "1996-2002",
+      "years": "1996–2002",
+      "meta": {
+        "transmission": "5-speed automatic (722.6)",
+        "drivetrain": "RWD standard; 4MATIC AWD available",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "COLUMN SHIFTER on most trims; CONSOLE SHIFTER on some E55 AMG trims — slot at base of selector. Insert key or flathead, press brake, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery is in the TRUNK — use under-hood jump terminals (+ red post near firewall, − chassis ground bolt) for jump.",
+            "Connect AGM-compatible jump pack.",
+            "Turn key to position II. Press brake firmly.",
+            "Move column or console shifter to N (mechanical cable-type shift on W210 — direct movement possible with minimal shift lock).",
+            "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK — center-right of trunk floor, under carpet and molded panel. Use under-hood jump terminals (+ near firewall, − chassis bolt) for jump access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W210 uses traditional cable-linked column or console shifter — relatively easy neutral override. Battery in trunk — use hood terminals. E55 AMG is RWD.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "SLK-Class R170",
+      "chassis": "1997-2004",
+      "years": "1997–2004",
+      "meta": {
+        "transmission": "5-speed automatic (722.6) or 5-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — small slot at base of center console selector. Insert small flathead, press brake, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (passenger side). Connect jump pack directly.",
+            "Key to position II. Press brake.",
+            "Insert flathead into slot at console selector base, depress, move to N.",
+            "Manual: depress clutch, move to N.",
+            "RWD: rear wheel-lift acceptable.",
+            "Retractable hardtop: ensure roof fully open or closed before towing."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side rear under plastic cover near firewall.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Compact roadster, RWD. Battery under hood. Mechanical cable shifter — straightforward neutral access. Folding hardtop.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CLK-Class W208",
+      "chassis": "1998-2002",
+      "years": "1998–2002",
+      "meta": {
+        "transmission": "5-speed automatic (722.6)",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at base of console selector. Insert flathead, press brake, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery in TRUNK right side — use under-hood jump terminals for jump.",
+            "Connect jump pack to under-hood terminals.",
+            "Key to position II. Press brake.",
+            "Console selector slot — insert flathead, depress, move to N.",
+            "RWD: rear wheel-lift acceptable."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK — right side of trunk behind panel. Use under-hood jump terminals for jump access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W208 CLK coupe/cabriolet. Based on W202 C-Class platform. Battery in trunk. RWD only. AMG CLK55: V8 RWD.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "M-Class W163",
+      "chassis": "1998-2005",
+      "years": "1998–2005",
+      "meta": {
+        "transmission": "5-speed automatic (722.6)",
+        "drivetrain": "4MATIC AWD standard",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — mechanical cable type on W163. Slot at console selector base, insert flathead, press brake, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (driver side). Connect jump pack directly.",
+            "Key to position II. Press brake.",
+            "W163 uses mechanical cable console shifter — slot at base, insert flathead, depress, move to N.",
+            "4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — driver side under hood near firewall. Under-hood access direct.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "First-gen M-Class. Battery under hood. Mechanical cable shifter — relatively easy neutral access. All 4MATIC AWD — flatbed only.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "S-Class W220",
+      "chassis": "1999-2005",
+      "years": "1999–2005",
+      "meta": {
+        "transmission": "5-speed automatic (722.6) on S430/S500; 5-speed on S600; 5-speed on S55 AMG",
+        "drivetrain": "RWD standard; 4MATIC AWD available",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "COLUMN SHIFTER (W220) — Electronic column-mounted selector. CRITICAL: W220 does NOT have a reliable manual override slot on most trims. MB Medic and Mercedes confirmed W220 lacks a hole for manual shift release. Restoring 12V is the ONLY reliable method. If column shift will not move after power restored, inserting thin tool (pen) into end of shift pattern slot may help on some trims.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery is under rear seat — use under-hood jump terminals (+ red post on passenger side near firewall, − chassis bolt) to restore power.",
+            "Connect AGM-compatible jump pack to under-hood terminals ONLY.",
+            "Key to position II. Press brake firmly.",
+            "Move column shifter to N.",
+            "CRITICAL: W220 has NO reliable manual override slot on most trims — restore 12V first. If still stuck after power restored: inserting a pen/thin tool into the end of the shift pattern slot (at end of column selector travel) may release park. See video reference.",
+            "Air suspension: may sink when dead — verify ground clearance before flatbed loading.",
+            "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER REAR SEAT — lift rear seat base (sharp upward tug at front edge). Main battery under seat center. Use under-hood jump terminals (+ red fused post, − chassis bolt) for jump access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Battery under rear seat — NOT in trunk. Air suspension (AIRMATIC or ABC) — check clearance. W220 shift selector is column-mounted, known for park lock issues when dead. S55 AMG: RWD.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CL-Class W215",
+      "chassis": "2000-2006",
+      "years": "2000–2006",
+      "meta": {
+        "transmission": "5-speed automatic (722.6) or 7-speed automatic (722.9)",
+        "drivetrain": "RWD standard; 4MATIC AWD on CL500 4MATIC",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at console base. Insert flathead, press brake, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under rear seat (W215 shares W220 platform) — use under-hood jump terminals.",
+            "Connect jump pack to under-hood terminals (+ red post, − chassis bolt).",
+            "Key to position II. Press brake.",
+            "Console selector slot — insert flathead, depress, move to N.",
+            "Air suspension (ABC) on all trims — verify clearance before flatbed.",
+            "RWD: rear wheel-lift acceptable (CL500/CL55/CL65). 4MATIC: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER REAR SEAT — same as W220 S-Class platform. Use under-hood jump terminals for jump.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "CL-Class is S-Class coupe (2-door). W215 shares W220 platform — battery under rear seat. ABC suspension standard — check clearance. AMG CL55/CL65: RWD.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "C-Class W203",
+      "chassis": "2001-2007",
+      "years": "2001–2007",
+      "meta": {
+        "transmission": "5-speed automatic (722.6) or 6-speed manual (most trims); AMG C32/C55 = 5-speed auto",
+        "drivetrain": "RWD standard; 4MATIC AWD available",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER (W203) — shift lock override: POP UP the silver trim piece (the one with the shift boot attached, NOT the wood trim). Under it is a YELLOW LEVER. Press brake and pull yellow lever back → shift to N. Alternatively: small slot at base — insert flathead or key, depress, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery is under the hood, passenger side — connect jump pack directly to battery or use under-hood terminals.",
+            "Turn key to position II. Press brake pedal firmly.",
+            "Locate shift lock slot at base of console shifter. Insert flathead screwdriver or key into slot, depress, move selector to N.",
+            "Alternatively: pry up the leather shift boot from its base, find yellow button inside housing, depress button and pull selector to N.",
+            "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side near firewall, under plastic cover. W203 is one of the few Mercedes with battery under hood (not trunk).",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W203 battery is under hood (passenger side) — unlike most Mercedes. AMG C32 and C55 are RWD only. 4MATIC on C240/C280/C320.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "E-Class W211",
+      "chassis": "2003-2009",
+      "years": "2003–2009",
+      "meta": {
+        "transmission": "7-speed automatic (722.9 7G-Tronic) on most; 5-speed auto on early models",
+        "drivetrain": "RWD standard; 4MATIC AWD available",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — shift lock override: Pry up the SHIFT BOOT + WOOD TRIM PIECE together (they lift as one unit). Under it is the YELLOW LEVER/BUTTON. Press brake and pull yellow lever rearward → shift to N. The chrome boot surround and wood trim panel come up together.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Main battery is in the TRUNK right side. Use under-hood jump terminals (+ red post near firewall, − chassis bolt) — do NOT jump directly at trunk battery.",
+            "Auxiliary battery in engine bay right rear (near HVAC intake) — this is a small backup battery.",
+            "Connect jump pack to under-hood terminals only.",
+            "Turn key to position II. Press brake firmly.",
+            "Pry shift boot up from base to expose yellow shift lock button, depress, move to N. OR insert flathead in slot at selector base.",
+            "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK — right side of trunk, under carpet and lower trunk panel. Auxiliary battery in ENGINE BAY — right rear corner near HVAC intake under plastic panel. Use under-hood terminals (+ red post, − chassis bolt) for jump.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W211 trunk battery is main battery — aux battery is small separate unit in engine bay. Jump via under-hood terminals only. E63 AMG: RWD, 6.2L V8.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "SL-Class R230",
+      "chassis": "2003-2012",
+      "years": "2003–2012",
+      "meta": {
+        "transmission": "5-speed automatic (722.6) or 7-speed automatic (722.9)",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at base of selector or pry shift boot for yellow button access.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "R230 has TWO batteries: main under hood (passenger side) + large aux in trunk (right side).",
+            "Use under-hood jump terminals for jump access. Connect AGM-compatible jump pack.",
+            "Key to position II. Press brake firmly.",
+            "Console selector: pry shift boot from base, locate yellow button, depress and move to N. OR use slot at selector base.",
+            "ABC (Active Body Control) suspension — may drop when battery dies. Verify clearance before flatbed.",
+            "RWD roadster: rear wheel-lift acceptable but flatbed preferred due to ABC and low clearance."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side under plastic cover (main cranking battery). TRUNK — right side near spare (large auxiliary/convenience battery). Both accessible; use under-hood jump terminals for jump.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Dual battery: main under hood, large convenience battery in trunk. ABC suspension — check clearance. Retractable hardtop. AMG SL55/SL65: RWD.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CLK-Class W209",
+      "chassis": "2003-2009",
+      "years": "2003–2009",
+      "meta": {
+        "transmission": "5-speed automatic (722.6) or 7-speed automatic (722.9)",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — W209 shift lock: Remove the chrome/wood trim surround around shifter. Access the ESM (Electronic Selector Module N15/5) lock lever (item 69) underneath. Press the lock lever inward manually → shift to N. This IS a mechanical operation — can be done WITHOUT power on most W209 builds. Yellow lever confirmed by MB dealer procedure.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery in TRUNK right side — use under-hood jump terminals for jump.",
+            "Connect jump pack to under-hood terminals.",
+            "Key to position II. Press brake.",
+            "Console selector: pry shift boot or use slot at base, depress lock, move to N.",
+            "RWD: rear wheel-lift acceptable."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK — right side behind lower trim panel. Use under-hood jump terminals for jump.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W209 CLK coupe/cabriolet. Based on W203/W211 platform. Trunk battery. RWD. AMG CLK55/CLK63: V8/V6 RWD. Last CLK year 2009.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "SLK-Class R171",
+      "chassis": "2005-2011",
+      "years": "2005–2011",
+      "meta": {
+        "transmission": "6-speed automatic (722.9) or 6-speed manual",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at console selector base. Insert flathead, press brake, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (passenger side). Connect jump pack directly.",
+            "Key to position II. Press brake.",
+            "Slot at console selector base — insert flathead, depress, move to N.",
+            "Manual: depress clutch, move to N.",
+            "RWD: rear wheel-lift acceptable."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side under plastic cover. Under-hood jump access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "RWD roadster. Battery under hood. SLK55 AMG: V8, RWD. 7-speed auto on later SLK350. Folding hardtop.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CLS-Class W219",
+      "chassis": "2005-2011",
+      "years": "2005–2011",
+      "meta": {
+        "transmission": "7-speed automatic (722.9)",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at console selector base or pry shift boot for yellow button.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery in TRUNK right side — use under-hood jump terminals for jump.",
+            "Connect jump pack to under-hood terminals.",
+            "Key to position II. Press brake.",
+            "Console selector: pry shift boot or use slot at base, depress, move to N.",
+            "RWD: rear wheel-lift acceptable.",
+            "Low roofline — flatbed preferred to avoid clearance issues."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK — right side of trunk behind lower panel. Use under-hood jump terminals for jump.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W219 based on W211 E-Class platform. Trunk battery. RWD only. AMG CLS55/CLS63: RWD. Four-door coupe styling — low clearance, prefer flatbed.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "ML-Class / GLE Coupe W164/W166",
+      "chassis": "2006-2019",
+      "years": "2006–2019",
+      "meta": {
+        "transmission": "7-speed automatic (722.9) standard",
+        "drivetrain": "4MATIC AWD standard",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — ISM electronic (W164/W166). CRITICAL: W164/W166 use ISM electronic shifting — there is NO mechanical cabin override. Must restore 12V. Pry shift boot for yellow button is the LAST resort and may not work without some power. Restore 12V via under-hood terminals first.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery is in the TRUNK (right side behind cargo panel) — use under-hood jump terminals ONLY for jump access.",
+            "Connect AGM-compatible jump pack to under-hood terminals.",
+            "Key to position II. Press brake firmly.",
+            "CRITICAL: W164/W166 ISM — NO reliable mechanical override. Restore 12V first. If 12V restored: pry shift boot for yellow lever or use slot at base of selector.",
+            "4MATIC AWD: FLATBED ONLY.",
+            "Air suspension (AIRMATIC) on many trims: confirm clearance before flatbed loading."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK right side — behind lower cargo trim panel. Under-hood jump terminals (+ fused red post, − chassis bolt) for jump access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W164 ML (2006-2011) and W166 ML/GLE (2012-2019) both have trunk battery with under-hood jump terminals. ISM electronic shifting — aux battery powers ISM. 4MATIC AWD — flatbed only. W164 (2006-2011): ISM electronic — NO manual override, must restore 12V. W166 (2012-2019): same ISM system.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "R-Class W251",
+      "chassis": "2006-2012",
+      "years": "2006–2012",
+      "meta": {
+        "transmission": "7-speed automatic (722.9)",
+        "drivetrain": "RWD (R350 base) or 4MATIC AWD (R350 4MATIC, R500, R63 AMG)",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at console selector base or pry shift boot for yellow button.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery in TRUNK right side — use under-hood jump terminals for jump.",
+            "Connect AGM-compatible jump pack to under-hood terminals.",
+            "Key to position II. Press brake.",
+            "Console selector: pry shift boot or use slot at base. Depress lock, move to N.",
+            "RWD R350 base: rear wheel-lift acceptable.",
+            "4MATIC AWD (most US variants): FLATBED ONLY.",
+            "Minivan-sized vehicle — verify tow truck capacity."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK right side — behind lower trim panel. Use under-hood jump terminals for jump access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Large 3-row luxury MPV. Most US R-Class sold with 4MATIC — flatbed. Trunk battery. Discontinued after 2012 in US.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "S-Class W221",
+      "chassis": "2007-2013",
+      "years": "2007–2013",
+      "meta": {
+        "transmission": "7-speed automatic (722.9 7G-Tronic) standard",
+        "drivetrain": "RWD standard; 4MATIC AWD available",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER (W221) — slot at console selector base, or pry shift boot for yellow button access.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Main battery is under the hood (passenger side). Connect jump pack to under-hood terminals (+ red covered post, − chassis bolt).",
+            "Use AGM-compatible jump pack.",
+            "Key to position II. Press brake firmly.",
+            "Pry shift boot from console base, locate yellow button inside housing, depress and move selector to N. OR use slot at selector base with flathead.",
+            "CRITICAL: W221 has an auxiliary battery whose primary job is to power the ISM (Intelligent Servo Module) to allow shifting when main battery is low. If main battery is dead AND aux battery is dead — shifting may be impossible without full 12V restoration.",
+            "Air suspension: may drop when powered down — check clearance before flatbed.",
+            "RWD: wheel-lift from rear acceptable (S350/S550). 4MATIC AWD: FLATBED ONLY.",
+            "S65 AMG / S63 AMG: RWD — rear wheel-lift acceptable."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD — passenger side under plastic cover near firewall (main battery). Small auxiliary battery in trunk near fuse box (or under driver-side dash on 2010+ models). Use under-hood terminals for jump.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W221 main battery under hood. Aux battery powers ISM for shifting — if both dead, must restore 12V. AIRMATIC air suspension — check clearance.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "Sprinter Van",
+      "chassis": "W906 / W907",
+      "years": "2007–2026",
+      "meta": {
+        "transmission": "5-speed automatic (older) or 7-speed automatic (722.9) or 9-speed (2019+); 6-speed manual on diesel variants",
+        "drivetrain": "RWD standard; AWD available on 4x4 variants",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "COLUMN SHIFTER — W906 Sprinter (2007-2018): mechanical cable-type column selector. Small slot at column selector base — insert flathead, press brake, move to N. W907 Sprinter (2019+): electronic selector — restore 12V first, then shift normally. Diesel manual (6-speed): depress clutch, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery under the HOOD (passenger side). Connect jump pack directly to battery or under-hood terminals.",
+            "Diesel Sprinter: may have second battery under driver seat — both may need attention.",
+            "Key to position II. Press brake firmly.",
+            "Column shifter: slot at column base — insert flathead, depress, move to N.",
+            "Gas Sprinter: RWD — rear wheel-lift acceptable.",
+            "AWD 4x4 Sprinter: FLATBED ONLY.",
+            "Commercial vehicle: verify tow capacity — fully loaded Sprinter can exceed 10,000 lbs."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side under hood. Some diesel variants have dual battery (second under driver seat or in engine bay). Under-hood jump terminals for jump access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Gas and diesel Sprinters share jump procedure. Diesel may have dual batteries. AWD 4x4 Sprinter: flatbed required. Large commercial van — confirm tow truck capacity.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CL-Class W216",
+      "chassis": "2007-2014",
+      "years": "2007–2014",
+      "meta": {
+        "transmission": "7-speed automatic (722.9)",
+        "drivetrain": "RWD standard; 4MATIC AWD on CL550 4MATIC",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at console base or pry shift boot. Depress, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (passenger side) — connect jump pack directly or use under-hood terminals.",
+            "Use AGM-compatible jump pack.",
+            "Key to position II. Press brake.",
+            "Console selector: pry shift boot for yellow button, or use slot at base, depress, move to N.",
+            "ABC or AIRMATIC air suspension on all trims — verify clearance before flatbed.",
+            "RWD: rear wheel-lift acceptable. 4MATIC CL550: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD — passenger side (W216 shares W221 S-Class platform, which moved battery to under hood). Under-hood terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W216 shares W221 S-Class platform — battery under hood. Air suspension standard. Last CL-Class year 2014; replaced by S-Class Coupe C217.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GL-Class X164",
+      "chassis": "2007-2012",
+      "years": "2007–2012",
+      "meta": {
+        "transmission": "7-speed automatic (722.9)",
+        "drivetrain": "4MATIC AWD standard",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at console base or pry shift boot for yellow button. Depress, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery in TRUNK right side — use under-hood jump terminals for jump.",
+            "Connect AGM-compatible jump pack to under-hood terminals.",
+            "Key to position II. Press brake.",
+            "Console selector: pry shift boot for yellow button, or use slot at base. Depress, move to N.",
+            "4MATIC AWD: FLATBED ONLY.",
+            "AIRMATIC air suspension on most trims — verify clearance before flatbed."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK right side — behind lower cargo trim panel. Use under-hood jump terminals for jump.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Full-size 3-row luxury SUV (predecessor to GLS). Trunk battery with under-hood terminals. All 4MATIC AWD — flatbed. AIRMATIC common — check clearance.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "C-Class W204",
+      "chassis": "2008-2015",
+      "years": "2008–2015",
+      "meta": {
+        "transmission": "7-speed automatic (722.9 7G-Tronic) standard; AMG C63 uses same 7G-Tronic",
+        "drivetrain": "RWD standard; 4MATIC AWD available",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at base of selector housing. Pry up leather shift boot from base (pinch front and rear, pull straight up), find yellow button inside, depress and move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Main battery under hood (passenger side). Auxiliary battery in trunk right panel — for jump: use under-hood terminals.",
+            "Connect jump pack to under-hood terminals (+ red covered post near cowl, − chassis bolt).",
+            "Turn key to position II. Press brake firmly.",
+            "Pry leather shift boot straight up off base to expose yellow shift lock button inside housing.",
+            "Depress yellow button and move selector to N.",
+            "RWD: wheel-lift acceptable from rear. 4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side rear near firewall, under plastic cowl cover. ALSO has small auxiliary battery in trunk right side panel (behind trim). Use under-hood jump terminals for jump access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Main battery under hood (passenger side). Small aux battery in trunk right panel — NOT the jump point. Yellow button inside shift boot base is the shift lock override. 4MATIC on C300/C350.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "E-Class W212",
+      "chassis": "2010-2016",
+      "years": "2010–2016",
+      "meta": {
+        "transmission": "7-speed automatic (722.9 7G-Tronic) standard",
+        "drivetrain": "RWD standard; 4MATIC AWD available",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at base of selector housing. Pry shift boot to access yellow button inside, depress, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Main battery in TRUNK right side. Use under-hood jump terminals (+ red fused post near cowl, − chassis bolt).",
+            "Auxiliary battery is on driver side upper panel inside trunk — small backup unit.",
+            "Connect jump pack to under-hood terminals only. Use AGM-compatible jump pack.",
+            "Turn key to position II. Press brake firmly.",
+            "Pry leather shift boot up from console base, locate yellow override button, depress, move selector to N.",
+            "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK — right side of trunk under lower carpet/panel. Auxiliary battery on driver side upper panel (A-pillar/upper side panel inside trunk area). Use under-hood terminals for jump.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W212 same jump procedure as W211. Trunk main battery, aux in driver-side upper panel. E63 AMG: RWD, 5.5L biturbo V8.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLK-Class X204",
+      "chassis": "2010-2015",
+      "years": "2010–2015",
+      "meta": {
+        "transmission": "7-speed automatic (722.9 7G-Tronic)",
+        "drivetrain": "4MATIC AWD standard",
+        "tags": [
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at selector base or shift boot removal for yellow button access.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery in TRUNK right side panel — use under-hood jump terminals for jump access.",
+            "Connect AGM-compatible jump pack to under-hood terminals.",
+            "Key to position II. Press brake firmly.",
+            "Access shift lock slot at base of console selector, insert flathead, depress, move to N.",
+            "4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK right side — behind right cargo side trim panel. Under-hood jump terminals for jump access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "GLK battery in trunk right side panel — NOT under hood. Jump via under-hood terminals. All US GLK are 4MATIC AWD.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "E-Class Coupe/Cabriolet W207",
+      "chassis": "2010-2017",
+      "years": "2010–2017",
+      "meta": {
+        "transmission": "7-speed automatic (722.9) standard",
+        "drivetrain": "RWD standard; 4MATIC AWD on E400 4MATIC Coupe",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at console base or pry shift boot for yellow button. Depress, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery in TRUNK right side — use under-hood jump terminals for jump.",
+            "Connect AGM-compatible jump pack to under-hood terminals.",
+            "Key to position II. Press brake.",
+            "Console selector: pry shift boot or use slot at base. Depress lock, move to N.",
+            "RWD (E350/E400/E550 Coupe base): rear wheel-lift acceptable.",
+            "4MATIC AWD (E400 4MATIC Coupe): FLATBED ONLY.",
+            "Cabriolet: retractable soft top — ensure secured before towing."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK — right side behind lower trim panel (shares W212 E-Class trunk battery layout). Use under-hood jump terminals for jump.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "2-door E-Class coupe and cabriolet. Trunk battery with under-hood jump terminals. E400 Coupe available in 4MATIC. Soft top cabriolet — secure before towing.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "SLS AMG R197",
+      "chassis": "2011-2014",
+      "years": "2011–2014",
+      "meta": {
+        "transmission": "7-speed dual-clutch (AMG Speedshift DCT 7G)",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR (paddle shifters + rotary on console) — restore 12V first. DCT requires power to shift.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — gullwing doors require special care; do not tow on wheel-lift.",
+            "Battery under HOOD near firewall. Connect jump pack to under-hood terminals.",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, press brake and select N on electronic rotary selector.",
+            "DCT: requires 12V to shift — power must be restored.",
+            "GULLWING DOORS: ensure both doors are fully closed and latched before loading on flatbed.",
+            "RWD: wheel-lift technically possible but flatbed strongly preferred for this collector vehicle."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — under hood, rear firewall area. Jump terminals accessible under hood.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Iconic gullwing-door supercar. 6.3L AMG V8 (563 hp). RWD. Gullwing doors must be fully closed before towing. DCT requires 12V. Collector vehicle — flatbed only. Production ended 2014.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "SLK/SLC-Class R172",
+      "chassis": "2012-2020",
+      "years": "2012–2020",
+      "meta": {
+        "transmission": "7-speed automatic (722.9) standard; 6-speed manual on SLK250 only",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at base of console selector housing. Insert flathead, press brake, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (passenger side). Connect jump pack to battery or under-hood terminals.",
+            "Key to position II. Press brake.",
+            "Slot at console selector base — insert flathead, depress, move to N.",
+            "RWD: rear wheel-lift acceptable.",
+            "Renamed SLC-Class from 2016 facelift onward — same platform and procedures."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side under plastic cover near firewall. Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Renamed SLC-Class in 2016 facelift (same R172 platform). Battery under hood. AMG SLC43/SLK55: RWD. Folding hardtop. Final year 2020.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CLS-Class W218",
+      "chassis": "2012-2018",
+      "years": "2012–2018",
+      "meta": {
+        "transmission": "7-speed automatic (722.9) standard; AMG CLS63 = AMG Speedshift MCT 7-speed",
+        "drivetrain": "RWD standard; 4MATIC AWD on CLS550 4MATIC and AMG CLS63 S",
+        "tags": [
+          "rwd",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — pry shift boot for yellow button, or slot at console base. Depress, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery in TRUNK right side — use under-hood jump terminals for jump.",
+            "Use AGM-compatible jump pack.",
+            "Key to position II. Press brake.",
+            "Pry shift boot from console base to access yellow button inside housing. Depress and move to N.",
+            "RWD: rear wheel-lift acceptable. 4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "TRUNK — right side behind lower trim panel. Small auxiliary battery also in trunk near fuse box. Use under-hood jump terminals for jump.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W218 trunk battery with under-hood terminals. AMG CLS63 S available in 4MATIC — flatbed. Four-door coupe — low clearance, prefer flatbed.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "SL-Class R231",
+      "chassis": "2013-2020",
+      "years": "2013–2020",
+      "meta": {
+        "transmission": "7-speed automatic (722.9) standard; AMG SL63/SL65 = AMG Speedshift MCT 7-speed",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd",
+          "requires_power"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — restore 12V via under-hood terminals first. Electronic components require power.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "CRITICAL: R231 has BOTH batteries in trunk/interior — NO main battery under hood.",
+            "Use under-hood jump terminals (+ red covered post near windshield cowl, − chassis bolt near strut tower) for all jump access.",
+            "Connect AGM-compatible jump pack to under-hood terminals.",
+            "Key to position II. Press brake firmly.",
+            "Auxiliary battery (behind DRIVER'S seat) specifically powers the transmission shifting — if dead, must restore 12V via jump.",
+            "Once 12V restored, press brake and move console selector to N.",
+            "ABC suspension: may drop when dead — verify clearance before flatbed.",
+            "RWD: rear wheel-lift acceptable, but flatbed strongly preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "BOTH BATTERIES IN TRUNK: Primary (main cranking) battery in trunk under cover — remove air pump holder to access. Auxiliary (small) battery behind DRIVER'S seat interior trim (behind console cage — requires trim removal). Use under-hood jump terminals for jump access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "CRITICAL: R231 has NO battery under hood — both are in trunk/interior. Aux battery behind DRIVER'S seat powers ISM/shifting. Jump via under-hood terminals only. ABC suspension — check clearance.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "S-Class W222",
+      "chassis": "2014-2020",
+      "years": "2014–2020",
+      "meta": {
+        "transmission": "7-speed automatic (722.9) on S550; 9-speed on some variants; AMG S63 = AMG Speedshift MCT 7-speed; AMG S65 = 7G-Tronic",
+        "drivetrain": "RWD standard; 4MATIC AWD available",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR on console — no traditional shift slot. Restore 12V via under-hood terminals. Voltage converter auxiliary unit powers selector function.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Main battery under hood (passenger side). Connect jump pack to under-hood terminals (+ red covered post near cowl, − chassis bolt).",
+            "Use AGM-compatible jump pack.",
+            "Key to II or START/STOP to accessory. Press brake firmly.",
+            "Electronic selector: once 12V restored, press brake and select N.",
+            "If power cannot be restored: W222 has limited manual override — restore power is strongly preferred. Flatbed if 12V cannot be restored.",
+            "Air suspension (AIRMATIC): may drop when dead — verify clearance before loading on flatbed.",
+            "RWD models (S550 base/S63/S65): rear wheel-lift acceptable. 4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD — passenger side under plastic cowl cover. Auxiliary voltage converter (not a traditional small battery) in trunk near rear fuse box or under passenger footwell trim. Use under-hood terminals for jump.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W222 auxiliary voltage converter (not mini battery) is near rear fuse box. Air suspension AIRMATIC standard — confirm clearance. S63 AMG 4MATIC+: AWD flatbed only.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CLA-Class C117",
+      "chassis": "2014-2019",
+      "years": "2014–2019",
+      "meta": {
+        "transmission": "7-speed dual-clutch (7G-DCT) standard",
+        "drivetrain": "FWD standard; 4MATIC AWD on CLA250 4MATIC and AMG CLA45",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR or CONSOLE SHIFT with electronic lock — restore 12V first. Limited mechanical override on C117.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (driver side). Connect jump pack to battery or under-hood terminals.",
+            "7G-DCT dual-clutch: REQUIRES 12V power to shift — cannot manually override.",
+            "Once 12V restored, press brake and select N.",
+            "FWD CLA250: front dollies acceptable if N confirmed.",
+            "4MATIC AWD (CLA250 4MATIC, AMG CLA45): FLATBED ONLY.",
+            "First front-wheel-drive Mercedes sold in US — verify drivetrain before wheel-lift."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — driver side under plastic cover. Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "First FWD Mercedes in US. DCT transmission requires 12V to shift. CLA250 base = FWD; 4MATIC = AWD. AMG CLA45 = AWD. Battery under hood driver side.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "C-Class W205",
+      "chassis": "2015-2021",
+      "years": "2015–2021",
+      "meta": {
+        "transmission": "9-speed automatic (722.9 9G-Tronic) standard; AMG C63/C63 S = AMG Speedshift MCT 7-speed",
+        "drivetrain": "RWD standard; 4MATIC AWD available",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "COLUMN STALK SHIFTER (right side of steering column) — W205 uses an electronic shift-by-wire COLUMN STALK, NOT a console shifter. No traditional mechanical slot. Restore 12V via under-hood terminals to shift. Some early W205 (2015-2016) may have a small override slot near the stalk base — check owner manual.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Main battery is under the hood (passenger side). Connect jump pack to under-hood terminals (+ red covered post near windshield cowl, − chassis ground bolt).",
+            "Use AGM-compatible jump pack.",
+            "Turn key to position II or press START/STOP to accessory. Press brake firmly.",
+            "Shift to N normally once 12V power restored.",
+            "If power cannot be restored: W205 has very limited mechanical override. Restore 12V is strongly preferred. Some early builds may have a small slot near the column stalk base — check owner manual. Otherwise use flatbed.",
+            "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY.",
+            "AMG C63/C63 S: RWD only — rear wheel lift acceptable."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side rear near firewall under plastic cover. Auxiliary 12V voltage converter/backup battery under passenger footwell carpet (NOT in trunk or engine bay — behind passenger footwell trim panel).",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Aux voltage converter/backup battery is in passenger footwell under carpet — only accessed by removing footwell trim. Main jump via under-hood terminals. W205 uses 9G-Tronic on standard models.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLA-Class X156",
+      "chassis": "2015-2020",
+      "years": "2015–2020",
+      "meta": {
+        "transmission": "7-speed dual-clutch (7G-DCT)",
+        "drivetrain": "FWD standard; 4MATIC AWD available",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR — restore 12V first. DCT requires 12V to shift.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (driver side). Connect jump pack to battery or under-hood terminals.",
+            "DCT: REQUIRES 12V to shift — cannot manually override.",
+            "Once 12V restored, press brake and select N.",
+            "FWD GLA250: front dollies acceptable if N confirmed.",
+            "4MATIC AWD (GLA250 4MATIC, AMG GLA45): FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — driver side under plastic cover near firewall. Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "X156 compact crossover. DCT requires 12V. Base FWD; 4MATIC optional. AMG GLA45 = AWD. Battery under hood driver side.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "S-Class Coupe/Cabriolet C217",
+      "chassis": "2015-2021",
+      "years": "2015–2021",
+      "meta": {
+        "transmission": "7-speed automatic (722.9) or 9-speed automatic (9G-Tronic); AMG S63 = AMG Speedshift MCT 9-speed",
+        "drivetrain": "RWD standard; 4MATIC AWD on S560 4MATIC",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR on console — restore 12V first. No traditional mechanical slot.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (passenger side). Connect jump pack to under-hood terminals.",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "RWD (S560/S650/AMG S63/S65 base): rear wheel-lift acceptable.",
+            "4MATIC AWD (S560 4MATIC): FLATBED ONLY.",
+            "ABC or AIRMATIC air suspension — verify clearance before flatbed.",
+            "S650 Cabriolet: retractable soft top — ensure secured before towing."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side under plastic cover near firewall (shares W222 S-Class platform). Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "2-door S-Class coupe and cabriolet. Battery under hood. Air suspension (ABC on AMG). S650 Cabriolet has soft top. AMG S63 Coupe 4MATIC+: AWD flatbed.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLC-Class X253/X254",
+      "chassis": "2016-2026",
+      "years": "2016–2026",
+      "meta": {
+        "transmission": "9-speed automatic (9G-Tronic) standard; AMG GLC43/63 variants available",
+        "drivetrain": "4MATIC AWD standard",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER (X253) or ELECTRONIC SELECTOR (X254 2023+) — slot at base of console housing (X253), or restore 12V for electronic selector (X254).",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery is under the HOOD (passenger side). Connect jump pack to under-hood terminals (+ red post, − chassis bolt).",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, press brake and select N.",
+            "If power cannot be restored (X253): slot at base of console shifter — insert flathead, depress, move to N.",
+            "4MATIC AWD: FLATBED ONLY on all GLC models."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side under plastic cover near firewall. Under-hood jump terminals readily accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "All US GLC are 4MATIC — flatbed preferred. Battery under hood on both X253 and X254 generations. AMG GLC63 S E Performance (X254) = PHEV — no HV cable contact.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLE-Class W166/W167",
+      "chassis": "2016-2026",
+      "years": "2016–2026",
+      "meta": {
+        "transmission": "9-speed automatic (9G-Tronic) standard; GLE53/63 AMG variants",
+        "drivetrain": "4MATIC AWD standard",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER (W166) or ELECTRONIC SELECTOR with OFFROAD mode dial (W167 2020+) — slot at base of console selector housing, or restore 12V for electronic.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery under the HOOD (passenger side). Connect jump pack to under-hood terminals.",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, press brake and select N.",
+            "4MATIC AWD: FLATBED ONLY.",
+            "Air suspension (AIRMATIC): check clearance before flatbed loading."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — under hood, passenger side under cover. Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "All US GLE are 4MATIC AWD — flatbed only. Air suspension common (AIRMATIC) — confirm clearance. GLE63 AMG S 4MATIC+: AWD flatbed. GLE plug-in hybrid: no HV contact.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "AMG GT / GT 4-Door / GT Coupe / GT S",
+      "chassis": "C190/R190/X290",
+      "years": "2016–2026",
+      "meta": {
+        "transmission": "7-speed dual-clutch (AMG Speedshift DCT 7G) on 2-door; 9-speed AMG Speedshift TCT on GT 4-Door",
+        "drivetrain": "RWD (2-door GT/GT S/GT R/GT Black Series); 4MATIC+ AWD (GT 4-Door/GT 63/GT 43)",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR (rotary dial or steering column paddle/selector) — restore 12V first. No mechanical cabin override.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery under the HOOD. Connect jump pack to under-hood terminals.",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, press brake and select N on electronic rotary or console selector.",
+            "2-door GT (RWD): wheel-lift from rear acceptable.",
+            "GT 4-Door 4MATIC+ AWD: FLATBED ONLY.",
+            "Very low clearance on all AMG GT variants — flatbed strongly preferred for all.",
+            "GT Black Series / GT R: FLATBED ONLY — extreme performance vehicle, very low clearance."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — under hood, behind/beside engine. Under-hood jump terminals accessible. GT 4-Door (X290): under hood passenger side.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "AMG GT 2-door = RWD (wheel-lift possible). GT 4-Door = AWD (flatbed required). All variants low clearance. DCT requires 12V to shift. GT Black Series: collector vehicle — flatbed only.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "Metris Van W447",
+      "chassis": "2016-2023",
+      "years": "2016–2023",
+      "meta": {
+        "transmission": "7-speed automatic (722.9)",
+        "drivetrain": "RWD",
+        "tags": [
+          "rwd"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "CONSOLE SHIFTER — slot at base of selector housing. Insert flathead, press brake, move to N.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery under HOOD (driver side). Connect jump pack directly to battery.",
+            "Key to position II. Press brake firmly.",
+            "Insert flathead into console selector slot, depress, move to N.",
+            "RWD: wheel-lift from rear acceptable.",
+            "Commercial passenger/cargo van: confirm payload — loaded Metris can be heavy."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — under hood, driver side. Direct battery access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Compact cargo/passenger van. Smaller than Sprinter. RWD. Discontinued in US after 2023. Battery under hood driver side.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "E-Class W213",
+      "chassis": "2017-2023",
+      "years": "2017–2023",
+      "meta": {
+        "transmission": "9-speed automatic (722.9 9G-Tronic) standard; AMG E63/E63 S = AMG Speedshift MCT 9-speed",
+        "drivetrain": "RWD standard; 4MATIC AWD available",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC selector (rotary stalk or column selector) — no conventional slot. Restore 12V first via under-hood terminals.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery is under the HOOD (passenger side) on W213 — use under-hood terminals (+/− posts near cowl) OR connect directly to battery.",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, turn key to II or press START/STOP. Press brake firmly.",
+            "Shift to N on electronic selector (column stalk or rotary).",
+            "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY.",
+            "AMG E63/E63 S: AWD (4MATIC+) — FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side under plastic shield/cover near firewall. (W213 moved battery back under hood — unlike W211/W212 which had trunk battery.) Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W213 battery moved back under hood (passenger side) — no more trunk battery. AMG E63 S is AWD. 9G-Tronic on all US models.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLS-Class X166/X167",
+      "chassis": "2017-2026",
+      "years": "2017–2026",
+      "meta": {
+        "transmission": "9-speed automatic (9G-Tronic); AMG GLS63 = Speedshift TCT 9-speed",
+        "drivetrain": "4MATIC AWD standard",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR (X167 2020+) or CONSOLE SHIFTER (X166) — restore 12V first, or slot at console base on X166.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery under the HOOD. Connect jump pack to under-hood terminals.",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, press brake and select N.",
+            "4MATIC AWD: FLATBED ONLY.",
+            "Air suspension (AIRMATIC standard): verify clearance before flatbed loading."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side under plastic cover near firewall.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "All US GLS are 4MATIC AWD — flatbed only. AIRMATIC air suspension standard on all trims. GLS600 Maybach: same procedures.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CLS-Class C257",
+      "chassis": "2019-2023",
+      "years": "2019–2023",
+      "meta": {
+        "transmission": "9-speed automatic (9G-Tronic) standard; AMG CLS53 = 9G-Tronic with EQ Boost",
+        "drivetrain": "4MATIC AWD standard on all US models",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR — restore 12V first. No mechanical cabin override.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (passenger side). Connect jump pack to under-hood terminals.",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "4MATIC AWD on all US C257: FLATBED ONLY.",
+            "Production ended August 2023."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side under plastic cover near firewall. Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "All US C257 CLS are 4MATIC AWD — flatbed only. Battery under hood. Electronic selector — no mechanical override. Discontinued 2023.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQC / EQA / EQB",
+      "chassis": "Electric",
+      "years": "2020–2026",
+      "meta": {
+        "transmission": "Single-speed electric drive",
+        "drivetrain": "AWD electric standard (EQC/EQB); RWD or AWD (EQA)",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR — requires 12V power. No mechanical cabin override. Restore 12V via under-hood terminals.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED ONLY — electric AWD drivetrain on most variants.",
+            "12V auxiliary battery location varies by model — check owner's manual. Under-hood terminals always available.",
+            "Connect jump pack to under-hood 12V terminals.",
+            "NEVER touch HV traction battery cables (orange/yellow) under vehicle or in trunk.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "EQA RWD base: confirm RWD before using wheel-lift — check VIN/spec.",
+            "AWD models: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V auxiliary battery: under hood, passenger side (EQC) or under hood/trunk depending on variant. HV traction battery under floor — NEVER touch orange/yellow HV cables.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Do NOT touch HV orange/yellow cables. EQC = SUV, EQA = compact SUV, EQB = compact SUV. All AWD variants: flatbed only. Always confirm RWD vs AWD before wheel-lift.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLB-Class X247",
+      "chassis": "2020-2026",
+      "years": "2020–2026",
+      "meta": {
+        "transmission": "8-speed dual-clutch (8G-DCT)",
+        "drivetrain": "FWD standard; 4MATIC AWD available",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR — restore 12V first. No mechanical cabin override.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery under HOOD (driver side). Connect jump pack to battery or under-hood terminals.",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "FWD base: wheel-lift from rear acceptable if neutral confirmed. 4MATIC AWD: FLATBED ONLY.",
+            "AMG GLB35: 4MATIC AWD — FLATBED ONLY.",
+            "DCT: requires 12V to shift — always restore power first."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — under hood, driver side under cover. Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Boxy compact SUV, optional 3rd row seating. DCT requires 12V. All AMG GLB35 = AWD flatbed. Base 250 FWD: wheel-lift acceptable from rear.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CLA-Class C118",
+      "chassis": "2020-2026",
+      "years": "2020–2026",
+      "meta": {
+        "transmission": "7-speed dual-clutch (7G-DCT) standard; AMG CLA45 = 8-speed wet DCT",
+        "drivetrain": "FWD standard; 4MATIC AWD on CLA250 4MATIC and AMG CLA35/CLA45",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR — restore 12V first. DCT requires 12V to shift.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (driver side). Connect jump pack to battery or under-hood terminals.",
+            "DCT dual-clutch: REQUIRES 12V — cannot shift without power.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "FWD base CLA250: front dollies acceptable if N confirmed.",
+            "4MATIC AWD (4MATIC/AMG CLA35/CLA45): FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — driver side under plastic cover near firewall. Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "C118 larger and wider than C117. DCT requires 12V. FWD base; AWD on 4MATIC/AMG variants. Battery under hood driver side.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "S-Class W223",
+      "chassis": "2021-2026",
+      "years": "2021–2026",
+      "meta": {
+        "transmission": "9-speed automatic (9G-Tronic) standard; AMG S63 = 4MATIC+ AWD with E-Performance PHEV",
+        "drivetrain": "4MATIC AWD standard on US models",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC selector (touch panel or rotary on console) — no mechanical override. Restore 12V.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Main 12V battery under hood (passenger side). Connect jump pack to under-hood terminals.",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, use electronic selector to shift to N.",
+            "FLATBED ONLY — all US W223 are 4MATIC AWD.",
+            "AMG S63 PHEV: do NOT touch orange/yellow HV cables. FLATBED ONLY.",
+            "Air suspension standard (AIRMATIC/E-ACTIVE BODY CONTROL) — confirm clearance before loading."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "UNDER HOOD — passenger side under plastic cover near firewall. PHEV/AMG S63: additional HV battery under floor. Under-hood jump terminals for 12V access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "All US W223 S-Class are 4MATIC AWD — flatbed only. Air suspension standard. AMG S63 is PHEV with HV battery. Do not tow on wheel-lift.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "Maybach S-Class W223",
+      "chassis": "2021-2026",
+      "years": "2021–2026",
+      "meta": {
+        "transmission": "9-speed automatic (9G-Tronic)",
+        "drivetrain": "4MATIC AWD standard",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR — restore 12V via under-hood terminals. No mechanical override.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Battery under HOOD (passenger side). Connect jump pack to under-hood terminals.",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "FLATBED ONLY — 4MATIC AWD standard on all US Maybach S-Class.",
+            "Air suspension (E-ACTIVE BODY CONTROL) standard: verify clearance before flatbed loading.",
+            "Extremely long wheelbase (LWB): verify flatbed can accommodate length (~220 inches).",
+            "Ultra-premium vehicle: handle with extreme care, use wheel covers/soft straps."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — under hood, passenger side under plastic cover. Same as standard W223 S-Class. Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "Ultra-luxury extended S-Class. LWB (~220 in) — confirm flatbed length. Air suspension standard. 4MATIC AWD — flatbed only. Treat as highest-priority care vehicle.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLA-Class H247",
+      "chassis": "2021-2026",
+      "years": "2021–2026",
+      "meta": {
+        "transmission": "8-speed dual-clutch (8G-DCT) standard",
+        "drivetrain": "FWD standard; 4MATIC AWD on GLA250 4MATIC and AMG GLA35/GLA45",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR — restore 12V first. 8G-DCT requires 12V.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (driver side). Connect jump pack to battery or under-hood terminals.",
+            "8G-DCT: REQUIRES 12V — cannot shift without power.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "FWD base GLA250: front dollies acceptable if N confirmed.",
+            "4MATIC AWD: FLATBED ONLY."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — driver side under plastic cover. Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "H247 completely redesigned vs X156. 8G-DCT requires 12V. Larger interior than X156. AMG GLA45 S = AWD. Battery under hood driver side.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "C-Class W206",
+      "chassis": "2022-2026",
+      "years": "2022–2026",
+      "meta": {
+        "transmission": "9-speed automatic (9G-Tronic) standard; AMG C63 = 4-cyl PHEV with AMG Speedshift DCT 8-speed",
+        "drivetrain": "RWD standard; 4MATIC AWD available",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC selector (rotary/stalk on column) — no mechanical cabin override on most trims. Restore 12V first.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake and chock wheels.",
+            "Main battery under hood (passenger side). Connect jump pack to under-hood terminals.",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "RWD: wheel-lift from rear acceptable. 4MATIC AWD: FLATBED ONLY.",
+            "AMG C63 PHEV: high-voltage system present — do NOT touch orange/HV cables; flatbed preferred."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side under plastic cover near firewall. Under-hood jump terminals for jump access.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "W206 AMG C63 is a 4-cyl mild hybrid — only 4-cyl AMG C63 ever made. PHEV HV cables present. 4MATIC AWD standard on all US C-Class W206.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "EQE / EQS",
+      "chassis": "Electric Sedan/SUV",
+      "years": "2022–2026",
+      "meta": {
+        "transmission": "Single-speed electric drive",
+        "drivetrain": "RWD or AWD electric",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR — restore 12V first. No mechanical override.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "FLATBED PREFERRED — electric drivetrain.",
+            "Connect jump pack to under-hood 12V terminals.",
+            "NEVER touch HV orange/yellow cables under vehicle or in frunk/trunk.",
+            "Once 12V restored, press brake and select N.",
+            "RWD models: front dollies acceptable if N confirmed.",
+            "AWD models: FLATBED ONLY.",
+            "EQS: air suspension standard — confirm clearance before flatbed loading.",
+            "Very long wheelbase on EQS sedan — confirm flatbed length."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "12V auxiliary battery under hood or in trunk area depending on variant — confirm with owner's manual. Under-hood jump terminals always present. HV traction battery under floor — NEVER touch.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "EQS air suspension (AIRMATIC) — confirm clearance. EQS sedan is extremely long (204 inches). EQS SUV = AWD. EQE available RWD or AWD. Never touch HV system.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "SL-Class R232 / AMG SL",
+      "chassis": "2022-2026",
+      "years": "2022–2026",
+      "meta": {
+        "transmission": "9-speed automatic (AMG Speedshift MCT 9G) standard on all US variants",
+        "drivetrain": "4MATIC AWD standard (all US R232 are AWD)",
+        "tags": [
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR — restore 12V first. No mechanical override.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood. Connect jump pack to under-hood terminals.",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "4MATIC AWD on all US R232: FLATBED ONLY.",
+            "Soft top retractable roof: ensure secured before towing.",
+            "Very low clearance — flatbed strongly preferred regardless."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — under hood. Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "R232 is now branded AMG SL only — no non-AMG variant in US. All US R232 are 4MATIC AWD. Completely redesigned vs R231. Flatbed required.",
+        "issues": []
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "CLE-Class C236",
+      "chassis": "2024-2026",
+      "years": "2024–2026",
+      "meta": {
+        "transmission": "9-speed automatic (9G-Tronic) standard",
+        "drivetrain": "RWD standard; 4MATIC AWD on CLE450 4MATIC and AMG CLE53",
+        "tags": [
+          "rwd",
+          "requires_power",
+          "awd",
+          "flatbed_only"
+        ]
+      },
+      "procedures": {
+        "shiftLock": {
+          "slot": "ELECTRONIC SELECTOR — restore 12V first. No mechanical cabin override.",
+          "steps": []
+        },
+        "neutralOverride": {
+          "steps": [
+            "Apply parking brake.",
+            "Battery under hood (passenger side). Connect jump pack to under-hood terminals.",
+            "Use AGM-compatible jump pack.",
+            "Once 12V restored, press brake and select N on electronic selector.",
+            "RWD CLE300: rear wheel-lift acceptable.",
+            "4MATIC AWD (CLE450/AMG CLE53): FLATBED ONLY.",
+            "Available as coupe or cabriolet — retractable soft top on cabriolet."
+          ]
+        }
+      },
+      "tow": {
+        "method": null,
+        "notes": []
+      },
+      "battery": {
+        "location": "ENGINE BAY — passenger side under plastic cover near firewall. Under-hood jump terminals accessible.",
+        "jumpPoints": null,
+        "type": null,
+        "warning": null
+      },
+      "alerts": {
+        "warning": null,
+        "notes": "CLE replaces CLK and E-Class Coupe/Cabriolet. CLE300 = RWD; CLE450/AMG = AWD. New for 2024. Cabriolet soft top — secure before towing.",
+        "issues": []
+      }
+    }
+  ]
+}
