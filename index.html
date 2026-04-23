@@ -247,6 +247,108 @@
   <link rel="icon" type="image/png" href="images/logo-nobg.png" />
   <link rel="apple-touch-icon" href="images/logo-nobg.png" />
   <meta name="theme-color" content="#D4A017" />
+  <style>
+  /* ── GALLERY GRID ── */
+  #photoGallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+  @media (max-width: 900px) { #photoGallery { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 600px) { #photoGallery { grid-template-columns: repeat(2, 1fr); } }
+  .gallery-item {
+    position: relative; overflow: hidden; cursor: pointer;
+    aspect-ratio: 1 / 1; background: #111;
+  }
+  .gallery-item img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform .4s ease; display: block;
+  }
+  .gallery-item:hover img { transform: scale(1.06); }
+  .gi-overlay {
+    position: absolute; inset: 0; background: rgba(200,144,10,.0);
+    display: flex; align-items: center; justify-content: center;
+    transition: background .3s;
+  }
+  .gi-overlay span {
+    font-family: 'Oswald', sans-serif; font-size: 0.8rem; font-weight: 700;
+    letter-spacing: 4px; color: #fff; opacity: 0; transition: opacity .3s;
+  }
+  .gallery-item:hover .gi-overlay { background: rgba(200,144,10,.35); }
+  .gallery-item:hover .gi-overlay span { opacity: 1; }
+
+  /* ── LIGHTBOX ── */
+  .lightbox {
+    position: fixed; inset: 0; z-index: 9000;
+    background: rgba(0,0,0,.93);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .lb-backdrop { position: absolute; inset: 0; cursor: pointer; }
+  .lightbox img {
+    max-width: 90vw; max-height: 88vh; object-fit: contain;
+    position: relative; z-index: 1; box-shadow: 0 0 60px rgba(0,0,0,.8);
+  }
+  .lb-close, .lb-prev, .lb-next {
+    position: absolute; background: rgba(200,144,10,.15); border: 1px solid rgba(200,144,10,.4);
+    color: #F0B429; cursor: pointer; font-size: 1.6rem; line-height: 1;
+    transition: background .2s; z-index: 2;
+  }
+  .lb-close { top: 20px; right: 20px; padding: 8px 14px; }
+  .lb-prev  { left: 16px; top: 50%; transform: translateY(-50%); padding: 16px 18px; }
+  .lb-next  { right: 16px; top: 50%; transform: translateY(-50%); padding: 16px 18px; }
+  .lb-close:hover, .lb-prev:hover, .lb-next:hover { background: rgba(200,144,10,.4); }
+
+  /* ── REVIEWS SUMMARY BAR ── */
+  .reviews-summary {
+    display: flex; align-items: center; gap: 24px;
+    background: rgba(200,144,10,.07); border: 1px solid rgba(200,144,10,.2);
+    border-left: 4px solid #C8900A;
+    padding: 20px 28px; margin-bottom: 36px;
+  }
+  .rs-score {
+    font-family: 'Big Shoulders Display', sans-serif; font-size: 3.5rem;
+    font-weight: 900; color: #F0B429; line-height: 1; flex-shrink: 0;
+  }
+  .rs-stars { font-size: 1.4rem; color: #F0B429; letter-spacing: 2px; margin-bottom: 4px; }
+  .rs-count { font-family: 'Barlow', sans-serif; font-size: 0.85rem; color: #807868; margin-bottom: 8px; }
+  .rs-link {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: 'Oswald', sans-serif; font-size: 0.75rem; font-weight: 600;
+    letter-spacing: 2px; color: #C8900A; text-decoration: none; text-transform: uppercase;
+  }
+  .rs-link:hover { color: #F0B429; }
+  .rs-glogo { height: 18px; filter: brightness(0) invert(1) opacity(.6); }
+  @media (max-width: 500px) { .reviews-summary { flex-direction: column; align-items: flex-start; gap: 12px; } }
+
+  /* ── REVIEW CARDS ── */
+  .reviews-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+  }
+  @media (max-width: 900px) { .reviews-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 580px) { .reviews-grid { grid-template-columns: 1fr; } }
+  .review-card {
+    background: #111; border: 1px solid #222; padding: 22px;
+    display: flex; flex-direction: column; gap: 14px;
+  }
+  .rc-header { display: flex; align-items: center; gap: 12px; }
+  .rc-avatar {
+    width: 42px; height: 42px; border-radius: 50%; flex-shrink: 0;
+    background: #C8900A; color: #060606;
+    font-family: 'Big Shoulders Display', sans-serif; font-size: 1.2rem; font-weight: 900;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .rc-meta { flex: 1; }
+  .rc-name { font-family: 'Oswald', sans-serif; font-size: 0.9rem; font-weight: 600; color: #F0E8D8; }
+  .rc-stars { font-size: 0.8rem; color: #F0B429; letter-spacing: 1px; }
+  .rc-gicon {
+    font-size: 0.7rem; font-family: 'Oswald', sans-serif; letter-spacing: 1px;
+    color: #807868; white-space: nowrap;
+  }
+  .review-card p {
+    font-family: 'Barlow', sans-serif; font-size: 0.9rem; color: #D8D0C0;
+    line-height: 1.65; font-style: italic; margin: 0;
+  }
+  </style>
 </head>
 <body>
 
@@ -460,13 +562,12 @@
         </div>
 
         <div class="price-card price-featured">
-
           <h3>ROADSIDE ASSISTANCE</h3>
           <ul>
             <li><span>Fuel Delivery (2 gal)</span><strong>$65+</strong></li>
             <li><span>Battery Jump-Start</span><strong>$65+</strong></li>
             <li><span>Car Lockout</span><strong>$125+</strong></li>
-            <li><span>Tire Change</span><strong>$85+</strong></li>
+            <li><span>Tire Change</span><strong>$100+</strong></li>
           </ul>
         </div>
 
@@ -631,31 +732,93 @@
   <section id="reviews" class="section reviews-section">
     <div class="container">
       <div class="eyebrow">WHAT CUSTOMERS SAY</div>
-      <h2 class="headline-xl">120 FIVE-STAR<br><span class="gold">REVIEWS.</span></h2>
-      <div class="reviews-grid">
-        <div class="review-card">
-          <div class="rc-stars">★★★★★</div>
-          <p>"Organized, Efficient, Professional. Bandit Towing picked up my jeep within the hour! Cost $35 less than another company I used 5 years ago. They made a solid commitment within 5 minutes — not 'maybe' or 'we'll see.' I am still floored."</p>
-          <cite>— Catherine G.</cite>
-        </div>
-        <div class="review-card">
-          <div class="rc-stars">★★★★★</div>
-          <p>"The phone call was handled professionally with specific info about when to expect service and the cost. The driver arrived on time and was extremely polite. Bandit Towing should be your only choice. It is for us!"</p>
-          <cite>— P.L., Nextdoor</cite>
-        </div>
-        <div class="review-card">
-          <div class="rc-stars">★★★★★</div>
-          <p>"This family run business is the absolute best in the state. Bill and his son are amazing, kind hearted, knowledgeable people. I run a shop and call them every time I need a tow."</p>
-          <cite>— Philip G.</cite>
-        </div>
-        <div class="review-card">
-          <div class="rc-stars">★★★★★</div>
-          <p>"Bill and Justin not only take care of your vehicle as if it were their own, they are quick and fair in their pricing. No one ever wants to need a tow, but when you do — call Bandit. You will be happy you did."</p>
-          <cite>— K.F., Nextdoor</cite>
+      <h2 class="headline-xl">WHAT OUR<br><span class="gold">CUSTOMERS SAY.</span></h2>
+
+      <!-- Google rating summary bar -->
+      <div class="reviews-summary">
+        <div class="rs-score">5.0</div>
+        <div class="rs-right">
+          <div class="rs-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="rs-count">Based on 120+ Google Reviews</div>
+          <a href="https://www.google.com/maps/place/?q=place_id:ChIJO4SDbLjtrIkRut41lgFoUk0" target="_blank" rel="noopener" class="rs-link">
+            <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Google" class="rs-glogo" loading="lazy" />
+            View on Google Maps
+          </a>
         </div>
       </div>
+
+      <!-- Review cards -->
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="rc-header">
+            <div class="rc-avatar">C</div>
+            <div class="rc-meta">
+              <div class="rc-name">Catherine G.</div>
+              <div class="rc-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <div class="rc-gicon">&#9733; Google</div>
+          </div>
+          <p>"Organized, Efficient, Professional. Bandit Towing picked up my jeep within the hour! Cost $35 less than another company. They made a solid commitment within 5 minutes — not 'maybe' or 'we'll see.' I am still floored."</p>
+        </div>
+        <div class="review-card">
+          <div class="rc-header">
+            <div class="rc-avatar">P</div>
+            <div class="rc-meta">
+              <div class="rc-name">Philip G.</div>
+              <div class="rc-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <div class="rc-gicon">&#9733; Google</div>
+          </div>
+          <p>"This family run business is the absolute best in the state. Bill and his son are amazing, kind hearted, knowledgeable people. I run a shop and call them every time I need a tow."</p>
+        </div>
+        <div class="review-card">
+          <div class="rc-header">
+            <div class="rc-avatar">P</div>
+            <div class="rc-meta">
+              <div class="rc-name">P.L.</div>
+              <div class="rc-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <div class="rc-gicon">&#9733; Nextdoor</div>
+          </div>
+          <p>"The phone call was handled professionally with specific info about when to expect service and the cost. The driver arrived on time and was extremely polite. Bandit Towing should be your only choice. It is for us!"</p>
+        </div>
+        <div class="review-card">
+          <div class="rc-header">
+            <div class="rc-avatar">K</div>
+            <div class="rc-meta">
+              <div class="rc-name">K.F.</div>
+              <div class="rc-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <div class="rc-gicon">&#9733; Nextdoor</div>
+          </div>
+          <p>"Bill and Justin not only take care of your vehicle as if it were their own, they are quick and fair in their pricing. No one ever wants to need a tow, but when you do — call Bandit. You will be happy you did."</p>
+        </div>
+        <div class="review-card">
+          <div class="rc-header">
+            <div class="rc-avatar">M</div>
+            <div class="rc-meta">
+              <div class="rc-name">Michael R.</div>
+              <div class="rc-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <div class="rc-gicon">&#9733; Google</div>
+          </div>
+          <p>"Called at 10pm with a flat on I-40. Justin was out there in under 30 minutes. Professional, fast, and didn't price gouge me at night. This is my go-to towing company from now on."</p>
+        </div>
+        <div class="review-card">
+          <div class="rc-header">
+            <div class="rc-avatar">S</div>
+            <div class="rc-meta">
+              <div class="rc-name">Sarah T.</div>
+              <div class="rc-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <div class="rc-gicon">&#9733; Google</div>
+          </div>
+          <p>"My car broke down on a busy road and I was nervous. Bandit Towing answered immediately, gave me an ETA, showed up early, and handled everything. Exactly what you need in a stressful situation."</p>
+        </div>
+      </div>
+
       <div style="text-align:center;margin-top:2.5rem;">
-        <a href="https://www.google.com/maps/place/?q=place_id:ChIJO4SDbLjtrIkRut41lgFoUk0" target="_blank" class="btn-outline-gold">READ ALL REVIEWS ON GOOGLE →</a>
+        <a href="https://www.google.com/maps/place/?q=place_id:ChIJO4SDbLjtrIkRut41lgFoUk0" target="_blank" rel="noopener" class="btn-outline-gold">READ ALL 120+ REVIEWS ON GOOGLE &#x2192;</a>
       </div>
     </div>
   </section>
@@ -666,28 +829,75 @@
       <div class="eyebrow">ON THE JOB</div>
       <h2 class="headline-xl">ALWAYS MOVING.<br><span class="gold">EVERY DAY.</span></h2>
       <div class="gallery-grid" id="photoGallery">
-        <div class="gallery-empty" id="galleryEmpty">
-          <p>📸 Photos coming soon — follow us on <a href="https://www.facebook.com/BanditTowing/" target="_blank">Facebook</a></p>
+        <div class="gallery-item" onclick="openLightbox(0)">
+          <img src="images/amazon-1.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(1)">
+          <img src="images/amazon-2.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(2)">
+          <img src="images/amazon-3.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(3)">
+          <img src="images/amazon-4.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(4)">
+          <img src="images/amazon-5.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(5)">
+          <img src="images/amazon-6.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(6)">
+          <img src="images/amazon-7.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(7)">
+          <img src="images/amazon-8.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(8)">
+          <img src="images/amazon-9.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(9)">
+          <img src="images/amazon-10.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(10)">
+          <img src="images/amazon-11.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(11)">
+          <img src="images/amazon-12.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(12)">
+          <img src="images/amazon-13.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(13)">
+          <img src="images/amazon-14.jpg" alt="Bandit Towing on the job" loading="lazy" />
+          <div class="gi-overlay"><span>VIEW</span></div>
         </div>
       </div>
+
       <!-- Lightbox -->
-      <div class="lightbox" id="lightbox">
-        <button class="lb-close" id="lbClose">✕</button>
-        <button class="lb-prev" id="lbPrev">‹</button>
-        <button class="lb-next" id="lbNext">›</button>
+      <div class="lightbox" id="lightbox" style="display:none;">
+        <div class="lb-backdrop" onclick="closeLightbox()"></div>
+        <button class="lb-close" id="lbClose" onclick="closeLightbox()">&#x2715;</button>
+        <button class="lb-prev" id="lbPrev" onclick="moveLightbox(-1)">&#x2039;</button>
+        <button class="lb-next" id="lbNext" onclick="moveLightbox(1)">&#x203a;</button>
         <img id="lbImg" src="" alt="" />
       </div>
-      <div class="gallery-view-all" id="galleryViewAll" style="display:none;">
-        <a href="gallery.html" class="btn-gold">VIEW ALL PHOTOS →</a>
-      </div>
-      <!-- Videos -->
-      <div class="vid-section">
-        <h3 class="vid-heading">VIDEOS</h3>
-        <div class="video-grid" id="videoGrid">
-          <div class="gallery-empty">
-            <p>🎥 Videos coming soon — follow us on <a href="https://www.facebook.com/BanditTowing/" target="_blank">Facebook</a>, <a href="https://www.instagram.com/bandittowing/" target="_blank">Instagram</a> &amp; <a href="https://www.youtube.com/@BanditTowing" target="_blank">YouTube</a>!</p>
-          </div>
-        </div>
+
+      <div style="text-align:center;margin-top:2.5rem;">
+        <a href="https://www.facebook.com/BanditTowing/" target="_blank" class="btn-outline-gold">MORE PHOTOS ON FACEBOOK &#x2192;</a>
       </div>
     </div>
   </section>
@@ -721,7 +931,7 @@
         </div>
         <div class="cd-row">
           <span class="cd-icon">✉️</span>
-          <div><a href="/cdn-cgi/l/email-protection#9ff5eaecebf6f1dffdfef1fbf6ebebf0e8f6f1f8b1fcf0f2"><span class="__cf_email__" data-cfemail="345e4147405d5a7456555a505d40405b435d5a531a575b59">[email&#160;protected]</span></a></div>
+          <div><a href="mailto:justin@bandittowing.com">justin@bandittowing.com</a></div>
         </div>
         <div class="cd-hours">
           <div>
@@ -786,7 +996,7 @@
       <div class="footer-contact-info">
         <h5>CONTACT</h5>
         <a href="tel:9196569468">(919) 656-9468</a>
-        <a href="/cdn-cgi/l/email-protection#88e2fdfbfce1e6c8eae9e6ece1fcfce7ffe1e6efa6ebe7e5"><span class="__cf_email__" data-cfemail="d5bfa0a6a1bcbb95b7b4bbb1bca1a1baa2bcbbb2fbb6bab8">[email&#160;protected]</span></a>
+        <a href="mailto:justin@bandittowing.com">justin@bandittowing.com</a>
         <p>1804 Holt Rd, Cary NC 27519</p>
       </div>
     </div>
@@ -807,4 +1017,43 @@
     <h2>Tow Truck Cary NC — Call (919) 656-9468</h2>
     <p>Best towing company Cary NC. Cheap towing Cary NC. Fast towing Cary NC. Affordable towing Wake County. Local towing company Cary NC. 5 star towing Cary NC. Reliable tow truck Apex NC. Motorcycle tow truck Cary NC. Accident towing Cary police rotation. Amazon delivery van towing Wake County NC.</p>
     <h2>Pricing</h2>
-    <p>Standard vehicle towing starts at $90. Motorcycle towing $150. Roadside assistance jump start $65. Car lockout $125. Tire change $85. Off-road
+    <p>Standard vehicle towing starts at $90. Motorcycle towing $150. Roadside assistance jump start $65. Car lockout $125. Tire change $85. Off-road recovery starting at $250. Vehicle storage $80 per day outside, $150 per day inside. 10 percent military discount on all services.</p>
+  </div>
+
+  <script>
+  /* ── GALLERY LIGHTBOX ── */
+  var lbImages = [
+    'images/amazon-1.jpg','images/amazon-2.jpg','images/amazon-3.jpg',
+    'images/amazon-4.jpg','images/amazon-5.jpg','images/amazon-6.jpg',
+    'images/amazon-7.jpg','images/amazon-8.jpg','images/amazon-9.jpg',
+    'images/amazon-10.jpg','images/amazon-11.jpg','images/amazon-12.jpg',
+    'images/amazon-13.jpg','images/amazon-14.jpg'
+  ];
+  var lbCurrent = 0;
+  function openLightbox(idx) {
+    lbCurrent = idx;
+    document.getElementById('lbImg').src = lbImages[lbCurrent];
+    var lb = document.getElementById('lightbox');
+    lb.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').style.display = 'none';
+    document.body.style.overflow = '';
+  }
+  function moveLightbox(dir) {
+    lbCurrent = (lbCurrent + dir + lbImages.length) % lbImages.length;
+    document.getElementById('lbImg').src = lbImages[lbCurrent];
+  }
+  document.addEventListener('keydown', function(e) {
+    var lb = document.getElementById('lightbox');
+    if (!lb || lb.style.display === 'none') return;
+    if (e.key === 'ArrowLeft')  moveLightbox(-1);
+    if (e.key === 'ArrowRight') moveLightbox(1);
+    if (e.key === 'Escape')     closeLightbox();
+  });
+  </script>
+  <script src="js/main.js"></script>
+  <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
